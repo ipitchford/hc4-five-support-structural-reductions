@@ -8,7 +8,7 @@
 - Peer review: not completed
 - Formal verification: not completed
 - Public repository: <https://github.com/ipitchford/hc4-five-support-structural-reductions>
-- Version DOI: reserved during publication; recorded in `CITATION.cff` once final
+- Version DOI: <https://doi.org/10.5281/zenodo.22216400>
 - Evidence Press page: recorded after guarded deployment
 
 ## Bounded result
@@ -21,6 +21,6 @@ saturation, secant-orbit closure, HC4, or JC2.
 ## Distribution identity
 
 The version DOI, GitHub tag, archive SHA-256, and Evidence Press readback are
-distribution-layer fields. Their later insertion does not alter the frozen
-mathematical certificates; the final manifest records the exact public object.
-
+distribution-layer fields. Their insertion does not alter the frozen
+mathematical certificates; the final manifest records the exact release object
+and the canonical public records provide current distribution state.

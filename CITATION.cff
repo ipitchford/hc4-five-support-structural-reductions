@@ -4,7 +4,9 @@ title: "Structural reductions toward the quartic Hessian conjecture in dimension
 version: "0.1.0-candidate"
 date-released: 2026-08-31
 type: article
+doi: "10.5281/zenodo.22216400"
 repository-code: "https://github.com/ipitchford/hc4-five-support-structural-reductions"
+url: "https://doi.org/10.5281/zenodo.22216400"
 authors:
   - family-names: "release contributors"
     given-names: "Anonymous"
@@ -16,4 +18,7 @@ keywords:
   - coincident-root locus
   - computer-assisted proof
 license: CC0-1.0
-
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22216400"
+    description: "Version DOI for the 0.1.0-candidate release"

@@ -18,6 +18,16 @@ It does **not** prove fourth-target membership, a full colon or saturation
 identity, secant-orbit closure, the quartic Hessian conjecture in dimension
 four, or the two-dimensional Jacobian conjecture.
 
+## Public identity
+
+- Repository: <https://github.com/ipitchford/hc4-five-support-structural-reductions>
+- Version DOI: <https://doi.org/10.5281/zenodo.22216400>
+- Version: `0.1.0-candidate`
+
+The DOI was reserved before the deposit was published. Reservation alone did
+not imply Zenodo publication, Evidence Press publication, or peer review; the
+canonical public records provide the current distribution state.
+
 ## Verification
 
 The fast, non-destructive release check requires Python 3.11 or later:
@@ -40,13 +50,14 @@ LinBox section solves is optional and is documented in `VERIFICATION.md`.
 
 ## Reading order
 
-1. `paper.pdf` or `paper.md` — the mathematical statement and argument.
-2. `CLAIMS.json` — claim-to-evidence map and explicit scope limits.
-3. `ASSURANCE.md` — what was established internally and what remains external.
-4. `VERIFICATION.md` — replay tiers and expected outcomes.
-5. `receipts/hsop-j2-secant-r10-fourth-colon-c16-kernel-batch-terminal.json`
+1. `STATUS.md` — exact release state and claim boundary.
+2. `paper.pdf` or `paper.md` — the mathematical statement and argument.
+3. `CLAIMS.json` — claim-to-evidence map and explicit scope limits.
+4. `ASSURANCE.md` — what was established internally and what remains external.
+5. `VERIFICATION.md` — replay tiers and expected outcomes.
+6. `receipts/hsop-j2-secant-r10-fourth-colon-c16-kernel-batch-terminal.json`
    — compact terminal receipt for the closing experiment.
-6. `CAMPAIGN_README.md` and `RESEARCH_METRICS.md` — research history and
+7. `CAMPAIGN_README.md` and `RESEARCH_METRICS.md` — research history and
    calibrated resource measurements.
 
 ## Closing 16-column result

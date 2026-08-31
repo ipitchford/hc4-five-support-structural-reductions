@@ -525,6 +525,10 @@ The repository contains:
 - the direct-polynomial implementation-diverse audit receipt;
 - the pinned-source boundary and novelty-gate report.
 
+The public research repository is
+<https://github.com/ipitchford/hc4-five-support-structural-reductions>, and
+the version DOI is <https://doi.org/10.5281/zenodo.22216400>.
+
 The principal closing receipts are:
 
 ```text

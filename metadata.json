@@ -1,0 +1,17 @@
+{
+  "schema": "evidence-press/research-release/v1",
+  "slug": "hc4-five-support-structural-reductions",
+  "title": "Structural reductions toward the quartic Hessian conjecture in dimension four",
+  "version": "0.1.0-candidate",
+  "date": "2026-08-31",
+  "status": "unrefereed-candidate",
+  "creator": "Anonymous release contributors",
+  "doi": "10.5281/zenodo.22216400",
+  "repository": "https://github.com/ipitchford/hc4-five-support-structural-reductions",
+  "licenses": {"prose_and_data": "CC0-1.0", "code": "MIT"},
+  "claims": ["C1", "C2", "C3", "C4", "C5", "C6", "C7"],
+  "solves_hc4": false,
+  "solves_jc2": false,
+  "peer_reviewed": false
+}
+
