@@ -1,0 +1,27 @@
+{
+  "schema": "hc4.third-colon-p181-target-24digit-independent-audit-freeze.v1",
+  "status": "PASS_P181_TARGET_24DIGIT_INDEPENDENT_AUDIT_FREEZE",
+  "frozen_at_utc": "2026-08-31T16:00:00Z",
+  "bound_files": {
+    "research/THIRD_COLON_P181_TARGET_24DIGIT_INDEPENDENT_AUDIT_PREREGISTRATION.md": "5ef6f63ba3beab9e956a27f4970c574161e955c931433019cc60ef2ac16eb11a",
+    "scripts/audit_p181_target_24digit_extension_independent.py": "cbde7c1c00bf54dd9ebce3fca89028667244c504b926bbe772f050fadd07274f",
+    "artifacts/third-colon-p181-source-clean-integral-lift-system-v1/A_Z_b_Z_fixed_gauge.i64csr": "5064cfea27bc16ad9977d651f6215b407e2e3865df3dfc65ad15213b27d5ab8d",
+    "artifacts/third-colon-p181-fixed-block-denominator-18digit-test-v1/X_mod_181_power_18.json": "a8cfad820b9721e0337c736385262360236c6101ffa86f65dfef160231439b13",
+    "receipts/hsop-j2-secant-r10-p181-fixed-block-denominator-18digit-test-independent-audit.json": "dec31246f46fa46f2a72b6278c2a3fc6f504b02553815e821e913018cd2fa6f8",
+    "artifacts/third-colon-p181-target-24digit-extension-v1/extension.json": "757d3afc66b44a95b8e22fe965806b194eb4a5797f34883302e37ae5325aa8ef",
+    "artifacts/third-colon-p181-target-24digit-extension-v1/X_mod_181_power_24.json": "8ae529279ccdc3fef924199ea78e2a070571254753e1a318beb6852aa61c9d9e",
+    "artifacts/third-colon-p181-target-24digit-extension-v1/terminal_q24.i64le": "9eb6a7295d0b027d8be189b986712870ffb2e24d034d01c3a4d4e112f1421642",
+    "receipts/hsop-j2-secant-r10-p181-target-24digit-extension-terminal.json": "34419a15dce0cd7556e33992334e72772c56578936f57b26fb97139d6861256c"
+  },
+  "policy": {
+    "wall_seconds_maximum": 120,
+    "rss_bytes_maximum": 1500000000,
+    "process_swaps_maximum": 0,
+    "producer_import_forbidden": true,
+    "driver_execution_forbidden": true,
+    "new_digit_forbidden": true,
+    "target_membership_claim_forbidden": true
+  },
+  "canonical_output": "receipts/hsop-j2-secant-r10-p181-target-24digit-extension-independent-audit.json",
+  "claim_boundary": "A PASS independently certifies the finite fixed-main p24 lift and census only. It does not prove rational target membership or any colon, saturation, secant, nullcone, or HC4 conclusion."
+}

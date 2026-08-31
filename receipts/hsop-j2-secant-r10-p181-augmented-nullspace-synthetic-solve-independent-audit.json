@@ -1,0 +1,117 @@
+{
+  "bound_hashes": {
+    "csr": "2207744adde8f96a7d835fc078ffd188ce33814f2db880e1aef9b8a47b09a6ef",
+    "driver": "339566a8622a9b11fafaf2432e29ba40541689002e01de5d721d8f3d66b7560b",
+    "freeze": "592da663afddfe825da03d4982ba8b358ce03f24ab6a5dca409267c4fbea9502",
+    "registration": "6f301e04d0b36316d70fafbe8d6c24e718ef093a3dfc365f9fa3a325b7bde4f7",
+    "terminal": "2e1ba4096dcba2e6ffe985ed37c5010b9e459df585758f1d5e2ec9cdd31370d5",
+    "wrapper": "4644b37128cd7e3882fcfcc3e92f98d576097083865abbccf2bcfa0a967ee309"
+  },
+  "claim_boundary": "This audit independently certifies artifact integrity, the deterministic synthetic vector, four all-row matrix-vector replays, registered resource compliance, and target-exclusion source boundaries. It does not independently reimplement sparse echelonization and proves no target membership, QQ identity, p-adic digit, colon, saturation, secant closure, nullcone containment, or HC4.",
+  "csr_checks": {
+    "columns": 35881,
+    "nonzero_residues_mod181": true,
+    "nonzeros": 1354540,
+    "ordered_rows": true,
+    "rows": 85651
+  },
+  "declarations": {
+    "linbox_not_called": true,
+    "no_mod181_squared": true,
+    "no_target_membership_test": true,
+    "producer_not_imported_or_executed": true,
+    "target_rhs_not_read": true,
+    "third_candidate_not_read": true
+  },
+  "resources": {
+    "maximum_rss_bytes": 32620544,
+    "process_swap_delta": 0,
+    "rss_cap_bytes": 512000000,
+    "wall_cap_seconds": 120.0,
+    "wall_seconds": 0.4043253330164589
+  },
+  "schema": "hc4.decimic-j2-secant-r10-p181-augmented-nullspace-synthetic-solve-independent-audit.v1",
+  "source_boundary": {
+    "driver_has_no_rhs_argument": true,
+    "findings": {
+      "driver": [],
+      "wrapper": []
+    },
+    "forbidden_tokens": [
+      "j2-secant-r10-third-colon-kernel-qq-candidate",
+      "j2-secant-r10-third-colon-identity-extended",
+      "--rhs",
+      "external_rhs",
+      "181^2",
+      "32761"
+    ],
+    "wrapper_invokes_only_csr_columns_and_solution_output": true
+  },
+  "stage_audits": [
+    {
+      "all_rows_replayed": 85651,
+      "coefficient_nonzeros": 146642,
+      "columns": 4096,
+      "coordinatewise_solution_matches_formula": true,
+      "independent_rhs_sha256": "df5ad9a807ea006a2a9601c9b6d2ef22ff2a1015c0ae86224cf7b683042e1ddd",
+      "resource_gate": {
+        "maximum_rss_bytes": 27279360,
+        "process_swaps": 0,
+        "raw_sha256": "72d9b4ba5d59eb68b700be98426d70f37d922c785721517ba108acb35010f225",
+        "real_seconds": 1.54,
+        "system_seconds": 0.02,
+        "user_seconds": 1.41
+      },
+      "solution_sha256": "b96a4e6c7023bcf352f716803c627f5381b59acd57672b31e5e0aba219b99bcb"
+    },
+    {
+      "all_rows_replayed": 85651,
+      "coefficient_nonzeros": 301450,
+      "columns": 8192,
+      "coordinatewise_solution_matches_formula": true,
+      "independent_rhs_sha256": "a3b22bd6181b30661156aa2e64358cab152ad2574510d88e0d52d0acf7af5cc5",
+      "resource_gate": {
+        "maximum_rss_bytes": 35078144,
+        "process_swaps": 0,
+        "raw_sha256": "8d29baff2a139e8bb3882377b811813e23bf5d9c31b004b44f545de5e3616877",
+        "real_seconds": 5.5,
+        "system_seconds": 0.06,
+        "user_seconds": 5.09
+      },
+      "solution_sha256": "a7ca07d2c1c68216056e685b057e94f54fe9da5714b3473622a649ad449f831c"
+    },
+    {
+      "all_rows_replayed": 85651,
+      "coefficient_nonzeros": 546088,
+      "columns": 16384,
+      "coordinatewise_solution_matches_formula": true,
+      "independent_rhs_sha256": "d2f5ae7df5a90534cd71c9c8e7c5176b1d6960dea381c84c7a9d740658d60058",
+      "resource_gate": {
+        "maximum_rss_bytes": 50085888,
+        "process_swaps": 0,
+        "raw_sha256": "426af3d7be6edb0fe096c2a28e73c80b0d07f47a7c3cee40383782360d91772f",
+        "real_seconds": 17.76,
+        "system_seconds": 0.16,
+        "user_seconds": 15.95
+      },
+      "solution_sha256": "d5bfcb5934119b4f29e7254d8cd620b21bc51bda0d17281bd348be2b3a3a609a"
+    },
+    {
+      "all_rows_replayed": 85651,
+      "coefficient_nonzeros": 1354540,
+      "columns": 35881,
+      "coordinatewise_solution_matches_formula": true,
+      "independent_rhs_sha256": "fae98d764fcfadb6336f0180ecf8c8683bcc5912842dce7b4b23046ff7f20a22",
+      "resource_gate": {
+        "maximum_rss_bytes": 151683072,
+        "process_swaps": 0,
+        "raw_sha256": "bc3aba55a8419260ac14776a97e4ccb272bf8fa7d5bdf8e66e4cad4a132ae2ff",
+        "real_seconds": 102.74,
+        "system_seconds": 1.38,
+        "user_seconds": 89.01
+      },
+      "solution_sha256": "ebcf2e6338e5eb81ba7b9fd58f8c9366a8b5ddb48c27cef7fcd34e9c27663d28"
+    }
+  ],
+  "status": "PASS_INDEPENDENT_AUGMENTED_NULLSPACE_SYNTHETIC_SOLVE_REPLAY"
+}

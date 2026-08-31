@@ -1,0 +1,54 @@
+{
+  "assurance": "independent exact finite-field polynomial replay",
+  "certificate": {
+    "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/audit-j2-secant-r10-colon-identity-sparse-macaulay-v2-rerun-p103.json",
+    "sha256": "37cbf48677214b0b866e279e0d48c5f592b77c10ca486a60cbe74e761fd5351b",
+    "solution_support_count": 6242
+  },
+  "characteristic": 103,
+  "checks": {
+    "duplicate_support_records": 0,
+    "free_profile_sha256_match": true,
+    "gauge_partition_valid": true,
+    "grading_metadata_match": true,
+    "identity_zero": true,
+    "maximum_multiplier_total_degree": 5,
+    "multiplier_term_count": 6242,
+    "nonzero_multiplier_count": 16,
+    "normal_equation_stream_sha256_match": true,
+    "pivot_profile_sha256_match": true,
+    "remainder_term_count": 0,
+    "support_well_formed": true,
+    "target_sha256_match": true,
+    "variable_names_match": true,
+    "wrong_multiplier_character_records": 0,
+    "wrong_multiplier_degree_records": 0
+  },
+  "claim_boundary": "This replay independently proves the displayed M*h identity only over the displayed finite field. It does not lift it to QQ, determine the full colon or saturation, close the secant chart, or establish HC4.",
+  "quartic_reconstruction": {
+    "candidate_receipt_sha256": {
+      "research/j2_secant_r10_colon_kernel_candidate_p1073741827.json": "1787ac75c59d553bfe64f767f739a1a0f6a4cb0f19dc18228f748476ea4292a3",
+      "research/j2_secant_r10_colon_kernel_candidate_p1073742851.json": "d57655a3efe5c949488f916a641cb98c133b88181e2a4028946bda610c1ced04"
+    },
+    "common_denominator_lcm": 3024,
+    "crt_modulus": 1152922610560928777,
+    "expression_sha256": "596e667ed1540ce18f9950134851e84049c2d7aeae10130e4741e567eb6ef5c3",
+    "maximum_absolute_numerator": 264290,
+    "maximum_denominator": 756,
+    "reconstruction_primes": [
+      1073741827,
+      1073742851
+    ],
+    "term_count": 189,
+    "total_degree": 4
+  },
+  "resources": {
+    "maximum_rss_native": 297254912,
+    "system_cpu_seconds": 0.573831,
+    "user_cpu_seconds": 14.23248
+  },
+  "schema": "hc4.decimic-j2-secant-r10-colon-identity-sparse-macaulay-replay.v1",
+  "source_sha256": "7b189fb0c9ab4944006024a45c4abaaf7e9d29c3cc3a11f136637141e6249ca4",
+  "status": "PASS_INDEPENDENT_SYMPY_MODULAR_COLON_IDENTITY_REPLAY",
+  "wall_seconds": 12.581263041996863
+}

@@ -1,0 +1,61 @@
+{
+  "algorithm": "Singular slimgb",
+  "calculation": {
+    "basis_size": null,
+    "child_system_seconds_immediate_scope": 2.162039,
+    "child_user_seconds_immediate_scope": 294.28891,
+    "diagnostic_error": false,
+    "forced_group_kill": false,
+    "is_unit": false,
+    "maximum_rss_native_immediate_scope": 910360576,
+    "process_group_terminated": true,
+    "resource_accounting": "wall time authoritative; CPU/RSS counters may omit delegated worker descendants",
+    "return_code": null,
+    "stderr_tail": "",
+    "stdout_tail": "",
+    "timed_out": true,
+    "unit_remainder": null,
+    "wall_seconds": 300.01699154198286
+  },
+  "characteristic": 0,
+  "claim_boundary": "a passing deterministic Singular receipt closes only the tangent top_index=5 stratum; higher tangent strata and the secant orbit remain",
+  "equation_stream_sha256": "c6df7938d838052733578864ae348d117b0f1fb111e4647915a4c14d8b011627",
+  "gauge": "primitive_j2=-5",
+  "generator_count": 13,
+  "orbit": "tangent",
+  "schema": "hc4-decimic-j2-tangent-r5-rational-slice-v1",
+  "selected_normal_equation_indices": [
+    33,
+    35,
+    36,
+    37,
+    38,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52
+  ],
+  "sign_normalization": "f5=1 via the residual-preserving sigma=-1 action",
+  "solver_source_sha256": "d747d52824fa2ecb50a12762586315ad85ba9957201951be1216bcde52ba430c",
+  "source_sha256": {
+    "scripts/certify_j2_tangent_r5_rational_slice.py": "0f0e8e474ba150ecc9dcdb7ee5b900fdcb7978aec7f600d7c353d94ff2fc8c2d",
+    "scripts/certify_residual_orbit_torus.py": "5f9be668b9c5452bb768077efa05e07dea0a896b2107fb5c7a96931e1bb71885"
+  },
+  "status": "TIMEOUT_RETAINED",
+  "substitutions": {
+    "f10": 0,
+    "f4": 0,
+    "f5": 1,
+    "f6": 0,
+    "f7": 0,
+    "f8": 0,
+    "f9": 0
+  },
+  "top_index": 5,
+  "variable_count": 14,
+  "wall_seconds": 303.9180963750114
+}

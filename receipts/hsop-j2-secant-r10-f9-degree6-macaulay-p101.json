@@ -1,0 +1,63 @@
+{
+  "assurance": "modular exact linear algebra only",
+  "branch": "degree_4",
+  "characteristic": 101,
+  "chart": "f9=1 with f10!=0 and j2!=0",
+  "claim_boundary": "this receipt proves a degree-bounded identity only in the displayed finite characteristic; rational reconstruction and exact verification are required for a characteristic-zero certificate",
+  "degree_bound": 6,
+  "equation_stream_sha256": "3c873d3b7c1dea78d60b00cdfefe22dc5a8323e923b20e090551be91aca478e2",
+  "generator_count": 22,
+  "generator_degree_distribution": {
+    "2": 1,
+    "3": 2,
+    "4": 5,
+    "5": 12,
+    "6": 2
+  },
+  "macaulay_column_count": 54389,
+  "macaulay_nonzero_count": 80175,
+  "macaulay_row_count": 18229,
+  "modular_identity_verified": false,
+  "monomial_stream_sha256": "1c3489ce1a3fdd04c340c14ac8b64fcfb602533c0df25ec8d213ecc57a4cb00b",
+  "orbit": "secant",
+  "row_descriptor_sha256": "97f2947057cebc456b9a0d32830d7ac997557f3f28c5264047ff528556009614",
+  "schema": "hc4-decimic-j2-secant-r10-f9-degree6-modular-identity-v1",
+  "solution_support": [],
+  "solution_support_count": 0,
+  "source_sha256": {
+    "scripts/certify_j2_secant_r10_f9_laurent_branch.py": "0b1015b23d726c25965f010d4c04e55d95d2ef35e5bc1f913167dc9bcbc84620",
+    "scripts/extract_j2_secant_r10_f9_degree6_modular_identity.py": "239f39511c621ce3630ad2385f29993d37ae2f192d881997a5c90f8fffb234fc"
+  },
+  "status": "NO_MODULAR_IDENTITY_AT_BOUND",
+  "timings": {
+    "matrix_build_seconds": 0.22028791697812267,
+    "polynomial_build_seconds": 6.2115463340014685,
+    "row_enumeration_seconds": 0.27968629100359976,
+    "solve_seconds": 7.11449733300833,
+    "wall_seconds": 14.06745524998405
+  },
+  "variable_count": 21,
+  "variable_names": [
+    "f0",
+    "f1",
+    "f2",
+    "f3",
+    "f4",
+    "f5",
+    "f6",
+    "f7",
+    "f8",
+    "f10",
+    "g2",
+    "g3",
+    "g4",
+    "g5",
+    "g6",
+    "g7",
+    "g8",
+    "g9",
+    "j2inv",
+    "f10inv",
+    "leadinv"
+  ]
+}

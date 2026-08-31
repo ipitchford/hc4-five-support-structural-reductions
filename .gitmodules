@@ -1,0 +1,3 @@
+[submodule "source/royvanrijn-jacobian-research"]
+	path = source/royvanrijn-jacobian-research
+	url = https://github.com/royvanrijn/jacobian-research.git

@@ -1,0 +1,49 @@
+{
+  "algorithm": "msolve",
+  "arithmetic_assurance": "probabilistic modular reconstruction over characteristic zero",
+  "auxiliary_equation_count": 2,
+  "auxiliary_stream_sha256": "b31b88d296118fecf68ebe44b2d2f039ff107571bfb29d6c495e8185df563b79",
+  "calculation": {
+    "basis_size": null,
+    "child_system_seconds_immediate_scope": 1.959046,
+    "child_user_seconds_immediate_scope": 94.171615,
+    "diagnostic_error": false,
+    "forced_group_kill": false,
+    "is_unit": true,
+    "maximum_rss_native_immediate_scope": 1854357504,
+    "process_group_terminated": false,
+    "resource_accounting": "wall time authoritative; CPU/RSS counters may omit delegated worker descendants",
+    "return_code": 0,
+    "solver_output_tail": "[-1]:\n",
+    "stderr_tail": "seed for pseudo-random number generator is 0\n\n--------------- INPUT DATA ---------------\n#variables                      21\n#equations                      57\n#invalid equations               0\nfield characteristic             0\nhomogeneous input?               0\nsignature-based computation      0\nmonomial order                 DRL\nbasis hash table resetting     OFF\nlinear algebra option            2\ninitial hash table size     131072 (2^17)\nmax pair selection             ALL\nreduce gb                        1\n#threads                         4\ninfo level                       1\ngenerate pbm files               0\n------------------------------------------\nInitial prime is 1134347801\n\n---------------- TIMINGS ----------------\noverall(elapsed)       68.55 sec\noverall(cpu)           96.05 sec\nselect                  1.50 sec   2.2%\nsymbolic prep.          6.80 sec   9.9%\nupdate                 41.43 sec  60.4%\nconvert                 0.23 sec   0.3%\nlinear algebra         18.53 sec  27.0%\nreduce gb               0.00 sec   0.0%\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\nsize of basis                     1\n#terms in basis                   1\n#pairs reduced                23547\n#GM criterion              83926820\n#redundant elements           12958\n#rows reduced                 47095\n#zero reductions              10645\nmax. matrix data             107472 x 210653 (0.150%)\nmax. symbolic hash table size  2^18\nmax. basis hash table size     2^24\n-----------------------------------------\n\nGrobner basis has a single element\nNo solution\n\n---------------- TIMINGS ----------------\nrational param(elapsed)        68.61 sec\nrational param(cpu)            96.09 sec\n-----------------------------------------\n\n\n------------------------------------------------------------------------------------\nmsolve overall time          68.61 sec (elapsed) / 96.10 sec (cpu)\n------------------------------------------------------------------------------------\n",
+    "stdout_tail": "",
+    "timed_out": false,
+    "unit_remainder": "0",
+    "wall_seconds": 68.65684783397592
+  },
+  "characteristic": 0,
+  "claim_boundary": "all six top-index strata are needed for the tangent orbit; modular units are route evidence; characteristic-zero msolve output is a probabilistic signal; a deterministic characteristic-zero Singular unit or independently verified rational certificate is exact for this normalized stratum",
+  "disposition": "PROBABILISTIC_CHARACTERISTIC_ZERO_UNIT_SIGNAL",
+  "equation_build_seconds": 3.9382819590100553,
+  "gauge": "primitive_j2=1",
+  "generator_count": 57,
+  "maximum_total_degree": 3,
+  "normal_equation_count": 55,
+  "normal_equation_stream_sha256": "3b7eeb1f0a111f69f2bee72eb12f4f227a5d93468e524dc187f75ffe37351557",
+  "orbit": "tangent",
+  "root_multiplicity_at_tangent_point": 0,
+  "schema": "hc4-decimic-j2-tangent-root-stratum-scout-v1",
+  "solver_source_sha256": "e654561638fe3b97ac793f672583923dbe33b753add269d182be0d9e801f9bfd",
+  "source_sha256": {
+    "scripts/certify_residual_orbit_torus.py": "5f9be668b9c5452bb768077efa05e07dea0a896b2107fb5c7a96931e1bb71885",
+    "scripts/scout_j2_tangent_root_stratum.py": "9adb7ae712f3f7e2b7f01a2b1d81366639afa2ddc0df9d18a8ff7d8fd107cc40"
+  },
+  "substitutions": {
+    "f9": "0"
+  },
+  "threads": 4,
+  "top_index": 10,
+  "unipotent_normalization": "f9=0",
+  "variable_count": 21,
+  "wall_seconds": 72.96836529197753
+}

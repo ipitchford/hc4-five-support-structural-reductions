@@ -1,0 +1,39 @@
+{
+  "characteristic": 0,
+  "claim": "all 9 coordinates of the quartic V8 family lie in the radical of the tangent residual-orbit normal-layer ideal",
+  "claim_boundary": "this is an exact computer-assisted characteristic-zero theorem candidate for one full quartic family on the tangent normal layer; other quartic families, secant, polynomial-level lifting, and HC4 remain open",
+  "family": "V8",
+  "family_order": 8,
+  "inputs": {
+    "highest_coordinate_audit": "receipts/nullcone-v8-tangent-highest-all-strata.json",
+    "highest_coordinate_audit_sha256": "8997f5784a847be00f1d49323b489fa49d1fee1bbc9091ed68b9ce0240078cf8",
+    "quartic_dictionary": "receipts/decimic-nullcone-quartic-covariants-exact.json",
+    "quartic_dictionary_sha256": "b2d3698d0e3b8bfabe105ed12b23650510159c960a358f1f75cab9f5152d77d8"
+  },
+  "orbit": {
+    "coefficient_count": 9,
+    "coefficient_sha256": [
+      "5a7b4a5ca2436445b8c9069b0646200aa6a518011bd2713a48a4b7281dba7adc",
+      "d5c79b9fd0316f0a80af45c5bf093f350f5c5fba6fc88e2fb63bfab99e3fe301",
+      "64cf430a711c1642d95e575ec79adf89a7fad4b4740f360a9db891aaa78db3be",
+      "8b795097641e647caead132361ba7dcfcb48a195094122c81e42e4ec84187355",
+      "2f732168c94e60d052d4d4472418cb23a0eedc570a6b056a03abeedc8eff995f",
+      "9056f424828b2046d43d0dd2c42945e2e7b0e709ae2b4ac956643d83ddf87210",
+      "d287f84df927c3cfbd98fa8a1817c5ecaff8b89bee3ee92f72b30ec047667415",
+      "04bf0d57c2627a2b7cee0d95b467033662884a4560b6bfcb2d7a9149c3a6e0e5",
+      "d5e5fe67bc5807fbaa4443e2d58da62d5daa36b78df0f29d92e55f4e1e92a53d"
+    ],
+    "exact_rank": 9,
+    "parameter_degree": 8
+  },
+  "schema": "hc4.decimic-nullcone-quartic-tangent-stabilizer-span.v1",
+  "source_sha256": {
+    "scripts/certify_nullcone_quartic_tangent_stabilizer_span.py": "932af8d1a4e3152ae3d39c16b4ceac136e9bac1f543af7f36e4b1d5780d9af32"
+  },
+  "stabilizer_geometry_reused": {
+    "all_required_checks_pass": true,
+    "receipt": "receipts/nullcone-v6-tangent-stabilizer-span.json",
+    "sha256": "dd723519b45fe50f7d23e9d5b663caaf392e8ab5518046f660b5ef16e10cdd2e"
+  },
+  "status": "PASS_EXACT_TANGENT_QUARTIC_FAMILY_RADICAL_CONTAINMENT"
+}

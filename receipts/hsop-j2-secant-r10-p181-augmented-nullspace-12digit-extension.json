@@ -1,0 +1,72 @@
+{
+  "claim_boundary": "An incomplete 12-digit PASS is finite p-adic evidence only. Any exact integral replay still requires independent symbolic replay; no colon, saturation, secant, nullcone, or HC4 theorem follows.",
+  "completed_corrections": 4,
+  "implementation_freeze": {
+    "path": "receipts/hsop-j2-secant-r10-p181-12digit-extension-implementation-freeze.json",
+    "sha256": "2363947acaf0b5bb5f8818bd02e20b516980ca699aebf3bd30f753227ffa4379"
+  },
+  "producer_status": "PASS_P181_AUGMENTED_NULLSPACE_12DIGIT_EXTENSION",
+  "promoted": {
+    "artifact": {
+      "X_mod_181_power_12.json": "efe00ea4c6c6cbdbbb82fa57fe053beb514fe171d1c83519becdf03b5f2e6f38",
+      "correction_rhs_digit_10.u8": "e61f9d281e1b82cb8c8a30720d1aaeaf7f777b9d8928c1eb79ac64c62ee98154",
+      "correction_rhs_digit_11.u8": "ed8add6e941b20d180bb1f4563fc026038b0a3c85cddd27af6562231a020ffa3",
+      "correction_rhs_digit_8.u8": "c651698c952f637f530c8a8f6442b4ddd84701ffb715c19503689e31ffb32a6a",
+      "correction_rhs_digit_9.u8": "1126abbb3bc0aeaff485a7520ef5d53b84325191e53f6f12a7dfcde48ede9963",
+      "digit_10.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "digit_10.stdout.txt": "6126f70ace6342cca118d8a573e9f7c86589f1d3575a9fab425975d170b68e44",
+      "digit_10.u8": "389c563bac08fcf45ddb10ae91ebd77584943956332935165381298018726a5e",
+      "digit_11.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "digit_11.stdout.txt": "40ff3f4999c6da307124a8a7f728bfa7d447b4631c55dcb86666abe1433030be",
+      "digit_11.u8": "3062e8b21a01bf02dcb7a31ad0b0e21d82fc9d6906e1f87a907dd0db2745261a",
+      "digit_8.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "digit_8.stdout.txt": "1b61a3591cd3228264df3631ffe36fa1e53f636919458303e58fabe5ee550763",
+      "digit_8.u8": "5c076ffef22076a0a9b9f0378db3c2bf3b004e36fa52552a154f38d81b44e624",
+      "digit_9.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "digit_9.stdout.txt": "ff95c8a334a3c820779d733fb4c96d5737e22381a6ace99b88aa40434a2e4346",
+      "digit_9.u8": "0d9d722eb40137cfac1ab09703c733b43ebee4eb2c8e8b8b36ced922fa497e0a",
+      "equal_height_labels_10.u8": "e2cff79f5aa5aa148733cd9f7090054f802ef593385d46cb9be37b1d89b90452",
+      "equal_height_labels_12.u8": "9e6984e695ba8aa00740418d07b8095ed9fe6aa248c58f2ad4658e0c22a748ec",
+      "extension.json": "8a533c6493d265805f4796305a7440985854e3936532235a683b281098630732"
+    },
+    "telemetry": {
+      "benchmark.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "benchmark.stdout.txt": "f917e31c680e02e01d03a3d6acf6727a0924af3365f2ec820bc08dcfd254bc30",
+      "benchmark.time.txt": "2624dc4462225eb408d7f41fb9481892e532bcf6474773d14b3aaec6333171ea"
+    }
+  },
+  "schema": "hc4.decimic-j2-secant-r10-p181-augmented-nullspace-12digit-extension-terminal.v1",
+  "status": "PASS_P181_AUGMENTED_NULLSPACE_12DIGIT_EXTENSION",
+  "telemetry": {
+    "ancestry_samples": 1001,
+    "command": [
+      "/usr/bin/time",
+      "-l",
+      "-o",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-augmented-nullspace-12digit-extension-telemetry-20260831T001/benchmark.time.txt",
+      "/opt/homebrew/bin/gtimeout",
+      "-s",
+      "TERM",
+      "-k",
+      "10s",
+      "900s",
+      "/usr/bin/python3",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/scripts/extend_p181_third_colon_augmented_nullspace_to_12digits.py",
+      "--output-dir",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-augmented-nullspace-12digit-extension-20260831T001"
+    ],
+    "external_time": {
+      "maximum_rss_bytes": 160825344,
+      "process_swaps": 0,
+      "raw_sha256": "2624dc4462225eb408d7f41fb9481892e532bcf6474773d14b3aaec6333171ea",
+      "real_seconds": 283.97,
+      "system_seconds": 2.28,
+      "user_seconds": 271.49
+    },
+    "return_code": 0,
+    "rss_breach_killed": false,
+    "sampled_descendant_rss_peak_bytes": 252837888,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "f917e31c680e02e01d03a3d6acf6727a0924af3365f2ec820bc08dcfd254bc30"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "bound_hashes": {
+    "digit_one": "937c953db108b54b0834aebc75f8330346f94c61d889554d17c03a2a2c5a3def",
+    "digit_zero": "1d74cecd05f4091c86c95f079e69c96d8f2687a9ce924a8a5303df76d427c06d",
+    "exact_system": "2524b706b88278187924f103245ddfd999ce2f21e2c848058fc723498c4682e1",
+    "integral_receipt": "98f976749821c40a84ea469da493ad2a78a5a23db9b2cb0b05fd519f294860ca",
+    "lift_receipt": "5703800aad2c392880178e426938f6b84ad700c4adc32701c20036039ec6e2d0",
+    "terminal": "892d4d8978dd68f414fcfa27a6ecb06f0d984d0be9c5c40d8941ef9fe14bc6b9",
+    "x2": "b189f494af08ec3375efea4cab8d60b7eccbf3e9212c8d87ecb6e2ad1c58c32f"
+  },
+  "claim_boundary": "This PASS independently certifies only the exact integer normalization and finite p^2 replay for 18 fixed canonical residual columns. It proves no QQ target identity, colon, saturation, secant closure, nullcone containment, or HC4 theorem.",
+  "declarations": {
+    "builder_not_imported_or_executed": true,
+    "exact_primitive_rows_rebuilt": true,
+    "lifter_not_imported_or_executed": true,
+    "no_third_digit": true,
+    "producer_not_imported_or_executed": true,
+    "support18_producer_not_imported_or_executed": true
+  },
+  "exact_source_reconstruction": {
+    "coefficient_row_mismatch_count": 0,
+    "exact_nonzero_count": 1354540,
+    "rhs_row_mismatch_count": 0,
+    "row_count": 85651
+  },
+  "p_adic_replay": {
+    "correction_rhs_byte_comparisons": 9764214,
+    "correction_rhs_byte_mismatch_count": 0,
+    "digit_one_divisibility_mismatch_count": 0,
+    "digit_one_support": [
+      267,
+      449,
+      473,
+      569,
+      627,
+      1132,
+      1627,
+      1760,
+      1873,
+      2595,
+      2639,
+      2799,
+      2978,
+      3465,
+      3619,
+      4313,
+      4708,
+      4885
+    ],
+    "digit_zero_support": [
+      269,
+      453,
+      476,
+      613,
+      665,
+      1155,
+      1631,
+      1779,
+      1872,
+      2629,
+      2638,
+      2819,
+      3000,
+      3459,
+      3626,
+      4334,
+      4688,
+      4928
+    ],
+    "direct_p2_invariant_mismatch_count": 0,
+    "two_digit_support": [
+      269,
+      453,
+      476,
+      613,
+      666,
+      1157,
+      1634,
+      1781,
+      1875,
+      2632,
+      2643,
+      2822,
+      3002,
+      3477,
+      3634,
+      4340,
+      4726,
+      4937
+    ]
+  },
+  "resources": {
+    "maximum_rss_bytes": 393445376,
+    "process_swaps": 0,
+    "wall_seconds": 12.024739249958657
+  },
+  "schema": "hc4.third-colon-p181-support18-two-digit-lift-independent-audit.v1",
+  "status": "PASS_INDEPENDENT_P181_SUPPORT18_TWO_DIGIT_LIFT_REPLAY"
+}

@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+*.pyc
+paper.txt
+paper.aux
+paper.log
+paper.out
+review-work/
+PUBLICATION_STATE.json

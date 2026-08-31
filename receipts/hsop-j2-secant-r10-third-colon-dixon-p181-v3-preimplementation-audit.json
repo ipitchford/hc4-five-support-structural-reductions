@@ -1,0 +1,91 @@
+{
+  "claim_boundary": "This PASS establishes only byte-identical encoder and pre-execution implementation consistency. It supplies no prospective algebraic or p-adic evidence.",
+  "declarations": {
+    "no_arithmetic_modulo_181_squared": true,
+    "no_factorization_launched": true,
+    "no_fixed_algebra_opened": true,
+    "no_preprocessing_launched": true,
+    "v3_may_now_be_frozen": true
+  },
+  "documents": {
+    "research/THIRD_COLON_FIXED_P181_ZERO_FREE_DIXON_8DIGIT_PREREGISTRATION.md": "dcba29bf2b3396fcbfd2999aad09a363c2fc852e4fb04c142cb1e1636c5ad6cc",
+    "research/THIRD_COLON_FIXED_P181_ZERO_FREE_DIXON_8DIGIT_PREREGISTRATION_AMENDMENT_01.md": "5bff2bd3844744f854c2757aee4b8bf09d227ae487ba1b43f55682a009f5d08c",
+    "research/THIRD_COLON_FIXED_P181_ZERO_FREE_DIXON_8DIGIT_PREREGISTRATION_AMENDMENT_02.md": "dd07f5e0e6ca139383905bedae9b382304bcf2cf52ce74d0c496e30e32dc5def",
+    "research/THIRD_COLON_FIXED_P181_ZERO_FREE_DIXON_8DIGIT_PREREGISTRATION_AMENDMENT_03.md": "2595d68aed6ed3e968f516386effdb09ede8c1f851bda717dc93f76cd8946b82",
+    "research/THIRD_COLON_FIXED_P181_ZERO_FREE_DIXON_8DIGIT_PREREGISTRATION_AMENDMENT_04.md": "194ebeca8c2270f6287ec7169424bc7a6ad11fe7f263137ffd78844dc9d36273"
+  },
+  "implementation_source_hashes": {
+    "scripts/factor_fixed_p181_dixon_coefficients.py": "ef7b4092b3ed166cae3975dac21fd3bcdd97b6040e998b65df840e7c9e14c5e2",
+    "scripts/fixed_p181_dixon_codec.py": "e6ced48799df27cbe42763f6b9d9d267cb18ba7ddd2cbfe9a9beb0ab779db065",
+    "scripts/fixed_p181_dixon_rr.py": "df4af8404cbc151d73fe82aeeb588541e412063d2fcdb2969933e40e21c5329c",
+    "scripts/freeze_fixed_p181_dixon_implementation.py": "0553952bce1609102dfa3848160e049f03e858cc9351440e74b3d60de0b17198",
+    "scripts/preprocess_fixed_p181_dixon_integer_system.py": "092ccd88a1ea5a1843d2ea0c81f6bc122eb38abf689db60bf137f2e56688147b",
+    "scripts/produce_fixed_p181_dixon_8digit_pilot.py": "e332f2ab4719ae8cdf33ec576b84a080609f7726b7c2e18d90bb35cfff62ecee",
+    "scripts/replay_fixed_p181_dixon_8digit_independent.py": "d8daf999c9e941175e27c8899ac3b51cb509c7a4139a1807b0e250f47554342e",
+    "scripts/run_fixed_p181_dixon_8digit_gated.py": "f4885d71677724783fdc51293d6914544f2d05da6500441676f5eca1d706f4d1"
+  },
+  "prior_terminals": {
+    "receipts/hsop-j2-secant-r10-third-colon-dixon-p181-implementation-freeze-v1-failed-audit.json": "913c3ee41dd83084e7da570b468789dca351eb46fe259ff898f7c3152a078163",
+    "receipts/hsop-j2-secant-r10-third-colon-dixon-p181-implementation-freeze-v1.json": "8b313ec2354c7afe21a041260a2dbc6bc6b167855a94b14fa21031c9538d1568",
+    "receipts/hsop-j2-secant-r10-third-colon-dixon-p181-implementation-freeze-v2.json": "710b5f768c1693dc79faf604b8581711cf6d277711acd84ac84206274525699d",
+    "receipts/hsop-j2-secant-r10-third-colon-dixon-p181-phase1-v2-terminal.json": "859b47008f61569f77cab502fc46912ff22339144738604a8316f5973b759596"
+  },
+  "prospective_v3_paths_existing": [],
+  "schema": "hc4.decimic-j2-secant-r10-third-colon-dixon-p181-v3-preimplementation-audit.v1",
+  "status": "PASS_V3_PREIMPLEMENTATION_SOURCE_INTERFACE_AND_ENCODER_AUDIT",
+  "tests": {
+    "container": {
+      "sha256": "eb6979e1b7fe4ee6e262e7954ff3cb7d1f3bf881bf1fa4f926028e5d14c9b7d0",
+      "status": "PASS_V3_CODEC_CONTAINER"
+    },
+    "freezer_safety": {
+      "return_code_without_install": 2,
+      "status": "PASS_FREEZER_REQUIRES_LITERAL_INSTALL"
+    },
+    "interface_imports": {
+      "forbidden_imports": [],
+      "path_keys": [
+        "factorization_freeze_index",
+        "independent_bundle",
+        "phase1_bundle",
+        "phase1_telemetry",
+        "phase2_telemetry",
+        "producer_bundle",
+        "quarantine_root",
+        "staging_root",
+        "terminal_receipt"
+      ],
+      "status": "PASS_V3_INTERFACE_AND_IMPORT_SEPARATION"
+    },
+    "optimized_encoders": {
+      "bigint_cases": 20008,
+      "checks": {
+        "bigint_empty": true,
+        "bigint_oracle": true,
+        "u32_empty": true,
+        "u32_oracle": true,
+        "u64_empty": true,
+        "u64_oracle": true
+      },
+      "random_seed": 18135881,
+      "status": "PASS_BYTE_IDENTICAL_OPTIMIZED_ENCODERS",
+      "u32_cases": 20003,
+      "u64_cases": 20003
+    },
+    "rr": {
+      "candidate_pairs": 375365,
+      "maximum_modulus": 512,
+      "residue_cases": 131327
+    },
+    "toy_algebra": {
+      "row_audit": {
+        "affected_events_verified": 2,
+        "deterministic_pivot_choices_verified": 2,
+        "global_fill_matrix_materialized": false,
+        "maximum_single_live_row_length": 2,
+        "pivot_rows_verified": 2
+      },
+      "status": "PASS_V3_TOY_FACTOR_TRACE_TWO_SOLVERS"
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "checks": {
+    "j2_forces_a_nonzero_upper_half_coefficient": true,
+    "q_secant_diagonal_scale": true,
+    "q_tangent_diagonal_scale": true,
+    "secant_central_weight_zero": true,
+    "secant_coefficient_weights": true,
+    "secant_j2_weight_zero": true,
+    "secant_noncentral_left_chart_weights_nonzero": true,
+    "secant_residual_prefactor_one": true,
+    "tangent_coefficient_weights": true,
+    "tangent_first_nonzero_jet_identities": true,
+    "tangent_j2_weight_minus_two": true,
+    "tangent_left_chart_weights_nonzero": true,
+    "tangent_residual_prefactor_one": true,
+    "tangent_unipotent_f9_identity": true,
+    "tangent_unipotent_j2_invariant": true
+  },
+  "claim_boundary": "normalization is an existence-preserving orbit reduction over an algebraic closure; it is not a chart-emptiness certificate",
+  "schema": "hc4-residual-orbit-torus-normalization-v1",
+  "secant": {
+    "coefficient_weights": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      0,
+      -1,
+      -2,
+      -3,
+      -4,
+      -5
+    ],
+    "j2_weight": 0,
+    "parameterization": "a=tau, b=1, h_scale=tau^-5",
+    "safe_normalized_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "unnormalized_central_index": 5
+  },
+  "source_sha256": {
+    "scripts/certify_residual_orbit_torus.py": "5f9be668b9c5452bb768077efa05e07dea0a896b2107fb5c7a96931e1bb71885"
+  },
+  "status": "PASS",
+  "tangent": {
+    "alternative_rational_gauge": "j2=-5",
+    "coefficient_weights": [
+      14,
+      11,
+      8,
+      5,
+      2,
+      -1,
+      -4,
+      -7,
+      -10,
+      -13,
+      -16
+    ],
+    "global_j2_nonzero_gauge": "j2=1",
+    "j2_weight": -2,
+    "parameterization": "a=sigma^3, b=1, h_scale=sigma^-16",
+    "r5_sign_normalization": "under j2=-5 and top_index=5, set f5=1",
+    "safe_normalized_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "tangent_unipotent": {
+    "exhaustive_first_nonzero_indices_under_j2_nonzero": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "f9_image": "f9+10*u*f10",
+    "substitution": "(s,t)->(s,t+u*s)",
+    "use_boundary": "after the global tangent j2=1 gauge, split f10=0 from f10!=0; on the latter branch set f9=0"
+  }
+}

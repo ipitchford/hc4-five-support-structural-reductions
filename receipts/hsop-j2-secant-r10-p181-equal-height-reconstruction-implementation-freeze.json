@@ -1,0 +1,18 @@
+{
+  "bound_files": {
+    "artifacts/third-colon-p181-augmented-nullspace-8digit-lift-v2/X_mod_181_power_8.u64le": "18c32d72b31fa62dc7c1d347e6a6686bab11bc273077c60bdde329037559b842",
+    "artifacts/third-colon-p181-source-clean-integral-lift-system-v1/A_Z_b_Z_fixed_gauge.i64csr": "5064cfea27bc16ad9977d651f6215b407e2e3865df3dfc65ad15213b27d5ab8d",
+    "receipts/hsop-j2-secant-r10-p181-augmented-nullspace-8digit-lift-independent-audit.json": "7c2d7cec9720556858f712211cbeff4fefd5d8a12b697ecf5e7b74a1f57a40d7",
+    "research/THIRD_COLON_P181_EQUAL_HEIGHT_RECONSTRUCTION_PREREGISTRATION.md": "ce476266564ef8827d28d725c65f6315deb5f540687517a23fd28ed312c2f154",
+    "scripts/scout_p181_third_colon_equal_height_reconstruction.py": "b64deb496cd18cc224107b5ea8a3e023a1961c80399e227be5c8375cc0b57cb1"
+  },
+  "canonical_output": "artifacts/third-colon-p181-equal-height-reconstruction-v1",
+  "policy": {
+    "digit_snapshots": [4, 6, 8],
+    "emit_rational_vector_only_after_complete_exact_replay": true,
+    "maximum_digits": 8,
+    "own_and_sage_coordinatewise_agreement_required": true
+  },
+  "schema": "hc4.decimic-j2-secant-r10-p181-equal-height-reconstruction-implementation-freeze.v1",
+  "status": "PASS_P181_EQUAL_HEIGHT_RECONSTRUCTION_IMPLEMENTATION_FREEZE"
+}

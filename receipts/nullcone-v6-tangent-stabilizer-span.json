@@ -1,0 +1,62 @@
+{
+  "characteristic": 0,
+  "claim": "all seven coordinates of the cubic V6 nullcone-generator family lie in the radical of the tangent residual-orbit normal-layer ideal",
+  "claim_boundary": "this is an exact computer-assisted characteristic-zero theorem candidate for the full cubic V6 family on the tangent normal layer; V2, the quartic families, the secant orbit, polynomial-level lifting, and HC4 remain open",
+  "inputs": {
+    "cubic_identification": "receipts/decimic-nullcone-cubic-covariant-identification-corrected-lifts-exact.json",
+    "cubic_identification_sha256": "c56a47363c2ed595fb812b7ed188d3a868668e748beb05e986f3f20953443e47",
+    "highest_coordinate_audit": "receipts/nullcone-v6-tangent-highest-all-strata.json",
+    "highest_coordinate_audit_sha256": "7df21807241672f2178f707bd8af832a2d00860d9a23d5fc8e25686612f1c2b3"
+  },
+  "orbit": {
+    "ambient_irreducible_dimension": 7,
+    "coefficient_count": 7,
+    "coefficient_integer_contents": [
+      1,
+      6,
+      3,
+      2,
+      3,
+      6,
+      1
+    ],
+    "coefficient_sha256": [
+      "da5fb03e1727a180861bb2cd2f1dc291586a86c9c29d5f351a8a07dd9623dbd2",
+      "7b5545c735613d17fe2cafc40ec5c8ae0c8a4d45205b7219f6d6eca0644c02ba",
+      "72097876a96c00dce530784b5a6cf3718ef6410dcc99c123af83ea826e642a5f",
+      "8d5838cc561d33bc4b19196d55c2bada691ed453d8865e2f682fc54f6cf2acd7",
+      "1d073e663e34de3e891fe83cb979fd2262801e6427128033002e2562b08eb0a3",
+      "e0165abf7c9c8ba71e57c0b42a0ab0e47eaa32f21d2947939afcb9f6d72c0bdb",
+      "f320a80cc0ff4b584914f91c84dc985e86f299d5bd26dd8b2a196a819bf5500d"
+    ],
+    "coefficient_term_counts": [
+      14,
+      16,
+      18,
+      18,
+      18,
+      16,
+      14
+    ],
+    "exact_rank": 7,
+    "orbit_polynomial_sha256": "61d1325bfb0e06589d2ddcf6f2bef340c2bcafb3aa72d65757de96382c275513",
+    "parameter_degree": 6
+  },
+  "schema": "hc4.decimic-nullcone-v6-tangent-stabilizer-span.v1",
+  "source_sha256": {
+    "scripts/certify_nullcone_v6_tangent_stabilizer_span.py": "9dcd6c98ff515b04a9f89d85b2f27ef3b51b3408c7522a14fb15290120285971",
+    "scripts/reconstruct_normal_layers.py": "8ebc828a25c65c296aabd74b50895d36401ccffca5fae7715db341773a63effc",
+    "scripts/scout_nullcone_cubic_families.py": "393913597e946b8188518e9247f7238f9da7e24b72444d0634e14aad5cc03795"
+  },
+  "stabilizer": {
+    "binary_action": "(s,t)->(s,t+u*s)",
+    "canonical_lift_chart_stable": true,
+    "chart_correction_degree": 3,
+    "determinant": 1,
+    "hessian_determinant_covariance_verified": true,
+    "q_invariant": true,
+    "target_q4x_invariant": true,
+    "ternary_action": "(x,y,z)->(x,y+u*x,z+2*u*y+u^2*x)"
+  },
+  "status": "PASS_EXACT_TANGENT_V6_FAMILY_RADICAL_CONTAINMENT"
+}

@@ -1,0 +1,124 @@
+{
+  "schema": "hc4.fourth-colon-p173-c16-kernel-batch-terminal.v1",
+  "status": "PASS_FOURTH_COLON_C16_EXACT_RATIONAL_KERNEL_BATCH",
+  "registered_design": "research/FOURTH_COLON_CHARACTER2_KERNEL_BATCH_SCOUT_DESIGN.md",
+  "selected_global_coordinates": [
+    46,
+    47,
+    57,
+    66,
+    68,
+    102,
+    155,
+    547,
+    763,
+    965,
+    966,
+    1261,
+    1269,
+    1499,
+    1699,
+    1711
+  ],
+  "dimensions": {
+    "rows": 85688,
+    "pivot_columns": 36587,
+    "selected_free_columns": 16,
+    "pivot_nonzeros": 1487624,
+    "selected_source_nonzeros": 208
+  },
+  "frozen_row_interface": {
+    "status": "PASS_FOURTH_COLON_P173_C16_FROZEN_ROW_INTERFACE",
+    "receipt": "artifacts/fourth-colon-p173-c16-interface-v1/source-interface/interface.json",
+    "receipt_sha256": "5ffe1241e83101bc189afde0d9586de3af6f97b195edf0ae57823602af8b8a97",
+    "frozen_B_row_mismatches": 0,
+    "support_by_column_mod173": [13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13],
+    "nonintegral_scaled_source_entries": 2
+  },
+  "canonical_section_solves": [
+    {
+      "level": 0,
+      "status": "PASS_LINBOX_P173_CANONICAL_C16_SECTION",
+      "augmented_nullity": 16,
+      "solution_nonzeros": 351,
+      "replay_mismatches": 0,
+      "wall_seconds": 108.999,
+      "solution_sha256": "b408ec53bc4a1f348581aca7baeb41167b1d29ddba261959e8647df9f58815c2"
+    },
+    {
+      "level": 1,
+      "status": "PASS_LINBOX_P173_CANONICAL_C16_SECTION",
+      "augmented_nullity": 16,
+      "solution_nonzeros": 286,
+      "replay_mismatches": 0,
+      "wall_seconds": 106.158,
+      "solution_sha256": "c5e5e721960dcc9e707a91084bbb0bc8b93e738180dcdb4f3a77eb96f3ef8dc2"
+    },
+    {
+      "level": 2,
+      "status": "PASS_LINBOX_P173_CANONICAL_C16_SECTION",
+      "augmented_nullity": 16,
+      "solution_nonzeros": 286,
+      "replay_mismatches": 0,
+      "wall_seconds": 113.824,
+      "solution_sha256": "c9c597f4dd85a9bcc013d0a321684731bb7f9c3fd2e1ed979bc0f5e6dd191d6e"
+    },
+    {
+      "level": 3,
+      "status": "PASS_LINBOX_P173_CANONICAL_C16_SECTION",
+      "augmented_nullity": 16,
+      "solution_nonzeros": 286,
+      "replay_mismatches": 0,
+      "wall_seconds": 110.353,
+      "solution_sha256": "33532c337dd708e1561fd2d2c5b99907dd4f4de389f3c23ae267205bb5edea9a"
+    }
+  ],
+  "promotion_gate": {
+    "first_two_solve_wall_seconds": 215.157,
+    "four_single_target_solve_ceiling_seconds": 460,
+    "promoted_to_p4": true
+  },
+  "p4_reconstruction": {
+    "status": "PASS_FOURTH_COLON_P173_C16_EXACT_RATIONAL_KERNEL_BATCH",
+    "modulus": 895745041,
+    "height_bound": 21162,
+    "resolved_coordinates": 585392,
+    "unresolved_coordinates": 0,
+    "p4_replay_mismatches": 0,
+    "exact_replay_mismatches": 0,
+    "exact_nonzero_support_by_column": [36, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21],
+    "receipt": "artifacts/fourth-colon-p173-c16-interface-v1/p4-reconstruction.json",
+    "receipt_sha256": "651b952e7a228014b91d3ef28eb3954b7ba2265c2d0de302390b27e77c25eb25",
+    "candidates": "artifacts/fourth-colon-p173-c16-interface-v1/rational-candidates.json",
+    "candidates_sha256": "0f66ed6bd7182ffda4f7e4f34deca1eb80e785488b88fa66182aacd00bafd8cd"
+  },
+  "independent_direct_polynomial_audit": {
+    "status": "PASS_INDEPENDENT_DIRECT_POLYNOMIAL_C16_RATIONAL_SYZYGIES",
+    "source_syzygies": 16,
+    "polynomial_mismatches": 0,
+    "residual_term_counts": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "coefficient_support_including_free_unit": [37, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22],
+    "receipt": "receipts/hsop-j2-secant-r10-fourth-colon-c16-rational-syzygies-independent-audit.json",
+    "receipt_sha256": "ace9072d6e00b305350d617901e6a134fe52b8905d5447c4a6db5a14171ca5d7"
+  },
+  "implementation": {
+    "exporter_sha256": "9b24ab7981d9d027d49933905112b17c3cf2293533739465ce8f6e6c218b3180",
+    "advance_and_reconstruct_sha256": "938cdd4fad9e342940a51d9f49d6412e161ecdd236dad158525785c563e227ab",
+    "linbox_source_sha256": "b876498b6dadea4b83b07b41974422a7b033892243df58a44c98c4d3954a8483",
+    "linbox_binary_sha256": "ad74c752bc91939e66256c906bff0857fa363770a4024991e3b399f74a3e1f8a",
+    "independent_auditor_sha256": "0f186ba68b935aaf157714b20709cce9cb89ad392906288129f2e06b5f842efd",
+    "compile_command": "clang++ -std=c++17 -O3 scripts/linbox_p173_canonical_c16_section_driver.cpp -o artifacts/bin/linbox_p173_canonical_c16_section_driver $(pkg-config --cflags --libs linbox)",
+    "toy_oracle_status": "PASS_LINBOX_P173_CANONICAL_C16_SECTION"
+  },
+  "resource_summary": {
+    "source_export_wall_seconds": 11.598960749979597,
+    "source_export_maximum_rss_native": 592838656,
+    "four_linbox_solve_wall_seconds": 439.334,
+    "maximum_observed_linbox_rss_native": 426196992,
+    "p4_reconstruction_wall_seconds": 6.437985083961394,
+    "independent_polynomial_audit_wall_seconds": 7.590610374987591,
+    "process_swaps": 0
+  },
+  "result": "The sixteen prospectively selected minimum-source-support free columns each extend to an explicit exact rational source-module syzygy in the frozen fourth character-two Macaulay block.",
+  "claim_boundary": "This proves sixteen exact rational source-module syzygies only. It does not prove rational membership of M*h4, a fourth colon identity, colon equality, saturation, secant-orbit closure, full invariant-nullcone containment, the quartic Hessian conjecture in dimension four, or the two-dimensional Jacobian conjecture."
+}

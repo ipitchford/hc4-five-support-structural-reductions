@@ -1,0 +1,43 @@
+{
+  "schema": "hc4.decimic-j2-secant-r10-p173-fourth-colon-8digit-lift-freeze.v1",
+  "status": "FROZEN_BEFORE_FIRST_P173_FOURTH_COLON_LIFT_DIGIT",
+  "frozen_utc": "2026-08-31T17:36:00Z",
+  "prime": 173,
+  "dimensions": {
+    "rows": 85688,
+    "columns": 36587,
+    "nonzeros": 1487624,
+    "target_total_digits": 8
+  },
+  "files": {
+    "preregistration": {
+      "path": "research/FOURTH_COLON_P173_EIGHT_DIGIT_LIFT_PREREGISTRATION.md",
+      "sha256": "3e06a7667c8c5a3a3a5b09780f7dcbafd9c9b298718bc61d7e851d6f43a02a2b"
+    },
+    "lift_script": {
+      "path": "scripts/lift_p173_fourth_colon_augmented_nullspace_8digits.py",
+      "sha256": "cfc1713d8efe7407a599687aec1d75356ca6934e70c4221e0897cbfc9e7adf5d"
+    },
+    "driver_source": {
+      "path": "scripts/linbox_augmented_nullspace_mod173_fourth_target_driver.cpp",
+      "sha256": "9f67d9d00becf95eca84423202d0fbea1a30cb70431b7fefa83af76de9e7024b"
+    },
+    "driver_binary": {
+      "path": "artifacts/bin/linbox_augmented_nullspace_mod173_fourth_target_driver",
+      "sha256": "f5e8f7285ffa421d314b597bf27f903b9eae7d046d7aef9bc636857eeee26723"
+    },
+    "integral_system": {
+      "path": "artifacts/fourth-colon-p173-fixed-gauge-integral-lift-system-v1/A_Z_b_Z_fixed_gauge_p173.i64csr",
+      "sha256": "a03e09a159af1658ef188ac3182667c87e2c6bfc3e3c24676ced67d5ec71d1d6"
+    },
+    "modular_csr": {
+      "path": "artifacts/fourth-colon-p173-fixed-gauge-integral-lift-system-v1/A_Z_mod173_fixed_gauge.csr",
+      "sha256": "b051f191d1b4fed8c06899d920a2f3219815619bf78643ab0b0d0d97be930010"
+    },
+    "digit_zero": {
+      "path": "artifacts/fourth-colon-p173-fixed-gauge-integral-lift-system-v1/solution_mod173.u8",
+      "sha256": "b3842200b63a047f5cc4edf176eb3a29a431bcd88d535917dd96e2d6bd87f355"
+    }
+  },
+  "claim_boundary": "This receipt freezes a computation before observation; it proves no lift, rational identity, colon equality, saturation, nullcone containment, or HC4 result."
+}

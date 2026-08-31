@@ -1,0 +1,48 @@
+{
+  "bound_files": {
+    "artifacts/bin/linbox_sparse_mod181_solve_driver": "171b8b5fb7f26939d6be36f3024a6968476fd44a26f39b21a7831a9ae69f7a7b",
+    "artifacts/third-colon-p181-target-blind-linbox-benchmark-v2/A_C_mod181_target_free.csr": "2207744adde8f96a7d835fc078ffd188ce33814f2db880e1aef9b8a47b09a6ef",
+    "receipts/hsop-j2-secant-r10-p181-target-blind-linbox-v2-independent-audit.json": "c6bec6f72d7ba5c0792cfe439383d1795ae82160c570148e1b7899807bd81c37",
+    "scripts/freeze_p181_native_linbox_synthetic_solve.py": "dbf0be951318b1ac8c1d8e91920dcd90915701e165d7ca43be5ed04d79c66cda",
+    "scripts/linbox_sparse_mod181_solve_driver.cpp": "aeaff16d117f8e8b5d64014be714db7ecac0e10446ad52e61a8814b5fa5b77b5",
+    "scripts/run_p181_native_linbox_synthetic_solve_gated.py": "2ae24b3920050d8b3d33630031eddfcd89b82333181255d74b9569a1bd85fbe7",
+    "scripts/run_p181_target_blind_linbox_rank_gated.py": "a282b31bca01c972ff5d294b64ddca103d2ea6c1c6bab8f6f12ddc7b800b83de"
+  },
+  "canonical_outputs": {
+    "artifact": "artifacts/third-colon-p181-native-linbox-synthetic-solve-v1",
+    "telemetry": "receipts/telemetry/third-colon-p181-native-linbox-synthetic-solve-v1",
+    "terminal": "receipts/hsop-j2-secant-r10-p181-native-linbox-synthetic-solve-v1.json"
+  },
+  "declarations": {
+    "frozen_before_full_actual_coefficient_solve": true,
+    "no_mod181_squared": true,
+    "target_rhs_excluded": true
+  },
+  "known_vector": {
+    "bytes": 35881,
+    "formula": "(((c+1)*37+11) mod 180)+1 for c=0..35880",
+    "sha256": "ebcf2e6338e5eb81ba7b9fd58f8c9366a8b5ddb48c27cef7fcd34e9c27663d28"
+  },
+  "policy": {
+    "process_swaps_maximum": 0,
+    "rss_bytes_maximum": 3758096384,
+    "wall_seconds_maximum": 600
+  },
+  "preregistration": {
+    "path": "research/THIRD_COLON_P181_NATIVE_LINBOX_SYNTHETIC_SOLVE_PREREGISTRATION.md",
+    "sha256": "66bd7ed0ac9276fba924b5a842b05059742c6f9f4237d044a7d57941f591e6e4"
+  },
+  "schema": "hc4.decimic-j2-secant-r10-p181-native-linbox-synthetic-solve-implementation-freeze.v1",
+  "status": "PASS_P181_NATIVE_LINBOX_SYNTHETIC_SOLVE_IMPLEMENTATION_FREEZE",
+  "toolchain": {
+    "clang_version": [
+      "Apple clang version 21.0.0 (clang-2100.1.1.101)",
+      "Target: arm64-apple-darwin25.6.0"
+    ],
+    "compile_command": "clang++ -std=c++17 -O3 scripts/linbox_sparse_mod181_solve_driver.cpp -o artifacts/bin/linbox_sparse_mod181_solve_driver $(pkg-config --cflags --libs linbox)",
+    "fflas_ffpack_version": "2.5.0",
+    "givaro_version": "4.2.2",
+    "linbox_pkg_config_flags": "-I/opt/homebrew/Cellar/linbox/1.7.1_1/include -DDISABLE_COMMENTATOR -I/opt/homebrew/Cellar/fflas-ffpack/2.5.0_1/include -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp -DFFLAS_COMPILED -DFFPACK_COMPILED -I/opt/homebrew/Cellar/givaro/4.2.2/include -I/opt/homebrew/opt/gmp/include -L/opt/homebrew/Cellar/linbox/1.7.1_1/lib -llinbox -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp -L/opt/homebrew/Cellar/fflas-ffpack/2.5.0_1/lib -lfflas -lffpack -L/opt/homebrew/Cellar/givaro/4.2.2/lib -lgivaro -L/opt/homebrew/opt/gmp/lib -lgmpxx -lgmp",
+    "linbox_version": "1.7.1"
+  }
+}

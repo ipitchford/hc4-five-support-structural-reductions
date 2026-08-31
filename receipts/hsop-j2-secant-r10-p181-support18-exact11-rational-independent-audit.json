@@ -1,0 +1,37 @@
+{
+  "bound_hashes": {
+    "common_denominator_vectors": "738131c01f766e96765610f9891ff7961f067459fa7fab38ae43bffa9ee09f75",
+    "exact_system": "2524b706b88278187924f103245ddfd999ce2f21e2c848058fc723498c4682e1",
+    "independent_source_audit": "1990c2a85f6826c06aed49660f192ef1f7c109b1b33fecf7e4f54682faee0948",
+    "p8_residues": "a9392dc0287aa1c1af62230062f25f8c60684b49bfcf4d1e94c59de6d98afb71",
+    "pairs": "7b3173c8a57f64fc6f975c9ffe38608eee66f374017ee8fd6c2c21e37454bc3b"
+  },
+  "certificate_checks": {
+    "coordinate_count": 394691,
+    "encoding_mismatch_count": 0,
+    "normalization_mismatch_count": 0,
+    "p8_reduction_mismatch_count": 0
+  },
+  "claim_boundary": "This PASS independently certifies eleven rational residual syzygies and, with the earlier four, rational quotient lower bound 15. It does not prove target membership, a colon, saturation, secant closure, nullcone containment, or HC4.",
+  "declarations": {
+    "p_adic_lifter_not_imported_or_executed": true,
+    "rational_replay_reimplemented": true,
+    "solver_not_executed": true
+  },
+  "exact_replay": {
+    "mismatch_count": 0,
+    "residual_stream_sha256": "c321f728cec1480e42ac83a94a1daa6f661164c9acc1775933460c592783d1ba",
+    "scalar_comparisons": 942161
+  },
+  "resources": {
+    "maximum_rss_native": 175095808,
+    "process_swaps": 0,
+    "wall_seconds": 2.4488944170298055
+  },
+  "schema": "hc4.third-colon-p181-support18-exact11-rational-independent-audit.v1",
+  "source_composition": {
+    "exact_integer_system_independently_reconstructed_from_rational_source": true,
+    "source_audit_status": "PASS_INDEPENDENT_P181_SUPPORT18_TWO_DIGIT_LIFT_REPLAY"
+  },
+  "status": "PASS_INDEPENDENT_P181_SUPPORT18_EXACT11_RATIONAL_SOURCE_SYZYGIES"
+}

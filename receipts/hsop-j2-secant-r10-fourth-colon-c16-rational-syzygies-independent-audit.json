@@ -1,0 +1,77 @@
+{
+  "checks": {
+    "coefficient_support_including_free_unit": [
+      37,
+      22,
+      22,
+      22,
+      22,
+      22,
+      22,
+      22,
+      22,
+      22,
+      22,
+      22,
+      22,
+      22,
+      22,
+      22
+    ],
+    "descriptor_sha256": "478302e341969ae2d8edec433bfd7fc12374598502b7f4e661884b31c4bd5f67",
+    "polynomial_mismatches": 0,
+    "residual_term_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_syzygies": 16
+  },
+  "claim_boundary": "Sixteen exact rational source-module syzygies in the frozen fourth character block; no h4 target membership, colon equality, saturation, secant-orbit closure, full nullcone closure, quartic Hessian conjecture, or Jacobian conjecture follows.",
+  "inputs": {
+    "modular_certificate": "45654ac41bfe50a76e9a396407734a7f94d3026ba68c9843e93ce432a656ebbe",
+    "rational_candidates": "0f66ed6bd7182ffda4f7e4f34deca1eb80e785488b88fa66182aacd00bafd8cd"
+  },
+  "producer": {
+    "path": "scripts/audit_p173_fourth_colon_c16_rational_syzygies.py",
+    "sha256": "0f186ba68b935aaf157714b20709cce9cb89ad392906288129f2e06b5f842efd"
+  },
+  "resources": {
+    "maximum_rss_native": 345718784,
+    "process_swaps": 0,
+    "wall_seconds": 7.590610374987591
+  },
+  "schema": "hc4.fourth-colon-c16-direct-polynomial-audit.v1",
+  "selected_global_coordinates": [
+    46,
+    47,
+    57,
+    66,
+    68,
+    102,
+    155,
+    547,
+    763,
+    965,
+    966,
+    1261,
+    1269,
+    1499,
+    1699,
+    1711
+  ],
+  "status": "PASS_INDEPENDENT_DIRECT_POLYNOMIAL_C16_RATIONAL_SYZYGIES"
+}

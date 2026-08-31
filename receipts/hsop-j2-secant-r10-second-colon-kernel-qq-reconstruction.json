@@ -1,0 +1,77 @@
+{
+  "artifact": {
+    "byte_count": 119487,
+    "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-second-colon-kernel-qq-candidate.json",
+    "sha256": "c41e7c02e7163a0f1a2e71cd7fd5f0d38167b37f3f832019fa069c0ffd2bf37e"
+  },
+  "assurance": "exact two-prime reconstruction and bounded finite-field nonmembership tests",
+  "both_heights_within_uniqueness_bound": true,
+  "character_matches": [
+    3,
+    3
+  ],
+  "claim_boundary": "This is a uniquely bounded rational reconstruction of matching modular tap outputs. It does not prove M*h2 is in (I,h), establish h2 over QQ as a colon element, compute a colon ideal, or prove saturation.",
+  "coefficient_residue_mismatch_count": 0,
+  "coefficient_residue_mismatches": [],
+  "common_denominator": "648",
+  "crt_modulus": "1152922610560928777",
+  "degree_four_nonmembership_tests": [
+    {
+      "candidate_in_degree_four_ideal_piece": false,
+      "characteristic": 1073741827,
+      "column_count": 277,
+      "nontrivial_quotient_class": true,
+      "nonzero_count": 1073,
+      "note": "h has character 4, so adjoining h does not enlarge the character-3 degree-four subspace tested here",
+      "row_count": 28,
+      "solution_support_count": 0
+    },
+    {
+      "candidate_in_degree_four_ideal_piece": false,
+      "characteristic": 1073742851,
+      "column_count": 277,
+      "nontrivial_quotient_class": true,
+      "nonzero_count": 1073,
+      "note": "h has character 4, so adjoining h does not enlarge the character-3 degree-four subspace tested here",
+      "row_count": 28,
+      "solution_support_count": 0
+    }
+  ],
+  "degree_matches": [
+    4,
+    4
+  ],
+  "discovery_primes": [
+    1073741827,
+    1073742851
+  ],
+  "equal_numerator_denominator_uniqueness_bound": "759250489",
+  "maximum_absolute_numerator": "124805",
+  "maximum_denominator": "648",
+  "monic_leading_coefficients": [
+    1,
+    1
+  ],
+  "normal_equation_stream_sha256": "ecc10203dd30d6e2bc606d96ac129984c5039dcd5627d767d3ef1a799fccce35",
+  "primitive_integer_content_before_normalization": "1",
+  "primitive_integer_maximum_absolute_coefficient": "998440",
+  "schema": "hc4.decimic-j2-secant-r10-second-colon-kernel-reconstruction.v1",
+  "script": {
+    "path": "scripts/reconstruct_j2_secant_r10_residual_colon_kernel.py",
+    "sha256": "deb3bde6a0ad985df64e506db2aea647afcf8958bd61231ee8027e1197882654"
+  },
+  "source_receipts": [
+    {
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/receipts/hsop-j2-secant-r10-residual-colon-p1073741827.json",
+      "sha256": "96957aa0f7016e7863a5f85bd9032d4ca5e604e381c96f156164471c34974b1d"
+    },
+    {
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/receipts/hsop-j2-secant-r10-residual-colon-p1073742851.json",
+      "sha256": "98e6883ea3eafa3063252fa5192eb8f4d78df79ceb86147721a5dac124c3ef34"
+    }
+  ],
+  "status": "PASS_TWO_PRIME_RATIONAL_CANDIDATE_RECONSTRUCTION",
+  "support_matches": true,
+  "support_term_count": 211,
+  "wall_seconds": 6.944792624999536
+}

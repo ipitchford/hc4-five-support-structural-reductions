@@ -1,0 +1,64 @@
+{
+  "claim_boundary": "A finite p10 PASS concerns seven fixed source-kernel directions and a reconstruction census only; no rational, target, colon, saturation, secant, nullcone, or HC4 conclusion follows.",
+  "extension_status": "PASS_P181_SUPPORT7_TEN_DIGIT_LIFT",
+  "implementation_freeze": {
+    "path": "receipts/hsop-j2-secant-r10-p181-support7-ten-digit-extension-implementation-freeze.json",
+    "sha256": "f2af34cb4ca1ecf22ffb8ede6ed5a2ab121c420d5495acfa813e44aa516fbb5a"
+  },
+  "promoted": {
+    "artifact": {
+      "correction_rhs_digit_08_padded114.u8": "b8a5d757876d75a8a3255cb3fb60416b327810234b93a9e7f96b5256712fa101",
+      "correction_rhs_digit_09_padded114.u8": "8ec2230aa0ef97491ccb4d343b94e43aa5160c4b6c1f150e527034a22e5de331",
+      "digit_08.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "digit_08.stdout.txt": "b7afb673a68371fd258a12cdda15797d93922cf4a176fc333a06507710786b64",
+      "digit_08_padded114.u8": "3c15eb76bfb6ccd7631f2a78c4f4565d3b118f23fc98bb69b83efa27be663677",
+      "digit_08_support7_row_major.u8": "5d3ffbe7a503c33d6e2f658a40390b016b875c289b118240e30310f7b250bc2f",
+      "digit_09.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "digit_09.stdout.txt": "ccdfba7e2a7a4b200d66d12714329fe1fa7bcf7e6e589861ec2615072444def5",
+      "digit_09_padded114.u8": "772f624ff70becd6b14072b4b8868c7f6aa7090488598a2408f58fa3456c0153",
+      "digit_09_support7_row_major.u8": "87effa2fb734bc4ab6153f0619a2822fb37d8abdd5c075cb4a7cab5b7a492692",
+      "extension.json": "0645e85ca26299f1510029b1087dda29ee149f76bffafd59a879ff6aff7853d0",
+      "terminal_q10_support7_row_major.i64le": "081261a18cd66e0039e256d507d68b60fc2e787f4cec4af9512cb44326c71515"
+    },
+    "telemetry": {
+      "benchmark.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "benchmark.stdout.txt": "30209add5b8aa2f3847e27e9899198be5c0621e89280ea37d5d05514581afb4a",
+      "benchmark.time.txt": "74f1700818368340701322e95ab9c1d52b251928b14c9046d3cc67416ec4539d"
+    }
+  },
+  "schema": "hc4.third-colon-p181-support7-ten-digit-extension-terminal.v1",
+  "status": "PASS_P181_SUPPORT7_TEN_DIGIT_LIFT",
+  "telemetry": {
+    "ancestry_samples": 459,
+    "command": [
+      "/usr/bin/time",
+      "-l",
+      "-o",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-support7-ten-digit-telemetry-20260831T009/benchmark.time.txt",
+      "/opt/homebrew/bin/gtimeout",
+      "-s",
+      "TERM",
+      "-k",
+      "10s",
+      "600s",
+      "/Users/admin/.local/bin/sage",
+      "-python",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/scripts/extend_p181_support7_to_ten_digits.py",
+      "--output-dir",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-support7-ten-digit-20260831T009"
+    ],
+    "external_time": {
+      "maximum_rss_bytes": 171147264,
+      "process_swaps": 0,
+      "raw_sha256": "74f1700818368340701322e95ab9c1d52b251928b14c9046d3cc67416ec4539d",
+      "real_seconds": 130.55,
+      "system_seconds": 1.25,
+      "user_seconds": 124.37
+    },
+    "return_code": 0,
+    "rss_breach_killed": false,
+    "sampled_descendant_rss_peak_bytes": 269008896,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "30209add5b8aa2f3847e27e9899198be5c0621e89280ea37d5d05514581afb4a"
+  }
+}

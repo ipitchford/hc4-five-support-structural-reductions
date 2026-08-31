@@ -1,0 +1,37 @@
+{
+  "schema": "hc4.third-colon-p181-sparse4-two-digit-lift-implementation-freeze.v2",
+  "status": "PASS_P181_SPARSE4_TWO_DIGIT_LIFT_IMPLEMENTATION_FREEZE_V2",
+  "bound_files": {
+    "research/THIRD_COLON_P181_SPARSE4_TWO_DIGIT_LIFT_PREREGISTRATION.md": "907fa0b3cd8638b70a8f3ac65e6e7da2ad8fc3a8336333214725fcf944c763c3",
+    "research/THIRD_COLON_P181_SPARSE4_TWO_DIGIT_LIFT_PREREGISTRATION_AMENDMENT_01.md": "af7bd75cfd4956697b8617133517dd93821bac456cf15b6af97dc26d35162faf",
+    "scripts/build_p181_sparse4_coefficient_integral_system.py": "7cd907246d4fbf3356384fd459033eabae86150c7084626a8dfb682e3738fbeb",
+    "scripts/lift_p181_sparse4_to_two_digits.py": "c4c0fa3442bbd94181f60311820eef3ac14ae285f28ea7d730d1cf8e87acda65",
+    "scripts/produce_p181_sparse4_two_digit_lift_v2.py": "5df5edbff7bc40105f81a20ec5f2794d17880a16d4cb6f2c44c4330dae36c92a",
+    "scripts/run_p181_sparse4_two_digit_lift_gated_v2.py": "c299d808747ffee6d037f0ee6ed23f1f240840f3eeb0af3db2c611d263240bb4",
+    "scripts/run_p181_target_blind_linbox_rank_gated.py": "a282b31bca01c972ff5d294b64ddca103d2ea6c1c6bab8f6f12ddc7b800b83de",
+    "scripts/audit_p181_canonical_residual_114_section_independent.py": "55ef0495aa86872e500b3c7cc1c0d0573ba5a4c7db34ce71b2cfd4e3ced1ce17",
+    "scripts/fixed_p181_dixon_rr.py": "df4af8404cbc151d73fe82aeeb588541e412063d2fcdb2969933e40e21c5329c",
+    "receipts/hsop-j2-secant-r10-p181-canonical-residual-114-section-independent-audit.json": "567edfd6686410f060cfe624f3f5eadaf486505a9ecc31c767e74cbf5145cc95",
+    "artifacts/third-colon-p181-canonical-residual-114-section-v1/pivot_section_row_major.u8": "82db902a065b721deb146ed12655be2c00c7f1523be58218a7278e30cb3be997",
+    "artifacts/third-colon-p181-canonical-residual-114-section-v1/full_residual_section_row_major.u8": "ae141f98bdacc4733273f51fbdfa1c544f4a2cc156aa05e210e993f8aa567a83",
+    "artifacts/third-colon-p181-source-clean-integral-lift-system-v1/A_Z_mod181_fixed_gauge.csr": "eb419a8348852cb784f308ebd32eef682c731bafe77533e3b37ff5241b2228cc",
+    "artifacts/third-colon-p181-target-blind-linbox-gauge-v2/C_piv.u32le": "3a4087b184540be80852650b26aecaddd561a2a866599e660d9359b3415dfed2",
+    "artifacts/j2-secant-r10-third-colon-residual-114-quotient-chart.json": "7ad12483dd5c8429defc3e0c5c8138ded3d344969075ae4afdb15d39d2fb9a74",
+    "artifacts/bin/linbox_p181_canonical_residual_114_section_driver": "dd8ae1bb0a7a659f38cbcd1ee1e220dd5a43a6e9454a4531d06649159d41c0c6",
+    "receipts/hsop-j2-secant-r10-p181-sparse4-two-digit-lift-terminal.json": "adc908e2b93d6a3de71abca400da389854e56179902317fee4171c2c87879f2a",
+    "artifacts/third-colon-p181-sparse4-two-digit-lift-v1/integral/integral-system.json": "3bb3b9d5e8c2a58c255f660c0fd9de2a765188f4930450181a6a95c6a0e8905b"
+  },
+  "canonical_outputs": {
+    "artifact": "artifacts/third-colon-p181-sparse4-two-digit-lift-v2",
+    "telemetry": "receipts/telemetry/third-colon-p181-sparse4-two-digit-lift-v2",
+    "terminal": "receipts/hsop-j2-secant-r10-p181-sparse4-two-digit-lift-terminal-v2.json"
+  },
+  "policy": {
+    "wall_seconds_maximum": 600,
+    "rss_bytes_maximum": 3221225472,
+    "process_swaps_maximum": 0,
+    "selected_residual_local_indices": [43, 35, 46, 48],
+    "total_digits": 2,
+    "amendment_scope": "lift subprocess interpreter only"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "characteristic": 0,
+  "claim": "the V4_2 highest-weight quartic coefficient lies in the radical of the tangent residual-orbit normal-layer ideal",
+  "claim_boundary": "this is an exact computer-assisted characteristic-zero highest-coordinate certificate for one quartic family on the tangent normal layer; stabilizer propagation, other quartic families, secant, and HC4 remain separate",
+  "degree_6_top_gauge": {
+    "coefficient_torus_weight": -16,
+    "normalized_coefficient": "f10",
+    "target_localized": true
+  },
+  "evidence_sha256": {
+    "receipts/decimic-nullcone-quartic-covariants-exact.json": "b2d3698d0e3b8bfabe105ed12b23650510159c960a358f1f75cab9f5152d77d8",
+    "receipts/nullcone-v4-2-tangent-r10-Azero-qq-slimgb-direct.json": "222673c118c566cf054c2df3d97d601bc30b76f4d49a4be3564bb71c51ddec49",
+    "receipts/nullcone-v4-2-tangent-r10-degree0-qq-slimgb-direct.json": "12da2af1d113e3283d7ed9739eb4304de19a55fdb21c7363f13c1ce62d37bc73",
+    "receipts/nullcone-v4-2-tangent-r10-degree1-qq-slimgb-direct.json": "b0d2da7e49db6a6ca5fe965f95b7ed4afe9599aaaa658689a8319a1c32c114e9",
+    "receipts/nullcone-v4-2-tangent-r10-degree2-qq-slimgb-direct.json": "fb43db11e3b60f4f57f1c5a0c4b77813e774d9f9fb416a99936a4aa126018d4d",
+    "receipts/nullcone-v4-2-tangent-r10-degree3-qq-slimgb-direct.json": "7caf8375b6448288b7b04dd472b41998aed81e90c147ad4f4fbc175b11b6436b",
+    "receipts/nullcone-v4-2-tangent-r10-degree4-qq-slimgb-direct.json": "526f407d8d8323b2c9e65227e398bc77b5c9b1a8b20469cea866ca498f743802",
+    "receipts/nullcone-v4-2-tangent-r10-degree5-qq-slimgb-direct.json": "a20bffef2af1d40cd81a12a1ec7b9bd90f1abfab6f8b959f8e71b336e4cddbef",
+    "receipts/nullcone-v4-2-tangent-r10-degree6-qq-slimgb-direct-top-gauge.json": "f8da4b4364e3b4c02e4a611b633c289603a6516e6f4f258b3dc4154c01a63f34",
+    "receipts/nullcone-v4-2-tangent-top-r5-qq-slimgb.json": "e1776bcad09cab09390a01168a9eb6a8a19af519f42d3bb6818e376c9bd0a064",
+    "receipts/nullcone-v4-2-tangent-top-r6-qq-slimgb.json": "90108d03528e2138b214f5dcd0d428ecd24c94bcfb745b55ce1b82cb515c6353",
+    "receipts/nullcone-v4-2-tangent-top-r7-qq-slimgb.json": "7b73296a35bfef123e52d2e0442653853ec347e6ecd9feb01b5a45140b2fb770",
+    "receipts/nullcone-v4-2-tangent-top-r8-qq-slimgb.json": "77a98acc095358b44d720b105b1b8f8e736d0595cf29fadc6e9e800240fe4c2a",
+    "receipts/nullcone-v4-2-tangent-top-r9-qq-slimgb.json": "80c3189064595e3d4d5a4fc076a11a9c0e7edd005f9682e5935edb23f59e3c5a"
+  },
+  "family": "V4_2",
+  "family_order": 4,
+  "r10_cells": {
+    "A_zero": {
+      "A_degree": null,
+      "algorithm": "Singular slimgb",
+      "receipt": "receipts/nullcone-v4-2-tangent-r10-Azero-qq-slimgb-direct.json",
+      "torus_gauge": "target"
+    },
+    "degree_0": {
+      "A_degree": 0,
+      "algorithm": "Singular slimgb",
+      "receipt": "receipts/nullcone-v4-2-tangent-r10-degree0-qq-slimgb-direct.json",
+      "torus_gauge": "target"
+    },
+    "degree_1": {
+      "A_degree": 1,
+      "algorithm": "Singular slimgb",
+      "receipt": "receipts/nullcone-v4-2-tangent-r10-degree1-qq-slimgb-direct.json",
+      "torus_gauge": "target"
+    },
+    "degree_2": {
+      "A_degree": 2,
+      "algorithm": "Singular slimgb",
+      "receipt": "receipts/nullcone-v4-2-tangent-r10-degree2-qq-slimgb-direct.json",
+      "torus_gauge": "target"
+    },
+    "degree_3": {
+      "A_degree": 3,
+      "algorithm": "Singular slimgb",
+      "receipt": "receipts/nullcone-v4-2-tangent-r10-degree3-qq-slimgb-direct.json",
+      "torus_gauge": "target"
+    },
+    "degree_4": {
+      "A_degree": 4,
+      "algorithm": "Singular slimgb",
+      "receipt": "receipts/nullcone-v4-2-tangent-r10-degree4-qq-slimgb-direct.json",
+      "torus_gauge": "target"
+    },
+    "degree_5": {
+      "A_degree": 5,
+      "algorithm": "Singular slimgb",
+      "receipt": "receipts/nullcone-v4-2-tangent-r10-degree5-qq-slimgb-direct.json",
+      "torus_gauge": "target"
+    },
+    "degree_6": {
+      "A_degree": 6,
+      "algorithm": "Singular slimgb",
+      "receipt": "receipts/nullcone-v4-2-tangent-r10-degree6-qq-slimgb-direct-top-gauge.json",
+      "torus_gauge": "top"
+    }
+  },
+  "r10_degree_cover": [
+    "A_zero",
+    "degree_0",
+    "degree_1",
+    "degree_2",
+    "degree_3",
+    "degree_4",
+    "degree_5",
+    "degree_6"
+  ],
+  "schema": "hc4.decimic-nullcone-quartic-tangent-highest-all-strata.v1",
+  "source_sha256": {
+    "scripts/audit_nullcone_quartic_tangent_highest.py": "ce4964d7790b34fa5cb5fd6da58fadd77c4ee6ad82ea27bd2a34f3748191c84c",
+    "scripts/certify_nullcone_quartic_tangent_r10_convolution_branch.py": "ce189c4f81f41c74609e174e908cf3a958290eb16d84c196e9356bbe9aaadd7c",
+    "scripts/scout_nullcone_quartic_tangent_top_stratum.py": "3232c36b3ad228333b07e8e7aa02db39b0eda890e7dde6f32878e929de711684"
+  },
+  "status": "PASS_EXACT_TANGENT_QUARTIC_HIGHEST_RADICAL_CONTAINMENT",
+  "target_torus_weight": 2,
+  "top_cells_5_through_9": {
+    "5": {
+      "algorithm": "Singular slimgb",
+      "receipt": "receipts/nullcone-v4-2-tangent-top-r5-qq-slimgb.json"
+    },
+    "6": {
+      "algorithm": "Singular slimgb",
+      "receipt": "receipts/nullcone-v4-2-tangent-top-r6-qq-slimgb.json"
+    },
+    "7": {
+      "algorithm": "Singular slimgb",
+      "receipt": "receipts/nullcone-v4-2-tangent-top-r7-qq-slimgb.json"
+    },
+    "8": {
+      "algorithm": "Singular slimgb",
+      "receipt": "receipts/nullcone-v4-2-tangent-top-r8-qq-slimgb.json"
+    },
+    "9": {
+      "algorithm": "Singular slimgb",
+      "receipt": "receipts/nullcone-v4-2-tangent-top-r9-qq-slimgb.json"
+    }
+  },
+  "top_index_cover": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "unipotent_used": false
+}

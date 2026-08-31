@@ -1,0 +1,55 @@
+{
+  "checks": {
+    "current_height_replay_mismatches": 0,
+    "next_residual_support_by_column": [
+      125,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      85,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      85
+    ]
+  },
+  "claim_boundary": "Verified height-3 residual only; the next digit, rational reconstruction, exact source syzygies, h4 membership, colon equality, secant closure, nullcone closure, and HC4 remain open.",
+  "height": 3,
+  "inputs": {
+    "digits": [
+      {
+        "path": "artifacts/fourth-colon-p173-c16-interface-v1/stage-zero-transfer.u8",
+        "sha256": "b408ec53bc4a1f348581aca7baeb41167b1d29ddba261959e8647df9f58815c2"
+      },
+      {
+        "path": "artifacts/fourth-colon-p173-c16-interface-v1/first-lift-correction.u8",
+        "sha256": "c5e5e721960dcc9e707a91084bbb0bc8b93e738180dcdb4f3a77eb96f3ef8dc2"
+      },
+      {
+        "path": "artifacts/fourth-colon-p173-c16-interface-v1/second-lift-correction.u8",
+        "sha256": "c9c597f4dd85a9bcc013d0a321684731bb7f9c3fd2e1ed979bc0f5e6dd191d6e"
+      }
+    ],
+    "integral_matrix": "a03e09a159af1658ef188ac3182667c87e2c6bfc3e3c24676ced67d5ec71d1d6",
+    "source_sparse": "c2f82bbe680d51748f048700fe594fce8aafbc635a8e00da0495b94fff4218e0"
+  },
+  "output": {
+    "bytes": 1371008,
+    "path": "artifacts/fourth-colon-p173-c16-interface-v1/third-lift-rhs.u8",
+    "sha256": "ab1bc78a678b84ad3e0b3d0eeac9ad7ded0da05f3896ea7be54ea67731de6ab8"
+  },
+  "resources": {
+    "maximum_rss_native": 449527808,
+    "process_swaps": 0,
+    "wall_seconds": 3.45995445799781
+  },
+  "schema": "hc4.fourth-colon-p173-c16-next-residual.v1",
+  "status": "PASS_FOURTH_COLON_P173_C16_HEIGHT_3_RESIDUAL"
+}

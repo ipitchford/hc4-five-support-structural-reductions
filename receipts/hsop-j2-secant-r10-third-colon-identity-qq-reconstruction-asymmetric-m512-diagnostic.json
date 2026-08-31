@@ -1,0 +1,313 @@
+{
+  "artifact_emitted": false,
+  "assurance": "fail-closed CRT and held-out diagnostic only",
+  "certificate": null,
+  "claim_boundary": "This attempt makes no characteristic-zero membership decision. It records only that the displayed source set was insufficient: standard reconstruction failed, a source-only candidate failed immediate held-out replay, or strict-product EEA filtering was nonunique or empty. It is not evidence against the identity, a colon or saturation certificate, a secant closure, or HC4.",
+  "heldout_certificates": [
+    {
+      "characteristic": 2147483179,
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-fixed-free-p2147483179.json",
+      "sha256": "49baba8af56c7b74233bffee13b9a322581a8e6de89a08ca1fee6837bd3f682d"
+    }
+  ],
+  "input_certificates": [
+    {
+      "characteristic": 173,
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-sparse-macaulay-hybrid-p173.json",
+      "sha256": "e55af2dc2d7f390227bda852f5366d68f078500e00794e3a60d7cc4452797ec1"
+    },
+    {
+      "characteristic": 199,
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-fixed-free-p199.json",
+      "sha256": "fa5fb303a739f05f07afb9db8f5282aa4ef3a02ff9beee8ae73a345bc8b87b15"
+    },
+    {
+      "characteristic": 2147483647,
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-fixed-free-p2147483647.json",
+      "sha256": "6d100a6bed6c257f524cb920e861de8282dcc7a301a13574fcdd449144a363b8"
+    },
+    {
+      "characteristic": 2147483629,
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-fixed-free-p2147483629.json",
+      "sha256": "e8da8d26fe2d9b426620dc2a8163222bac1fabed2b5da8d383e98a7052b5752a"
+    },
+    {
+      "characteristic": 2147483587,
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-fixed-free-p2147483587.json",
+      "sha256": "456776f404da2edd2d10c556c06f1f59df68b1abd71ffb97b5f3b25993b01416"
+    },
+    {
+      "characteristic": 2147483579,
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-fixed-free-p2147483579.json",
+      "sha256": "ac36b7c359e97c9ff14445c90eaf74bb1adcd8d5525196a32cf41e5a4ac30d13"
+    },
+    {
+      "characteristic": 2147483563,
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-fixed-free-p2147483563.json",
+      "sha256": "533eb8aba87313835136878b485e3e969aad933a422568fde18404cc2ac78d65"
+    },
+    {
+      "characteristic": 2147483549,
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-fixed-free-p2147483549.json",
+      "sha256": "6856ac5846e5402f95c62d6e2b491f5676938efc336f96d9b8fd4527fff5d597"
+    },
+    {
+      "characteristic": 2147483543,
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-fixed-free-p2147483543.json",
+      "sha256": "bc24920056d3d52b620e0c0ac13864d158ee73c0ddea3fd3b2b49c9e682a64fe"
+    },
+    {
+      "characteristic": 2147483497,
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-fixed-free-p2147483497.json",
+      "sha256": "8917cf592eb0cd0742392e908b9cf6b97cb0e89f8885882aa82f360bb5b54363"
+    },
+    {
+      "characteristic": 2147483489,
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-fixed-free-p2147483489.json",
+      "sha256": "8146f9483764d34908077478b8a388600f0af2c8d395d65867cb730e060d6d2b"
+    },
+    {
+      "characteristic": 2147483477,
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-fixed-free-p2147483477.json",
+      "sha256": "dad4bbc781919b8a7ffb6acf5eaa4869de17d1a1277271bfe9df2e7103c70e5e"
+    },
+    {
+      "characteristic": 2147483423,
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-fixed-free-p2147483423.json",
+      "sha256": "196e9362298b1286230106e65fa08fb8dd5823551f471bf71db74188c4907aed"
+    },
+    {
+      "characteristic": 2147483399,
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-fixed-free-p2147483399.json",
+      "sha256": "44d855d9ba511f682be1608e4bd524de055fc4805813583b9d6c5e7da81977b7"
+    },
+    {
+      "characteristic": 2147483353,
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-fixed-free-p2147483353.json",
+      "sha256": "99ed1cd04821a780e1bbdb34a6405c4624b18ec11f9ff04bd0e5e061111e9afe"
+    },
+    {
+      "characteristic": 2147483323,
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-fixed-free-p2147483323.json",
+      "sha256": "d0039d488a6a128668f135c9bf801819584c065009732086e3b23d78a47b4f24"
+    },
+    {
+      "characteristic": 2147483269,
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-fixed-free-p2147483269.json",
+      "sha256": "b4df340382ac9f8ba1f29b7f40ff1db3b1c3f8d574ab4253799249c80b6755ab"
+    },
+    {
+      "characteristic": 2147483249,
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-fixed-free-p2147483249.json",
+      "sha256": "27c8019c42e3a8d588583bb46cb5b0e5b22e1ab127d846fe693475b02441b2bb"
+    }
+  ],
+  "modular_replays": [
+    {
+      "characteristic": 173,
+      "identity_zero": true,
+      "multiplier_stream_sha256": "48b47a18f6bba39d13142508f99bd41f3c5c319e143cfdbf34af5ca651b30ee1",
+      "multiplier_support_count": 20245,
+      "remainder_term_count": 0
+    },
+    {
+      "characteristic": 199,
+      "identity_zero": true,
+      "multiplier_stream_sha256": "62ec34fee70e0b2e14f93b765aa6c1358b10e15594d6f4740c7d17a38e3262c1",
+      "multiplier_support_count": 20270,
+      "remainder_term_count": 0
+    },
+    {
+      "characteristic": 2147483647,
+      "identity_zero": true,
+      "multiplier_stream_sha256": "911d8a31113289cf0bc02ae0fb234c8a9e36a9095626fc9661f7a74dd59dc371",
+      "multiplier_support_count": 20355,
+      "remainder_term_count": 0
+    },
+    {
+      "characteristic": 2147483629,
+      "identity_zero": true,
+      "multiplier_stream_sha256": "6c34126048077bf2963d89d37d0aca25be49f3c086ac10d0f921c39d4518e185",
+      "multiplier_support_count": 20355,
+      "remainder_term_count": 0
+    },
+    {
+      "characteristic": 2147483587,
+      "identity_zero": true,
+      "multiplier_stream_sha256": "8f2efdc46ea3006649d5fc41a739ceae7e8b5d3dc02325ff93c2bf243d0ff80a",
+      "multiplier_support_count": 20355,
+      "remainder_term_count": 0
+    },
+    {
+      "characteristic": 2147483579,
+      "identity_zero": true,
+      "multiplier_stream_sha256": "810b967a5e71871131876f37f6554a6c13c3291f9fa2c67f34a748cbfaa550fb",
+      "multiplier_support_count": 20355,
+      "remainder_term_count": 0
+    },
+    {
+      "characteristic": 2147483563,
+      "identity_zero": true,
+      "multiplier_stream_sha256": "d060db99f29d22572a914586a6d4ada6e74a75d02b54cbc3f0f75879761e8ac1",
+      "multiplier_support_count": 20355,
+      "remainder_term_count": 0
+    },
+    {
+      "characteristic": 2147483549,
+      "identity_zero": true,
+      "multiplier_stream_sha256": "20bdf212feac31cc264d0b9ab834aca6fcd5142acb632b580a5729b589975878",
+      "multiplier_support_count": 20355,
+      "remainder_term_count": 0
+    },
+    {
+      "characteristic": 2147483543,
+      "identity_zero": true,
+      "multiplier_stream_sha256": "d5799a3b1b50f3149c118c769bbffb160cfdd628a3e437daf018e4e28bb54833",
+      "multiplier_support_count": 20355,
+      "remainder_term_count": 0
+    },
+    {
+      "characteristic": 2147483497,
+      "identity_zero": true,
+      "multiplier_stream_sha256": "ce2238c3d04a11de3d50625d088c11780c4b3782e10aaf2f9851ef3d4526a368",
+      "multiplier_support_count": 20355,
+      "remainder_term_count": 0
+    },
+    {
+      "characteristic": 2147483489,
+      "identity_zero": true,
+      "multiplier_stream_sha256": "f86200729c9c07bb79dfa1f2ca49e5e29b4c4501b45c9e5c664b0159b2241f55",
+      "multiplier_support_count": 20355,
+      "remainder_term_count": 0
+    },
+    {
+      "characteristic": 2147483477,
+      "identity_zero": true,
+      "multiplier_stream_sha256": "ebce3a6df413390c966329e1f05a1a03f7c0c64e10b2a720dc526dc20e90c8f3",
+      "multiplier_support_count": 20355,
+      "remainder_term_count": 0
+    },
+    {
+      "characteristic": 2147483423,
+      "identity_zero": true,
+      "multiplier_stream_sha256": "7de2ff9fe7676d18cb9e5d210457d0d380e9bfe9b87687d1e6f4ff36ca3946b0",
+      "multiplier_support_count": 20355,
+      "remainder_term_count": 0
+    },
+    {
+      "characteristic": 2147483399,
+      "identity_zero": true,
+      "multiplier_stream_sha256": "b7236968dd4b49869b62bc321c743aee28103613a1f93b5de6a9471df3814068",
+      "multiplier_support_count": 20355,
+      "remainder_term_count": 0
+    },
+    {
+      "characteristic": 2147483353,
+      "identity_zero": true,
+      "multiplier_stream_sha256": "6fd426d4b65a110edac9e7c903221fcf4e09cedd7a37a5ca8e4741e6544dc90f",
+      "multiplier_support_count": 20355,
+      "remainder_term_count": 0
+    },
+    {
+      "characteristic": 2147483323,
+      "identity_zero": true,
+      "multiplier_stream_sha256": "3cd6392920488a41d4b5ddc035a3cff466ed1f58cecebb5433006c8e85951ba0",
+      "multiplier_support_count": 20355,
+      "remainder_term_count": 0
+    },
+    {
+      "characteristic": 2147483269,
+      "identity_zero": true,
+      "multiplier_stream_sha256": "22380adb6d3414d41ed96033f5216f264e48c082fddd5f74e501226f69e78afc",
+      "multiplier_support_count": 20355,
+      "remainder_term_count": 0
+    },
+    {
+      "characteristic": 2147483249,
+      "identity_zero": true,
+      "multiplier_stream_sha256": "4d9b2c58cca6500a4da70a22df86189ddba5f4e66f3e061521a8eee9b8ac6e9e",
+      "multiplier_support_count": 20355,
+      "remainder_term_count": 0
+    },
+    {
+      "characteristic": 197,
+      "identity_zero": true,
+      "multiplier_stream_sha256": "fb42fe9172114a7726d16d812bb00bd686d5d286a289ea9b28c1d3d22138eba9",
+      "multiplier_support_count": 20261,
+      "remainder_term_count": 0
+    },
+    {
+      "characteristic": 2147483237,
+      "identity_zero": true,
+      "multiplier_stream_sha256": "da34b1a81c3d67b909b51dc998c90ccba148eef61a9ff3ec548a028e8fb1e088",
+      "multiplier_support_count": 20355,
+      "remainder_term_count": 0
+    },
+    {
+      "characteristic": 2147483179,
+      "identity_zero": true,
+      "multiplier_stream_sha256": "f806b73055f699ffcc20696e189c94feb3ec5f6739ea13a80b3d8aa65b4ae309",
+      "multiplier_support_count": 20355,
+      "remainder_term_count": 0
+    }
+  ],
+  "reconstruction_diagnostic": {
+    "candidate_count_after_selection_heldouts": 0,
+    "candidate_count_before_selection_heldouts": 215,
+    "candidate_height_profiles": [],
+    "characteristics": [
+      173,
+      199,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549,
+      2147483543,
+      2147483497,
+      2147483489,
+      2147483477,
+      2147483423,
+      2147483399,
+      2147483353,
+      2147483323,
+      2147483269,
+      2147483249
+    ],
+    "crt_modulus": "7043304496435510925598876276221544649682677168434268617894050571339362904056295185932323742215336087316795316691873292061004978985142040563540998473869939",
+    "crt_modulus_bit_length": 512,
+    "failing_coordinate": 13,
+    "failing_coordinate_prefix_position": 0,
+    "failure_kind": "ASYMMETRIC_EEA_NO_CANDIDATE",
+    "reason": "strict-product EEA candidate filtering was not unique",
+    "recovered_prefix_coordinate_count": 0,
+    "recovered_prefix_maximum_absolute_numerator": "0",
+    "recovered_prefix_maximum_denominator": "0",
+    "recovered_prefix_maximum_twice_numerator_times_denominator": "0",
+    "recovered_prefix_nonzero_count": 0,
+    "selection_heldout_characteristics": [
+      197,
+      2147483237
+    ],
+    "union_support_count": 20355
+  },
+  "schema": "hc4.decimic-j2-secant-r10-third-colon-identity-qq-reconstruction-attempt.v1",
+  "selection_heldout_certificates": [
+    {
+      "characteristic": 197,
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-fixed-free-p197.json",
+      "sha256": "1e8ed87f5e8261a304320c6bbe36a942ea0136a2287fa647dfa529acb02c0c10"
+    },
+    {
+      "characteristic": 2147483237,
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-fixed-free-p2147483237.json",
+      "sha256": "336dd3e74fa5f0fac7c99fa0b8907056dd97c0ea09f1673aa1a7a5da30fbbb8e"
+    }
+  ],
+  "source_sha256": {
+    "scripts/reconstruct_j2_secant_r10_third_colon_identity.py": "5e4e3a684dc700579aec248b5d60ddda6ec5b54810c4405560a062dcad66a9dd"
+  },
+  "status": "INCOMPLETE_ASYMMETRIC_EEA_NO_CANDIDATE",
+  "wall_seconds": 39.614370333001716
+}

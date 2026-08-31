@@ -1,0 +1,1 @@
+{"status": "PASS_P181_72DIGIT_EXACT_RESIDUAL_114_RATIONAL_CHART", "receipt": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/residual-114-p181-72digit-20260831T001/lift.json", "sha256": "cc5e83f0bce1ecc939434a53f908c337e3bbf33c64172424f7cbe9a2ee78aabe"}

@@ -1,0 +1,54 @@
+{
+  "claim_boundary": "A PASS proves seven exact rational source syzygies and quotient lower bound 22 with the earlier fifteen; it does not prove target membership, colon, saturation, secant, nullcone, or HC4.",
+  "implementation_freeze": {
+    "path": "receipts/hsop-j2-secant-r10-p181-support7-exact-rational-replay-implementation-freeze.json",
+    "sha256": "89e5327a620aa93ed24d9022d0c7da25e37fe41ceb8ea95f8957f7467c06a601"
+  },
+  "promoted": {
+    "artifact": {
+      "primitive_exact7_common_denominator_vectors.json": "40478281a351583b455db5168ef736da166bd519c32956c41d48537c4f5869cf",
+      "rational_exact7_pairs_row_major.json": "30333294e54c11cc075146801b5f0eea68975a6e7930a2a99e859d485798b3bf",
+      "replay.json": "f3029bd24854161f60fcccc6b70e7e678282b570ac3f6c14d6bbcdd1316d2de8"
+    },
+    "telemetry": {
+      "benchmark.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "benchmark.stdout.txt": "c37ce1bd95703af0aff0ae85b70295a2f66bc1923a60db354bcfcd8d0d996b4a",
+      "benchmark.time.txt": "9d6bd197f3838361b394ad6ce274ee44777f7f7296e06d1420d7fb3f74a5bee0"
+    }
+  },
+  "schema": "hc4.third-colon-p181-support7-exact-rational-terminal.v1",
+  "status": "PASS_P181_SUPPORT7_EXACT_RATIONAL_SYSTEM_REPLAY",
+  "telemetry": {
+    "ancestry_samples": 12,
+    "command": [
+      "/usr/bin/time",
+      "-l",
+      "-o",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/support7-exact-telemetry-20260831T011/benchmark.time.txt",
+      "/opt/homebrew/bin/gtimeout",
+      "-s",
+      "TERM",
+      "-k",
+      "10s",
+      "300s",
+      "/Users/admin/.local/bin/sage",
+      "-python",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/scripts/reconstruct_p181_support7_exact_rational.py",
+      "--output-dir",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/support7-exact-20260831T011"
+    ],
+    "external_time": {
+      "maximum_rss_bytes": 127451136,
+      "process_swaps": 0,
+      "raw_sha256": "9d6bd197f3838361b394ad6ce274ee44777f7f7296e06d1420d7fb3f74a5bee0",
+      "real_seconds": 3.13,
+      "system_seconds": 0.07,
+      "user_seconds": 2.64
+    },
+    "return_code": 0,
+    "rss_breach_killed": false,
+    "sampled_descendant_rss_peak_bytes": 127467520,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "c37ce1bd95703af0aff0ae85b70295a2f66bc1923a60db354bcfcd8d0d996b4a"
+  }
+}

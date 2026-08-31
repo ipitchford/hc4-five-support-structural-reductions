@@ -1,0 +1,1 @@
+{"status": "PASS_P181_TARGET_36DIGIT_LIFT", "receipt": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-target-36digit-20260831T013/extension.json", "sha256": "a6be3af91ad4e2e05ce7af3e44e735303124a9928100fc23f21f89076df32424"}

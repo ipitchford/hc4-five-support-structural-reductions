@@ -1,0 +1,28 @@
+{
+  "schema": "known-unit-linear-reduction-timeout-v1",
+  "status": "TIMEOUT_NO_REDUCED_INPUT",
+  "date": "2026-08-30",
+  "input": "receipts/hsop-j2-secant-r10-f9-laurent-degree_6-minsubset-groebner-input.json",
+  "input_sha256": "69d755bd0c4846b15a49915e8e68dacf911b58ede4683a12e714ee46a7183079",
+  "detected_known_units": [
+    "f10 with inverse f10inv",
+    "5*f10*g0+2 with inverse leadinv"
+  ],
+  "intended_reduction": "Eliminate variables linear with coefficient a rational multiple of a retained known unit, checking each source residual as an explicit multiple of its inverse relation.",
+  "precommitted_wall_bound_seconds": 600,
+  "observed_elapsed_at_termination_decision_seconds": 611,
+  "maximum_observed_poll_rss_kib_lower_bound": 555456,
+  "child_pid": 85175,
+  "termination_signal": "TERM",
+  "process_exited_after_term": true,
+  "output_receipt_emitted": false,
+  "diagnosis": "Eager SymPy substitution and expansion caused expression swell before a complete replayable reduction could be emitted.",
+  "preserved_exact_profile": "receipts/hsop-j2-secant-r10-f9-laurent-degree_6-minsubset-structural-profile.json",
+  "source_sha256": {
+    "scripts/reduce_sparse_groebner_by_units.py": "38da0021c8b520a125c30e320c2c0f82eb61a0b767cea5b627fd10709b9c574a",
+    "scripts/profile_sparse_groebner_input.py": "605d54ca85703f7750a0e7013bca571bdd4a4575b5df2042a3292c2e91547207",
+    "receipts/hsop-j2-secant-r10-f9-laurent-degree_6-minsubset-structural-profile.json": "043e96169cd2af9171ac5d130a4e15e90845c42ba2691f2ca7ded123f4b904de"
+  },
+  "next_implementation_boundary": "If revisited, perform unit-linear elimination inside the exact quotient engine or checkpoint one substitution at a time; do not repeat eager full expansion.",
+  "claim_boundary": "The timeout rejects this implementation strategy only. The known-unit quotient identities remain valid, but no reduced ideal or emptiness certificate was produced."
+}

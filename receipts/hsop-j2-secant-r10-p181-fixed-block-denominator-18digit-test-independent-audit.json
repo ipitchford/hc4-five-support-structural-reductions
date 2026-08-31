@@ -1,0 +1,125 @@
+{
+  "bound_hashes": {
+    "X16": "2129918fcfc882065e756d7ce6241c29a7b104eaf249f66226f75620bed78c78",
+    "X18": "a8cfad820b9721e0337c736385262360236c6101ffa86f65dfef160231439b13",
+    "auditor_script": "3f807711872adeeaf7f7f93e760baf7e29c6dacae455bc998535d76e080f3a1d",
+    "gauge": "3a4087b184540be80852650b26aecaddd561a2a866599e660d9359b3415dfed2",
+    "integral": "5064cfea27bc16ad9977d651f6215b407e2e3865df3dfc65ad15213b27d5ab8d",
+    "producer": "13a1eb225dab6c5ecda6c7fc10a5cc4068ad0552765631ee01f66a7d9e3641cf",
+    "terminal": "f6525486fc0203e1360a370e00a8a8cded39f34bed304c2335a3278686913b68"
+  },
+  "claim_boundary": "This PASS independently certifies the finite lift through 181^18 and falsifies only the frozen 19-block and global denominator models. It is not a QQ identity or any colon, saturation, secant, nullcone, or HC4 theorem.",
+  "declarations": {
+    "X18_reconstructed_from_X16_and_raw_digits": true,
+    "canonical_source_descriptor_builder_shared": true,
+    "exact_model_replay_reimplemented": true,
+    "linbox_not_called": true,
+    "no_nineteenth_digit": true,
+    "producer_not_imported_or_executed": true,
+    "rational_reconstruction_reimplemented": true
+  },
+  "digit_audits": [
+    {
+      "digit_index": 16,
+      "digit_sha256": "28795f6c6d0eb7c79f05e29c1e9f2903518fad53f703970b6652fd4d5d34def9",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "962ddd3a09a8a2b7b0c4c105eb8fa5fa0b0f4ab143dca3248f2d5d187e393729"
+    },
+    {
+      "digit_index": 17,
+      "digit_sha256": "4716db4b62b1dee2146d151270ba0bd727ac4a30838bd4be34f3093a5435bea8",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "9049b47f02a1c873a419ad2289bd683a5caacb75997a692dae2ec57391dbc78a"
+    }
+  ],
+  "frozen_denominators": {
+    "block_bit_lengths": [
+      6,
+      16,
+      22,
+      18,
+      23,
+      19,
+      31,
+      30,
+      25,
+      24,
+      29,
+      17,
+      20,
+      14,
+      14,
+      21,
+      22,
+      13,
+      12
+    ],
+    "global_bit_length": 41
+  },
+  "lift_checks": {
+    "correction_count": 2,
+    "starting_divisibility_mismatches": 0,
+    "terminal_integer_invariant_mismatches": 0,
+    "terminal_modulus": "43472473122830653562489222659449707872441"
+  },
+  "model_audits": [
+    {
+      "exact_row_mismatches": 35567,
+      "first_mismatch_rows": [
+        19,
+        20,
+        22,
+        25,
+        26,
+        28,
+        35,
+        54,
+        57,
+        63,
+        66,
+        70,
+        94,
+        97,
+        100,
+        104
+      ],
+      "model": "19_multiplier_blocks",
+      "residual_stream_sha256": "9d77e93ee356b5c93c54b329f6512fdbc5f58e01cb364c140ca485c075ed031f"
+    },
+    {
+      "exact_row_mismatches": 34608,
+      "first_mismatch_rows": [
+        19,
+        22,
+        25,
+        26,
+        28,
+        35,
+        54,
+        57,
+        63,
+        66,
+        70,
+        94,
+        97,
+        100,
+        104,
+        114
+      ],
+      "model": "single_global_lcm",
+      "residual_stream_sha256": "0b649187f612a2aca662e7d3ccbb3265a805ead51d76b5a7cba600e732d91757"
+    }
+  ],
+  "numerator_stability": {
+    "block_model_maximum_digit18_bit_length": 134,
+    "block_model_stable_16_to_18": 18110,
+    "global_model_maximum_digit18_bit_length": 134,
+    "global_model_stable_16_to_18": 18111
+  },
+  "resources": {
+    "maximum_rss_native": 420855808,
+    "wall_seconds": 21.560069250001106
+  },
+  "schema": "hc4.decimic-j2-secant-r10-p181-fixed-block-denominator-18digit-test-independent-audit.v1",
+  "status": "PASS_INDEPENDENT_P181_18DIGIT_LIFT_AND_FIXED_DENOMINATOR_FALSIFICATION_REPLAY"
+}

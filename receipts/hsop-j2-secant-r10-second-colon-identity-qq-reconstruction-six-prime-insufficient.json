@@ -1,0 +1,33 @@
+{
+  "schema": "hc4.decimic-j2-secant-r10-second-colon-identity-qq-reconstruction-attempt.v1",
+  "status": "INCOMPLETE_RATIONAL_RECONSTRUCTION_MODULUS_INSUFFICIENT",
+  "assurance": "fail-closed CRT reconstruction telemetry only",
+  "characteristics": [103, 2147483647, 2147483629, 2147483587, 2147483579, 2147483563],
+  "crt_modulus": "4704207880375445531171007897869740809178891722311",
+  "first_failed_coordinate": 21,
+  "first_failed_combined_residue": "803503850472502504141189016100138595666581312350",
+  "failure": "Sage rational_reconstruction reported that no rational reconstruction exists inside its standard symmetric bound at coordinate 21",
+  "additional_artifact": {
+    "path": "artifacts/j2-secant-r10-second-colon-identity-sparse-macaulay-p2147483563-fixed-free-p103-gauge-v1.json",
+    "sha256": "498c1f4f9b98a5eeb56fc62424160f5f6ab4ab51a1ba5978291fd35710facb74"
+  },
+  "predecessor_attempt": "receipts/hsop-j2-secant-r10-second-colon-identity-qq-reconstruction-five-prime-insufficient.json",
+  "heldout": {
+    "characteristic": 107,
+    "artifact": "artifacts/j2-secant-r10-second-colon-identity-sparse-macaulay-p107-fixed-free-p103-gauge-v1.json",
+    "sha256": "90d40655d57d564cd7dac6209516bf772fc0800fd809ed98ff81987cec3d2ad7",
+    "used_in_reconstruction": false
+  },
+  "runtime": {
+    "external_real_seconds": 57.58,
+    "external_user_seconds": 55.80,
+    "external_system_seconds": 0.61,
+    "maximum_resident_set_size_bytes": 359464960,
+    "swaps": 0
+  },
+  "source": {
+    "path": "scripts/reconstruct_j2_secant_r10_second_colon_identity.py",
+    "sha256": "4b32912907777cad90f4c97f7b770351dafd9aa704bdbe5faa288261842c780e"
+  },
+  "claim_boundary": "This attempt makes no characteristic-zero membership decision. It records only that the six-prime modulus was insufficient for standard rational reconstruction; it is not evidence against the identity, a colon or saturation certificate, a secant-chart closure, or HC4."
+}

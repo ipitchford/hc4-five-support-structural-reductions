@@ -1,0 +1,36 @@
+{
+  "checks": {
+    "lifted_support_by_column": [
+      36,
+      21,
+      21,
+      21,
+      21,
+      21,
+      21,
+      21,
+      21,
+      21,
+      21,
+      21,
+      21,
+      21,
+      21,
+      21
+    ],
+    "p2_replay_mismatches": 0
+  },
+  "claim_boundary": "Certified lifting of the selected 16 characteristic-173 kernel directions through 173^2 only; no rational syzygy, h4 membership, colon equality, secant closure, nullcone closure, or HC4 theorem.",
+  "inputs": {
+    "first_correction": "c5e5e721960dcc9e707a91084bbb0bc8b93e738180dcdb4f3a77eb96f3ef8dc2",
+    "integral_matrix": "a03e09a159af1658ef188ac3182667c87e2c6bfc3e3c24676ced67d5ec71d1d6",
+    "stage_zero_solution": "b408ec53bc4a1f348581aca7baeb41167b1d29ddba261959e8647df9f58815c2"
+  },
+  "resources": {
+    "maximum_rss_native": 449527808,
+    "process_swaps": 0,
+    "wall_seconds": 3.2263420420349576
+  },
+  "schema": "hc4.fourth-colon-p173-c16-p2-replay.v1",
+  "status": "PASS_FOURTH_COLON_P173_C16_TWO_DIGIT_KERNEL_BATCH"
+}

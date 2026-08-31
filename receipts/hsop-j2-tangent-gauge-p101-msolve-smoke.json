@@ -1,0 +1,43 @@
+{
+  "algorithm": "msolve",
+  "calculation": {
+    "basis_size": null,
+    "child_system_seconds_immediate_scope": 0.531058,
+    "child_user_seconds_immediate_scope": 39.493291,
+    "diagnostic_error": false,
+    "forced_group_kill": false,
+    "is_unit": false,
+    "maximum_rss_native_immediate_scope": 1660633088,
+    "process_group_terminated": true,
+    "resource_accounting": "wall time authoritative; CPU/RSS counters may omit delegated worker descendants",
+    "return_code": null,
+    "solver_output_tail": "",
+    "stderr_tail": "Initial seed for pseudo-random number generator is 1788074705\n\n--------------- INPUT DATA ---------------\n#variables                      21\n#equations                      56\n#invalid equations               0\nfield characteristic           101\nhomogeneous input?               0\nsignature-based computation      0\nmonomial order                 DRL\nbasis hash table resetting     OFF\nlinear algebra option            2\ninitial hash table size     131072 (2^17)\nmax pair selection             ALL\nreduce gb                        1\n#threads                         4\ninfo level                       1\ngenerate pbm files               0\n------------------------------------------\n",
+    "stdout_tail": "",
+    "timed_out": true,
+    "unit_remainder": null,
+    "wall_seconds": 20.047426583012566
+  },
+  "characteristic": 101,
+  "claim_boundary": "a modular unit is route evidence only; an exact characteristic-zero certificate is required for tangent j2 radical containment",
+  "disposition": "TIMEOUT_RETAINED",
+  "equation_build_seconds": 3.554159166000318,
+  "gauge": "primitive_j2=1",
+  "gauge_justification": "the residual-preserving tangent torus gives primitive_j2 weight -2",
+  "gauge_sha256": "7f6a72e852d35e18b5c76fd9ae0214788118394e4ffc4d5e7e56140de88db7fa",
+  "generator_count": 56,
+  "maximum_total_degree": 3,
+  "normal_equation_count": 55,
+  "normal_equation_stream_sha256": "897873f70a88c0b2653527b9e9711051e2db42a79608935a4f76810af1598528",
+  "orbit": "tangent",
+  "schema": "hc4-decimic-j2-tangent-global-gauge-scout-v1",
+  "solver_source_sha256": "22e5e3c0eeabb0ddaafcc02c6427c8f5469b641ba116249efee83b86d3d486b2",
+  "source_sha256": {
+    "scripts/certify_residual_orbit_torus.py": "614922f04919d2f101f57c5c3a6240b4cbea9740de337ccebad1ed10fd501118",
+    "scripts/scout_j2_normalized_chart.py": "b668451a394b4f671630ff045eb8f6fa44b9869517242db8eedd8f0dc9bd5cab",
+    "scripts/scout_j2_tangent_gauge.py": "98833802c6d048f94548e9eee244ab76bf8f06c806d43b17af51808c997bb50d"
+  },
+  "threads": 4,
+  "variable_count": 21,
+  "wall_seconds": 24.16038145899074
+}

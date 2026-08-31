@@ -1,0 +1,32 @@
+{
+  "schema": "hc4.third-colon-p181-support7-exact-rational-independent-audit-freeze.v1",
+  "status": "PASS_P181_SUPPORT7_EXACT_INDEPENDENT_AUDIT_FREEZE",
+  "frozen_at_utc": "2026-08-31T15:40:00Z",
+  "bound_files": {
+    "research/THIRD_COLON_P181_SUPPORT7_EXACT_INDEPENDENT_AUDIT_PREREGISTRATION.md": "9318d158f7a40b30c22c5d90266213c7100f543aec4df32858996324508938d3",
+    "scripts/audit_p181_support7_exact_rational_independent.py": "c35e864c112c2c9888e24b8a1d86b8eb565205c2a8c4bd7ea08df8ed6d846210",
+    "receipts/hsop-j2-secant-r10-p181-support18-two-digit-lift-independent-audit.json": "1990c2a85f6826c06aed49660f192ef1f7c109b1b33fecf7e4f54682faee0948",
+    "artifacts/third-colon-p181-support18-two-digit-lift-v1/integral/A_Z_b4_Z_coefficient_primitive.i64csr": "2524b706b88278187924f103245ddfd999ce2f21e2c848058fc723498c4682e1",
+    "artifacts/third-colon-p181-support7-exact-rational-replay-v1/rational_exact7_pairs_row_major.json": "30333294e54c11cc075146801b5f0eea68975a6e7930a2a99e859d485798b3bf",
+    "artifacts/third-colon-p181-support7-exact-rational-replay-v1/primitive_exact7_common_denominator_vectors.json": "40478281a351583b455db5168ef736da166bd519c32956c41d48537c4f5869cf",
+    "artifacts/third-colon-p181-support18-eight-digit-extension-v1/X_mod_181_power_8_support18_row_major.u64le": "a9392dc0287aa1c1af62230062f25f8c60684b49bfcf4d1e94c59de6d98afb71",
+    "artifacts/third-colon-p181-support7-ten-digit-extension-v1/digit_08_support7_row_major.u8": "5d3ffbe7a503c33d6e2f658a40390b016b875c289b118240e30310f7b250bc2f",
+    "artifacts/third-colon-p181-support7-ten-digit-extension-v1/digit_09_support7_row_major.u8": "87effa2fb734bc4ab6153f0619a2822fb37d8abdd5c075cb4a7cab5b7a492692",
+    "artifacts/third-colon-p181-residual81-twelve-digit-extension-v1/digit_10_residual81.u8": "2b47322de43806b59822f7c72848487615ccca04b628903427b40e4a765e8069",
+    "artifacts/third-colon-p181-residual81-twelve-digit-extension-v1/digit_11_residual81.u8": "4396e454bb04233c3cb54700f26bf88f96a9feb1b807b9187c9adcc010d27f6c",
+    "receipts/hsop-j2-secant-r10-p181-sparse4-exact-rational-independent-audit.json": "18b1835d19024d01a52da2b5fd01bdcbc9b4e90e8f4a9e8ffd4b6783bb87e9bd",
+    "receipts/hsop-j2-secant-r10-p181-support18-exact11-rational-independent-audit.json": "d0ae711392737f0ebb89de809de99bbe5ca3b56713200c1f7ed72261fc042018",
+    "receipts/hsop-j2-secant-r10-p181-support7-exact-rational-replay-terminal.json": "189fe7d13327029d65fa2de248aff2fbb93462d8fd00154ebccedc40c00d113a"
+  },
+  "policy": {
+    "wall_seconds_maximum": 120,
+    "rss_bytes_maximum": 1500000000,
+    "process_swaps_maximum": 0,
+    "solver_execution_forbidden": true,
+    "p_adic_lifter_import_forbidden": true,
+    "producer_import_forbidden": true,
+    "target_access_forbidden": true
+  },
+  "canonical_output": "receipts/hsop-j2-secant-r10-p181-support7-exact-rational-independent-audit.json",
+  "claim_boundary": "A PASS independently certifies seven exact rational source syzygies and quotient lower bound 22 with the earlier audited fifteen. It does not prove target membership or any colon, saturation, secant, nullcone, or HC4 conclusion."
+}

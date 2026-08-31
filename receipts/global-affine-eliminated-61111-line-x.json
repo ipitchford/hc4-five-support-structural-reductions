@@ -1,0 +1,41 @@
+{
+  "calculation": {
+    "basis_size": null,
+    "child_system_seconds_immediate_scope": 170.984782,
+    "child_user_seconds_immediate_scope": 9926.051495,
+    "diagnostic_error": false,
+    "forced_group_kill": false,
+    "is_unit": false,
+    "maximum_rss_native_immediate_scope": 551976960,
+    "process_group_terminated": true,
+    "resource_accounting": "wall time authoritative; CPU/RSS counters may omit delegated worker descendants",
+    "return_code": null,
+    "stderr_tail": "",
+    "stdout_tail": "",
+    "timed_out": true,
+    "unit_remainder": null,
+    "wall_seconds": 1800.0970925829897
+  },
+  "chart": "line_x",
+  "claim_boundary": "a global-affine unit proves every finite parameter fiber in the chart; an open unit proves the normalized distinct-five-root chart and leaves the support-collision divisor Delta=0",
+  "disposition": "TIMEOUT_RETAINED",
+  "equation_build_seconds": 4.612523624993628,
+  "equation_count": 52,
+  "equation_stream_sha256": "da9f87bddcdb2c5b0ea6de62c62498a7a51a1af2df8af61331930d86761d78aa",
+  "line_coordinate_sha256": {
+    "line_x": "07c19a9367ce0b2b98ea2197e57bba805b0a49e4b29a967b77c8ccfa9b3ecefd",
+    "line_y": "78d6b04e75ec6c877fcc81a2ae3522e288eed6abd4ff9f9d10aaf87b8f450715",
+    "line_z": "e7e673618d56557a9bd792f4004556a25ee93f2af16a4bbe29efe1e648a87fa6"
+  },
+  "mode": "global-affine-eliminated-line",
+  "partition": [
+    6,
+    1,
+    1,
+    1,
+    1
+  ],
+  "schema": "hc4-five-support-polynomial-open-eliminated-v1",
+  "singular_source_sha256": "b84240c4bd26e7f9bd8b1e3e0ac2e4d61803fad071985877d160b58393963012",
+  "wall_seconds": 1805.1550359580142
+}

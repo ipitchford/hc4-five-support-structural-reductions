@@ -1,0 +1,41 @@
+{
+  "bound_files": {
+    "artifacts/bin/linbox_augmented_nullspace_mod181_target_driver": "9723f17186d89229a8ea3d24181cdc1a4bba5e2be9537bb0ed8d170d3872fa31",
+    "artifacts/j2-secant-r10-third-colon-identity-extended-sparse-p181.json": "e9841fee4f75e60adef26a8b10878b35f6db48e6d0a21876b197d7cbdef2064b",
+    "artifacts/third-colon-p181-augmented-nullspace-16digit-extension-v1/X_mod_181_power_16.json": "2129918fcfc882065e756d7ce6241c29a7b104eaf249f66226f75620bed78c78",
+    "artifacts/third-colon-p181-block-denominator-reconstruction-v1/block-denominator.json": "97d37ec9d056790dade9ac0620bf09718e6eaebde20c17beaf9afd01c67f1e71",
+    "artifacts/third-colon-p181-block-numerator-stability-v1/numerator-stability.json": "db0975f5acef02aacd65b086d4acb3596d1a9ccec21b2597ed924e0f05ad09a4",
+    "artifacts/third-colon-p181-source-clean-integral-lift-system-v1/A_Z_b_Z_fixed_gauge.i64csr": "5064cfea27bc16ad9977d651f6215b407e2e3865df3dfc65ad15213b27d5ab8d",
+    "artifacts/third-colon-p181-source-clean-integral-lift-system-v1/A_Z_mod181_fixed_gauge.csr": "eb419a8348852cb784f308ebd32eef682c731bafe77533e3b37ff5241b2228cc",
+    "artifacts/third-colon-p181-target-blind-linbox-gauge-v2/C_piv.u32le": "3a4087b184540be80852650b26aecaddd561a2a866599e660d9359b3415dfed2",
+    "receipts/hsop-j2-secant-r10-p181-16digit-extension-independent-audit.json": "084db36337af9dc2d83157d7fea1cc03c22a7bb12c6f036ee3328d5ee669d5a1",
+    "research/THIRD_COLON_P181_FIXED_BLOCK_DENOMINATOR_18DIGIT_TEST_PREREGISTRATION.md": "3e31e26f229012daa1aefdae289dbdf795676be1d5150f712de03f7676f11304",
+    "scripts/certify_j2_secant_r10_colon_identity_liftstd.py": "e946e9e4b5ad1f7e7b62b688c03502f4331c463cd691e66b4f207d4b2b96f34c",
+    "scripts/certify_j2_secant_r10_second_colon_identity_sparse_macaulay.py": "ea20fb8719bb583c424f0cc4e2730b46c7f38e130558fa7e6d2422865fb1af6b",
+    "scripts/certify_j2_secant_r10_third_colon_identity_sparse_macaulay.py": "c0e1557c1a18d85af997e24c739d799d58c7d0b655d0662a0215f30e9b42ae74",
+    "scripts/certify_j2_secant_r10_z12_macaulay.py": "fd49512f605cb257d62aea850fe795d61db04ca23df9504910f157cfe1436d26",
+    "scripts/fixed_p181_dixon_codec.py": "e6ced48799df27cbe42763f6b9d9d267cb18ba7ddd2cbfe9a9beb0ab779db065",
+    "scripts/preprocess_fixed_p181_dixon_integer_system.py": "092ccd88a1ea5a1843d2ea0c81f6bc122eb38abf689db60bf137f2e56688147b",
+    "scripts/run_p181_target_blind_linbox_rank_gated.py": "a282b31bca01c972ff5d294b64ddca103d2ea6c1c6bab8f6f12ddc7b800b83de",
+    "scripts/run_p181_third_colon_fixed_block_denominator_18digit_test_gated.py": "a2f27152dffc786b272aa0c4d55e42039fab27db1ee34dd2a078bb32804f126b",
+    "scripts/scout_decimic_nullcone_hsop.py": "b07062cc86c2f5adf40a0d236648871b54c6ace1403886b51670ed539c425061",
+    "scripts/scout_j2_secant_r10_homogeneous_saturation.py": "8ba0c949784491272323cf2b411b0055c7d81d810513faa5428ed90fe1293a14",
+    "scripts/scout_p181_third_colon_block_denominator_reconstruction.py": "1fc46886ae89fec95d1c08ff50dcde7abfa78b6213ee63c9b40d11a09631e2c5",
+    "scripts/scout_p181_third_colon_equal_height_reconstruction.py": "b64deb496cd18cc224107b5ea8a3e023a1961c80399e227be5c8375cc0b57cb1",
+    "scripts/test_p181_third_colon_fixed_block_denominators_at_18digits.py": "6b086fc8ba9c8278f5451370f1df06d777cb1959fb10f417af4fe9ed904eb10d"
+  },
+  "canonical_outputs": {
+    "artifact": "artifacts/third-colon-p181-fixed-block-denominator-18digit-test-v1",
+    "telemetry": "receipts/telemetry/third-colon-p181-fixed-block-denominator-18digit-test-v1",
+    "terminal": "receipts/hsop-j2-secant-r10-p181-fixed-block-denominator-18digit-test.json"
+  },
+  "policy": {
+    "additional_digits": 2,
+    "maximum_total_digits": 18,
+    "process_swaps_maximum": 0,
+    "rss_bytes_maximum": 3221225472,
+    "wall_seconds_maximum": 600
+  },
+  "schema": "hc4.decimic-j2-secant-r10-p181-fixed-block-denominator-18digit-test-implementation-freeze.v1",
+  "status": "PASS_P181_FIXED_BLOCK_DENOMINATOR_18DIGIT_TEST_IMPLEMENTATION_FREEZE"
+}

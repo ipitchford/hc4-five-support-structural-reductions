@@ -1,0 +1,17 @@
+{
+  "schema": "hc4.third-colon-p181-sparse4-two-digit-lift-independent-audit-freeze.v1",
+  "status": "PASS_P181_SPARSE4_TWO_DIGIT_INDEPENDENT_AUDIT_FREEZE",
+  "bound_files": {
+    "research/THIRD_COLON_P181_SPARSE4_TWO_DIGIT_INDEPENDENT_AUDIT_PREREGISTRATION.md": "f19b8f96af2dd8f75c4475d5aca325f261d5a28eb33e80e59bbec5f63867b19b",
+    "scripts/audit_p181_sparse4_two_digit_lift_independent.py": "aa148541ed66fde232fce7d423775c573246d9b3e00bdfe65479a833dd1bab85",
+    "receipts/hsop-j2-secant-r10-p181-sparse4-two-digit-lift-terminal-v2.json": "906658091abd421c8e706a613d8a5803c400c3efd66cc4a2218a689805edd3ab",
+    "artifacts/third-colon-p181-sparse4-two-digit-lift-v2/integral/A_Z_b4_Z_coefficient_primitive.i64csr": "94dc88f592c4a41630ae51f04fffe8f6b64d696dace5a14e49e46392d159be3e",
+    "artifacts/third-colon-p181-sparse4-two-digit-lift-v2/integral/integral-system.json": "aad83c9bc76d8bd062c97434ce074bb9205e222d2c5f64409ec412b964a634b9",
+    "artifacts/third-colon-p181-sparse4-two-digit-lift-v2/lift/lift.json": "e37eb0adcf9516e6e9ffb9bf15d190b95d538237fbd6d5e8e2ca7a77835e7770",
+    "artifacts/third-colon-p181-sparse4-two-digit-lift-v2/integral/digit_00_sparse4_row_major.u8": "51c818f61ab52abacb62deedd1abe336d99646d9b52f28384491af5694aa5e38",
+    "artifacts/third-colon-p181-sparse4-two-digit-lift-v2/lift/digit_01_sparse4_row_major.u8": "0ab13cd9cd70cd424af089176d86007c224b101db47bd6fac83960e8ce941fb8",
+    "artifacts/third-colon-p181-sparse4-two-digit-lift-v2/lift/X_mod_181_power_2_sparse4_row_major.u16le": "afa8fe484bc8a5bbb6c97b506b5678dc7e3179e5aeb8fb105a89d37efd81711c"
+  },
+  "canonical_output": "receipts/hsop-j2-secant-r10-p181-sparse4-two-digit-lift-independent-audit.json",
+  "policy": {"wall_seconds_maximum": 300, "rss_bytes_maximum": 1500000000, "process_swaps_maximum": 0}
+}

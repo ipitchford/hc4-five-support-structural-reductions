@@ -1,0 +1,46 @@
+{
+  "schema": "hc4.decimic-j2-secant-r10-p173-fourth-colon-54digit-extension-freeze.v1",
+  "status": "FROZEN_BEFORE_P173_FOURTH_COLON_DIGIT_NINE",
+  "frozen_utc": "2026-08-31T17:55:28Z",
+  "prime": 173,
+  "start_total_digits": 8,
+  "target_total_digits": 54,
+  "files": {
+    "preregistration": {
+      "path": "research/FOURTH_COLON_P173_54DIGIT_EXTENSION_PREREGISTRATION.md",
+      "sha256": "a87db7436191d86c9a993cf023c951b6832ca776dcdf57c56025161dab2ed5ff"
+    },
+    "extension_script": {
+      "path": "scripts/extend_p173_fourth_colon_target_8_to_54digits.py",
+      "sha256": "93e9af6521d42c26fd5eed8878c70301a1b4b2f16c01723127d9a43d066ddbd7"
+    },
+    "p8_receipt": {
+      "path": "artifacts/fourth-colon-p173-augmented-nullspace-8digit-lift-v1/lift.json",
+      "sha256": "f7e57904399b6f3041ec4228d01736fa64f27f64be354e608c7cf669dccbaf2c"
+    },
+    "p8_endpoint": {
+      "path": "artifacts/fourth-colon-p173-augmented-nullspace-8digit-lift-v1/X_mod_173_power_8.u64le",
+      "sha256": "6c3318dd17fcdf928b138a533541c1ef24492a870b638da3aa8987ab3be8cea4"
+    },
+    "driver_binary": {
+      "path": "artifacts/bin/linbox_augmented_nullspace_mod173_fourth_target_driver",
+      "sha256": "f5e8f7285ffa421d314b597bf27f903b9eae7d046d7aef9bc636857eeee26723"
+    },
+    "integral_system": {
+      "path": "artifacts/fourth-colon-p173-fixed-gauge-integral-lift-system-v1/A_Z_b_Z_fixed_gauge_p173.i64csr",
+      "sha256": "a03e09a159af1658ef188ac3182667c87e2c6bfc3e3c24676ced67d5ec71d1d6"
+    },
+    "modular_csr": {
+      "path": "artifacts/fourth-colon-p173-fixed-gauge-integral-lift-system-v1/A_Z_mod173_fixed_gauge.csr",
+      "sha256": "b051f191d1b4fed8c06899d920a2f3219815619bf78643ab0b0d0d97be930010"
+    }
+  },
+  "policy": {
+    "wall_seconds_maximum": 7200,
+    "rss_bytes_maximum": 2000000000,
+    "process_swaps_required": 0,
+    "kernel_adjustment_forbidden": true,
+    "fifty_fifth_digit_forbidden": true
+  },
+  "claim_boundary": "This pre-observation freeze proves no extension, reconstruction, target membership, colon equality, saturation, nullcone containment, or HC4 result."
+}

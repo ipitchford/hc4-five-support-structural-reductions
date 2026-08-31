@@ -1,0 +1,1 @@
+{"status":"PASS_LINBOX_AUGMENTED_NULLSPACE_MOD181_EXPLICIT_TARGET_SOLVE","mode":"explicit_target","rows":85651,"columns":35881,"coefficient_nonzeros":1354540,"augmented_nullity":1,"load_seconds":0.0412905,"augmentation_seconds":0.00924075,"nullspace_seconds":58.4589,"replay_seconds":0.0100599,"replay_mismatches":0,"last_null_coordinate":1,"wall_seconds":58.5204}

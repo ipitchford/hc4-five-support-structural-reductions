@@ -1,0 +1,21 @@
+{
+  "schema": "hc4.third-colon-p181-sparse4-exact-rational-replay-freeze.v1",
+  "status": "PASS_P181_SPARSE4_EXACT_RATIONAL_REPLAY_FREEZE",
+  "bound_files": {
+    "research/THIRD_COLON_P181_SPARSE4_EXACT_RATIONAL_REPLAY_PREREGISTRATION.md": "ca0e1ef6f39fcba8ac42b23f44676089ba7f245cdeb76faf8021ca85aa49e8f5",
+    "scripts/reconstruct_p181_sparse4_exact_rational.py": "49072e53d2ee41073df666e5720e0d25515456fcf7d1fc42559d22fff031e9ff",
+    "scripts/run_p181_sparse4_exact_rational_replay_gated.py": "4c63e8ec4d377cd3e5b3ca8158ff3631deead5860db30b915996de077b5cfae9",
+    "scripts/run_p181_target_blind_linbox_rank_gated.py": "a282b31bca01c972ff5d294b64ddca103d2ea6c1c6bab8f6f12ddc7b800b83de",
+    "artifacts/third-colon-p181-sparse4-two-digit-lift-v2/integral/A_Z_b4_Z_coefficient_primitive.i64csr": "94dc88f592c4a41630ae51f04fffe8f6b64d696dace5a14e49e46392d159be3e",
+    "receipts/hsop-j2-secant-r10-p181-sparse4-two-digit-lift-independent-audit.json": "bd8354e31bbdbf2e1b5995871f5fbbcae1dcba34e686ac7ae9002fe1d91d16ab",
+    "artifacts/third-colon-p181-sparse4-four-digit-extension-v1/X_mod_181_power_4_sparse4_row_major.u32le": "623c565eec43c55e44b2fd13cafd4dd13f8be832ba99159d6921bf2ec99744fd",
+    "artifacts/third-colon-p181-sparse4-four-digit-extension-v1/extension.json": "64b889943b33d015c8c0403b11187ca801591d53e8c03de4f1811f5938e21b4a",
+    "receipts/hsop-j2-secant-r10-p181-sparse4-four-digit-extension-terminal.json": "2a2941a03ac8d53327e57b2c85af73653a17262fe6fcbdc06a7dd3d2607aaaef"
+  },
+  "canonical_outputs": {
+    "artifact": "artifacts/third-colon-p181-sparse4-exact-rational-replay-v1",
+    "telemetry": "receipts/telemetry/third-colon-p181-sparse4-exact-rational-replay-v1",
+    "terminal": "receipts/hsop-j2-secant-r10-p181-sparse4-exact-rational-replay-terminal.json"
+  },
+  "policy": {"wall_seconds_maximum": 300, "rss_bytes_maximum": 1500000000, "process_swaps_maximum": 0, "modulus": 1073283121, "coordinate_count": 143524}
+}

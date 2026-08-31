@@ -1,0 +1,78 @@
+{
+  "aggregate_quotient_lower_bound": {
+    "distinct_index_count": 22,
+    "earlier_eleven_indices": [
+      95,
+      59,
+      56,
+      1,
+      58,
+      30,
+      74,
+      112,
+      57,
+      109,
+      47
+    ],
+    "earlier_four_indices": [
+      43,
+      35,
+      46,
+      48
+    ],
+    "lower_bound": 22,
+    "new_seven_indices": [
+      15,
+      78,
+      91,
+      104,
+      81,
+      10,
+      13
+    ],
+    "upper_bound": 114
+  },
+  "bound_hashes": {
+    "common_denominator_vectors": "40478281a351583b455db5168ef736da166bd519c32956c41d48537c4f5869cf",
+    "digit10": "2b47322de43806b59822f7c72848487615ccca04b628903427b40e4a765e8069",
+    "digit11": "4396e454bb04233c3cb54700f26bf88f96a9feb1b807b9187c9adcc010d27f6c",
+    "digit8": "5d3ffbe7a503c33d6e2f658a40390b016b875c289b118240e30310f7b250bc2f",
+    "digit9": "87effa2fb734bc4ab6153f0619a2822fb37d8abdd5c075cb4a7cab5b7a492692",
+    "earlier_eleven_audit": "d0ae711392737f0ebb89de809de99bbe5ca3b56713200c1f7ed72261fc042018",
+    "earlier_four_audit": "18b1835d19024d01a52da2b5fd01bdcbc9b4e90e8f4a9e8ffd4b6783bb87e9bd",
+    "exact_system": "2524b706b88278187924f103245ddfd999ce2f21e2c848058fc723498c4682e1",
+    "independent_source_audit": "1990c2a85f6826c06aed49660f192ef1f7c109b1b33fecf7e4f54682faee0948",
+    "p8_residues": "a9392dc0287aa1c1af62230062f25f8c60684b49bfcf4d1e94c59de6d98afb71",
+    "pairs": "30333294e54c11cc075146801b5f0eea68975a6e7930a2a99e859d485798b3bf"
+  },
+  "certificate_checks": {
+    "coordinate_count": 251167,
+    "encoding_mismatch_count": 0,
+    "mixed_modulus_reduction_mismatch_count": 0,
+    "normalization_mismatch_count": 0
+  },
+  "claim_boundary": "This PASS independently certifies seven rational residual syzygies and, with the earlier audited fifteen, rational quotient lower bound 22. It does not prove target membership, a colon, saturation, secant closure, nullcone containment, or HC4.",
+  "declarations": {
+    "p_adic_lifter_not_imported_or_executed": true,
+    "producer_not_imported_or_executed": true,
+    "rational_replay_reimplemented": true,
+    "solver_not_executed": true,
+    "target_not_read": true
+  },
+  "exact_replay": {
+    "mismatch_count": 0,
+    "residual_stream_sha256": "185caf75243b1bbf07ea816337055948d62db01fd1dd0db3039d2d763b54aed1",
+    "scalar_comparisons": 599557
+  },
+  "resources": {
+    "maximum_rss_native": 140574720,
+    "process_swaps": 0,
+    "wall_seconds": 1.58489204099169
+  },
+  "schema": "hc4.third-colon-p181-support7-exact-rational-independent-audit.v1",
+  "source_composition": {
+    "exact_integer_system_independently_reconstructed_from_rational_source": true,
+    "source_audit_status": "PASS_INDEPENDENT_P181_SUPPORT18_TWO_DIGIT_LIFT_REPLAY"
+  },
+  "status": "PASS_INDEPENDENT_P181_SUPPORT7_EXACT_RATIONAL_SOURCE_SYZYGIES"
+}

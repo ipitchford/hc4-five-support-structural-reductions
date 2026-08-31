@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/scripts/extend_p181_support18_to_six_digits.py", line 143, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/scripts/extend_p181_support18_to_six_digits.py", line 119, in main
+    require(modulus == P**6 == 35_159_803_137_481, "terminal p6 modulus drift")
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/scripts/extend_p181_support18_to_six_digits.py", line 40, in require
+    raise ValueError(message)
+ValueError: terminal p6 modulus drift

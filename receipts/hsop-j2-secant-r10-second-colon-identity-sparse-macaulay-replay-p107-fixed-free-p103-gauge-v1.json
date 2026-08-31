@@ -1,0 +1,68 @@
+{
+  "assurance": "independent exact finite-field polynomial replay",
+  "certificate": {
+    "byte_count": 5752283,
+    "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-second-colon-identity-sparse-macaulay-p107-fixed-free-p103-gauge-v1.json",
+    "sha256": "90d40655d57d564cd7dac6209516bf772fc0800fd809ed98ff81987cec3d2ad7",
+    "solution_support_count": 15083
+  },
+  "characteristic": 107,
+  "checks": {
+    "coordinate_vector_length_match": true,
+    "coordinate_vector_sha256_match": true,
+    "free_coordinates_zero": true,
+    "free_profile_sha256_match": true,
+    "gauge_partition_valid": true,
+    "gauge_source_file_sha256_match": true,
+    "generator_stream_sha256_match": true,
+    "grading_metadata_match": true,
+    "identity_zero": true,
+    "maximum_multiplier_total_degree": 5,
+    "monomial_stream_sha256_match": true,
+    "multiplier_term_count": 15083,
+    "nonzero_multiplier_count": 18,
+    "pivot_profile_sha256_match": true,
+    "remainder_term_count": 0,
+    "row_descriptor_sha256_match": true,
+    "support_matches_complete_vector": true,
+    "support_well_formed": true,
+    "target_sha256_match": true,
+    "variable_names_match": true
+  },
+  "claim_boundary": "This replay proves only the displayed M*h2 identity over the displayed finite field. It does not prove the QQ identity, determine a colon or saturated ideal, close the secant chart, or establish HC4.",
+  "dimensions": {
+    "generators": 18,
+    "monomial_equations": 85921,
+    "multiplier_coordinates": 37476
+  },
+  "first_quartic_reconstruction": {
+    "candidate_receipt_sha256": {
+      "research/j2_secant_r10_colon_kernel_candidate_p1073741827.json": "1787ac75c59d553bfe64f767f739a1a0f6a4cb0f19dc18228f748476ea4292a3",
+      "research/j2_secant_r10_colon_kernel_candidate_p1073742851.json": "d57655a3efe5c949488f916a641cb98c133b88181e2a4028946bda610c1ced04"
+    },
+    "common_denominator_lcm": 3024,
+    "crt_modulus": 1152922610560928777,
+    "expression_sha256": "596e667ed1540ce18f9950134851e84049c2d7aeae10130e4741e567eb6ef5c3",
+    "maximum_absolute_numerator": 264290,
+    "maximum_denominator": 756,
+    "reconstruction_primes": [
+      1073741827,
+      1073742851
+    ],
+    "term_count": 189,
+    "total_degree": 4
+  },
+  "resources": {
+    "maximum_rss_native": 357679104,
+    "system_cpu_seconds": 0.49760299999999996,
+    "user_cpu_seconds": 61.397345
+  },
+  "schema": "hc4.decimic-j2-secant-r10-second-colon-identity-sparse-macaulay-replay.v1",
+  "second_quartic": {
+    "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-second-colon-kernel-qq-candidate.json",
+    "sha256": "c41e7c02e7163a0f1a2e71cd7fd5f0d38167b37f3f832019fa069c0ffd2bf37e"
+  },
+  "source_sha256": "a3f58c7785e27871255cc7cc99bde624be3706466a3790771481d81b15d9feb5",
+  "status": "PASS_INDEPENDENT_SECOND_COLON_IDENTITY_REPLAY",
+  "wall_seconds": 60.05022979201749
+}

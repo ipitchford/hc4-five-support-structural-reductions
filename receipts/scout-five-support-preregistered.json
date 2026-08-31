@@ -1,0 +1,2035 @@
+{
+  "controls": {
+    "empty_system": {
+      "basis_size": "1",
+      "chart": "line_x",
+      "child_system_seconds": 0.0028469999999999997,
+      "child_user_seconds": 0.006892,
+      "equation_stream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "is_unit": false,
+      "maximum_rss_native": 4915200,
+      "prime": 32003,
+      "return_code": 0,
+      "stderr_tail": "",
+      "stdout_tail": "UNIT_REMAINDER\n1\nBASIS_SIZE\n1\n",
+      "timed_out": false,
+      "unit_remainder": "1",
+      "wall_seconds": 0.01300695797544904
+    }
+  },
+  "partition_dispositions": [
+    {
+      "disposition": "BOUNDED_GENERIC_UNIT_SIGNAL",
+      "partition": [
+        6,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "disposition": "BOUNDED_GENERIC_UNIT_SIGNAL",
+      "partition": [
+        5,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "disposition": "BOUNDED_GENERIC_UNIT_SIGNAL",
+      "partition": [
+        4,
+        3,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "disposition": "BOUNDED_GENERIC_UNIT_SIGNAL",
+      "partition": [
+        4,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "disposition": "BOUNDED_GENERIC_UNIT_SIGNAL",
+      "partition": [
+        3,
+        3,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "disposition": "BOUNDED_GENERIC_UNIT_SIGNAL",
+      "partition": [
+        3,
+        2,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "disposition": "BOUNDED_GENERIC_UNIT_SIGNAL",
+      "partition": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "profile": "preregistered",
+  "protocol": {
+    "charts": [
+      "line_x",
+      "line_y",
+      "line_z"
+    ],
+    "claim_boundary": "finite-field unit signals are bounded falsification evidence, not characteristic-zero function-field proofs",
+    "holdout": [
+      {
+        "lambda": 3,
+        "mu": 7,
+        "prime": 65521,
+        "role": "holdout"
+      },
+      {
+        "lambda": 5,
+        "mu": 11,
+        "prime": 65537,
+        "role": "holdout"
+      }
+    ],
+    "jobs": 3,
+    "partitions": [
+      [
+        6,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        5,
+        2,
+        1,
+        1,
+        1
+      ],
+      [
+        4,
+        3,
+        1,
+        1,
+        1
+      ],
+      [
+        4,
+        2,
+        2,
+        1,
+        1
+      ],
+      [
+        3,
+        3,
+        2,
+        1,
+        1
+      ],
+      [
+        3,
+        2,
+        2,
+        2,
+        1
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "timeout_seconds": 300,
+    "training": [
+      {
+        "lambda": 2,
+        "mu": 3,
+        "prime": 32003,
+        "role": "training"
+      },
+      {
+        "lambda": 2,
+        "mu": 5,
+        "prime": 32009,
+        "role": "training"
+      }
+    ]
+  },
+  "records": [
+    {
+      "all_charts_unit": true,
+      "charts": [
+        {
+          "basis_size": "1",
+          "chart": "line_x",
+          "child_system_seconds": 0.0033740000000000003,
+          "child_user_seconds": 0.14796199999999998,
+          "equation_stream_sha256": "1b306b013e25f68f0aa52c8fe09ec3c6978435ab1e6d4e8c32b2007992e7dbef",
+          "is_unit": true,
+          "maximum_rss_native": 7798784,
+          "prime": 32003,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.15623941700323485
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_y",
+          "child_system_seconds": 0.006653,
+          "child_user_seconds": 0.30288499999999996,
+          "equation_stream_sha256": "1b306b013e25f68f0aa52c8fe09ec3c6978435ab1e6d4e8c32b2007992e7dbef",
+          "is_unit": true,
+          "maximum_rss_native": 7798784,
+          "prime": 32003,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.16166233300464228
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_z",
+          "child_system_seconds": 0.010429,
+          "child_user_seconds": 0.47285499999999997,
+          "equation_stream_sha256": "1b306b013e25f68f0aa52c8fe09ec3c6978435ab1e6d4e8c32b2007992e7dbef",
+          "is_unit": true,
+          "maximum_rss_native": 7798784,
+          "prime": 32003,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.17781504199956544
+        }
+      ],
+      "equation_build_seconds": 1.53076633400633,
+      "equation_count": 55,
+      "lambda": 2,
+      "mu": 3,
+      "partition": [
+        6,
+        1,
+        1,
+        1,
+        1
+      ],
+      "prime": 32003,
+      "role": "training"
+    },
+    {
+      "all_charts_unit": true,
+      "charts": [
+        {
+          "basis_size": "1",
+          "chart": "line_x",
+          "child_system_seconds": 0.0035710000000000013,
+          "child_user_seconds": 0.14756699999999995,
+          "equation_stream_sha256": "c1843de21e29ffcbf1c079bfceb9e2ee935a0cfb08d52382508f852e25046af2",
+          "is_unit": true,
+          "maximum_rss_native": 7798784,
+          "prime": 32009,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.15632045900565572
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_y",
+          "child_system_seconds": 0.0070290000000000005,
+          "child_user_seconds": 0.30334900000000004,
+          "equation_stream_sha256": "c1843de21e29ffcbf1c079bfceb9e2ee935a0cfb08d52382508f852e25046af2",
+          "is_unit": true,
+          "maximum_rss_native": 7798784,
+          "prime": 32009,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.1622738330042921
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_z",
+          "child_system_seconds": 0.010456,
+          "child_user_seconds": 0.470771,
+          "equation_stream_sha256": "c1843de21e29ffcbf1c079bfceb9e2ee935a0cfb08d52382508f852e25046af2",
+          "is_unit": true,
+          "maximum_rss_native": 7798784,
+          "prime": 32009,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.17393441600142978
+        }
+      ],
+      "equation_build_seconds": 1.5030073750240263,
+      "equation_count": 55,
+      "lambda": 2,
+      "mu": 5,
+      "partition": [
+        6,
+        1,
+        1,
+        1,
+        1
+      ],
+      "prime": 32009,
+      "role": "training"
+    },
+    {
+      "all_charts_unit": true,
+      "charts": [
+        {
+          "basis_size": "1",
+          "chart": "line_x",
+          "child_system_seconds": 0.004656999999999998,
+          "child_user_seconds": 0.170674,
+          "equation_stream_sha256": "5b1ddce1b8021689ed730873f3492e54a606df5fa66fdfa9bad12f3b8b2e97a1",
+          "is_unit": true,
+          "maximum_rss_native": 7880704,
+          "prime": 65521,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.18987579201348126
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_y",
+          "child_system_seconds": 0.009002,
+          "child_user_seconds": 0.3510040000000001,
+          "equation_stream_sha256": "5b1ddce1b8021689ed730873f3492e54a606df5fa66fdfa9bad12f3b8b2e97a1",
+          "is_unit": true,
+          "maximum_rss_native": 7880704,
+          "prime": 65521,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.20596875000046566
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_z",
+          "child_system_seconds": 0.014083000000000002,
+          "child_user_seconds": 0.5430809999999999,
+          "equation_stream_sha256": "5b1ddce1b8021689ed730873f3492e54a606df5fa66fdfa9bad12f3b8b2e97a1",
+          "is_unit": true,
+          "maximum_rss_native": 7880704,
+          "prime": 65521,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.21796500001801178
+        }
+      ],
+      "equation_build_seconds": 1.4965306659869384,
+      "equation_count": 55,
+      "lambda": 3,
+      "mu": 7,
+      "partition": [
+        6,
+        1,
+        1,
+        1,
+        1
+      ],
+      "prime": 65521,
+      "role": "holdout"
+    },
+    {
+      "all_charts_unit": true,
+      "charts": [
+        {
+          "basis_size": "1",
+          "chart": "line_x",
+          "child_system_seconds": 0.006198999999999996,
+          "child_user_seconds": 0.177284,
+          "equation_stream_sha256": "46972e1d1131c20ba75262e061674bd7e197c79facd71f98066199fc6dbcdd8e",
+          "is_unit": true,
+          "maximum_rss_native": 7913472,
+          "prime": 65537,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.19115916697774082
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_y",
+          "child_system_seconds": 0.012596999999999997,
+          "child_user_seconds": 0.36283299999999996,
+          "equation_stream_sha256": "46972e1d1131c20ba75262e061674bd7e197c79facd71f98066199fc6dbcdd8e",
+          "is_unit": true,
+          "maximum_rss_native": 7913472,
+          "prime": 65537,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.19872200000099838
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_z",
+          "child_system_seconds": 0.018524,
+          "child_user_seconds": 0.5630110000000002,
+          "equation_stream_sha256": "46972e1d1131c20ba75262e061674bd7e197c79facd71f98066199fc6dbcdd8e",
+          "is_unit": true,
+          "maximum_rss_native": 7913472,
+          "prime": 65537,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.21083791597629897
+        }
+      ],
+      "equation_build_seconds": 1.5026819579943549,
+      "equation_count": 55,
+      "lambda": 5,
+      "mu": 11,
+      "partition": [
+        6,
+        1,
+        1,
+        1,
+        1
+      ],
+      "prime": 65537,
+      "role": "holdout"
+    },
+    {
+      "all_charts_unit": true,
+      "charts": [
+        {
+          "basis_size": "1",
+          "chart": "line_x",
+          "child_system_seconds": 0.0034119999999999984,
+          "child_user_seconds": 0.13655699999999982,
+          "equation_stream_sha256": "f19cd42b1a3aec757d24f9e122191bca3e75bff3eb0c7208bf9838bbc0058a61",
+          "is_unit": true,
+          "maximum_rss_native": 7913472,
+          "prime": 32003,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.1444716249825433
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_y",
+          "child_system_seconds": 0.008007,
+          "child_user_seconds": 0.28266899999999984,
+          "equation_stream_sha256": "f19cd42b1a3aec757d24f9e122191bca3e75bff3eb0c7208bf9838bbc0058a61",
+          "is_unit": true,
+          "maximum_rss_native": 7913472,
+          "prime": 32003,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.15301537499180995
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_z",
+          "child_system_seconds": 0.011398999999999992,
+          "child_user_seconds": 0.4391499999999997,
+          "equation_stream_sha256": "f19cd42b1a3aec757d24f9e122191bca3e75bff3eb0c7208bf9838bbc0058a61",
+          "is_unit": true,
+          "maximum_rss_native": 7913472,
+          "prime": 32003,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.1648356249788776
+        }
+      ],
+      "equation_build_seconds": 1.5756000000110362,
+      "equation_count": 55,
+      "lambda": 2,
+      "mu": 3,
+      "partition": [
+        5,
+        2,
+        1,
+        1,
+        1
+      ],
+      "prime": 32003,
+      "role": "training"
+    },
+    {
+      "all_charts_unit": true,
+      "charts": [
+        {
+          "basis_size": "1",
+          "chart": "line_x",
+          "child_system_seconds": 0.0032910000000000023,
+          "child_user_seconds": 0.1396270000000004,
+          "equation_stream_sha256": "1da2c3b242a91e1f41daeb1da8fac20319820fd0a8d7d853f869f8655b38c634",
+          "is_unit": true,
+          "maximum_rss_native": 7913472,
+          "prime": 32009,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.14628462502150796
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_y",
+          "child_system_seconds": 0.006552000000000002,
+          "child_user_seconds": 0.28823200000000027,
+          "equation_stream_sha256": "1da2c3b242a91e1f41daeb1da8fac20319820fd0a8d7d853f869f8655b38c634",
+          "is_unit": true,
+          "maximum_rss_native": 7913472,
+          "prime": 32009,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.15953645799891092
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_z",
+          "child_system_seconds": 0.010890999999999998,
+          "child_user_seconds": 0.44572100000000026,
+          "equation_stream_sha256": "1da2c3b242a91e1f41daeb1da8fac20319820fd0a8d7d853f869f8655b38c634",
+          "is_unit": true,
+          "maximum_rss_native": 7913472,
+          "prime": 32009,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.16414604100282304
+        }
+      ],
+      "equation_build_seconds": 1.6219222499930765,
+      "equation_count": 55,
+      "lambda": 2,
+      "mu": 5,
+      "partition": [
+        5,
+        2,
+        1,
+        1,
+        1
+      ],
+      "prime": 32009,
+      "role": "training"
+    },
+    {
+      "all_charts_unit": true,
+      "charts": [
+        {
+          "basis_size": "1",
+          "chart": "line_x",
+          "child_system_seconds": 0.004411000000000012,
+          "child_user_seconds": 0.152536,
+          "equation_stream_sha256": "d0075be76e7138a3d51a35be5e0170a457b61d9474e923bf5c78ad28b65f69e0",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 65521,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.1598639580188319
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_y",
+          "child_system_seconds": 0.007994000000000001,
+          "child_user_seconds": 0.313898,
+          "equation_stream_sha256": "d0075be76e7138a3d51a35be5e0170a457b61d9474e923bf5c78ad28b65f69e0",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 65521,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.16860558398184367
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_z",
+          "child_system_seconds": 0.011779000000000012,
+          "child_user_seconds": 0.4906130000000002,
+          "equation_stream_sha256": "d0075be76e7138a3d51a35be5e0170a457b61d9474e923bf5c78ad28b65f69e0",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 65521,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.18929837498581037
+        }
+      ],
+      "equation_build_seconds": 1.5971787080052309,
+      "equation_count": 55,
+      "lambda": 3,
+      "mu": 7,
+      "partition": [
+        5,
+        2,
+        1,
+        1,
+        1
+      ],
+      "prime": 65521,
+      "role": "holdout"
+    },
+    {
+      "all_charts_unit": true,
+      "charts": [
+        {
+          "basis_size": "1",
+          "chart": "line_x",
+          "child_system_seconds": 0.00466599999999999,
+          "child_user_seconds": 0.1530999999999998,
+          "equation_stream_sha256": "feecf83680f2ccda26f567b87558c60973c6e439b1ec3764ba0e8de8d7e926db",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 65537,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.15994908401626162
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_y",
+          "child_system_seconds": 0.008322999999999997,
+          "child_user_seconds": 0.31547699999999956,
+          "equation_stream_sha256": "feecf83680f2ccda26f567b87558c60973c6e439b1ec3764ba0e8de8d7e926db",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 65537,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.1701097080076579
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_z",
+          "child_system_seconds": 0.012634999999999993,
+          "child_user_seconds": 0.49106799999999984,
+          "equation_stream_sha256": "feecf83680f2ccda26f567b87558c60973c6e439b1ec3764ba0e8de8d7e926db",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 65537,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.18309379101265222
+        }
+      ],
+      "equation_build_seconds": 1.6045350419881288,
+      "equation_count": 55,
+      "lambda": 5,
+      "mu": 11,
+      "partition": [
+        5,
+        2,
+        1,
+        1,
+        1
+      ],
+      "prime": 65537,
+      "role": "holdout"
+    },
+    {
+      "all_charts_unit": true,
+      "charts": [
+        {
+          "basis_size": "1",
+          "chart": "line_x",
+          "child_system_seconds": 0.004095000000000001,
+          "child_user_seconds": 0.05837300000000001,
+          "equation_stream_sha256": "0bb9737e958b27c700933db88a59d897c7744ad7ccce82451dec96836d9a44bb",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 32003,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.06630333300563507
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_y",
+          "child_system_seconds": 0.007657999999999998,
+          "child_user_seconds": 0.1212329999999997,
+          "equation_stream_sha256": "0bb9737e958b27c700933db88a59d897c7744ad7ccce82451dec96836d9a44bb",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 32003,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.07451191698783077
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_z",
+          "child_system_seconds": 0.012684,
+          "child_user_seconds": 0.1889829999999999,
+          "equation_stream_sha256": "0bb9737e958b27c700933db88a59d897c7744ad7ccce82451dec96836d9a44bb",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 32003,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.07568808400537819
+        }
+      ],
+      "equation_build_seconds": 1.626594583998667,
+      "equation_count": 55,
+      "lambda": 2,
+      "mu": 3,
+      "partition": [
+        4,
+        3,
+        1,
+        1,
+        1
+      ],
+      "prime": 32003,
+      "role": "training"
+    },
+    {
+      "all_charts_unit": true,
+      "charts": [
+        {
+          "basis_size": "1",
+          "chart": "line_x",
+          "child_system_seconds": 0.009231000000000003,
+          "child_user_seconds": 0.12614500000000017,
+          "equation_stream_sha256": "9b04bd4700dbf95f6264ea4bd5ab8cb123d49c964c458b1e6be796b5967f98aa",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 32009,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.07322099999873899
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_y",
+          "child_system_seconds": 0.013290999999999997,
+          "child_user_seconds": 0.1911290000000001,
+          "equation_stream_sha256": "9b04bd4700dbf95f6264ea4bd5ab8cb123d49c964c458b1e6be796b5967f98aa",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 32009,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.07512675001635216
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_z",
+          "child_system_seconds": 0.004346000000000003,
+          "child_user_seconds": 0.06424800000000008,
+          "equation_stream_sha256": "9b04bd4700dbf95f6264ea4bd5ab8cb123d49c964c458b1e6be796b5967f98aa",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 32009,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.07307370801572688
+        }
+      ],
+      "equation_build_seconds": 1.5991689160000533,
+      "equation_count": 55,
+      "lambda": 2,
+      "mu": 5,
+      "partition": [
+        4,
+        3,
+        1,
+        1,
+        1
+      ],
+      "prime": 32009,
+      "role": "training"
+    },
+    {
+      "all_charts_unit": true,
+      "charts": [
+        {
+          "basis_size": "1",
+          "chart": "line_x",
+          "child_system_seconds": 0.003457999999999989,
+          "child_user_seconds": 0.06414800000000032,
+          "equation_stream_sha256": "6228655338b861bb5dcc1697ecca6569882eca6f336a0c0d1c002d30c5235747",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 65521,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.07068533400888555
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_y",
+          "child_system_seconds": 0.011452999999999991,
+          "child_user_seconds": 0.20074599999999965,
+          "equation_stream_sha256": "6228655338b861bb5dcc1697ecca6569882eca6f336a0c0d1c002d30c5235747",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 65521,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.07394762500189245
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_z",
+          "child_system_seconds": 0.008026000000000005,
+          "child_user_seconds": 0.13271000000000033,
+          "equation_stream_sha256": "6228655338b861bb5dcc1697ecca6569882eca6f336a0c0d1c002d30c5235747",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 65521,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.07759270799579099
+        }
+      ],
+      "equation_build_seconds": 1.6148742079967633,
+      "equation_count": 55,
+      "lambda": 3,
+      "mu": 7,
+      "partition": [
+        4,
+        3,
+        1,
+        1,
+        1
+      ],
+      "prime": 65521,
+      "role": "holdout"
+    },
+    {
+      "all_charts_unit": true,
+      "charts": [
+        {
+          "basis_size": "1",
+          "chart": "line_x",
+          "child_system_seconds": 0.0036720000000000086,
+          "child_user_seconds": 0.06442900000000051,
+          "equation_stream_sha256": "bd44e3028edec86d702dde6f3c9d034533a7e15d15a94e00e7cea89cb38943ab",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 65537,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.07086370800971054
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_y",
+          "child_system_seconds": 0.007418000000000008,
+          "child_user_seconds": 0.1310090000000006,
+          "equation_stream_sha256": "bd44e3028edec86d702dde6f3c9d034533a7e15d15a94e00e7cea89cb38943ab",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 65537,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.07235912498435937
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_z",
+          "child_system_seconds": 0.01053800000000002,
+          "child_user_seconds": 0.1978200000000001,
+          "equation_stream_sha256": "bd44e3028edec86d702dde6f3c9d034533a7e15d15a94e00e7cea89cb38943ab",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 65537,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.07839804099057801
+        }
+      ],
+      "equation_build_seconds": 1.6697096669813618,
+      "equation_count": 55,
+      "lambda": 5,
+      "mu": 11,
+      "partition": [
+        4,
+        3,
+        1,
+        1,
+        1
+      ],
+      "prime": 65537,
+      "role": "holdout"
+    },
+    {
+      "all_charts_unit": true,
+      "charts": [
+        {
+          "basis_size": "1",
+          "chart": "line_x",
+          "child_system_seconds": 0.003384999999999999,
+          "child_user_seconds": 0.14369000000000032,
+          "equation_stream_sha256": "2f7d475c4d26df25940c05b18df543d0e33b0f53e61d68cef498947d7c6a0059",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 32003,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.15095354200457223
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_y",
+          "child_system_seconds": 0.006880999999999998,
+          "child_user_seconds": 0.28838399999999975,
+          "equation_stream_sha256": "2f7d475c4d26df25940c05b18df543d0e33b0f53e61d68cef498947d7c6a0059",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 32003,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.1546472499903757
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_z",
+          "child_system_seconds": 0.010877999999999999,
+          "child_user_seconds": 0.4322949999999999,
+          "equation_stream_sha256": "2f7d475c4d26df25940c05b18df543d0e33b0f53e61d68cef498947d7c6a0059",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 32003,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.15203295901301317
+        }
+      ],
+      "equation_build_seconds": 1.7844022090139333,
+      "equation_count": 55,
+      "lambda": 2,
+      "mu": 3,
+      "partition": [
+        4,
+        2,
+        2,
+        1,
+        1
+      ],
+      "prime": 32003,
+      "role": "training"
+    },
+    {
+      "all_charts_unit": true,
+      "charts": [
+        {
+          "basis_size": "1",
+          "chart": "line_x",
+          "child_system_seconds": 0.007196999999999981,
+          "child_user_seconds": 0.28823100000000057,
+          "equation_stream_sha256": "39711f2ff732edb1f103edd61c4d5e28f436c19e86a6933fef1ba6d51e584172",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 32009,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.15472620900254697
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_y",
+          "child_system_seconds": 0.011101,
+          "child_user_seconds": 0.4309970000000005,
+          "equation_stream_sha256": "39711f2ff732edb1f103edd61c4d5e28f436c19e86a6933fef1ba6d51e584172",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 32009,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.14968920798855834
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_z",
+          "child_system_seconds": 0.0032829999999999804,
+          "child_user_seconds": 0.14283100000000015,
+          "equation_stream_sha256": "39711f2ff732edb1f103edd61c4d5e28f436c19e86a6933fef1ba6d51e584172",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 32009,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.1490595839859452
+        }
+      ],
+      "equation_build_seconds": 1.786682459001895,
+      "equation_count": 55,
+      "lambda": 2,
+      "mu": 5,
+      "partition": [
+        4,
+        2,
+        2,
+        1,
+        1
+      ],
+      "prime": 32009,
+      "role": "training"
+    },
+    {
+      "all_charts_unit": true,
+      "charts": [
+        {
+          "basis_size": "1",
+          "chart": "line_x",
+          "child_system_seconds": 0.012975999999999988,
+          "child_user_seconds": 0.48577400000000015,
+          "equation_stream_sha256": "c6b9e1b73f99cf5244e767b43ecee04bfbc73b8955f9c6d6481527b2e3469721",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 65521,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.17140912500326522
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_y",
+          "child_system_seconds": 0.0044179999999999775,
+          "child_user_seconds": 0.16180899999999987,
+          "equation_stream_sha256": "c6b9e1b73f99cf5244e767b43ecee04bfbc73b8955f9c6d6481527b2e3469721",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 65521,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.1721008750027977
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_z",
+          "child_system_seconds": 0.008822999999999998,
+          "child_user_seconds": 0.32374800000000015,
+          "equation_stream_sha256": "c6b9e1b73f99cf5244e767b43ecee04bfbc73b8955f9c6d6481527b2e3469721",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 65521,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.1700699579960201
+        }
+      ],
+      "equation_build_seconds": 1.8435825829801615,
+      "equation_count": 55,
+      "lambda": 3,
+      "mu": 7,
+      "partition": [
+        4,
+        2,
+        2,
+        1,
+        1
+      ],
+      "prime": 65521,
+      "role": "holdout"
+    },
+    {
+      "all_charts_unit": true,
+      "charts": [
+        {
+          "basis_size": "1",
+          "chart": "line_x",
+          "child_system_seconds": 0.00925899999999999,
+          "child_user_seconds": 0.32836399999999966,
+          "equation_stream_sha256": "ab2c8eca5139aca3efc7d838789cfd46eef7bea0c8803799f4fedb9a8e15d08e",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 65537,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.1770783750107512
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_y",
+          "child_system_seconds": 0.013813999999999993,
+          "child_user_seconds": 0.49372099999999985,
+          "equation_stream_sha256": "ab2c8eca5139aca3efc7d838789cfd46eef7bea0c8803799f4fedb9a8e15d08e",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 65537,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.17420720899826847
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_z",
+          "child_system_seconds": 0.0046599999999999975,
+          "child_user_seconds": 0.16277899999999956,
+          "equation_stream_sha256": "ab2c8eca5139aca3efc7d838789cfd46eef7bea0c8803799f4fedb9a8e15d08e",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 65537,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.17276320900418796
+        }
+      ],
+      "equation_build_seconds": 1.8067462920153048,
+      "equation_count": 55,
+      "lambda": 5,
+      "mu": 11,
+      "partition": [
+        4,
+        2,
+        2,
+        1,
+        1
+      ],
+      "prime": 65537,
+      "role": "holdout"
+    },
+    {
+      "all_charts_unit": true,
+      "charts": [
+        {
+          "basis_size": "1",
+          "chart": "line_x",
+          "child_system_seconds": 0.003282000000000007,
+          "child_user_seconds": 0.052366000000000135,
+          "equation_stream_sha256": "8b185f3a34fa977fcf7139251ecd2928ae7771080ca412b57c62bdfb801f9141",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 32003,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.06064262497238815
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_y",
+          "child_system_seconds": 0.010729000000000016,
+          "child_user_seconds": 0.16073799999999938,
+          "equation_stream_sha256": "8b185f3a34fa977fcf7139251ecd2928ae7771080ca412b57c62bdfb801f9141",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 32003,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.06149420898873359
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_z",
+          "child_system_seconds": 0.007350999999999996,
+          "child_user_seconds": 0.10670599999999997,
+          "equation_stream_sha256": "8b185f3a34fa977fcf7139251ecd2928ae7771080ca412b57c62bdfb801f9141",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 32003,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.06424904099549167
+        }
+      ],
+      "equation_build_seconds": 1.8389807909843512,
+      "equation_count": 55,
+      "lambda": 2,
+      "mu": 3,
+      "partition": [
+        3,
+        3,
+        2,
+        1,
+        1
+      ],
+      "prime": 32003,
+      "role": "training"
+    },
+    {
+      "all_charts_unit": true,
+      "charts": [
+        {
+          "basis_size": "1",
+          "chart": "line_x",
+          "child_system_seconds": 0.003241999999999995,
+          "child_user_seconds": 0.0513830000000004,
+          "equation_stream_sha256": "cd5ed4fa8d023b7b0ffb6d602e2332505f3ae4b66f0021bc8fac653ae7404709",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 32009,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.05933008302235976
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_y",
+          "child_system_seconds": 0.00620699999999999,
+          "child_user_seconds": 0.10487400000000058,
+          "equation_stream_sha256": "cd5ed4fa8d023b7b0ffb6d602e2332505f3ae4b66f0021bc8fac653ae7404709",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 32009,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.05922095797723159
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_z",
+          "child_system_seconds": 0.009729999999999989,
+          "child_user_seconds": 0.15809600000000046,
+          "equation_stream_sha256": "cd5ed4fa8d023b7b0ffb6d602e2332505f3ae4b66f0021bc8fac653ae7404709",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 32009,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.06478391698328778
+        }
+      ],
+      "equation_build_seconds": 1.9037754579912871,
+      "equation_count": 55,
+      "lambda": 2,
+      "mu": 5,
+      "partition": [
+        3,
+        3,
+        2,
+        1,
+        1
+      ],
+      "prime": 32009,
+      "role": "training"
+    },
+    {
+      "all_charts_unit": true,
+      "charts": [
+        {
+          "basis_size": "1",
+          "chart": "line_x",
+          "child_system_seconds": 0.007264999999999994,
+          "child_user_seconds": 0.1167189999999998,
+          "equation_stream_sha256": "7f96ac88642ff14d0d2a4d169dc51284d37a7ecbf2d30567e6da0727c4950679",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 65521,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.06977224998991005
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_y",
+          "child_system_seconds": 0.0035350000000000104,
+          "child_user_seconds": 0.05880300000000016,
+          "equation_stream_sha256": "7f96ac88642ff14d0d2a4d169dc51284d37a7ecbf2d30567e6da0727c4950679",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 65521,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.07015829099691473
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_z",
+          "child_system_seconds": 0.010566999999999993,
+          "child_user_seconds": 0.17620400000000025,
+          "equation_stream_sha256": "7f96ac88642ff14d0d2a4d169dc51284d37a7ecbf2d30567e6da0727c4950679",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 65521,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.06701774999964982
+        }
+      ],
+      "equation_build_seconds": 1.8595366669760551,
+      "equation_count": 55,
+      "lambda": 3,
+      "mu": 7,
+      "partition": [
+        3,
+        3,
+        2,
+        1,
+        1
+      ],
+      "prime": 65521,
+      "role": "holdout"
+    },
+    {
+      "all_charts_unit": true,
+      "charts": [
+        {
+          "basis_size": "1",
+          "chart": "line_x",
+          "child_system_seconds": 0.0034230000000000094,
+          "child_user_seconds": 0.055750999999999884,
+          "equation_stream_sha256": "7ab7936593bc1e4cb6e2941237580243b6d621007c49274d60ccd6ecbe58c706",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 65537,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.06241766700986773
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_y",
+          "child_system_seconds": 0.0069140000000000035,
+          "child_user_seconds": 0.11526499999999995,
+          "equation_stream_sha256": "7ab7936593bc1e4cb6e2941237580243b6d621007c49274d60ccd6ecbe58c706",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 65537,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.06980679099797271
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_z",
+          "child_system_seconds": 0.010549000000000003,
+          "child_user_seconds": 0.17364899999999928,
+          "equation_stream_sha256": "7ab7936593bc1e4cb6e2941237580243b6d621007c49274d60ccd6ecbe58c706",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 65537,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.06705829201382585
+        }
+      ],
+      "equation_build_seconds": 1.934183875011513,
+      "equation_count": 55,
+      "lambda": 5,
+      "mu": 11,
+      "partition": [
+        3,
+        3,
+        2,
+        1,
+        1
+      ],
+      "prime": 65537,
+      "role": "holdout"
+    },
+    {
+      "all_charts_unit": true,
+      "charts": [
+        {
+          "basis_size": "1",
+          "chart": "line_x",
+          "child_system_seconds": 0.00934299999999999,
+          "child_user_seconds": 0.24450700000000047,
+          "equation_stream_sha256": "7ea56d0bdbe3bcfaff8e60a8b4c7605e06af85d106af91e1194fc9c201c64883",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 32003,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.1345617909973953
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_y",
+          "child_system_seconds": 0.01372699999999999,
+          "child_user_seconds": 0.36844000000000054,
+          "equation_stream_sha256": "7ea56d0bdbe3bcfaff8e60a8b4c7605e06af85d106af91e1194fc9c201c64883",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 32003,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.1329435000079684
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_z",
+          "child_system_seconds": 0.004635,
+          "child_user_seconds": 0.12312600000000007,
+          "equation_stream_sha256": "7ea56d0bdbe3bcfaff8e60a8b4c7605e06af85d106af91e1194fc9c201c64883",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 32003,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.13252558300155215
+        }
+      ],
+      "equation_build_seconds": 2.048088000010466,
+      "equation_count": 55,
+      "lambda": 2,
+      "mu": 3,
+      "partition": [
+        3,
+        2,
+        2,
+        2,
+        1
+      ],
+      "prime": 32003,
+      "role": "training"
+    },
+    {
+      "all_charts_unit": true,
+      "charts": [
+        {
+          "basis_size": "1",
+          "chart": "line_x",
+          "child_system_seconds": 0.007334000000000007,
+          "child_user_seconds": 0.23733100000000018,
+          "equation_stream_sha256": "9fe806c58e2217e87494be522256c86fb080cef62ec1071f181d0f837f10ff4e",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 32009,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.12780124999699183
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_y",
+          "child_system_seconds": 0.011193000000000008,
+          "child_user_seconds": 0.35664300000000004,
+          "equation_stream_sha256": "9fe806c58e2217e87494be522256c86fb080cef62ec1071f181d0f837f10ff4e",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 32009,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.12804174999473616
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_z",
+          "child_system_seconds": 0.003616000000000008,
+          "child_user_seconds": 0.1197020000000002,
+          "equation_stream_sha256": "9fe806c58e2217e87494be522256c86fb080cef62ec1071f181d0f837f10ff4e",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 32009,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.12830037498497404
+        }
+      ],
+      "equation_build_seconds": 2.069460792001337,
+      "equation_count": 55,
+      "lambda": 2,
+      "mu": 5,
+      "partition": [
+        3,
+        2,
+        2,
+        2,
+        1
+      ],
+      "prime": 32009,
+      "role": "training"
+    },
+    {
+      "all_charts_unit": true,
+      "charts": [
+        {
+          "basis_size": "1",
+          "chart": "line_x",
+          "child_system_seconds": 0.008265000000000022,
+          "child_user_seconds": 0.2675710000000002,
+          "equation_stream_sha256": "3c258000f190d28fe9db56d064bae59d68b25eab9aa99da4c060598b7146b636",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 65521,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.14224416701472364
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_y",
+          "child_system_seconds": 0.003699000000000008,
+          "child_user_seconds": 0.13465799999999994,
+          "equation_stream_sha256": "3c258000f190d28fe9db56d064bae59d68b25eab9aa99da4c060598b7146b636",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 65521,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.14218341701780446
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_z",
+          "child_system_seconds": 0.011948000000000014,
+          "child_user_seconds": 0.39940700000000007,
+          "equation_stream_sha256": "3c258000f190d28fe9db56d064bae59d68b25eab9aa99da4c060598b7146b636",
+          "is_unit": true,
+          "maximum_rss_native": 7962624,
+          "prime": 65521,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.14410395800950937
+        }
+      ],
+      "equation_build_seconds": 2.1478710830269847,
+      "equation_count": 55,
+      "lambda": 3,
+      "mu": 7,
+      "partition": [
+        3,
+        2,
+        2,
+        2,
+        1
+      ],
+      "prime": 65521,
+      "role": "holdout"
+    },
+    {
+      "all_charts_unit": true,
+      "charts": [
+        {
+          "basis_size": "1",
+          "chart": "line_x",
+          "child_system_seconds": 0.011581000000000008,
+          "child_user_seconds": 0.3938649999999999,
+          "equation_stream_sha256": "df4a2341334ff3bb419dc75c10a6f298b49d99ecce90050963da77060aaf1364",
+          "is_unit": true,
+          "maximum_rss_native": 8044544,
+          "prime": 65537,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.14237108401721343
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_y",
+          "child_system_seconds": 0.003796999999999995,
+          "child_user_seconds": 0.13142000000000031,
+          "equation_stream_sha256": "df4a2341334ff3bb419dc75c10a6f298b49d99ecce90050963da77060aaf1364",
+          "is_unit": true,
+          "maximum_rss_native": 8044544,
+          "prime": 65537,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.1424755420011934
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_z",
+          "child_system_seconds": 0.00758399999999998,
+          "child_user_seconds": 0.2629640000000002,
+          "equation_stream_sha256": "df4a2341334ff3bb419dc75c10a6f298b49d99ecce90050963da77060aaf1364",
+          "is_unit": true,
+          "maximum_rss_native": 8044544,
+          "prime": 65537,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.14296883399947546
+        }
+      ],
+      "equation_build_seconds": 2.1026912090019323,
+      "equation_count": 55,
+      "lambda": 5,
+      "mu": 11,
+      "partition": [
+        3,
+        2,
+        2,
+        2,
+        1
+      ],
+      "prime": 65537,
+      "role": "holdout"
+    },
+    {
+      "all_charts_unit": true,
+      "charts": [
+        {
+          "basis_size": "1",
+          "chart": "line_x",
+          "child_system_seconds": 0.0068030000000000035,
+          "child_user_seconds": 0.38559000000000054,
+          "equation_stream_sha256": "12793f6905a0f07d7479e21678776a0d6e1c22e39f8a05c07707c0298561d858",
+          "is_unit": true,
+          "maximum_rss_native": 8339456,
+          "prime": 32003,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.2027183750178665
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_y",
+          "child_system_seconds": 0.01028399999999996,
+          "child_user_seconds": 0.5793809999999997,
+          "equation_stream_sha256": "12793f6905a0f07d7479e21678776a0d6e1c22e39f8a05c07707c0298561d858",
+          "is_unit": true,
+          "maximum_rss_native": 8339456,
+          "prime": 32003,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.20631804098957218
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_z",
+          "child_system_seconds": 0.003466999999999998,
+          "child_user_seconds": 0.1929160000000003,
+          "equation_stream_sha256": "12793f6905a0f07d7479e21678776a0d6e1c22e39f8a05c07707c0298561d858",
+          "is_unit": true,
+          "maximum_rss_native": 8339456,
+          "prime": 32003,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.20150387499597855
+        }
+      ],
+      "equation_build_seconds": 2.309769374987809,
+      "equation_count": 55,
+      "lambda": 2,
+      "mu": 3,
+      "partition": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "prime": 32003,
+      "role": "training"
+    },
+    {
+      "all_charts_unit": true,
+      "charts": [
+        {
+          "basis_size": "1",
+          "chart": "line_x",
+          "child_system_seconds": 0.01248100000000002,
+          "child_user_seconds": 0.5827939999999998,
+          "equation_stream_sha256": "dc089046e3aa65631281e1d4cbdc37a1736adc470cb5e6a20c796c1b5697d357",
+          "is_unit": true,
+          "maximum_rss_native": 8339456,
+          "prime": 32009,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.2037408750038594
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_y",
+          "child_system_seconds": 0.004313000000000011,
+          "child_user_seconds": 0.1940799999999996,
+          "equation_stream_sha256": "dc089046e3aa65631281e1d4cbdc37a1736adc470cb5e6a20c796c1b5697d357",
+          "is_unit": true,
+          "maximum_rss_native": 8339456,
+          "prime": 32009,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.20375166600570083
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_z",
+          "child_system_seconds": 0.008174000000000015,
+          "child_user_seconds": 0.3874469999999999,
+          "equation_stream_sha256": "dc089046e3aa65631281e1d4cbdc37a1736adc470cb5e6a20c796c1b5697d357",
+          "is_unit": true,
+          "maximum_rss_native": 8339456,
+          "prime": 32009,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.20325166700058617
+        }
+      ],
+      "equation_build_seconds": 2.272745416004909,
+      "equation_count": 55,
+      "lambda": 2,
+      "mu": 5,
+      "partition": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "prime": 32009,
+      "role": "training"
+    },
+    {
+      "all_charts_unit": true,
+      "charts": [
+        {
+          "basis_size": "1",
+          "chart": "line_x",
+          "child_system_seconds": 0.015129000000000004,
+          "child_user_seconds": 0.6811489999999996,
+          "equation_stream_sha256": "e1786107f2ff58afd2f5fd3a7ae9ad559dce250424d41ff1a4f4fdb8412bf5e1",
+          "is_unit": true,
+          "maximum_rss_native": 8601600,
+          "prime": 65521,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.23610237499815412
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_y",
+          "child_system_seconds": 0.00949300000000003,
+          "child_user_seconds": 0.45475000000000065,
+          "equation_stream_sha256": "e1786107f2ff58afd2f5fd3a7ae9ad559dce250424d41ff1a4f4fdb8412bf5e1",
+          "is_unit": true,
+          "maximum_rss_native": 8601600,
+          "prime": 65521,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.23983733300701715
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_z",
+          "child_system_seconds": 0.004392000000000007,
+          "child_user_seconds": 0.22614599999999996,
+          "equation_stream_sha256": "e1786107f2ff58afd2f5fd3a7ae9ad559dce250424d41ff1a4f4fdb8412bf5e1",
+          "is_unit": true,
+          "maximum_rss_native": 8503296,
+          "prime": 65521,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.23528787499526516
+        }
+      ],
+      "equation_build_seconds": 2.2789080000075046,
+      "equation_count": 55,
+      "lambda": 3,
+      "mu": 7,
+      "partition": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "prime": 65521,
+      "role": "holdout"
+    },
+    {
+      "all_charts_unit": true,
+      "charts": [
+        {
+          "basis_size": "1",
+          "chart": "line_x",
+          "child_system_seconds": 0.011683999999999972,
+          "child_user_seconds": 0.6720990000000011,
+          "equation_stream_sha256": "a920d64ee101081cf9e5fe949464763ad3874a317c88cea6b258f95f499d44b1",
+          "is_unit": true,
+          "maximum_rss_native": 8601600,
+          "prime": 65537,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.23294045799411833
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_y",
+          "child_system_seconds": 0.007693000000000005,
+          "child_user_seconds": 0.446492000000001,
+          "equation_stream_sha256": "a920d64ee101081cf9e5fe949464763ad3874a317c88cea6b258f95f499d44b1",
+          "is_unit": true,
+          "maximum_rss_native": 8601600,
+          "prime": 65537,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.23328191600739956
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_z",
+          "child_system_seconds": 0.003952000000000011,
+          "child_user_seconds": 0.22339800000000132,
+          "equation_stream_sha256": "a920d64ee101081cf9e5fe949464763ad3874a317c88cea6b258f95f499d44b1",
+          "is_unit": true,
+          "maximum_rss_native": 8601600,
+          "prime": 65537,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.2307811250211671
+        }
+      ],
+      "equation_build_seconds": 2.3525494170025922,
+      "equation_count": 55,
+      "lambda": 5,
+      "mu": 11,
+      "partition": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "prime": 65537,
+      "role": "holdout"
+    }
+  ],
+  "schema": "hc4-double-conic-five-support-scout-v1",
+  "status": "PASS",
+  "wall_seconds": 66.90370629099198
+}

@@ -1,0 +1,1 @@
+{"status": "PASS_P181_RESIDUAL81_TWELVE_DIGIT_LIFT", "receipt": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-residual81-twelve-digit-20260831T010/extension.json", "sha256": "106d5ab04c625eff60c7a0bdfc1cacf512fb3cb5b3a82a43d0adff77c20002cb"}

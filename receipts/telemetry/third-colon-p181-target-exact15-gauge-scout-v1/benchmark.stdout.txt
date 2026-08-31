@@ -1,0 +1,1 @@
+{"status": "PASS_NONIMPROVING_P181_TARGET_EXACT15_GAUGE_SCOUT", "receipt": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/target-exact15-gauge-20260831T008/gauge-scout.json", "sha256": "9b1210767ef6d9a3c33878a3dfc607df0dbfb20744dfaea4eee343ff4177debd"}

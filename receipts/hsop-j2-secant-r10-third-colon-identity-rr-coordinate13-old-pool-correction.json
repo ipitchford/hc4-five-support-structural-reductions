@@ -1,0 +1,121 @@
+{
+  "all_six_new_primes_reject": true,
+  "candidate_twice_product_bit_length": 634,
+  "claim_boundary": "This correction concerns only the rational interpretation of one fixed-gauge coordinate. It does not retract any exact modular identity and makes no characteristic-zero ideal-membership, colon, saturation, secant, or HC4 claim.",
+  "coordinate": 13,
+  "new_prime_falsifiers": [
+    {
+      "artifact": {
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-fixed-free-p2147483123.json",
+        "sha256": "d595908f735fb09845c53930521a7f6d8791c401999b2441b9df28812eb424f1"
+      },
+      "candidate_matches": false,
+      "candidate_predicted_residue": 1185191408,
+      "characteristic": 2147483123,
+      "difference_mod_characteristic": 1643260991,
+      "modular_receipt": {
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/receipts/hsop-j2-secant-r10-third-colon-identity-fixed-free-p2147483123.json",
+        "sha256": "eb3bfdd8de93a1759fd1e52ade276420fc45df7e1ecabd555a98b45ac696d035",
+        "status": "PASS_EXACT_MODULAR_THIRD_COLON_IDENTITY"
+      },
+      "observed_coordinate_residue": 1689413540
+    },
+    {
+      "artifact": {
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-fixed-free-p2147483077.json",
+        "sha256": "fb6144f8d24c7e0b6763f53dfa39298d2b2d00cfbd6a32f003e74bd173e12592"
+      },
+      "candidate_matches": false,
+      "candidate_predicted_residue": 1013146530,
+      "characteristic": 2147483077,
+      "difference_mod_characteristic": 1758545841,
+      "modular_receipt": {
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/receipts/hsop-j2-secant-r10-third-colon-identity-fixed-free-p2147483077.json",
+        "sha256": "62e5a7bc3f9b733da7e4ab9631371324de164c10d90e54f6abe2a029b6ac2e84",
+        "status": "PASS_EXACT_MODULAR_THIRD_COLON_IDENTITY"
+      },
+      "observed_coordinate_residue": 1402083766
+    },
+    {
+      "artifact": {
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-fixed-free-p2147483069.json",
+        "sha256": "1dc9415bb069d672ca5bdff9ce6faf9bb73d015f2a4fb9a7908e7c1772a43d0f"
+      },
+      "candidate_matches": false,
+      "candidate_predicted_residue": 1435465282,
+      "characteristic": 2147483069,
+      "difference_mod_characteristic": 56748099,
+      "modular_receipt": {
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/receipts/hsop-j2-secant-r10-third-colon-identity-fixed-free-p2147483069.json",
+        "sha256": "a921f54809df56997521b8be5b5ddbbd2ba270b05263f0d542bfa47615cf8d0c",
+        "status": "PASS_EXACT_MODULAR_THIRD_COLON_IDENTITY"
+      },
+      "observed_coordinate_residue": 1378717183
+    },
+    {
+      "artifact": {
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-fixed-free-p2147483059.json",
+        "sha256": "3ad70e6888f05c0760ccf2d2de1e6153390eefc759183752c532009c3a484bc4"
+      },
+      "candidate_matches": false,
+      "candidate_predicted_residue": 88414907,
+      "characteristic": 2147483059,
+      "difference_mod_characteristic": 1863510680,
+      "modular_receipt": {
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/receipts/hsop-j2-secant-r10-third-colon-identity-fixed-free-p2147483059.json",
+        "sha256": "0540170c344dbbb253e35b301bd91c54988428c1b75f92b45105a3bc50e655d5",
+        "status": "PASS_EXACT_MODULAR_THIRD_COLON_IDENTITY"
+      },
+      "observed_coordinate_residue": 372387286
+    },
+    {
+      "artifact": {
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-fixed-free-p2147483053.json",
+        "sha256": "ac9f2e32242bd5e4ba3073ed0221c318593dd257f4bbbe7b87ec818689c7f01e"
+      },
+      "candidate_matches": false,
+      "candidate_predicted_residue": 1848395971,
+      "characteristic": 2147483053,
+      "difference_mod_characteristic": 1524673954,
+      "modular_receipt": {
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/receipts/hsop-j2-secant-r10-third-colon-identity-fixed-free-p2147483053.json",
+        "sha256": "402891d49fac5e589f2242cc439ed199f14384dfd80c22419ff34444de1edb4f",
+        "status": "PASS_EXACT_MODULAR_THIRD_COLON_IDENTITY"
+      },
+      "observed_coordinate_residue": 323722017
+    },
+    {
+      "artifact": {
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-fixed-free-p2147483033.json",
+        "sha256": "6cc8b26060d14b331c1c4b58ef76db51fe32f6dab009f71648bafa1e703d4d35"
+      },
+      "candidate_matches": false,
+      "candidate_predicted_residue": 178011203,
+      "characteristic": 2147483033,
+      "difference_mod_characteristic": 455625243,
+      "modular_receipt": {
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/receipts/hsop-j2-secant-r10-third-colon-identity-fixed-free-p2147483033.json",
+        "sha256": "2be2bd1ad28775b764f79d9ea3cd071398b7e2088976eb170a337592d194e294",
+        "status": "PASS_EXACT_MODULAR_THIRD_COLON_IDENTITY"
+      },
+      "observed_coordinate_residue": 1869868993
+    }
+  ],
+  "old_pool_receipt": {
+    "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/receipts/hsop-j2-secant-r10-third-colon-identity-rr-coordinate13-independent-audit.json",
+    "sha256": "089ea8161cf77103b533b48df6ca110c101e1ad29ba31cae6e2608baa9e5639b",
+    "status": "PASS_INDEPENDENT_COORDINATE13_CRT_PROFILE"
+  },
+  "preserved_old_pool_result": "The fraction remains an exact strict-product candidate compatible with the old 23-prime pool and its three small-prime leave-one-out tests. This pool-relative compatibility did not identify the characteristic-zero coefficient.",
+  "rejected_candidate": {
+    "denominator": "84852601",
+    "numerator": "-303117853966975809344472432454527326602304150142809814264909409693684376567348940486580259893160254806967553359938433903087461094978379292473369929355112954577338675354410092218484096"
+  },
+  "retracted_interpretation": "The displayed 634-bit fraction was described as the reconstructed or true fixed-gauge coordinate 13. That interpretation is false.",
+  "schema": "hc4.third-colon-coordinate13-old-pool-correction.v1",
+  "source_script": {
+    "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/scripts/audit_j2_secant_r10_third_colon_coordinate13_old_pool_correction.py",
+    "sha256": "ac9721fb85839aa5ddf3c6e83984f60e77b59c746e97125bd5d50f8c5362e89c"
+  },
+  "status": "CORRECTION_RETRACT_OLD_POOL_COORDINATE13_INTERPRETATION"
+}

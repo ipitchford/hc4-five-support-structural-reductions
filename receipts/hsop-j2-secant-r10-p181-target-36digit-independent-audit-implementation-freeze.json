@@ -1,0 +1,28 @@
+{
+  "schema": "hc4.third-colon-p181-target-36digit-independent-audit-freeze.v1",
+  "status": "PASS_P181_TARGET_36DIGIT_INDEPENDENT_AUDIT_FREEZE",
+  "frozen_at_utc": "2026-08-31T16:25:00Z",
+  "bound_files": {
+    "research/THIRD_COLON_P181_TARGET_36DIGIT_INDEPENDENT_AUDIT_PREREGISTRATION.md": "d5dc8d413934f71d07e66bfd09faea448833b9201c6ea8f4fcfd2ef6ea3a4872",
+    "scripts/audit_p181_target_36digit_extension_independent.py": "ca319e3455a70982a9b8c35fe22de3b4a5a5bbcc938cd3737b8e80967dc1d180",
+    "artifacts/third-colon-p181-source-clean-integral-lift-system-v1/A_Z_b_Z_fixed_gauge.i64csr": "5064cfea27bc16ad9977d651f6215b407e2e3865df3dfc65ad15213b27d5ab8d",
+    "artifacts/third-colon-p181-target-24digit-extension-v1/X_mod_181_power_24.json": "8ae529279ccdc3fef924199ea78e2a070571254753e1a318beb6852aa61c9d9e",
+    "artifacts/third-colon-p181-target-24digit-extension-v1/terminal_q24.i64le": "9eb6a7295d0b027d8be189b986712870ffb2e24d034d01c3a4d4e112f1421642",
+    "receipts/hsop-j2-secant-r10-p181-target-24digit-extension-independent-audit.json": "27d9f2cbb04b5561496461908b8ff4842a4baff1bb393d228ce191da34de2e04",
+    "artifacts/third-colon-p181-target-36digit-extension-v1/extension.json": "a6be3af91ad4e2e05ce7af3e44e735303124a9928100fc23f21f89076df32424",
+    "artifacts/third-colon-p181-target-36digit-extension-v1/X_mod_181_power_36.json": "7c03c9b905bfbcd7393de827696a6434e0ca02ed4bd8fb4bb8f59f44d86d005c",
+    "artifacts/third-colon-p181-target-36digit-extension-v1/terminal_q36.i64le": "8c9eec7ec5422a3862b002327533db68476e23679a912cc3d7348d7f356ce610",
+    "receipts/hsop-j2-secant-r10-p181-target-36digit-extension-terminal.json": "2840d4987a707b2c4dd8be908ac42089da96f4b5871fe6b8f570703de42af3c7"
+  },
+  "policy": {
+    "wall_seconds_maximum": 120,
+    "rss_bytes_maximum": 1500000000,
+    "process_swaps_maximum": 0,
+    "producer_import_forbidden": true,
+    "driver_execution_forbidden": true,
+    "new_digit_forbidden": true,
+    "target_membership_claim_forbidden": true
+  },
+  "canonical_output": "receipts/hsop-j2-secant-r10-p181-target-36digit-extension-independent-audit.json",
+  "claim_boundary": "A PASS independently certifies the finite fixed-main p36 lift, census, and p24-to-p36 stability only. It does not prove rational target membership or any colon, saturation, secant, nullcone, or HC4 conclusion."
+}

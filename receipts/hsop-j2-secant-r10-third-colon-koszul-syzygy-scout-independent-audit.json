@@ -1,0 +1,125 @@
+{
+  "assurance": "independent reconstruction, exact coefficientwise syzygy audit, and finite-field rank witness",
+  "claim_boundary": "A PASS proves only that an implementation independent of the frozen scout reconstructed the canonically sign-normalized 2,053 pairwise primitive integer Koszul vectors from the same frozen inputs, verified A*K=0 coefficientwise over QQ, and found rank 2,053 modulo 181, hence rank 2,053 over QQ. The producer's 8a36159e byte-stream hash is bound through its frozen receipt but is not reserialized because that byte encoding is undocumented and producer-source inspection was forbidden. This audit performs no QQ target-membership test, multiplier reconstruction, colon or saturation computation, quotient construction or replay, HNF/SNF, extra-prime or CRT computation, secant-chart closure, nullcone proof, or HC4 proof.",
+  "dimensions": {
+    "active_multiplier_coordinate_count": 28853,
+    "cubic_cubic_column_count": 1993,
+    "cubic_generator_count": 17,
+    "cubic_quartic_column_count": 60,
+    "generator_count": 19,
+    "koszul_column_count": 2053,
+    "koszul_nonzero_count": 154939,
+    "multiplier_coordinate_count": 38048,
+    "quartic_generator_count": 2,
+    "quartic_quartic_column_count": 0
+  },
+  "exact_checks": {
+    "all_exact_convolutions_zero": true,
+    "all_primitive_integer_columns": true,
+    "coefficientwise_convolution_update_count": 5990942,
+    "content_invariant_primitive_reconstruction_passed": true,
+    "matching_size": 2053,
+    "maximum_temporary_convolution_support": 7158,
+    "p181_support_preserved": true,
+    "producer_primitive_byte_stream_hash_bound_from_frozen_receipt": true,
+    "producer_primitive_byte_stream_hash_reproduced": false,
+    "rank_implication": "A nonzero 2053-by-2053 minor modulo 181 is a nonzero integer minor, so rank over QQ is at least 2053; 2053 columns give the reverse bound.",
+    "rank_mod_181": 2053,
+    "rank_over_QQ_equals_column_count": true
+  },
+  "hashes": {
+    "column_metadata_serialization_is_independent": true,
+    "column_metadata_sha256": "e20abc037641071dbbcb1da4b3bd6680613a41dd43fb8e9cae91cfa3d99cb270",
+    "component_profiles_sha256": "328c4d98a339d5fb11fbfa70a9e5207779166cd416bbf29392d685d165e5bcd2",
+    "descriptor_stream_sha256": "0f0e46bb94241fa478c6cbdcf33c4472128ad4ed48a8fdaebd88e19028948639",
+    "frozen_inputs": {
+      "artifacts/j2-secant-r10-first-colon-kernel-qq.json": "2c6b84ad400634a0f54aa54c3ebfb49b6ae3453240335713f07681fa5773d130",
+      "artifacts/j2-secant-r10-second-colon-kernel-qq-candidate.json": "c41e7c02e7163a0f1a2e71cd7fd5f0d38167b37f3f832019fa069c0ffd2bf37e",
+      "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181.json": "26be0a64574c3cdbe6f7d0c323f9a5e4beb9b8df8e568f9daa054744160bc0a1",
+      "receipts/hsop-j2-secant-r10-third-colon-identity-alt-gauge-p181.json": "fe32cc53e81cf50e6c34881c5c61605938178a366986fae6ce872670aa9ddc6a",
+      "receipts/hsop-j2-secant-r10-third-colon-koszul-syzygy-scout.json": "6b7451265043da89ee359b756ae5d8e25dd08e26ed09146d8b6e65603e0f6875",
+      "scripts/audit_j2_secant_r10_third_colon_koszul_syzygy_scout.py": "39a73daab21470954300b9053c716c9dc300a491a9c81648b89539369eeb9988",
+      "scripts/scout_j2_secant_r10_homogeneous_saturation.py": "8ba0c949784491272323cf2b411b0055c7d81d810513faa5428ed90fe1293a14"
+    },
+    "generator_stream_sha256": "4e5ca7f6ed60548f84d6a84a4fa272c044b76be4ab3788b091376bf54f9ada4b",
+    "matching_vector_sha256": "c0d2d067a4a79feeff85816301757f1264641fe14be60b974bcee1291524281a",
+    "primitive_column_stream_sha256": "bf22711579d285ebcafd81b95f20b9b7193c360c360452feb6de67e74e30d856",
+    "reference_column_metadata_sha256": "6dd2203260d3a2cab47df37476acd05ba718ed60f80137db362dfdbf173df752",
+    "reference_primitive_column_stream_sha256": "8a36159e01332cfc8fac9449e95001a069e440e8f7242965e756c09d15dfea76",
+    "retained_metadata_serialization_failure": {
+      "path": "receipts/hsop-j2-secant-r10-third-colon-koszul-syzygy-scout-independent-audit-failed-metadata-serialization.json",
+      "sha256": "73d11eab68fc8a6e85494f1deab36b93f773740faab856420f90b525564491e2"
+    },
+    "source_sha256": "eb265d352165c222e051baccd8f63406c5716bdf2fb4cbd6b7165413058e37ea"
+  },
+  "independence_boundary": {
+    "primary_scout_imported_or_executed": false,
+    "primary_scout_source_used_as_code": false,
+    "rank_implementation": "independent_incremental_sparse_column_echelon_mod_181",
+    "sage_matrix_rank_used": false
+  },
+  "modular_rank": {
+    "algorithm": "independent_incremental_sparse_column_echelon_mod_181",
+    "basis_nonzero_count": 1271465,
+    "coefficient_update_count": 13219315,
+    "maximum_working_support": 7318,
+    "pivot_count": 2053,
+    "pivot_sequence_sha256": "c7b305a434025cf4b9eea5aa720f38f419fbed7da121f5b2bba2e9a60c7676dd",
+    "reduction_count": 15351
+  },
+  "resources": {
+    "maximum_rss_native": 187531264,
+    "rss_cap_bytes": 2000000000,
+    "system_cpu_seconds": 0.093236,
+    "user_cpu_seconds": 22.990591,
+    "wall_cap_seconds": 180.0
+  },
+  "schema": "hc4.third-colon-koszul-syzygy-scout-independent-audit.v1",
+  "status": "PASS_INDEPENDENT_CONTENT_INVARIANT_2053_KOSZUL_SYZYGIES_AND_RANK",
+  "support_graph": {
+    "active_coordinate_degree_histogram": {
+      "1": 4241,
+      "10": 1115,
+      "11": 822,
+      "12": 779,
+      "13": 461,
+      "14": 336,
+      "15": 257,
+      "16": 162,
+      "17": 102,
+      "18": 58,
+      "19": 25,
+      "2": 3486,
+      "20": 23,
+      "21": 5,
+      "22": 3,
+      "24": 1,
+      "3": 3359,
+      "4": 2940,
+      "5": 2778,
+      "6": 2529,
+      "7": 2151,
+      "8": 1804,
+      "9": 1416
+    },
+    "active_coordinate_degree_maximum": 24,
+    "active_coordinate_degree_minimum": 1,
+    "component_count": 1,
+    "component_size_pairs": [
+      [
+        2053,
+        28853
+      ]
+    ],
+    "matching_edge_scan_count": 158648,
+    "matching_round_count": 2,
+    "matching_size": 2053
+  },
+  "timings": {
+    "column_enumeration_and_exact_convolution_seconds": 14.487538750021486,
+    "graph_seconds": 0.06134483398636803,
+    "input_and_descriptor_build_seconds": 6.788285791990347,
+    "modular_rank_seconds": 1.5318273339944426,
+    "total_wall_seconds": 22.869134374981513
+  }
+}

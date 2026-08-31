@@ -1,0 +1,28 @@
+{
+  "schema": "hc4.third-colon-p181-support18-exact-rational-replay-implementation-freeze.v1",
+  "status": "PASS_P181_SUPPORT18_EXACT_RATIONAL_REPLAY_FREEZE",
+  "bound_files": {
+    "research/THIRD_COLON_P181_SUPPORT18_EXACT_RATIONAL_REPLAY_PREREGISTRATION.md": "47dfe0f57acf2165ad305d0e537f49fa1d9abb20555094a5fd8820380c07b8ff",
+    "scripts/reconstruct_p181_support18_exact_rational.py": "272749e9ff1f9ee180d97514dff1a2645c00d7bee029d2d91af4df6bca662e1d",
+    "scripts/run_p181_support18_exact_rational_replay_gated.py": "3bbce8ce470922a407b17816c03c1d0c36b02737a092dc482f6fb07fb24b0212",
+    "scripts/reconstruct_p181_sparse4_exact_rational.py": "49072e53d2ee41073df666e5720e0d25515456fcf7d1fc42559d22fff031e9ff",
+    "scripts/run_p181_target_blind_linbox_rank_gated.py": "a282b31bca01c972ff5d294b64ddca103d2ea6c1c6bab8f6f12ddc7b800b83de",
+    "artifacts/third-colon-p181-support18-two-digit-lift-v1/integral/A_Z_b4_Z_coefficient_primitive.i64csr": "2524b706b88278187924f103245ddfd999ce2f21e2c848058fc723498c4682e1",
+    "artifacts/third-colon-p181-support18-four-digit-extension-v1/X_mod_181_power_4_sparse4_row_major.u32le": "f60e1a8365b53840fafdb910a746ab4e749b3f2a0d402c6bcdb99cbc8ebd6b71",
+    "receipts/hsop-j2-secant-r10-p181-support18-four-digit-extension-terminal.json": "5f52347249f45434f62f59fd2bc5cd00b55d23d2908a84b50e10ee588147fafa"
+  },
+  "policy": {
+    "wall_seconds_maximum": 300,
+    "rss_bytes_maximum": 1500000000,
+    "process_swaps_maximum": 0,
+    "equal_height_reconstruction": true,
+    "solver_execution_forbidden": true,
+    "fifth_digit_forbidden": true
+  },
+  "canonical_outputs": {
+    "artifact": "artifacts/third-colon-p181-support18-exact-rational-replay-v1",
+    "telemetry": "receipts/telemetry/third-colon-p181-support18-exact-rational-replay-v1",
+    "terminal": "receipts/hsop-j2-secant-r10-p181-support18-exact-rational-replay-terminal.json"
+  },
+  "claim_boundary": "A PASS proves 18 exact rational source syzygies and, with the earlier four, rational quotient lower bound 22. It does not prove target membership, a colon, saturation, secant closure, nullcone containment, or HC4."
+}

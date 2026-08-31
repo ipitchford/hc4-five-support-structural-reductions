@@ -1,0 +1,62 @@
+{
+  "claim_boundary": "A PASS without exact rational replay is finite eight-digit p-adic evidence only. Any exact integral-system replay still requires independent symbolic replay; no colon, saturation, secant, nullcone, or HC4 theorem follows.",
+  "completed_corrections": 0,
+  "declarations": {
+    "fixed_p181": true,
+    "maximum_total_digits": 8,
+    "no_ninth_digit": true,
+    "quarantined_dixon_bundle_not_read": true
+  },
+  "implementation_freeze": {
+    "path": "receipts/hsop-j2-secant-r10-p181-augmented-nullspace-8digit-lift-implementation-freeze.json",
+    "sha256": "909c25737bf12a38615851c4179e04919b31d4106ac4747083ee39db727b7cca"
+  },
+  "producer_status": null,
+  "promoted": {
+    "artifact": {
+      "correction_rhs_digit_1.u8": "4ef02fc7aa5d04cc530a078cb90cd7e6d67fd621e491e23e94bd1cc7f2f4a496",
+      "digit_1.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "digit_1.stdout.txt": "38d4d7cbddf990a9fedcd9f24e45072ab7effaaa23857cabb2247c2726699481",
+      "digit_1.u8": "7a1156eb392067a22397e2722119a912002d83ed659dcd8748937c7cd0a9ea7d"
+    },
+    "telemetry": {
+      "benchmark.stderr.txt": "5c3709553f5b26d4f69584e09e5f83c4e226f8b9cb624a7dc750a5806a9b3b8f",
+      "benchmark.stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "benchmark.time.txt": "f303b5eb9213ed9159bf8f443d18ff219162b120e615fc1f6a39a73272627e55"
+    }
+  },
+  "schema": "hc4.decimic-j2-secant-r10-p181-augmented-nullspace-8digit-lift-terminal.v1",
+  "status": "FAIL_P181_AUGMENTED_NULLSPACE_8DIGIT_LIFT_INTEGRITY",
+  "telemetry": {
+    "ancestry_samples": 280,
+    "command": [
+      "/usr/bin/time",
+      "-l",
+      "-o",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-augmented-nullspace-8digit-lift-telemetry-20260831T001/benchmark.time.txt",
+      "/opt/homebrew/bin/gtimeout",
+      "-s",
+      "TERM",
+      "-k",
+      "10s",
+      "1200s",
+      "/usr/bin/python3",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/scripts/lift_p181_third_colon_augmented_nullspace_8digits.py",
+      "--output-dir",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-augmented-nullspace-8digit-lift-20260831T001"
+    ],
+    "external_time": {
+      "maximum_rss_bytes": 163004416,
+      "process_swaps": 0,
+      "raw_sha256": "f303b5eb9213ed9159bf8f443d18ff219162b120e615fc1f6a39a73272627e55",
+      "real_seconds": 81.86,
+      "system_seconds": 1.02,
+      "user_seconds": 75.72
+    },
+    "return_code": 1,
+    "rss_breach_killed": false,
+    "sampled_descendant_rss_peak_bytes": 248201216,
+    "stderr_sha256": "5c3709553f5b26d4f69584e09e5f83c4e226f8b9cb624a7dc750a5806a9b3b8f",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

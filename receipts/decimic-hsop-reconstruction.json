@@ -1,0 +1,71 @@
+{
+  "base_values_sha256": "72fab1e7baf6f492dbb14281b1a665221e947d250dc10a29373c11e67b9f5682",
+  "checks": {
+    "eight_parameters": true,
+    "multiplicity_six_nullform_vanishes": true,
+    "nonnull_control_detected": true,
+    "three_exact_sl2_transforms": true
+  },
+  "claim_boundary": "reconstructs and audits the invariant frontend only; no clean ideal membership or nullcone containment is inferred",
+  "covariance_rows": [
+    {
+      "equal_to_base": true,
+      "matrix": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "values_sha256": "72fab1e7baf6f492dbb14281b1a665221e947d250dc10a29373c11e67b9f5682"
+    },
+    {
+      "equal_to_base": true,
+      "matrix": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "values_sha256": "72fab1e7baf6f492dbb14281b1a665221e947d250dc10a29373c11e67b9f5682"
+    },
+    {
+      "equal_to_base": true,
+      "matrix": [
+        0,
+        -1,
+        1,
+        0
+      ],
+      "values_sha256": "72fab1e7baf6f492dbb14281b1a665221e947d250dc10a29373c11e67b9f5682"
+    }
+  ],
+  "degrees": {
+    "A6": 6,
+    "C6": 6,
+    "j10": 10,
+    "j14_plus_A14": 14,
+    "j2": 2,
+    "j4": 4,
+    "j8": 8,
+    "j9": 9
+  },
+  "normalization": "unnormalised transvectants; vanishing locus unchanged",
+  "nullform_values": {
+    "A6": 0,
+    "C6": 0,
+    "j10": 0,
+    "j14_plus_A14": 0,
+    "j2": 0,
+    "j4": 0,
+    "j8": 0,
+    "j9": 0
+  },
+  "schema": "hc4-binary-decimic-hsop-reconstruction-v1",
+  "source": {
+    "arxiv": "1002.1008",
+    "citation": "Brouwer-Popoviciu, The invariants of the binary decimic",
+    "doi": "10.1016/j.jsc.2010.03.002"
+  },
+  "status": "PASS",
+  "wall_seconds": 4.385979625018081
+}

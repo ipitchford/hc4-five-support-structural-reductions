@@ -1,0 +1,1 @@
+{"status": "PASS_P181_CANONICAL_RESIDUAL_114_MODULAR_KERNEL_SECTION", "receipt": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-canonical-residual-114-section-20260831T001/producer.json", "sha256": "f4ac97c24298ebfcfef8134fed42af2b2916d6eb6712718b1358f6234336a6df"}

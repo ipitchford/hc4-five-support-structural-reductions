@@ -1,0 +1,54 @@
+{
+  "claim_boundary": "A PASS is one deterministic height comparison only, not rational target membership, colon, saturation, secant, nullcone, or HC4.",
+  "implementation_freeze": {
+    "path": "receipts/hsop-j2-secant-r10-p181-target-exact15-gauge-scout-implementation-freeze.json",
+    "sha256": "4ce866b3ca7847b54cb905a7076e40d61c93b16bdf248fa62b077df3775c80af"
+  },
+  "promoted": {
+    "artifact": {
+      "adjusted_main_residues_mod_181_power_18.json": "7b6d141e9c28fbeaea854de15164a0c9cac76748b54a186d097d625c88555b06",
+      "gauge-scout.json": "9b1210767ef6d9a3c33878a3dfc607df0dbfb20744dfaea4eee343ff4177debd",
+      "residual_parameters_mod_181_power_18.json": "4e96d751b9572feb01be1b9e2ba89f537a7a999f18e8533eb2da96c4e5036f7b"
+    },
+    "telemetry": {
+      "benchmark.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "benchmark.stdout.txt": "43a0865ed516fb54de63a406fbfef96a7292616da9ab88c274523287bdb034db",
+      "benchmark.time.txt": "cfb8ff394e7636deb03bbcdcf73cc6c600e5fec525e2541ccbd59a5d22b9dd26"
+    }
+  },
+  "schema": "hc4.third-colon-p181-target-exact15-gauge-scout-terminal.v1",
+  "status": "PASS_NONIMPROVING_P181_TARGET_EXACT15_GAUGE_SCOUT",
+  "telemetry": {
+    "ancestry_samples": 8,
+    "command": [
+      "/usr/bin/time",
+      "-l",
+      "-o",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/target-exact15-gauge-telemetry-20260831T008/benchmark.time.txt",
+      "/opt/homebrew/bin/gtimeout",
+      "-s",
+      "TERM",
+      "-k",
+      "10s",
+      "120s",
+      "/Users/admin/.local/bin/sage",
+      "-python",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/scripts/scout_p181_target_exact15_gauge.py",
+      "--output-dir",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/target-exact15-gauge-20260831T008"
+    ],
+    "external_time": {
+      "maximum_rss_bytes": 108445696,
+      "process_swaps": 0,
+      "raw_sha256": "cfb8ff394e7636deb03bbcdcf73cc6c600e5fec525e2541ccbd59a5d22b9dd26",
+      "real_seconds": 2.8,
+      "system_seconds": 0.09,
+      "user_seconds": 0.89
+    },
+    "return_code": 0,
+    "rss_breach_killed": false,
+    "sampled_descendant_rss_peak_bytes": 106741760,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "43a0865ed516fb54de63a406fbfef96a7292616da9ab88c274523287bdb034db"
+  }
+}

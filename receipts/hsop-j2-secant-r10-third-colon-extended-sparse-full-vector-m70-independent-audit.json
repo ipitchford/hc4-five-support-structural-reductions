@@ -1,0 +1,322 @@
+{
+  "candidate_enumeration": {
+    "all_source_residues_zero_coordinate_count": 18998,
+    "candidate_count_histogram": {
+      "1": 18998,
+      "10": 82,
+      "11": 101,
+      "12": 103,
+      "13": 110,
+      "14": 106,
+      "15": 111,
+      "16": 113,
+      "17": 59,
+      "18": 78,
+      "19": 41,
+      "2": 8,
+      "20": 63,
+      "21": 111,
+      "22": 230,
+      "23": 428,
+      "24": 652,
+      "25": 1017,
+      "26": 1364,
+      "27": 1600,
+      "28": 1788,
+      "29": 1932,
+      "3": 31,
+      "30": 1917,
+      "31": 1615,
+      "32": 1480,
+      "33": 1125,
+      "34": 858,
+      "35": 630,
+      "36": 354,
+      "37": 274,
+      "38": 152,
+      "39": 89,
+      "4": 32,
+      "40": 53,
+      "41": 25,
+      "42": 14,
+      "43": 4,
+      "44": 1,
+      "45": 3,
+      "46": 2,
+      "5": 39,
+      "6": 31,
+      "7": 54,
+      "8": 75,
+      "9": 95
+    },
+    "candidate_count_vector_sha256": "d83d0b5fe506dd7dc8589d515e712ea9e4a0180c77f4c41c75d01fe4194a94f7",
+    "combined_crt_residue_vector_sha256": "f67608d137d60ccaa059bb8102c8531c51163f87ccb23c62fe6bd6739108c06a",
+    "complete_candidate_text_stream_sha256": "9e0f39b02ed729e45e851f0b49d130ef8b1942e63f10575a9d84f2af11191439",
+    "total_candidates_before_selectors": 558100,
+    "total_proper_continued_fraction_convergents": 749773
+  },
+  "claim_boundary": "A PASS independently verifies only the complete bounded strict-product candidate census at this single 70-bit source modulus in the frozen finite-field-compatible extended-sparse p181 gauge. A surviving or unique candidate is not a reconstructed rational coefficient. No QQ multiplier identity is assembled or replayed, and no QQ colon, saturation, secant, nullcone, quartic Hessian, or HC4 statement is proved.",
+  "completeness_statement": "For each reduced strict-product candidate n/d, the integer k=(r*d-n)/M satisfies |r/M-k/d|<1/(2*d^2); Legendre's theorem therefore places k/d among the proper ordinary continued-fraction convergents tested here. The enumerator also matched literal brute force for every residue modulo every M from 2 through 99.",
+  "coordinate_count": 38048,
+  "direct_crt_basis_weights_sha256": "a775df58138fc57399406226d2831a1c27915aab3657da16dba928f716985284",
+  "fixed_gauge_signature_sha256": "037a2643ba69679d180e67c6dcaab7fdb13e772a18357bfef086f52427f34373",
+  "full_outcome_stream_hashes": {
+    "coordinates_by_outcome_sha256": {
+      "ambiguous": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "no_candidate": "5ad3faa6eb8f24c8f42ebf6f5090c11f7cc0ad05c1771cadf830630ad0c7347e",
+      "unique_nonzero": "64a014506e89d0102f898d4ce76d4691c0c2710c688a98fd01688a7077a3bbdc",
+      "unique_zero": "e958f0447a58aa4b9dff06c9c5e29e9c0427b63e82728ab50d8f6671cdb240f1"
+    },
+    "nonempty_final_survivor_record_count": 20290,
+    "nonempty_final_survivor_records_sha256": "888ca5438c62de6edfa4a1e584b029beae4fffa11ac7c141db98a4eb7e70bd55",
+    "outcome_label_vector_sha256": "91f2f58d4caef704a0e9a1689d97ff45abcc449693b1c7637bce6989b20a4df1",
+    "outcome_text_stream_sha256": "c3eb33530ffa75b5ee0e075d06ec515ea74832a13018da862b3c8137d86abac1"
+  },
+  "independence": {
+    "campaign_module_imports": [],
+    "candidate_enumerator_self_test": {
+      "comparison": "ordinary-CF candidate set equals literal brute-force set",
+      "modulus_range_inclusive": [
+        2,
+        99
+      ],
+      "residue_modulus_pairs_tested": 4949,
+      "status": "PASS",
+      "transcript_sha256": "3e328f1f5cc655a0a14566a19ab61d80b4c69c68d50fcddd20e7afdd66496727"
+    },
+    "candidate_method": "all proper convergents of the ordinary continued fraction of r/M, tested via n=r*q-M*p and the strict-product condition",
+    "crt_method": "symmetric direct CRT using M_i*(M_i^-1 mod p_i) basis weights",
+    "heavy_algebra_executed": false,
+    "language_runtime": "Python standard library only",
+    "producer_executed": false,
+    "producer_imported": false
+  },
+  "input_checks": {
+    "all_input_receipts_exact": true,
+    "exactly_three_sources_and_two_selectors": true,
+    "input_byte_total_exact": true,
+    "input_manifest_exact": true,
+    "no_extra_modular_characteristics": true
+  },
+  "inputs": {
+    "artifacts_and_receipts": [
+      {
+        "byte_count": 7083938,
+        "characteristic": 181,
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-extended-sparse-p181.json",
+        "receipt_byte_count": 20851,
+        "receipt_maximum_rss_native": 2600370176,
+        "receipt_path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/receipts/hsop-j2-secant-r10-third-colon-identity-extended-sparse-p181.json",
+        "receipt_sha256": "f04bc461e8b15c012c229d1de13eb940316bad35914f12a34ab3fc112b29f14c",
+        "receipt_status": "PASS_EXACT_MODULAR_THIRD_COLON_IDENTITY",
+        "receipt_wall_seconds": 296.8265194580017,
+        "role": "source",
+        "sha256": "e9841fee4f75e60adef26a8b10878b35f6db48e6d0a21876b197d7cbdef2064b"
+      },
+      {
+        "byte_count": 7387775,
+        "characteristic": 2147483647,
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-extended-sparse-p181-transfer-p2147483647.json",
+        "receipt_byte_count": 7041,
+        "receipt_maximum_rss_native": 1241284608,
+        "receipt_path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/receipts/hsop-j2-secant-r10-third-colon-identity-extended-sparse-p181-transfer-p2147483647.json",
+        "receipt_sha256": "dba8ffbaf933500d5e532f9f4b19f356b20710383614b9d8b03200980e611f79",
+        "receipt_status": "PASS_EXACT_MODULAR_THIRD_COLON_IDENTITY",
+        "receipt_wall_seconds": 34.7818037919933,
+        "role": "source",
+        "sha256": "a5a6027afc33afd5374f77b7e72dc945bf1c055e0ce79941d077b04445ca21ad"
+      },
+      {
+        "byte_count": 7387743,
+        "characteristic": 2147483629,
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-extended-sparse-p181-transfer-p2147483629.json",
+        "receipt_byte_count": 7053,
+        "receipt_maximum_rss_native": 1242071040,
+        "receipt_path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/receipts/hsop-j2-secant-r10-third-colon-identity-extended-sparse-p181-transfer-p2147483629.json",
+        "receipt_sha256": "f572ebb40bbb4d590506210737347b0c6c964927ac866d9fba410621d4e354bb",
+        "receipt_status": "PASS_EXACT_MODULAR_THIRD_COLON_IDENTITY",
+        "receipt_wall_seconds": 34.74310933300876,
+        "role": "source",
+        "sha256": "2b9ed0814159eb6ce3d96e45904e991d3e281f2c0cadd1df008180d35eac6a90"
+      },
+      {
+        "byte_count": 7063083,
+        "characteristic": 173,
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-extended-sparse-p181-transfer-p173.json",
+        "receipt_byte_count": 7209,
+        "receipt_maximum_rss_native": 1266499584,
+        "receipt_path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/receipts/hsop-j2-secant-r10-third-colon-identity-extended-sparse-p181-transfer-p173.json",
+        "receipt_sha256": "ddaed2462174438e89b31cfacb95ee2adf7971bf2290c58422031baab9314f44",
+        "receipt_status": "PASS_EXACT_MODULAR_THIRD_COLON_IDENTITY",
+        "receipt_wall_seconds": 29.14668899998651,
+        "role": "selector",
+        "sha256": "b434b3103e253d22e3f751196ec32b91fa6fc73a6f6d72414222453e4971043c"
+      },
+      {
+        "byte_count": 7088476,
+        "characteristic": 197,
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-extended-sparse-p181-transfer-p197.json",
+        "receipt_byte_count": 7106,
+        "receipt_maximum_rss_native": 1172242432,
+        "receipt_path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/receipts/hsop-j2-secant-r10-third-colon-identity-extended-sparse-p181-transfer-p197.json",
+        "receipt_sha256": "671df724adb16f279f9be31dfe0c87f90b0d48f02a9ea6161245f26d86c701fe",
+        "receipt_status": "PASS_EXACT_MODULAR_THIRD_COLON_IDENTITY",
+        "receipt_wall_seconds": 26.7274038750038,
+        "role": "selector",
+        "sha256": "f199970f9ca6860b57a8dd89f5d23da084a5fe85a146ca353259d958e1b38272"
+      }
+    ],
+    "input_manifest_sha256": "10af18c0ffc1d90a2ffba8e4a5b799b0b194baa0ac115540c8e4c1947825dba7",
+    "producer_receipt": {
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/receipts/hsop-j2-secant-r10-third-colon-extended-sparse-full-vector-m70-census.json",
+      "sha256": "78d0bd0200299c1dc8fb7df7880f479613e93cf0ccca99c4741a97883c501ad7"
+    },
+    "producer_script_read_not_imported_or_executed": {
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/scripts/audit_j2_secant_r10_third_colon_extended_sparse_full_vector_m70.py",
+      "sha256": "7d4f32ebcf4397529bc31c1f3aed82adf23a397140608d1fb80835ec368e9b12"
+    }
+  },
+  "maximum_unique_nonzero_profile": {
+    "coordinate": 12950,
+    "denominator_bit_length": 2,
+    "numerator_bit_length": 68,
+    "positive_denominator": 2,
+    "reduced_numerator": 157000558186433927001,
+    "twice_absolute_product": 628002232745735708004,
+    "twice_product_bit_length": 70
+  },
+  "outcome": {
+    "ambiguous": 0,
+    "no_candidate": 17758,
+    "unique_nonzero": 1292,
+    "unique_zero": 18998
+  },
+  "producer_comparison": {
+    "all_source_zero_count_exact": true,
+    "candidate_count_vector_exact": true,
+    "candidate_count_vector_hash_exact": true,
+    "candidate_histogram_exact": true,
+    "candidate_text_stream_hash_exact": true,
+    "candidate_total_exact": true,
+    "combined_crt_stream_hash_exact": true,
+    "final_survivor_histogram_exact": true,
+    "fixed_gauge_signature_exact": true,
+    "height_histogram_exact": true,
+    "maximum_profile_exact": true,
+    "nonempty_survivor_records_exact": true,
+    "nonempty_survivor_records_hash_exact": true,
+    "outcome_coordinate_hashes_exact": true,
+    "outcome_coordinate_lists_exact": true,
+    "outcome_exact": true,
+    "outcome_label_vector_exact": true,
+    "outcome_label_vector_hash_exact": true,
+    "outcome_text_stream_hash_exact": true,
+    "proper_cf_count_equals_producer_eea_steps": true,
+    "selector_primes_exact": true,
+    "selector_stage_records_exact": true,
+    "source_modulus_bits_exact": true,
+    "source_modulus_exact": true,
+    "source_primes_exact": true,
+    "unique_candidate_stream_hash_exact": true
+  },
+  "resources": {
+    "census_wall_seconds": 1.1165147499996237,
+    "maximum_rss_native_self": 106020864,
+    "system_cpu_seconds": 0.033074,
+    "total_wall_seconds": 1.5596237090067007,
+    "user_cpu_seconds": 1.530067
+  },
+  "schema": "hc4.third-colon-extended-sparse-full-vector-m70-independent-audit.v1",
+  "script": {
+    "path": "scripts/audit_j2_secant_r10_third_colon_extended_sparse_full_vector_m70_independent.py",
+    "sha256": "b83bdc3d4d6ea716b8ec03adf9290c3ce09c57d1ed0f16aac86891435a859b35"
+  },
+  "selector_characteristics": [
+    173,
+    197
+  ],
+  "selector_filtering": {
+    "final_survivor_count_histogram": {
+      "0": 17758,
+      "1": 20290
+    },
+    "stages": [
+      {
+        "characteristic": 173,
+        "coordinates_with_a_survivor_after_selector": 23060,
+        "survivor_candidate_stream_sha256": "fc16bd4a7545435258a07a676085ca4e44b1067b93f41d594cfbf5436108f5c6",
+        "survivor_count_sum_after_selector": 23259,
+        "survivor_count_vector_sha256": "be8cd1a3185ec05b5cd0001c7d69208d47b3c90188c19df18d87db95f0c5f3ec"
+      },
+      {
+        "characteristic": 197,
+        "coordinates_with_a_survivor_after_selector": 20290,
+        "survivor_candidate_stream_sha256": "c2127edc55ed880afe05b68492e4b8db95d0204f8518bbb60d1fdfc05beb980c",
+        "survivor_count_sum_after_selector": 20290,
+        "survivor_count_vector_sha256": "c852b963efea6bf81de0af33ac625b76aa495084bb8c47ba56000e1077581772"
+      }
+    ],
+    "unique_candidate_coordinate_value_stream_sha256": "4b063dea0d74d61ec490181d51071795ba2512a48dbf8551ccdf0f9a5075582f"
+  },
+  "source_characteristics": [
+    181,
+    2147483647,
+    2147483629
+  ],
+  "source_modulus": "834715161561466408303",
+  "source_modulus_bit_length": 70,
+  "status": "PASS_INDEPENDENT_EXTENDED_SPARSE_FULL_VECTOR_M70_CENSUS",
+  "unique_nonzero_product_bit_length_histogram": {
+    "10": 14,
+    "11": 17,
+    "12": 10,
+    "13": 19,
+    "14": 17,
+    "15": 20,
+    "16": 27,
+    "17": 28,
+    "18": 28,
+    "19": 33,
+    "20": 46,
+    "21": 35,
+    "22": 44,
+    "23": 42,
+    "24": 45,
+    "25": 46,
+    "26": 35,
+    "27": 30,
+    "28": 36,
+    "29": 56,
+    "3": 5,
+    "30": 81,
+    "31": 77,
+    "32": 108,
+    "33": 81,
+    "34": 75,
+    "35": 50,
+    "36": 31,
+    "37": 21,
+    "38": 14,
+    "39": 15,
+    "4": 6,
+    "40": 1,
+    "41": 9,
+    "42": 1,
+    "43": 2,
+    "44": 1,
+    "45": 1,
+    "46": 1,
+    "5": 12,
+    "6": 16,
+    "64": 1,
+    "65": 1,
+    "66": 1,
+    "67": 2,
+    "68": 2,
+    "69": 2,
+    "7": 7,
+    "70": 4,
+    "8": 13,
+    "9": 23
+  }
+}

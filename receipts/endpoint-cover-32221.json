@@ -1,0 +1,102 @@
+{
+  "boundary": "Delta=0 is exactly the normalized support-collision divisor; W=0 is handled by tail B1 rather than discarded",
+  "build_seconds": 12.96015908397385,
+  "certificate_seconds": 40.70271375001175,
+  "claim_boundary": "exact open-locus closure for this partition; Delta=0 invokes the separately pinned support-at-most-four theorem",
+  "coefficient_ring": "Q[lambda,mu,g0,...,g9,1/Delta]",
+  "conclusion": "the residual-line ideal is radical-zero on the normalized distinct-five-root locus for partition (3,2,2,2,1)",
+  "equation_count": 52,
+  "equation_stream_sha256": "f770bfd9aa51d1a5a15640598ee62ac01bbf03508c7f6e811fdac17b9e564878",
+  "head_steps": [
+    "E51=32*g0^3",
+    "E40 mod g0=12*(g1-lambda^2*mu)^3",
+    "E47 mod preceding=-48*lambda^4*mu^2*(g4+2*lambda^2*mu+lambda^2+2*lambda*mu)",
+    "line_z=0 after the head substitutions"
+  ],
+  "line_coordinate_sha256": {
+    "line_x": "9867fb3c49cceec5cdff9e1a679b9f9ee30fdc9ea4d55ee9b96c1fc1e487b963",
+    "line_y": "984d918e5e6e3f6a437d4045bab2b5a748dd1c063117d2fd37d7ffb3682779f6",
+    "line_z": "da721270debb1453a38961ddae15aa6cb198f9fc0fca23510393dc975528b934"
+  },
+  "partition": [
+    3,
+    2,
+    2,
+    2,
+    1
+  ],
+  "schema": "hc4-five-support-nested-endpoint-cover-certificate-v1",
+  "selected_identity_sha256": {
+    "tail_A_line_x": "bf3683a0d7d7abfc890f2daaac46a9603ba7b360b48c7e6f891c553f6d552be6",
+    "tail_A_line_y": "8b60171253304604a48f4d1178b2b4c3130e68be0a1ee81c8ece8a3901b4f026",
+    "tail_B1_line_y": "b14f89f1dd36febe48c33abb928f434f41d8afad5fb70fe4a4157929d086f3b7",
+    "tail_B2_line_x": "110346d84f52964e571789ac379d6e3c464e793038eeb66d93cbbeacb3264943",
+    "tail_B2_line_y_numerator": "76638c09e9c9f8eb5a9d4691ad76b3ee8ef932f2e753718058bb08b397087da1"
+  },
+  "status": "PASS",
+  "tail_a": {
+    "line_relations": [
+      "line_x=-E33",
+      "line_y=-E42",
+      "line_z=0"
+    ],
+    "steps": [
+      "E3=192*g6",
+      "E6=320*g3",
+      "E2=4*(8*g7+3*(2*lambda+mu+2)^2)",
+      "E4=6*(16*g5-(2*lambda+mu+2)^3)",
+      "E5 solves g2 with constant leading coefficient"
+    ]
+  },
+  "tail_b1": {
+    "branch": "W=g8-2*lambda-mu-2=0",
+    "line_relations": [
+      "line_x=0",
+      "line_y=16*H^3",
+      "line_z=0"
+    ],
+    "steps": [
+      "E6=-48*H",
+      "line_y=16*H^3"
+    ]
+  },
+  "tail_b2": {
+    "branch": "W!=0",
+    "line_y_unit_calculation": {
+      "basis_size": "1",
+      "child_system_seconds_immediate_scope": 0.0068969999999999995,
+      "child_user_seconds_immediate_scope": 0.034011,
+      "forced_group_kill": false,
+      "localization": "inv*Delta*W*line_y-1",
+      "maximum_rss_native_immediate_scope": 5849088,
+      "process_group_terminated": false,
+      "reduced_equation_count": 26,
+      "resource_accounting": "wall time authoritative; CPU/RSS counters may omit delegated worker descendants",
+      "return_code": 0,
+      "ring": "Q[g8,lambda,mu,inv]",
+      "singular_source_sha256": "e6fe3a8d21b7699769f392cb8cf6803291895fabbfebdd87b3ad93ed7ec1ea20",
+      "standard_basis_algorithm": "Singular std over characteristic zero",
+      "timed_out": false,
+      "unit_remainder": "0",
+      "wall_seconds": 0.07013379200361669
+    },
+    "steps": [
+      "E7=9*W^2*A6 solves g6",
+      "E8=9*W^2*A5 solves g5",
+      "normalized E10,E13 solve g2,g3 with determinant 864*W",
+      "line_x=-W^3*E11/16",
+      "line_z=0"
+    ]
+  },
+  "tail_cover": {
+    "branches": [
+      "A: g9=g8=0",
+      "B: g9=-1"
+    ],
+    "equations": [
+      "E0=32*g9*(g9+1)^2",
+      "E1=96*g8*(g9+1)^2"
+    ]
+  },
+  "wall_seconds": 53.66287662499235
+}

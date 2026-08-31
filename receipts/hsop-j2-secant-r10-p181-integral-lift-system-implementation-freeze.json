@@ -1,0 +1,23 @@
+{
+  "bound_files": {
+    "artifacts/third-colon-p181-explicit-target-rhs-v1/target_rhs_mod181.u8": "72d15610c6630a4d1929029476cb9b01d8494bc502b9b68457674795dcd1c76f",
+    "artifacts/third-colon-p181-explicit-target-solve-v1/solution_mod181.u8": "5c37ce8fda3829baeef36f58002589e289bdd552939f61216b3ce257af456e58",
+    "artifacts/third-colon-p181-target-blind-linbox-benchmark-v2/A_C_mod181_target_free.csr": "2207744adde8f96a7d835fc078ffd188ce33814f2db880e1aef9b8a47b09a6ef",
+    "artifacts/third-colon-p181-target-blind-linbox-gauge-v2/C_piv.u32le": "3a4087b184540be80852650b26aecaddd561a2a866599e660d9359b3415dfed2",
+    "receipts/hsop-j2-secant-r10-p181-explicit-target-rhs-independent-audit.json": "7793a25d1e14393be25fd26414be7541ab2e009e8dc4bbc39ebc6586d3e83c07",
+    "receipts/hsop-j2-secant-r10-p181-explicit-target-solve-independent-audit.json": "edda72be5dfd42492a0f1e916ac83e53972a58b01a83180df03f28dafc1d6f6c",
+    "research/THIRD_COLON_P181_SOURCE_CLEAN_INTEGRAL_SYSTEM_PREREGISTRATION.md": "d0c8af63d118794ab42187cd29ea0f933914355b515f258af1fdaac946fdcb48",
+    "scripts/build_p181_third_colon_integral_lift_system.py": "a941152ab6d01ff76f443bada6cb98c32f2edfdca8c4bf3f17be9c2296721494",
+    "scripts/preprocess_fixed_p181_dixon_integer_system.py": "092ccd88a1ea5a1843d2ea0c81f6bc122eb38abf689db60bf137f2e56688147b"
+  },
+  "canonical_output": "artifacts/third-colon-p181-source-clean-integral-lift-system-v1",
+  "policy": {
+    "arithmetic_modulo_181_squared_forbidden": true,
+    "columns": 35881,
+    "nonzeros": 1354540,
+    "quarantined_dixon_container_forbidden": true,
+    "rows": 85651
+  },
+  "schema": "hc4.decimic-j2-secant-r10-p181-integral-lift-system-implementation-freeze.v1",
+  "status": "PASS_P181_INTEGRAL_LIFT_SYSTEM_IMPLEMENTATION_FREEZE"
+}

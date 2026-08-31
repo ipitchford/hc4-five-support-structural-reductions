@@ -1,0 +1,129 @@
+{
+  "backend_audit": {
+    "binary_sha256": "5172216e6445fc7162ce3cdc4d80a5888f281ff635c94d7a084b2ea18ba2eacd",
+    "checks": {
+      "calls_in_place_linear_pivoting": true,
+      "does_not_request_blackbox": true,
+      "does_not_request_wiedemann": true,
+      "sage_version_10_9": true,
+      "uses_gauss_domain": true,
+      "uses_modular_uint64": true,
+      "uses_sparse_modular_matrix": true
+    },
+    "dispatch": "GaussDomain_Modular_uint64.InPlaceLinearPivoting",
+    "rank_algorithm_class": "exact sparse modular Gaussian elimination",
+    "wrapper_source_sha256": "5d90fe774720e663785ace8b34b5fab7394e1a63ded71787618cd637709e4d32"
+  },
+  "bound_hashes": {
+    "benchmark_sha256": "6a28f331c768a2fba46a32acacf181897a9522ce01428c3f9e4e2ca6c50480b9",
+    "csr_sha256": "2207744adde8f96a7d835fc078ffd188ce33814f2db880e1aef9b8a47b09a6ef",
+    "freeze_sha256": "2510d05c50ba745ab3d64bdb8bcd6fdcc971444c3ba344f1120b549d16bd3c48",
+    "terminal_sha256": "7b3da03bd0325b8a64340c9195632b85b6df7e33efc428f330e1698ec202aba9"
+  },
+  "claim_boundary": "This audit confirms artifact integrity, independent matvec replay, registered resource compliance, and exact modular-rank backend dispatch. It does not independently recompute the four ranks and proves no target membership, QQ identity, colon, saturation, secant closure, nullcone containment, or HC4.",
+  "csr_checks": {
+    "columns": 35881,
+    "nonzero_residues_mod181": true,
+    "nonzeros": 1354540,
+    "rows": 85651,
+    "strictly_ordered_rows": true
+  },
+  "declarations": {
+    "no_augmented_rank": true,
+    "no_digit": true,
+    "no_rhs_read": true,
+    "no_solve": true,
+    "no_target_membership_test": true
+  },
+  "import_boundary": {
+    "scripts/benchmark_p181_target_blind_linbox_rank.py": [
+      "__future__",
+      "argparse",
+      "gc",
+      "hashlib",
+      "json",
+      "math",
+      "resource",
+      "struct",
+      "time",
+      "array",
+      "fractions",
+      "pathlib",
+      "sympy",
+      "sage.all",
+      "sage.env",
+      "certify_j2_secant_r10_colon_identity_liftstd",
+      "certify_j2_secant_r10_second_colon_identity_sparse_macaulay",
+      "certify_j2_secant_r10_z12_macaulay",
+      "scout_decimic_nullcone_hsop",
+      "scout_j2_secant_r10_homogeneous_saturation"
+    ],
+    "scripts/benchmark_p181_target_blind_linbox_rank_v2.py": [
+      "__future__",
+      "argparse",
+      "gc",
+      "hashlib",
+      "json",
+      "math",
+      "resource",
+      "struct",
+      "time",
+      "array",
+      "pathlib",
+      "sympy",
+      "sage.env",
+      "benchmark_p181_target_blind_linbox_rank",
+      "certify_j2_secant_r10_colon_identity_liftstd",
+      "certify_j2_secant_r10_second_colon_identity_sparse_macaulay",
+      "certify_j2_secant_r10_z12_macaulay",
+      "scout_decimic_nullcone_hsop",
+      "scout_j2_secant_r10_homogeneous_saturation"
+    ]
+  },
+  "independent_matvec_replays": [
+    {
+      "columns": 4096,
+      "sha256": "5404a496c2668b61e3720198e8f00f0bb329cfff250a69f0f9e636d61cbd0447"
+    },
+    {
+      "columns": 8192,
+      "sha256": "60ac686620ad86e851d744cbb216447ee2b87c3619a2c8283483cc8505050f0f"
+    },
+    {
+      "columns": 16384,
+      "sha256": "262ca1484c903c296c06eb90ed01a0ce6ad397995356e6c7fcc5f2158d0665a5"
+    },
+    {
+      "columns": 35881,
+      "sha256": "14ef77d44353f9414241e6328afe7ab1a35280dac855dd1dc2a861aec41b989b"
+    }
+  ],
+  "rank_results": [
+    {
+      "columns": 4096,
+      "rank": 4096
+    },
+    {
+      "columns": 8192,
+      "rank": 8192
+    },
+    {
+      "columns": 16384,
+      "rank": 16384
+    },
+    {
+      "columns": 35881,
+      "rank": 35881
+    }
+  ],
+  "resource_gate": {
+    "maximum_rss_bytes": 624082944,
+    "process_swaps": 0,
+    "raw_sha256": "aab5497f0c6aa652d2ec8fa1f81093e4fbf2bd4f7dc802967634547046649509",
+    "real_seconds": 95.38,
+    "system_seconds": 1.34,
+    "user_seconds": 84.88
+  },
+  "schema": "hc4.decimic-j2-secant-r10-p181-target-blind-linbox-rank-audit.v2",
+  "status": "PASS_INDEPENDENT_ACTUAL_COEFFICIENT_LINBOX_RANK_SCALING_AUDIT"
+}

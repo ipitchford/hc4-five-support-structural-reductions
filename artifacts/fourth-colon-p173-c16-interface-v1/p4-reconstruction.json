@@ -1,0 +1,65 @@
+{
+  "checks": {
+    "exact_nonzero_support_by_column": [
+      36,
+      21,
+      21,
+      21,
+      21,
+      21,
+      21,
+      21,
+      21,
+      21,
+      21,
+      21,
+      21,
+      21,
+      21,
+      21
+    ],
+    "exact_replay_mismatches": 0,
+    "first_unresolved_indices": [],
+    "p4_replay_mismatches": 0,
+    "resolved_coordinates": 585392,
+    "unresolved_coordinates": 0
+  },
+  "claim_boundary": "Exact rational source-kernel syzygies for the selected 16 columns only; no h4 membership, colon equality, saturation, secant closure, full nullcone closure, quartic Hessian conjecture, or Jacobian conjecture follows.",
+  "height": 4,
+  "height_bound": 21162,
+  "inputs": {
+    "digits": [
+      {
+        "path": "artifacts/fourth-colon-p173-c16-interface-v1/stage-zero-transfer.u8",
+        "sha256": "b408ec53bc4a1f348581aca7baeb41167b1d29ddba261959e8647df9f58815c2"
+      },
+      {
+        "path": "artifacts/fourth-colon-p173-c16-interface-v1/first-lift-correction.u8",
+        "sha256": "c5e5e721960dcc9e707a91084bbb0bc8b93e738180dcdb4f3a77eb96f3ef8dc2"
+      },
+      {
+        "path": "artifacts/fourth-colon-p173-c16-interface-v1/second-lift-correction.u8",
+        "sha256": "c9c597f4dd85a9bcc013d0a321684731bb7f9c3fd2e1ed979bc0f5e6dd191d6e"
+      },
+      {
+        "path": "artifacts/fourth-colon-p173-c16-interface-v1/third-lift-correction.u8",
+        "sha256": "33532c337dd708e1561fd2d2c5b99907dd4f4de389f3c23ae267205bb5edea9a"
+      }
+    ],
+    "integral_matrix": "a03e09a159af1658ef188ac3182667c87e2c6bfc3e3c24676ced67d5ec71d1d6",
+    "source_sparse": "c2f82bbe680d51748f048700fe594fce8aafbc635a8e00da0495b94fff4218e0"
+  },
+  "modulus": 895745041,
+  "output": {
+    "bytes": 39253,
+    "path": "artifacts/fourth-colon-p173-c16-interface-v1/rational-candidates.json",
+    "sha256": "0f66ed6bd7182ffda4f7e4f34deca1eb80e785488b88fa66182aacd00bafd8cd"
+  },
+  "resources": {
+    "maximum_rss_native": 474365952,
+    "process_swaps": 0,
+    "wall_seconds": 6.437985083961394
+  },
+  "schema": "hc4.fourth-colon-p173-c16-p4-reconstruction.v1",
+  "status": "PASS_FOURTH_COLON_P173_C16_EXACT_RATIONAL_KERNEL_BATCH"
+}

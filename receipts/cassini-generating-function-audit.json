@@ -1,0 +1,22 @@
+{
+  "checks": {
+    "cassini_base_e2": true,
+    "fibonacci_tail": true,
+    "first_euler_tail": true,
+    "first_w_boundary_integral": true,
+    "second_euler_tail": true,
+    "transfer_determinant": true
+  },
+  "denominator": "-w*z**2 - z + 1",
+  "generating_function": "(-w*z**3 + w*z**2 - z**3/6 - z**2/2 + z + (-w*z**2 - z + 1)*log(-w*z**2 - z + 1))/z**2",
+  "generating_function_sha256": "aa9f767363b969d9aa384ca67309286076f4890a22c6f698b288ac9514809d54",
+  "independent_of_original_checker": true,
+  "method": "formal_generating_function_and_transfer_determinant",
+  "schema": "hc4-cassini-staircase-generating-function-audit-v1",
+  "scope": {
+    "cassini": "all integers e >= 2 by determinant induction",
+    "indices": "all integers e >= 2 by formal coefficient extraction"
+  },
+  "status": "PASS",
+  "wall_seconds": 0.13435229199239984
+}

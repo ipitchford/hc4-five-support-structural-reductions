@@ -1,0 +1,79 @@
+{
+  "build_seconds": 4.410181832994567,
+  "certificate_seconds": 0.3301528340089135,
+  "claim_boundary": "exact closure of one clean normal-layer partition; the other five unclosed rows and the full HC4 theorem remain open",
+  "coefficient_field": "Q(lambda,mu)",
+  "conclusion": "the residual-line ideal is contained in radical(I_nor) for partition (5,2,1,1,1)",
+  "equation_count": 52,
+  "equation_stream_sha256": "3b876dab9abdbd3dc6635f7350378ea20f55adfeb304f747a1a73376024639b0",
+  "line_coordinate_sha256": {
+    "line_x": "ab49108229959e38bb7ae02591356b5eab32ba0aeb9e001fa99181e8c9ffe357",
+    "line_y": "914df01c9d109dd81aa199b11af7b8b525c6c6c9ac38e4448bf6f62c7012cddf",
+    "line_z": "619fa52c3f01346d3467df93fa6846bc6ae421bdbc559edf9f8d8e6bb09193cb"
+  },
+  "line_reductions": {
+    "line_x": "16*(g5 - la*mu)**2*(g7 + la*mu + la + mu)",
+    "line_y": "16*(g5 - la*mu)**3",
+    "line_z": "0"
+  },
+  "parameter_scope": "identities are polynomial in lambda and mu and include every finite fibre",
+  "partition": [
+    5,
+    2,
+    1,
+    1,
+    1
+  ],
+  "radical_steps": [
+    {
+      "deduction": "g0 belongs to radical(I)",
+      "equation_indices": [
+        51
+      ],
+      "identity_sha256": "ec6837e162f073bd6671fc6a939285313249844d4a2c8382ae8830ba134bb8c3",
+      "reduced_identity": "32*g0**3"
+    },
+    {
+      "deduction": "g1 belongs to radical(I)",
+      "equation_indices": [
+        40
+      ],
+      "identity_sha256": "d5bc80406a8ca470678b9e6815a0feb778ab4f7e951e17d1055a907a8da6a7b3",
+      "reduced_identity": "12*g1**3"
+    },
+    {
+      "deduction": "g4 belongs to radical(I)",
+      "equation_indices": [
+        30,
+        24
+      ],
+      "identity_sha256": "ae97c11142424eaebd30a6fa009aecd450f97dfc8d3571f0f07d9e92c27459f6",
+      "reduced_identity": "E30/288 + E24/48 = g4^3"
+    },
+    {
+      "deduction": "g2 belongs to radical(I)",
+      "equation_indices": [
+        37
+      ],
+      "identity_sha256": "3613bfe5a80aed31a43ddbf20c0cd6115d5d0003b5881dcd42712b68a04ee5cf",
+      "reduced_identity": "E37 mod (g0,g1,g4) = 16*g2^3"
+    },
+    {
+      "deduction": "g5-la*mu belongs to radical(I)",
+      "equation_indices": [
+        21,
+        27,
+        34
+      ],
+      "identity_sha256": "355eb0e27c62bb56d1adce8595fe72fed780dfde08c963190878ac0fb972e8f4",
+      "reduced_identity": "-3*(16*U-36*H+20*la*mu)*E21 +4*(-3*U+7*H)*E27 +12*H*E34 = 6912*H^4",
+      "translation": {
+        "H": "g5-la*mu",
+        "U": "g3-la*mu"
+      }
+    }
+  ],
+  "schema": "hc4-five-support-endpoint-radical-certificate-v1",
+  "status": "PASS",
+  "wall_seconds": 4.740741124987835
+}

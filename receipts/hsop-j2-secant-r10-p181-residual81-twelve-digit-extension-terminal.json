@@ -1,0 +1,64 @@
+{
+  "claim_boundary": "A finite p12 PASS concerns one fixed source-kernel direction and a reconstruction census only; no rational, target, colon, saturation, secant, nullcone, or HC4 conclusion follows.",
+  "extension_status": "PASS_P181_RESIDUAL81_TWELVE_DIGIT_LIFT",
+  "implementation_freeze": {
+    "path": "receipts/hsop-j2-secant-r10-p181-residual81-twelve-digit-extension-implementation-freeze.json",
+    "sha256": "f00b9e6fec186995f53555142f0b3c89d5b4480a6bb81466f52e71938b87850d"
+  },
+  "promoted": {
+    "artifact": {
+      "correction_rhs_digit_10_padded114.u8": "350b181f0082b96ccc501f57335772249c1765dcf495d232a9b3d9aade02c0ae",
+      "correction_rhs_digit_11_padded114.u8": "3183045dda1f14e395cbdc9625df0a82b78b81b07663466fdb52c8cba22bad4b",
+      "digit_10.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "digit_10.stdout.txt": "3f6f56708c3cb996ae9e1ec6ab6bbd639fdc63307b867dc77fd78a67e428539e",
+      "digit_10_padded114.u8": "e93dce516a0db40e473fa25df5c9aaf72e880a18d25b868f6fd33b47d0bdc753",
+      "digit_10_residual81.u8": "2b47322de43806b59822f7c72848487615ccca04b628903427b40e4a765e8069",
+      "digit_11.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "digit_11.stdout.txt": "620d0b0e86ddef06d8ce83d279f8521d584f32be313264d0ab32f2ba489807b0",
+      "digit_11_padded114.u8": "d3f2c42f5df594b512f7f05dfc0a8d9e392729f4b810772282363cb60a3ca2ae",
+      "digit_11_residual81.u8": "4396e454bb04233c3cb54700f26bf88f96a9feb1b807b9187c9adcc010d27f6c",
+      "extension.json": "106d5ab04c625eff60c7a0bdfc1cacf512fb3cb5b3a82a43d0adff77c20002cb",
+      "terminal_q12_residual81.i64le": "e807de6e2a9603cdd68d0900543cb967a3a6f87dc6de1004a915789e4f9e484b"
+    },
+    "telemetry": {
+      "benchmark.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "benchmark.stdout.txt": "170e529b49ec59e3b0864a61a1f15da545d8ff523b0231828044d69b77dd7e0e",
+      "benchmark.time.txt": "8a98717e26bd0fd601c40abaac09f48c8bf470dcc679d76199079cbb67ab8af7"
+    }
+  },
+  "schema": "hc4.third-colon-p181-residual81-twelve-digit-extension-terminal.v1",
+  "status": "PASS_P181_RESIDUAL81_TWELVE_DIGIT_LIFT",
+  "telemetry": {
+    "ancestry_samples": 448,
+    "command": [
+      "/usr/bin/time",
+      "-l",
+      "-o",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-residual81-twelve-digit-telemetry-20260831T010/benchmark.time.txt",
+      "/opt/homebrew/bin/gtimeout",
+      "-s",
+      "TERM",
+      "-k",
+      "10s",
+      "600s",
+      "/Users/admin/.local/bin/sage",
+      "-python",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/scripts/extend_p181_residual81_to_twelve_digits.py",
+      "--output-dir",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-residual81-twelve-digit-20260831T010"
+    ],
+    "external_time": {
+      "maximum_rss_bytes": 156352512,
+      "process_swaps": 0,
+      "raw_sha256": "8a98717e26bd0fd601c40abaac09f48c8bf470dcc679d76199079cbb67ab8af7",
+      "real_seconds": 131.37,
+      "system_seconds": 1.63,
+      "user_seconds": 119.3
+    },
+    "return_code": 0,
+    "rss_breach_killed": false,
+    "sampled_descendant_rss_peak_bytes": 268419072,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "170e529b49ec59e3b0864a61a1f15da545d8ff523b0231828044d69b77dd7e0e"
+  }
+}

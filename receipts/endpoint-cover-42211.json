@@ -1,0 +1,94 @@
+{
+  "boundary": "the only globally inverted factor is lambda*mu; its zero locus is a collision with the normalized root 0",
+  "branch_a": {
+    "conclusion": "line vanishes",
+    "line_reductions": {
+      "line_x": "16*(g5 - 2*la*mu - la - mu)**2*(g7 + la*mu + 2*la + 2*mu + 1)",
+      "line_y": "16*(g5 - 2*la*mu - la - mu)**3",
+      "line_z": "0"
+    },
+    "steps": [
+      "E37=16*(g2+lambda*mu)^3",
+      "E44=-32*(lambda*mu)^2*(g5-2*lambda*mu-lambda-mu)"
+    ]
+  },
+  "branch_b_tail_cover": {
+    "branches": [
+      "C: g9=-1",
+      "D: g9=g8=0"
+    ],
+    "equations": [
+      "E0=32*g9*(g9+1)^2",
+      "E1=96*g8*(g9+1)^2"
+    ]
+  },
+  "build_seconds": 6.9879997499811,
+  "certificate_seconds": 0.882739875029074,
+  "claim_boundary": "exact open-locus closure for this partition; the lambda*mu=0 boundary invokes the separately pinned support-at-most-four theorem",
+  "coefficient_ring": "Q[lambda,mu,g0,...,g9,1/(lambda*mu)]",
+  "conclusion": "the residual-line ideal is radical-zero on the lambda*mu-nonzero locus; all exceptional branches are either empty or root collisions",
+  "equation_count": 52,
+  "equation_stream_sha256": "339e52b8ca39135b29a3e42f2e50f5a9798cec6725f6bf23c4c4cab233ce667d",
+  "first_cover": {
+    "branches": [
+      "A: g4=-lambda*mu",
+      "B: g2=g4=0"
+    ],
+    "equations": [
+      "E30=288*g2*(g4+lambda*mu)^2",
+      "E24=-48*(g2-g4)*(g4+lambda*mu)^2"
+    ]
+  },
+  "line_coordinate_sha256": {
+    "line_x": "9a94ae8e0727b054dc4df0fcebb45983048ac4be8508363e62275ad024109626",
+    "line_y": "5d4c55d513c5d1ad1936e52c7f721b1c44913f85fce4aa765f058a2eca5c19cd",
+    "line_z": "33102e41c03a7aa67797b716d8fe16488c94fa360bff6d967afb6903ef4f072a"
+  },
+  "partition": [
+    4,
+    2,
+    2,
+    1,
+    1
+  ],
+  "schema": "hc4-five-support-nested-endpoint-cover-certificate-v1",
+  "selected_identity_sha256": {
+    "branch_A_E44": "e7bc1361997a0259d2f4da45d322f973a88ebfc3848eef4d7729952231f617d3",
+    "first_cover_E24": "1f282a483d74b02d7388e29fcd27cc1be9f0bec15c5cab91df8b9758d46ceb1f",
+    "first_cover_E30": "84ccca6f19c35f7580aa4166763db001309551ee53995b86839e1a6baeeb099d",
+    "tail_C1_E8_numerator": "08b1d370885cbfd1c2c72594a8e516de01bd52ffdd26762ba933c5e47b2b31db",
+    "tail_C_E25": "619d09986752f458b2e71fd13124946662f986859e4338af3425377109ede551",
+    "tail_D_E21": "50eb8749c7f16c81a3704bec1392561750d117d26e79359c7159ad088321d85b"
+  },
+  "status": "PASS",
+  "tail_c": {
+    "cover_equation": "E25=32*g6^2*(2*lambda*mu+lambda+mu)",
+    "g6_zero_branch": [
+      "line_x=-E20/6",
+      "line_y=-E27/6",
+      "line_z=-E43"
+    ],
+    "g7_solution": "g8**2/4 - g8*(la + mu + 2)/2 + la**2/4 - la*mu/2 - la + mu**2/4 - mu",
+    "parameter_branch": {
+      "conclusion": "empty on the lambda*mu-nonzero locus",
+      "divisor": "P=2*lambda*mu+lambda+mu=0",
+      "parametrization": "mu=-lambda/(2*lambda+1)",
+      "steps": [
+        "E21=576*g8*lambda^4/(2*lambda+1)^2",
+        "E22 and E43 imply K=lambda^2-2*lambda-1=0 and g6=0",
+        "E8=-288*lambda^2*(lambda+1)^2/(2*lambda+1)^2",
+        "2=K-(lambda+1)*(lambda-3)"
+      ]
+    }
+  },
+  "tail_d": {
+    "conclusion": "only lambda=mu=-1, a support collision",
+    "steps": [
+      "E3=192*g6",
+      "E2=4*(8*g7+3*(lambda+mu+2)^2)",
+      "E4=-6*(lambda+mu+2)^3",
+      "E21 at mu=-lambda-2 is 512*(lambda+1)^6"
+    ]
+  },
+  "wall_seconds": 7.870740499987733
+}

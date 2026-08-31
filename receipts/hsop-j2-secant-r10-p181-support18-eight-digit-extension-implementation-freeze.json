@@ -1,0 +1,32 @@
+{
+  "schema": "hc4.third-colon-p181-support18-eight-digit-extension-implementation-freeze.v1",
+  "status": "PASS_P181_SUPPORT18_EIGHT_DIGIT_EXTENSION_FREEZE",
+  "bound_files": {
+    "research/THIRD_COLON_P181_SUPPORT18_EIGHT_DIGIT_EXTENSION_PREREGISTRATION.md": "d01dce1d640f0cf42afcefb09a61704e92bb770b7840928d32fa2084592496d6",
+    "scripts/extend_p181_support18_to_eight_digits.py": "c2f79f44d04a73a682583808d4c844e11d05472e20eb5944bbf8058d1c763191",
+    "scripts/run_p181_support18_eight_digit_extension_gated.py": "41afc9062ab220b37b29c79665dfe74e033b90641ca977f4fd1d2bae558cc006",
+    "scripts/lift_p181_sparse4_to_two_digits.py": "c4c0fa3442bbd94181f60311820eef3ac14ae285f28ea7d730d1cf8e87acda65",
+    "scripts/run_p181_target_blind_linbox_rank_gated.py": "a282b31bca01c972ff5d294b64ddca103d2ea6c1c6bab8f6f12ddc7b800b83de",
+    "artifacts/third-colon-p181-support18-two-digit-lift-v1/integral/A_Z_b4_Z_coefficient_primitive.i64csr": "2524b706b88278187924f103245ddfd999ce2f21e2c848058fc723498c4682e1",
+    "artifacts/third-colon-p181-support18-two-digit-lift-v1/integral/A_mod181_coefficient_primitive.csr": "2207744adde8f96a7d835fc078ffd188ce33814f2db880e1aef9b8a47b09a6ef",
+    "artifacts/third-colon-p181-support18-six-digit-extension-v2/X_mod_181_power_6_support18_row_major.u64le": "f0d417dc9bba23a44106a6cec861b19058687a870a1fc7ec300f09d0756ea58c",
+    "artifacts/third-colon-p181-support18-six-digit-extension-v2/terminal_q6_support18_row_major.i64le": "9164f94865495eee48239f7a1b9d40b890cfd38f168dc5f5c8d188ad23b6dc46",
+    "receipts/hsop-j2-secant-r10-p181-support18-six-digit-extension-terminal-v2.json": "d50689151b159d038a06395ffedeef795da372434622db2e96f8e5cede19abce",
+    "artifacts/bin/linbox_p181_canonical_residual_114_section_driver": "dd8ae1bb0a7a659f38cbcd1ee1e220dd5a43a6e9454a4531d06649159d41c0c6"
+  },
+  "policy": {
+    "wall_seconds_maximum": 600,
+    "rss_bytes_maximum": 3221225472,
+    "process_swaps_maximum": 0,
+    "starting_total_digits": 6,
+    "terminal_total_digits": 8,
+    "automatic_ninth_digit": false,
+    "terminal_64bit_representation": true
+  },
+  "canonical_outputs": {
+    "artifact": "artifacts/third-colon-p181-support18-eight-digit-extension-v1",
+    "telemetry": "receipts/telemetry/third-colon-p181-support18-eight-digit-extension-v1",
+    "terminal": "receipts/hsop-j2-secant-r10-p181-support18-eight-digit-extension-terminal.json"
+  },
+  "claim_boundary": "This freeze authorizes exactly two further p181 corrections for 18 fixed source-kernel directions. It does not prove a rational lift, target identity, colon, saturation, secant closure, nullcone containment, or HC4."
+}

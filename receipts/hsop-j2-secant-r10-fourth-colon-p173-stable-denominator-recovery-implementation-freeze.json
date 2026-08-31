@@ -1,0 +1,23 @@
+{
+  "schema": "hc4.fourth-colon-p173-stable-denominator-recovery-freeze.v1",
+  "status": "FROZEN_BEFORE_STABLE_DENOMINATOR_LCM_OBSERVATION",
+  "frozen_utc": "2026-08-31T19:31:22Z",
+  "files": {
+    "preregistration": {
+      "path": "research/FOURTH_COLON_P173_STABLE_DENOMINATOR_RECOVERY_PREREGISTRATION.md",
+      "sha256": "9675526c5a0a63403dc018fd2df1e6ed817ea620f470da7c5dd7eec2c124c2d6"
+    },
+    "recovery_script": {
+      "path": "scripts/recover_p173_fourth_colon_from_stable_denominators.py",
+      "sha256": "f832d6b0041130dee110d2870b597c1c084bc2bf7d1fe37d637336784326be5b"
+    }
+  },
+  "frozen_rule": {
+    "stable_nonzero_pair_count": 95,
+    "denominator": "LCM of all and only p48-to-p54 identical nonzero pair denominators",
+    "numerator": "centered representative of denominator times p54 residue",
+    "alternate_denominator_trials": 0,
+    "new_digits": 0
+  },
+  "claim_boundary": "This pre-observation freeze proves no denominator recovery, rational membership, polynomial identity, colon equality, saturation, nullcone containment, or HC4 result."
+}

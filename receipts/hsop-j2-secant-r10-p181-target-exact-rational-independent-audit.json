@@ -1,0 +1,40 @@
+{
+  "bound_hashes": {
+    "common_denominator_vector": "a83e144d7b383ee9202bd34ac991d1d4d2fe1f70482927b997ebf23c6c5d878d",
+    "integral_system": "5064cfea27bc16ad9977d651f6215b407e2e3865df3dfc65ad15213b27d5ab8d",
+    "integral_system_independent_audit": "5704d3aa864dce04f3f121779634d93eaff5f5ed528b66149249f95ab51fa044",
+    "p54_independent_audit": "587806d14b8963091729272afbb732f655b94d4a50fa0b363784b4bf6afd7190",
+    "p54_residues": "5e8663474d2f9a7d9ce2c797c1cfa345bc761faa1fa77b5767b4c1da0a96df7e",
+    "pairs": "9164b59d49a247f2e2710094d4474255195f5912a890e43b9915ef28c7a5eb42",
+    "producer": "b919cf40318d60f7048342aa698e1ab86c9a2c7faaab5d7f68daa7d09bd4015e"
+  },
+  "certificate_checks": {
+    "common_reduction_mismatch_count": 0,
+    "coordinate_count": 35881,
+    "encoding_mismatch_count": 0,
+    "global_denominator_bit_length": 188,
+    "normalization_mismatch_count": 0,
+    "pair_reduction_mismatch_count": 0,
+    "support_count": 19050
+  },
+  "claim_boundary": "This PASS independently certifies the exact rational target-system solution. Independent source-to-polynomial reconstruction remains separate; no saturation, secant, nullcone, or HC4 theorem follows.",
+  "declarations": {
+    "certificate_replay_reimplemented": true,
+    "p_adic_lifter_not_imported_or_executed": true,
+    "producer_not_imported_or_executed": true,
+    "solver_not_executed": true
+  },
+  "exact_replay": {
+    "maximum_absolute_residual": 0,
+    "mismatch_count": 0,
+    "residual_stream_sha256": "80059021edc7491996d1391ba6d8d19768541273236ce74736a2c2d61ac40e6f",
+    "row_comparisons": 85651
+  },
+  "resources": {
+    "maximum_rss_native": 180027392,
+    "process_swaps": 0,
+    "wall_seconds": 1.0094503340078518
+  },
+  "schema": "hc4.third-colon-p181-target-exact-rational-independent-audit.v1",
+  "status": "PASS_INDEPENDENT_P181_TARGET_EXACT_RATIONAL_SYSTEM_SOLUTION"
+}

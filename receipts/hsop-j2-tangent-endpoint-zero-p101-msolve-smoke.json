@@ -1,0 +1,46 @@
+{
+  "algorithm": "msolve",
+  "auxiliary_equation_count": 1,
+  "auxiliary_stream_sha256": "cc69ebd91f92c654a026cdb0101d1ae86f861fc4e6f87870ac4c4a6823be73a4",
+  "branch": "endpoint_zero",
+  "calculation": {
+    "basis_size": null,
+    "child_system_seconds_immediate_scope": 0.720425,
+    "child_user_seconds_immediate_scope": 45.452221,
+    "diagnostic_error": false,
+    "forced_group_kill": false,
+    "is_unit": false,
+    "maximum_rss_native_immediate_scope": 1251819520,
+    "process_group_terminated": true,
+    "resource_accounting": "wall time authoritative; CPU/RSS counters may omit delegated worker descendants",
+    "return_code": null,
+    "solver_output_tail": "",
+    "stderr_tail": "Initial seed for pseudo-random number generator is 1788074820\n\n--------------- INPUT DATA ---------------\n#variables                      20\n#equations                      56\n#invalid equations               0\nfield characteristic           101\nhomogeneous input?               0\nsignature-based computation      0\nmonomial order                 DRL\nbasis hash table resetting     OFF\nlinear algebra option            2\ninitial hash table size     131072 (2^17)\nmax pair selection             ALL\nreduce gb                        1\n#threads                         4\ninfo level                       1\ngenerate pbm files               0\n------------------------------------------\n",
+    "stdout_tail": "",
+    "timed_out": true,
+    "unit_remainder": null,
+    "wall_seconds": 30.038326874986524
+  },
+  "characteristic": 101,
+  "claim_boundary": "the two branches are exhaustive only together; a modular unit is route evidence and requires characteristic-zero lifting",
+  "disposition": "TIMEOUT_RETAINED",
+  "equation_build_seconds": 3.9305865420028567,
+  "gauge": "primitive_j2=1",
+  "generator_count": 56,
+  "maximum_total_degree": 3,
+  "normal_equation_count": 55,
+  "normal_equation_stream_sha256": "5cfce6cd2b9e307745668ff445b97e840f371cd0806363319456516612989759",
+  "orbit": "tangent",
+  "schema": "hc4-decimic-j2-tangent-endpoint-branch-scout-v1",
+  "solver_source_sha256": "518fa2eac6043583afdc2bf818969d12029f273c371b9c6c3c196aa4299c6c3e",
+  "source_sha256": {
+    "scripts/certify_residual_orbit_torus.py": "a071c7d4c9e6b39cf4dabcbf9adfd078a4e9cf15452df9315523a45e009dbaa5",
+    "scripts/scout_j2_tangent_endpoint_branch.py": "e80791cef3dc5a9e96866455dad0e74713a486874ccd40b94522f3bf8a1f3ad1"
+  },
+  "substitutions": {
+    "f10": "0"
+  },
+  "threads": 4,
+  "variable_count": 20,
+  "wall_seconds": 34.31890108299558
+}

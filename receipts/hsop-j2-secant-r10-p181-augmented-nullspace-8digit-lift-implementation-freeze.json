@@ -1,0 +1,27 @@
+{
+  "bound_files": {
+    "artifacts/bin/linbox_augmented_nullspace_mod181_target_driver": "9723f17186d89229a8ea3d24181cdc1a4bba5e2be9537bb0ed8d170d3872fa31",
+    "artifacts/third-colon-p181-explicit-target-solve-v1/solution_mod181.u8": "5c37ce8fda3829baeef36f58002589e289bdd552939f61216b3ce257af456e58",
+    "artifacts/third-colon-p181-source-clean-integral-lift-system-v1/A_Z_b_Z_fixed_gauge.i64csr": "5064cfea27bc16ad9977d651f6215b407e2e3865df3dfc65ad15213b27d5ab8d",
+    "artifacts/third-colon-p181-source-clean-integral-lift-system-v1/A_Z_mod181_fixed_gauge.csr": "eb419a8348852cb784f308ebd32eef682c731bafe77533e3b37ff5241b2228cc",
+    "receipts/hsop-j2-secant-r10-p181-integral-lift-system-independent-audit.json": "5704d3aa864dce04f3f121779634d93eaff5f5ed528b66149249f95ab51fa044",
+    "research/THIRD_COLON_P181_AUGMENTED_NULLSPACE_8DIGIT_LIFT_PREREGISTRATION.md": "e4f1d31a8a26c44120aed04466a28ac1265a5aed515d9ac2327cae041dfa1e0f",
+    "scripts/fixed_p181_dixon_rr.py": "df4af8404cbc151d73fe82aeeb588541e412063d2fcdb2969933e40e21c5329c",
+    "scripts/lift_p181_third_colon_augmented_nullspace_8digits.py": "76d163aebc5e10038a1c7e6d257668b744bfa26a1a7aa13c24a0b6eb705b8f67",
+    "scripts/run_p181_target_blind_linbox_rank_gated.py": "a282b31bca01c972ff5d294b64ddca103d2ea6c1c6bab8f6f12ddc7b800b83de",
+    "scripts/run_p181_third_colon_augmented_nullspace_8digit_lift_gated.py": "b0e394681b5954123b1016064aee63b9b01c167141106d44298615b26fe2f283"
+  },
+  "canonical_outputs": {
+    "artifact": "artifacts/third-colon-p181-augmented-nullspace-8digit-lift-v1",
+    "telemetry": "receipts/telemetry/third-colon-p181-augmented-nullspace-8digit-lift-v1",
+    "terminal": "receipts/hsop-j2-secant-r10-p181-augmented-nullspace-8digit-lift.json"
+  },
+  "policy": {
+    "maximum_total_digits": 8,
+    "process_swaps_maximum": 0,
+    "rss_bytes_maximum": 4294967296,
+    "wall_seconds_maximum": 1200
+  },
+  "schema": "hc4.decimic-j2-secant-r10-p181-augmented-nullspace-8digit-lift-implementation-freeze.v1",
+  "status": "PASS_P181_AUGMENTED_NULLSPACE_8DIGIT_LIFT_IMPLEMENTATION_FREEZE"
+}

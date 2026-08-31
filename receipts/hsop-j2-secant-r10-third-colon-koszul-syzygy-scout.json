@@ -1,0 +1,119 @@
+{
+  "assurance": "exact integer syzygies plus finite-field independence witness",
+  "characteristic": 181,
+  "claim_boundary": "A PASS proves only that the displayed 2,053 primitive integer vectors are exact rational syzygies and are independent over QQ, witnessed by full rank modulo 181. It does not prove target membership over QQ, reconstruct rational multipliers, compute a colon or saturation, close the secant chart, prove nullcone containment, or establish HC4.",
+  "dimensions": {
+    "QQ_kernel_quotient_dimension_upper_bound": 114,
+    "cubic_cubic_column_count": 1993,
+    "cubic_quartic_column_count": 60,
+    "koszul_column_count": 2053,
+    "koszul_nonzero_count": 154939,
+    "modular_rank": 2053,
+    "multiplier_coordinate_count": 38048,
+    "p181_kernel_quotient_dimension": 114,
+    "quartic_quartic_column_count": 0
+  },
+  "exact_checks": {
+    "all_exact_convolutions_zero": true,
+    "all_primitive_integer_columns": true,
+    "convolution_update_count": 5990942,
+    "matching_size": 2053,
+    "p181_support_preserved": true,
+    "rank_mod_181": 2053,
+    "rank_over_QQ_equals_column_count": true
+  },
+  "hashes": {
+    "column_metadata_sha256": "6dd2203260d3a2cab47df37476acd05ba718ed60f80137db362dfdbf173df752",
+    "descriptor_stream_sha256": "0f0e46bb94241fa478c6cbdcf33c4472128ad4ed48a8fdaebd88e19028948639",
+    "frozen_inputs": {
+      "artifacts/j2-secant-r10-first-colon-kernel-qq.json": "2c6b84ad400634a0f54aa54c3ebfb49b6ae3453240335713f07681fa5773d130",
+      "artifacts/j2-secant-r10-second-colon-kernel-qq-candidate.json": "c41e7c02e7163a0f1a2e71cd7fd5f0d38167b37f3f832019fa069c0ffd2bf37e",
+      "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181.json": "26be0a64574c3cdbe6f7d0c323f9a5e4beb9b8df8e568f9daa054744160bc0a1",
+      "artifacts/j2-secant-r10-third-colon-kernel-qq-candidate.json": "b7f37502a3b4a11739fe4e1e47746af68b2a8cc66cb18302bfe729927ed65b97",
+      "receipts/hsop-j2-secant-r10-third-colon-identity-alt-gauge-p181.json": "fe32cc53e81cf50e6c34881c5c61605938178a366986fae6ce872670aa9ddc6a",
+      "research/THIRD_COLON_KOSZUL_SYZYGY_SCOUT_PREREGISTRATION.md": "52d9a3df54fe09f3f65277765e8c0c0e85d42cbd34b2b6cf29e1ec3f11d83755",
+      "scripts/certify_j2_secant_r10_colon_identity_liftstd.py": "e946e9e4b5ad1f7e7b62b688c03502f4331c463cd691e66b4f207d4b2b96f34c",
+      "scripts/certify_j2_secant_r10_second_colon_identity_sparse_macaulay.py": "ea20fb8719bb583c424f0cc4e2730b46c7f38e130558fa7e6d2422865fb1af6b",
+      "scripts/certify_j2_secant_r10_third_colon_identity_sparse_macaulay.py": "c0e1557c1a18d85af997e24c739d799d58c7d0b655d0662a0215f30e9b42ae74",
+      "scripts/certify_j2_secant_r10_z12_macaulay.py": "fd49512f605cb257d62aea850fe795d61db04ca23df9504910f157cfe1436d26",
+      "scripts/scout_j2_secant_r10_homogeneous_saturation.py": "8ba0c949784491272323cf2b411b0055c7d81d810513faa5428ed90fe1293a14"
+    },
+    "matched_coordinate_vector_sha256": "c0d2d067a4a79feeff85816301757f1264641fe14be60b974bcee1291524281a",
+    "primitive_column_stream_sha256": "8a36159e01332cfc8fac9449e95001a069e440e8f7242965e756c09d15dfea76",
+    "source_sha256": "39a73daab21470954300b9053c716c9dc300a491a9c81648b89539369eeb9988"
+  },
+  "quartic_metadata": {
+    "first": {
+      "candidate_receipt_sha256": {
+        "research/j2_secant_r10_colon_kernel_candidate_p1073741827.json": "1787ac75c59d553bfe64f767f739a1a0f6a4cb0f19dc18228f748476ea4292a3",
+        "research/j2_secant_r10_colon_kernel_candidate_p1073742851.json": "d57655a3efe5c949488f916a641cb98c133b88181e2a4028946bda610c1ced04"
+      },
+      "common_denominator_lcm": 3024,
+      "crt_modulus": 1152922610560928777,
+      "expression_sha256": "596e667ed1540ce18f9950134851e84049c2d7aeae10130e4741e567eb6ef5c3",
+      "maximum_absolute_numerator": 264290,
+      "maximum_denominator": 756,
+      "reconstruction_primes": [
+        1073741827,
+        1073742851
+      ],
+      "term_count": 189,
+      "total_degree": 4
+    },
+    "second": {
+      "character_weight": 3,
+      "crt_modulus": "1152922610560928777",
+      "discovery_primes": [
+        1073741827,
+        1073742851
+      ],
+      "expression_sha256": "689ec900d68fbd469b9a6aad21d5d6876ed3fdde370243446ab449c9926ad79a",
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-second-colon-kernel-qq-candidate.json",
+      "sha256": "c41e7c02e7163a0f1a2e71cd7fd5f0d38167b37f3f832019fa069c0ffd2bf37e",
+      "term_count": 211,
+      "total_degree": 4
+    },
+    "third": {
+      "character_weight": 2,
+      "crt_modulus": "1152922610560928777",
+      "discovery_primes": [
+        1073741827,
+        1073742851
+      ],
+      "expression_sha256": "28842250da1e0055614dcdf6cfca6ee9a1351ca0ebc29fb94f1111e70b5d0f02",
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-kernel-qq-candidate.json",
+      "sha256": "b7f37502a3b4a11739fe4e1e47746af68b2a8cc66cb18302bfe729927ed65b97",
+      "term_count": 248,
+      "total_degree": 4
+    }
+  },
+  "resources": {
+    "maximum_rss_native": 375603200,
+    "rss_cap_bytes": 2000000000,
+    "system_cpu_seconds": 0.46293799999999996,
+    "user_cpu_seconds": 26.377823,
+    "wall_cap_seconds": 180.0
+  },
+  "schema": "hc4.third-colon-koszul-syzygy-scout.v1",
+  "status": "PASS_EXACT_2053_KOSZUL_SYZYGIES_INDEPENDENT_OVER_QQ",
+  "support_graph": {
+    "component_count": 1,
+    "component_size_pairs": [
+      [
+        2053,
+        28853
+      ]
+    ],
+    "component_size_pairs_sha256": "328c4d98a339d5fb11fbfa70a9e5207779166cd416bbf29392d685d165e5bcd2",
+    "largest_column_count": 2053,
+    "largest_coordinate_count": 28853
+  },
+  "timings": {
+    "column_enumeration_seconds": 0.38033050001831725,
+    "exact_convolution_seconds": 16.759625000006054,
+    "graph_seconds": 0.05096429100376554,
+    "input_and_descriptor_build_seconds": 6.991275542008225,
+    "modular_rank_seconds": 0.23361604200908914,
+    "total_wall_seconds": 24.499024290998932
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "bindings": {
+    "implementation_freeze_sha256": "710b5f768c1693dc79faf604b8581711cf6d277711acd84ac84206274525699d",
+    "preimplementation_audit_sha256": "c434b7f7d6f6ea06f027d8404f70937fda32f26cef86a4b41efd77eef93ebfae",
+    "quarantine_not_evidence_sha256": "9ac52e2f5dd4ee7badbd7f8029e244f70060d753d1e36d034e4595ca08215671"
+  },
+  "canonical_v2_paths_existing": [],
+  "claim_boundary": "This terminal falsifies only the frozen v2 implementation under its 600-second Phase-I protocol. It does not falsify rank, the p181 lift, a QQ identity, ideal membership, colon, saturation, secant closure, nullcone containment, or HC4.",
+  "declarations": {
+    "no_Dixon_digit_computed": true,
+    "no_arithmetic_modulo_181_squared": true,
+    "no_factorization_freeze_index": true,
+    "quarantined_integer_system_cannot_feed_later_run": true
+  },
+  "external_telemetry": {
+    "factorizer": {
+      "maximum_rss_bytes": 3236954112,
+      "process_swaps": 0,
+      "real_seconds": 577.31,
+      "sha256": "4b4d0b2b0c8894a659cd440654c4f53e863d823f69667b30f9869fa5d081ffb7",
+      "system_seconds": 112.68,
+      "user_seconds": 378.45
+    },
+    "preprocessor": {
+      "maximum_rss_bytes": 835928064,
+      "process_swaps": 0,
+      "real_seconds": 22.12,
+      "sha256": "c76d055f73e0ffaaf44f330ddd7fcc325ddc0ead752c0962e848145bf5f47926",
+      "system_seconds": 0.74,
+      "user_seconds": 20.47
+    }
+  },
+  "observations": {
+    "algebra_failure_observed": false,
+    "factorization_artifact_emitted": false,
+    "factorizer_exit_code": 124,
+    "literal_zero_swap_gate_passed": true,
+    "memory_gate_passed": true,
+    "preprocessor_completed": true,
+    "rank_conclusion_available": false,
+    "wall_gate_passed": false
+  },
+  "schema": "hc4.decimic-j2-secant-r10-third-colon-dixon-p181-phase1-v2-terminal.v1",
+  "status": "STOP_PHASE1_THROUGHPUT_V2"
+}

@@ -1,0 +1,56 @@
+{
+  "assurance": "independent receipt consistency and Sage LinBox wrapper source audit",
+  "backend_audit": {
+    "dispatch": "GaussDomain_Modular_uint64.InPlaceLinearPivoting",
+    "isolated_function_body_sha256": "f24a4e86b3c879960d2d6d0cb062439545cefee5407fa6d20db426a26915ad67",
+    "matrix_modn_sparse_binary_path": "/Users/admin/Applications/SageMath-10-9.app/Contents/Frameworks/Sage.framework/Versions/10.9/local/lib/python3.14/site-packages/sage/matrix/matrix_modn_sparse.cpython-314-darwin.so",
+    "matrix_modn_sparse_binary_sha256": "5172216e6445fc7162ce3cdc4d80a5888f281ff635c94d7a084b2ea18ba2eacd",
+    "rank_algorithm_class": "exact sparse modular Gaussian elimination",
+    "reference_wrapper_source_path": "/Users/admin/.local/share/o01d0-passagemath/lib/python3.14/site-packages/sage/matrix/matrix_modn_sparse_linbox.pyx",
+    "reference_wrapper_source_sha256": "5d90fe774720e663785ace8b34b5fab7394e1a63ded71787618cd637709e4d32",
+    "sage_version": "10.9"
+  },
+  "backend_checks": {
+    "calls_in_place_linear_pivoting": true,
+    "does_not_request_blackbox_method": true,
+    "does_not_request_wiedemann_method": true,
+    "sage_version_is_10_9": true,
+    "uses_gauss_domain": true,
+    "uses_modular_uint64_field": true,
+    "uses_sparse_modular_matrix": true
+  },
+  "characteristic": 103,
+  "claim_boundary": "A PASS audits exact modular membership at p=103 through rank equality. It does not recover an explicit multiplier vector, prove a QQ identity, compute a colon or saturation, close the secant chart, or establish HC4.",
+  "input": {
+    "path": "receipts/hsop-j2-secant-r10-third-colon-linbox-rank-p103.json",
+    "sha256": "a86a6b4fa2653c34f421eb260b311471b7e9312d01a921f6661ff6af0350adb2"
+  },
+  "mathematical_decision": {
+    "augmented_rank": 35880,
+    "coefficient_rank": 35880,
+    "conclusion": "M*h3 belongs to the image of the displayed p=103 Macaulay map",
+    "logic": "A*x=b is consistent over a field iff rank(A)=rank([A|b]).",
+    "ranks_equal": true
+  },
+  "receipt_checks": {
+    "active_column_count_match": true,
+    "active_row_count_match": true,
+    "augmented_rank_match": true,
+    "characteristic_is_103": true,
+    "coefficient_rank_match": true,
+    "isolated_coordinate_match": true,
+    "isolated_row_count_match": true,
+    "nullity_identity": true,
+    "producer_hash_match": true,
+    "ranks_equal": true,
+    "schema_match": true,
+    "status_match": true,
+    "structure_hash_match": true
+  },
+  "schema": "hc4.decimic-j2-secant-r10-third-colon-linbox-rank-audit.v1",
+  "script": {
+    "path": "scripts/audit_j2_secant_r10_third_colon_linbox_rank.py",
+    "sha256": "85afd13380995a73a9ce146925f38dcf223986ee302d7c19f07eee82afddfc20"
+  },
+  "status": "PASS_EXACT_MODULAR_MEMBERSHIP_RANK_AUDIT"
+}

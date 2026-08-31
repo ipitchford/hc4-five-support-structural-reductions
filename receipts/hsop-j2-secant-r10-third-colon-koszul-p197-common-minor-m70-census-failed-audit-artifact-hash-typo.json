@@ -1,0 +1,11 @@
+{
+  "claim_boundary": "No primary census, audit, rational reconstruction, QQ identity, colon, saturation, secant, nullcone, or HC4 conclusion is licensed by this failed run.",
+  "error": "normalized artifact changed at p2147482867",
+  "error_type": "ValueError",
+  "maximum_rss_native": 30408704,
+  "process_swap_delta": 0,
+  "schema": "hc4.third-colon-koszul-p197-common-minor-m70-census.v1",
+  "source_sha256": "8ee146e327f62f586d8976552f847dd318ab8331c996671c321a7449c4d0e027",
+  "status": "FAIL_CLOSED_P197_COMMON_MINOR_M70_CENSUS",
+  "wall_seconds": 0.03726425001514144
+}

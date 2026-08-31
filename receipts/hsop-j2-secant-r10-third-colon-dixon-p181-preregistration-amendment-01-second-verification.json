@@ -1,0 +1,74 @@
+{
+  "checked_bound_file_count": 21,
+  "checked_bound_file_hashes": {
+    "artifacts/j2-secant-r10-third-colon-identity-extended-sparse-p181.json": "e9841fee4f75e60adef26a8b10878b35f6db48e6d0a21876b197d7cbdef2064b",
+    "artifacts/j2-secant-r10-third-colon-residual-114-quotient-chart.json": "7ad12483dd5c8429defc3e0c5c8138ded3d344969075ae4afdb15d39d2fb9a74",
+    "receipts/hsop-j2-secant-r10-third-colon-identity-extended-sparse-p181.json": "f04bc461e8b15c012c229d1de13eb940316bad35914f12a34ab3fc112b29f14c",
+    "receipts/hsop-j2-secant-r10-third-colon-koszul-p197-common-minor-m70-census.json": "7bb84b8e56df2e68fc4989cf22fc538d8660a5888d7ed0a6eac692512e69367c",
+    "receipts/hsop-j2-secant-r10-third-colon-koszul-p197-common-minor-normalization-independent-audit.json": "674c2757e3dc0f4fdc51e3d4c889a742cac192e74322cc1b5ece70d72ec55ad4",
+    "receipts/hsop-j2-secant-r10-third-colon-koszul-p197-common-minor-normalization.json": "3c2f2ac3b2a0c98bb279e90a1fffe8aea68f8c8c4db85e15ced673d50648946e",
+    "receipts/hsop-j2-secant-r10-third-colon-residual-114-quotient-independent-audit-external-telemetry.json": "831c4ce5bcd6fdb0451209db1a8b0cbafabeec3e605c3235836c09cd42dac91e",
+    "receipts/hsop-j2-secant-r10-third-colon-residual-114-quotient-independent-audit.json": "7eba0e65e40abd7eea0065ecd84c3803237fa9cc5c51391f3202b4d300b7185a",
+    "receipts/hsop-j2-secant-r10-third-colon-residual-114-quotient-scout.json": "652af633649c32af3322b9405eac8d6e60fdaba5668817de6a11330782bc752a",
+    "receipts/hsop-j2-secant-r10-third-colon-residual-114-two-prime-exact-chart-external-telemetry.json": "5770d7cc1cd71559bd754951937ff89a664950c25029a2088329cbef3f286d0b",
+    "receipts/hsop-j2-secant-r10-third-colon-residual-114-two-prime-exact-chart-failed.json": "1d7f334e55c1229280e2b49e17a22ec74f578dde3ef6144745a81c6884ae9a37",
+    "research/THIRD_COLON_KOSZUL_P197_COMMON_MINOR_NORMALIZATION_PREREGISTRATION.md": "b203a118b302c50394a0188501e32d12cc077c85fca2b1513bed770f59a112f8",
+    "research/THIRD_COLON_RESIDUAL_114_QUOTIENT_SCOUT_PREREGISTRATION.md": "112fb4ea3de68c84459422903e0c6f3c4c2902d364b13639f130c2a7f6cebf22",
+    "research/THIRD_COLON_RESIDUAL_114_TWO_PRIME_EXACT_CHART_EXTENSION_PREREGISTRATION.md": "cc01cb96c1738316100bc46eab2c5ce5c8e23402da7b95d2483f0fab80f0ac10",
+    "scripts/audit_j2_secant_r10_third_colon_residual_114_quotient_independent.py": "81ad24d01ae70a0ca2731259753d99a429bd48ae288e77105120dd800009396d",
+    "scripts/census_j2_secant_r10_third_colon_koszul_p197_common_minor_m70.py": "6c09d24f9ef3962b1d677c38b34521be20fb4fb3f13dd34c12f270920beccb44",
+    "scripts/certify_j2_secant_r10_third_colon_identity_sparse_macaulay.py": "c0e1557c1a18d85af997e24c739d799d58c7d0b655d0662a0215f30e9b42ae74",
+    "scripts/normalize_j2_secant_r10_third_colon_koszul_p197_common_minor.py": "fdbed62134385b5412474cd40e70e25a69eea9c5284a6a06dc99ecc121c4d57e",
+    "scripts/produce_j2_secant_r10_third_colon_residual_114_two_prime_exact_chart.py": "7f469224f15b09419c7d092f4a84600ec1532f9e27711454a72e774f118c2f5d",
+    "scripts/run_j2_secant_r10_third_colon_residual_114_two_prime_exact_chart_gated.py": "7fd2f5f21045e8eb7434074057707d489085612b8941b977b1c31581148b3229",
+    "scripts/scout_j2_secant_r10_third_colon_residual_114_quotient.py": "607706e89e25990ed3ed1bdd5f7d9a972c824b0bff62a33035789860f75f3b81"
+  },
+  "claim_boundary": "This separate implementation verifies only the preimplementation specification audit. It does not execute the Dixon pilot or prove any p-adic, QQ, ideal, colon, saturation, secant, nullcone, or HC4 statement.",
+  "dimensions": {
+    "C_piv": 35881,
+    "F": 2167,
+    "matrix_nonzeros": 1473071,
+    "monomial_equations": 85651,
+    "normal_cubic_generators": 17,
+    "target_terms": 486,
+    "total_generators": 19,
+    "unknown_multiplier_coordinates": 38048
+  },
+  "documents": {
+    "amendment_sha256": "5bff2bd3844744f854c2757aee4b8bf09d227ae487ba1b43f55682a009f5d08c",
+    "original_sha256": "dcba29bf2b3396fcbfd2999aad09a363c2fc852e4fb04c142cb1e1636c5ad6cc"
+  },
+  "gauge_partition": {
+    "coverage": true,
+    "free_coordinates_zero": true,
+    "free_count": 2167,
+    "pivot_count": 35881
+  },
+  "independently_recomputed_hash_domains": {
+    "coordinate_vector": {
+      "binary_payload_sha256": "c70692a5f4dae3fa38836bf41ba70f84b0bf17496aaddba46b6c25f17c9b97ce",
+      "legacy_compact_json_sha256": "9932deed637ea317b4483cad9366e1fd1455be7453bc74a64ce78f04c4f57919"
+    },
+    "free_unknown_indices": {
+      "binary_payload_sha256": "0e61ca7640641742ebab50e35154f87124a0dbcae5fd33cd626fbc06baa0614a",
+      "legacy_compact_json_sha256": "2da8418faa5f04e82a5eb6da88268f4e025279fd0dd348d8674cb89c8d0cf8d1"
+    },
+    "pivot_unknown_indices": {
+      "binary_payload_sha256": "3a4087b184540be80852650b26aecaddd561a2a866599e660d9359b3415dfed2",
+      "legacy_compact_json_sha256": "1da29807a38b0f9eceaf8606b120ea61e0a24605e959f7f2f88e4ed9bb073e1d"
+    }
+  },
+  "prospective_outputs_absent": true,
+  "schema": "hc4.decimic-j2-secant-r10-third-colon-dixon-p181-preregistration-amendment-second-verification.v1",
+  "source": {
+    "path": "scripts/verify_fixed_p181_dixon_preregistration_amendment_receipt.py",
+    "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "sha256": "1c61de9cfffdc3cee5c5113204ba79e40f45e2c0cb2d52a1f2aaf2585268b7be"
+  },
+  "source_receipt": {
+    "path": "receipts/hsop-j2-secant-r10-third-colon-dixon-p181-preregistration-amendment-01-audit.json",
+    "sha256": "dd6ef410291530f37a0f84163194d97cb04065dfedaa52baf00ed86b793e92b8"
+  },
+  "status": "PASS_SECOND_IMPLEMENTATION_SPEC_AMENDMENT_VERIFICATION",
+  "terminal_modulus": "1151936657823500641"
+}

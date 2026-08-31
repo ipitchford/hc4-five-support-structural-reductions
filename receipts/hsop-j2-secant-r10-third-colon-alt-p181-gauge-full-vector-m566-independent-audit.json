@@ -1,0 +1,430 @@
+{
+  "candidate_count_histogram": {
+    "1": 17751,
+    "10": 31,
+    "11": 46,
+    "12": 48,
+    "13": 53,
+    "14": 60,
+    "15": 65,
+    "16": 37,
+    "17": 21,
+    "18": 16,
+    "19": 12,
+    "195": 1,
+    "2": 6,
+    "20": 3,
+    "200": 3,
+    "202": 2,
+    "203": 4,
+    "204": 4,
+    "205": 7,
+    "206": 3,
+    "207": 13,
+    "208": 11,
+    "209": 17,
+    "21": 2,
+    "210": 28,
+    "211": 31,
+    "212": 36,
+    "213": 57,
+    "214": 90,
+    "215": 73,
+    "216": 79,
+    "217": 127,
+    "218": 148,
+    "219": 184,
+    "22": 2,
+    "220": 197,
+    "221": 220,
+    "222": 272,
+    "223": 303,
+    "224": 348,
+    "225": 413,
+    "226": 432,
+    "227": 508,
+    "228": 531,
+    "229": 544,
+    "230": 624,
+    "231": 625,
+    "232": 682,
+    "233": 714,
+    "234": 651,
+    "235": 715,
+    "236": 787,
+    "237": 749,
+    "238": 784,
+    "239": 685,
+    "240": 706,
+    "241": 700,
+    "242": 678,
+    "243": 608,
+    "244": 588,
+    "245": 530,
+    "246": 470,
+    "247": 452,
+    "248": 471,
+    "249": 423,
+    "250": 323,
+    "251": 326,
+    "252": 269,
+    "253": 247,
+    "254": 208,
+    "255": 190,
+    "256": 159,
+    "257": 116,
+    "258": 136,
+    "259": 96,
+    "260": 71,
+    "261": 63,
+    "262": 55,
+    "263": 40,
+    "264": 39,
+    "265": 19,
+    "266": 21,
+    "267": 11,
+    "268": 15,
+    "269": 10,
+    "270": 6,
+    "271": 3,
+    "272": 2,
+    "273": 3,
+    "274": 1,
+    "275": 2,
+    "276": 1,
+    "277": 1,
+    "279": 1,
+    "3": 6,
+    "4": 21,
+    "5": 13,
+    "6": 12,
+    "7": 22,
+    "8": 27,
+    "9": 32
+  },
+  "candidate_stream_sha256": "c83810ad108c90ba3f534ef02e2caaa067c3a5f16f6841fdba4903d9eff91440",
+  "claim_boundary": "This independently verifies a bounded coefficient-height census in one frozen p181 gauge. The 17,751 unique-zero coordinates, 535 unique-nonzero coordinates, and 19,762 no-candidate coordinates do not assemble a QQ multiplier vector, prove a QQ polynomial identity, identify a colon or saturation, close the secant chart, prove nullcone containment, or establish HC4.",
+  "combined_crt_residue_vector_sha256": "c145ba8ac82c47cae1e3e77f9df8c66af29e900ac7e3a7c9adaffe761bbad559",
+  "complete_proper_convergent_count_total": 6540300,
+  "completeness_statement": "By Legendre's theorem, every reduced n/d with d>0, gcd(d,M)=1, n=r*d mod M, and 2*abs(n)*d<M occurs at a proper convergent of r/M; this audit explicitly tested every such proper convergent.",
+  "coordinate_count": 38048,
+  "coordinates_by_outcome_sha256": {
+    "no_candidate": "113e9769c13efa1e78afc183e4f0854f9191916ab5988904fd93c9e38812c4bc",
+    "unique_nonzero": "b4092158a0ddd6d9fa7a4b4bacfbb559c4eb3afe9bf4f9b33207ad494f80f184",
+    "unique_zero": "f722f8e5046d9b9700c8aa63bdfa45bd5d439aa4737429bf19c68a056b31ca94"
+  },
+  "elimination_provenance": {
+    "checks": {
+      "all_2167_free_coordinates_are_unique_zero": true,
+      "all_581_dense_pivots_are_no_candidate": true,
+      "early_sparse_no_candidate_count_is_19181": true,
+      "producer_cross_tab_exact": true,
+      "regions_partition_all_38048_coordinates": true
+    },
+    "cross_tab": {
+      "dense_handoff_pivots": {
+        "coordinate_count": 581,
+        "outcome": {
+          "no_candidate": 581,
+          "unique_nonzero": 0,
+          "unique_zero": 0
+        }
+      },
+      "early_sparse_pivots": {
+        "coordinate_count": 35300,
+        "outcome": {
+          "no_candidate": 19181,
+          "unique_nonzero": 535,
+          "unique_zero": 15584
+        }
+      },
+      "free_coordinates": {
+        "coordinate_count": 2167,
+        "outcome": {
+          "no_candidate": 0,
+          "unique_nonzero": 0,
+          "unique_zero": 2167
+        }
+      }
+    },
+    "dense_handoff_pivot_count": 581,
+    "dense_pivot_coordinates_sha256": "d87f9ff9ddb60dcc484243294483ff2db0e853de03bdef2e0315a5707c5f76e0",
+    "early_sparse_pivot_coordinates_sha256": "d205f63038c2d25aaf1d3660666d81eeaded2bf141082317f4bbc626044fd11a",
+    "early_sparse_pivot_count": 35300,
+    "free_coordinate_count": 2167,
+    "free_coordinates_sha256": "0fc299317fc6e2aff3c3a89031e71a9f81f4145f59332f9ae8b4ff9040b44e68",
+    "gauge_receipt": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/receipts/hsop-j2-secant-r10-third-colon-identity-alt-gauge-p181.json",
+    "gauge_receipt_sha256": "fe32cc53e81cf50e6c34881c5c61605938178a366986fae6ce872670aa9ddc6a",
+    "ordered_pivot_count": 35881
+  },
+  "fixed_gauge_signature_sha256": "8bec288cce8a4e1ea11b22abfae18d7187533e7d671f62d52693170c753ab2c1",
+  "independence": {
+    "campaign_module_imports": [],
+    "candidate_method": "ordinary simple continued fraction of r/M; test every proper convergent using n=r*q-M*p and the strict product inequality",
+    "crt_method": "iterative pairwise CRT in the frozen source-prime order",
+    "heavy_algebra_executed": false,
+    "language_runtime": "Python standard library only",
+    "producer_candidate_function_imported": false,
+    "producer_script_executed": false
+  },
+  "inputs": {
+    "checkpoint": {
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/receipts/hsop-j2-secant-r10-third-colon-coordinate13-adaptive-crt-alt-p181-gauge-m566-predeclared-checkpoint.json",
+      "sha256": "d8c7823ab6222b91081bb1e41217e220a6ea13214c5011121b306014c2a8c04f"
+    },
+    "producer_receipt": {
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/receipts/hsop-j2-secant-r10-third-colon-alt-p181-gauge-full-vector-m566-census.json",
+      "sha256": "096d74c093aed06874cc5b569ff89ee3f7a513bcdd1eb51d77599208176e5c33"
+    },
+    "producer_script_read_not_imported": {
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/scripts/audit_j2_secant_r10_third_colon_alt_gauge_full_vector_m566.py",
+      "sha256": "934945c83f91bd4ad9c659ff6a4aa4b5680627c7714a04ace4dd9d070abf6849"
+    },
+    "selector_artifacts": [
+      {
+        "characteristic": 173,
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p173.json",
+        "sha256": "0d4109f26779893324b7da6e2e7be619eb0bc2fc4093a8d06ecd106d26353ec8"
+      },
+      {
+        "characteristic": 197,
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p197.json",
+        "sha256": "76d6915815ffb45295a2d4128a90dc024930b41bc7c3d6980ac4c9d6c2d4dd02"
+      },
+      {
+        "characteristic": 199,
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p199.json",
+        "sha256": "4d51904a1c10af535c7fd5f4a4bc922d50f49ede46408cd6641967df146e5391"
+      },
+      {
+        "characteristic": 2147483549,
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483549.json",
+        "sha256": "e9ac4eaed8d442d55378c2e6f0604c7c6ac83bd162aac7f403482d0464b61655"
+      }
+    ],
+    "source_artifacts": [
+      {
+        "characteristic": 181,
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181.json",
+        "sha256": "26be0a64574c3cdbe6f7d0c323f9a5e4beb9b8df8e568f9daa054744160bc0a1"
+      },
+      {
+        "characteristic": 2147483647,
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483647.json",
+        "sha256": "4b121b15c4a61b83005350e417634fa3751b326df157f8cfd7a00df82ece94de"
+      },
+      {
+        "characteristic": 2147483629,
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483629.json",
+        "sha256": "b55292d584c660f1b14ba22f3ae3b8f25e45202fc43ca9a063f83132bdf1fce2"
+      },
+      {
+        "characteristic": 2147483587,
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483587.json",
+        "sha256": "17d76cb9f13b370362cd40ad45b2d97508526b49648c2da0e74212c28187a9ef"
+      },
+      {
+        "characteristic": 2147483579,
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483579.json",
+        "sha256": "eca0a473cd7d65f9e60d9244fbacb74b0f0e803a6de848197399fe6826b1d157"
+      },
+      {
+        "characteristic": 2147483563,
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483563.json",
+        "sha256": "a5595efc9397e5b6e93faf5318ce14d3535da227eb79c57c9939f30d51bfa5ff"
+      },
+      {
+        "characteristic": 2147483543,
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483543.json",
+        "sha256": "763214e3169c79de6632ef90dc01e20f56e45a90034125472683fe9f9619ab63"
+      },
+      {
+        "characteristic": 2147483497,
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483497.json",
+        "sha256": "efab988f30061a14e8e9b471e780a36ca77f5017ff7b7b6c3469b751a3ad33b4"
+      },
+      {
+        "characteristic": 2147483489,
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483489.json",
+        "sha256": "90f2fd07bfb3937478843a8ac970765ab0be504578c2522d5ad7ee6941a86b1a"
+      },
+      {
+        "characteristic": 2147483477,
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483477.json",
+        "sha256": "22df61efe2facc8e1b93d008a62bbd22744d052f993e3d4895053992cb0292ea"
+      },
+      {
+        "characteristic": 2147483423,
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483423.json",
+        "sha256": "e9a66576afef04dc75aa512e94e240555f62d6a120bf1ae67fa67049e319a468"
+      },
+      {
+        "characteristic": 2147483399,
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483399.json",
+        "sha256": "b5332be5b54fb95aa01f6e026bb1b991cf9375838a93b045a2ee21be39565fc9"
+      },
+      {
+        "characteristic": 2147483353,
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483353.json",
+        "sha256": "b9968de93f9710a3b0f80c00b168622be0ba46ec0cd1d5c467587edb1d3fdd3b"
+      },
+      {
+        "characteristic": 2147483323,
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483323.json",
+        "sha256": "8717b7170bd88e4397ced93a87349ddf2e43d9479c56847076f8aca7c0758a61"
+      },
+      {
+        "characteristic": 2147483269,
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483269.json",
+        "sha256": "d80fa2fa091e69028a23fbce7af8a34a515229cd0458ac601cf0d579770cf20a"
+      },
+      {
+        "characteristic": 2147483249,
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483249.json",
+        "sha256": "8711c0563680ad5c0f3a31509777702479988c144ca71de553cd2e664d10c3e7"
+      },
+      {
+        "characteristic": 2147483237,
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483237.json",
+        "sha256": "6240932ac922935b9ecf3306e094f429b66a0faeb6035cb669eef08b13864278"
+      },
+      {
+        "characteristic": 2147483179,
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483179.json",
+        "sha256": "a5195001ef96006884b72793f3cced80d184b543cd2a7e4a0aaaa3bba80582ec"
+      },
+      {
+        "characteristic": 2147483171,
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483171.json",
+        "sha256": "e09f0df949c706c3317128c37444f6ece5878b75bcac814e12397cc81165452b"
+      }
+    ]
+  },
+  "maximum_unique_nonzero_profile": {
+    "coordinate": 8036,
+    "denominator_bit_length": 12,
+    "numerator_bit_length": 28,
+    "twice_product_bit_length": 41
+  },
+  "outcome": {
+    "no_candidate": 19762,
+    "unique_nonzero": 535,
+    "unique_zero": 17751
+  },
+  "producer_comparison": {
+    "candidate_count_histogram_exact": true,
+    "coordinate_lists_exact": {
+      "no_candidate": true,
+      "unique_nonzero": true,
+      "unique_zero": true
+    },
+    "fixed_gauge_signature_exact": true,
+    "maximum_unique_profile_exact": true,
+    "outcome_exact": true,
+    "proper_convergent_count_equals_producer_eea_steps": true,
+    "source_modulus_exact": true,
+    "unique_nonzero_product_histogram_exact": true
+  },
+  "resources": {
+    "maximum_rss_native_self": 141901824,
+    "wall_seconds": 33.643117208004696
+  },
+  "schema": "hc4.third-colon-alt-gauge-full-vector-m566-independent-audit.v1",
+  "selector_characteristics": [
+    173,
+    197,
+    199,
+    2147483549
+  ],
+  "selector_filter_aggregates": [
+    {
+      "characteristic": 173,
+      "coordinates_with_a_survivor_after_selector": 33254,
+      "survivor_count_sum_after_selector": 45368
+    },
+    {
+      "characteristic": 197,
+      "coordinates_with_a_survivor_after_selector": 18429,
+      "survivor_count_sum_after_selector": 18430
+    },
+    {
+      "characteristic": 199,
+      "coordinates_with_a_survivor_after_selector": 18286,
+      "survivor_count_sum_after_selector": 18286
+    },
+    {
+      "characteristic": 2147483549,
+      "coordinates_with_a_survivor_after_selector": 18286,
+      "survivor_count_sum_after_selector": 18286
+    }
+  ],
+  "source_characteristics": [
+    181,
+    2147483647,
+    2147483629,
+    2147483587,
+    2147483579,
+    2147483563,
+    2147483543,
+    2147483497,
+    2147483489,
+    2147483477,
+    2147483423,
+    2147483399,
+    2147483353,
+    2147483323,
+    2147483269,
+    2147483249,
+    2147483237,
+    2147483179,
+    2147483171
+  ],
+  "source_modulus": "170771477660098650077164176997035427797221773789259705470651058773682013615659536207413122851845944492304349156808717109964811592752726137253764580709761054105228518725989",
+  "source_modulus_bit_length": 566,
+  "source_script": {
+    "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/scripts/audit_j2_secant_r10_third_colon_alt_gauge_full_vector_m566_independent.py",
+    "sha256": "cfb2990ecad7bbb92fdac0eb4e83a4820a3588307daf0addd9d3b3eb8e8825ef"
+  },
+  "status": "PASS_INDEPENDENT_FULL_VECTOR_M566_CENSUS_REPLAY",
+  "unique_candidate_coordinate_value_stream_sha256": "689a6ea246d101f04b04c2bfb1963d02e5172ecea7a9289de4780fc233af5d22",
+  "unique_nonzero_product_bit_length_histogram": {
+    "10": 3,
+    "11": 6,
+    "12": 1,
+    "13": 7,
+    "14": 8,
+    "15": 3,
+    "16": 11,
+    "17": 13,
+    "18": 8,
+    "19": 13,
+    "20": 7,
+    "21": 10,
+    "22": 21,
+    "23": 10,
+    "24": 16,
+    "25": 20,
+    "26": 13,
+    "27": 12,
+    "28": 17,
+    "29": 32,
+    "3": 3,
+    "30": 47,
+    "31": 40,
+    "32": 61,
+    "33": 48,
+    "34": 28,
+    "35": 16,
+    "36": 12,
+    "37": 4,
+    "38": 4,
+    "39": 5,
+    "4": 3,
+    "41": 1,
+    "5": 5,
+    "6": 3,
+    "7": 3,
+    "8": 8,
+    "9": 13
+  }
+}

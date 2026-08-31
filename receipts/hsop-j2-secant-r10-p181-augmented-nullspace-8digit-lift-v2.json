@@ -1,0 +1,91 @@
+{
+  "claim_boundary": "A PASS without exact rational replay is finite eight-digit p-adic evidence only. Any exact integral-system replay still requires independent symbolic replay; no colon, saturation, secant, nullcone, or HC4 theorem follows.",
+  "completed_corrections": 7,
+  "declarations": {
+    "fixed_p181": true,
+    "maximum_total_digits": 8,
+    "no_ninth_digit": true,
+    "quarantined_dixon_bundle_not_read": true
+  },
+  "implementation_freeze": {
+    "path": "receipts/hsop-j2-secant-r10-p181-augmented-nullspace-8digit-lift-implementation-freeze-v2.json",
+    "sha256": "3dbb4e4870f36fab04adefc1f993af81bbfc255707d665c56409e2804a764ae5"
+  },
+  "producer_status": "PASS_P181_AUGMENTED_NULLSPACE_8DIGIT_LIFT",
+  "promoted": {
+    "artifact": {
+      "X_mod_181_power_8.u64le": "18c32d72b31fa62dc7c1d347e6a6686bab11bc273077c60bdde329037559b842",
+      "correction_rhs_digit_1.u8": "4ef02fc7aa5d04cc530a078cb90cd7e6d67fd621e491e23e94bd1cc7f2f4a496",
+      "correction_rhs_digit_2.u8": "bf5fbe1f6cf743758f47b9dca7316cbb6def1a14ad67c7fb5a19619e73e78a48",
+      "correction_rhs_digit_3.u8": "55399f84eaa67560ff63ad50226ec95618ccb79ba282d29ffcf7c85afe6a806a",
+      "correction_rhs_digit_4.u8": "34f81def64634e1f149c31b46bcd4d6b71d12b6580a3b6f326df73940137a850",
+      "correction_rhs_digit_5.u8": "eb0e5186f1f0dee47481a635d7a711349a6bf7aabdadada5bab12842573a20b7",
+      "correction_rhs_digit_6.u8": "11a90f028b8cfaffe4e3e46093c64d7660e757377f5931d2492a4b5ca3f9035d",
+      "correction_rhs_digit_7.u8": "8b9a84a86760dc571a4ba6ea65a4181c066b7a21165bc7deac490e3038767bb8",
+      "digit_1.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "digit_1.stdout.txt": "8da503a715d8038afca27cd4a77f2373c615c17cf66e125b047b4af5d0c26122",
+      "digit_1.u8": "7a1156eb392067a22397e2722119a912002d83ed659dcd8748937c7cd0a9ea7d",
+      "digit_2.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "digit_2.stdout.txt": "7f8959682b3dcc41e44f115299f7898c5e67cfa131626cf12ceaa36ae40b2cef",
+      "digit_2.u8": "58426314a259bae0eef79da264a1fbe0a3da9c3ddf59e8f583b03e89697841f3",
+      "digit_3.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "digit_3.stdout.txt": "ba50268762f4e43296bf2e686910c3a4aa6ac3f6b487a6ddb565f0a6382d4930",
+      "digit_3.u8": "83c93160ac7c44994e94092cce540393ab820439a9b88c2c5a0553340e588ea8",
+      "digit_4.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "digit_4.stdout.txt": "0d115f040fb1f0f25a3e97e84c333fe6b5b9ba509d4ae2bc6bafa808aa9c8d11",
+      "digit_4.u8": "d648aa0136778c554268bb474736e3a46a48f1cde8b73446c287b7da3206045f",
+      "digit_5.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "digit_5.stdout.txt": "38ca37434a2f0ec2a172843216782a2da8fef8345560fa6b8bcf073ef3243f25",
+      "digit_5.u8": "d79e32575a41b8409a2af983b981510ecb91406e0f0c796e7480f72aaf68da99",
+      "digit_6.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "digit_6.stdout.txt": "06d11a453158ec0810dafec9b99dfab49fecf636b14cb4b02c14957620ec24ba",
+      "digit_6.u8": "a15a3792aba43a93f35bc138a131951e0ad60be1832ab4f3a69cbe13a9c06f2e",
+      "digit_7.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "digit_7.stdout.txt": "c303a71898aec4c0a04f946b3572a20a390c124298b3117422203789be7159d2",
+      "digit_7.u8": "20f56df9f9241e13270bbc9c30bde3ef8cdebcf71af430a6eba3e2e263b05d39",
+      "lift.json": "4651f222dfd4c07856af1ac243eadfa3357010c4b49f8d13f1aab80e2624416a",
+      "rr_labels_4.u8": "c5d294497cd0e20d0b12180473c177638ee323aed467ccc7be3fc3784485cbd1",
+      "rr_labels_6.u8": "c5d294497cd0e20d0b12180473c177638ee323aed467ccc7be3fc3784485cbd1",
+      "rr_labels_8.u8": "c5d294497cd0e20d0b12180473c177638ee323aed467ccc7be3fc3784485cbd1"
+    },
+    "telemetry": {
+      "benchmark.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "benchmark.stdout.txt": "60e281de5b478c664fe06cf6ecb19d9937ecda7ed1f02f00abd4111d420418bd",
+      "benchmark.time.txt": "481b801ac6841ec053369730e5f4f642127097b0c50ac215cf76fc33d3d44054"
+    }
+  },
+  "schema": "hc4.decimic-j2-secant-r10-p181-augmented-nullspace-8digit-lift-terminal.v1",
+  "status": "PASS_P181_AUGMENTED_NULLSPACE_8DIGIT_LIFT",
+  "telemetry": {
+    "ancestry_samples": 1946,
+    "command": [
+      "/usr/bin/time",
+      "-l",
+      "-o",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-augmented-nullspace-8digit-lift-telemetry-20260831T002/benchmark.time.txt",
+      "/opt/homebrew/bin/gtimeout",
+      "-s",
+      "TERM",
+      "-k",
+      "10s",
+      "1200s",
+      "/usr/bin/python3",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/scripts/lift_p181_third_colon_augmented_nullspace_8digits.py",
+      "--output-dir",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-augmented-nullspace-8digit-lift-20260831T002"
+    ],
+    "external_time": {
+      "maximum_rss_bytes": 160808960,
+      "process_swaps": 0,
+      "raw_sha256": "481b801ac6841ec053369730e5f4f642127097b0c50ac215cf76fc33d3d44054",
+      "real_seconds": 572.64,
+      "system_seconds": 5.68,
+      "user_seconds": 526.98
+    },
+    "return_code": 0,
+    "rss_breach_killed": false,
+    "sampled_descendant_rss_peak_bytes": 253100032,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "60e281de5b478c664fe06cf6ecb19d9937ecda7ed1f02f00abd4111d420418bd"
+  }
+}

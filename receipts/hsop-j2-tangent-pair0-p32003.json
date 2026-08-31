@@ -1,0 +1,51 @@
+{
+  "algorithm": "std",
+  "calculation": {
+    "basis_size": null,
+    "child_system_seconds_immediate_scope": 0.9740139999999999,
+    "child_user_seconds_immediate_scope": 178.235742,
+    "diagnostic_error": false,
+    "forced_group_kill": false,
+    "is_unit": false,
+    "maximum_rss_native_immediate_scope": 1247526912,
+    "process_group_terminated": true,
+    "resource_accounting": "wall time authoritative; CPU/RSS counters may omit delegated worker descendants",
+    "return_code": null,
+    "stderr_tail": "",
+    "stdout_tail": "",
+    "timed_out": true,
+    "unit_remainder": null,
+    "wall_seconds": 180.03488237501006
+  },
+  "characteristic": 32003,
+  "claim_boundary": "a finite-characteristic unit is route evidence only; a timeout or nonunit is not a mathematical survivor; characteristic-zero certificates are required on every cover case",
+  "disposition": "TIMEOUT_RETAINED",
+  "equation_build_seconds": 3.563880750007229,
+  "generator_count": 57,
+  "j2_after_normalization": "-252*f1*f9 + 2520*f10 + 56*f2*f8 - 21*f3*f7 + 12*f4*f6 - 5*f5^2",
+  "localizer_count": 2,
+  "localizer_stream_sha256": "5f579ae05e9ef77629232a45a76275a0e74cfc7ff8163f166712d2735639da2a",
+  "maximum_total_degree": 3,
+  "normal_equation_count": 55,
+  "normal_equation_stream_sha256": "1653cdda8486515f391ad48c62d4773211fd23ef04acfa565200b564770e52f6",
+  "orbit": "tangent",
+  "pair": [
+    0,
+    10
+  ],
+  "pair_index": 0,
+  "pair_monomial": "f0*f10",
+  "pair_open_after_normalization": "f10",
+  "schema": "hc4-decimic-j2-normalized-chart-scout-v1",
+  "singular_source_sha256": "e12ec628ab5e7a15190fb060be19e2d9304f4694b30d1b99c0871d100f0dfdb8",
+  "source_sha256": {
+    "scripts/certify_residual_orbit_torus.py": "7ee25cb3dfd6f958638d0fbacc664c7abd9c3dfb82c2d17e31d9a0b7b56d2024",
+    "scripts/scout_decimic_nullcone_hsop.py": "b07062cc86c2f5adf40a0d236648871b54c6ace1403886b51670ed539c425061",
+    "scripts/scout_j2_normalized_chart.py": "48535d9092db14d0413f92a86cb8eccbe133131dad1eeddc4b28f5ec740056c7"
+  },
+  "substitutions": {
+    "f0": "1"
+  },
+  "variable_count": 22,
+  "wall_seconds": 184.36052070799633
+}

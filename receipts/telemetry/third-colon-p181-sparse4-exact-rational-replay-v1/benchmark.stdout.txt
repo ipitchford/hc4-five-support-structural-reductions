@@ -1,0 +1,1 @@
+{"status": "PASS_P181_SPARSE4_EXACT_RATIONAL_SYSTEM_REPLAY", "receipt": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/sparse4-exact-20260831T004/replay.json", "sha256": "329152d5776a4dabec8a74593e488d9c3dc84785897bfe3d9edae5e1a94e57f3"}

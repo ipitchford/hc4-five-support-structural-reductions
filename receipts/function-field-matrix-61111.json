@@ -1,0 +1,77 @@
+{
+  "all_selected_partitions_exact_unit": true,
+  "claim_boundary": "function-field mode proves generic fibers only; polynomial-open mode proves the normalized distinct-five-root open",
+  "complete": true,
+  "mode": "function-field",
+  "records": [
+    {
+      "charts": [
+        {
+          "basis_size": "1",
+          "chart": "line_x",
+          "child_system_seconds": 0.6090749999999999,
+          "child_user_seconds": 77.949546,
+          "diagnostic_error": false,
+          "is_unit": true,
+          "maximum_rss_native": 530857984,
+          "mode": "function-field",
+          "return_code": 0,
+          "singular_source_sha256": "1af77ea2973c8b987eb9f99db942ad7ca78d8a8bdb5c8ac6a140c8791cf200e3",
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 311.86823791699135
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_y",
+          "child_system_seconds": 1.214599,
+          "child_user_seconds": 156.21715,
+          "diagnostic_error": false,
+          "is_unit": true,
+          "maximum_rss_native": 530857984,
+          "mode": "function-field",
+          "return_code": 0,
+          "singular_source_sha256": "20344f2f8d37d5f769ec13894d6cb20eb001bd008fc9f8f21fc6dec169d56cf5",
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 312.39183887501713
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_z",
+          "child_system_seconds": 6.316312,
+          "child_user_seconds": 1041.416035,
+          "diagnostic_error": false,
+          "is_unit": true,
+          "maximum_rss_native": 558841856,
+          "mode": "function-field",
+          "return_code": 0,
+          "singular_source_sha256": "7a326f0e8ee8ff586a7145b7bcefc371a25d6f6dd91505445643da4ef0fb1823",
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 351.2192764579959
+        }
+      ],
+      "disposition": "EXACT_GENERIC_UNIT_IDEAL_ALL_LINE_CHARTS",
+      "equation_build_seconds": 2.7494639579963405,
+      "equation_count": 55,
+      "equation_stream_sha256": "d22b122b4beb13322e141a7518891f7fde0dc9b07fdc69b787ae1721e873e39f",
+      "mode": "function-field",
+      "partition": [
+        6,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "schema": "hc4-double-conic-five-support-characteristic-zero-matrix-v1",
+  "wall_seconds": 354.4125573329802
+}

@@ -1,0 +1,93 @@
+{
+  "cases": [
+    {
+      "average_nonzeros_per_row": 16.405228758169933,
+      "build_seconds": 0.007492374978028238,
+      "columns": 512,
+      "generic_crosscheck": {
+        "rank": 512,
+        "seconds": 0.023025707982014865
+      },
+      "linbox_rank": 512,
+      "linbox_rank_seconds": 0.009185833972878754,
+      "maximum_rss_native_after_case": 254558208,
+      "nonzeros": 20080,
+      "rows": 1224
+    },
+    {
+      "average_nonzeros_per_row": 16.41176470588235,
+      "build_seconds": 0.01454420801019296,
+      "columns": 1024,
+      "generic_crosscheck": null,
+      "linbox_rank": 1024,
+      "linbox_rank_seconds": 0.031267416023183614,
+      "maximum_rss_native_after_case": 254558208,
+      "nonzeros": 40176,
+      "rows": 2448
+    },
+    {
+      "average_nonzeros_per_row": 16.41511746680286,
+      "build_seconds": 0.03042670903960243,
+      "columns": 2048,
+      "generic_crosscheck": null,
+      "linbox_rank": 2048,
+      "linbox_rank_seconds": 0.10794866603100672,
+      "maximum_rss_native_after_case": 254558208,
+      "nonzeros": 80352,
+      "rows": 4895
+    },
+    {
+      "average_nonzeros_per_row": 16.416751787538303,
+      "build_seconds": 0.06443266698624939,
+      "columns": 4096,
+      "generic_crosscheck": null,
+      "linbox_rank": 4096,
+      "linbox_rank_seconds": 0.4152594999759458,
+      "maximum_rss_native_after_case": 256622592,
+      "nonzeros": 160720,
+      "rows": 9790
+    }
+  ],
+  "claim_boundary": "This scout proves only that the installed Sage/LinBox stack can compute correct ranks on deterministic synthetic sparse GF(181) matrices and exposes compiled sparse/black-box solve APIs. It does not benchmark, factor, rank, or solve the HC4 matrix; produce a pivot trace or Dixon digit; or prove a Q identity, colon, saturation, secant closure, nullcone containment, or HC4.",
+  "declarations": {
+    "b_Z_not_read": true,
+    "fixed_HC4_matrix_not_built_or_opened": true,
+    "no_p2_arithmetic": true,
+    "synthetic_route_signal_only": true
+  },
+  "installed_header_sha256": {
+    "rank": "a0de815e92ceeac1df2ca8c4bba74c87b2ad0808ed308246fb6ea40ba1782b0b",
+    "solve": "18df5893127b913cb1273e512e76818cfaee5c73b739e7d0aed5f253b43b1695",
+    "sparse_elimination": "0e6e5aa9772332f26693019a22f90819810f8027cd6c21a2eeae7fe4d5d20234",
+    "wiedemann": "10e017abdbea69e00d0e648dea333a76ecf65482750ccb1a12f0889710620b20"
+  },
+  "resources": {
+    "maximum_rss_native": 256671744
+  },
+  "schema": "hc4.decimic-j2-secant-r10-third-colon-linbox-synthetic-capability-scout.v1",
+  "source": {
+    "path": "scripts/scout_linbox_sparse_prime_field_capabilities.py",
+    "sha256": "12984c6e30737d4d7f1848631a3c73fc04580877b524aa51da843c315067da4b"
+  },
+  "status": "PASS_SYNTHETIC_COMPILED_SPARSE_PRIME_FIELD_CAPABILITY_SIGNAL",
+  "synthetic_policy": {
+    "attempted_entries_per_row": 16,
+    "characteristic": 181,
+    "known_full_rank_by_embedded_identity": true,
+    "row_to_column_ratio": "ceil(2.39*n)"
+  },
+  "target_shape_not_opened": {
+    "columns": 35881,
+    "nonzeros": 1354540,
+    "rows": 85651,
+    "source": "previously frozen campaign metadata only"
+  },
+  "toolchain": {
+    "fflas_ffpack_version": "2.5.0",
+    "linbox_version": "1.7.1",
+    "matrix_backend": "sage.matrix.matrix_modn_sparse.Matrix_modn_sparse",
+    "python": "3.14.3 (main, Mar  8 2026, 09:55:32) [Clang 17.0.0 (clang-1700.6.3.2)]",
+    "sage_version": "SageMath version 10.9, Release Date: 2026-05-04",
+    "sparse_rank_api": "rank(algorithm='linbox')"
+  }
+}

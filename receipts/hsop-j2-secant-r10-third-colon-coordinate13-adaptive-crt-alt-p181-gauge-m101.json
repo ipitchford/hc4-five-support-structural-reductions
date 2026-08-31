@@ -1,0 +1,1335 @@
+{
+  "candidates": [
+    {
+      "denominator": "32",
+      "denominator_bit_length": 6,
+      "numerator": "-8552353451099067049030581839",
+      "numerator_bit_length": 93,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 30
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 126
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 8
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "547350620870340291137957237696",
+      "twice_product_bit_length": 99
+    },
+    {
+      "denominator": "422",
+      "denominator_bit_length": 9,
+      "numerator": "-750591806787546491432484073",
+      "numerator_bit_length": 90,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 17
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 54
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 115
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "633499484928689238769016557612",
+      "twice_product_bit_length": 99
+    },
+    {
+      "denominator": "11947",
+      "denominator_bit_length": 14,
+      "numerator": "-10982865697407383249341483",
+      "numerator_bit_length": 84,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 86
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 80
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 87
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "262424592973852015359765394802",
+      "twice_product_bit_length": 98
+    },
+    {
+      "denominator": "327179",
+      "denominator_bit_length": 19,
+      "numerator": "-693797393943704458963005",
+      "numerator_bit_length": 80,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 52
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 91
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 103
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "453991875106214562358114025790",
+      "twice_product_bit_length": 99
+    },
+    {
+      "denominator": "5222917",
+      "denominator_bit_length": 23,
+      "numerator": "-117892605691888094066597",
+      "numerator_bit_length": 77,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 19
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 17
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 143
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "1231486588884918177196057206898",
+      "twice_product_bit_length": 100
+    },
+    {
+      "denominator": "31010323",
+      "denominator_bit_length": 25,
+      "numerator": "-13558240207624105436577",
+      "numerator_bit_length": 74,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 107
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 140
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 123
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "840890816300021144348617568742",
+      "twice_product_bit_length": 100
+    },
+    {
+      "denominator": "136934995",
+      "denominator_bit_length": 28,
+      "numerator": "-2065778088364427431298",
+      "numerator_bit_length": 71,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 65
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 122
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 54
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "565754624402584856965308947020",
+      "twice_product_bit_length": 99
+    },
+    {
+      "denominator": "927534642",
+      "denominator_bit_length": 30,
+      "numerator": "-902206410926886582509",
+      "numerator_bit_length": 70,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 111
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 99
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 153
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "1673655400738349268964177553556",
+      "twice_product_bit_length": 101
+    },
+    {
+      "denominator": "6081937509",
+      "denominator_bit_length": 33,
+      "numerator": "-118110611394923783669",
+      "numerator_bit_length": 67,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 30
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 149
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 2
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "1436682715307419544185385481042",
+      "twice_product_bit_length": 101
+    },
+    {
+      "denominator": "212593942825",
+      "denominator_bit_length": 38,
+      "numerator": "-2315222093477565819",
+      "numerator_bit_length": 62,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 80
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 182
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 112
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "984404386735892866289320597350",
+      "twice_product_bit_length": 100
+    },
+    {
+      "denominator": "2352415380382",
+      "denominator_bit_length": 42,
+      "numerator": "-323399307446525067",
+      "numerator_bit_length": 59,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 136
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 52
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 77
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "1521539009684185261221806071188",
+      "twice_product_bit_length": 101
+    },
+    {
+      "denominator": "731656711336030",
+      "denominator_bit_length": 50,
+      "numerator": "-1009732642500069",
+      "numerator_bit_length": 50,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 159
+        },
+        {
+          "characteristic": 197,
+          "matches": true,
+          "observed_residue": 97,
+          "predicted_residue": 97
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 119
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "1477555329080479523344714372140",
+      "twice_product_bit_length": 101
+    },
+    {
+      "denominator": "5437486186170487",
+      "denominator_bit_length": 53,
+      "numerator": "-154165151159034",
+      "numerator_bit_length": 48,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 117
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 188
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 116
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "1676541759632264836459948459116",
+      "twice_product_bit_length": 101
+    },
+    {
+      "denominator": "12443582197285793",
+      "denominator_bit_length": 54,
+      "numerator": "-23141138537723",
+      "numerator_bit_length": 45,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 150
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 164
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 137
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "575917319065868222247084938678",
+      "twice_product_bit_length": 99
+    },
+    {
+      "denominator": "81667589194830064",
+      "denominator_bit_length": 57,
+      "numerator": "-7822818605027",
+      "numerator_bit_length": 43,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 61
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 186
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 167
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "1277741472362037238761602263456",
+      "twice_product_bit_length": 101
+    },
+    {
+      "denominator": "232559185387204399",
+      "denominator_bit_length": 58,
+      "numerator": "-327317277358",
+      "numerator_bit_length": 39,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 24
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 4
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 125
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "152241278771068245783441395684",
+      "twice_product_bit_length": 97
+    },
+    {
+      "denominator": "5499752860098075512",
+      "denominator_bit_length": 63,
+      "numerator": "-32796051565",
+      "numerator_bit_length": 35,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 53
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 46
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 189
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "360740356789065430897631552560",
+      "twice_product_bit_length": 99
+    },
+    {
+      "denominator": "54764969415593550721",
+      "denominator_bit_length": 66,
+      "numerator": "-643238292",
+      "numerator_bit_length": 30,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 146
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 36
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 75
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "70453850776637267463982817064",
+      "twice_product_bit_length": 96
+    },
+    {
+      "denominator": "2787513687335173011259",
+      "denominator_bit_length": 72,
+      "numerator": "-9101327",
+      "numerator_bit_length": 24,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 3
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 5
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 70
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "50740147170826336354085681386",
+      "twice_product_bit_length": 96
+    },
+    {
+      "denominator": "197858706831381690248668",
+      "denominator_bit_length": 78,
+      "numerator": "-2955925",
+      "numerator_bit_length": 22,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 106
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 56
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 148
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "1169710995981103845496587915800",
+      "twice_product_bit_length": 100
+    },
+    {
+      "denominator": "245600864375362222670529101",
+      "denominator_bit_length": 88,
+      "numerator": "-1040",
+      "numerator_bit_length": 11,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 82
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 83
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 33
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "510849797900753423154700530080",
+      "twice_product_bit_length": 99
+    },
+    {
+      "denominator": "1742249593806688479878370021",
+      "denominator_bit_length": 91,
+      "numerator": "-79",
+      "numerator_bit_length": 7,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 4
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 113
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 143
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "275275435821456779820782463318",
+      "twice_product_bit_length": 98
+    },
+    {
+      "denominator": "136164112724476216574368057053",
+      "denominator_bit_length": 97,
+      "numerator": "-1",
+      "numerator_bit_length": 1,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 122
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 129
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 16
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "272328225448952433148736114106",
+      "twice_product_bit_length": 98
+    },
+    {
+      "denominator": "22403643855111588015748281172",
+      "denominator_bit_length": 95,
+      "numerator": "13",
+      "numerator_bit_length": 4,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 64
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 150
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 175
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "582494740232901288409455310472",
+      "twice_product_bit_length": 99
+    },
+    {
+      "denominator": "23043543179152921184666314",
+      "denominator_bit_length": 85,
+      "numerator": "7201",
+      "numerator_bit_length": 13,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 142
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 120
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 64
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "331873108866160370901564254228",
+      "twice_product_bit_length": 99
+    },
+    {
+      "denominator": "7878110595319910360800353",
+      "denominator_bit_length": 83,
+      "numerator": "80251",
+      "numerator_bit_length": 17,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 117
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 77
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 196
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "1264452506770036252729178257206",
+      "twice_product_bit_length": 100
+    },
+    {
+      "denominator": "590788606806809897734745",
+      "denominator_bit_length": 79,
+      "numerator": "233552",
+      "numerator_bit_length": 18,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 125
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 109
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 72
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "275959721393888130471490328480",
+      "twice_product_bit_length": 98
+    },
+    {
+      "denominator": "1568609824944819",
+      "denominator_bit_length": 51,
+      "numerator": "285189163780345",
+      "numerator_bit_length": 49,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 32
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 76
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 50
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "894701048547292571286123565110",
+      "twice_product_bit_length": 100
+    },
+    {
+      "denominator": "105296402272759",
+      "denominator_bit_length": 47,
+      "numerator": "2304654448780483",
+      "numerator_bit_length": 52,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 146
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 71
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 197
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "485343643876986781034163525194",
+      "twice_product_bit_length": 99
+    },
+    {
+      "denominator": "5418104573283",
+      "denominator_bit_length": 43,
+      "numerator": "17142313783963450",
+      "numerator_bit_length": 54,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 27
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 91
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 29
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "185757697419089154621437012700",
+      "twice_product_bit_length": 98
+    },
+    {
+      "denominator": "713273812519",
+      "denominator_bit_length": 40,
+      "numerator": "663940928677013584",
+      "numerator_bit_length": 60,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 165
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 51
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 140
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "947143354969717875637664516192",
+      "twice_product_bit_length": 100
+    },
+    {
+      "denominator": "75491984044",
+      "denominator_bit_length": 37,
+      "numerator": "7609607209109711041",
+      "numerator_bit_length": 63,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 61
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 38
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 109
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "1148928692022435354705245259608",
+      "twice_product_bit_length": 100
+    },
+    {
+      "denominator": "13882009307",
+      "denominator_bit_length": 34,
+      "numerator": "25144043720806698942",
+      "numerator_bit_length": 65,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 36
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 155
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 103
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "698099697895707008521582106388",
+      "twice_product_bit_length": 100
+    },
+    {
+      "denominator": "1718134289",
+      "denominator_bit_length": 31,
+      "numerator": "261365266510654266280",
+      "numerator_bit_length": 68,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 99
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 102
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 168
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "898121252691156957439608949840",
+      "twice_product_bit_length": 100
+    },
+    {
+      "denominator": "12893703",
+      "denominator_bit_length": 24,
+      "numerator": "52167182742131994315010",
+      "numerator_bit_length": 76,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 133
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 103
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 85
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "1345256321247551042990854764060",
+      "twice_product_bit_length": 101
+    },
+    {
+      "denominator": "2447869",
+      "denominator_bit_length": 22,
+      "numerator": "287952394125908182448204",
+      "numerator_bit_length": 78,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 84
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 128
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 194
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "1409739478113185473322605354552",
+      "twice_product_bit_length": 101
+    },
+    {
+      "denominator": "157616",
+      "denominator_bit_length": 18,
+      "numerator": "5144534151731839395189239",
+      "numerator_bit_length": 83,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 172
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 30
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 110
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "1621721789718731196224294188448",
+      "twice_product_bit_length": 101
+    },
+    {
+      "denominator": "2305",
+      "denominator_bit_length": 12,
+      "numerator": "147921788218027821636628518",
+      "numerator_bit_length": 87,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 38
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 157
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 68
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "681919443685108257744857467980",
+      "twice_product_bit_length": 100
+    },
+    {
+      "denominator": "195",
+      "denominator_bit_length": 8,
+      "numerator": "3900880822155760278799048883",
+      "numerator_bit_length": 92,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 39
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 39
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 85
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "1521343520640746508731629064370",
+      "twice_product_bit_length": 101
+    },
+    {
+      "denominator": "3",
+      "denominator_bit_length": 2,
+      "numerator": "55215001528750162572982539917",
+      "numerator_bit_length": 96,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 96
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 184
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 38
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "331290009172500975437895239502",
+      "twice_product_bit_length": 99
+    },
+    {
+      "denominator": "1",
+      "denominator_bit_length": 1,
+      "numerator": "615917370267350855351838520926",
+      "numerator_bit_length": 99,
+      "selector_residues": [
+        {
+          "characteristic": 173,
+          "matches": false,
+          "observed_residue": 77,
+          "predicted_residue": 132
+        },
+        {
+          "characteristic": 197,
+          "matches": false,
+          "observed_residue": 97,
+          "predicted_residue": 70
+        },
+        {
+          "characteristic": 199,
+          "matches": false,
+          "observed_residue": 118,
+          "predicted_residue": 3
+        }
+      ],
+      "source_congruence_remainder": 0,
+      "survives_all_selectors": false,
+      "twice_product": "1231834740534701710703677041852",
+      "twice_product_bit_length": 100
+    }
+  ],
+  "claim_boundary": "This is a one-coordinate modular CRT probe. Even one surviving candidate is not a rational reconstruction or polynomial identity. No colon, saturation, secant, or HC4 claim follows.",
+  "combined_source_residue": "615917370267350855351838520926",
+  "complete_eea_step_count": 56,
+  "completeness_statement": "For reduced n/d with d>0, gcd(d,M)=1, n=r*d mod M, and 2*abs(n)*d<M, Legendre's theorem forces the corresponding approximation to be a convergent; the EEA list is complete in this strict-product region. This condition does not imply that the candidate is the characteristic-zero coefficient.",
+  "coordinate": 13,
+  "fixed_gauge_signature_sha256": "8bec288cce8a4e1ea11b22abfae18d7187533e7d671f62d52693170c753ab2c1",
+  "schema": "hc4.third-colon-coordinate-adaptive-crt-probe.v1",
+  "selector_artifacts": [
+    {
+      "characteristic": 173,
+      "coordinate_residue": 77,
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p173.json",
+      "sha256": "0d4109f26779893324b7da6e2e7be619eb0bc2fc4093a8d06ecd106d26353ec8"
+    },
+    {
+      "characteristic": 197,
+      "coordinate_residue": 97,
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p197.json",
+      "sha256": "76d6915815ffb45295a2d4128a90dc024930b41bc7c3d6980ac4c9d6c2d4dd02"
+    },
+    {
+      "characteristic": 199,
+      "coordinate_residue": 118,
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p199.json",
+      "sha256": "4d51904a1c10af535c7fd5f4a4bc922d50f49ede46408cd6641967df146e5391"
+    }
+  ],
+  "selector_trace": [
+    {
+      "characteristic": 173,
+      "observed_coordinate_residue": 77,
+      "survivor_count_after_selector": 0
+    },
+    {
+      "characteristic": 197,
+      "observed_coordinate_residue": 97,
+      "survivor_count_after_selector": 0
+    },
+    {
+      "characteristic": 199,
+      "observed_coordinate_residue": 118,
+      "survivor_count_after_selector": 0
+    }
+  ],
+  "source_artifacts": [
+    {
+      "characteristic": 181,
+      "coordinate_residue": 158,
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181.json",
+      "sha256": "26be0a64574c3cdbe6f7d0c323f9a5e4beb9b8df8e568f9daa054744160bc0a1"
+    },
+    {
+      "characteristic": 2147483647,
+      "coordinate_residue": 1857912810,
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483647.json",
+      "sha256": "4b121b15c4a61b83005350e417634fa3751b326df157f8cfd7a00df82ece94de"
+    },
+    {
+      "characteristic": 2147483629,
+      "coordinate_residue": 888326449,
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483629.json",
+      "sha256": "b55292d584c660f1b14ba22f3ae3b8f25e45202fc43ca9a063f83132bdf1fce2"
+    },
+    {
+      "characteristic": 2147483587,
+      "coordinate_residue": 581804497,
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483587.json",
+      "sha256": "17d76cb9f13b370362cd40ad45b2d97508526b49648c2da0e74212c28187a9ef"
+    }
+  ],
+  "source_modulus": "1792537109273302403482533022861",
+  "source_modulus_bit_length": 101,
+  "source_script": {
+    "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/scripts/probe_j2_secant_r10_third_colon_coordinate13_adaptive_crt.py",
+    "sha256": "34419cc541014b576f1767a2465e08621469b248d32b580e42ba21af56b6539a"
+  },
+  "source_trace": [
+    {
+      "characteristic": 181,
+      "coordinate_residue": 158,
+      "cumulative_modulus_bit_length": 8
+    },
+    {
+      "characteristic": 2147483647,
+      "coordinate_residue": 1857912810,
+      "cumulative_modulus_bit_length": 39
+    },
+    {
+      "characteristic": 2147483629,
+      "coordinate_residue": 888326449,
+      "cumulative_modulus_bit_length": 70
+    },
+    {
+      "characteristic": 2147483587,
+      "coordinate_residue": 581804497,
+      "cumulative_modulus_bit_length": 101
+    }
+  ],
+  "status": "PASS_BOUNDED_COORDINATE_CRT_PROBE",
+  "strict_product_candidate_count_before_selectors": 41,
+  "survivor_count_after_all_selectors": 0
+}

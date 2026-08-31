@@ -1,0 +1,141 @@
+{
+  "characteristic": 0,
+  "claim": "the V6 highest-weight coefficient lies in the radical of the tangent residual-orbit normal-layer ideal",
+  "claim_boundary": "this is an exact computer-assisted characteristic-zero certificate for one highest-weight cubic covariant coordinate on the tangent normal layer; the remaining V6 coordinates, V2, quartic families, the secant orbit, polynomial-level lifting, and HC4 remain open",
+  "evidence_sha256": {
+    "receipts/nullcone-v6-tangent-r10-A_zero-qq-slimgb.json": "70b1bdda2f8b1aa52c2602d77f06e4b97d40eb765fb6e94db5e69a26397515bb",
+    "receipts/nullcone-v6-tangent-r10-degree0-qq-slimgb.json": "7a5d3ffdb69db10d1cbac72748c95fb2c39f2e93de4efe80fbbf6989149eca3d",
+    "receipts/nullcone-v6-tangent-r10-degree1-qq-slimgb.json": "0bebea831ff6723dd43a4107496f96c67fd44330dadc0317ed8d75afc24d1b09",
+    "receipts/nullcone-v6-tangent-r10-degree2-qq-slimgb.json": "8fd31e48710c3766d60af6245bce4c70253dee1414c8d6eb185e68f3e304bb1d",
+    "receipts/nullcone-v6-tangent-r10-degree3-qq-slimgb-direct.json": "ecafe640f363fc4fef6f1fe34c21428b0a9e457c968b122d36c12922e6dcffcf",
+    "receipts/nullcone-v6-tangent-r10-degree4-qq-slimgb-direct.json": "36cbaeb4a822b34bd756a3fa2432c8eeac760d8c99e8c5204c140839eeb3d530",
+    "receipts/nullcone-v6-tangent-r10-degree5-qq-slimgb-direct.json": "109e02f6f234889256eee3fd6350bfdbfa006975f2ea40b952e9e9cb49f962aa",
+    "receipts/nullcone-v6-tangent-r10-degree6-qq-slimgb-keep.json": "6bc4e38e64b7eaf79a61650bd9e5dc89fe251344925cb6987097d6f0f0468fb7",
+    "receipts/nullcone-v6-tangent-top-r5-qq-modstd.json": "4417131776dcc95a563c3e09cfbf1d6fc953507253b7e2b84d7fc6d50cb7285b",
+    "receipts/nullcone-v6-tangent-top-r6-qq-slimgb.json": "ffc40b7a7f76533e1bd5bd07667a18ffadef23e6d47a58983c9d166847c6c2e0",
+    "receipts/nullcone-v6-tangent-top-r7-qq-slimgb.json": "fa5efff691c6e0a1dac54ce5a3cc3dc8eaab5bffa2c767995033e3b0a115e957",
+    "receipts/nullcone-v6-tangent-top-r8-qq-slimgb.json": "a8d1ab227e599bbb39c2e739daff1dcc9f601166f3a3fea6ffdd818123f1aa7b",
+    "receipts/nullcone-v6-tangent-top-r9-qq-slimgb.json": "0792fd8ee3bdff3a8c4a94d9b9bf4daef74887e72a71ca6fdfa3dd4eaa6068e5",
+    "receipts/residual-orbit-torus.json": "26e5b041383e0689248dc67f93a2831529bd287c74a18c0cc3d3e5a6df81c16e"
+  },
+  "excluded_noncovering_telemetry": [
+    "receipts/nullcone-v6-tangent-r5-*",
+    "receipts/nullcone-v6-tangent-r6-*",
+    "receipts/nullcone-v6-tangent-r7-*"
+  ],
+  "r10_cells": {
+    "A_zero": {
+      "A_degree": null,
+      "algorithm": "Singular slimgb",
+      "equation_stream_sha256": "c3831c8b03b4dfc7cdbcce8bb0e8d972cfa0974cf71ef1fae81bb1e4d82de9e2",
+      "mode": "eliminate",
+      "receipt": "receipts/nullcone-v6-tangent-r10-A_zero-qq-slimgb.json"
+    },
+    "degree_0": {
+      "A_degree": 0,
+      "algorithm": "Singular slimgb",
+      "equation_stream_sha256": "7b0ddf9ddbdf7eaebfe53b7c693b1e1cd05c9c9ab655bcea825346521a7f97ca",
+      "mode": "eliminate",
+      "receipt": "receipts/nullcone-v6-tangent-r10-degree0-qq-slimgb.json"
+    },
+    "degree_1": {
+      "A_degree": 1,
+      "algorithm": "Singular slimgb",
+      "equation_stream_sha256": "bd439e5536ec01e661490bbccc7f72af0915c691d9d385091bd6b4c209e67056",
+      "mode": "eliminate",
+      "receipt": "receipts/nullcone-v6-tangent-r10-degree1-qq-slimgb.json"
+    },
+    "degree_2": {
+      "A_degree": 2,
+      "algorithm": "Singular slimgb",
+      "equation_stream_sha256": "0ae5403deeddfeddedebcbcecce29c391946967bd1f7c661f08576eae6785a83",
+      "mode": "eliminate",
+      "receipt": "receipts/nullcone-v6-tangent-r10-degree2-qq-slimgb.json"
+    },
+    "degree_3": {
+      "A_degree": 3,
+      "algorithm": "Singular slimgb",
+      "equation_stream_sha256": "e9b985cfdf2b77be8b490c5e9ef6dd8db9be6545332b18a4cc90afa6d3b10fd6",
+      "mode": "direct",
+      "receipt": "receipts/nullcone-v6-tangent-r10-degree3-qq-slimgb-direct.json"
+    },
+    "degree_4": {
+      "A_degree": 4,
+      "algorithm": "Singular slimgb",
+      "equation_stream_sha256": "ca515dfbc0dbfdcb8385dba22f882648e5ccc712f13ef9928dde6b4d580457aa",
+      "mode": "direct",
+      "receipt": "receipts/nullcone-v6-tangent-r10-degree4-qq-slimgb-direct.json"
+    },
+    "degree_5": {
+      "A_degree": 5,
+      "algorithm": "Singular slimgb",
+      "equation_stream_sha256": "28445ad3bde45030f24976c6d433cbc8c98b104cdab644043664f294bb35b391",
+      "mode": "direct",
+      "receipt": "receipts/nullcone-v6-tangent-r10-degree5-qq-slimgb-direct.json"
+    },
+    "degree_6": {
+      "A_degree": 6,
+      "algorithm": "Singular slimgb",
+      "equation_stream_sha256": "b0e478fc278daf0a17a87df4f369e7e9f6ed04641a1b275c25996ca160000ad1",
+      "mode": "keep",
+      "receipt": "receipts/nullcone-v6-tangent-r10-degree6-qq-slimgb-keep.json"
+    }
+  },
+  "r10_common_A_sha256": "86741cc70096116197bfdd62e660fbf88f621a3e1cadbe933bd8c732b0e964b3",
+  "r10_common_C_sha256": "2e8505928280c096b90a9217d19cec501310fd66868db1056d95defb83c34665",
+  "r10_degree_cover": [
+    "A_zero",
+    "degree_0",
+    "degree_1",
+    "degree_2",
+    "degree_3",
+    "degree_4",
+    "degree_5",
+    "degree_6"
+  ],
+  "schema": "hc4.decimic-nullcone-v6-tangent-highest-all-strata.v1",
+  "source_sha256": {
+    "scripts/audit_nullcone_v6_tangent_highest.py": "7ddf122cc240f219d5c86e393afdc771c45052b604a6272e3b924ba4124583c2",
+    "scripts/certify_nullcone_v6_tangent_r10_convolution_branch.py": "426c6c41f40732474b313a1d41365eb2ed54fc080d4afd5e9f28efe40ff9c513",
+    "scripts/scout_nullcone_v6_tangent_top_stratum.py": "d693560dcd46365afb84a7ba8880380d387e1040361d5cba0fec64916b41a242"
+  },
+  "status": "PASS_EXACT_TANGENT_V6_HIGHEST_RADICAL_CONTAINMENT",
+  "target_torus_weight": 6,
+  "top_cells_5_through_9": {
+    "5": {
+      "algorithm": "Singular std",
+      "normal_equation_stream_sha256": "2d4a7ad46b69f281556e936d96fffc28044125a25d60a1b3a9c45110229ed264",
+      "receipt": "receipts/nullcone-v6-tangent-top-r5-qq-modstd.json"
+    },
+    "6": {
+      "algorithm": "Singular slimgb",
+      "normal_equation_stream_sha256": "30dce4e5bbeedbe42586872db7de4f1a3cce8282589d4867c2160b80800486b8",
+      "receipt": "receipts/nullcone-v6-tangent-top-r6-qq-slimgb.json"
+    },
+    "7": {
+      "algorithm": "Singular slimgb",
+      "normal_equation_stream_sha256": "a7ce4ae69d20bfa012a8034101e2ff0482f66da7411754efef44d74d27344a8e",
+      "receipt": "receipts/nullcone-v6-tangent-top-r7-qq-slimgb.json"
+    },
+    "8": {
+      "algorithm": "Singular slimgb",
+      "normal_equation_stream_sha256": "c5ce63a125dbadf4d61d3d62eb6796835cf95e2823cdff7ba33946b01ee469db",
+      "receipt": "receipts/nullcone-v6-tangent-top-r8-qq-slimgb.json"
+    },
+    "9": {
+      "algorithm": "Singular slimgb",
+      "normal_equation_stream_sha256": "5cfce6cd2b9e307745668ff445b97e840f371cd0806363319456516612989759",
+      "receipt": "receipts/nullcone-v6-tangent-top-r9-qq-slimgb.json"
+    }
+  },
+  "top_index_cover": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "torus_normalization_verified": true,
+  "unipotent_used": false
+}

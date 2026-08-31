@@ -1,0 +1,102 @@
+{
+  "checks": {
+    "all_noncentral_top_weights_nonzero": true,
+    "central_identity_j2_minus_5f5_squared": true,
+    "j2_forces_upper_half_nonzero": true,
+    "j2_torus_invariant": true
+  },
+  "claim_boundary": "this proves only that the six displayed secant strata exhaust j2!=0; it does not prove any stratum empty",
+  "coefficient_weights": [
+    5,
+    4,
+    3,
+    2,
+    1,
+    0,
+    -1,
+    -2,
+    -3,
+    -4,
+    -5
+  ],
+  "first_nonzero_jet_indices": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "j2_torus_weight": 0,
+  "orbit": "secant",
+  "schema": "hc4-secant-first-nonzero-jet-cover-v1",
+  "source_sha256": {
+    "receipts/residual-orbit-torus.json": "26e5b041383e0689248dc67f93a2831529bd287c74a18c0cc3d3e5a6df81c16e",
+    "scripts/certify_secant_first_jet_cover.py": "5eaed0b2b9c907bbbd65c78587f8d945c9ba964c32ad4323eb0dbd823289dde4"
+  },
+  "status": "PASS",
+  "strata": {
+    "10": {
+      "j2_after_substitution": "2520*f0 - 252*f1*f9 + 56*f2*f8 - 21*f3*f7 + 12*f4*f6 - 5*f5**2",
+      "normalization": "f10=1",
+      "top_coefficient": "f10",
+      "top_weight": -5,
+      "zero_above": []
+    },
+    "5": {
+      "j2_after_substitution": "-5*f5**2",
+      "normalization": "f5!=0 (not torus-normalized)",
+      "top_coefficient": "f5",
+      "top_weight": 0,
+      "zero_above": [
+        "f6",
+        "f7",
+        "f8",
+        "f9",
+        "f10"
+      ]
+    },
+    "6": {
+      "j2_after_substitution": "12*f4 - 5*f5**2",
+      "normalization": "f6=1",
+      "top_coefficient": "f6",
+      "top_weight": -1,
+      "zero_above": [
+        "f7",
+        "f8",
+        "f9",
+        "f10"
+      ]
+    },
+    "7": {
+      "j2_after_substitution": "-21*f3 + 12*f4*f6 - 5*f5**2",
+      "normalization": "f7=1",
+      "top_coefficient": "f7",
+      "top_weight": -2,
+      "zero_above": [
+        "f8",
+        "f9",
+        "f10"
+      ]
+    },
+    "8": {
+      "j2_after_substitution": "56*f2 - 21*f3*f7 + 12*f4*f6 - 5*f5**2",
+      "normalization": "f8=1",
+      "top_coefficient": "f8",
+      "top_weight": -3,
+      "zero_above": [
+        "f9",
+        "f10"
+      ]
+    },
+    "9": {
+      "j2_after_substitution": "-252*f1 + 56*f2*f8 - 21*f3*f7 + 12*f4*f6 - 5*f5**2",
+      "normalization": "f9=1",
+      "top_coefficient": "f9",
+      "top_weight": -4,
+      "zero_above": [
+        "f10"
+      ]
+    }
+  }
+}

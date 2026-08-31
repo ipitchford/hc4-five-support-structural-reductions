@@ -1,0 +1,76 @@
+{
+  "characteristic": 0,
+  "claim": "all 31 minimal generators of the binary-decimic multiplicity-six locus lie in the radical of the tangent residual-orbit normal-layer ideal",
+  "claim_boundary": "this is an exact computer-assisted characteristic-zero radical-containment theorem for the tangent residual orbit on the clean normal layer; it does not prove the corresponding secant-orbit containment, polynomial-level lifting, full-family closure, HC4, or the quartic Hessian conjecture",
+  "evidence": [
+    {
+      "degree": 2,
+      "dimension": 1,
+      "family": "quadratic_V0",
+      "receipt": "receipts/hsop-j2-tangent-all-strata.json",
+      "receipt_sha256": "e780aa18a124f08db6d6b590295dcc42a0d89e1c5ffd34334ba6b5eeb54023d2",
+      "status": "PASS_EXACT_TANGENT_J2_RADICAL_CONTAINMENT"
+    },
+    {
+      "degree": 3,
+      "dimension": 3,
+      "family": "cubic_V2",
+      "receipt": "receipts/nullcone-v2-tangent-stabilizer-span.json",
+      "receipt_sha256": "e509a5b23ba1aebda274ced1f2aaab760b1feef6b223a4a3b099ae1c07cdf2c4",
+      "status": "PASS_EXACT_TANGENT_V2_FAMILY_RADICAL_CONTAINMENT"
+    },
+    {
+      "degree": 3,
+      "dimension": 7,
+      "family": "cubic_V6",
+      "receipt": "receipts/nullcone-v6-tangent-stabilizer-span.json",
+      "receipt_sha256": "dd723519b45fe50f7d23e9d5b663caaf392e8ab5518046f660b5ef16e10cdd2e",
+      "status": "PASS_EXACT_TANGENT_V6_FAMILY_RADICAL_CONTAINMENT"
+    },
+    {
+      "degree": 4,
+      "dimension": 1,
+      "family": "quartic_V0",
+      "receipt": "receipts/nullcone-v0-tangent-stabilizer-span.json",
+      "receipt_sha256": "155662f34becf847b8c14911c8fa9bcd3c3214427f55a867ba443f373a4fbf00",
+      "status": "PASS_EXACT_TANGENT_QUARTIC_FAMILY_RADICAL_CONTAINMENT"
+    },
+    {
+      "degree": 4,
+      "dimension": 5,
+      "family": "quartic_V4_1",
+      "receipt": "receipts/nullcone-v4-1-tangent-stabilizer-span.json",
+      "receipt_sha256": "7e2a31f8ca3f5e1d48f2ddb29f011556a97df43037d963d09635126d8a4dfd85",
+      "status": "PASS_EXACT_TANGENT_QUARTIC_FAMILY_RADICAL_CONTAINMENT"
+    },
+    {
+      "degree": 4,
+      "dimension": 5,
+      "family": "quartic_V4_2",
+      "receipt": "receipts/nullcone-v4-2-tangent-stabilizer-span.json",
+      "receipt_sha256": "5c24ab048402db016829d97a556869545239aaaffcc391bc25019cf40bb97a4b",
+      "status": "PASS_EXACT_TANGENT_QUARTIC_FAMILY_RADICAL_CONTAINMENT"
+    },
+    {
+      "degree": 4,
+      "dimension": 9,
+      "family": "quartic_V8",
+      "receipt": "receipts/nullcone-v8-tangent-stabilizer-span.json",
+      "receipt_sha256": "926755ab1c42734059dca42ebff97dc01e3771fd4270cc3cd9e0c2544da8a745",
+      "status": "PASS_EXACT_TANGENT_QUARTIC_FAMILY_RADICAL_CONTAINMENT"
+    }
+  ],
+  "generator_profile": {
+    "degree_2": 1,
+    "degree_3": 10,
+    "degree_4": 20,
+    "sl2_families": 7,
+    "total": 31
+  },
+  "schema": "hc4.decimic-nullcone-tangent-all-generators.v1",
+  "source_sha256": {
+    "scripts/audit_nullcone_tangent_all_generators.py": "5e7825f8db654f2ef53b6ee5515d4bc5bddaa7a9e02de92da087ce31e4629743"
+  },
+  "status": "PASS_EXACT_TANGENT_ALL_31_GENERATORS_RADICAL_CONTAINMENT",
+  "target_locus": "X_(6,1,1,1,1) in P(Sym^10)"
+}

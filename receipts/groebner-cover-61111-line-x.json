@@ -1,0 +1,37 @@
+{
+  "calculation": {
+    "child_system_seconds": 42.881481,
+    "child_user_seconds": 1092.697876,
+    "complete_open_unit": false,
+    "diagnostic_error": false,
+    "maximum_rss_native": 1319976960,
+    "nonunit_level_count": null,
+    "nonunit_level_head": null,
+    "nonunit_level_type": null,
+    "resource_metrics_scope": "single_singular_child",
+    "return_code": null,
+    "segment_count": null,
+    "stderr_tail": "",
+    "stdout_tail": "",
+    "timed_out": true,
+    "wall_seconds": 1800.7313702079991
+  },
+  "chart": "line_x",
+  "claim_boundary": "empty nonunit Groebner-cover levels prove the complete normalized distinct-five-root chart; nonempty levels are exact exceptional parameter strata and must be preserved",
+  "disposition": "TIMEOUT_RETAINED",
+  "equation_build_seconds": 7.601176916999975,
+  "equation_count": 52,
+  "equation_stream_sha256": "da9f87bddcdb2c5b0ea6de62c62498a7a51a1af2df8af61331930d86761d78aa",
+  "line_coordinate_sha256": "07c19a9367ce0b2b98ea2197e57bba805b0a49e4b29a967b77c8ccfa9b3ecefd",
+  "parameter_open": "Delta != 0",
+  "partition": [
+    6,
+    1,
+    1,
+    1,
+    1
+  ],
+  "schema": "hc4-five-support-groebner-cover-open-v1",
+  "singular_source_sha256": "148924fd18599db22a820c167f88f3b4f91a9264576f167e0faa27affe62260e",
+  "wall_seconds": 1808.9996767080156
+}

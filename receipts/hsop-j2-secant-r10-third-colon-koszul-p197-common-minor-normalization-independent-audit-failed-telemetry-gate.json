@@ -1,0 +1,11 @@
+{
+  "claim_boundary": "No positive mathematical conclusion is licensed by this incomplete or failed audit.",
+  "error": "fresh audit identity telemetry is not a bounded PASS",
+  "error_type": "ValueError",
+  "maximum_rss_native": 125714432,
+  "process_swaps": 0,
+  "schema": "hc4.third-colon-koszul-p197-common-minor-independent-audit.v1",
+  "source_sha256": "4fc5d4bdd035fc75b180e17623af55e2ab7ae2f0836a1b62afba504d40980162",
+  "status": "FAIL_CLOSED_INDEPENDENT_COMMON_MINOR_AUDIT",
+  "wall_seconds": 24.586966458009556
+}

@@ -1,0 +1,168 @@
+{
+  "bound_file_count": 21,
+  "bound_files": {
+    "artifacts/j2-secant-r10-third-colon-identity-extended-sparse-p181.json": {
+      "byte_count": 7083938,
+      "sha256": "e9841fee4f75e60adef26a8b10878b35f6db48e6d0a21876b197d7cbdef2064b"
+    },
+    "artifacts/j2-secant-r10-third-colon-residual-114-quotient-chart.json": {
+      "byte_count": 2804610,
+      "sha256": "7ad12483dd5c8429defc3e0c5c8138ded3d344969075ae4afdb15d39d2fb9a74"
+    },
+    "receipts/hsop-j2-secant-r10-third-colon-identity-extended-sparse-p181.json": {
+      "byte_count": 20851,
+      "sha256": "f04bc461e8b15c012c229d1de13eb940316bad35914f12a34ab3fc112b29f14c"
+    },
+    "receipts/hsop-j2-secant-r10-third-colon-koszul-p197-common-minor-m70-census.json": {
+      "byte_count": 12160573,
+      "sha256": "7bb84b8e56df2e68fc4989cf22fc538d8660a5888d7ed0a6eac692512e69367c"
+    },
+    "receipts/hsop-j2-secant-r10-third-colon-koszul-p197-common-minor-normalization-independent-audit.json": {
+      "byte_count": 8710,
+      "sha256": "674c2757e3dc0f4fdc51e3d4c889a742cac192e74322cc1b5ece70d72ec55ad4"
+    },
+    "receipts/hsop-j2-secant-r10-third-colon-koszul-p197-common-minor-normalization.json": {
+      "byte_count": 39967,
+      "sha256": "3c2f2ac3b2a0c98bb279e90a1fffe8aea68f8c8c4db85e15ced673d50648946e"
+    },
+    "receipts/hsop-j2-secant-r10-third-colon-residual-114-quotient-independent-audit-external-telemetry.json": {
+      "byte_count": 1285,
+      "sha256": "831c4ce5bcd6fdb0451209db1a8b0cbafabeec3e605c3235836c09cd42dac91e"
+    },
+    "receipts/hsop-j2-secant-r10-third-colon-residual-114-quotient-independent-audit.json": {
+      "byte_count": 36274,
+      "sha256": "7eba0e65e40abd7eea0065ecd84c3803237fa9cc5c51391f3202b4d300b7185a"
+    },
+    "receipts/hsop-j2-secant-r10-third-colon-residual-114-quotient-scout.json": {
+      "byte_count": 46510,
+      "sha256": "652af633649c32af3322b9405eac8d6e60fdaba5668817de6a11330782bc752a"
+    },
+    "receipts/hsop-j2-secant-r10-third-colon-residual-114-two-prime-exact-chart-external-telemetry.json": {
+      "byte_count": 26637,
+      "sha256": "5770d7cc1cd71559bd754951937ff89a664950c25029a2088329cbef3f286d0b"
+    },
+    "receipts/hsop-j2-secant-r10-third-colon-residual-114-two-prime-exact-chart-failed.json": {
+      "byte_count": 16981,
+      "sha256": "1d7f334e55c1229280e2b49e17a22ec74f578dde3ef6144745a81c6884ae9a37"
+    },
+    "research/THIRD_COLON_KOSZUL_P197_COMMON_MINOR_NORMALIZATION_PREREGISTRATION.md": {
+      "byte_count": 17329,
+      "sha256": "b203a118b302c50394a0188501e32d12cc077c85fca2b1513bed770f59a112f8"
+    },
+    "research/THIRD_COLON_RESIDUAL_114_QUOTIENT_SCOUT_PREREGISTRATION.md": {
+      "byte_count": 12951,
+      "sha256": "112fb4ea3de68c84459422903e0c6f3c4c2902d364b13639f130c2a7f6cebf22"
+    },
+    "research/THIRD_COLON_RESIDUAL_114_TWO_PRIME_EXACT_CHART_EXTENSION_PREREGISTRATION.md": {
+      "byte_count": 18205,
+      "sha256": "cc01cb96c1738316100bc46eab2c5ce5c8e23402da7b95d2483f0fab80f0ac10"
+    },
+    "scripts/audit_j2_secant_r10_third_colon_residual_114_quotient_independent.py": {
+      "byte_count": 58466,
+      "sha256": "81ad24d01ae70a0ca2731259753d99a429bd48ae288e77105120dd800009396d"
+    },
+    "scripts/census_j2_secant_r10_third_colon_koszul_p197_common_minor_m70.py": {
+      "byte_count": 25827,
+      "sha256": "6c09d24f9ef3962b1d677c38b34521be20fb4fb3f13dd34c12f270920beccb44"
+    },
+    "scripts/certify_j2_secant_r10_third_colon_identity_sparse_macaulay.py": {
+      "byte_count": 28487,
+      "sha256": "c0e1557c1a18d85af997e24c739d799d58c7d0b655d0662a0215f30e9b42ae74"
+    },
+    "scripts/normalize_j2_secant_r10_third_colon_koszul_p197_common_minor.py": {
+      "byte_count": 35436,
+      "sha256": "fdbed62134385b5412474cd40e70e25a69eea9c5284a6a06dc99ecc121c4d57e"
+    },
+    "scripts/produce_j2_secant_r10_third_colon_residual_114_two_prime_exact_chart.py": {
+      "byte_count": 46407,
+      "sha256": "7f469224f15b09419c7d092f4a84600ec1532f9e27711454a72e774f118c2f5d"
+    },
+    "scripts/run_j2_secant_r10_third_colon_residual_114_two_prime_exact_chart_gated.py": {
+      "byte_count": 25603,
+      "sha256": "7fd2f5f21045e8eb7434074057707d489085612b8941b977b1c31581148b3229"
+    },
+    "scripts/scout_j2_secant_r10_third_colon_residual_114_quotient.py": {
+      "byte_count": 54512,
+      "sha256": "607706e89e25990ed3ed1bdd5f7d9a972c824b0bff62a33035789860f75f3b81"
+    }
+  },
+  "claim_boundary": "This PASS proves only that the original preregistration plus its pre-p2 amendment is implementation-determinate against the bound live files. It does not execute preprocessing or factorization, compute a Dixon digit, prove a p-adic or QQ identity, establish ideal membership, compute a colon or saturation, close the secant chart, or establish HC4.",
+  "dimensions": {
+    "C_piv": 35881,
+    "F": 2167,
+    "matrix_nonzeros": 1473071,
+    "monomial_equations": 85651,
+    "normal_cubic_generators": 17,
+    "target_terms": 486,
+    "total_generators": 19,
+    "unknown_multiplier_coordinates": 38048
+  },
+  "documents": {
+    "amendment": {
+      "path": "research/THIRD_COLON_FIXED_P181_ZERO_FREE_DIXON_8DIGIT_PREREGISTRATION_AMENDMENT_01.md",
+      "sha256": "5bff2bd3844744f854c2757aee4b8bf09d227ae487ba1b43f55682a009f5d08c"
+    },
+    "original": {
+      "path": "research/THIRD_COLON_FIXED_P181_ZERO_FREE_DIXON_8DIGIT_PREREGISTRATION.md",
+      "sha256": "dcba29bf2b3396fcbfd2999aad09a363c2fc852e4fb04c142cb1e1636c5ad6cc"
+    }
+  },
+  "historical_time_file": {
+    "path": "receipts/hsop-j2-secant-r10-third-colon-identity-extended-sparse-p181.time.txt",
+    "sha256": "67e37fb4b7a8cf22a8f9a37c2757341e9324e9277783728739178ce7babab92d"
+  },
+  "internal_algebra_hashes": {
+    "generator_stream_sha256": "4e5ca7f6ed60548f84d6a84a4fa272c044b76be4ab3788b091376bf54f9ada4b",
+    "monomial_stream_sha256": "153dd5ae53908e06fa5b4722c88cdffd823d5705a9a6ab1e8ca6f5f070665614",
+    "row_descriptor_sha256": "0f0e46bb94241fa478c6cbdcf33c4472128ad4ed48a8fdaebd88e19028948639",
+    "target_sha256": "32e84450b525fce0c9fca7d263e6d73a2b9508811fa4bd7e473002a08ab2c84e"
+  },
+  "legacy_hash_domain_checks": {
+    "coordinate_vector": {
+      "binary_payload_encoding": "u8 little-endian payload",
+      "binary_payload_sha256": "c70692a5f4dae3fa38836bf41ba70f84b0bf17496aaddba46b6c25f17c9b97ce",
+      "hash_domains_distinct": true,
+      "legacy_compact_json_sha256": "9932deed637ea317b4483cad9366e1fd1455be7453bc74a64ce78f04c4f57919",
+      "length": 38048
+    },
+    "free_unknown_indices": {
+      "binary_payload_encoding": "u32 little-endian payload",
+      "binary_payload_sha256": "0e61ca7640641742ebab50e35154f87124a0dbcae5fd33cd626fbc06baa0614a",
+      "hash_domains_distinct": true,
+      "legacy_compact_json_sha256": "2da8418faa5f04e82a5eb6da88268f4e025279fd0dd348d8674cb89c8d0cf8d1",
+      "length": 2167
+    },
+    "pivot_unknown_indices": {
+      "binary_payload_encoding": "u32 little-endian payload",
+      "binary_payload_sha256": "3a4087b184540be80852650b26aecaddd561a2a866599e660d9359b3415dfed2",
+      "hash_domains_distinct": true,
+      "legacy_compact_json_sha256": "1da29807a38b0f9eceaf8606b120ea61e0a24605e959f7f2f88e4ed9bb073e1d",
+      "length": 35881
+    }
+  },
+  "prospective_output_absence": {
+    "checked_paths": [
+      "receipts/hsop-j2-secant-r10-third-colon-dixon-p181-implementation-freeze-v1.json",
+      "artifacts/j2-secant-r10-third-colon-dixon-p181-phase1-bundle-v1",
+      "receipts/hsop-j2-secant-r10-third-colon-dixon-p181-factorization-freeze-v1.json"
+    ],
+    "existing_paths": [],
+    "no_registered_p2_output_observed": true
+  },
+  "resources": {
+    "maximum_rss_native": 62619648,
+    "wall_seconds": 0.07556745799956843
+  },
+  "schema": "hc4.decimic-j2-secant-r10-third-colon-dixon-p181-preregistration-amendment-audit.v1",
+  "source": {
+    "path": "scripts/audit_fixed_p181_dixon_preregistration_amendment.py",
+    "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "sha256": "4580eabf8f9d192f0d7b82786e96c9801ca0d820d08cc5b08d16108fbe4f4235"
+  },
+  "status": "PASS_PREIMPLEMENTATION_SPEC_AMENDMENT_AUDIT",
+  "terminal_modulus": {
+    "bit_length": 60,
+    "decimal": "1151936657823500641",
+    "expression": "181^8"
+  }
+}

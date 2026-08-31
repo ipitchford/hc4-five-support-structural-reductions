@@ -1,0 +1,2131 @@
+{
+  "entries": [
+    {
+      "column": 0,
+      "denominator": 5,
+      "numerator": 3,
+      "pivot_coordinate": 6290
+    },
+    {
+      "column": 1,
+      "denominator": 5,
+      "numerator": 3,
+      "pivot_coordinate": 6291
+    },
+    {
+      "column": 0,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 6298
+    },
+    {
+      "column": 0,
+      "denominator": 1,
+      "numerator": 8,
+      "pivot_coordinate": 6301
+    },
+    {
+      "column": 2,
+      "denominator": 1,
+      "numerator": 4,
+      "pivot_coordinate": 6301
+    },
+    {
+      "column": 4,
+      "denominator": 5,
+      "numerator": -17,
+      "pivot_coordinate": 6302
+    },
+    {
+      "column": 8,
+      "denominator": 8,
+      "numerator": 3,
+      "pivot_coordinate": 6730
+    },
+    {
+      "column": 8,
+      "denominator": 1,
+      "numerator": -1,
+      "pivot_coordinate": 6733
+    },
+    {
+      "column": 8,
+      "denominator": 2,
+      "numerator": -3,
+      "pivot_coordinate": 6734
+    },
+    {
+      "column": 9,
+      "denominator": 5,
+      "numerator": 3,
+      "pivot_coordinate": 6931
+    },
+    {
+      "column": 10,
+      "denominator": 5,
+      "numerator": 3,
+      "pivot_coordinate": 6932
+    },
+    {
+      "column": 9,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 6940
+    },
+    {
+      "column": 10,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 6942
+    },
+    {
+      "column": 9,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 6944
+    },
+    {
+      "column": 10,
+      "denominator": 1,
+      "numerator": -2,
+      "pivot_coordinate": 6945
+    },
+    {
+      "column": 10,
+      "denominator": 5,
+      "numerator": 14,
+      "pivot_coordinate": 6946
+    },
+    {
+      "column": 10,
+      "denominator": 1,
+      "numerator": 1,
+      "pivot_coordinate": 6948
+    },
+    {
+      "column": 10,
+      "denominator": 5,
+      "numerator": -17,
+      "pivot_coordinate": 6949
+    },
+    {
+      "column": 9,
+      "denominator": 1,
+      "numerator": 4,
+      "pivot_coordinate": 6950
+    },
+    {
+      "column": 11,
+      "denominator": 5,
+      "numerator": 3,
+      "pivot_coordinate": 7342
+    },
+    {
+      "column": 11,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 7347
+    },
+    {
+      "column": 12,
+      "denominator": 1,
+      "numerator": 4,
+      "pivot_coordinate": 7349
+    },
+    {
+      "column": 12,
+      "denominator": 5,
+      "numerator": -17,
+      "pivot_coordinate": 7350
+    },
+    {
+      "column": 13,
+      "denominator": 5,
+      "numerator": 3,
+      "pivot_coordinate": 7706
+    },
+    {
+      "column": 13,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 7709
+    },
+    {
+      "column": 13,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 7710
+    },
+    {
+      "column": 13,
+      "denominator": 1,
+      "numerator": -2,
+      "pivot_coordinate": 7711
+    },
+    {
+      "column": 13,
+      "denominator": 5,
+      "numerator": 14,
+      "pivot_coordinate": 7712
+    },
+    {
+      "column": 13,
+      "denominator": 1,
+      "numerator": 4,
+      "pivot_coordinate": 7714
+    },
+    {
+      "column": 13,
+      "denominator": 1,
+      "numerator": 1,
+      "pivot_coordinate": 7715
+    },
+    {
+      "column": 13,
+      "denominator": 5,
+      "numerator": -17,
+      "pivot_coordinate": 7716
+    },
+    {
+      "column": 1,
+      "denominator": 5,
+      "numerator": 14,
+      "pivot_coordinate": 8607
+    },
+    {
+      "column": 4,
+      "denominator": 5,
+      "numerator": 3,
+      "pivot_coordinate": 8607
+    },
+    {
+      "column": 0,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 8612
+    },
+    {
+      "column": 2,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 8612
+    },
+    {
+      "column": 1,
+      "denominator": 5,
+      "numerator": -17,
+      "pivot_coordinate": 8614
+    },
+    {
+      "column": 4,
+      "denominator": 5,
+      "numerator": 14,
+      "pivot_coordinate": 8614
+    },
+    {
+      "column": 0,
+      "denominator": 5,
+      "numerator": -34,
+      "pivot_coordinate": 8615
+    },
+    {
+      "column": 2,
+      "denominator": 5,
+      "numerator": -17,
+      "pivot_coordinate": 8615
+    },
+    {
+      "column": 4,
+      "denominator": 1,
+      "numerator": 4,
+      "pivot_coordinate": 8615
+    },
+    {
+      "column": 0,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 8648
+    },
+    {
+      "column": 0,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 8649
+    },
+    {
+      "column": 1,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 8650
+    },
+    {
+      "column": 1,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 8651
+    },
+    {
+      "column": 1,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 8653
+    },
+    {
+      "column": 4,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 8678
+    },
+    {
+      "column": 1,
+      "denominator": 1,
+      "numerator": -2,
+      "pivot_coordinate": 8679
+    },
+    {
+      "column": 4,
+      "denominator": 1,
+      "numerator": 1,
+      "pivot_coordinate": 8679
+    },
+    {
+      "column": 1,
+      "denominator": 1,
+      "numerator": 1,
+      "pivot_coordinate": 8680
+    },
+    {
+      "column": 4,
+      "denominator": 1,
+      "numerator": -2,
+      "pivot_coordinate": 8680
+    },
+    {
+      "column": 9,
+      "denominator": 1,
+      "numerator": -2,
+      "pivot_coordinate": 8844
+    },
+    {
+      "column": 9,
+      "denominator": 1,
+      "numerator": 1,
+      "pivot_coordinate": 8845
+    },
+    {
+      "column": 0,
+      "denominator": 5,
+      "numerator": 16,
+      "pivot_coordinate": 8870
+    },
+    {
+      "column": 0,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 8873
+    },
+    {
+      "column": 1,
+      "denominator": 5,
+      "numerator": 16,
+      "pivot_coordinate": 8873
+    },
+    {
+      "column": 7,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 8948
+    },
+    {
+      "column": 7,
+      "denominator": 1,
+      "numerator": 4,
+      "pivot_coordinate": 8949
+    },
+    {
+      "column": 8,
+      "denominator": 8,
+      "numerator": 5,
+      "pivot_coordinate": 9020
+    },
+    {
+      "column": 8,
+      "denominator": 2,
+      "numerator": 5,
+      "pivot_coordinate": 9021
+    },
+    {
+      "column": 8,
+      "denominator": 2,
+      "numerator": 5,
+      "pivot_coordinate": 9023
+    },
+    {
+      "column": 8,
+      "denominator": 8,
+      "numerator": -17,
+      "pivot_coordinate": 9024
+    },
+    {
+      "column": 8,
+      "denominator": 1,
+      "numerator": -1,
+      "pivot_coordinate": 9025
+    },
+    {
+      "column": 9,
+      "denominator": 5,
+      "numerator": 14,
+      "pivot_coordinate": 9187
+    },
+    {
+      "column": 10,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 9187
+    },
+    {
+      "column": 9,
+      "denominator": 5,
+      "numerator": -17,
+      "pivot_coordinate": 9194
+    },
+    {
+      "column": 10,
+      "denominator": 1,
+      "numerator": 4,
+      "pivot_coordinate": 9194
+    },
+    {
+      "column": 9,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 9196
+    },
+    {
+      "column": 9,
+      "denominator": 5,
+      "numerator": 16,
+      "pivot_coordinate": 9197
+    },
+    {
+      "column": 10,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 9198
+    },
+    {
+      "column": 10,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 9199
+    },
+    {
+      "column": 10,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 9203
+    },
+    {
+      "column": 9,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 9204
+    },
+    {
+      "column": 9,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 9205
+    },
+    {
+      "column": 10,
+      "denominator": 5,
+      "numerator": 16,
+      "pivot_coordinate": 9205
+    },
+    {
+      "column": 9,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 9211
+    },
+    {
+      "column": 10,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 9212
+    },
+    {
+      "column": 11,
+      "denominator": 5,
+      "numerator": 14,
+      "pivot_coordinate": 9338
+    },
+    {
+      "column": 12,
+      "denominator": 5,
+      "numerator": 3,
+      "pivot_coordinate": 9338
+    },
+    {
+      "column": 11,
+      "denominator": 1,
+      "numerator": 4,
+      "pivot_coordinate": 9343
+    },
+    {
+      "column": 12,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 9343
+    },
+    {
+      "column": 11,
+      "denominator": 5,
+      "numerator": -17,
+      "pivot_coordinate": 9344
+    },
+    {
+      "column": 12,
+      "denominator": 5,
+      "numerator": 14,
+      "pivot_coordinate": 9344
+    },
+    {
+      "column": 11,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 9367
+    },
+    {
+      "column": 11,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 9368
+    },
+    {
+      "column": 11,
+      "denominator": 5,
+      "numerator": 16,
+      "pivot_coordinate": 9370
+    },
+    {
+      "column": 11,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 9371
+    },
+    {
+      "column": 11,
+      "denominator": 5,
+      "numerator": -12,
+      "pivot_coordinate": 9379
+    },
+    {
+      "column": 12,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 9384
+    },
+    {
+      "column": 11,
+      "denominator": 1,
+      "numerator": -2,
+      "pivot_coordinate": 9386
+    },
+    {
+      "column": 12,
+      "denominator": 1,
+      "numerator": 1,
+      "pivot_coordinate": 9386
+    },
+    {
+      "column": 11,
+      "denominator": 1,
+      "numerator": 1,
+      "pivot_coordinate": 9387
+    },
+    {
+      "column": 12,
+      "denominator": 1,
+      "numerator": -2,
+      "pivot_coordinate": 9387
+    },
+    {
+      "column": 13,
+      "denominator": 1,
+      "numerator": 4,
+      "pivot_coordinate": 9478
+    },
+    {
+      "column": 13,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 9479
+    },
+    {
+      "column": 13,
+      "denominator": 5,
+      "numerator": 16,
+      "pivot_coordinate": 9480
+    },
+    {
+      "column": 13,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 9481
+    },
+    {
+      "column": 13,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 9482
+    },
+    {
+      "column": 13,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 9483
+    },
+    {
+      "column": 13,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 9484
+    },
+    {
+      "column": 13,
+      "denominator": 5,
+      "numerator": -12,
+      "pivot_coordinate": 9485
+    },
+    {
+      "column": 0,
+      "denominator": 1,
+      "numerator": 4,
+      "pivot_coordinate": 10087
+    },
+    {
+      "column": 1,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 10087
+    },
+    {
+      "column": 2,
+      "denominator": 5,
+      "numerator": 3,
+      "pivot_coordinate": 10087
+    },
+    {
+      "column": 0,
+      "denominator": 1,
+      "numerator": -3,
+      "pivot_coordinate": 10091
+    },
+    {
+      "column": 2,
+      "denominator": 1,
+      "numerator": -2,
+      "pivot_coordinate": 10091
+    },
+    {
+      "column": 0,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 10093
+    },
+    {
+      "column": 1,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 10094
+    },
+    {
+      "column": 4,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 10104
+    },
+    {
+      "column": 4,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 10105
+    },
+    {
+      "column": 4,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 10124
+    },
+    {
+      "column": 0,
+      "denominator": 5,
+      "numerator": -12,
+      "pivot_coordinate": 10132
+    },
+    {
+      "column": 1,
+      "denominator": 5,
+      "numerator": -12,
+      "pivot_coordinate": 10133
+    },
+    {
+      "column": 0,
+      "denominator": 5,
+      "numerator": -16,
+      "pivot_coordinate": 10162
+    },
+    {
+      "column": 2,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 10162
+    },
+    {
+      "column": 0,
+      "denominator": 1,
+      "numerator": 2,
+      "pivot_coordinate": 10164
+    },
+    {
+      "column": 2,
+      "denominator": 1,
+      "numerator": 1,
+      "pivot_coordinate": 10164
+    },
+    {
+      "column": 8,
+      "denominator": 2,
+      "numerator": -5,
+      "pivot_coordinate": 10170
+    },
+    {
+      "column": 7,
+      "denominator": 5,
+      "numerator": 3,
+      "pivot_coordinate": 10306
+    },
+    {
+      "column": 7,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 10308
+    },
+    {
+      "column": 7,
+      "denominator": 1,
+      "numerator": -2,
+      "pivot_coordinate": 10310
+    },
+    {
+      "column": 7,
+      "denominator": 1,
+      "numerator": 1,
+      "pivot_coordinate": 10311
+    },
+    {
+      "column": 8,
+      "denominator": 2,
+      "numerator": -5,
+      "pivot_coordinate": 10375
+    },
+    {
+      "column": 8,
+      "denominator": 8,
+      "numerator": 5,
+      "pivot_coordinate": 10379
+    },
+    {
+      "column": 8,
+      "denominator": 1,
+      "numerator": 2,
+      "pivot_coordinate": 10381
+    },
+    {
+      "column": 8,
+      "denominator": 1,
+      "numerator": 1,
+      "pivot_coordinate": 10385
+    },
+    {
+      "column": 8,
+      "denominator": 1,
+      "numerator": -1,
+      "pivot_coordinate": 10388
+    },
+    {
+      "column": 8,
+      "denominator": 1,
+      "numerator": 1,
+      "pivot_coordinate": 10389
+    },
+    {
+      "column": 8,
+      "denominator": 4,
+      "numerator": 7,
+      "pivot_coordinate": 10390
+    },
+    {
+      "column": 8,
+      "denominator": 1,
+      "numerator": -3,
+      "pivot_coordinate": 10391
+    },
+    {
+      "column": 8,
+      "denominator": 2,
+      "numerator": -5,
+      "pivot_coordinate": 10394
+    },
+    {
+      "column": 8,
+      "denominator": 2,
+      "numerator": 15,
+      "pivot_coordinate": 10395
+    },
+    {
+      "column": 9,
+      "denominator": 1,
+      "numerator": 4,
+      "pivot_coordinate": 10469
+    },
+    {
+      "column": 9,
+      "denominator": 5,
+      "numerator": -12,
+      "pivot_coordinate": 10483
+    },
+    {
+      "column": 10,
+      "denominator": 5,
+      "numerator": -12,
+      "pivot_coordinate": 10484
+    },
+    {
+      "column": 11,
+      "denominator": 1,
+      "numerator": 4,
+      "pivot_coordinate": 10587
+    },
+    {
+      "column": 12,
+      "denominator": 1,
+      "numerator": 4,
+      "pivot_coordinate": 10591
+    },
+    {
+      "column": 11,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 10593
+    },
+    {
+      "column": 11,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 10600
+    },
+    {
+      "column": 12,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 10601
+    },
+    {
+      "column": 12,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 10602
+    },
+    {
+      "column": 12,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 10605
+    },
+    {
+      "column": 12,
+      "denominator": 5,
+      "numerator": 16,
+      "pivot_coordinate": 10624
+    },
+    {
+      "column": 11,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 10626
+    },
+    {
+      "column": 11,
+      "denominator": 5,
+      "numerator": -24,
+      "pivot_coordinate": 10628
+    },
+    {
+      "column": 12,
+      "denominator": 5,
+      "numerator": -24,
+      "pivot_coordinate": 10632
+    },
+    {
+      "column": 11,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 10635
+    },
+    {
+      "column": 11,
+      "denominator": 1,
+      "numerator": 12,
+      "pivot_coordinate": 10638
+    },
+    {
+      "column": 12,
+      "denominator": 1,
+      "numerator": 12,
+      "pivot_coordinate": 10640
+    },
+    {
+      "column": 13,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 10762
+    },
+    {
+      "column": 13,
+      "denominator": 5,
+      "numerator": -24,
+      "pivot_coordinate": 10763
+    },
+    {
+      "column": 13,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 10764
+    },
+    {
+      "column": 13,
+      "denominator": 1,
+      "numerator": 12,
+      "pivot_coordinate": 10765
+    },
+    {
+      "column": 15,
+      "denominator": 8,
+      "numerator": 3,
+      "pivot_coordinate": 10859
+    },
+    {
+      "column": 15,
+      "denominator": 1,
+      "numerator": -1,
+      "pivot_coordinate": 10861
+    },
+    {
+      "column": 3,
+      "denominator": 5,
+      "numerator": 3,
+      "pivot_coordinate": 11178
+    },
+    {
+      "column": 0,
+      "denominator": 5,
+      "numerator": 11,
+      "pivot_coordinate": 11187
+    },
+    {
+      "column": 1,
+      "denominator": 1,
+      "numerator": 4,
+      "pivot_coordinate": 11187
+    },
+    {
+      "column": 2,
+      "denominator": 5,
+      "numerator": 14,
+      "pivot_coordinate": 11187
+    },
+    {
+      "column": 4,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 11187
+    },
+    {
+      "column": 3,
+      "denominator": 1,
+      "numerator": 4,
+      "pivot_coordinate": 11190
+    },
+    {
+      "column": 3,
+      "denominator": 5,
+      "numerator": -17,
+      "pivot_coordinate": 11191
+    },
+    {
+      "column": 4,
+      "denominator": 1,
+      "numerator": 4,
+      "pivot_coordinate": 11191
+    },
+    {
+      "column": 0,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 11193
+    },
+    {
+      "column": 2,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 11193
+    },
+    {
+      "column": 0,
+      "denominator": 5,
+      "numerator": 32,
+      "pivot_coordinate": 11194
+    },
+    {
+      "column": 2,
+      "denominator": 5,
+      "numerator": 16,
+      "pivot_coordinate": 11194
+    },
+    {
+      "column": 1,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 11195
+    },
+    {
+      "column": 4,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 11195
+    },
+    {
+      "column": 5,
+      "denominator": 5,
+      "numerator": 3,
+      "pivot_coordinate": 11196
+    },
+    {
+      "column": 0,
+      "denominator": 5,
+      "numerator": 16,
+      "pivot_coordinate": 11201
+    },
+    {
+      "column": 2,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 11201
+    },
+    {
+      "column": 0,
+      "denominator": 5,
+      "numerator": -16,
+      "pivot_coordinate": 11202
+    },
+    {
+      "column": 2,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 11202
+    },
+    {
+      "column": 4,
+      "denominator": 5,
+      "numerator": 16,
+      "pivot_coordinate": 11202
+    },
+    {
+      "column": 4,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 11204
+    },
+    {
+      "column": 5,
+      "denominator": 5,
+      "numerator": -17,
+      "pivot_coordinate": 11204
+    },
+    {
+      "column": 0,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 11208
+    },
+    {
+      "column": 5,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 11215
+    },
+    {
+      "column": 0,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 11225
+    },
+    {
+      "column": 7,
+      "denominator": 1,
+      "numerator": 4,
+      "pivot_coordinate": 11472
+    },
+    {
+      "column": 7,
+      "denominator": 5,
+      "numerator": -17,
+      "pivot_coordinate": 11474
+    },
+    {
+      "column": 7,
+      "denominator": 5,
+      "numerator": -24,
+      "pivot_coordinate": 11479
+    },
+    {
+      "column": 7,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 11481
+    },
+    {
+      "column": 7,
+      "denominator": 5,
+      "numerator": 16,
+      "pivot_coordinate": 11482
+    },
+    {
+      "column": 7,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 11483
+    },
+    {
+      "column": 7,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 11484
+    },
+    {
+      "column": 7,
+      "denominator": 5,
+      "numerator": -12,
+      "pivot_coordinate": 11485
+    },
+    {
+      "column": 7,
+      "denominator": 1,
+      "numerator": 12,
+      "pivot_coordinate": 11487
+    },
+    {
+      "column": 8,
+      "denominator": 4,
+      "numerator": -5,
+      "pivot_coordinate": 11511
+    },
+    {
+      "column": 10,
+      "denominator": 1,
+      "numerator": 4,
+      "pivot_coordinate": 11588
+    },
+    {
+      "column": 9,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 11593
+    },
+    {
+      "column": 10,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 11594
+    },
+    {
+      "column": 9,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 11595
+    },
+    {
+      "column": 10,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 11596
+    },
+    {
+      "column": 9,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 11601
+    },
+    {
+      "column": 11,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 11702
+    },
+    {
+      "column": 12,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 11702
+    },
+    {
+      "column": 12,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 11704
+    },
+    {
+      "column": 12,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 11707
+    },
+    {
+      "column": 12,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 11709
+    },
+    {
+      "column": 15,
+      "denominator": 8,
+      "numerator": 5,
+      "pivot_coordinate": 12026
+    },
+    {
+      "column": 15,
+      "denominator": 1,
+      "numerator": -1,
+      "pivot_coordinate": 12027
+    },
+    {
+      "column": 15,
+      "denominator": 2,
+      "numerator": 5,
+      "pivot_coordinate": 12028
+    },
+    {
+      "column": 15,
+      "denominator": 1,
+      "numerator": 1,
+      "pivot_coordinate": 12030
+    },
+    {
+      "column": 14,
+      "denominator": 1,
+      "numerator": 4,
+      "pivot_coordinate": 12031
+    },
+    {
+      "column": 14,
+      "denominator": 5,
+      "numerator": -17,
+      "pivot_coordinate": 12032
+    },
+    {
+      "column": 15,
+      "denominator": 1,
+      "numerator": 1,
+      "pivot_coordinate": 12033
+    },
+    {
+      "column": 15,
+      "denominator": 1,
+      "numerator": -3,
+      "pivot_coordinate": 12034
+    },
+    {
+      "column": 15,
+      "denominator": 8,
+      "numerator": -17,
+      "pivot_coordinate": 12044
+    },
+    {
+      "column": 14,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 12046
+    },
+    {
+      "column": 15,
+      "denominator": 4,
+      "numerator": 7,
+      "pivot_coordinate": 12051
+    },
+    {
+      "column": 15,
+      "denominator": 2,
+      "numerator": 15,
+      "pivot_coordinate": 12052
+    },
+    {
+      "column": 15,
+      "denominator": 2,
+      "numerator": -3,
+      "pivot_coordinate": 12054
+    },
+    {
+      "column": 3,
+      "denominator": 1,
+      "numerator": -2,
+      "pivot_coordinate": 12174
+    },
+    {
+      "column": 3,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 12176
+    },
+    {
+      "column": 3,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 12182
+    },
+    {
+      "column": 3,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 12183
+    },
+    {
+      "column": 5,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 12184
+    },
+    {
+      "column": 3,
+      "denominator": 5,
+      "numerator": -24,
+      "pivot_coordinate": 12185
+    },
+    {
+      "column": 5,
+      "denominator": 5,
+      "numerator": -24,
+      "pivot_coordinate": 12186
+    },
+    {
+      "column": 3,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 12187
+    },
+    {
+      "column": 6,
+      "denominator": 5,
+      "numerator": 3,
+      "pivot_coordinate": 12188
+    },
+    {
+      "column": 0,
+      "denominator": 5,
+      "numerator": -24,
+      "pivot_coordinate": 12196
+    },
+    {
+      "column": 6,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 12200
+    },
+    {
+      "column": 4,
+      "denominator": 5,
+      "numerator": -12,
+      "pivot_coordinate": 12202
+    },
+    {
+      "column": 6,
+      "denominator": 1,
+      "numerator": 12,
+      "pivot_coordinate": 12204
+    },
+    {
+      "column": 6,
+      "denominator": 1,
+      "numerator": 1,
+      "pivot_coordinate": 12205
+    },
+    {
+      "column": 6,
+      "denominator": 1,
+      "numerator": -2,
+      "pivot_coordinate": 12206
+    },
+    {
+      "column": 6,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 12207
+    },
+    {
+      "column": 6,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 12208
+    },
+    {
+      "column": 6,
+      "denominator": 5,
+      "numerator": 16,
+      "pivot_coordinate": 12209
+    },
+    {
+      "column": 6,
+      "denominator": 5,
+      "numerator": -24,
+      "pivot_coordinate": 12211
+    },
+    {
+      "column": 4,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 12232
+    },
+    {
+      "column": 7,
+      "denominator": 5,
+      "numerator": 14,
+      "pivot_coordinate": 12302
+    },
+    {
+      "column": 7,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 12303
+    },
+    {
+      "column": 10,
+      "denominator": 5,
+      "numerator": -24,
+      "pivot_coordinate": 12413
+    },
+    {
+      "column": 9,
+      "denominator": 5,
+      "numerator": -24,
+      "pivot_coordinate": 12416
+    },
+    {
+      "column": 9,
+      "denominator": 1,
+      "numerator": 12,
+      "pivot_coordinate": 12418
+    },
+    {
+      "column": 10,
+      "denominator": 1,
+      "numerator": 12,
+      "pivot_coordinate": 12419
+    },
+    {
+      "column": 12,
+      "denominator": 5,
+      "numerator": -12,
+      "pivot_coordinate": 12510
+    },
+    {
+      "column": 15,
+      "denominator": 8,
+      "numerator": 5,
+      "pivot_coordinate": 12601
+    },
+    {
+      "column": 15,
+      "denominator": 2,
+      "numerator": -5,
+      "pivot_coordinate": 12602
+    },
+    {
+      "column": 15,
+      "denominator": 2,
+      "numerator": 5,
+      "pivot_coordinate": 12604
+    },
+    {
+      "column": 14,
+      "denominator": 5,
+      "numerator": 3,
+      "pivot_coordinate": 12605
+    },
+    {
+      "column": 14,
+      "denominator": 5,
+      "numerator": -24,
+      "pivot_coordinate": 12606
+    },
+    {
+      "column": 14,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 12607
+    },
+    {
+      "column": 14,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 12608
+    },
+    {
+      "column": 14,
+      "denominator": 1,
+      "numerator": 1,
+      "pivot_coordinate": 12609
+    },
+    {
+      "column": 14,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 12610
+    },
+    {
+      "column": 14,
+      "denominator": 1,
+      "numerator": -2,
+      "pivot_coordinate": 12612
+    },
+    {
+      "column": 14,
+      "denominator": 5,
+      "numerator": 14,
+      "pivot_coordinate": 12613
+    },
+    {
+      "column": 15,
+      "denominator": 2,
+      "numerator": -5,
+      "pivot_coordinate": 12614
+    },
+    {
+      "column": 14,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 12616
+    },
+    {
+      "column": 3,
+      "denominator": 1,
+      "numerator": 1,
+      "pivot_coordinate": 12768
+    },
+    {
+      "column": 3,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 12772
+    },
+    {
+      "column": 3,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 12776
+    },
+    {
+      "column": 5,
+      "denominator": 1,
+      "numerator": 4,
+      "pivot_coordinate": 12776
+    },
+    {
+      "column": 5,
+      "denominator": 1,
+      "numerator": 1,
+      "pivot_coordinate": 12777
+    },
+    {
+      "column": 5,
+      "denominator": 1,
+      "numerator": -2,
+      "pivot_coordinate": 12778
+    },
+    {
+      "column": 5,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 12785
+    },
+    {
+      "column": 4,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 12786
+    },
+    {
+      "column": 5,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 12786
+    },
+    {
+      "column": 0,
+      "denominator": 5,
+      "numerator": 16,
+      "pivot_coordinate": 12787
+    },
+    {
+      "column": 2,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 12787
+    },
+    {
+      "column": 0,
+      "denominator": 5,
+      "numerator": 16,
+      "pivot_coordinate": 12792
+    },
+    {
+      "column": 2,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 12792
+    },
+    {
+      "column": 1,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 12793
+    },
+    {
+      "column": 3,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 12795
+    },
+    {
+      "column": 3,
+      "denominator": 5,
+      "numerator": -12,
+      "pivot_coordinate": 12796
+    },
+    {
+      "column": 0,
+      "denominator": 1,
+      "numerator": -8,
+      "pivot_coordinate": 12798
+    },
+    {
+      "column": 2,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 12798
+    },
+    {
+      "column": 4,
+      "denominator": 1,
+      "numerator": 12,
+      "pivot_coordinate": 12799
+    },
+    {
+      "column": 6,
+      "denominator": 5,
+      "numerator": -17,
+      "pivot_coordinate": 12799
+    },
+    {
+      "column": 5,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 12801
+    },
+    {
+      "column": 6,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 12805
+    },
+    {
+      "column": 10,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 13224
+    },
+    {
+      "column": 15,
+      "denominator": 4,
+      "numerator": -5,
+      "pivot_coordinate": 13657
+    },
+    {
+      "column": 15,
+      "denominator": 1,
+      "numerator": 2,
+      "pivot_coordinate": 13658
+    },
+    {
+      "column": 14,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 13659
+    },
+    {
+      "column": 14,
+      "denominator": 1,
+      "numerator": 4,
+      "pivot_coordinate": 13660
+    },
+    {
+      "column": 15,
+      "denominator": 2,
+      "numerator": -5,
+      "pivot_coordinate": 13660
+    },
+    {
+      "column": 14,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 13661
+    },
+    {
+      "column": 14,
+      "denominator": 1,
+      "numerator": 12,
+      "pivot_coordinate": 13663
+    },
+    {
+      "column": 0,
+      "denominator": 1,
+      "numerator": 4,
+      "pivot_coordinate": 13854
+    },
+    {
+      "column": 3,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 13854
+    },
+    {
+      "column": 0,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 13860
+    },
+    {
+      "column": 5,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 13860
+    },
+    {
+      "column": 0,
+      "denominator": 5,
+      "numerator": -48,
+      "pivot_coordinate": 13870
+    },
+    {
+      "column": 2,
+      "denominator": 5,
+      "numerator": -24,
+      "pivot_coordinate": 13870
+    },
+    {
+      "column": 1,
+      "denominator": 5,
+      "numerator": -24,
+      "pivot_coordinate": 13874
+    },
+    {
+      "column": 4,
+      "denominator": 5,
+      "numerator": -24,
+      "pivot_coordinate": 13875
+    },
+    {
+      "column": 0,
+      "denominator": 1,
+      "numerator": 12,
+      "pivot_coordinate": 13878
+    },
+    {
+      "column": 6,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 13878
+    },
+    {
+      "column": 1,
+      "denominator": 1,
+      "numerator": 12,
+      "pivot_coordinate": 13879
+    },
+    {
+      "column": 6,
+      "denominator": 5,
+      "numerator": 14,
+      "pivot_coordinate": 13879
+    },
+    {
+      "column": 5,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 13880
+    },
+    {
+      "column": 5,
+      "denominator": 5,
+      "numerator": -12,
+      "pivot_coordinate": 13882
+    },
+    {
+      "column": 6,
+      "denominator": 5,
+      "numerator": -12,
+      "pivot_coordinate": 13883
+    },
+    {
+      "column": 7,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 13951
+    },
+    {
+      "column": 7,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 13952
+    },
+    {
+      "column": 14,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 14172
+    },
+    {
+      "column": 15,
+      "denominator": 1,
+      "numerator": -1,
+      "pivot_coordinate": 14172
+    },
+    {
+      "column": 14,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 14174
+    },
+    {
+      "column": 1,
+      "denominator": 1,
+      "numerator": 4,
+      "pivot_coordinate": 14268
+    },
+    {
+      "column": 3,
+      "denominator": 5,
+      "numerator": 14,
+      "pivot_coordinate": 14268
+    },
+    {
+      "column": 0,
+      "denominator": 1,
+      "numerator": 8,
+      "pivot_coordinate": 14269
+    },
+    {
+      "column": 2,
+      "denominator": 1,
+      "numerator": 4,
+      "pivot_coordinate": 14269
+    },
+    {
+      "column": 3,
+      "denominator": 1,
+      "numerator": 4,
+      "pivot_coordinate": 14269
+    },
+    {
+      "column": 3,
+      "denominator": 5,
+      "numerator": 16,
+      "pivot_coordinate": 14274
+    },
+    {
+      "column": 0,
+      "denominator": 1,
+      "numerator": -8,
+      "pivot_coordinate": 14275
+    },
+    {
+      "column": 2,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 14275
+    },
+    {
+      "column": 5,
+      "denominator": 1,
+      "numerator": 4,
+      "pivot_coordinate": 14275
+    },
+    {
+      "column": 1,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 14276
+    },
+    {
+      "column": 5,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 14276
+    },
+    {
+      "column": 3,
+      "denominator": 1,
+      "numerator": 12,
+      "pivot_coordinate": 14280
+    },
+    {
+      "column": 6,
+      "denominator": 1,
+      "numerator": 4,
+      "pivot_coordinate": 14280
+    },
+    {
+      "column": 0,
+      "denominator": 1,
+      "numerator": 24,
+      "pivot_coordinate": 14281
+    },
+    {
+      "column": 2,
+      "denominator": 1,
+      "numerator": 12,
+      "pivot_coordinate": 14281
+    },
+    {
+      "column": 6,
+      "denominator": 1,
+      "numerator": 4,
+      "pivot_coordinate": 14281
+    },
+    {
+      "column": 6,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 14282
+    },
+    {
+      "column": 7,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 14360
+    },
+    {
+      "column": 14,
+      "denominator": 5,
+      "numerator": 16,
+      "pivot_coordinate": 14652
+    },
+    {
+      "column": 14,
+      "denominator": 5,
+      "numerator": -12,
+      "pivot_coordinate": 14653
+    },
+    {
+      "column": 3,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 14742
+    },
+    {
+      "column": 5,
+      "denominator": 5,
+      "numerator": -8,
+      "pivot_coordinate": 14742
+    },
+    {
+      "column": 1,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 14743
+    },
+    {
+      "column": 5,
+      "denominator": 5,
+      "numerator": 14,
+      "pivot_coordinate": 14743
+    },
+    {
+      "column": 0,
+      "denominator": 5,
+      "numerator": -24,
+      "pivot_coordinate": 14746
+    },
+    {
+      "column": 2,
+      "denominator": 5,
+      "numerator": -12,
+      "pivot_coordinate": 14746
+    },
+    {
+      "column": 6,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 14748
+    },
+    {
+      "column": 6,
+      "denominator": 5,
+      "numerator": 8,
+      "pivot_coordinate": 14749
+    },
+    {
+      "column": 5,
+      "denominator": 5,
+      "numerator": 16,
+      "pivot_coordinate": 15239
+    },
+    {
+      "column": 5,
+      "denominator": 1,
+      "numerator": 12,
+      "pivot_coordinate": 15243
+    },
+    {
+      "column": 6,
+      "denominator": 1,
+      "numerator": -4,
+      "pivot_coordinate": 15243
+    },
+    {
+      "column": 1,
+      "denominator": 20,
+      "numerator": -1,
+      "pivot_coordinate": 15657
+    },
+    {
+      "column": 7,
+      "denominator": 20,
+      "numerator": -1,
+      "pivot_coordinate": 16104
+    },
+    {
+      "column": 10,
+      "denominator": 20,
+      "numerator": -1,
+      "pivot_coordinate": 16178
+    },
+    {
+      "column": 11,
+      "denominator": 20,
+      "numerator": -1,
+      "pivot_coordinate": 16263
+    },
+    {
+      "column": 0,
+      "denominator": 10,
+      "numerator": -1,
+      "pivot_coordinate": 16417
+    },
+    {
+      "column": 2,
+      "denominator": 20,
+      "numerator": -1,
+      "pivot_coordinate": 16417
+    },
+    {
+      "column": 0,
+      "denominator": 20,
+      "numerator": -1,
+      "pivot_coordinate": 16832
+    },
+    {
+      "column": 4,
+      "denominator": 20,
+      "numerator": -1,
+      "pivot_coordinate": 16833
+    },
+    {
+      "column": 12,
+      "denominator": 20,
+      "numerator": -1,
+      "pivot_coordinate": 17074
+    },
+    {
+      "column": 15,
+      "denominator": 32,
+      "numerator": -1,
+      "pivot_coordinate": 17140
+    },
+    {
+      "column": 3,
+      "denominator": 20,
+      "numerator": -1,
+      "pivot_coordinate": 17206
+    },
+    {
+      "column": 9,
+      "denominator": 20,
+      "numerator": -1,
+      "pivot_coordinate": 17345
+    },
+    {
+      "column": 13,
+      "denominator": 20,
+      "numerator": -1,
+      "pivot_coordinate": 17831
+    },
+    {
+      "column": 8,
+      "denominator": 32,
+      "numerator": -1,
+      "pivot_coordinate": 18110
+    },
+    {
+      "column": 5,
+      "denominator": 20,
+      "numerator": -1,
+      "pivot_coordinate": 18565
+    },
+    {
+      "column": 6,
+      "denominator": 20,
+      "numerator": -1,
+      "pivot_coordinate": 18567
+    },
+    {
+      "column": 14,
+      "denominator": 20,
+      "numerator": -1,
+      "pivot_coordinate": 20442
+    }
+  ],
+  "height_bound": 21162,
+  "modulus": 895745041,
+  "schema": "hc4.fourth-colon-p173-c16-rational-candidates.v1",
+  "selected_global_coordinates": [
+    46,
+    47,
+    57,
+    66,
+    68,
+    102,
+    155,
+    547,
+    763,
+    965,
+    966,
+    1261,
+    1269,
+    1499,
+    1699,
+    1711
+  ]
+}

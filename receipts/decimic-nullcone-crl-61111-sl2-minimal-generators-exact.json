@@ -1,0 +1,31 @@
+{
+  "schema": "decimic-nullcone-sl2-minimal-generator-decomposition-v1",
+  "status": "PASS_EXACT_SL2_MINIMAL_GENERATOR_DECOMPOSITION",
+  "date": "2026-08-30",
+  "field": "QQ",
+  "partition": [6, 1, 1, 1, 1],
+  "group": "SL2",
+  "coefficient_variable_weights": [10, 8, 6, 4, 2, 0, -2, -4, -6, -8, -10],
+  "minimal_generator_decomposition": {
+    "degree_2": {"V_0": 1},
+    "degree_3": {"V_2": 1, "V_6": 1},
+    "degree_4": {"V_0": 1, "V_4": 2, "V_8": 1}
+  },
+  "highest_weight_family_count": 7,
+  "software": {
+    "Macaulay2": "1.26.06",
+    "homebrew_formula": "macaulay2/tap/macaulay2 1.26.06_1",
+    "packages": ["CoincidentRootLoci", "HighestWeights"]
+  },
+  "command": "/usr/bin/time -lp M2 --stop --no-readline --silent scripts/profile_decimic_nullcone_minimal_generators_sl2.m2",
+  "wall_seconds": 85.29,
+  "user_cpu_seconds": 105.48,
+  "system_cpu_seconds": 2.27,
+  "maximum_resident_set_size_bytes": 882966528,
+  "peak_memory_footprint_bytes": 870253672,
+  "source_sha256": {
+    "scripts/profile_decimic_nullcone_minimal_generators_sl2.m2": "d87de40e14c099325f5b4264264c1f2f05197cd328564e287faea596de3f8490"
+  },
+  "negative_route_receipt": "receipts/decimic-nullcone-crl-61111-highestweights-whole-ideal-timeout.json",
+  "claim_boundary": "This exact calculation decomposes the minimal defining generators of the target multiplicity-six locus. It does not prove that any generator vanishes on the clean normal-layer locus and does not prove HC4."
+}

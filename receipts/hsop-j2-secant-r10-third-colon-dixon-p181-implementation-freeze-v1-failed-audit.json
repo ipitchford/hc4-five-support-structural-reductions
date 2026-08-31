@@ -1,0 +1,37 @@
+{
+  "claim_boundary": "This is a pre-execution implementation-interface failure. It contains no algebraic or p-adic evidence and licenses no computation under v1.",
+  "declarations": {
+    "no_arithmetic_modulo_181_squared": true,
+    "no_factorization_launched": true,
+    "no_preprocessing_launched": true,
+    "v1_freeze_inadmissible_for_execution": true
+  },
+  "defect": {
+    "first_failure_if_executed": "KeyError before preprocessing spawn",
+    "missing_canonical_path_keys": [
+      "phase1_telemetry",
+      "phase2_telemetry"
+    ],
+    "wrapper_references_missing_keys": [
+      "phase1_telemetry",
+      "phase2_telemetry"
+    ]
+  },
+  "frozen_source_hashes_still_match": true,
+  "implementation_freeze": {
+    "path": "receipts/hsop-j2-secant-r10-third-colon-dixon-p181-implementation-freeze-v1.json",
+    "sha256": "8b313ec2354c7afe21a041260a2dbc6bc6b167855a94b14fa21031c9538d1568"
+  },
+  "prospective_output_absence": {
+    "checked": [
+      "artifacts/j2-secant-r10-third-colon-dixon-p181-phase1-bundle-v1",
+      "receipts/hsop-j2-secant-r10-third-colon-dixon-p181-factorization-freeze-v1.json",
+      "artifacts/j2-secant-r10-third-colon-dixon-p181-producer-8digit-bundle-v1",
+      "artifacts/j2-secant-r10-third-colon-dixon-p181-independent-8digit-bundle-v1",
+      "receipts/hsop-j2-secant-r10-third-colon-dixon-p181-8digit-terminal-v1.json"
+    ],
+    "existing": []
+  },
+  "schema": "hc4.decimic-j2-secant-r10-third-colon-dixon-p181-implementation-freeze-v1-failure-audit.v1",
+  "status": "FAIL_PREEXECUTION_IMPLEMENTATION_INTERFACE_V1"
+}

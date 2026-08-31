@@ -1,0 +1,22 @@
+{
+  "schema": "hc4.fourth-colon-p173-integral-system-freeze.v1",
+  "status": "PASS_FOURTH_COLON_P173_INTEGRAL_SYSTEM_FREEZE",
+  "frozen_at_utc": "2026-08-31T17:24:16Z",
+  "bound_files": {
+    "research/FOURTH_COLON_P173_FIXED_GAUGE_INTEGRAL_SYSTEM_PREREGISTRATION.md": "4dce3ed825f01c498d40e46b8caae75aab72142d181541b50a39204c93ea21f8",
+    "scripts/build_p173_fourth_colon_integral_lift_system.py": "e5beb1c1f6863940e57c34d53330e5c90abb6c329f4e35caa6a4ce47935e454c",
+    "scripts/audit_j2_secant_r10_fourth_colon_identity_preflight.py": "06f67396141856fc66aa2d6884efa0ee7d284f223c6fcaca389ac9ced2230d61",
+    "scripts/certify_j2_secant_r10_colon_identity_liftstd.py": "e946e9e4b5ad1f7e7b62b688c03502f4331c463cd691e66b4f207d4b2b96f34c",
+    "scripts/certify_j2_secant_r10_second_colon_identity_sparse_macaulay.py": "ea20fb8719bb583c424f0cc4e2730b46c7f38e130558fa7e6d2422865fb1af6b",
+    "scripts/certify_j2_secant_r10_third_colon_identity_sparse_macaulay.py": "c0e1557c1a18d85af997e24c739d799d58c7d0b655d0662a0215f30e9b42ae74",
+    "scripts/certify_j2_secant_r10_z12_macaulay.py": "fd49512f605cb257d62aea850fe795d61db04ca23df9504910f157cfe1436d26",
+    "scripts/scout_j2_secant_r10_homogeneous_saturation.py": "8ba0c949784491272323cf2b411b0055c7d81d810513faa5428ed90fe1293a14",
+    "artifacts/j2-secant-r10-fourth-colon-identity-sparse-macaulay-hybrid-p173.json": "45654ac41bfe50a76e9a396407734a7f94d3026ba68c9843e93ce432a656ebbe",
+    "receipts/hsop-j2-secant-r10-fourth-colon-identity-p173-independent-replay.json": "22356f209047d90482bd49318d00e61305a2e9962611673b94da436e60ed7b1f",
+    "receipts/hsop-j2-secant-r10-p181-target-exact-polynomial-identity-audit.json": "ccfb6a2a29685898c8c6f7ea894cb2b3be0f1f322880ca25aa58486c5e5b08b7",
+    "artifacts/j2-secant-r10-fourth-colon-kernel-qq-candidate.json": "7939f8e57878be21f189ffbf4ac620707924b02f2dbb76f50348b5423a4b9bf2"
+  },
+  "policy": {"wall_seconds_maximum": 600, "rss_bytes_maximum": 2000000000, "process_swaps_required": 0, "elimination_forbidden": true, "mod173_squared_forbidden": true},
+  "canonical_output": "artifacts/fourth-colon-p173-fixed-gauge-integral-lift-system-v1",
+  "claim_boundary": "A PASS constructs an exact lifting interface for M*h4. It adds no p-adic digit and proves no rational fourth identity, colon equality, saturation, secant closure, or HC4 theorem."
+}

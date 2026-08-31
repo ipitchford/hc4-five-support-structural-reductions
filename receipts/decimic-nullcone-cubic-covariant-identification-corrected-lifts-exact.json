@@ -1,0 +1,191 @@
+{
+  "canonical_lifts": {
+    "v2": "6*g2_1 + g2_2 - J2*a_4",
+    "v6": "g6 - J2*a_2"
+  },
+  "checks": {
+    "j2_terms": 6,
+    "m_order": 6,
+    "r_order": 2,
+    "v6_weight": 6,
+    "weight2_slice_dimension": 2
+  },
+  "coefficient_convention": "F=sum(binomial(10,i)*a_i*x^(10-i)*y^i)",
+  "endpoint_tests": {
+    "x": {
+      "order2_channel_terms": [
+        18,
+        18
+      ],
+      "order6_channel_terms": [
+        17,
+        17,
+        16,
+        17
+      ],
+      "v2_full_ideal_intersection_relations": [
+        {
+          "extracted_coordinates": [
+            "64222671528787968000000",
+            "10703778588131328000000",
+            "-10703778588131328000000"
+          ],
+          "transvectant_coordinates": [
+            "1",
+            "0"
+          ]
+        },
+        {
+          "extracted_coordinates": [
+            "6689861617582080000000",
+            "1114976936263680000000",
+            "-1114976936263680000000"
+          ],
+          "transvectant_coordinates": [
+            "0",
+            "1"
+          ]
+        }
+      ],
+      "v2_highest_in_order2_channel_coordinates": [
+        "1/10703778588131328000000",
+        "0"
+      ],
+      "v6_full_ideal_intersection_relations": [
+        {
+          "extracted_coordinates": [
+            "5686382374944768000000",
+            "-5686382374944768000000"
+          ],
+          "transvectant_coordinates": [
+            "-28",
+            "-27",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "extracted_coordinates": [
+            "3106007179591680000000",
+            "-3106007179591680000000"
+          ],
+          "transvectant_coordinates": [
+            "-25",
+            "0",
+            "252",
+            "0"
+          ]
+        },
+        {
+          "extracted_coordinates": [
+            "525631984238592000000",
+            "-525631984238592000000"
+          ],
+          "transvectant_coordinates": [
+            "-1",
+            "0",
+            "0",
+            "-1890"
+          ]
+        }
+      ],
+      "v6_highest_in_order6_channel_coordinates": [
+        "-1/203085084819456000000",
+        "-1/210606754627584000000",
+        "0",
+        "0"
+      ]
+    },
+    "y": {
+      "order2_channel_terms": [
+        18,
+        18
+      ],
+      "order6_channel_terms": [
+        17,
+        17,
+        16,
+        17
+      ],
+      "v2_full_ideal_intersection_relations": [
+        {
+          "extracted_coordinates": [
+            "0",
+            "0",
+            "0"
+          ],
+          "transvectant_coordinates": [
+            "5",
+            "-48"
+          ]
+        }
+      ],
+      "v2_highest_in_order2_channel_coordinates": null,
+      "v6_full_ideal_intersection_relations": [
+        {
+          "extracted_coordinates": [
+            "0",
+            "0"
+          ],
+          "transvectant_coordinates": [
+            "385",
+            "-585",
+            "-9996",
+            "0"
+          ]
+        },
+        {
+          "extracted_coordinates": [
+            "0",
+            "0"
+          ],
+          "transvectant_coordinates": [
+            "7",
+            "11",
+            "0",
+            "-8330"
+          ]
+        }
+      ],
+      "v6_highest_in_order6_channel_coordinates": null
+    }
+  },
+  "highest_weight_checks": {
+    "j2_matches_quadratic": true,
+    "quadratic_is_invariant": true,
+    "v2_highest_is_raising_annihilated": true,
+    "v6_highest_is_raising_annihilated": true
+  },
+  "inputs": {
+    "documentation_normalisation_location": "CoincidentRootLoci/documentation.m2, binary-form switch paragraph",
+    "extractor": "scripts/extract_decimic_nullcone_weight_generators.m2",
+    "extractor_sha256": "7eb682ad5da47e1159fe23d7e92e8d5246afac7ee985b0f8f84ee7c275e44a77",
+    "macaulay2_documentation_sha256": "38c0489e2e8517668f824bc83996dc0a2421b4a2fde2107897e179da5dbfad67",
+    "macaulay2_package_sha256": "29d1a681d11ff6cc37f532608e64616b3c7d1173000040d3e56b560d43d6cd59"
+  },
+  "j2_quadratic_coordinates": [
+    "-26336378880000"
+  ],
+  "lower_squared_v6_weight2_coordinates": [
+    "226",
+    "36",
+    "-56"
+  ],
+  "matched_sides": [
+    "x"
+  ],
+  "runtime": {
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "python": "3.14.6",
+    "sympy": "1.14.0"
+  },
+  "schema": "hc4.decimic-nullcone-cubic-covariant-identification.v2",
+  "status": "PASS_EXACT_CUBIC_COVARIANT_IDENTIFICATION",
+  "transvectant_convention": "unnormalised alternating derivative sum",
+  "v2_full_ideal_coordinates": [
+    "6",
+    "1",
+    "-1"
+  ],
+  "v2_independent_of_lowered_v6": true
+}

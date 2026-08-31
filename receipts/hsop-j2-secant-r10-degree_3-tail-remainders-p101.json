@@ -1,0 +1,238 @@
+{
+  "branch": "degree_3",
+  "calculation": {
+    "child_system_seconds_immediate_scope": 0.472779,
+    "child_user_seconds_immediate_scope": 39.018327,
+    "diagnostic_error": false,
+    "forced_group_kill": false,
+    "maximum_rss_native_immediate_scope": 94945280,
+    "process_group_terminated": false,
+    "resource_accounting": "wall time authoritative; CPU/RSS counters may omit delegated worker descendants",
+    "return_code": 0,
+    "stderr_tail": "",
+    "stdout_tail": "TAIL_BASIS\n352\n1\nROW_0\n14\n3\nROW_1\n20\n3\nROW_2\n30\n3\nROW_3\n33\n4\nROW_4\n50\n4\nROW_5\n51\n4\nROW_6\n45\n4\nROW_7\n53\n4\nROW_8\n47\n4\nROW_9\n44\n4\nROW_10\n45\n3\nROW_11\n40\n3\nROW_12\n40\n3\nROW_13\n35\n3\nROW_14\n30\n3\nROW_15\n40\n3\nROW_16\n40\n3\nROW_17\n35\n3\nROW_18\n30\n3\nROW_19\n24\n3\nROW_20\n16\n3\nROW_21\n37\n3\nROW_22\n31\n3\nROW_23\n30\n3\nROW_24\n24\n3\nROW_25\n16\n3\nROW_26\n11\n3\nROW_27\n10\n2\nROW_28\n18\n3\nROW_29\n21\n3\nROW_30\n18\n3\nROW_31\n16\n3\nROW_32\n11\n3\nROW_33\n10\n2\nROW_34\n1\n2\nROW_35\n1\n1\n",
+    "timed_out": false,
+    "wall_seconds": 40.03715683298651
+  },
+  "characteristic": 101,
+  "claim_boundary": "this is a characteristic-p equation-selection scout only; it neither proves characteristic-zero emptiness nor validates a selected separator",
+  "normal_forms": {
+    "0": {
+      "normal_form_degree": 3,
+      "normal_form_term_count": 14
+    },
+    "1": {
+      "normal_form_degree": 3,
+      "normal_form_term_count": 20
+    },
+    "10": {
+      "normal_form_degree": 3,
+      "normal_form_term_count": 45
+    },
+    "11": {
+      "normal_form_degree": 3,
+      "normal_form_term_count": 40
+    },
+    "12": {
+      "normal_form_degree": 3,
+      "normal_form_term_count": 40
+    },
+    "13": {
+      "normal_form_degree": 3,
+      "normal_form_term_count": 35
+    },
+    "14": {
+      "normal_form_degree": 3,
+      "normal_form_term_count": 30
+    },
+    "15": {
+      "normal_form_degree": 3,
+      "normal_form_term_count": 40
+    },
+    "16": {
+      "normal_form_degree": 3,
+      "normal_form_term_count": 40
+    },
+    "17": {
+      "normal_form_degree": 3,
+      "normal_form_term_count": 35
+    },
+    "18": {
+      "normal_form_degree": 3,
+      "normal_form_term_count": 30
+    },
+    "19": {
+      "normal_form_degree": 3,
+      "normal_form_term_count": 24
+    },
+    "2": {
+      "normal_form_degree": 3,
+      "normal_form_term_count": 30
+    },
+    "20": {
+      "normal_form_degree": 3,
+      "normal_form_term_count": 16
+    },
+    "21": {
+      "normal_form_degree": 3,
+      "normal_form_term_count": 37
+    },
+    "22": {
+      "normal_form_degree": 3,
+      "normal_form_term_count": 31
+    },
+    "23": {
+      "normal_form_degree": 3,
+      "normal_form_term_count": 30
+    },
+    "24": {
+      "normal_form_degree": 3,
+      "normal_form_term_count": 24
+    },
+    "25": {
+      "normal_form_degree": 3,
+      "normal_form_term_count": 16
+    },
+    "26": {
+      "normal_form_degree": 3,
+      "normal_form_term_count": 11
+    },
+    "27": {
+      "normal_form_degree": 2,
+      "normal_form_term_count": 10
+    },
+    "28": {
+      "normal_form_degree": 3,
+      "normal_form_term_count": 18
+    },
+    "29": {
+      "normal_form_degree": 3,
+      "normal_form_term_count": 21
+    },
+    "3": {
+      "normal_form_degree": 4,
+      "normal_form_term_count": 33
+    },
+    "30": {
+      "normal_form_degree": 3,
+      "normal_form_term_count": 18
+    },
+    "31": {
+      "normal_form_degree": 3,
+      "normal_form_term_count": 16
+    },
+    "32": {
+      "normal_form_degree": 3,
+      "normal_form_term_count": 11
+    },
+    "33": {
+      "normal_form_degree": 2,
+      "normal_form_term_count": 10
+    },
+    "34": {
+      "normal_form_degree": 2,
+      "normal_form_term_count": 1
+    },
+    "35": {
+      "normal_form_degree": 1,
+      "normal_form_term_count": 1
+    },
+    "4": {
+      "normal_form_degree": 4,
+      "normal_form_term_count": 50
+    },
+    "5": {
+      "normal_form_degree": 4,
+      "normal_form_term_count": 51
+    },
+    "6": {
+      "normal_form_degree": 4,
+      "normal_form_term_count": 45
+    },
+    "7": {
+      "normal_form_degree": 4,
+      "normal_form_term_count": 53
+    },
+    "8": {
+      "normal_form_degree": 4,
+      "normal_form_term_count": 47
+    },
+    "9": {
+      "normal_form_degree": 4,
+      "normal_form_term_count": 44
+    }
+  },
+  "omitted_equation_stream_sha256": "0428093e15610edc681f4d73ee73334ba7931df647054ceb9b5a0a8b0bec928f",
+  "omitted_normal_equation_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "orbit": "secant",
+  "retained_normal_equation_indices": [
+    36,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44
+  ],
+  "schema": "hc4-decimic-j2-secant-r10-tail-remainder-scout-v1",
+  "singular_source_sha256": "70acf002c5c2b7d07b9f280b8caede76a315203ec2285643f9451afd1c0853ae",
+  "source_sha256": {
+    "scripts/certify_j2_secant_r10_tail_branch.py": "0a1f1508329e60250663e96ef8cb2bf14b6817d2c54db56afdc040d0cd88ef96",
+    "scripts/scout_j2_secant_r10_tail_remainders.py": "abd2b8c1cb52945b49dbd84ace592d05ab07fb3b4d8a14a2feae535d50cdfc7c"
+  },
+  "status": "PASS_MODULAR_REMAINDER_AUDIT",
+  "tail_basis_size": 352,
+  "tail_equation_stream_sha256": "42beef5b39cc6b9348c5b3b8fd293952cf7d0bbc320026303430f59d990f2632",
+  "tail_unit_remainder": "1",
+  "top_index": 10,
+  "wall_seconds": 46.940150584006915
+}

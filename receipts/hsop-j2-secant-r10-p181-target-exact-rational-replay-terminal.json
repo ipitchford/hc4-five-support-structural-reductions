@@ -1,0 +1,54 @@
+{
+  "claim_boundary": "A PASS proves exact rational membership in the frozen source-clean fixed-main coefficient system. Independent certificate and source-to-polynomial audits remain separate; no saturation, secant, nullcone, or HC4 theorem follows.",
+  "implementation_freeze": {
+    "path": "receipts/hsop-j2-secant-r10-p181-target-exact-rational-replay-implementation-freeze.json",
+    "sha256": "bf8382ed6e66b8f3b6b24dccb8b8539ef9d83d303fca07881a10cf4fd5de2914"
+  },
+  "promoted": {
+    "artifact": {
+      "primitive_common_denominator_vector.json": "a83e144d7b383ee9202bd34ac991d1d4d2fe1f70482927b997ebf23c6c5d878d",
+      "rational_target_pairs_local.json": "9164b59d49a247f2e2710094d4474255195f5912a890e43b9915ef28c7a5eb42",
+      "replay.json": "b919cf40318d60f7048342aa698e1ab86c9a2c7faaab5d7f68daa7d09bd4015e"
+    },
+    "telemetry": {
+      "benchmark.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "benchmark.stdout.txt": "9a6d0a727078765f9a3bed61d11fc3ae83bfdd7706073a8d23136019e14dffa6",
+      "benchmark.time.txt": "ca5079902b5a076a3eb517a278cb3fa0ebe5cffbe86c9240011c3c83594c756d"
+    }
+  },
+  "schema": "hc4.third-colon-p181-target-exact-rational-terminal.v1",
+  "status": "PASS_P181_TARGET_EXACT_RATIONAL_SYSTEM_REPLAY",
+  "telemetry": {
+    "ancestry_samples": 8,
+    "command": [
+      "/usr/bin/time",
+      "-l",
+      "-o",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-target-exact-telemetry-20260831T016/benchmark.time.txt",
+      "/opt/homebrew/bin/gtimeout",
+      "-s",
+      "TERM",
+      "-k",
+      "10s",
+      "300s",
+      "/Users/admin/.local/bin/sage",
+      "-python",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/scripts/reconstruct_p181_target_exact_rational.py",
+      "--output-dir",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-target-exact-20260831T016"
+    ],
+    "external_time": {
+      "maximum_rss_bytes": 180518912,
+      "process_swaps": 0,
+      "raw_sha256": "ca5079902b5a076a3eb517a278cb3fa0ebe5cffbe86c9240011c3c83594c756d",
+      "real_seconds": 1.96,
+      "system_seconds": 0.06,
+      "user_seconds": 1.59
+    },
+    "return_code": 0,
+    "rss_breach_killed": false,
+    "sampled_descendant_rss_peak_bytes": 181452800,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "9a6d0a727078765f9a3bed61d11fc3ae83bfdd7706073a8d23136019e14dffa6"
+  }
+}

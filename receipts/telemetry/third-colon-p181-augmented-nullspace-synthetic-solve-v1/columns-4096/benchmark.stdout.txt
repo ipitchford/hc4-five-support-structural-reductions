@@ -1,0 +1,1 @@
+{"status":"PASS_LINBOX_AUGMENTED_NULLSPACE_MOD181_SYNTHETIC_SOLVE","mode":"synthetic_known_solution","rows":85651,"columns":4096,"coefficient_nonzeros":146642,"load_seconds":0.0306377,"augmentation_seconds":0.00300863,"nullspace_seconds":1.4894,"replay_seconds":0.000706333,"replay_mismatches":0,"known_solution_mismatches":0,"last_null_coordinate":1,"wall_seconds":1.52456}

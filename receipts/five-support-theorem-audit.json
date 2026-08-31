@@ -1,0 +1,281 @@
+{
+  "cassini_receipt_sha256": "bfa3eff33ed8367a8dbe84a5a4064b0b3ffdfd34655d2a2ed39eb48d6270c2e8",
+  "checks": {
+    "boundary_lemma_present": true,
+    "cassini_second_derivation_pass": true,
+    "claim_ledger_present": true,
+    "normal_layers_pass": true,
+    "row_22222_pass": true,
+    "row_32221_pass": true,
+    "row_33211_pass": true,
+    "row_42211_pass": true,
+    "row_43111_pass": true,
+    "row_52111_pass": true,
+    "row_61111_pass": true,
+    "seven_partitions_exactly_covered": true,
+    "source_commit_pinned": true,
+    "source_hashes_match": true,
+    "theorem_document_present": true
+  },
+  "claim_boundary": {
+    "independent_exact": "no clean nonzero residual-line solution whose nonzero binary-decic restriction has exactly five distinct projective roots",
+    "open": "restrictions with at least six support points, the full double-conic packet, and HC4",
+    "pinned_source_dependency": "the at-most-five-support corollary uses HC4NHM15 and HC4NHM18 for the support-at-most-four half"
+  },
+  "full_replay_performed": true,
+  "metrics": {
+    "audit_wall_seconds": 385.5029432080046,
+    "full_replay_runs": [
+      {
+        "command": [
+          "/opt/homebrew/opt/python@3.14/bin/python3.14",
+          "scripts/reconstruct_normal_layers.py",
+          "--training-samples",
+          "3",
+          "--holdout-samples",
+          "2",
+          "--seed",
+          "20260829",
+          "--output",
+          "receipts/independent-normal-layers.json"
+        ],
+        "return_code": 0,
+        "stderr_tail": "",
+        "stdout_tail": "        0\n        ],\n        \"nonzero_candidate_count\": 18,\n        \"rank\": 4\n      },\n      {\n        \"basis\": [\n          {\n            \"coefficient\": \"1/77203623553056000\",\n            \"term\": \"[[f,f]_2,f]_10\"\n          },\n          {\n            \"coefficient\": \"277/19455313135370112000\",\n            \"term\": \"[[f,f]_4,f]_8\"\n          }\n        ],\n        \"candidate_count\": 7,\n        \"holdout_pass\": true,\n        \"multidegree\": [\n          3,\n          0,\n          0\n        ],\n        \"nonzero_candidate_count\": 4,\n        \"rank\": 2\n      }\n    ]\n  },\n  \"method\": {\n    \"covariant_basis\": \"all admissible ordered iterated transvectants; exact pivot basis selected from training samples\",\n    \"harmonic_projection\": \"closed Box(q^j F) recurrence; no matrix-inverse lift\",\n    \"reference_coefficient_table_imported\": false\n  },\n  \"schema\": \"hc4-double-conic-independent-normal-layers-v1\",\n  \"seed\": 20260829,\n  \"status\": \"PASS\",\n  \"training_samples\": 3,\n  \"wall_seconds\": 84.02570220798953\n}\n\n",
+        "wall_seconds": 84.72460287497961
+      },
+      {
+        "command": [
+          "/opt/homebrew/opt/python@3.14/bin/python3.14",
+          "scripts/certify_endpoint_radical_61111.py",
+          "--output",
+          "receipts/endpoint-radical-61111.json"
+        ],
+        "return_code": 0,
+        "stderr_tail": "",
+        "stdout_tail": ": [\n        21,\n        27\n      ],\n      \"identity\": \"g5*E27/12 + (g3+23*g5)*E21/16 = 108*g5^4\",\n      \"identity_sha256\": \"3ab3402256aaf04e57d87163c90659a85ec5d9d11758e935237e42347acdc442\",\n      \"prior_radical_variables\": [\n        \"g0\",\n        \"g1\",\n        \"g4\",\n        \"g2\"\n      ],\n      \"step\": 5\n    },\n    {\n      \"deduction\": \"line_x, line_y, line_z belong to radical(I)\",\n      \"identity\": {\n        \"line_x\": \"16*g5**2*(g7 - la*mu)\",\n        \"line_y\": \"16*g5**3\",\n        \"line_z\": \"0\"\n      },\n      \"identity_sha256\": {\n        \"line_x\": \"632473d8df5b8a7318f8bf05d2969bd039ac2e0c3033cf6f43ed2608f16bd90f\",\n        \"line_y\": \"9cb77c50683a7721a3d2e649a739a79377f5d343827096e1f6fc73c0c5eccef1\",\n        \"line_z\": \"5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9\"\n      },\n      \"prior_radical_variables\": [\n        \"g0\",\n        \"g1\",\n        \"g4\",\n        \"g2\",\n        \"g5\"\n      ],\n      \"step\": 6\n    }\n  ],\n  \"status\": \"PASS\",\n  \"wall_seconds\": 4.301213749975432\n}\n",
+        "wall_seconds": 4.699347041983856
+      },
+      {
+        "command": [
+          "/opt/homebrew/opt/python@3.14/bin/python3.14",
+          "scripts/certify_endpoint_radical_52111.py",
+          "--output",
+          "receipts/endpoint-radical-52111.json"
+        ],
+        "return_code": 0,
+        "stderr_tail": "",
+        "stdout_tail": "   \"equation_indices\": [\n        30,\n        24\n      ],\n      \"identity_sha256\": \"ae97c11142424eaebd30a6fa009aecd450f97dfc8d3571f0f07d9e92c27459f6\",\n      \"reduced_identity\": \"E30/288 + E24/48 = g4^3\"\n    },\n    {\n      \"deduction\": \"g2 belongs to radical(I)\",\n      \"equation_indices\": [\n        37\n      ],\n      \"identity_sha256\": \"3613bfe5a80aed31a43ddbf20c0cd6115d5d0003b5881dcd42712b68a04ee5cf\",\n      \"reduced_identity\": \"E37 mod (g0,g1,g4) = 16*g2^3\"\n    },\n    {\n      \"deduction\": \"g5-la*mu belongs to radical(I)\",\n      \"equation_indices\": [\n        21,\n        27,\n        34\n      ],\n      \"identity_sha256\": \"355eb0e27c62bb56d1adce8595fe72fed780dfde08c963190878ac0fb972e8f4\",\n      \"reduced_identity\": \"-3*(16*U-36*H+20*la*mu)*E21 +4*(-3*U+7*H)*E27 +12*H*E34 = 6912*H^4\",\n      \"translation\": {\n        \"H\": \"g5-la*mu\",\n        \"U\": \"g3-la*mu\"\n      }\n    }\n  ],\n  \"schema\": \"hc4-five-support-endpoint-radical-certificate-v1\",\n  \"status\": \"PASS\",\n  \"wall_seconds\": 4.740741124987835\n}\n",
+        "wall_seconds": 5.052239749988075
+      },
+      {
+        "command": [
+          "/opt/homebrew/opt/python@3.14/bin/python3.14",
+          "scripts/certify_endpoint_cover_43111.py",
+          "--output",
+          "receipts/endpoint-cover-43111.json"
+        ],
+        "return_code": 0,
+        "stderr_tail": "",
+        "stdout_tail": "c8beee6683024e2e\",\n    \"branch_B_E10\": \"1f263483c3c40dd5849fb1255b7ad62bf37bc7d219d9c461ecf78cbea31de7d4\",\n    \"branch_B_E23\": \"f85aa64e520777c6fca7b6fd9838b963fb6167b362e0b8ebfb9dd71067630dd6\",\n    \"branch_B_E29\": \"153c3ae7b8707fc5b32b0dae5877d9a9486f149e0df7dbde585a537c5cdfd9ca\",\n    \"branch_B_E4\": \"b76b6f1a1ef81927cae1082b23c6308d17bf446c93421d83543863bf6785531b\",\n    \"cover_E24\": \"bb1e3f4428067ab38a81bff6f2fcfb6406cf0e27651918e6e2b5f01304a9dd9a\",\n    \"cover_E30\": \"cc41d8a308801958b16d106164de1aae50cfc95a611278e4d902559d0982975d\"\n  },\n  \"line_coordinate_sha256\": {\n    \"line_x\": \"e06b007e765ddcb59a8b5bb19a1e7ae124cff62cb554794a9ac7e043fdb8f2de\",\n    \"line_y\": \"b9ffb4c82389abb9a197c3513e06e3a86e4fbe5aa7b0692056a6c1ab9da67637\",\n    \"line_z\": \"4ad418dc0f509f4c9bc94b86e6bd5b2507810b00dc9ef61f5ea98a45a9202eac\"\n  },\n  \"partition\": [\n    4,\n    3,\n    1,\n    1,\n    1\n  ],\n  \"schema\": \"hc4-five-support-endpoint-cover-certificate-v1\",\n  \"status\": \"PASS\",\n  \"wall_seconds\": 5.176534916012315\n}\n",
+        "wall_seconds": 5.463848291983595
+      },
+      {
+        "command": [
+          "/opt/homebrew/opt/python@3.14/bin/python3.14",
+          "scripts/certify_endpoint_cover_42211.py",
+          "--output",
+          "receipts/endpoint-cover-42211.json"
+        ],
+        "return_code": 0,
+        "stderr_tail": "",
+        "stdout_tail": "159ad088321d85b\"\n  },\n  \"status\": \"PASS\",\n  \"tail_c\": {\n    \"cover_equation\": \"E25=32*g6^2*(2*lambda*mu+lambda+mu)\",\n    \"g6_zero_branch\": [\n      \"line_x=-E20/6\",\n      \"line_y=-E27/6\",\n      \"line_z=-E43\"\n    ],\n    \"g7_solution\": \"g8**2/4 - g8*(la + mu + 2)/2 + la**2/4 - la*mu/2 - la + mu**2/4 - mu\",\n    \"parameter_branch\": {\n      \"conclusion\": \"empty on the lambda*mu-nonzero locus\",\n      \"divisor\": \"P=2*lambda*mu+lambda+mu=0\",\n      \"parametrization\": \"mu=-lambda/(2*lambda+1)\",\n      \"steps\": [\n        \"E21=576*g8*lambda^4/(2*lambda+1)^2\",\n        \"E22 and E43 imply K=lambda^2-2*lambda-1=0 and g6=0\",\n        \"E8=-288*lambda^2*(lambda+1)^2/(2*lambda+1)^2\",\n        \"2=K-(lambda+1)*(lambda-3)\"\n      ]\n    }\n  },\n  \"tail_d\": {\n    \"conclusion\": \"only lambda=mu=-1, a support collision\",\n    \"steps\": [\n      \"E3=192*g6\",\n      \"E2=4*(8*g7+3*(lambda+mu+2)^2)\",\n      \"E4=-6*(lambda+mu+2)^3\",\n      \"E21 at mu=-lambda-2 is 512*(lambda+1)^6\"\n    ]\n  },\n  \"wall_seconds\": 7.870740499987733\n}\n",
+        "wall_seconds": 8.167898791987682
+      },
+      {
+        "command": [
+          "/opt/homebrew/opt/python@3.14/bin/python3.14",
+          "scripts/certify_endpoint_radical_33211.py",
+          "--output",
+          "receipts/endpoint-radical-33211.json"
+        ],
+        "return_code": 0,
+        "stderr_tail": "",
+        "stdout_tail": "67900f69adcc146ccfbd\",\n    \"line_z\": \"5156ba7cca4f41d55af30e8dad776600a37882d65d06ba13fda6b9510e1c7cdf\"\n  },\n  \"line_reductions\": {\n    \"line_x\": \"0\",\n    \"line_y\": \"16*(g5 + la*mu + 2*la + 2*mu + 1)**3\",\n    \"line_z\": \"0\"\n  },\n  \"partition\": [\n    3,\n    3,\n    2,\n    1,\n    1\n  ],\n  \"radical_step\": {\n    \"D\": \"g6 - la - mu - 2\",\n    \"H\": \"g5 + la*mu + 2*la + 2*mu + 1\",\n    \"conclusion\": \"H belongs to the radical of the endpoint normal ideal\",\n    \"equations\": [\n      \"E14=16*(D^2-3*H)\",\n      \"E17=32*D*H^2\"\n    ],\n    \"identity\": \"3*H^5=-H^4*E14/16+E17^2/1024\"\n  },\n  \"schema\": \"hc4-five-support-endpoint-radical-certificate-v1\",\n  \"selected_identity_sha256\": {\n    \"endpoint_E14\": \"137a412a55bea936999eafba3066fd8ab7d64125a54f191445b81d1ca94de462\",\n    \"endpoint_E17\": \"488df090e886206c77be6537414689fa9a62a631466ae0bd6eb42156134911f8\",\n    \"radical_identity\": \"c50a78161bb23eef9230e62f030ea5ff2582761baedd62aa71b03954b6ea3ff8\"\n  },\n  \"status\": \"PASS\",\n  \"wall_seconds\": 8.560566041996935\n}\n",
+        "wall_seconds": 8.859576374990866
+      },
+      {
+        "command": [
+          "/opt/homebrew/opt/python@3.14/bin/python3.14",
+          "scripts/certify_endpoint_cover_32221.py",
+          "--output",
+          "receipts/endpoint-cover-32221.json"
+        ],
+        "return_code": 0,
+        "stderr_tail": "",
+        "stdout_tail": "v*Delta*W*line_y-1\",\n      \"maximum_rss_native_immediate_scope\": 5849088,\n      \"process_group_terminated\": false,\n      \"reduced_equation_count\": 26,\n      \"resource_accounting\": \"wall time authoritative; CPU/RSS counters may omit delegated worker descendants\",\n      \"return_code\": 0,\n      \"ring\": \"Q[g8,lambda,mu,inv]\",\n      \"singular_source_sha256\": \"e6fe3a8d21b7699769f392cb8cf6803291895fabbfebdd87b3ad93ed7ec1ea20\",\n      \"standard_basis_algorithm\": \"Singular std over characteristic zero\",\n      \"timed_out\": false,\n      \"unit_remainder\": \"0\",\n      \"wall_seconds\": 0.07013379200361669\n    },\n    \"steps\": [\n      \"E7=9*W^2*A6 solves g6\",\n      \"E8=9*W^2*A5 solves g5\",\n      \"normalized E10,E13 solve g2,g3 with determinant 864*W\",\n      \"line_x=-W^3*E11/16\",\n      \"line_z=0\"\n    ]\n  },\n  \"tail_cover\": {\n    \"branches\": [\n      \"A: g9=g8=0\",\n      \"B: g9=-1\"\n    ],\n    \"equations\": [\n      \"E0=32*g9*(g9+1)^2\",\n      \"E1=96*g8*(g9+1)^2\"\n    ]\n  },\n  \"wall_seconds\": 53.66287662499235\n}\n",
+        "wall_seconds": 54.33275300002424
+      },
+      {
+        "command": [
+          "/opt/homebrew/opt/python@3.14/bin/python3.14",
+          "scripts/certify_endpoint_cover_22222.py",
+          "--output",
+          "receipts/endpoint-cover-22222.json"
+        ],
+        "return_code": 0,
+        "stderr_tail": "",
+        "stdout_tail": "scope\": \"central H1T1 W!=0 unsplit line_x\",\n    \"status\": \"TIMEOUT_ROUTE_EVIDENCE_ONLY\",\n    \"timeout_seconds\": 600\n  },\n  \"equation_count\": 52,\n  \"equation_stream_sha256\": \"eaae02a9d4cbfa3e7cf10b1c81e99cf65d321a5a933f233bdb702aa9469e62c0\",\n  \"line_coordinate_sha256\": {\n    \"line_x\": \"7470cc95d600257e524d73f5654387ed96eb32faf9a538d94b003a240c31f4f5\",\n    \"line_y\": \"b6f1e39f95ff7fc599148c7487bba70aa380a9c40628dbc22ba9226830639079\",\n    \"line_z\": \"238c931aaed4f1e18726aaf1bd7d8f810a29e958bbfd7c087f38f54a87dc20fb\"\n  },\n  \"partition\": [\n    2,\n    2,\n    2,\n    2,\n    2\n  ],\n  \"radical_cover\": {\n    \"head\": [\n      \"E51=32*g0*(g0+lambda^2*mu^2)^2\",\n      \"on g0=0, E50=96*g1*lambda^4*mu^4\",\n      \"branches H0: g0=g1=0 and H1: g0=-lambda^2*mu^2\"\n    ],\n    \"tail\": [\n      \"E0=32*g9*(g9+1)^2\",\n      \"on g9=0, E1=96*g8\",\n      \"branches T0: g9=g8=0 and T1: g9=-1\"\n    ]\n  },\n  \"schema\": \"hc4-five-support-nested-endpoint-cover-22222-v1\",\n  \"status\": \"PASS\",\n  \"wall_seconds\": 212.81679650000297\n}\n",
+        "wall_seconds": 213.67523366599926
+      },
+      {
+        "command": [
+          "/opt/homebrew/opt/python@3.14/bin/python3.14",
+          "scripts/audit_cassini_staircase_generating_function.py",
+          "--output",
+          "receipts/cassini-generating-function-audit.json"
+        ],
+        "return_code": 0,
+        "stderr_tail": "",
+        "stdout_tail": "{\n  \"checks\": {\n    \"cassini_base_e2\": true,\n    \"fibonacci_tail\": true,\n    \"first_euler_tail\": true,\n    \"first_w_boundary_integral\": true,\n    \"second_euler_tail\": true,\n    \"transfer_determinant\": true\n  },\n  \"denominator\": \"-w*z**2 - z + 1\",\n  \"generating_function\": \"(-w*z**3 + w*z**2 - z**3/6 - z**2/2 + z + (-w*z**2 - z + 1)*log(-w*z**2 - z + 1))/z**2\",\n  \"generating_function_sha256\": \"aa9f767363b969d9aa384ca67309286076f4890a22c6f698b288ac9514809d54\",\n  \"independent_of_original_checker\": true,\n  \"method\": \"formal_generating_function_and_transfer_determinant\",\n  \"schema\": \"hc4-cassini-staircase-generating-function-audit-v1\",\n  \"scope\": {\n    \"cassini\": \"all integers e >= 2 by determinant induction\",\n    \"indices\": \"all integers e >= 2 by formal coefficient extraction\"\n  },\n  \"status\": \"PASS\",\n  \"wall_seconds\": 0.13435229199239984\n}\n",
+        "wall_seconds": 0.5044149589957669
+      }
+    ],
+    "row_serial_equivalent_seconds": 297.12946945795557
+  },
+  "normal_layers_receipt_sha256": "85d538a424b887234d40897cd805ae7623248059605b15e0905745bb0691da28",
+  "rows": [
+    {
+      "conclusion": "the residual-line ideal (line_x,line_y,line_z) is contained in radical(I_nor) for partition (6,1,1,1,1)",
+      "equation_count": 52,
+      "partition": [
+        6,
+        1,
+        1,
+        1,
+        1
+      ],
+      "receipt": "receipts/endpoint-radical-61111.json",
+      "receipt_sha256": "7633d57600755bf9dbddd9c66ba72889161dfc0047a28e8035ff46bcc027a9af",
+      "script": "scripts/certify_endpoint_radical_61111.py",
+      "script_sha256": "4f98b05cac2d91773ec9a18041e4285b6e990a284da2a9d1bcd8ea72ed34a830",
+      "status": "PASS",
+      "wall_seconds": 4.301213749975432
+    },
+    {
+      "conclusion": "the residual-line ideal is contained in radical(I_nor) for partition (5,2,1,1,1)",
+      "equation_count": 52,
+      "partition": [
+        5,
+        2,
+        1,
+        1,
+        1
+      ],
+      "receipt": "receipts/endpoint-radical-52111.json",
+      "receipt_sha256": "53cd07950ec7a76d6c01a16864634ad44e884505ee6940548ee55ae28a90c743",
+      "script": "scripts/certify_endpoint_radical_52111.py",
+      "script_sha256": "18ff8fd4c8afaf4d68a642b958ca5207b4b40795189f6f0fb8462cd23e723229",
+      "status": "PASS",
+      "wall_seconds": 4.740741124987835
+    },
+    {
+      "conclusion": "the residual-line ideal is contained in the radical of the normal ideal on the lambda*mu-nonzero locus",
+      "equation_count": 52,
+      "partition": [
+        4,
+        3,
+        1,
+        1,
+        1
+      ],
+      "receipt": "receipts/endpoint-cover-43111.json",
+      "receipt_sha256": "0672d379a5cccd66cd9a9222ba644a630ad83075b76b8c65bd6b5f873f3e56fe",
+      "script": "scripts/certify_endpoint_cover_43111.py",
+      "script_sha256": "05e516e9740b0aee10bb94719d46f702e39fed93e0cac8ac6d007ecb4dd72e6c",
+      "status": "PASS",
+      "wall_seconds": 5.176534916012315
+    },
+    {
+      "conclusion": "the residual-line ideal is radical-zero on the lambda*mu-nonzero locus; all exceptional branches are either empty or root collisions",
+      "equation_count": 52,
+      "partition": [
+        4,
+        2,
+        2,
+        1,
+        1
+      ],
+      "receipt": "receipts/endpoint-cover-42211.json",
+      "receipt_sha256": "4013b7a507d67836812261c4e90d2119b80e08a2dce5705fc84191491bd6b607",
+      "script": "scripts/certify_endpoint_cover_42211.py",
+      "script_sha256": "97f3d3bcaeca430d84c727f5948929cdb9e1f128a8e7caa0d9c75554e3132baa",
+      "status": "PASS",
+      "wall_seconds": 7.870740499987733
+    },
+    {
+      "conclusion": "the residual-line ideal is contained in the radical of the normal ideal on the lambda*mu-nonzero locus",
+      "equation_count": 52,
+      "partition": [
+        3,
+        3,
+        2,
+        1,
+        1
+      ],
+      "receipt": "receipts/endpoint-radical-33211.json",
+      "receipt_sha256": "cec62aa498329721d7d5c61a67ffdea92a216debbc3cd693719c7044bbf9c05a",
+      "script": "scripts/certify_endpoint_radical_33211.py",
+      "script_sha256": "af83653d83cc2b1e5b544c1a3959bed1a39f376407467393724e7588be33eaf2",
+      "status": "PASS",
+      "wall_seconds": 8.560566041996935
+    },
+    {
+      "conclusion": "the residual-line ideal is radical-zero on the normalized distinct-five-root locus for partition (3,2,2,2,1)",
+      "equation_count": 52,
+      "partition": [
+        3,
+        2,
+        2,
+        2,
+        1
+      ],
+      "receipt": "receipts/endpoint-cover-32221.json",
+      "receipt_sha256": "ce8b4b689ae3702655a80311e6cc2ada56b49c8376615829e1093fba9fb5f806",
+      "script": "scripts/certify_endpoint_cover_32221.py",
+      "script_sha256": "d17957a3df292308c134d9981b06a6c0ec79290fc17be9c81a36fd56576cf4dd",
+      "status": "PASS",
+      "wall_seconds": 53.66287662499235
+    },
+    {
+      "conclusion": "the residual-line ideal is radical-zero on the normalized distinct-five-root locus for partition (2,2,2,2,2)",
+      "equation_count": 52,
+      "partition": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "receipt": "receipts/endpoint-cover-22222.json",
+      "receipt_sha256": "69811b0534ac865c52f9a548319a54f2cd9a03b2052719d5ca967eec16f10d83",
+      "script": "scripts/certify_endpoint_cover_22222.py",
+      "script_sha256": "3da70f79e56dd74aa4f706e066c9d20f00a05399af832dda3ed4a60c9446c601",
+      "status": "PASS",
+      "wall_seconds": 212.81679650000297
+    }
+  ],
+  "schema": "hc4-five-support-consolidated-audit-v1",
+  "source": {
+    "commit": "3ed4544e8bbd9f2345c43612d1f3cf94fe279dc9",
+    "hashes": {
+      "HC4_DOUBLE_CONIC_BALANCED_FOUR_ROOT_CLOSURE.md": "0e6cac3d8ae4f4bf8e049c7d43686297ff44c6017eb0aa6ba13ed2475d0fb26d",
+      "HC4_DOUBLE_CONIC_INVARIANT_SATURATION_GATE.md": "519cecddf95ff1d8106d2680f88f687d5db1a39306a361dfcc728200711e9928",
+      "HC4_DOUBLE_CONIC_NORMAL_LAYERS.md": "2203c36bcb787a3d9620fa7110f6f3a48bd5e7769cc156100837aef6914d4ce1",
+      "scripts/verify_hc4_double_conic_balanced_four_root_closure.py": "822b56fd73e75631ea5d337499315c977f5bae938bae638596e64ee9bd16ed7e",
+      "scripts/verify_hc4_double_conic_invariant_saturation_gate.py": "03a9e5b6b0e867b54cbf3daac872d768e730f7b9290ce09ec108011f9e0e94f3",
+      "scripts/verify_hc4_double_conic_normal_layers.py": "48b78faeb4bd2a2700084d3314be7f3745dbd953368c4777f02b4d92cbcc0a07"
+    }
+  },
+  "status": "PASS"
+}

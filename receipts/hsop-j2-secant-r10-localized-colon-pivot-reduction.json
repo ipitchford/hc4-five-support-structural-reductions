@@ -1,0 +1,135 @@
+{
+  "assurance": "exact coefficient replay and symbolic identities over QQ",
+  "chart": "r=10 and M=f9*f10*u nonzero",
+  "claim_boundary": "This receipt proves coefficient reconstruction/held-out replay and the displayed QQ pivot-substitution identity and irreducibility. It does not prove M*h lies in I over QQ, describe I:M, decide the saturation, close the secant chart, or prove HC4.",
+  "held_out_validation": {
+    "all_coefficients_replay": true,
+    "characteristic": 1073741789,
+    "coefficient_mismatch_count": 0,
+    "role": "excluded from coefficient reconstruction",
+    "source_stream_sha256": "3e25681bb4870469e4168d67a6555e9b649d8b4acbd4d84f2436913273b7957b",
+    "support_matches": true,
+    "term_count": 189
+  },
+  "localized_identity": "h_after_pivots=N/u^6",
+  "orbit": "secant",
+  "pivot_audits": [
+    {
+      "denominator_u_power": 1,
+      "exact_pivot_identity_verified": true,
+      "formula": "g4=A_g4/u^1",
+      "normal_index": 10,
+      "numerator_sha256": "df192f05460cae0dbd7434f864ce2f34106537bcd178344924c8d53abf316d60",
+      "numerator_term_count": 12,
+      "numerator_total_degree": 3,
+      "pivot": "g4",
+      "removed_common_u_powers": 0,
+      "scalar_before_normalization": -16
+    },
+    {
+      "denominator_u_power": 2,
+      "exact_pivot_identity_verified": true,
+      "formula": "g5=A_g5/u^2",
+      "normal_index": 9,
+      "numerator_sha256": "c4a495025ac6a9851ec191e38772f9bd4f460f04257ad9cc197fd826b566e401",
+      "numerator_term_count": 45,
+      "numerator_total_degree": 5,
+      "pivot": "g5",
+      "removed_common_u_powers": 0,
+      "scalar_before_normalization": -16
+    },
+    {
+      "denominator_u_power": 3,
+      "exact_pivot_identity_verified": true,
+      "formula": "g7=A_g7/u^3",
+      "normal_index": 8,
+      "numerator_sha256": "06e4a1ac5bcf8ef0f9e1e30f284fb004213fce6df229abd650374daaa905da39",
+      "numerator_term_count": 150,
+      "numerator_total_degree": 7,
+      "pivot": "g7",
+      "removed_common_u_powers": 0,
+      "scalar_before_normalization": 16
+    },
+    {
+      "denominator_u_power": 4,
+      "exact_pivot_identity_verified": true,
+      "formula": "g8=A_g8/u^4",
+      "normal_index": 7,
+      "numerator_sha256": "395bff6dc003edb6a243be66cc6b138cbc224e827c27580173c5bcae7815c77e",
+      "numerator_term_count": 352,
+      "numerator_total_degree": 9,
+      "pivot": "g8",
+      "removed_common_u_powers": 0,
+      "scalar_before_normalization": 16
+    }
+  ],
+  "pivot_order": [
+    "g4",
+    "g5",
+    "g7",
+    "g8"
+  ],
+  "reconstruction": {
+    "crt_modulus": "1152922610560928777",
+    "primes": [
+      1073741827,
+      1073742851
+    ],
+    "quartic_sha256": "603b35afd9e30a8554f1c059b708cc02dca9c560b85e147d96ae5c8012220e85",
+    "quartic_term_count": 189,
+    "quartic_total_degree": 4
+  },
+  "residual": {
+    "denominator_u_power": 6,
+    "factorization_exactly_verified": true,
+    "factorization_over_QQ": "irreducible",
+    "irreducible_factor_count": 1,
+    "localized_factor_divisibility": {
+      "f10": false,
+      "f9": false,
+      "u": false
+    },
+    "monomial_content": {},
+    "numerator_sha256": "c18ec563ed3a26423914ea34ad0b972d530202614cf38d8e5c5acc76d28292ea",
+    "numerator_term_count": 3883,
+    "numerator_total_degree": 16,
+    "primitive_integer_scalar": "-1/24192",
+    "primitive_integer_sha256": "29254c63146cb67f21d3d7d3c499452514da30b2cfccbcdffb6b19bedfa80bc5",
+    "primitive_integer_term_count": 3883,
+    "primitive_integer_total_degree": 16,
+    "remaining_variable_count": 14,
+    "remaining_variables": [
+      "f3",
+      "f4",
+      "f5",
+      "f6",
+      "f7",
+      "f8",
+      "f10",
+      "g0",
+      "g1",
+      "g2",
+      "g3",
+      "g6",
+      "g9",
+      "f9"
+    ],
+    "removed_common_u_powers": 0
+  },
+  "route_decision": {
+    "materially_smaller_localized_generator": false,
+    "reason": "The 189-term quartic becomes an irreducible 3883-term degree-16 numerator after clearing the minimal u^6 denominator, and no f9, f10, u, or monomial factor can be removed on D(M).",
+    "recommended_use": "Retain h before triangular pivot substitution as a candidate colon generator; do not use its expanded localized numerator as the next saturation representation.",
+    "useful_factor_branch_split": false
+  },
+  "schema": "hc4.decimic-j2-secant-r10-localized-colon-pivots.v1",
+  "source_sha256": {
+    "receipts/hsop-j2-secant-r10-degree6-first-colon-kernel-qq-reconstruction.json": "0ab731eaf36f237605dd8b0de875f597888c62bf1c7d79254aca6bbfd9642e25",
+    "research/j2_secant_r10_colon_kernel_candidate_p1073741827.json": "1787ac75c59d553bfe64f767f739a1a0f6a4cb0f19dc18228f748476ea4292a3",
+    "research/j2_secant_r10_colon_kernel_candidate_p1073742851.json": "d57655a3efe5c949488f916a641cb98c133b88181e2a4028946bda610c1ced04",
+    "scripts/audit_j2_secant_r10_localized_colon_pivots.py": "162388ecb2298b49bbb8d68fdb326a648b2d8d68cf73eaef28d0f16424a4b86a"
+  },
+  "status": "PASS_EXACT_LOCALIZED_COLON_PIVOT_REDUCTION_NO_SPLIT",
+  "u": "5*f10*g0 + 2*f9^2",
+  "wall_seconds": 7.962002999993274
+}

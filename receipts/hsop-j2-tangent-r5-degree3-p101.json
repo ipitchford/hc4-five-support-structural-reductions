@@ -1,0 +1,19 @@
+{
+  "build_seconds": 0.41455474999384023,
+  "claim_boundary": "the target has no certificate within this multiplier-degree ansatz over the stated coefficient field; this does not rule out a higher-degree certificate",
+  "coefficient_ring": "GF(101)",
+  "column_count": 38760,
+  "identity_maximum_degree": 6,
+  "matrix_nonzero_count": 114920,
+  "multiplier_maximum_degree": 3,
+  "row_count": 8160,
+  "schema": "hc4-decimic-j2-tangent-r5-degree-bounded-membership-v1",
+  "solve_seconds": 3.78116204199614,
+  "source_sha256": {
+    "scripts/solve_j2_tangent_r5_degree6.sage.py": "0caa863c0eb769b49d027f9546615c0a5d59375a27b946d4494ccf0d5f6eff60"
+  },
+  "status": "NO_SOLUTION_AT_DEGREE_BOUND",
+  "system_file_sha256": "722570dc85e0af4b683ef9a02fe9db2955066aa8d6056244a7ec3492a7a5a5b0",
+  "system_sha256": "c02c8fa1db651983ba89468bf260eea5ce0b4862a0f516318f011649bf9064cd",
+  "wall_seconds": 4.236609749990748
+}

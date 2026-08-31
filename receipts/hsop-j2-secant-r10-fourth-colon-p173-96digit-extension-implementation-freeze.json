@@ -1,0 +1,38 @@
+{
+  "schema": "hc4.fourth-colon-p173-96digit-extension-freeze.v1",
+  "status": "FROZEN_BEFORE_P173_FOURTH_COLON_DIGIT_55",
+  "frozen_utc": "2026-08-31T19:40:55Z",
+  "files": {
+    "preregistration": {
+      "path": "research/FOURTH_COLON_P173_96DIGIT_EXTENSION_PREREGISTRATION.md",
+      "sha256": "c2d4074632be6aaa793277a4a379190cf69719445cd802625cc844ab86a43099"
+    },
+    "extension_script": {
+      "path": "scripts/extend_p173_fourth_colon_target_54_to_96digits.py",
+      "sha256": "c991d65227230730de1dae481c77b22a50fd318bc49ad02131bab40bb47f54c3"
+    },
+    "x54": {
+      "path": "artifacts/fourth-colon-p173-target-54digit-extension-v1/X_mod_173_power_54.json",
+      "sha256": "c9f07545af0c319ddb0c7be6d9355c4d9bbf7e50e699be1a6fbbc30c4cd69fa7"
+    },
+    "q54": {
+      "path": "artifacts/fourth-colon-p173-target-54digit-extension-v1/terminal_q54.i64le",
+      "sha256": "95e2fbed930bb0e8ebb8892d88c06198e49fab724fde4233042c33375ec8b0d5"
+    },
+    "p54_independent_audit": {
+      "path": "receipts/hsop-j2-secant-r10-fourth-colon-p173-54digit-extension-independent-audit.json",
+      "sha256": "aa27cca613b50c101b7f8d4e701f6ad494e6c0423e7257743b322fb0d940e2b1"
+    }
+  },
+  "policy": {
+    "start_total_digits": 54,
+    "target_total_digits": 96,
+    "new_digit_count": 42,
+    "wall_seconds_maximum": 6000,
+    "rss_bytes_maximum": 2000000000,
+    "process_swaps_required": 0,
+    "kernel_adjustment_forbidden": true,
+    "ninety_seventh_digit_forbidden": true
+  },
+  "claim_boundary": "This pre-observation freeze proves no extension, reconstruction, target membership, polynomial identity, colon equality, saturation, nullcone containment, or HC4 result."
+}

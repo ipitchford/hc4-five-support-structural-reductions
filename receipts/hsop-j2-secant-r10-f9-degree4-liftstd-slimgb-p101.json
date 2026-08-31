@@ -1,0 +1,38 @@
+{
+  "algorithm": "Singular liftstd/slimgb",
+  "assurance": "exact finite characteristic only",
+  "branch": "degree_4",
+  "calculation": {
+    "basis_size": null,
+    "child_system_seconds_immediate_scope": 1.228965,
+    "child_user_seconds_immediate_scope": 297.769828,
+    "diagnostic_error": false,
+    "forced_group_kill": false,
+    "is_unit": false,
+    "maximum_rss_native_immediate_scope": 820641792,
+    "process_group_terminated": true,
+    "resource_accounting": "wall time authoritative; CPU/RSS counters may omit delegated worker descendants",
+    "return_code": null,
+    "stderr_tail": "",
+    "stdout_tail": "",
+    "timed_out": true,
+    "unit_remainder": null,
+    "wall_seconds": 300.0211643750081
+  },
+  "characteristic": 101,
+  "chart": "f9=1 with f10!=0 and j2!=0",
+  "claim_boundary": "only a characteristic-zero passing receipt proves the degree-four branch empty; a modular transformation is a certificate-engine scout",
+  "equation_count": 22,
+  "equation_stream_sha256": "3c873d3b7c1dea78d60b00cdfefe22dc5a8323e923b20e090551be91aca478e2",
+  "orbit": "secant",
+  "schema": "hc4-decimic-j2-secant-r10-f9-liftstd-v1",
+  "singular_source_sha256": "f3396fba53f5a9ea682ca188934aa6edced47ada20733f0f77ffcafcaae74b50",
+  "source_sha256": {
+    "scripts/certify_j2_secant_r10_f9_laurent_branch.py": "0b1015b23d726c25965f010d4c04e55d95d2ef35e5bc1f913167dc9bcbc84620",
+    "scripts/certify_j2_secant_r10_f9_liftstd.py": "a92926c3828bc49c32fef1c54a6ec5851359d263f9d86938dc80c3b6db0aeb18"
+  },
+  "status": "INCOMPLETE_LIFTSTD_IDENTITY",
+  "transformation_identity_verified": false,
+  "variable_count": 21,
+  "wall_seconds": 305.52267533398117
+}

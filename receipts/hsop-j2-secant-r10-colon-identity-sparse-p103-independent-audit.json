@@ -1,0 +1,167 @@
+{
+  "assurance": "independent exact GF(103) coefficient and grading audit",
+  "characteristic": 103,
+  "checks": {
+    "all_degree_five_monomials": 26334,
+    "all_generators_homogeneous_cubics_and_character_homogeneous": true,
+    "artifact_hashes_match": {
+      "monomial_stream": true,
+      "normal_equation_stream": true,
+      "row_descriptor": true,
+      "target": true
+    },
+    "descriptor_mismatch_count": 0,
+    "duplicate_unknown_count": 0,
+    "generator_character_weights": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      0,
+      1,
+      2,
+      3,
+      7,
+      9,
+      10,
+      11,
+      0,
+      1
+    ],
+    "identity_residual_term_count": 0,
+    "identity_zero": true,
+    "malformed_record_count": 0,
+    "matrix_nonzeros": 1254205,
+    "monomial_equations": 85646,
+    "nonzero_multiplier_count": 16,
+    "producer_receipt_dimensions_match": true,
+    "quartic_matches_frozen_canonical_terms": true,
+    "quartic_term_count": 189,
+    "reconstructed_target_term_count": 362,
+    "solution_support_count": 6242,
+    "solution_unknown_indices_strictly_increasing": true,
+    "target_character": [
+      5
+    ],
+    "target_degree": [
+      8
+    ],
+    "target_terms": 362,
+    "unknown_multiplier_coordinates": 36906
+  },
+  "claim_boundary": "This audit proves the displayed M*h identity and the reported character-block dimensions only over GF(103). It does not prove a QQ identity, the full colon or saturation, closure of the secant chart, or HC4. It does not attest the omitted historical pivot sequence of the v1 producer.",
+  "deterministic_gauge_audit": {
+    "certificate_claim": "all unpivoted multiplier coordinates set to zero",
+    "conclusion": "The displayed vector and its identity are exact. A current-source v2 rerun reproduced the entire v1 sparse vector and froze a valid 34979-pivot/1927-free partition with zero support on every free coordinate. This strongly reproduces the stated deterministic gauge, but it is not a byte-for-byte replay of the unavailable historical v1 producer source.",
+    "displayed_sparse_vector_has_zero_on_all_omitted_coordinates": true,
+    "pivot_free_partition_present_in_v1_artifact": false,
+    "producer_pivot_sequence_independently_auditable_from_v1_artifact": false,
+    "v2_replication": {
+      "checks": {
+        "all_structural_hashes_match_frozen_v1": true,
+        "current_producer_source_still_matches_v2_receipt": false,
+        "displayed_support_disjoint_from_free_coordinates": true,
+        "free_count_matches_receipt": true,
+        "free_indices_sorted_unique": true,
+        "full_solution_support_matches_frozen_v1": true,
+        "pivot_count_matches_receipt": true,
+        "pivot_free_disjoint": true,
+        "pivot_free_partition_all_coordinates": true,
+        "pivot_indices_unique": true,
+        "schema_is_v2": true,
+        "v2_replay_certificate_hash_matches": true,
+        "v2_replay_passed": true,
+        "v2_replay_source_hash_matches_current": true
+      },
+      "free_coordinate_count": 1927,
+      "passed": true,
+      "pivot_count": 34979
+    }
+  },
+  "hashes": {
+    "audit_source_sha256": "5ff01a8049326624fc28d0edd87c0f4a49004daa9082c173cb1526311cafdb19",
+    "monomial_stream_sha256": "57fbd73268e88dbde5a1cfc48f112901e1394bda6f011c03da23fd9347c842ea",
+    "normal_equation_stream_sha256": "ecc10203dd30d6e2bc606d96ac129984c5039dcd5627d767d3ef1a799fccce35",
+    "row_descriptor_sha256": "26f4bc34ef8d2e668b64601e5fa112d93d765bb2fbc5dce90fa946f11692357d",
+    "target_sha256": "e450310096b637a971502481eb517e99b719b3b063205a155b7ec255676ef06e"
+  },
+  "independent_method": "two-prime CRT plus local Wang rational reconstruction; independent weak-composition enumeration; direct sparse dictionary convolution over GF(103)",
+  "inputs": {
+    "audit_v2_gauge_rerun_certificate": {
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/audit-j2-secant-r10-colon-identity-sparse-macaulay-v2-rerun-p103.json",
+      "sha256": "37cbf48677214b0b866e279e0d48c5f592b77c10ca486a60cbe74e761fd5351b"
+    },
+    "audit_v2_gauge_rerun_receipt": {
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/receipts/audit-j2-secant-r10-colon-identity-sparse-macaulay-v2-rerun-p103.json",
+      "sha256": "8174495466e4f17169e2f5a1ab0414ed89841d70f603a23bd8e0b06e521e5975"
+    },
+    "audit_v2_replay_receipt": {
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/receipts/audit-j2-secant-r10-colon-identity-sparse-macaulay-v2-replay-p103.json",
+      "sha256": "0a8a25fdf6429e29a4e5428adb0f3c41579a06a19aa7821bd777f66120f3c33b"
+    },
+    "canonical_quartic": {
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-first-colon-kernel-qq.json",
+      "sha256": "2c6b84ad400634a0f54aa54c3ebfb49b6ae3453240335713f07681fa5773d130"
+    },
+    "certificate": {
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-colon-identity-sparse-macaulay-p103.json",
+      "sha256": "0b2321e973bc910072b02dadd45cce0180e173afb34b88d82142f31f4ea6c2cc"
+    },
+    "modular_candidates": [
+      {
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/research/j2_secant_r10_colon_kernel_candidate_p1073741827.json",
+        "sha256": "1787ac75c59d553bfe64f767f739a1a0f6a4cb0f19dc18228f748476ea4292a3"
+      },
+      {
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/research/j2_secant_r10_colon_kernel_candidate_p1073742851.json",
+        "sha256": "d57655a3efe5c949488f916a641cb98c133b88181e2a4028946bda610c1ced04"
+      }
+    ],
+    "producer_receipt": {
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/receipts/hsop-j2-secant-r10-colon-identity-sparse-macaulay-p103.json",
+      "sha256": "705edfe78555c88625e04d5ff78d8eb570c4569aedc0b02f862c4c95f57a9ca3"
+    },
+    "replay_receipt": {
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/receipts/hsop-j2-secant-r10-colon-identity-sparse-macaulay-replay-p103.json",
+      "sha256": "f677425410b4e0716b9a7d1b1211838d1be777178155b2611714c287298263a5"
+    }
+  },
+  "provenance_version_audit": {
+    "artifact_schema_accepted_by_current_replay": false,
+    "current_producer_source_sha256": "3ebea7b0216fb4f9fafa9a418750c92a61e42baa541ee8e2547a37821ef0af91",
+    "current_replay_source_sha256": "7b189fb0c9ab4944006024a45c4abaaf7e9d29c3cc3a11f136637141e6249ca4",
+    "current_v2_replay_multiplier_term_count": 6242,
+    "frozen_producer_source_sha256": "fe8ab0c5a7774fe6d0d796ecebe7230348f47776df917a162a065e4e30606a1f",
+    "frozen_replay_source_sha256": "015c5c7a4e8547f33edc11c73cebb8d7fc8c25640a56098527dfb866dd2ba085",
+    "independent_multiplier_term_count": 6242,
+    "legacy_multiplier_term_count_inconsistent": true,
+    "legacy_replay_reported_multiplier_term_count": 6243,
+    "note": "The current scripts have evolved to certificate schema v2 after the frozen v1 run; the old replay receipt cannot be attributed to the current source hashes. Its 6243-term telemetry also disagrees with the 6242 unique frozen support records; the direct audit and current replay both obtain 6242.",
+    "producer_source_matches_frozen_receipt": false,
+    "replay_source_matches_frozen_receipt": false
+  },
+  "runtime": {
+    "maximum_rss_native": 141148160,
+    "system_cpu_seconds": 0.164177,
+    "user_cpu_seconds": 10.183198,
+    "wall_seconds": 10.569449375005206
+  },
+  "schema": "hc4.decimic-j2-secant-r10-colon-identity-sparse-p103-independent-audit.v1",
+  "static_implementation_review": {
+    "producer_findings": [
+      "The substitution sign is correct: x_p=b/a_p-sum(a_j/a_p)x_j.",
+      "Each pivot is eliminated from all incident active equations, preventing reuse.",
+      "Reverse pivot traversal with omitted coordinates initialized to zero implements the stated gauge.",
+      "The independent zero-residual convolution makes any solver, sign, or back-substitution error fail closed."
+    ],
+    "replay_findings": [
+      "The current v2 replay validates degree, character, partition hashes, partition coverage, and the polynomial identity.",
+      "It does not validate unknown_index against the canonical generator/exponent descriptor or recompute row/monomial stream hashes; this audit supplies both checks."
+    ],
+    "term_order_conclusion": "No Groebner term-order assumption enters the certificate: descriptor and monomial streams are lexicographically frozen and the final assertion is coefficientwise."
+  },
+  "status": "PASS_INDEPENDENT_DIRECT_COEFFICIENT_AUDIT_WITH_PROVENANCE_CAVEAT"
+}

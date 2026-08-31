@@ -1,0 +1,75 @@
+{
+  "algebra_process_count": 1,
+  "artifact": {
+    "path": "artifacts/j2-secant-r10-third-colon-identity-extended-sparse-p181-transfer-p2147482867.json",
+    "sha256": "101c4679e8c0512ccc00682107283c9add82a019476ab5a7bf9e586b41c9512f"
+  },
+  "caps": {
+    "external_wall_seconds": 90,
+    "maximum_rss_bytes": 1500000000,
+    "process_swaps": 0
+  },
+  "characteristic": 2147482867,
+  "command": "env PYTHONHASHSEED=0 /opt/homebrew/bin/timeout --signal=TERM --kill-after=5s 90s /usr/bin/time -l /Users/admin/.local/bin/sage -python scripts/certify_j2_secant_r10_third_colon_identity_sparse_macaulay.py --characteristic 2147482867 --timeout 80 --gauge-from artifacts/j2-secant-r10-third-colon-identity-extended-sparse-p181.json --certificate-output artifacts/j2-secant-r10-third-colon-identity-extended-sparse-p181-transfer-p2147482867.json --output receipts/hsop-j2-secant-r10-third-colon-identity-extended-sparse-p181-transfer-p2147482867.json",
+  "exit_code": 0,
+  "external_telemetry": {
+    "involuntary_context_switches": 9214,
+    "maximum_rss_native_bytes": 1244168192,
+    "page_faults": 4593,
+    "page_reclaims": 148233,
+    "peak_memory_footprint_bytes": 1033422240,
+    "process_swaps": 0,
+    "real_seconds": 40.61,
+    "system_cpu_seconds": 0.60,
+    "user_cpu_seconds": 39.28,
+    "voluntary_context_switches": 2655
+  },
+  "frozen_bindings": {
+    "gauge_artifact": {
+      "path": "artifacts/j2-secant-r10-third-colon-identity-extended-sparse-p181.json",
+      "sha256": "e9841fee4f75e60adef26a8b10878b35f6db48e6d0a21876b197d7cbdef2064b"
+    },
+    "preregistration": {
+      "path": "research/THIRD_COLON_KOSZUL_P197_COMMON_MINOR_NORMALIZATION_PREREGISTRATION.md",
+      "sha256": "b203a118b302c50394a0188501e32d12cc077c85fca2b1513bed770f59a112f8"
+    },
+    "producer": {
+      "path": "scripts/certify_j2_secant_r10_third_colon_identity_sparse_macaulay.py",
+      "sha256": "c0e1557c1a18d85af997e24c739d799d58c7d0b655d0662a0215f30e9b42ae74"
+    }
+  },
+  "gates": {
+    "artifact_hash_matches_producer_receipt": true,
+    "external_wall_within_cap": true,
+    "fixed_free_hash_matches_frozen_gauge": true,
+    "gauge_source_hash_matches": true,
+    "identity_replay_mismatch_count": 0,
+    "maximum_rss_within_cap": true,
+    "only_authorized_characteristic_written": true,
+    "problem_streams_match_frozen_gauge": true,
+    "process_swaps_zero": true,
+    "status_pass_exact_modular_third_colon_identity": true
+  },
+  "internal_telemetry": {
+    "block_build_seconds": 12.29603075000341,
+    "maximum_rss_native_bytes": 1244168192,
+    "replay_seconds": 0.1632008339802269,
+    "solve_seconds": 23.737233207997633,
+    "wall_seconds": 37.02803341700928
+  },
+  "problem_streams": {
+    "free_unknown_count": 2167,
+    "free_unknown_indices_sha256": "2da8418faa5f04e82a5eb6da88268f4e025279fd0dd348d8674cb89c8d0cf8d1",
+    "generator_stream_sha256": "4e5ca7f6ed60548f84d6a84a4fa272c044b76be4ab3788b091376bf54f9ada4b",
+    "monomial_stream_sha256": "153dd5ae53908e06fa5b4722c88cdffd823d5705a9a6ab1e8ca6f5f070665614",
+    "row_descriptor_sha256": "0f0e46bb94241fa478c6cbdcf33c4472128ad4ed48a8fdaebd88e19028948639",
+    "target_sha256": "32e84450b525fce0c9fca7d263e6d73a2b9508811fa4bd7e473002a08ab2c84e"
+  },
+  "producer_receipt": {
+    "path": "receipts/hsop-j2-secant-r10-third-colon-identity-extended-sparse-p181-transfer-p2147482867.json",
+    "sha256": "fb306ea450ffa84942ae7cc6a231c5c680664cdd6f6933f78e5369022d808277"
+  },
+  "recorded_at_utc": "2026-08-31T05:12:07Z",
+  "schema": "hc4.decimic-j2-secant-r10-third-colon-fixed-free-transfer-telemetry.v1",
+  "status": "PASS_RESOURCE_GATED_FIXED_FREE_IDENTITY_TRANSFER"
+}

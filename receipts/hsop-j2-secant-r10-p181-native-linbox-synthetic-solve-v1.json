@@ -1,0 +1,17 @@
+{
+  "error": "PermissionError: [Errno 1] Operation not permitted: '/bin/ps'",
+  "implementation_freeze": {
+    "path": "receipts/hsop-j2-secant-r10-p181-native-linbox-synthetic-solve-implementation-freeze.json",
+    "sha256": "e76567b9490fe10d2418416d94e560f85048ae791759698be0d935579bdb5c42"
+  },
+  "retained_staging": {
+    "artifacts/staging/p181-native-linbox-synthetic-solve-20260831T001": {},
+    "artifacts/staging/p181-native-linbox-synthetic-solve-telemetry-20260831T001": {
+      "benchmark.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "benchmark.stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "benchmark.time.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "schema": "hc4.decimic-j2-secant-r10-p181-native-linbox-synthetic-solve.v1",
+  "status": "FAIL_ACTUAL_COEFFICIENT_NATIVE_LINBOX_SYNTHETIC_SOLVE_INTEGRITY"
+}

@@ -1,0 +1,56 @@
+{
+  "bound_hashes": {
+    "digit_one": "0ab13cd9cd70cd424af089176d86007c224b101db47bd6fac83960e8ce941fb8",
+    "digit_zero": "51c818f61ab52abacb62deedd1abe336d99646d9b52f28384491af5694aa5e38",
+    "exact_system": "94dc88f592c4a41630ae51f04fffe8f6b64d696dace5a14e49e46392d159be3e",
+    "integral_receipt": "aad83c9bc76d8bd062c97434ce074bb9205e222d2c5f64409ec412b964a634b9",
+    "lift_receipt": "e37eb0adcf9516e6e9ffb9bf15d190b95d538237fbd6d5e8e2ca7a77835e7770",
+    "terminal": "906658091abd421c8e706a613d8a5803c400c3efd66cc4a2218a689805edd3ab",
+    "x2": "afa8fe484bc8a5bbb6c97b506b5678dc7e3179e5aeb8fb105a89d37efd81711c"
+  },
+  "claim_boundary": "This PASS independently certifies only the exact integer normalization and finite p^2 replay for four fixed canonical residual columns. It proves no QQ lift, colon, saturation, secant closure, nullcone containment, or HC4 theorem.",
+  "declarations": {
+    "builder_not_imported_or_executed": true,
+    "exact_primitive_rows_rebuilt": true,
+    "lifter_not_imported_or_executed": true,
+    "no_third_digit": true,
+    "producer_not_imported_or_executed": true
+  },
+  "exact_source_reconstruction": {
+    "coefficient_row_mismatch_count": 0,
+    "exact_nonzero_count": 1354540,
+    "rhs_row_mismatch_count": 0,
+    "row_count": 85651
+  },
+  "p_adic_replay": {
+    "correction_rhs_byte_comparisons": 9764214,
+    "correction_rhs_byte_mismatch_count": 0,
+    "digit_one_divisibility_mismatch_count": 0,
+    "digit_one_support": [
+      134,
+      192,
+      192,
+      190
+    ],
+    "digit_zero_support": [
+      135,
+      193,
+      193,
+      193
+    ],
+    "direct_p2_invariant_mismatch_count": 0,
+    "two_digit_support": [
+      135,
+      193,
+      193,
+      193
+    ]
+  },
+  "resources": {
+    "maximum_rss_bytes": 306020352,
+    "process_swaps": 0,
+    "wall_seconds": 12.707094417011831
+  },
+  "schema": "hc4.third-colon-p181-sparse4-two-digit-lift-independent-audit.v1",
+  "status": "PASS_INDEPENDENT_P181_SPARSE4_TWO_DIGIT_LIFT_REPLAY"
+}

@@ -1,0 +1,22 @@
+{
+  "error": "ValueError: native driver emitted ambiguous stdout",
+  "implementation_freeze": {
+    "path": "receipts/hsop-j2-secant-r10-p181-native-linbox-synthetic-solve-implementation-freeze-v2.json",
+    "sha256": "41b0504ebf77bf9bf7d0c39e8cd61c7312d48c9d2d60dfbfd72ce70240bf4742"
+  },
+  "retained_staging": {
+    "artifacts/staging/p181-native-linbox-synthetic-solve-v2-20260831T002": {},
+    "artifacts/staging/p181-native-linbox-synthetic-solve-v2-telemetry-20260831T002": {
+      "benchmark.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "benchmark.stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "benchmark.time.txt": "84f0951d9d0f65bc5c16a0011d9ca317bb6cdb6cf12754906ae811a1d63ccf46"
+    }
+  },
+  "schema": "hc4.decimic-j2-secant-r10-p181-native-linbox-synthetic-solve.v2",
+  "status": "FAIL_ACTUAL_COEFFICIENT_NATIVE_LINBOX_SYNTHETIC_SOLVE_INTEGRITY",
+  "supersedes_only_as_experiment": {
+    "path": "receipts/hsop-j2-secant-r10-p181-native-linbox-synthetic-solve-v1.json",
+    "sha256": "575fe96b1e176ff02f927a279908d55152f5a1868a5d154e6fd86c9459318581",
+    "status": "FAIL_ACTUAL_COEFFICIENT_NATIVE_LINBOX_SYNTHETIC_SOLVE_INTEGRITY"
+  }
+}

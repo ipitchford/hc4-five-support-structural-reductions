@@ -1,0 +1,32 @@
+{
+  "schema": "decimic-nullcone-coincident-root-locus-profile-v1",
+  "status": "PASS_EXACT_NULLCONE_IDEAL_PROFILE",
+  "date": "2026-08-30",
+  "field": "QQ",
+  "partition": [6, 1, 1, 1, 1],
+  "ambient_projective_dimension": 10,
+  "projective_dimension": 5,
+  "codimension": 5,
+  "degree": 30,
+  "minimal_generator_count": 31,
+  "minimal_generator_degree_counts": {
+    "2": 1,
+    "3": 10,
+    "4": 20
+  },
+  "software": {
+    "Macaulay2": "1.26.06",
+    "homebrew_formula": "macaulay2/tap/macaulay2 1.26.06_1",
+    "packages": ["CoincidentRootLoci"]
+  },
+  "command": "/usr/bin/time -lp M2 --stop --no-readline --silent scripts/probe_decimic_nullcone_crl.m2",
+  "wall_seconds": 77.54,
+  "user_cpu_seconds": 100.38,
+  "system_cpu_seconds": 1.90,
+  "maximum_resident_set_size_bytes": 885260288,
+  "peak_memory_footprint_bytes": 870220928,
+  "source_sha256": {
+    "scripts/probe_decimic_nullcone_crl.m2": "08629ed57e87b303a88d0c1db863c20a0f293aab84dbadaf325c4cdc854764b1"
+  },
+  "claim_boundary": "This exact replay constructs and profiles the defining ideal of the binary-decimic multiplicity-at-least-six locus. It does not show that the clean normal-layer locus is contained in it and does not prove HC4."
+}

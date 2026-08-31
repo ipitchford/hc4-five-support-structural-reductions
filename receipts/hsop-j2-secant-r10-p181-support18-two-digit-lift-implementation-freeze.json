@@ -1,0 +1,42 @@
+{
+  "schema": "hc4.third-colon-p181-support18-two-digit-lift-implementation-freeze.v1",
+  "status": "PASS_P181_SUPPORT18_TWO_DIGIT_LIFT_IMPLEMENTATION_FREEZE",
+  "bound_files": {
+    "research/THIRD_COLON_P181_SUPPORT18_TWO_DIGIT_LIFT_PREREGISTRATION.md": "8c56228652d9b10d2e9121fafd11d2b3cbd650782d20e67707e54e66292e6c8c",
+    "scripts/build_p181_support18_coefficient_integral_system.py": "efa55c2b281ca79e895b1273a7e98b5526c90dd4624b6af4346578aee0734837",
+    "scripts/lift_p181_support18_to_two_digits.py": "d1115c3671ab3bdb655e9740954363f3d736af73606d006e5354dfdb1e88aa8b",
+    "scripts/produce_p181_support18_two_digit_lift.py": "eeb0fc54ac17e2192f20cd654e75b46351b52be96292769f7c61177516fdc5e2",
+    "scripts/run_p181_support18_two_digit_lift_gated.py": "cbd03b3f8b2415de87e416d7caccbc62126b907df7ed199f36305eef82a3265b",
+    "scripts/build_p181_sparse4_coefficient_integral_system.py": "7cd907246d4fbf3356384fd459033eabae86150c7084626a8dfb682e3738fbeb",
+    "scripts/lift_p181_sparse4_to_two_digits.py": "c4c0fa3442bbd94181f60311820eef3ac14ae285f28ea7d730d1cf8e87acda65",
+    "scripts/run_p181_target_blind_linbox_rank_gated.py": "a282b31bca01c972ff5d294b64ddca103d2ea6c1c6bab8f6f12ddc7b800b83de",
+    "scripts/audit_p181_canonical_residual_114_section_independent.py": "55ef0495aa86872e500b3c7cc1c0d0573ba5a4c7db34ce71b2cfd4e3ced1ce17",
+    "scripts/fixed_p181_dixon_rr.py": "df4af8404cbc151d73fe82aeeb588541e412063d2fcdb2969933e40e21c5329c",
+    "receipts/hsop-j2-secant-r10-p181-canonical-residual-114-section-independent-audit.json": "567edfd6686410f060cfe624f3f5eadaf486505a9ecc31c767e74cbf5145cc95",
+    "artifacts/third-colon-p181-canonical-residual-114-section-v1/pivot_section_row_major.u8": "82db902a065b721deb146ed12655be2c00c7f1523be58218a7278e30cb3be997",
+    "artifacts/third-colon-p181-source-clean-integral-lift-system-v1/A_Z_mod181_fixed_gauge.csr": "eb419a8348852cb784f308ebd32eef682c731bafe77533e3b37ff5241b2228cc",
+    "artifacts/third-colon-p181-target-blind-linbox-gauge-v2/C_piv.u32le": "3a4087b184540be80852650b26aecaddd561a2a866599e660d9359b3415dfed2",
+    "artifacts/j2-secant-r10-third-colon-residual-114-quotient-chart.json": "7ad12483dd5c8429defc3e0c5c8138ded3d344969075ae4afdb15d39d2fb9a74",
+    "artifacts/bin/linbox_p181_canonical_residual_114_section_driver": "dd8ae1bb0a7a659f38cbcd1ee1e220dd5a43a6e9454a4531d06649159d41c0c6"
+  },
+  "selection": {
+    "residual_local_indices": [95, 59, 56, 1, 58, 30, 15, 74, 112, 57, 109, 78, 47, 91, 104, 81, 10, 13],
+    "full_modular_support_counts": [270, 454, 477, 614, 666, 1156, 1632, 1780, 1873, 2630, 2639, 2820, 3001, 3460, 3627, 4335, 4689, 4929],
+    "ordering": "increasing (support,index) after removing exact rational indices 43,35,46,48"
+  },
+  "policy": {
+    "wall_seconds_maximum": 600,
+    "rss_bytes_maximum": 3221225472,
+    "process_swaps_maximum": 0,
+    "total_digits": 2,
+    "active_rhs_count": 18,
+    "padded_rhs_count": 114,
+    "automatic_third_digit": false
+  },
+  "canonical_outputs": {
+    "artifact": "artifacts/third-colon-p181-support18-two-digit-lift-v1",
+    "telemetry": "receipts/telemetry/third-colon-p181-support18-two-digit-lift-v1",
+    "terminal": "receipts/hsop-j2-secant-r10-p181-support18-two-digit-lift-terminal.json"
+  },
+  "claim_boundary": "This freeze authorizes one p181 correction for 18 fixed source-kernel directions. It does not authorize a third digit or prove a QQ target identity, colon, saturation, secant closure, nullcone containment, or HC4."
+}

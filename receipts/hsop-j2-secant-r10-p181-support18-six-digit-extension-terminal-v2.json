@@ -1,0 +1,54 @@
+{
+  "claim_boundary": "A PASS recovers only the finite p6 lift for 18 fixed source-kernel directions; it is not a rational or target-membership result.",
+  "implementation_freeze": {
+    "path": "receipts/hsop-j2-secant-r10-p181-support18-six-digit-recovery-implementation-freeze-v2.json",
+    "sha256": "95cf99fc401b0e0f5ebad757576e718e5a1688b260e91d0d6cf3128587ae858c"
+  },
+  "promoted": {
+    "artifact": {
+      "X_mod_181_power_6_support18_row_major.u64le": "f0d417dc9bba23a44106a6cec861b19058687a870a1fc7ec300f09d0756ea58c",
+      "recovery.json": "2759d15b7538fd5646ede61d47f64179a0cb4ab5fa10fd627b110a58404a49f8",
+      "terminal_q6_support18_row_major.i64le": "9164f94865495eee48239f7a1b9d40b890cfd38f168dc5f5c8d188ad23b6dc46"
+    },
+    "telemetry": {
+      "benchmark.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "benchmark.stdout.txt": "32cb8d5637bafb1fed57b76c96e22947bd6cd14b2247e6e3d8b46db6eb7fdc04",
+      "benchmark.time.txt": "b2a8d2eddf7cf7f7aa5168c8c1494fdeab386774c108e6bf6ea898a82f598d98"
+    }
+  },
+  "schema": "hc4.third-colon-p181-support18-six-digit-recovery-terminal.v2",
+  "status": "PASS_P181_SUPPORT18_SIX_DIGIT_LIFT_RECOVERED_V2",
+  "telemetry": {
+    "ancestry_samples": 7,
+    "command": [
+      "/usr/bin/time",
+      "-l",
+      "-o",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-support18-six-digit-recovery-telemetry-20260831T005/benchmark.time.txt",
+      "/opt/homebrew/bin/gtimeout",
+      "-s",
+      "TERM",
+      "-k",
+      "10s",
+      "300s",
+      "/Users/admin/.local/bin/sage",
+      "-python",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/scripts/recover_p181_support18_six_digit_extension_v2.py",
+      "--output-dir",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-support18-six-digit-recovery-20260831T005"
+    ],
+    "external_time": {
+      "maximum_rss_bytes": 251953152,
+      "process_swaps": 0,
+      "raw_sha256": "b2a8d2eddf7cf7f7aa5168c8c1494fdeab386774c108e6bf6ea898a82f598d98",
+      "real_seconds": 1.85,
+      "system_seconds": 0.14,
+      "user_seconds": 1.15
+    },
+    "return_code": 0,
+    "rss_breach_killed": false,
+    "sampled_descendant_rss_peak_bytes": 253198336,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "32cb8d5637bafb1fed57b76c96e22947bd6cd14b2247e6e3d8b46db6eb7fdc04"
+  }
+}

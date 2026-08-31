@@ -1,0 +1,66 @@
+{
+  "claim_boundary": "A finite p4 PASS concerns four fixed residual columns only; no general QQ, colon, saturation, secant, nullcone, or HC4 conclusion follows.",
+  "extension_status": "PASS_P181_SPARSE4_FOUR_DIGIT_LIFT",
+  "implementation_freeze": {
+    "path": "receipts/hsop-j2-secant-r10-p181-sparse4-four-digit-extension-implementation-freeze.json",
+    "sha256": "8ac13e5bb7b69bf6393788fc3590351209acac792a9a5b8be69a51b16c03d390"
+  },
+  "promoted": {
+    "artifact": {
+      "X_mod_181_power_4_sparse4_row_major.u32le": "623c565eec43c55e44b2fd13cafd4dd13f8be832ba99159d6921bf2ec99744fd",
+      "correction_rhs_digit_02_padded114.u8": "638372e75292d8ae412e5500d84e0e244918becf2123f0b0de339e537c375f9a",
+      "correction_rhs_digit_03_padded114.u8": "5ceea6866f88e750a95892a25520572d76563411017fcef38bca7a011215b3fa",
+      "digit_02.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "digit_02.stdout.txt": "e979e92ef9854dbd196d8b6f43501f3419e00984741f3ca1e2c04f7a30a0f917",
+      "digit_02_padded114.u8": "54cacc07f835c2e395dfef8ccfa8bf5c57d3a9daa6fd5f43d66a7da695cb8fd6",
+      "digit_02_sparse4_row_major.u8": "367a98d0bbbaf7f5fd2692688f0e49804f35646418e53e1b2c62f8ac607a6214",
+      "digit_03.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "digit_03.stdout.txt": "9839cb4f0f8eeb3d846dda7be9ba1cdebd79299c4140a074f0076f35ffe8673b",
+      "digit_03_padded114.u8": "752f2eb4c4e05fb3d7519bbb664172fe9336732966e023430e06557126780d32",
+      "digit_03_sparse4_row_major.u8": "924f785f6b653db96ce1486adb3b72abefd9660dcf6de54495fd965933bedb41",
+      "extension.json": "64b889943b33d015c8c0403b11187ca801591d53e8c03de4f1811f5938e21b4a",
+      "rr_labels_total_digits_03.u8": "ddea534f08289d73a84ee2d1b7f505b757d0120b08ef7b7b01225df18072c331",
+      "rr_labels_total_digits_04.u8": "ddea534f08289d73a84ee2d1b7f505b757d0120b08ef7b7b01225df18072c331"
+    },
+    "telemetry": {
+      "benchmark.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "benchmark.stdout.txt": "12bb1ccd4b4a8f3863389afa0ab09371d150de377207051a8e47954d5ddb3e4c",
+      "benchmark.time.txt": "e437dac70dea1dde81409c55bbfebfc39a3ceb063a2dd92e8dc2a5b5b3962f70"
+    }
+  },
+  "schema": "hc4.third-colon-p181-sparse4-four-digit-extension-terminal.v1",
+  "status": "PASS_P181_SPARSE4_FOUR_DIGIT_LIFT",
+  "telemetry": {
+    "ancestry_samples": 429,
+    "command": [
+      "/usr/bin/time",
+      "-l",
+      "-o",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-sparse4-four-digit-telemetry-20260831T003/benchmark.time.txt",
+      "/opt/homebrew/bin/gtimeout",
+      "-s",
+      "TERM",
+      "-k",
+      "10s",
+      "600s",
+      "/Users/admin/.local/bin/sage",
+      "-python",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/scripts/extend_p181_sparse4_to_four_digits.py",
+      "--output-dir",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-sparse4-four-digit-20260831T003"
+    ],
+    "external_time": {
+      "maximum_rss_bytes": 150519808,
+      "process_swaps": 0,
+      "raw_sha256": "e437dac70dea1dde81409c55bbfebfc39a3ceb063a2dd92e8dc2a5b5b3962f70",
+      "real_seconds": 124.12,
+      "system_seconds": 1.35,
+      "user_seconds": 117.12
+    },
+    "return_code": 0,
+    "rss_breach_killed": false,
+    "sampled_descendant_rss_peak_bytes": 248725504,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "12bb1ccd4b4a8f3863389afa0ab09371d150de377207051a8e47954d5ddb3e4c"
+  }
+}

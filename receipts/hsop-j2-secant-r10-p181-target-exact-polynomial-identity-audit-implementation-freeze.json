@@ -1,0 +1,44 @@
+{
+  "schema": "hc4.third-colon-p181-target-exact-polynomial-identity-audit-freeze.v1",
+  "status": "PASS_P181_TARGET_EXACT_POLYNOMIAL_IDENTITY_AUDIT_FREEZE",
+  "frozen_at_utc": "2026-08-31T17:11:10Z",
+  "bound_files": {
+    "research/THIRD_COLON_P181_TARGET_EXACT_POLYNOMIAL_AUDIT_PREREGISTRATION.md": "8d754b3f8b1475d6b2a9345cb35b4d7411bc3d047c4b2fc60c39e228c2d31a42",
+    "scripts/audit_p181_target_exact_polynomial_identity.py": "2bfc97f701ed9f13938e371897ea7a2058bcb69ff9d692ba1aadd47b44f6d0a1",
+    "scripts/certify_j2_secant_r10_colon_identity_liftstd.py": "e946e9e4b5ad1f7e7b62b688c03502f4331c463cd691e66b4f207d4b2b96f34c",
+    "scripts/certify_j2_secant_r10_second_colon_identity_sparse_macaulay.py": "ea20fb8719bb583c424f0cc4e2730b46c7f38e130558fa7e6d2422865fb1af6b",
+    "scripts/certify_j2_secant_r10_third_colon_identity_sparse_macaulay.py": "c0e1557c1a18d85af997e24c739d799d58c7d0b655d0662a0215f30e9b42ae74",
+    "scripts/certify_j2_secant_r10_z12_macaulay.py": "fd49512f605cb257d62aea850fe795d61db04ca23df9504910f157cfe1436d26",
+    "scripts/scout_decimic_nullcone_hsop.py": "b07062cc86c2f5adf40a0d236648871b54c6ace1403886b51670ed539c425061",
+    "scripts/scout_j2_secant_r10_homogeneous_saturation.py": "8ba0c949784491272323cf2b411b0055c7d81d810513faa5428ed90fe1293a14",
+    "scripts/certify_j2_secant_r10_f9_laurent_branch.py": "0b1015b23d726c25965f010d4c04e55d95d2ef35e5bc1f913167dc9bcbc84620",
+    "scripts/scout_five_support.py": "7cf355d48fc5555d7df4364dffadcc651f96256dc4dce1fe8193a93edb67970c",
+    "research/j2_secant_r10_colon_kernel_candidate_p1073741827.json": "1787ac75c59d553bfe64f767f739a1a0f6a4cb0f19dc18228f748476ea4292a3",
+    "research/j2_secant_r10_colon_kernel_candidate_p1073742851.json": "d57655a3efe5c949488f916a641cb98c133b88181e2a4028946bda610c1ced04",
+    "artifacts/j2-secant-r10-second-colon-kernel-qq-candidate.json": "c41e7c02e7163a0f1a2e71cd7fd5f0d38167b37f3f832019fa069c0ffd2bf37e",
+    "artifacts/j2-secant-r10-third-colon-kernel-qq-candidate.json": "b7f37502a3b4a11739fe4e1e47746af68b2a8cc66cb18302bfe729927ed65b97",
+    "artifacts/third-colon-p181-target-exact-rational-replay-v1/primitive_common_denominator_vector.json": "a83e144d7b383ee9202bd34ac991d1d4d2fe1f70482927b997ebf23c6c5d878d",
+    "receipts/hsop-j2-secant-r10-p181-target-exact-rational-independent-audit.json": "60b1a5d2e369d6df9dfaed01609bff50ba7b677404f726e8d3d1f47da9b9ac14",
+    "artifacts/third-colon-p181-target-blind-linbox-gauge-v2/C_piv.u32le": "3a4087b184540be80852650b26aecaddd561a2a866599e660d9359b3415dfed2"
+  },
+  "expected_algebra_hashes": {
+    "row_descriptor_sha256": "0f0e46bb94241fa478c6cbdcf33c4472128ad4ed48a8fdaebd88e19028948639",
+    "monomial_stream_sha256": "153dd5ae53908e06fa5b4722c88cdffd823d5705a9a6ab1e8ca6f5f070665614",
+    "generator_stream_sha256": "4e5ca7f6ed60548f84d6a84a4fa272c044b76be4ab3788b091376bf54f9ada4b",
+    "target_sha256": "32e84450b525fce0c9fca7d263e6d73a2b9508811fa4bd7e473002a08ab2c84e"
+  },
+  "policy": {
+    "wall_seconds_maximum": 600,
+    "rss_bytes_maximum": 2000000000,
+    "process_swaps_required": 0,
+    "integral_target_system_forbidden": true,
+    "integral_system_producer_import_forbidden": true,
+    "solver_forbidden": true,
+    "p_adic_lifter_forbidden": true
+  },
+  "canonical_outputs": {
+    "artifact": "artifacts/third-colon-p181-target-exact-polynomial-identity-audit-v1",
+    "receipt": "receipts/hsop-j2-secant-r10-p181-target-exact-polynomial-identity-audit.json"
+  },
+  "claim_boundary": "A PASS independently proves the displayed third-colon target polynomial identity over QQ for the frozen chart. It does not by itself prove a colon-ideal equality, saturation, global secant closure, nullcone containment, or HC4."
+}

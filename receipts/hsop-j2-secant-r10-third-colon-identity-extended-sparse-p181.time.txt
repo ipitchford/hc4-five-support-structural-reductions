@@ -1,0 +1,34 @@
+Command:
+/usr/bin/time -l /opt/homebrew/bin/gtimeout -s TERM -k 10s 600s /Users/admin/.local/bin/sage -python scripts/certify_j2_secant_r10_third_colon_identity_sparse_macaulay.py --characteristic 181 --timeout 599 --sparse-phase 450 --output receipts/hsop-j2-secant-r10-third-colon-identity-extended-sparse-p181.json --certificate-output artifacts/j2-secant-r10-third-colon-identity-extended-sparse-p181.json
+
+Exit status: 0
+External telemetry:
+301.05 real
+293.10 user
+3.59 sys
+2600370176 maximum resident set size
+488691 page reclaims
+4965 page faults
+0 swaps
+0 block input operations
+0 block output operations
+1 signals received
+2871 voluntary context switches
+374875 involuntary context switches
+15853021 instructions retired
+6547128 cycles elapsed
+1081632 peak memory footprint
+
+Internal result cross-reference:
+receipt sha256 f04bc461e8b15c012c229d1de13eb940316bad35914f12a34ab3fc112b29f14c
+artifact sha256 e9841fee4f75e60adef26a8b10878b35f6db48e6d0a21876b197d7cbdef2064b
+status PASS_EXACT_MODULAR_THIRD_COLON_IDENTITY
+sparse pivots 35881
+free coordinates 2167
+hybrid dense handoff null
+same-process coefficientwise replay mismatch count 0
+
+Claim boundary:
+This file records process telemetry only. The paired PASS proves the displayed
+M*h3 membership identity over GF(181) in the frozen gauge. It is not a QQ,
+colon, saturation, secant-closure, nullcone, or HC4 certificate.

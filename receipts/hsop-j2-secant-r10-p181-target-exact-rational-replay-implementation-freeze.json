@@ -1,0 +1,36 @@
+{
+  "schema": "hc4.third-colon-p181-target-exact-rational-replay-freeze.v1",
+  "status": "PASS_P181_TARGET_EXACT_RATIONAL_REPLAY_FREEZE",
+  "frozen_at_utc": "2026-08-31T17:01:09Z",
+  "bound_files": {
+    "research/THIRD_COLON_P181_TARGET_EXACT_RATIONAL_REPLAY_PREREGISTRATION.md": "1d20a4ad710394e5cbb2885f0a23cbafa158d44f3a4416d2f48ae90e399a6f9e",
+    "scripts/reconstruct_p181_target_exact_rational.py": "2086b9169f3969a25e56c4b72f90e82a4e1d021b0f5bce2d24408d3e3cf38e31",
+    "scripts/run_p181_target_exact_rational_replay_gated.py": "2955bb852ffb2461ae230d7ee61bc34ee64069b6eb2ad7d24a428f7166b17a0e",
+    "scripts/run_p181_target_blind_linbox_rank_gated.py": "a282b31bca01c972ff5d294b64ddca103d2ea6c1c6bab8f6f12ddc7b800b83de",
+    "artifacts/third-colon-p181-source-clean-integral-lift-system-v1/A_Z_b_Z_fixed_gauge.i64csr": "5064cfea27bc16ad9977d651f6215b407e2e3865df3dfc65ad15213b27d5ab8d",
+    "artifacts/third-colon-p181-target-54digit-extension-v1/X_mod_181_power_54.json": "5e8663474d2f9a7d9ce2c797c1cfa345bc761faa1fa77b5767b4c1da0a96df7e",
+    "receipts/hsop-j2-secant-r10-p181-target-54digit-extension-independent-audit.json": "587806d14b8963091729272afbb732f655b94d4a50fa0b363784b4bf6afd7190",
+    "receipts/hsop-j2-secant-r10-p181-integral-lift-system-independent-audit.json": "5704d3aa864dce04f3f121779634d93eaff5f5ed528b66149249f95ab51fa044"
+  },
+  "selection": {
+    "prime": 181,
+    "digits": 54,
+    "coordinate_count": 35881,
+    "row_count": 85651,
+    "gauge": "fixed_main"
+  },
+  "policy": {
+    "wall_seconds_maximum": 300,
+    "rss_bytes_maximum": 1500000000,
+    "process_swaps_required": 0,
+    "new_p_adic_digit_forbidden": true,
+    "kernel_adjustment_forbidden": true,
+    "denominator_model_forbidden": true
+  },
+  "canonical_outputs": {
+    "artifact": "artifacts/third-colon-p181-target-exact-rational-replay-v1",
+    "telemetry": "receipts/telemetry/third-colon-p181-target-exact-rational-replay-v1",
+    "terminal": "receipts/hsop-j2-secant-r10-p181-target-exact-rational-replay-terminal.json"
+  },
+  "claim_boundary": "A PASS proves exact rational membership in the frozen source-clean fixed-main coefficient system. Independent certificate and source-to-polynomial audits remain separate; no saturation, secant, nullcone, or HC4 theorem follows."
+}

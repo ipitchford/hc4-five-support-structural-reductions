@@ -1,0 +1,24 @@
+{
+  "claim_boundary": "This PASS verifies only the append-only failure-stream magic clarification before implementation. It computes no algebra, Dixon digit, p-adic or QQ identity, colon, saturation, secant closure, nullcone containment, or HC4 result.",
+  "document_hashes": {
+    "research/THIRD_COLON_FIXED_P181_ZERO_FREE_DIXON_8DIGIT_PREREGISTRATION.md": "dcba29bf2b3396fcbfd2999aad09a363c2fc852e4fb04c142cb1e1636c5ad6cc",
+    "research/THIRD_COLON_FIXED_P181_ZERO_FREE_DIXON_8DIGIT_PREREGISTRATION_AMENDMENT_01.md": "5bff2bd3844744f854c2757aee4b8bf09d227ae487ba1b43f55682a009f5d08c",
+    "research/THIRD_COLON_FIXED_P181_ZERO_FREE_DIXON_8DIGIT_PREREGISTRATION_AMENDMENT_02.md": "dd07f5e0e6ca139383905bedae9b382304bcf2cf52ce74d0c496e30e32dc5def"
+  },
+  "failure_magic_ascii": "HC4FAIL1",
+  "failure_magic_byte_count": 8,
+  "pass_failure_stream_byte_count": 12,
+  "pass_failure_stream_hex": "4843344641494c3100000000",
+  "prospective_paths_checked": [
+    "receipts/hsop-j2-secant-r10-third-colon-dixon-p181-implementation-freeze-v1.json",
+    "artifacts/j2-secant-r10-third-colon-dixon-p181-phase1-bundle-v1",
+    "receipts/hsop-j2-secant-r10-third-colon-dixon-p181-factorization-freeze-v1.json"
+  ],
+  "prospective_paths_existing": [],
+  "schema": "hc4.decimic-j2-secant-r10-third-colon-dixon-p181-preregistration-amendment-02-audit.v1",
+  "source": {
+    "path": "scripts/audit_fixed_p181_dixon_preregistration_amendment_02.py",
+    "sha256": "8d817213e9d081ffd5e948f48bf1e7f59d510a113414fe4e78e1fd424b422f9c"
+  },
+  "status": "PASS_PREIMPLEMENTATION_AMENDMENT_02_AUDIT"
+}

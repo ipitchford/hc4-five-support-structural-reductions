@@ -1,0 +1,132 @@
+{
+  "algorithm": "degree-eight character-five supported Macaulay block; deterministic sparse Gaussian elimination; free coordinates zero",
+  "assurance": "exact finite-field polynomial identity only",
+  "certificate": {
+    "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-colon-identity-sparse-macaulay-p2147483563-fixed-free-p103-gauge-v2.json",
+    "sha256": "0ef4a13bcfdc02743a764531aca7cc3f66dc7c67562e407a9483f85a74ebdc8a"
+  },
+  "characteristic": 2147483563,
+  "claim_boundary": "A PASS proves only M*h in (F_1,...,F_17) over the displayed finite field. It does not prove the reconstructed QQ identity, determine the full colon or saturation, close the secant chart, or establish HC4.",
+  "dimensions": {
+    "matrix_nonzeros": 1254205,
+    "monomial_equations": 85646,
+    "target_terms": 362,
+    "unknown_multiplier_coordinates": 36906
+  },
+  "gauge_profile": {
+    "coefficient_dependent": true,
+    "free_unknown_count": 1927,
+    "free_unknown_indices_sha256": "d751886b0fbd0acd571623f340e10ed08ee7794ac4755ea1465969a3fcd88383",
+    "gauge_coverage_verified": true,
+    "gauge_source": {
+      "characteristic": 103,
+      "free_unknown_count": 1927,
+      "free_unknown_indices_sha256": "d751886b0fbd0acd571623f340e10ed08ee7794ac4755ea1465969a3fcd88383",
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-colon-identity-sparse-macaulay-p103-gauge-v2.json",
+      "pivot_count": 34979,
+      "pivot_unknown_indices_sha256": "2c265d0435b24fbdeb92ad7ae22ec15489e2ed3461f046bd34ea8f45416599b2",
+      "policy": "free-set",
+      "removed_free_column_nonzeros": 83153,
+      "sha256": "37cbf48677214b0b866e279e0d48c5f592b77c10ca486a60cbe74e761fd5351b"
+    },
+    "pivot_coordinate_vector_sha256": "fb7870658ea0645b3dad88c36e26bc64a7764ed30f00e90f179494c642c859ef",
+    "pivot_count": 34979,
+    "pivot_unknown_indices_sha256": "de100fa4b0d95f7febf836b0eedea6debe0e7a1a9698e81cb46e225ae5c29a2b"
+  },
+  "generator_character_weights": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    0,
+    1,
+    2,
+    3,
+    7,
+    9,
+    10,
+    11,
+    0,
+    1
+  ],
+  "hashes": {
+    "monomial_stream_sha256": "57fbd73268e88dbde5a1cfc48f112901e1394bda6f011c03da23fd9347c842ea",
+    "normal_equation_stream_sha256": "ecc10203dd30d6e2bc606d96ac129984c5039dcd5627d767d3ef1a799fccce35",
+    "row_descriptor_sha256": "26f4bc34ef8d2e668b64601e5fa112d93d765bb2fbc5dce90fa946f11692357d",
+    "source_sha256": "bab2c202bb50bc30ca28a8c33937c8e0319a4f3d03fd49bf933cb31fc48498f1",
+    "target_sha256": "e450310096b637a971502481eb517e99b719b3b063205a155b7ec255676ef06e"
+  },
+  "predecessor_certificate": null,
+  "prime_roles": {
+    "explicit_reuse_authorized": false,
+    "used_in_quartic_reconstruction": false
+  },
+  "quartic_reconstruction": {
+    "candidate_receipt_sha256": {
+      "research/j2_secant_r10_colon_kernel_candidate_p1073741827.json": "1787ac75c59d553bfe64f767f739a1a0f6a4cb0f19dc18228f748476ea4292a3",
+      "research/j2_secant_r10_colon_kernel_candidate_p1073742851.json": "d57655a3efe5c949488f916a641cb98c133b88181e2a4028946bda610c1ced04"
+    },
+    "common_denominator_lcm": 3024,
+    "crt_modulus": 1152922610560928777,
+    "expression_sha256": "596e667ed1540ce18f9950134851e84049c2d7aeae10130e4741e567eb6ef5c3",
+    "maximum_absolute_numerator": 264290,
+    "maximum_denominator": 756,
+    "reconstruction_primes": [
+      1073741827,
+      1073742851
+    ],
+    "term_count": 189,
+    "total_degree": 4
+  },
+  "resources": {
+    "maximum_rss_native": 601423872,
+    "system_cpu_seconds": 0.490612,
+    "user_cpu_seconds": 17.888917
+  },
+  "same_process_sparse_replay": {
+    "completed": true,
+    "first_mismatch": null,
+    "identity_zero": true,
+    "mismatch_count": 0,
+    "replay_seconds": 0.10754737499519251
+  },
+  "schema": "hc4.decimic-j2-secant-r10-colon-identity-sparse-macaulay.v1",
+  "solution_support_count": 6301,
+  "solver": {
+    "active_equation_count": 0,
+    "completed": true,
+    "completed_prescribed_pivots": 0,
+    "consistent": true,
+    "current_total_nonzeros": 0,
+    "fill_added": 694946,
+    "fill_deleted": 120575,
+    "fixed_gauge_failure": null,
+    "free_unknown_count": 1927,
+    "inconsistent_equation": null,
+    "maximum_active_equation_length": 93,
+    "peak_total_nonzeros": 1171052,
+    "pivot_count": 34979,
+    "pivot_length_distribution": {
+      "1": 22359,
+      "2": 5536,
+      "3": 3844,
+      "4": 2244,
+      "5": 740,
+      "6": 256
+    },
+    "prescribed_pivot_count": null,
+    "solve_seconds": 4.273395291995257,
+    "timed_out": false,
+    "update_count": 1686248
+  },
+  "status": "PASS_EXACT_MODULAR_SPARSE_MACAULAY_COLON_IDENTITY",
+  "target_character_weight": 5,
+  "timings": {
+    "block_build_seconds": 10.880628999992041,
+    "solve_seconds": 4.273395291995257,
+    "wall_seconds": 16.106810750003206
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "A_degree": 5,
+  "A_sha256": "32af32c30fdc465e75d740a539f8eafa76777117d3f2f67f6f1cc53d90fec8fd",
+  "C_sha256": "c05e73dd2437365d2d3f6eb8183a7a971b5fc6d9898e43fcf8e40483e7d2c113",
+  "algorithm": "Singular modstd",
+  "auxiliary_equation_count": 1,
+  "base_equation_count": 11,
+  "branch": "degree_5",
+  "calculation": {
+    "basis_size": "1",
+    "child_system_seconds_immediate_scope": 0.7591049999999999,
+    "child_user_seconds_immediate_scope": 112.063627,
+    "diagnostic_error": false,
+    "forced_group_kill": false,
+    "is_unit": true,
+    "maximum_rss_native_immediate_scope": 57966592,
+    "process_group_terminated": false,
+    "resource_accounting": "wall time authoritative; CPU/RSS counters may omit delegated worker descendants",
+    "return_code": 0,
+    "stderr_tail": "",
+    "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\nBASIS_FIRST\n1\n",
+    "timed_out": false,
+    "unit_remainder": "0",
+    "wall_seconds": 22.876162792003015
+  },
+  "characteristic": 0,
+  "claim_boundary": "a passing receipt proves exact emptiness of this single necessary degree branch; all five branch receipts are required for r=10",
+  "coefficient_normalization": "f10=1",
+  "compatibility_equation_count": 6,
+  "compatibility_stream_sha256": "e9727b86286d3a02e88aa8534b600c8864e8fef6de12e11097d0269a7b7466e1",
+  "equation_count": 18,
+  "equation_stream_sha256": "e0396523bdbdbbafb84b5c5bd3b16682c1e5e25c54d67bea1d138e81bb73bbba",
+  "j2_after_substitution": "2520*f0 + 56*f2*f8 - 21*f3*f7 + 12*f4*f6 - 5*f5**2",
+  "leading_variable": "g1",
+  "maximum_total_degree": 7,
+  "orbit": "tangent",
+  "schema": "hc4-decimic-j2-tangent-r10-single-degree-branch-v1",
+  "singular_source_sha256": "48617709a28ae7e4198a17c87079f09361b08f10733bb92d9b5145f2927b9213",
+  "source_sha256": {
+    "receipts/residual-orbit-torus.json": "26e5b041383e0689248dc67f93a2831529bd287c74a18c0cc3d3e5a6df81c16e",
+    "scripts/certify_j2_tangent_r10_degree_branch.py": "9aa72819e2917efe24ca03803f29d2f7317cf400018bdd7f2f37cd9ad6660b27",
+    "scripts/certify_j2_tangent_r10_degree_branches.py": "5a7717765519410dda9fc39b1aacf42faed10e91e07f6b0aeabbe85813dc4c1a"
+  },
+  "status": "PASS_EXACT_TANGENT_R10_DEGREE_BRANCH_UNIT",
+  "substitutions": {
+    "f10": 1,
+    "f9": 0
+  },
+  "top_index": 10,
+  "unipotent_normalization": "f9=0",
+  "variable_count": 14,
+  "variable_names": [
+    "f5",
+    "f6",
+    "f7",
+    "f8",
+    "g1",
+    "g2",
+    "g3",
+    "g4",
+    "g5",
+    "g6",
+    "g7",
+    "g8",
+    "g9",
+    "leadinv"
+  ],
+  "wall_seconds": 27.71043754197308,
+  "zero_substitutions": {
+    "g0": 0
+  }
+}

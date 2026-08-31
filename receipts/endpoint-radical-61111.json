@@ -1,0 +1,114 @@
+{
+  "build_seconds": 4.032565917004831,
+  "certificate_seconds": 0.26864704096806236,
+  "claim_boundary": "this closes the clean normal-layer residual-line gate for this single partition; it does not decide the other six partitions or the full HC4 theorem",
+  "coefficient_field": "Q(lambda,mu)",
+  "conclusion": "the residual-line ideal (line_x,line_y,line_z) is contained in radical(I_nor) for partition (6,1,1,1,1)",
+  "equation_count": 52,
+  "equation_stream_sha256": "da9f87bddcdb2c5b0ea6de62c62498a7a51a1af2df8af61331930d86761d78aa",
+  "line_coordinate_sha256": {
+    "line_x": "07c19a9367ce0b2b98ea2197e57bba805b0a49e4b29a967b77c8ccfa9b3ecefd",
+    "line_y": "78d6b04e75ec6c877fcc81a2ae3522e288eed6abd4ff9f9d10aaf87b8f450715",
+    "line_z": "e7e673618d56557a9bd792f4004556a25ee93f2af16a4bbe29efe1e648a87fa6"
+  },
+  "parameter_scope": "identities lie in Q[lambda,mu,g0,...,g9] and therefore include all finite parameter fibres, including the collision divisor",
+  "partition": [
+    6,
+    1,
+    1,
+    1,
+    1
+  ],
+  "schema": "hc4-five-support-endpoint-radical-certificate-v1",
+  "stages": [
+    {
+      "deduction": "g0 belongs to radical(I)",
+      "equation_indices": [
+        51
+      ],
+      "identity": "E51 = 32*g0^3",
+      "identity_sha256": "ec6837e162f073bd6671fc6a939285313249844d4a2c8382ae8830ba134bb8c3",
+      "prior_radical_variables": [],
+      "step": 1
+    },
+    {
+      "deduction": "g1 belongs to radical(I)",
+      "equation_indices": [
+        40
+      ],
+      "identity": "E40 mod (g0) = 12*g1^3",
+      "identity_sha256": "d5bc80406a8ca470678b9e6815a0feb778ab4f7e951e17d1055a907a8da6a7b3",
+      "prior_radical_variables": [
+        "g0"
+      ],
+      "step": 2
+    },
+    {
+      "deduction": "g4 belongs to radical(I)",
+      "equation_indices": [
+        30,
+        24
+      ],
+      "identity": "E30/288 + E24/48 = g4^3",
+      "identity_sha256": "ae97c11142424eaebd30a6fa009aecd450f97dfc8d3571f0f07d9e92c27459f6",
+      "prior_radical_variables": [
+        "g0",
+        "g1"
+      ],
+      "step": 3
+    },
+    {
+      "deduction": "g2 belongs to radical(I)",
+      "equation_indices": [
+        37
+      ],
+      "identity": "E37 mod (g0,g1,g4) = 16*g2^3",
+      "identity_sha256": "3613bfe5a80aed31a43ddbf20c0cd6115d5d0003b5881dcd42712b68a04ee5cf",
+      "prior_radical_variables": [
+        "g0",
+        "g1",
+        "g4"
+      ],
+      "step": 4
+    },
+    {
+      "deduction": "g5 belongs to radical(I)",
+      "equation_indices": [
+        21,
+        27
+      ],
+      "identity": "g5*E27/12 + (g3+23*g5)*E21/16 = 108*g5^4",
+      "identity_sha256": "3ab3402256aaf04e57d87163c90659a85ec5d9d11758e935237e42347acdc442",
+      "prior_radical_variables": [
+        "g0",
+        "g1",
+        "g4",
+        "g2"
+      ],
+      "step": 5
+    },
+    {
+      "deduction": "line_x, line_y, line_z belong to radical(I)",
+      "identity": {
+        "line_x": "16*g5**2*(g7 - la*mu)",
+        "line_y": "16*g5**3",
+        "line_z": "0"
+      },
+      "identity_sha256": {
+        "line_x": "632473d8df5b8a7318f8bf05d2969bd039ac2e0c3033cf6f43ed2608f16bd90f",
+        "line_y": "9cb77c50683a7721a3d2e649a739a79377f5d343827096e1f6fc73c0c5eccef1",
+        "line_z": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+      },
+      "prior_radical_variables": [
+        "g0",
+        "g1",
+        "g4",
+        "g2",
+        "g5"
+      ],
+      "step": 6
+    }
+  ],
+  "status": "PASS",
+  "wall_seconds": 4.301213749975432
+}

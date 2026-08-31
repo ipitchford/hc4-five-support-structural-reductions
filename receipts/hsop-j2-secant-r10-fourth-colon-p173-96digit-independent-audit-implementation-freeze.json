@@ -1,0 +1,23 @@
+{
+  "schema": "hc4.fourth-colon-p173-96digit-independent-audit-freeze.v1",
+  "status": "FROZEN_BEFORE_P173_FOURTH_COLON_72DIGIT_CHECKPOINT",
+  "frozen_utc": "2026-08-31T19:48:46Z",
+  "files": {
+    "preregistration": {
+      "path": "research/FOURTH_COLON_P173_96DIGIT_INDEPENDENT_AUDIT_PREREGISTRATION.md",
+      "sha256": "2bee5555c9ea8babfaa9447e3b514ed136dd13ae7771464e8063d6dfe637347d"
+    },
+    "audit_script": {
+      "path": "scripts/audit_p173_fourth_colon_96digit_extension_independent.py",
+      "sha256": "05fb754a903487bef2c38027524e448e2be0b3641bf62a5ebc9a3af28c43641c"
+    }
+  },
+  "required_checks": {
+    "new_digit_count": 42,
+    "checkpoints": [54, 72, 84, 96],
+    "terminal_exact_row_comparisons": 85688,
+    "new_digit_forbidden": true,
+    "solver_call_forbidden": true
+  },
+  "claim_boundary": "This conditional audit freeze proves no lift, reconstruction, rational membership, polynomial identity, colon equality, saturation, nullcone containment, or HC4 result."
+}

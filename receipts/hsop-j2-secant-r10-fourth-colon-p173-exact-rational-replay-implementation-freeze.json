@@ -1,0 +1,21 @@
+{
+  "schema": "hc4.fourth-colon-p173-target-exact-rational-replay-freeze.v1",
+  "status": "FROZEN_BEFORE_P173_FOURTH_COLON_24DIGIT_CHECKPOINT",
+  "frozen_utc": "2026-08-31T18:17:43Z",
+  "files": {
+    "preregistration": {
+      "path": "research/FOURTH_COLON_P173_EXACT_RATIONAL_REPLAY_PREREGISTRATION.md",
+      "sha256": "7a7470be4cf2f3b5823b29c7e121170a737bf5fc2ceb111b1a42ca01a0ebf59a"
+    },
+    "replay_script": {
+      "path": "scripts/reconstruct_p173_fourth_colon_target_exact_rational.py",
+      "sha256": "93cb287f7871f2b1d5a7e9de1f7c23092dbfe1898b892765ba22f84d52bfee21"
+    }
+  },
+  "conditional_inputs": {
+    "required_p54_audit_status": "PASS_INDEPENDENT_P173_FOURTH_COLON_54DIGIT_LIFT_REPLAY",
+    "required_integral_audit_status": "PASS_INDEPENDENT_P173_FOURTH_COLON_INTEGRAL_SYSTEM_REPLAY",
+    "required_unresolved_coordinate_count": 0
+  },
+  "claim_boundary": "This conditional pre-observation freeze proves no reconstruction, target membership, polynomial identity, colon equality, saturation, nullcone containment, or HC4 result."
+}

@@ -1,0 +1,92 @@
+{
+  "auxiliary_equation_count": 1,
+  "claim_boundary": "finite-characteristic validation is route evidence only; exact rational replay is required before this subset supports a stratum theorem",
+  "coefficient_normalization": "f10=1",
+  "j2_after_substitution": "2520*f0 + 56*f2*f8 - 21*f3*f7 + 12*f4*f6 - 5*f5**2",
+  "original_normal_equation_count": 55,
+  "schema": "hc4-decimic-j2-tangent-coefficient-structural-subset-v1",
+  "selected_equation_stream_sha256": "41304d41ed1592a4772dc7f72b721f3f14f4fbac5dffbe31042f9a218c652a9d",
+  "selected_normal_equation_count": 22,
+  "selected_normal_equation_indices": [
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54
+  ],
+  "selection_rule": "frozen explicit normal-equation indices 33 through 54",
+  "source_sha256": {
+    "scripts/certify_j2_tangent_coefficient_slice.py": "9e05e1b97dce5a7afd41e0e11bfc03858d5f1adcba429391d04e047cd18462b9",
+    "scripts/validate_j2_tangent_coefficient_subset.py": "409c499c6a7df04b2e0921dc1de22167ba1b72578723136f08228ee11d592721"
+  },
+  "status": "PASS_MODULAR_ROUTE_EVIDENCE",
+  "substitutions": {
+    "f10": 1,
+    "f9": 0
+  },
+  "threads": 4,
+  "timeout_seconds": 120,
+  "top_index": 10,
+  "validation_primes": [
+    101,
+    32003,
+    65521
+  ],
+  "validations": [
+    {
+      "candidate_normal_equation_count": 22,
+      "child_user_seconds_immediate_scope": 6.252134,
+      "diagnostic_error": false,
+      "is_unit": true,
+      "maximum_rss_native_immediate_scope": 405127168,
+      "prime": 101,
+      "removed_chunk": [],
+      "solver_output_tail": "[-1]:\n",
+      "timed_out": false,
+      "wall_seconds": 5.0344984580005985
+    },
+    {
+      "candidate_normal_equation_count": 22,
+      "child_user_seconds_immediate_scope": 6.531261000000001,
+      "diagnostic_error": false,
+      "is_unit": true,
+      "maximum_rss_native_immediate_scope": 413483008,
+      "prime": 32003,
+      "removed_chunk": [],
+      "solver_output_tail": "[-1]:\n",
+      "timed_out": false,
+      "wall_seconds": 4.966358375007985
+    },
+    {
+      "candidate_normal_equation_count": 22,
+      "child_user_seconds_immediate_scope": 6.390016000000001,
+      "diagnostic_error": false,
+      "is_unit": true,
+      "maximum_rss_native_immediate_scope": 413483008,
+      "prime": 65521,
+      "removed_chunk": [],
+      "solver_output_tail": "[-1]:\n",
+      "timed_out": false,
+      "wall_seconds": 5.016435833007563
+    }
+  ],
+  "variable_count": 20,
+  "wall_seconds": 19.806622790987603
+}

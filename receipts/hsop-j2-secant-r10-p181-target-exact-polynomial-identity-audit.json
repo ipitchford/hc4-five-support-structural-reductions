@@ -1,0 +1,121 @@
+{
+  "algebra": {
+    "degree_eight_rows": 85651,
+    "fixed_zero_coordinates": 2167,
+    "generator_count": 19,
+    "global_multiplier_coordinates": 38048,
+    "hashes": {
+      "generator_stream_sha256": "4e5ca7f6ed60548f84d6a84a4fa272c044b76be4ab3788b091376bf54f9ada4b",
+      "monomial_stream_sha256": "153dd5ae53908e06fa5b4722c88cdffd823d5705a9a6ab1e8ca6f5f070665614",
+      "row_descriptor_sha256": "0f0e46bb94241fa478c6cbdcf33c4472128ad4ed48a8fdaebd88e19028948639",
+      "target_sha256": "32e84450b525fce0c9fca7d263e6d73a2b9508811fa4bd7e473002a08ab2c84e"
+    },
+    "raw_contribution_count": 1473071,
+    "selected_contribution_count": 1354540,
+    "selected_multiplier_coordinates": 35881,
+    "source_metadata": {
+      "first": {
+        "candidate_receipt_sha256": {
+          "research/j2_secant_r10_colon_kernel_candidate_p1073741827.json": "1787ac75c59d553bfe64f767f739a1a0f6a4cb0f19dc18228f748476ea4292a3",
+          "research/j2_secant_r10_colon_kernel_candidate_p1073742851.json": "d57655a3efe5c949488f916a641cb98c133b88181e2a4028946bda610c1ced04"
+        },
+        "common_denominator_lcm": 3024,
+        "crt_modulus": 1152922610560928777,
+        "expression_sha256": "596e667ed1540ce18f9950134851e84049c2d7aeae10130e4741e567eb6ef5c3",
+        "maximum_absolute_numerator": 264290,
+        "maximum_denominator": 756,
+        "reconstruction_primes": [
+          1073741827,
+          1073742851
+        ],
+        "term_count": 189,
+        "total_degree": 4
+      },
+      "second": {
+        "character_weight": 3,
+        "crt_modulus": "1152922610560928777",
+        "discovery_primes": [
+          1073741827,
+          1073742851
+        ],
+        "expression_sha256": "689ec900d68fbd469b9a6aad21d5d6876ed3fdde370243446ab449c9926ad79a",
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-second-colon-kernel-qq-candidate.json",
+        "sha256": "c41e7c02e7163a0f1a2e71cd7fd5f0d38167b37f3f832019fa069c0ffd2bf37e",
+        "term_count": 211,
+        "total_degree": 4
+      },
+      "third": {
+        "character_weight": 2,
+        "crt_modulus": "1152922610560928777",
+        "discovery_primes": [
+          1073741827,
+          1073742851
+        ],
+        "expression_sha256": "28842250da1e0055614dcdf6cfca6ee9a1351ca0ebc29fb94f1111e70b5d0f02",
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-kernel-qq-candidate.json",
+        "sha256": "b7f37502a3b4a11739fe4e1e47746af68b2a8cc66cb18302bfe729927ed65b97",
+        "term_count": 248,
+        "total_degree": 4
+      }
+    },
+    "target_term_count": 486
+  },
+  "bound_hashes": {
+    "common_denominator_vector": "a83e144d7b383ee9202bd34ac991d1d4d2fe1f70482927b997ebf23c6c5d878d",
+    "exact_certificate_independent_audit": "60b1a5d2e369d6df9dfaed01609bff50ba7b677404f726e8d3d1f47da9b9ac14",
+    "pivot_gauge": "3a4087b184540be80852650b26aecaddd561a2a866599e660d9359b3415dfed2"
+  },
+  "certificate": {
+    "common_denominator": 246074414539190434458032978197462131280222620745728000000,
+    "common_denominator_bit_length": 188,
+    "support_by_generator": [
+      491,
+      642,
+      806,
+      951,
+      1084,
+      1168,
+      1304,
+      1366,
+      1514,
+      1504,
+      1533,
+      646,
+      951,
+      1015,
+      1147,
+      1210,
+      1271,
+      281,
+      166
+    ],
+    "support_count": 19050
+  },
+  "claim_boundary": "This PASS independently proves the displayed third-colon target polynomial identity over QQ for the frozen chart. It does not by itself prove a colon-ideal equality, saturation, global secant closure, nullcone containment, or HC4.",
+  "declarations": {
+    "integral_system_producer_not_imported": true,
+    "integral_target_system_not_read": true,
+    "p_adic_lifter_not_imported_or_executed": true,
+    "polynomial_block_reconstructed_directly_over_QQ": true,
+    "solver_not_executed": true
+  },
+  "exact_polynomial_replay": {
+    "coefficient_comparisons": 85651,
+    "maximum_absolute_residual": 0,
+    "mismatch_count": 0,
+    "residual_stream_sha256": "80059021edc7491996d1391ba6d8d19768541273236ce74736a2c2d61ac40e6f"
+  },
+  "outputs": {
+    "sparse_semantic_multipliers.json": {
+      "bytes": 4116012,
+      "sha256": "44372af82b878bb3156dea2cf4e55742dd8e9b20e5bd094ab01f59890d594701"
+    }
+  },
+  "resources": {
+    "maximum_rss_native": 393904128,
+    "process_swaps": 0,
+    "wall_seconds": 10.495089625008404
+  },
+  "schema": "hc4.third-colon-p181-target-exact-polynomial-identity-audit.v1",
+  "status": "PASS_INDEPENDENT_P181_TARGET_EXACT_POLYNOMIAL_IDENTITY"
+}

@@ -1,0 +1,131 @@
+{
+  "all_terms_rationally_reconstructed": true,
+  "artifact": {
+    "byte_count": 142195,
+    "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-fourth-colon-kernel-qq-candidate.json",
+    "sha256": "7939f8e57878be21f189ffbf4ac620707924b02f2dbb76f50348b5423a4b9bf2"
+  },
+  "assurance": "exact two-prime reconstruction and finite-field nonmembership tests",
+  "basis_indices": [
+    6312,
+    6312
+  ],
+  "both_heights_within_uniqueness_bound": true,
+  "character_matches": [
+    1,
+    1
+  ],
+  "claim_boundary": "This result is conditional on the separately unproved identity M*h3 in I2. It is a uniquely bounded rational reconstruction of matching modular taps and finite-field degree-four nonmembership tests. It does not prove M*h4 is in I3, lift a colon identity, compute a colon or saturated ideal, close the secant chart, or establish HC4.",
+  "coefficient_residue_mismatch_count": 0,
+  "coefficient_residue_mismatches": [],
+  "common_denominator": "58752",
+  "conditional_predecessor_statement": "M*h3 belongs to I2 over QQ",
+  "crt_modulus": "1152922610560928777",
+  "degree_four_nonmembership_tests": [
+    {
+      "additional_quartic_rows": 0,
+      "candidate_in_degree_four_ideal_piece": false,
+      "characteristic": 1073741827,
+      "column_count": 383,
+      "nontrivial_quotient_class": true,
+      "nonzero_count": 1323,
+      "reason": "h, h2, and h3 have characters four, three, and two, so their constant degree-four rows do not enter character one",
+      "row_count": 32,
+      "solution_support_count": 0,
+      "tested_ideal": "I3=(17 cubics,h,h2,h3) in degree four and character one"
+    },
+    {
+      "additional_quartic_rows": 0,
+      "candidate_in_degree_four_ideal_piece": false,
+      "characteristic": 1073742851,
+      "column_count": 383,
+      "nontrivial_quotient_class": true,
+      "nonzero_count": 1323,
+      "reason": "h, h2, and h3 have characters four, three, and two, so their constant degree-four rows do not enter character one",
+      "row_count": 32,
+      "solution_support_count": 0,
+      "tested_ideal": "I3=(17 cubics,h,h2,h3) in degree four and character one"
+    }
+  ],
+  "degree_matches": [
+    4,
+    4
+  ],
+  "discovery_primes": [
+    1073741827,
+    1073742851
+  ],
+  "equal_numerator_denominator_uniqueness_bound": "759250489",
+  "maximum_absolute_numerator": "411875",
+  "maximum_denominator": "4896",
+  "monic_leading_coefficients": [
+    1,
+    1
+  ],
+  "monic_leading_exponents": [
+    [
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "normal_equation_stream_sha256": "ecc10203dd30d6e2bc606d96ac129984c5039dcd5627d767d3ef1a799fccce35",
+  "primitive_integer_content_before_normalization": "1",
+  "primitive_integer_maximum_absolute_coefficient": "63016875",
+  "rational_reconstruction_failure_count": 0,
+  "rational_reconstruction_failures": [],
+  "schema": "hc4.decimic-j2-secant-r10-fourth-colon-kernel-reconstruction.v1",
+  "script": {
+    "path": "scripts/reconstruct_j2_secant_r10_fourth_colon_kernel.py",
+    "sha256": "aa053f5b265a5f6680d55f39bf4355bf2ba8e4d28847e6bd77921171177c3d46"
+  },
+  "source_receipts": [
+    {
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/receipts/hsop-j2-secant-r10-third-residual-colon-p1073741827.json",
+      "sha256": "3680ec52d25faf50b0ec3a55426eba5a0235e5f638759ac61b8f1431974ea89c"
+    },
+    {
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/receipts/hsop-j2-secant-r10-third-residual-colon-p1073742851.json",
+      "sha256": "01c90d22032dbc884ae74fcc71fd93164f9afeb5dbf6affb0b541d0cfa5d1290"
+    }
+  ],
+  "status": "PASS_TWO_PRIME_FOURTH_COLON_CANDIDATE_RECONSTRUCTION_CONDITIONAL",
+  "support_matches": true,
+  "support_term_count": 250,
+  "wall_seconds": 7.8656680829881225
+}

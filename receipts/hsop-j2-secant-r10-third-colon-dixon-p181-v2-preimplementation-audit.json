@@ -1,0 +1,89 @@
+{
+  "claim_boundary": "This PASS establishes only pre-execution source and interface consistency. It computes no prospective algebra, Dixon digit, p-adic or QQ identity, colon, saturation, secant closure, nullcone containment, or HC4 result.",
+  "declarations": {
+    "no_arithmetic_modulo_181_squared": true,
+    "no_factorization_launched": true,
+    "no_fixed_algebra_opened": true,
+    "no_preprocessing_launched": true,
+    "v2_may_now_be_frozen": true
+  },
+  "documents": {
+    "research/THIRD_COLON_FIXED_P181_ZERO_FREE_DIXON_8DIGIT_PREREGISTRATION.md": "dcba29bf2b3396fcbfd2999aad09a363c2fc852e4fb04c142cb1e1636c5ad6cc",
+    "research/THIRD_COLON_FIXED_P181_ZERO_FREE_DIXON_8DIGIT_PREREGISTRATION_AMENDMENT_01.md": "5bff2bd3844744f854c2757aee4b8bf09d227ae487ba1b43f55682a009f5d08c",
+    "research/THIRD_COLON_FIXED_P181_ZERO_FREE_DIXON_8DIGIT_PREREGISTRATION_AMENDMENT_02.md": "dd07f5e0e6ca139383905bedae9b382304bcf2cf52ce74d0c496e30e32dc5def",
+    "research/THIRD_COLON_FIXED_P181_ZERO_FREE_DIXON_8DIGIT_PREREGISTRATION_AMENDMENT_03.md": "2595d68aed6ed3e968f516386effdb09ede8c1f851bda717dc93f76cd8946b82"
+  },
+  "implementation_source_hashes": {
+    "scripts/factor_fixed_p181_dixon_coefficients.py": "c964784f707f98a8b35b730f4289ad6cee99658be0e5c74f655259e4a969ca90",
+    "scripts/fixed_p181_dixon_codec.py": "9cdd107f88cb731e951d2568a0789b12af38fe24fd39156f1d42583610b38288",
+    "scripts/fixed_p181_dixon_rr.py": "df4af8404cbc151d73fe82aeeb588541e412063d2fcdb2969933e40e21c5329c",
+    "scripts/freeze_fixed_p181_dixon_implementation.py": "045913985b1afc2c178dc1a2835013d55d15c5445433635997609625c0ce07ac",
+    "scripts/preprocess_fixed_p181_dixon_integer_system.py": "c21462f5e179c6f3f9e63145e455c466a0f604a3f42168ca35f18caeb1ebe594",
+    "scripts/produce_fixed_p181_dixon_8digit_pilot.py": "c97424697969c91705083bcdda1d85f37d8f44a9e4c9ed3654f1b7d045a11477",
+    "scripts/replay_fixed_p181_dixon_8digit_independent.py": "c7698d58d7857a4d0533b2a0571d00fbaa01c791947bbed946b5f44f9d6157ae",
+    "scripts/run_fixed_p181_dixon_8digit_gated.py": "36712767ea1246bc992aa32ba27526c85666e079a447bc7c6084ae66a80abd01"
+  },
+  "prospective_v2_paths_existing": [],
+  "schema": "hc4.decimic-j2-secant-r10-third-colon-dixon-p181-v2-preimplementation-audit.v1",
+  "status": "PASS_V2_PREIMPLEMENTATION_SOURCE_AND_INTERFACE_AUDIT",
+  "tests": {
+    "codec": {
+      "array_count": 5,
+      "file_sha256": "4170afa6f2e951f4a85560d7c18d088fee1acf6a99a2e44c903566cafdb2f7b7",
+      "status": "PASS_CODEC_ROUNDTRIP"
+    },
+    "factor_and_solvers": {
+      "digit": [
+        3,
+        4
+      ],
+      "row_audit": {
+        "affected_events_verified": 2,
+        "deterministic_pivot_choices_verified": 2,
+        "global_fill_matrix_materialized": false,
+        "maximum_single_live_row_length": 2,
+        "pivot_rows_verified": 2
+      },
+      "status": "PASS_TOY_FACTORIZATION_ROW_WISE_TRACE_AND_TWO_SOLVERS"
+    },
+    "independent_imports": {
+      "forbidden_imports_observed": [],
+      "status": "PASS_INDEPENDENT_IMPORT_SEPARATION"
+    },
+    "interface": {
+      "keys": [
+        "factorization_freeze_index",
+        "independent_bundle",
+        "phase1_bundle",
+        "phase1_telemetry",
+        "phase2_telemetry",
+        "producer_bundle",
+        "quarantine_root",
+        "staging_root",
+        "terminal_receipt"
+      ],
+      "status": "PASS_MANIFEST_WRAPPER_INTERFACE"
+    },
+    "rr": {
+      "candidate_pairs": 375365,
+      "maximum_modulus": 512,
+      "residue_cases": 131327
+    },
+    "telemetry": {
+      "parsed": {
+        "literal_zero_swap_line_count": 1,
+        "maximum_rss_bytes": 123456,
+        "process_swaps": 0,
+        "raw_sha256": "eeb4d317ea56b9ae39acfc5d8bd828f381871e4a9314d9903b7912697770848f",
+        "real_seconds": 0.01,
+        "system_seconds": 0.0,
+        "user_seconds": 0.0
+      },
+      "status": "PASS_EXTERNAL_TELEMETRY_PARSER"
+    }
+  },
+  "v1_terminal_bindings": {
+    "receipts/hsop-j2-secant-r10-third-colon-dixon-p181-implementation-freeze-v1-failed-audit.json": "913c3ee41dd83084e7da570b468789dca351eb46fe259ff898f7c3152a078163",
+    "receipts/hsop-j2-secant-r10-third-colon-dixon-p181-implementation-freeze-v1.json": "8b313ec2354c7afe21a041260a2dbc6bc6b167855a94b14fa21031c9538d1568"
+  }
+}

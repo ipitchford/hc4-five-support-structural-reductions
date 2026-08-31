@@ -1,0 +1,78 @@
+{
+  "boundary": "the only inverted factor is lambda*mu; its zero locus is a collision with the normalized root 0 and hence has support at most four",
+  "branch_a": {
+    "conclusion": "all three line coordinates vanish",
+    "line_reductions": {
+      "line_x": "16*(g5 + la*mu + la + mu)**2*(g7 - la - mu - 1)",
+      "line_y": "16*(g5 + la*mu + la + mu)**3",
+      "line_z": "0"
+    },
+    "steps": [
+      "E37=16*(g2-lambda*mu)^3",
+      "E44=-32*(lambda*mu)^2*(g5+lambda*mu+lambda+mu)"
+    ]
+  },
+  "branch_b": {
+    "conclusion": "all three line coordinates vanish",
+    "line_relations": [
+      "line_x is divisible by g7-lambda-mu-1",
+      "line_y=-E27/6",
+      "line_z=-E43"
+    ],
+    "line_x_quotient_sha256": "decc7332abd3d5a3d0c7a746a40159b6719f763fcf5852bf8505ad437c5d65db",
+    "steps": [
+      "E29=480*g3*(lambda*mu)^2",
+      "E23=-144*(lambda*mu)^2*(g3-g5)",
+      "E0=32*g9^3",
+      "E4=12*(g8+1)^3",
+      "E10=-48*(g7-lambda-mu-1)"
+    ]
+  },
+  "build_seconds": 4.725262332998682,
+  "certificate_seconds": 0.45127129199681804,
+  "claim_boundary": "exact open-locus closure for one partition plus an identified support-collision boundary; use of the support-at-most-four theorem must be recorded separately",
+  "coefficient_ring": "Q[lambda,mu,g0,...,g9,1/(lambda*mu)]",
+  "common_radical_steps": [
+    "E51=32*g0^3",
+    "E40 mod (g0)=12*g1^3"
+  ],
+  "conclusion": "the residual-line ideal is contained in the radical of the normal ideal on the lambda*mu-nonzero locus",
+  "cover": {
+    "branches": [
+      "A: g4=lambda*mu",
+      "B: g2=g4=0"
+    ],
+    "equations": [
+      "E30=288*g2*(g4-lambda*mu)^2",
+      "E24=-48*(g2-g4)*(g4-lambda*mu)^2"
+    ],
+    "justification": "if g4-lambda*mu is nonzero, E30 and E24 force g2=0 and g4=0"
+  },
+  "equation_count": 52,
+  "equation_stream_sha256": "bcbbc69f18f26c1b2ded5ba029322519b019c751efcff934a1d49d150b16023b",
+  "identity_sha256": {
+    "branch_A_E37": "428d70b20606eb69f585a02ca9d564b927f23ce7974b22d0f28f0dac866a9009",
+    "branch_A_E44": "75c6424bc5493afe541d44a199b8ddee2f3ac316cba61ba8c8beee6683024e2e",
+    "branch_B_E10": "1f263483c3c40dd5849fb1255b7ad62bf37bc7d219d9c461ecf78cbea31de7d4",
+    "branch_B_E23": "f85aa64e520777c6fca7b6fd9838b963fb6167b362e0b8ebfb9dd71067630dd6",
+    "branch_B_E29": "153c3ae7b8707fc5b32b0dae5877d9a9486f149e0df7dbde585a537c5cdfd9ca",
+    "branch_B_E4": "b76b6f1a1ef81927cae1082b23c6308d17bf446c93421d83543863bf6785531b",
+    "cover_E24": "bb1e3f4428067ab38a81bff6f2fcfb6406cf0e27651918e6e2b5f01304a9dd9a",
+    "cover_E30": "cc41d8a308801958b16d106164de1aae50cfc95a611278e4d902559d0982975d"
+  },
+  "line_coordinate_sha256": {
+    "line_x": "e06b007e765ddcb59a8b5bb19a1e7ae124cff62cb554794a9ac7e043fdb8f2de",
+    "line_y": "b9ffb4c82389abb9a197c3513e06e3a86e4fbe5aa7b0692056a6c1ab9da67637",
+    "line_z": "4ad418dc0f509f4c9bc94b86e6bd5b2507810b00dc9ef61f5ea98a45a9202eac"
+  },
+  "partition": [
+    4,
+    3,
+    1,
+    1,
+    1
+  ],
+  "schema": "hc4-five-support-endpoint-cover-certificate-v1",
+  "status": "PASS",
+  "wall_seconds": 5.176534916012315
+}

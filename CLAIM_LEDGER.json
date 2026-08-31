@@ -1,0 +1,437 @@
+{
+  "schema": "hc4-five-support-claim-ledger-v1",
+  "date": "2026-08-31",
+  "claims": [
+    {
+      "id": "FS-SOURCE-PIN",
+      "assurance": "source_snapshot",
+      "claim": "The author-associated baseline is pinned at commit 3ed4544e8bbd9f2345c43612d1f3cf94fe279dc9.",
+      "evidence": ["SOURCE_BASELINE.md", "source/royvanrijn-jacobian-research/.git"]
+    },
+    {
+      "id": "FS-NORMAL-RECONSTRUCTION",
+      "assurance": "exact_second_derivation",
+      "claim": "Phi18, Phi14, Phi10, and Phi6 were reconstructed without importing the source coefficient table and passed two symbolic holdouts.",
+      "evidence": ["scripts/reconstruct_normal_layers.py", "receipts/independent-normal-layers.json"]
+    },
+    {
+      "id": "FS-SCOUT",
+      "assurance": "bounded_computation_only",
+      "claim": "The preregistered modular scout found unit ideals in all tested partition-chart-prime cases.",
+      "evidence": ["SCOUT_PROTOCOL.md", "receipts/scout-five-support-preregistered.json"]
+    },
+    {
+      "id": "FS-GENERIC",
+      "assurance": "exact_generic_only",
+      "claim": "All 21 partition-line charts are unit ideals over Q(lambda,mu).",
+      "evidence": ["receipts/function-field-matrix-all-five-support.json"]
+    },
+    {
+      "id": "FS-EXACT-FIVE",
+      "assurance": "exact_computer_assisted_theorem_candidate",
+      "claim": "No clean nonzero residual-line solution has a nonzero binary-decic restriction with exactly five distinct projective roots.",
+      "evidence": [
+        "FIVE_SUPPORT_THEOREM.md",
+        "receipts/endpoint-radical-61111.json",
+        "receipts/endpoint-radical-52111.json",
+        "receipts/endpoint-cover-43111.json",
+        "receipts/endpoint-cover-42211.json",
+        "receipts/endpoint-radical-33211.json",
+        "receipts/endpoint-cover-32221.json",
+        "receipts/endpoint-cover-22222.json"
+      ]
+    },
+    {
+      "id": "FS-BOUNDARY-GEOMETRY",
+      "assurance": "elementary_exact_lemma",
+      "claim": "Every component of the complement of the normalized five-root parameter space specializes to support at most four.",
+      "evidence": ["FIVE_SUPPORT_BOUNDARY_LEMMA.md"]
+    },
+    {
+      "id": "FS-ATMOST-FIVE",
+      "assurance": "new_exact_result_plus_pinned_source_dependency",
+      "claim": "Nonzero clean double-conic restrictions supported on at most five points are empty.",
+      "evidence": [
+        "FIVE_SUPPORT_THEOREM.md",
+        "source/royvanrijn-jacobian-research/HC4_DOUBLE_CONIC_NORMAL_LAYERS.md",
+        "source/royvanrijn-jacobian-research/HC4_DOUBLE_CONIC_BALANCED_FOUR_ROOT_CLOSURE.md"
+      ]
+    },
+    {
+      "id": "FS-CASSINI",
+      "assurance": "exact_second_derivation",
+      "claim": "The Fibonacci-Cassini staircase has an independent all-index generating-function and transfer-matrix derivation.",
+      "evidence": ["CASSINI_SECOND_DERIVATION.md", "receipts/cassini-generating-function-audit.json"]
+    },
+    {
+      "id": "FS-HC4-OPEN",
+      "assurance": "open_boundary",
+      "claim": "The full double-conic packet, restrictions with at least six support points, and HC4 remain open.",
+      "evidence": ["FIVE_SUPPORT_THEOREM.md", "README.md"]
+    },
+  {
+    "id": "FS-HSOP-TANGENT-J2",
+      "assurance": "exact_computer_assisted_theorem_candidate",
+      "claim": "The quadratic invariant j2 lies in the radical of the tangent residual-orbit clean normal-layer ideal.",
+      "evidence": [
+        "TANGENT_J2_RADICAL_CERTIFICATE.md",
+        "receipts/hsop-j2-tangent-all-strata.json",
+        "receipts/hsop-j2-tangent-r5-compatibility-exact.json",
+      "receipts/hsop-j2-tangent-r10-degree_5-modstd-exact.json"
+    ]
+  },
+    {
+      "id": "FS-HSOP-SECANT-J2-PARTIAL",
+      "assurance": "sharp_exact_reduction_with_three_exact_qq_colon_element_identities_and_independent_third_polynomial_replay_saturation_open",
+      "claim": "The secant j2 counterlocus is empty on first-jet strata r=5 through r=9 and on every r=10 branch except f9 nonzero with leading convolution degree six. On the remaining branch three successive nontrivial colon-element identities are exact over Q. For the third, a fixed-main p181 lift through 54 digits reconstructs all 35881 coordinates, an independent exact-system audit checks all 85651 rows, and an independent source-level polynomial replay proves M*h3=sum(q_i*F_i)+q_18*h+q_19*h2 coefficientwise over Q with 19050 nonzero multiplier terms. This proves h3 lies in (I,h,h2):M. It does not determine the full colon, the saturation I:M^infinity, secant closure, nullcone containment, or HC4.",
+    "evidence": [
+      "SECANT_J2_DEGREE6_OBSTRUCTION.md",
+      "receipts/hsop-j2-secant-r5-coefficient-slice-exact.json",
+      "receipts/hsop-j2-secant-r9-coefficient-slice-exact.json",
+      "receipts/hsop-j2-secant-r10-f9-laurent-degree_5-homogenized-groebner-exact.json",
+      "receipts/hsop-j2-secant-r10-f9-laurent-degree_6-msolve-p101.json",
+      "receipts/hsop-j2-secant-r10-f9-laurent-degree_6-minsubset-classic-homogenized-groebner-timeout.json",
+      "SECANT_J2_HOMOGENEOUS_SATURATION_REDUCTION.md",
+      "receipts/hsop-j2-secant-r10-degree6-homogeneous-reduction.json",
+      "receipts/hsop-j2-secant-r10-z12-grading-exact.json",
+        "receipts/hsop-j2-secant-r10-degree6-first-colon-kernel-qq-reconstruction.json",
+        "artifacts/j2-secant-r10-colon-identity-qq.json",
+        "receipts/hsop-j2-secant-r10-colon-identity-qq-reconstruction.json",
+        "artifacts/j2-secant-r10-second-colon-kernel-qq-candidate.json",
+        "receipts/hsop-j2-secant-r10-second-colon-kernel-qq-reconstruction.json",
+        "artifacts/j2-secant-r10-second-colon-identity-qq.json",
+        "receipts/hsop-j2-secant-r10-second-colon-identity-qq-reconstruction.json",
+        "receipts/hsop-j2-secant-r10-second-colon-identity-qq-independent-replay.json",
+        "artifacts/j2-secant-r10-third-colon-kernel-qq-candidate.json",
+        "receipts/hsop-j2-secant-r10-third-colon-kernel-qq-reconstruction.json",
+        "receipts/hsop-j2-secant-r10-third-colon-identity-sparse-macaulay-hybrid-p173.json",
+        "receipts/hsop-j2-secant-r10-third-colon-identity-p173-independent-replay.json",
+        "receipts/hsop-j2-secant-r10-third-colon-identity-dense-pivot-swap-p181.json",
+        "receipts/hsop-j2-secant-r10-third-colon-identity-dense-pivot-swap-p181-independent-replay.json",
+        "receipts/hsop-j2-secant-r10-third-colon-identity-extended-sparse-p181.json",
+        "receipts/hsop-j2-secant-r10-third-colon-identity-extended-sparse-p181-transfer-p173.json",
+        "receipts/hsop-j2-secant-r10-third-colon-identity-extended-sparse-p181-transfer-p197.json",
+        "receipts/hsop-j2-secant-r10-third-colon-identity-extended-sparse-p181-transfer-p2147483647.json",
+        "receipts/hsop-j2-secant-r10-third-colon-identity-extended-sparse-p181-transfer-p2147483629.json",
+        "receipts/hsop-j2-secant-r10-third-colon-koszul-syzygy-scout.json",
+        "receipts/hsop-j2-secant-r10-third-colon-koszul-syzygy-scout-independent-audit.json",
+        "receipts/hsop-j2-secant-r10-third-colon-koszul-fixed-minor-normalization.json",
+        "receipts/hsop-j2-secant-r10-third-colon-koszul-fixed-minor-p197-independent-singularity-audit.json",
+        "receipts/hsop-j2-secant-r10-p181-target-exact-rational-independent-audit.json",
+        "receipts/hsop-j2-secant-r10-p181-target-exact-polynomial-identity-audit.json"
+    ]
+  },
+  {
+    "id": "FS-HSOP-SECANT-J2-Z12-GRADING",
+    "assurance": "exact_integer_lattice_grading_not_membership",
+    "claim": "The universal abelian grading quotient of the 17 retained cubic monomial supports is Z direct sum Z/12; the free factor is total degree, u has character zero, and the open factor M has character one.",
+    "evidence": [
+      "scripts/audit_j2_secant_r10_z12_grading.py",
+      "receipts/hsop-j2-secant-r10-z12-grading-exact.json"
+    ]
+  },
+    {
+      "id": "FS-HSOP-SECANT-J2-FIRST-COLON-IDENTITY",
+    "assurance": "exact_characteristic_zero_single_colon_identity_full_colon_open",
+    "claim": "A 189-term rational quartic h is nonzero modulo the degree-four cubic span over GF(101), and the identity M*h=sum(q_i*F_i) is certified exactly over Q by 17 explicit degree-five multipliers, rational reconstruction inside a formal CRT uniqueness bound, held-out prime-107 replay with zero of 6301 coefficient mismatches, and an independent standard-library polynomial replay. This proves h lies in I:M only; it does not determine I:M or the saturation.",
+    "evidence": [
+      "artifacts/j2-secant-r10-first-colon-kernel-qq.json",
+      "receipts/hsop-j2-secant-r10-degree6-first-colon-kernel-qq-reconstruction.json",
+      "artifacts/j2-secant-r10-colon-identity-qq.json",
+      "receipts/hsop-j2-secant-r10-colon-identity-qq-reconstruction.json",
+      "scripts/verify_j2_secant_r10_colon_identity.py",
+      "receipts/hsop-j2-secant-r10-colon-identity-sparse-p103-independent-audit.json",
+      "receipts/hsop-j2-secant-r10-msolve-multiplier-provenance-audit.json",
+        "receipts/hsop-j2-secant-r10-localized-colon-pivot-reduction.json"
+      ]
+    },
+    {
+      "id": "FS-HSOP-SECANT-J2-SECOND-COLON-IDENTITY",
+      "assurance": "exact_characteristic_zero_second_colon_identity_full_colon_open",
+      "claim": "A 211-term character-three rational quartic h2 is reconstructed uniquely from two matching large-prime taps and is structurally new modulo the cubics, h, and 39 character-compatible first-order transforms at GF(1073741827). The identity M*h2=sum(r_i*F_i)+r_18*h is certified exactly over Q by 18 explicit multipliers with 15211 nonzero coefficients, a 472-bit CRT reconstruction from prime 103 and fifteen approximately 31-bit primes, held-out prime-107 replay with zero of 15211 coefficient mismatches, zero exact rational remainder, and an independent standard-library replay. This proves h2 lies in (I,h):M only; it does not determine either colon or the saturation.",
+      "evidence": [
+        "artifacts/j2-secant-r10-second-colon-kernel-qq-candidate.json",
+        "receipts/hsop-j2-secant-r10-second-colon-kernel-qq-reconstruction.json",
+        "receipts/hsop-j2-secant-r10-second-colon-kernel-structure-p1073741827.json",
+        "artifacts/j2-secant-r10-second-colon-identity-qq.json",
+        "receipts/hsop-j2-secant-r10-second-colon-identity-qq-reconstruction.json",
+        "receipts/hsop-j2-secant-r10-second-colon-identity-qq-independent-replay.json",
+        "receipts/hsop-j2-secant-r10-second-colon-identity-qq-reconstruction-five-prime-insufficient.json",
+        "receipts/hsop-j2-secant-r10-second-colon-identity-qq-reconstruction-six-prime-insufficient.json",
+        "scripts/verify_j2_secant_r10_second_colon_identity.py",
+        "scripts/audit_replay_j2_secant_r10_second_colon_identity.py"
+      ]
+    },
+    {
+      "id": "FS-HSOP-SECANT-J2-THIRD-COLON-IDENTITY",
+      "assurance": "exact_characteristic_zero_third_colon_element_identity_with_independent_system_and_polynomial_replay_full_colon_open",
+      "claim": "After adjoining h and h2, two large-prime taps produce the 248-term degree-four character-two quartic h3, nonzero modulo the degree-four character-two piece of (I,h,h2). A fixed-main characteristic-181 lift through 54 digits reconstructs a rational multiplier vector with 19050 nonzero coordinates and a 188-bit common denominator. Exact replay gives zero residuals on all 85651 integral equations; an independent certificate verifier repeats the normalization, modular reduction, and exact replay; and an independent source-level audit rebuilds all 19 generators, 38048 descriptors, and 85651 degree-eight monomial rows and proves M*h3=sum(q_i*F_i)+q_18*h+q_19*h2 coefficientwise over Q. This proves h3 lies in (I,h,h2):M only; it does not determine the full colon or saturation.",
+      "evidence": [
+        "artifacts/j2-secant-r10-third-colon-kernel-qq-candidate.json",
+        "receipts/hsop-j2-secant-r10-third-colon-kernel-qq-reconstruction.json",
+        "receipts/hsop-j2-secant-r10-second-residual-colon-p1073741827.json",
+        "receipts/hsop-j2-secant-r10-second-residual-colon-p1073742851.json",
+        "receipts/hsop-j2-secant-r10-third-colon-identity-sparse-macaulay-hybrid-p173.json",
+        "receipts/hsop-j2-secant-r10-third-colon-identity-p173-independent-replay.json",
+        "receipts/hsop-j2-secant-r10-third-colon-identity-dense-pivot-swap-p181.json",
+        "receipts/hsop-j2-secant-r10-third-colon-identity-dense-pivot-swap-p181-independent-replay.json",
+        "receipts/hsop-j2-secant-r10-third-colon-identity-extended-sparse-p181.json",
+        "receipts/hsop-j2-secant-r10-third-colon-identity-extended-sparse-p181-transfer-p173.json",
+        "receipts/hsop-j2-secant-r10-third-colon-identity-extended-sparse-p181-transfer-p197.json",
+        "receipts/hsop-j2-secant-r10-third-colon-identity-extended-sparse-p181-transfer-p2147483647.json",
+        "receipts/hsop-j2-secant-r10-third-colon-identity-extended-sparse-p181-transfer-p2147483629.json",
+        "receipts/hsop-j2-secant-r10-p181-target-54digit-extension-independent-audit.json",
+        "artifacts/third-colon-p181-target-exact-rational-replay-v1/replay.json",
+        "receipts/hsop-j2-secant-r10-p181-target-exact-rational-independent-audit.json",
+        "artifacts/third-colon-p181-target-exact-polynomial-identity-audit-v1/sparse_semantic_multipliers.json",
+        "receipts/hsop-j2-secant-r10-p181-target-exact-polynomial-identity-audit.json"
+      ]
+    },
+    {
+      "id": "FS-HSOP-SECANT-J2-THIRD-COLON-GAUGE-CENSUS",
+      "assurance": "independently_replayed_bounded_reconstruction_route_falsification_not_qq_nonexistence",
+      "claim": "Three complete bounded full-vector censuses quantify the gauge-dependent rational-reconstruction obstruction. The alternative-p181 M566 census has 19762 no-candidate, 17751 unique-zero, and 535 unique-nonzero coordinates. The dense-pivot-swap M70 census has 19844 no-candidate, 17660 unique-zero, 544 unique-nonzero, and zero ambiguous coordinates. The extended-sparse M70 census, using primes 181, 2147483647, and 2147483629 as CRT sources and 173 and 197 as selectors, has 17758 no-candidate, 18998 unique-zero, 1292 unique-nonzero, and zero ambiguous coordinates. Its 2086 fewer no-candidate labels are about 10.5 percent of the dense-swap count, a descriptive bounded outcome improvement rather than a causal comparison because the gauges and selector sets differ. Independent standard-library audits reproduce all three censuses; the extended-sparse independent audit recomputes the bounded census, not the polynomial identity. These are bounded gauge results only and do not reconstruct rational multipliers, disprove or prove a Q identity, identify a colon or saturation, close the secant chart, or establish HC4.",
+      "evidence": [
+        "receipts/hsop-j2-secant-r10-third-colon-alt-p181-gauge-full-vector-m566-census.json",
+        "receipts/hsop-j2-secant-r10-third-colon-alt-p181-gauge-full-vector-m566-independent-audit.json",
+        "receipts/hsop-j2-secant-r10-third-colon-dense-pivot-swap-full-vector-m70-census.json",
+        "receipts/hsop-j2-secant-r10-third-colon-dense-pivot-swap-full-vector-m70-independent-audit.json",
+        "receipts/hsop-j2-secant-r10-third-colon-extended-sparse-full-vector-m70-census.json",
+        "receipts/hsop-j2-secant-r10-third-colon-extended-sparse-full-vector-m70-independent-audit.json"
+      ]
+    },
+    {
+      "id": "FS-HSOP-SECANT-J2-THIRD-COLON-DIXON-P181-PHASE1-TERMINAL",
+      "assurance": "prospectively_registered_implementation_family_falsification_no_rank_or_membership_conclusion",
+      "claim": "The fixed-characteristic-181, zero-free-gauge eight-digit Dixon pilot never reached digit one. V1 ended before execution on an immutable manifest/interface mismatch. V2 rebuilt the canonical 85651 by 38048 integer system, then its coefficient-only Python sparse factorizer exited 124 after 577.31 external seconds at 3236954112 bytes maximum RSS and zero swaps, without emitting a factorization artifact. V3 retained the same algebra and 600-second/3.5-GB gates, replaced payload packing by byte-identical optimized encoders, and added target-blind milestones. It exited 124 after 571.33 seconds at 3962667008 bytes maximum RSS and zero swaps; only INPUT_LOADED was reached, not ELIMINATION_COMPLETE. Amendment 04 therefore terminates this Python sparse-factorizer family. No canonical factorization index, arithmetic modulo 181 squared, or Dixon digit exists. This gives no rank conclusion and does not prove or disprove the p181 lift, a Q identity, ideal membership, colon, saturation, secant closure, nullcone containment, or HC4.",
+      "evidence": [
+        "research/THIRD_COLON_FIXED_P181_ZERO_FREE_DIXON_8DIGIT_PREREGISTRATION.md",
+        "research/THIRD_COLON_FIXED_P181_ZERO_FREE_DIXON_8DIGIT_PREREGISTRATION_AMENDMENT_01.md",
+        "research/THIRD_COLON_FIXED_P181_ZERO_FREE_DIXON_8DIGIT_PREREGISTRATION_AMENDMENT_02.md",
+        "research/THIRD_COLON_FIXED_P181_ZERO_FREE_DIXON_8DIGIT_PREREGISTRATION_AMENDMENT_03.md",
+        "research/THIRD_COLON_FIXED_P181_ZERO_FREE_DIXON_8DIGIT_PREREGISTRATION_AMENDMENT_04.md",
+        "receipts/hsop-j2-secant-r10-third-colon-dixon-p181-implementation-freeze-v1-failed-audit.json",
+        "receipts/hsop-j2-secant-r10-third-colon-dixon-p181-phase1-v2-terminal.json",
+        "receipts/hsop-j2-secant-r10-third-colon-dixon-p181-phase1-v3-terminal.json"
+      ]
+    },
+    {
+      "id": "FS-HSOP-SECANT-J2-THIRD-COLON-KOSZUL-SYZYGY-SCOUT",
+      "assurance": "exact_primitive_integer_syzygies_independent_content_audit_and_mod181_rank_not_qq_target_membership",
+      "claim": "The frozen third-colon Macaulay map has 2053 displayed primitive integer pairwise Koszul syzygies with 154939 nonzero entries and exact coefficientwise A*K=0. Their support graph is connected, the maximum matching has size 2053, and rank 2053 modulo 181 proves rank 2053 over Q. The characteristic-181 kernel quotient by this span has dimension 114; over Q, 114 is only an upper bound, not a proved quotient dimension. The independent content audit passes and reconstructs the same primitive mathematical content, exact syzygies, graph, matching, and rank without importing or executing the producer, but it does not reproduce the producer primitive byte-stream hash: independent bf22711579d285ebcafd81b95f20b9b7193c360c360452feb6de67e74e30d856 versus producer 8a36159e01332cfc8fac9449e95001a069e440e8f7242965e756c09d15dfea76. The producer script and receipt hashes are 39a73daab21470954300b9053c716c9dc300a491a9c81648b89539369eeb9988 and 6b7451265043da89ee359b756ae5d8e25dd08e26ed09146d8b6e65603e0f6875; the independent script and receipt hashes are eb265d352165c222e051baccd8f63406c5716bdf2fb4cbd6b7165413058e37ea and 15e60fa02b0d5b62f330fe5b64c052a82101a1e2a77f83bf85389253132e5102. Retained failed serialization receipts license no positive conclusion. The later fixed-coordinate-minor normalization is a separate fail-closed route and does not change these syzygy or target-membership boundaries.",
+      "evidence": [
+        "research/THIRD_COLON_KOSZUL_SYZYGY_SCOUT_PREREGISTRATION.md",
+        "research/THIRD_COLON_KOSZUL_FIXED_MINOR_NORMALIZATION_PREREGISTRATION.md",
+        "scripts/audit_j2_secant_r10_third_colon_koszul_syzygy_scout.py",
+        "scripts/audit_j2_secant_r10_third_colon_koszul_syzygy_scout_independent_audit.py",
+        "receipts/hsop-j2-secant-r10-third-colon-koszul-syzygy-scout.json",
+        "receipts/hsop-j2-secant-r10-third-colon-koszul-syzygy-scout-independent-audit.json",
+        "receipts/hsop-j2-secant-r10-third-colon-koszul-syzygy-scout-independent-audit-failed-metadata-serialization.json",
+        "receipts/hsop-j2-secant-r10-third-colon-koszul-syzygy-scout-independent-audit-failed-primitive-serialization.json"
+      ]
+    },
+    {
+      "id": "FS-HSOP-SECANT-J2-LINBOX-SYNTHETIC-CAPABILITY",
+      "assurance": "synthetic_compiled_sparse_route_signal_not_hc4_matrix_benchmark",
+      "claim": "The installed Sage 10.9 and LinBox 1.7.1 stack exposes sparse prime-field rank through rank(algorithm='linbox') and installed sparse-elimination/Wiedemann/Block-Wiedemann/modular-solve headers. On deterministic GF(181) synthetic matrices with target-like row ratio, approximately 16.4 nonzeros per row, and independently known full column rank, LinBox returned the correct ranks through 4096 columns and 9790 rows; the largest 160720-nonzero case took 0.4153 seconds and process RSS after the case was 256622592 bytes. The fixed HC4 matrix and b_Z were not opened. This is a route signal only, not an HC4-matrix rank, factorization, solve, pivot trace, Dixon digit, Q identity, colon, saturation, secant closure, nullcone containment, or HC4 result.",
+      "evidence": [
+        "scripts/scout_linbox_sparse_prime_field_capabilities.py",
+        "receipts/hsop-j2-secant-r10-third-colon-linbox-synthetic-capability-scout.json",
+        "RESEARCH_METRICS.md",
+        "NEXT_GOAL_HSOP_NULLCONE.md"
+      ]
+    },
+    {
+      "id": "FS-HSOP-SECANT-J2-P181-TARGET-BLIND-LINBOX-RANK",
+      "assurance": "exact_mod181_coefficient_rank_and_scaling_not_target_membership",
+      "claim": "After a v1 pre-rank integrity stop on ambient-versus-support row enumeration, the prospectively amended v2 rebuilt the actual third-colon coefficient map over GF(181) from the 19 frozen generators without importing or constructing the third candidate, RHS, known solution, augmented matrix, solve, or p-adic digit. Exact Sage/LinBox ranks are full at 4096, 8192, 16384, and all 35881 selected columns. The full matrix has 85651 rows and 1354540 nonzeros; its exact rank 35881 took 35.66 seconds, while the entire supervised run took 95.38 seconds at 624082944 bytes maximum RSS and zero swaps. An independent byte-level audit verifies the promoted CSR structure, replays all four sixteen-probe matvec hashes, and confirms dispatch to exact sparse modular Gaussian elimination, but does not independently recompute the four ranks. This licenses a separately preregistered explicit solve and all-row replay only. It proves no target membership, multiplier, Q identity, colon, saturation, secant closure, nullcone containment, or HC4.",
+      "evidence": [
+        "research/THIRD_COLON_P181_TARGET_BLIND_LINBOX_RANK_PREREGISTRATION.md",
+        "research/THIRD_COLON_P181_TARGET_BLIND_LINBOX_RANK_PREREGISTRATION_AMENDMENT_01.md",
+        "receipts/hsop-j2-secant-r10-p181-target-blind-linbox-terminal.json",
+        "receipts/hsop-j2-secant-r10-p181-target-blind-linbox-implementation-freeze-v2.json",
+        "receipts/hsop-j2-secant-r10-p181-target-blind-linbox-terminal-v2.json",
+        "receipts/hsop-j2-secant-r10-p181-target-blind-linbox-v2-independent-audit.json",
+        "artifacts/third-colon-p181-target-blind-linbox-benchmark-v2/benchmark.json",
+        "RESEARCH_METRICS.md",
+        "NEXT_GOAL_HSOP_NULLCONE.md"
+      ]
+    },
+    {
+      "id": "FS-HSOP-SECANT-J2-THIRD-COLON-KOSZUL-FIXED-MINOR-NORMALIZATION",
+      "assurance": "independently_confirmed_fail_closed_selected_minor_singularity_not_full_k_rank_or_membership",
+      "claim": "The preregistered 2053-by-2053 coordinate minor selected by the frozen characteristic-181 pivot rule has rank 2053 at characteristics 181 and 173, but at characteristic 197 its 13915 nonzero entries have rank 2052 and nullity one. The first missing producer pivot and first dependent independently audited column are both column 1983. An independent reconstruction verifies the rank by a local sparse basis and Sage sparse rank. The fail-closed stop occurs before testing characteristics 2147483647 or 2147483629; no additional primes are used, no normalized artifacts are written, and no M70 census is performed. The final producer script and receipt hashes are fceb3a0a12ae5473bf48f72d2c37e864c6569897052c6d0f60235b0a4fe6a08f and 0ba428b62f3bf8b7ccca4aded1c12e3c9659a498eac300f65036f393a54622e1; the independent script and receipt hashes are deaa1d47f73d21bc7609a46d6df0474e92ea2e59c622fd6cd1c92bfb6118619d and e97001a1c7232e903192e649f440fc8bfe81277229793a9905469288dec8936f. The initial failed receipt a013cdda57a74c7084a315f6fc2ab98a4663f068ff3d6d47823aee64a38c24df is retained as fail-closed history. This stops only this selected-coordinate-minor normalization: it does not invalidate a modular identity, determine full K rank modulo 197, prove or disprove Q membership, compute a colon or saturation, close the secant chart, establish nullcone containment, or prove HC4. No next residual route is selected by this claim.",
+      "evidence": [
+        "research/THIRD_COLON_KOSZUL_FIXED_MINOR_NORMALIZATION_PREREGISTRATION.md",
+        "scripts/normalize_j2_secant_r10_third_colon_koszul_fixed_minor.py",
+        "receipts/hsop-j2-secant-r10-third-colon-koszul-fixed-minor-normalization.json",
+        "scripts/audit_j2_secant_r10_third_colon_koszul_fixed_minor_normalization_independent.py",
+        "receipts/hsop-j2-secant-r10-third-colon-koszul-fixed-minor-p197-independent-singularity-audit.json",
+        "receipts/hsop-j2-secant-r10-third-colon-koszul-fixed-minor-normalization-initial-failed-p197.json"
+      ]
+    },
+    {
+      "id": "FS-HSOP-SECANT-J2-RESIDUAL-114-EXACT-QUOTIENT-CHART",
+      "assurance": "independently_audited_exact_rational_quotient_chart_not_kernel_lift_or_target_membership",
+      "claim": "For the fixed rational Koszul quotient chart, a characteristic-181 lift through 72 digits followed by exact rational reconstruction proves B*T=C over Q. The exact chart contains 5399 nonzero and 228643 zero transition entries, with maximum denominator bit length 140, and an independent audit replays every entry. This certifies the 114-dimensional quotient-coordinate interface only. It does not prove that all 114 residual modular kernel directions lift to Q, prove Q target membership, compute a colon or saturation, close the secant chart, establish nullcone containment, or prove HC4.",
+      "evidence": [
+        "artifacts/j2-secant-r10-third-colon-residual-114-quotient-chart.json",
+        "receipts/hsop-j2-secant-r10-residual-114-p181-72digit-terminal.json",
+        "receipts/hsop-j2-secant-r10-residual-114-p181-72digit-independent-audit.json",
+        "RESEARCH_METRICS.md",
+        "NEXT_GOAL_HSOP_NULLCONE.md"
+      ]
+    },
+    {
+      "id": "FS-HSOP-SECANT-J2-P181-CANONICAL-RESIDUAL-114-SECTION",
+      "assurance": "independently_audited_exact_mod181_full_kernel_decomposition_not_rational_lift",
+      "claim": "The canonical residual section over GF(181) has 114 columns. Together with the 2053 Koszul columns it forms an exact 2167-dimensional encoded kernel decomposition: the independent source-level audit rebuilds the 19 generators, 38048 source columns, 85651 coefficient rows, 1473071 raw nonzeros, all 2053 Koszul rows, and the residual right-hand side, then verifies A*R=0, zero Koszul-pivot block, identity residual-pivot block, residual rank 114, and combined rank 2167. This proves only the modular kernel decomposition in characteristic 181. It does not lift the residual section to Q or prove target membership, a colon, saturation, secant closure, nullcone containment, or HC4.",
+      "evidence": [
+        "receipts/hsop-j2-secant-r10-p181-canonical-residual-114-section-terminal.json",
+        "receipts/hsop-j2-secant-r10-p181-canonical-residual-114-section-independent-audit.json",
+        "artifacts/third-colon-p181-canonical-residual-114-section-v1/section.json",
+        "RESEARCH_METRICS.md",
+        "NEXT_GOAL_HSOP_NULLCONE.md"
+      ]
+    },
+    {
+      "id": "FS-HSOP-SECANT-J2-SPARSE4-QQ-RESIDUAL-SYZYGIES",
+      "assurance": "independently_audited_four_exact_rational_source_syzygies_not_target_membership",
+      "claim": "The four sparsest canonical residual columns, at quotient indices 43, 35, 46, and 48, lift through 181^4 and reconstruct as exact rational source syzygies with supports 135, 193, 193, and 193. Their common denominators are 48384, 24192, 24192, and 12096. An independent verifier checks all 143524 coordinates, reduction modulo 181^4, primitive normalization, and 342604 exact source-equation scalar comparisons with zero mismatches. Their distinct residual unit coordinates imply rational kernel dimension at least 2057 and rational quotient dimension at least 4 and at most 114. This proves neither the other 110 residual classes nor the third-colon target identity, a colon, saturation, secant closure, nullcone containment, or HC4.",
+      "evidence": [
+        "receipts/hsop-j2-secant-r10-p181-sparse4-two-digit-lift-terminal-v2.json",
+        "receipts/hsop-j2-secant-r10-p181-sparse4-two-digit-lift-independent-audit.json",
+        "receipts/hsop-j2-secant-r10-p181-sparse4-four-digit-extension-terminal.json",
+        "receipts/hsop-j2-secant-r10-p181-sparse4-exact-rational-replay-terminal.json",
+        "receipts/hsop-j2-secant-r10-p181-sparse4-exact-rational-independent-audit.json",
+        "artifacts/third-colon-p181-sparse4-exact-rational-replay-v1/replay.json",
+        "RESEARCH_METRICS.md",
+        "NEXT_GOAL_HSOP_NULLCONE.md"
+      ]
+    },
+    {
+      "id": "FS-NULLCONE-SECANT-V2-HIGHEST-REDUCTION",
+      "assurance": "exact_normalization_and_branch_reduction_not_containment",
+      "claim": "On the nonzero secant V2-highest locus, an exact torus action normalizes the target to one. Over Q, with matching replay over GF(101), P=90*f0*f4-63*f1*f3+28*f2^2 gives the normalized ideal the exhaustive split D(P) union V(P): f10 is eliminated and the variable count drops from 21 to 20 on D(P), while the V(P) boundary is retained. The direct normalized GF(101) calculation timed out, so neither branch emptiness, the other V2 coordinates, nor secant nullcone containment is proved.",
+      "evidence": [
+        "receipts/nullcone-v2-secant-torus-normalization.json",
+        "receipts/nullcone-v2-secant-target-normalized-p101.json",
+        "receipts/nullcone-v2-secant-target-normalized-f10-reduction.json"
+      ]
+    },
+  {
+    "id": "FS-NULLCONE-DIRECT-IDEAL-PROFILE",
+    "assurance": "exact_target_ideal_profile_not_containment",
+    "claim": "The binary-decimic multiplicity-at-least-six coincident-root locus has projective dimension five, codimension five, degree 30, and a 31-generator defining ideal concentrated in degrees two through four.",
+    "evidence": [
+      "scripts/probe_decimic_nullcone_crl.m2",
+      "receipts/decimic-nullcone-crl-61111-macaulay2-exact.json"
+    ]
+  },
+    {
+      "id": "FS-NULLCONE-SL2-GENERATOR-DECOMPOSITION",
+    "assurance": "exact_target_generator_representation_not_containment",
+    "claim": "The 31 minimal generators of the binary-decimic multiplicity-six locus form seven irreducible SL2 families: V0 in degree two, V2 plus V6 in degree three, and V0 plus two copies of V4 plus V8 in degree four.",
+    "evidence": [
+      "scripts/profile_decimic_nullcone_minimal_generators_sl2.m2",
+      "receipts/decimic-nullcone-crl-61111-sl2-minimal-generators-exact.json",
+      "receipts/decimic-nullcone-crl-61111-highestweights-whole-ideal-timeout.json"
+      ]
+    },
+    {
+      "id": "FS-NULLCONE-TANGENT-DEGREE-THREE",
+      "assurance": "exact_computer_assisted_theorem_candidate",
+      "claim": "The full quadratic V0 and cubic V2 plus V6 generator families of the binary-decimic multiplicity-six target lie in the radical of the tangent residual-orbit clean normal-layer ideal.",
+      "evidence": [
+        "TANGENT_CUBIC_NULLCONE_RADICAL_CERTIFICATE.md",
+        "receipts/hsop-j2-tangent-all-strata.json",
+        "receipts/nullcone-v6-tangent-stabilizer-span.json",
+        "receipts/nullcone-v2-tangent-stabilizer-span.json"
+      ]
+    },
+  {
+    "id": "FS-HSOP-FOURTH-COLON-KERNEL-BATCH-SUPPORT",
+    "assurance": "exact_descriptor_support_census_not_kernel_transfer",
+    "claim": "In the frozen fourth character-two block, the 2,239 free descriptor columns have source supports from 13 to 248, with 43 columns of minimum support 13. The prospectively selected first 16 are global coordinates 46, 47, 57, 66, 68, 102, 155, 547, 763, 965, 966, 1261, 1269, 1499, 1699, and 1711, all from generator g00. This proves only the exact support census; B^(-1) fill, kernel liftability, and rational syzygies remain open.",
+    "evidence": [
+      "scripts/scout_p173_fourth_colon_character2_free_supports.py",
+      "receipts/hsop-j2-secant-r10-fourth-colon-character2-free-support-census.json",
+      "research/FOURTH_COLON_CHARACTER2_KERNEL_BATCH_SCOUT_DESIGN.md"
+    ]
+  },
+  {
+    "id": "FS-HSOP-FOURTH-COLON-P173-LIFT",
+    "assurance": "certified_modular_lift_exact_rational_membership_open",
+    "claim": "After adjoining h, h2, and the certified h3, the frozen 85,688 by 36,587 fourth-target system has a characteristic-173 fixed-gauge solution through 173^96. A separately frozen audit replays every correction and the full integer congruence. The frozen p96 equal-height, stable-denominator, and simultaneous-LLL hierarchy recovers no exact rational vector; this exhausts only that recovery hierarchy and proves neither rational target membership nor a fourth colon identity.",
+    "evidence": [
+      "receipts/hsop-j2-secant-r10-fourth-colon-p173-integral-system-independent-audit.json",
+      "artifacts/fourth-colon-p173-target-96digit-extension-v1/extension.json",
+      "receipts/hsop-j2-secant-r10-fourth-colon-p173-96digit-extension-independent-audit.json",
+      "artifacts/fourth-colon-p173-target-p96-exact-rational-recovery-v1/replay.json",
+      "research/FOURTH_COLON_P173_96DIGIT_EXTENSION_PREREGISTRATION.md",
+      "research/FOURTH_COLON_P173_P96_EXACT_RECOVERY_PREREGISTRATION.md"
+    ]
+  },
+  {
+    "id": "FS-HSOP-STRETCH",
+      "assurance": "partial_exact_result_full_containment_open",
+      "claim": "The binary-decimic HSOP frontend is reconstructed, all 31 quadratic, cubic, and quartic direct-target generators are exact on the tangent orbit, and the secant j2 half has one explicit saturation branch left with three certified successive characteristic-zero colon-element identities. The third identity M*h3=sum(q_i*F_i)+q_18*h+q_19*h2 has an independently replayed 19050-term rational multiplier certificate and direct source-level polynomial audit. This closes target membership but not the full colon or saturation. The third-colon source kernel also has a certified 2053-dimensional rational Koszul subspace and an exact rational 114-dimensional quotient chart; 22 residual directions lift to independently replayed rational source syzygies. The selected fixed-coordinate-minor normalization and Python Dixon routes remain closed fail-closed. The secant V2-highest nonvanishing locus has an exact two-branch normalized reduction but neither branch is closed. Secant closure and full invariant-nullcone containment are not proved.",
+      "evidence": [
+        "receipts/decimic-hsop-reconstruction.json",
+        "TANGENT_J2_RADICAL_CERTIFICATE.md",
+        "TANGENT_CUBIC_NULLCONE_RADICAL_CERTIFICATE.md",
+        "TANGENT_NULLCONE_ALL_GENERATORS_CERTIFICATE.md",
+        "receipts/nullcone-tangent-all-31-generators.json",
+        "SECANT_J2_DEGREE6_OBSTRUCTION.md",
+        "receipts/hsop-j2-secant-r10-colon-identity-qq-reconstruction.json",
+        "receipts/hsop-j2-secant-r10-second-colon-identity-qq-reconstruction.json",
+        "receipts/hsop-j2-secant-r10-third-colon-kernel-qq-reconstruction.json",
+        "receipts/hsop-j2-secant-r10-third-colon-identity-extended-sparse-p181.json",
+        "receipts/hsop-j2-secant-r10-third-colon-extended-sparse-full-vector-m70-independent-audit.json",
+        "receipts/hsop-j2-secant-r10-third-colon-koszul-syzygy-scout.json",
+        "receipts/hsop-j2-secant-r10-third-colon-koszul-syzygy-scout-independent-audit.json",
+        "receipts/hsop-j2-secant-r10-third-colon-koszul-fixed-minor-normalization.json",
+        "receipts/hsop-j2-secant-r10-third-colon-koszul-fixed-minor-p197-independent-singularity-audit.json",
+        "receipts/hsop-j2-secant-r10-third-colon-dixon-p181-phase1-v3-terminal.json",
+        "receipts/hsop-j2-secant-r10-p181-target-exact-rational-independent-audit.json",
+        "receipts/hsop-j2-secant-r10-p181-target-exact-polynomial-identity-audit.json",
+        "receipts/hsop-j2-secant-r10-p181-target-blind-linbox-terminal-v2.json",
+        "receipts/hsop-j2-secant-r10-p181-target-blind-linbox-v2-independent-audit.json",
+        "receipts/hsop-j2-secant-r10-residual-114-p181-72digit-terminal.json",
+        "receipts/hsop-j2-secant-r10-residual-114-p181-72digit-independent-audit.json",
+        "receipts/hsop-j2-secant-r10-p181-canonical-residual-114-section-terminal.json",
+        "receipts/hsop-j2-secant-r10-p181-canonical-residual-114-section-independent-audit.json",
+        "receipts/hsop-j2-secant-r10-p181-sparse4-exact-rational-replay-terminal.json",
+        "receipts/hsop-j2-secant-r10-p181-sparse4-exact-rational-independent-audit.json",
+        "receipts/nullcone-v2-secant-torus-normalization.json",
+        "receipts/nullcone-v2-secant-target-normalized-f10-reduction.json",
+        "receipts/decimic-nullcone-crl-61111-macaulay2-exact.json",
+      "NEXT_GOAL_HSOP_NULLCONE.md"
+    ]
+  },
+  {
+    "id": "FS-HSOP-FOURTH-COLON-C16-QQ-SYZYGIES",
+    "assurance": "independently_audited_sixteen_exact_rational_source_syzygies_not_target_membership",
+    "claim": "The sixteen prospectively selected minimum-support free columns of the frozen fourth character-two block, at global coordinates 46, 47, 57, 66, 68, 102, 155, 547, 763, 965, 966, 1261, 1269, 1499, 1699, and 1711, admit canonical characteristic-173 sections that lift through 173^4 and reconstruct uniquely as exact rational source-module syzygies. The first syzygy has 37 nonzero coefficients including its distinguished free unit; each of the other fifteen has 22. Exact row replay has zero mismatches, and a separate direct-polynomial audit expands all sixteen combinations to the zero polynomial over Q. This proves rational source-kernel freedom only. It does not prove rational membership of M*h4, a fourth colon identity, colon equality, saturation, secant-orbit closure, full nullcone containment, HC4, or JC2.",
+    "evidence": [
+      "research/FOURTH_COLON_CHARACTER2_KERNEL_BATCH_SCOUT_DESIGN.md",
+      "scripts/build_p173_fourth_colon_c16_interface.py",
+      "scripts/linbox_p173_canonical_c16_section_driver.cpp",
+      "scripts/advance_p173_fourth_colon_c16.py",
+      "artifacts/fourth-colon-p173-c16-interface-v1/p4-reconstruction.json",
+      "artifacts/fourth-colon-p173-c16-interface-v1/rational-candidates.json",
+      "scripts/audit_p173_fourth_colon_c16_rational_syzygies.py",
+      "receipts/hsop-j2-secant-r10-fourth-colon-c16-rational-syzygies-independent-audit.json",
+      "receipts/hsop-j2-secant-r10-fourth-colon-c16-kernel-batch-terminal.json"
+    ]
+  }
+  ],
+  "excluded_assurance": [
+    "unaffiliated reconstruction",
+    "formal proof assistant",
+    "specialist peer review",
+    "journal peer review",
+    "priority determination",
+    "full HC4 proof"
+  ]
+}

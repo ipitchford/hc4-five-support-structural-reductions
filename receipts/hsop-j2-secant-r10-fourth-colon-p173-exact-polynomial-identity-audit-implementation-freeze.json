@@ -1,0 +1,28 @@
+{
+  "schema": "hc4.fourth-colon-p173-target-exact-polynomial-identity-audit-freeze.v1",
+  "status": "FROZEN_BEFORE_P173_FOURTH_COLON_36DIGIT_CHECKPOINT",
+  "frozen_utc": "2026-08-31T18:32:19Z",
+  "files": {
+    "preregistration": {
+      "path": "research/FOURTH_COLON_EXACT_POLYNOMIAL_IDENTITY_AUDIT_PREREGISTRATION.md",
+      "sha256": "ec0575534049e086a20bf173dff48000dae79e1b12dc085e017fdefb8106cc2f"
+    },
+    "audit_script": {
+      "path": "scripts/audit_p173_fourth_colon_target_exact_polynomial_identity.py",
+      "sha256": "e309f69f81dc9b3f60f8013c29c95de7036809d5f884c27e49de6bcd13d81a1a"
+    }
+  },
+  "required_algebra_hashes": {
+    "generator": "688352a1e62824bdc4300d58e37bc681414d2755cee9da021cd47257d0832378",
+    "target": "1d38a51f026483c3dc28ee80652bfc1c9d66f856903374c8a2e6c7392a6f262d",
+    "descriptor": "478302e341969ae2d8edec433bfd7fc12374598502b7f4e661884b31c4bd5f67",
+    "monomial": "ae88030860e7dc4de0ddf446c2b66a97285c4d98d42c6388c783c1c029b66446"
+  },
+  "required_dimensions": {
+    "generators": 20,
+    "global_multiplier_coordinates": 38826,
+    "selected_multiplier_coordinates": 36587,
+    "degree_eight_rows": 85688
+  },
+  "claim_boundary": "This conditional source freeze proves no rational reconstruction, polynomial identity, colon equality, saturation, nullcone containment, or HC4 result."
+}

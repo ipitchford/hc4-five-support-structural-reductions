@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/scripts/reconstruct_p181_support18_exact_rational.py", line 55, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/scripts/reconstruct_p181_support18_exact_rational.py", line 37, in main
+    return_code = base.main()
+  File "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/scripts/reconstruct_p181_sparse4_exact_rational.py", line 34, in main
+    reconstructed=[rr(v,modulus) for v in row]; require(all(v is not None for v in reconstructed),"unresolved coordinate"); pairs.append(reconstructed)
+                                                ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/scripts/reconstruct_p181_sparse4_exact_rational.py", line 16, in require
+    if not c: raise ValueError(m)
+              ^^^^^^^^^^^^^^^^^^^
+ValueError: unresolved coordinate

@@ -1,0 +1,36 @@
+{
+  "bound_hashes": {
+    "audited_rhs": "72d15610c6630a4d1929029476cb9b01d8494bc502b9b68457674795dcd1c76f",
+    "audited_solution": "5c37ce8fda3829baeef36f58002589e289bdd552939f61216b3ce257af456e58",
+    "integral_system": "5064cfea27bc16ad9977d651f6215b407e2e3865df3dfc65ad15213b27d5ab8d",
+    "modular_csr": "eb419a8348852cb784f308ebd32eef682c731bafe77533e3b37ff5241b2228cc",
+    "producer": "2ca36f2d0dcc99f730fde1816693824a1a7d9fc03982c0ce7c5909eb3234f38a",
+    "promoted_csr": "2207744adde8f96a7d835fc078ffd188ce33814f2db880e1aef9b8a47b09a6ef",
+    "row_scalars": "4c58562c979cbd645a999217e869e797fbb66d9a42ce4f1e9935c12aa30e3477"
+  },
+  "checks": {
+    "coefficient_alignment_mismatches": 0,
+    "columns": 35881,
+    "integral_modular_reduction_exact": true,
+    "maximum_coefficient_bit_length": 27,
+    "maximum_rhs_bit_length": 32,
+    "nonzeros": 1354540,
+    "ordered_row_mismatches": 0,
+    "rhs_alignment_mismatches": 0,
+    "rows": 85651,
+    "solution_mismatches": 0
+  },
+  "claim_boundary": "This PASS independently checks the emitted exact byte structure and every modular row alignment. It supplies no higher p-adic digit, rational identity, colon, saturation, secant closure, nullcone containment, or HC4 theorem.",
+  "declarations": {
+    "no_elimination_or_solve": true,
+    "no_mod181_squared": true,
+    "producer_not_imported_or_executed": true,
+    "quarantined_dixon_container_not_read": true
+  },
+  "resources": {
+    "maximum_rss_native": 291061760,
+    "wall_seconds": 0.7026683749863878
+  },
+  "schema": "hc4.decimic-j2-secant-r10-p181-integral-lift-system-independent-audit.v1",
+  "status": "PASS_INDEPENDENT_P181_INTEGRAL_LIFT_SYSTEM_REPLAY"
+}

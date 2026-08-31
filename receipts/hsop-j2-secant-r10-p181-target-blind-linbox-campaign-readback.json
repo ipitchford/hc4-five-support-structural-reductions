@@ -1,0 +1,47 @@
+{
+  "bindings": {
+    "v1_terminal": {
+      "path": "receipts/hsop-j2-secant-r10-p181-target-blind-linbox-terminal.json",
+      "sha256": "71de230e2166a8eaeff9e125fd2ef6d40527b0f5334fe19c39f4da288427f6c1"
+    },
+    "v2_benchmark": {
+      "path": "artifacts/third-colon-p181-target-blind-linbox-benchmark-v2/benchmark.json",
+      "sha256": "6a28f331c768a2fba46a32acacf181897a9522ce01428c3f9e4e2ca6c50480b9"
+    },
+    "v2_csr": {
+      "path": "artifacts/third-colon-p181-target-blind-linbox-benchmark-v2/A_C_mod181_target_free.csr",
+      "sha256": "2207744adde8f96a7d835fc078ffd188ce33814f2db880e1aef9b8a47b09a6ef"
+    },
+    "v2_freeze": {
+      "path": "receipts/hsop-j2-secant-r10-p181-target-blind-linbox-implementation-freeze-v2.json",
+      "sha256": "2510d05c50ba745ab3d64bdb8bcd6fdcc971444c3ba344f1120b549d16bd3c48"
+    },
+    "v2_independent_audit": {
+      "path": "receipts/hsop-j2-secant-r10-p181-target-blind-linbox-v2-independent-audit.json",
+      "sha256": "c6bec6f72d7ba5c0792cfe439383d1795ae82160c570148e1b7899807bd81c37"
+    },
+    "v2_terminal": {
+      "path": "receipts/hsop-j2-secant-r10-p181-target-blind-linbox-terminal-v2.json",
+      "sha256": "7b3da03bd0325b8a64340c9195632b85b6df7e33efc428f330e1698ec202aba9"
+    }
+  },
+  "claim_boundary": "This readback closes only the target-blind coefficient-rank route selection. It supplies no target solve, modular membership, p-adic lift, QQ identity, colon, saturation, secant closure, nullcone containment, or HC4 theorem.",
+  "declarations": {
+    "HC4_open": true,
+    "QQ_identity_open": true,
+    "coefficient_rank_full": true,
+    "no_p_adic_digit": true,
+    "no_solution_vector_from_this_route": true,
+    "target_membership_not_established_by_this_route": true
+  },
+  "new_claim_id": "FS-HSOP-SECANT-J2-P181-TARGET-BLIND-LINBOX-RANK",
+  "next_gate": "separately preregistered deterministic explicit mod181 solve plus independent all-row replay before p2",
+  "schema": "hc4.decimic-j2-secant-r10-p181-target-blind-linbox-campaign-readback.v1",
+  "status": "PASS_P181_TARGET_BLIND_LINBOX_CAMPAIGN_READBACK",
+  "updated_document_sha256": {
+    "CLAIM_LEDGER.json": "9651e097482d187340dd946e71a2cb8ea586910f1bea5ba60455089a844d1ac2",
+    "NEXT_GOAL_HSOP_NULLCONE.md": "4ade4da89fa6a609facd2c3a56a713e4708f61dc7ecfb0aadd269642f5fdf22a",
+    "README.md": "f5582d30d5ee1d4c9439d519955783aab17deb745bb653a376d3e677a1c98685",
+    "RESEARCH_METRICS.md": "fa1eee7afa95e24e6e5d54d6c0b6eb008382d6a0c9442935eeed0e7a6e62cb99"
+  }
+}

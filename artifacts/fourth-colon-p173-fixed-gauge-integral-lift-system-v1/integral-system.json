@@ -1,0 +1,111 @@
+{
+  "checks": {
+    "algebra_hashes": {
+      "descriptor": "478302e341969ae2d8edec433bfd7fc12374598502b7f4e661884b31c4bd5f67",
+      "generator": "688352a1e62824bdc4300d58e37bc681414d2755cee9da021cd47257d0832378",
+      "monomial": "ae88030860e7dc4de0ddf446c2b66a97285c4d98d42c6388c783c1c029b66446",
+      "target": "1d38a51f026483c3dc28ee80652bfc1c9d66f856903374c8a2e6c7392a6f262d"
+    },
+    "maximum_coefficient_bit_length": 31,
+    "maximum_rhs_bit_length": 29,
+    "modular_solution_mismatches": 0
+  },
+  "claim_boundary": "This PASS constructs an exact fixed-gauge p173 lifting interface for M*h4. It adds no p-adic digit and proves no rational fourth identity, colon equality, saturation, secant closure, or HC4 theorem.",
+  "declarations": {
+    "h3_predecessor_identity_independently_proved": true,
+    "no_elimination_or_solve": true,
+    "no_mod173_squared": true
+  },
+  "dimensions": {
+    "empty_zero_rows": 0,
+    "global_columns": 38826,
+    "rows": 85688,
+    "selected_columns": 36587,
+    "selected_nonzeros": 1487624
+  },
+  "inputs": {
+    "h3_qq_polynomial_audit": "ccfb6a2a29685898c8c6f7ea894cb2b3be0f1f322880ca25aa58486c5e5b08b7",
+    "modular_certificate": "45654ac41bfe50a76e9a396407734a7f94d3026ba68c9843e93ce432a656ebbe",
+    "modular_independent_audit": "22356f209047d90482bd49318d00e61305a2e9962611673b94da436e60ed7b1f"
+  },
+  "outputs": {
+    "A_Z_b_Z_fixed_gauge_p173.i64csr": {
+      "bytes": 19222536,
+      "sha256": "a03e09a159af1658ef188ac3182667c87e2c6bfc3e3c24676ced67d5ec71d1d6"
+    },
+    "A_Z_mod173_fixed_gauge.csr": {
+      "bytes": 8123664,
+      "sha256": "b051f191d1b4fed8c06899d920a2f3219815619bf78643ab0b0d0d97be930010"
+    },
+    "solution_mod173.u8": {
+      "bytes": 36587,
+      "sha256": "b3842200b63a047f5cc4edf176eb3a29a431bcd88d535917dd96e2d6bd87f355"
+    }
+  },
+  "quartics": {
+    "first": {
+      "candidate_receipt_sha256": {
+        "research/j2_secant_r10_colon_kernel_candidate_p1073741827.json": "1787ac75c59d553bfe64f767f739a1a0f6a4cb0f19dc18228f748476ea4292a3",
+        "research/j2_secant_r10_colon_kernel_candidate_p1073742851.json": "d57655a3efe5c949488f916a641cb98c133b88181e2a4028946bda610c1ced04"
+      },
+      "common_denominator_lcm": 3024,
+      "crt_modulus": 1152922610560928777,
+      "expression_sha256": "596e667ed1540ce18f9950134851e84049c2d7aeae10130e4741e567eb6ef5c3",
+      "maximum_absolute_numerator": 264290,
+      "maximum_denominator": 756,
+      "reconstruction_primes": [
+        1073741827,
+        1073742851
+      ],
+      "term_count": 189,
+      "total_degree": 4
+    },
+    "fourth": {
+      "character_weight": 1,
+      "conditional_predecessor_statement": "M*h3 belongs to I2 over QQ",
+      "crt_modulus": "1152922610560928777",
+      "discovery_primes": [
+        1073741827,
+        1073742851
+      ],
+      "expression_sha256": "d3f62fcc9f4a319ac3430d22c0c8d08ef5f4531722f1aa0a2e194e60cb465d05",
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-fourth-colon-kernel-qq-candidate.json",
+      "sha256": "7939f8e57878be21f189ffbf4ac620707924b02f2dbb76f50348b5423a4b9bf2",
+      "term_count": 250,
+      "total_degree": 4
+    },
+    "second": {
+      "character_weight": 3,
+      "crt_modulus": "1152922610560928777",
+      "discovery_primes": [
+        1073741827,
+        1073742851
+      ],
+      "expression_sha256": "689ec900d68fbd469b9a6aad21d5d6876ed3fdde370243446ab449c9926ad79a",
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-second-colon-kernel-qq-candidate.json",
+      "sha256": "c41e7c02e7163a0f1a2e71cd7fd5f0d38167b37f3f832019fa069c0ffd2bf37e",
+      "term_count": 211,
+      "total_degree": 4
+    },
+    "third": {
+      "character_weight": 2,
+      "crt_modulus": "1152922610560928777",
+      "discovery_primes": [
+        1073741827,
+        1073742851
+      ],
+      "expression_sha256": "28842250da1e0055614dcdf6cfca6ee9a1351ca0ebc29fb94f1111e70b5d0f02",
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-kernel-qq-candidate.json",
+      "sha256": "b7f37502a3b4a11739fe4e1e47746af68b2a8cc66cb18302bfe729927ed65b97",
+      "term_count": 248,
+      "total_degree": 4
+    }
+  },
+  "resources": {
+    "maximum_rss_native": 460292096,
+    "process_swaps": 0,
+    "wall_seconds": 11.51004941703286
+  },
+  "schema": "hc4.fourth-colon-p173-fixed-gauge-integral-lift-system.v1",
+  "status": "PASS_FOURTH_COLON_P173_FIXED_GAUGE_INTEGRAL_LIFT_SYSTEM"
+}

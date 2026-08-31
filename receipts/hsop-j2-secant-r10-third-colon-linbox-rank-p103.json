@@ -1,0 +1,58 @@
+{
+  "algorithm": "Sage Matrix_modn_sparse.rank(algorithm='linbox')",
+  "assurance": "exact finite-field input with LinBox black-box rank decisions; no explicit multiplier vector",
+  "augmented_rank": 35880,
+  "characteristic": 103,
+  "claim_boundary": "Equal ranks decide only that the displayed p=103 target lies in the displayed p=103 Macaulay image under LinBox's rank algorithm. This is not an explicit multiplier certificate, a QQ identity, a colon or saturation computation, secant closure, or HC4.",
+  "coefficient_rank": 35880,
+  "component_pruning": {
+    "column_count": 38047,
+    "isolated_row_count": 13,
+    "isolated_rows": [
+      83851,
+      83856,
+      83865,
+      83866,
+      83867,
+      83872,
+      83873,
+      83880,
+      83881,
+      83887,
+      83893,
+      83905,
+      83914
+    ],
+    "isolated_unknown": 2220,
+    "row_count": 85638,
+    "stored_nonzero_count": 1472012
+  },
+  "inputs": {
+    "producer_path": "scripts/certify_j2_secant_r10_third_colon_identity_sparse_macaulay.py",
+    "producer_sha256": "79db511cce6b38c589264d6df8f4c54b12f6e979edf938bc8e1293fa38628b67",
+    "structure_receipt_path": "receipts/hsop-j2-secant-r10-third-colon-kernel-structure-two-prime.json",
+    "structure_receipt_sha256": "3fe0f2403b792313ec167f9599eaa8fe00c24efb6741caed46e179c4a9b34c00"
+  },
+  "nullity_after_isolated_coordinate_removal": 2167,
+  "ranks_equal": true,
+  "resources": {
+    "maximum_rss_native": 1037910016,
+    "system_cpu_seconds": 2.070639,
+    "user_cpu_seconds": 292.045186
+  },
+  "sage_version": "10.9",
+  "schema": "hc4.decimic-j2-secant-r10-third-colon-linbox-rank-benchmark.v1",
+  "script": {
+    "path": "scripts/benchmark_j2_secant_r10_third_colon_linbox.py",
+    "sha256": "c6b7e11ec81262ceb1d187117ef742a0115074b7ca559f8fa20e2811563cf791"
+  },
+  "status": "PASS_LINBOX_MODULAR_MEMBERSHIP_RANK_EQUALITY",
+  "timings": {
+    "augmented_matrix_build_seconds": 1.3490481250046287,
+    "augmented_rank_seconds": 141.4880659999908,
+    "coefficient_matrix_build_seconds": 1.112709833018016,
+    "coefficient_rank_seconds": 148.68257574999006,
+    "problem_block_build_seconds": 12.448672416998306,
+    "wall_seconds": 305.1903077499883
+  }
+}

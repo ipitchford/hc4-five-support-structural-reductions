@@ -1,0 +1,127 @@
+{
+  "assurance": "independent termwise exact finite-field replay; producer and eliminator not imported",
+  "characteristic": 173,
+  "claim": "M*h3 = sum_i q_i*G_i over GF(173)",
+  "claim_boundary": "A PASS proves only the displayed explicit multiplier identity over GF(173). It does not prove the identity over QQ, compute a colon or saturation, close the secant chart, or establish HC4.",
+  "coordinate_checks": {
+    "coordinate_count": true,
+    "coordinate_hash": true,
+    "coordinate_range": true,
+    "free_coordinates_zero": true,
+    "free_hash": true,
+    "free_sorted_unique": true,
+    "pivot_free_partition": true,
+    "pivot_hash": true,
+    "pivot_uniqueness": true,
+    "support_matches_all_nonzero_coordinates": true,
+    "support_well_formed": true
+  },
+  "hashes": {
+    "descriptor_stream_sha256": "0f0e46bb94241fa478c6cbdcf33c4472128ad4ed48a8fdaebd88e19028948639",
+    "generator_stream_sha256": "4e5ca7f6ed60548f84d6a84a4fa272c044b76be4ab3788b091376bf54f9ada4b",
+    "monomial_stream_sha256": "153dd5ae53908e06fa5b4722c88cdffd823d5705a9a6ab1e8ca6f5f070665614",
+    "target_sha256": "32e84450b525fce0c9fca7d263e6d73a2b9508811fa4bd7e473002a08ab2c84e"
+  },
+  "inputs": {
+    "certificate": {
+      "byte_count": 7520041,
+      "path": "artifacts/j2-secant-r10-third-colon-identity-sparse-macaulay-hybrid-p173.json",
+      "sha256": "e55af2dc2d7f390227bda852f5366d68f078500e00794e3a60d7cc4452797ec1"
+    },
+    "producer_receipt": {
+      "byte_count": 18749,
+      "path": "receipts/hsop-j2-secant-r10-third-colon-identity-sparse-macaulay-hybrid-p173.json",
+      "sha256": "4a5a3adb555db8732e92856c1ed64ceac2ff3b9f93730e9b2be7bcd61786952e"
+    },
+    "second_identity_qq": {
+      "byte_count": 6885192,
+      "path": "artifacts/j2-secant-r10-second-colon-identity-qq.json",
+      "sha256": "32ffb748a88f59c6c7a1ad98d95beb84d5e3c1cdb1422a724677fca1a4ff5d61"
+    },
+    "second_kernel": {
+      "byte_count": 119487,
+      "path": "artifacts/j2-secant-r10-second-colon-kernel-qq-candidate.json",
+      "sha256": "c41e7c02e7163a0f1a2e71cd7fd5f0d38167b37f3f832019fa069c0ffd2bf37e"
+    },
+    "third_kernel": {
+      "byte_count": 141257,
+      "path": "artifacts/j2-secant-r10-third-colon-kernel-qq-candidate.json",
+      "sha256": "b7f37502a3b4a11739fe4e1e47746af68b2a8cc66cb18302bfe729927ed65b97"
+    }
+  },
+  "internal_hash_checks": {
+    "second_certificate_hash": true,
+    "second_problem_hash": true
+  },
+  "metadata_checks": {
+    "certificate_schema": true,
+    "character_metadata": true,
+    "character_stream_metadata": true,
+    "characteristic": true,
+    "degree_metadata": true,
+    "generator_count": true,
+    "producer_receipt_certificate_hash": true,
+    "producer_receipt_status": true,
+    "variable_names": true
+  },
+  "replay": {
+    "identity_zero": true,
+    "maximum_remainder_coefficient": 0,
+    "multiplier_coordinate_count": 38048,
+    "multiplier_term_counts": [
+      484,
+      654,
+      809,
+      986,
+      1175,
+      1345,
+      1450,
+      1570,
+      1619,
+      1646,
+      1504,
+      671,
+      1051,
+      1166,
+      1286,
+      1337,
+      1382,
+      26,
+      84
+    ],
+    "nonzero_generator_multiplier_count": 19,
+    "nonzero_multiplier_coordinate_count": 20245,
+    "observed_term_count": 486,
+    "remainder_term_count": 0,
+    "target_term_count_mod_173": 486
+  },
+  "resources": {
+    "maximum_rss_native": 168132608,
+    "system_cpu_seconds": 0.102561,
+    "user_cpu_seconds": 5.233183
+  },
+  "schema": "hc4.decimic-j2-secant-r10-third-colon-identity-p173-independent-replay.v1",
+  "script": {
+    "imports_certificate_producer": false,
+    "imports_sparse_eliminator": false,
+    "path": "scripts/verify_j2_secant_r10_third_colon_identity_p173.py",
+    "sha256": "593b68b95d55de1d91129caaf47ba84d4cc4f8bc481f9f9e77b5e100dd39adbb"
+  },
+  "source_hash_checks": {
+    "certificate": true,
+    "producer_receipt": true,
+    "second_identity_qq": true,
+    "second_kernel": true,
+    "third_kernel": true
+  },
+  "status": "PASS_INDEPENDENT_EXACT_MODULAR_THIRD_COLON_IDENTITY_REPLAY",
+  "stream_checks": {
+    "descriptor_stream": true,
+    "generator_stream": true,
+    "monomial_stream": true,
+    "target_stream": true
+  },
+  "timings": {
+    "wall_seconds": 5.278568165987963
+  }
+}

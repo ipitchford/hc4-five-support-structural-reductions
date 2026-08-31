@@ -1,0 +1,82 @@
+{
+  "assurance": "modular exact linear algebra only",
+  "branch": "degree_4",
+  "characteristic": 101,
+  "chart": "f9=1 with f10*leading_form!=0",
+  "claim_boundary": "An exact characteristic-zero passing receipt proves emptiness only for this single branch on D(f10*leading_form).  A modular pass is route evidence only.",
+  "cleared_f10_denominators": [
+    "f10**2",
+    "f10**4",
+    "f10**4",
+    "f10**4",
+    "f10**6",
+    "f10**5",
+    "f10**4",
+    "f10**3",
+    "f10**5"
+  ],
+  "degree_bound": 9,
+  "equation_stream_sha256": "2dafb0acc905f8f50bd3a36bd93d0177f1adf422d802b5efef399038a714f887",
+  "generator_degree_distribution": {
+    "5": 1,
+    "6": 1,
+    "7": 4,
+    "8": 2,
+    "9": 1
+  },
+  "identity_verified_in_solver_field": false,
+  "macaulay_column_count": 18970,
+  "macaulay_nonzero_count": 29034,
+  "macaulay_row_count": 2666,
+  "monomial_stream_sha256": "ad27b97765fc0f5fcc7125076392cf809a77536d8e95932a43af844ada0f7fb4",
+  "orbit": "secant",
+  "original_generator_count": 22,
+  "retained_generator_count": 9,
+  "retained_generator_indices": [
+    1,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    18
+  ],
+  "row_descriptor_sha256": "254736f0d0893fbc2c2d22b41a9a0b4e935dd21b4b0f004a26ea58429daec4dc",
+  "saturation_element": "125*f10**4*g2 + f10",
+  "saturation_power": 1,
+  "schema": "hc4-decimic-j2-secant-r10-saturation-macaulay-v1",
+  "solution_support": [],
+  "solution_support_count": 0,
+  "source_sha256": {
+    "scripts/certify_j2_secant_r10_f9_laurent_branch.py": "0b1015b23d726c25965f010d4c04e55d95d2ef35e5bc1f913167dc9bcbc84620",
+    "scripts/certify_j2_secant_r10_saturation_macaulay.py": "dac1c12d962ac7449f564cbe7c12d9f4a25bec931f5033144d8028f19b6dd4a7"
+  },
+  "status": "NO_IDENTITY_AT_BOUND",
+  "target_expression": "125*f10**4*g2 + f10",
+  "target_sha256": "7a0210a740d07b095544f547c6fd64ea8b92e2addfdaf9d7ad1f3ee47ccb59c7",
+  "target_total_degree": 5,
+  "timings": {
+    "matrix_build_seconds": 0.21915212500607595,
+    "polynomial_build_seconds": 8.720216749992687,
+    "row_enumeration_seconds": 0.07874766699387692,
+    "solve_seconds": 0.335128166974755,
+    "wall_seconds": 9.381767124985345
+  },
+  "variable_count": 12,
+  "variable_names": [
+    "f5",
+    "f6",
+    "f7",
+    "f8",
+    "f10",
+    "g2",
+    "g3",
+    "g4",
+    "g5",
+    "g6",
+    "g7",
+    "g8"
+  ]
+}

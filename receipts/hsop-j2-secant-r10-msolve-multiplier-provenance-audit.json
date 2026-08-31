@@ -1,0 +1,99 @@
+{
+  "claim_boundary": "The existing msolve tap certifies a modular colon-kernel candidate only. It cannot emit or justify original-generator multipliers.  This source audit does not decide the characteristic-zero colon identity, saturation, the secant chart, or HC4.",
+  "minimal_design_boundary": {
+    "assessment": "This is a full proof-trace retrofit, not a minimal extension of the existing quartic tap.  The pre-kernel run already stores 4,970 basis elements and contains a 355,024 by 792,344 F4 matrix.",
+    "bounded_alternative": "Use a target-specific proof-producing lift against the original 17 generators, then replay the displayed polynomial identity directly.",
+    "required_for_original_multipliers": [
+      "attach a sparse 17-component polynomial module vector to every input and derived basis element",
+      "propagate exact scalar row operations through every ordinary F4 matrix and every saturation normal-form reduction",
+      "expand the final kernel dependency through that derivation DAG to the 17 original generators",
+      "serialize the 17 multipliers and independently verify M*h-sum(q_i*F_i)=0"
+    ],
+    "retrofit_experiment": {
+      "attempted": false,
+      "reason": "The source audit proves the required provenance is absent, and a full module-trace retrofit was explicitly outside the bounded task."
+    }
+  },
+  "pinned_upstream": {
+    "commit": "185e7b92fa0687f4db68b0f2f453a835668ac132",
+    "source_sha256": {
+      "src/neogb/convert.c": "06a7447bddf5a6fba0f68f974f678481ed6a75739cdb27eea0480cea3913900e",
+      "src/neogb/data.h": "a4cbef1f802203de32747bb8c210044b956dcafa3906dbd7dd8c9c8f9ad7a681",
+      "src/neogb/f4sat.c": "bfe3223278845151e300415d987ceb3156fc4058b7c129f91b418c1bbb13bea6",
+      "src/neogb/la_ff_32.c": "93feba55e9ff4db264c280d8b1730991198a3aec37fe4b63d67e0b1ad39fea7e"
+    },
+    "tag": "v0.10.1"
+  },
+  "runtime_witness": {
+    "candidate_receipt": "research/j2_secant_r10_colon_kernel_candidate_p1073741827.json",
+    "candidate_receipt_sha256": "1787ac75c59d553bfe64f767f739a1a0f6a4cb0f19dc18228f748476ea4292a3",
+    "characteristic": 1073741827,
+    "discovery_solver_seconds": 82.39206808299059,
+    "discovery_threads": 4,
+    "discovery_timed_out": false,
+    "discovery_wall_seconds": 91.9831589999958,
+    "kernel_matrix": {
+      "columns": 137889,
+      "rows": 50000
+    },
+    "largest_pre_kernel_matrix": {
+      "columns": 792344,
+      "reported_density_percent": 0.06,
+      "rows": 355024
+    },
+    "ordinary_f4_new_basis_counts_before_first_kernel": [
+      23,
+      76,
+      273,
+      991,
+      3590
+    ],
+    "original_generator_count": 17,
+    "stored_basis_load_at_first_kernel": 4970
+  },
+  "schema": "hc4.msolve-f4sat-multiplier-provenance-audit.v1",
+  "source_evidence": {
+    "basis_and_matrix_storage": {
+      "file": "src/neogb/data.h",
+      "finding": "bs_t stores polynomial values, signatures, and coefficient arrays; mat_t.rba stores reducer-incidence bits, not scalar row operations or a 17-component original-generator module representation.",
+      "lines": {
+        "/* if a reducer row is used during reduction. */": 209,
+        "cf32_t **cf_32; /* coefficients for finite fields (32 bit) */": 196,
+        "hm_t **hm;      /* hashed monomials representing exponents */": 191,
+        "rba_t **rba;        /* bit array for each row to be reduced storing */": 208,
+        "struct bs_t": 178
+      }
+    },
+    "discovery_tap": {
+      "file": "research/msolve_colon_kernel_tap_v0.10.1.patch",
+      "finding": "The tap serializes only the resulting kernel polynomial's terms and exponents; it adds no transformation or module-provenance storage.",
+      "sha256": "a569259fdfa9b0b652e05528fd0208789e342a17fb4b6d51fd23a57fe1d1a964"
+    },
+    "kernel_scope": {
+      "file": "src/neogb/la_ff_32.c",
+      "finding": "The tracked vector has length sat->ld and is initialized by a saturation-multiplier index.  The emitted kernel is therefore a dependency among saturation inputs, not among the original generators.",
+      "lines": {
+        "drm[upivs[i][MULT]] = 1;": 2930,
+        "int64_t *drm    = calloc((uint64_t)sat->ld, sizeof(int64_t));": 2907,
+        "kernel->hm[kernel->ld]          = mulh[tmp_pos];": 2942
+      }
+    },
+    "ordinary_f4_loss_point": {
+      "file": "src/neogb/f4sat.c",
+      "finding": "New pivot polynomials are converted into bs_t, after which the F4 matrix is cleared; no original-generator transformation is attached.",
+      "lines": {
+        "compute_kernel_sat_ff_32(sat, mat, kernel, bs, st);": 653,
+        "copy_kernel_to_matrix(mat, kernel, sat->ld);": 666,
+        "linear_algebra(mat, bs, bs, st);": 582,
+        "ordinary_basis_conversion": 585
+      },
+      "matrix_clear_lines": [
+        165,
+        598,
+        664,
+        696
+      ]
+    }
+  },
+  "status": "PROVENANCE_NOT_AVAILABLE_IN_PINNED_F4SAT_TAP"
+}

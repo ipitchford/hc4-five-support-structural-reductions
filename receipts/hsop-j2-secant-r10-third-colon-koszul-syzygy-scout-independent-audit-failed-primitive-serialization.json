@@ -1,0 +1,10 @@
+{
+  "claim_boundary": "No positive mathematical conclusion is licensed by this failed or incomplete audit.",
+  "error": "primitive stream mismatch: bf22711579d285ebcafd81b95f20b9b7193c360c360452feb6de67e74e30d856; auxiliary independent metadata serialization=e20abc037641071dbbcb1da4b3bd6680613a41dd43fb8e9cae91cfa3d99cb270",
+  "error_type": "AssertionError",
+  "maximum_rss_native": 126369792,
+  "schema": "hc4.third-colon-koszul-syzygy-scout-independent-audit.v1",
+  "source_sha256": "3fb80956a0e13a6f61657c7a2bde3b6dc9669295e921e7e5b8fc76b51d3902af",
+  "status": "FAIL_CLOSED_INDEPENDENT_AUDIT",
+  "wall_seconds": 21.4877480409923
+}

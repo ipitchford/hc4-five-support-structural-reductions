@@ -1,0 +1,94 @@
+{
+  "schema": "hc4.third-colon-alt-p181-gauge-qq-reconstruction-manifest.v1",
+  "created_utc": "2026-08-31T02:35:11Z",
+  "status": "READY_IF_COORDINATE13_HAS_UNIQUE_SURVIVOR",
+  "launch_authorized": false,
+  "launch_blocker": "The frozen M442 coordinate-13 checkpoint has zero survivors after selectors, not one; do not launch the full reconstruction from this source set.",
+  "reconstruction_script": {
+    "path": "scripts/reconstruct_j2_secant_r10_third_colon_identity.py",
+    "byte_count": 37711,
+    "sha256": "1ef30b918b9225ea08145ce5a5dca8c5b058ae5029491c21f47f04f2d595c42a"
+  },
+  "common_problem_signature": {
+    "coordinate_count": 38048,
+    "free_unknown_indices_sha256": "0fc299317fc6e2aff3c3a89031e71a9f81f4145f59332f9ae8b4ff9040b44e68",
+    "pivot_unknown_set_sha256": "8ca3d8472b2562e75db28924e5c4f5cdad7e099d17d932dd11a8b7b914d2f02f",
+    "row_descriptor_sha256": "0f0e46bb94241fa478c6cbdcf33c4472128ad4ed48a8fdaebd88e19028948639",
+    "monomial_stream_sha256": "153dd5ae53908e06fa5b4722c88cdffd823d5705a9a6ab1e8ca6f5f070665614",
+    "generator_stream_sha256": "4e5ca7f6ed60548f84d6a84a4fa272c044b76be4ab3788b091376bf54f9ada4b",
+    "target_sha256": "32e84450b525fce0c9fca7d263e6d73a2b9508811fa4bd7e473002a08ab2c84e",
+    "gauge_defining_artifact_sha256": "26be0a64574c3cdbe6f7d0c323f9a5e4beb9b8df8e568f9daa054744160bc0a1"
+  },
+  "audit": {
+    "artifact_count": 19,
+    "all_loaded_by_production_loader": true,
+    "all_coordinate_orders_match_canonical_problem": true,
+    "all_free_coordinate_lists_equal": true,
+    "all_pivot_sets_equal": true,
+    "all_receipts_pass_exact_modular_identity": true,
+    "all_same_process_replays_zero": true,
+    "all_fresh_production_loader_replays_zero": true,
+    "script_changes_required": false,
+    "note": "The p181 source has no gauge_source field because it defines the gauge. Its exact free list and pivot set match every transfer artifact; adaptive pivot order differences are intentionally compared as sets by the reconstruction script."
+  },
+  "source_modulus": "8029642856687572426145405163488758422607935919278402939146876109598498452133059814572083509497205223856171995589188157379609681911217",
+  "source_modulus_bit_length": 442,
+  "sources": [
+    {"characteristic": 181, "artifact": "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181.json", "artifact_sha256": "26be0a64574c3cdbe6f7d0c323f9a5e4beb9b8df8e568f9daa054744160bc0a1", "receipt": "receipts/hsop-j2-secant-r10-third-colon-identity-alt-gauge-p181.json", "receipt_sha256": "fe32cc53e81cf50e6c34881c5c61605938178a366986fae6ce872670aa9ddc6a"},
+    {"characteristic": 2147483647, "artifact": "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483647.json", "artifact_sha256": "4b121b15c4a61b83005350e417634fa3751b326df157f8cfd7a00df82ece94de", "receipt": "receipts/hsop-j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483647.json", "receipt_sha256": "5b232c034c7b4925275a209395d0d3f2a342ea30c32853dcbd05a186e3fea214"},
+    {"characteristic": 2147483629, "artifact": "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483629.json", "artifact_sha256": "b55292d584c660f1b14ba22f3ae3b8f25e45202fc43ca9a063f83132bdf1fce2", "receipt": "receipts/hsop-j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483629.json", "receipt_sha256": "780b3e9aaeae81a58a434bc8dcde773ff472f10e3f27c19e11806c6c9fce521b"},
+    {"characteristic": 2147483587, "artifact": "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483587.json", "artifact_sha256": "17d76cb9f13b370362cd40ad45b2d97508526b49648c2da0e74212c28187a9ef", "receipt": "receipts/hsop-j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483587.json", "receipt_sha256": "8305231c713c9c2f20a3c4e7615fae7c05a85adc85f6225cd577d72bbe7b9201"},
+    {"characteristic": 2147483579, "artifact": "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483579.json", "artifact_sha256": "eca0a473cd7d65f9e60d9244fbacb74b0f0e803a6de848197399fe6826b1d157", "receipt": "receipts/hsop-j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483579.json", "receipt_sha256": "eb7235d7d23a6f246872de6d45de9d8b4928a9b9314466c076617807fe2446e1"},
+    {"characteristic": 2147483563, "artifact": "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483563.json", "artifact_sha256": "a5595efc9397e5b6e93faf5318ce14d3535da227eb79c57c9939f30d51bfa5ff", "receipt": "receipts/hsop-j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483563.json", "receipt_sha256": "b0da90a49ab35928f04deb1556a78ea358c2205ff3e2d4c893b12b7cbd6b3b52"},
+    {"characteristic": 2147483543, "artifact": "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483543.json", "artifact_sha256": "763214e3169c79de6632ef90dc01e20f56e45a90034125472683fe9f9619ab63", "receipt": "receipts/hsop-j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483543.json", "receipt_sha256": "1f4b4b205e32d38f5a5dd7d23a103bdf57e03c83d232ecd7961b0847252d0f28"},
+    {"characteristic": 2147483497, "artifact": "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483497.json", "artifact_sha256": "efab988f30061a14e8e9b471e780a36ca77f5017ff7b7b6c3469b751a3ad33b4", "receipt": "receipts/hsop-j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483497.json", "receipt_sha256": "d2127331d1a3e82b1c345d43faf49749dd01895045e143c7d217b51d95cb0ad4"},
+    {"characteristic": 2147483489, "artifact": "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483489.json", "artifact_sha256": "90f2fd07bfb3937478843a8ac970765ab0be504578c2522d5ad7ee6941a86b1a", "receipt": "receipts/hsop-j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483489.json", "receipt_sha256": "6c828052cd7d572e24537bee5a75790c4dc54521010a055ab19520b097c65778"},
+    {"characteristic": 2147483477, "artifact": "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483477.json", "artifact_sha256": "22df61efe2facc8e1b93d008a62bbd22744d052f993e3d4895053992cb0292ea", "receipt": "receipts/hsop-j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483477.json", "receipt_sha256": "670d2648a3183677f15f220f7e1a7805562c16a04c5c51f6decd3e71f497c8ef"},
+    {"characteristic": 2147483423, "artifact": "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483423.json", "artifact_sha256": "e9a66576afef04dc75aa512e94e240555f62d6a120bf1ae67fa67049e319a468", "receipt": "receipts/hsop-j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483423.json", "receipt_sha256": "1149c9a5877bb29c78a1ecb8292706e90ae77bf86f5920b934f62a607519028e"},
+    {"characteristic": 2147483399, "artifact": "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483399.json", "artifact_sha256": "b5332be5b54fb95aa01f6e026bb1b991cf9375838a93b045a2ee21be39565fc9", "receipt": "receipts/hsop-j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483399.json", "receipt_sha256": "083802130e8b9927b337237c84f75c725c44930ed836fcdabb8f6436123e41b8"},
+    {"characteristic": 2147483353, "artifact": "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483353.json", "artifact_sha256": "b9968de93f9710a3b0f80c00b168622be0ba46ec0cd1d5c467587edb1d3fdd3b", "receipt": "receipts/hsop-j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483353.json", "receipt_sha256": "c935ffebd0dba871e7d22d6f9c0f80ad5d669b36dbf7b7744995b5a0d2bc620b"},
+    {"characteristic": 2147483323, "artifact": "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483323.json", "artifact_sha256": "8717b7170bd88e4397ced93a87349ddf2e43d9479c56847076f8aca7c0758a61", "receipt": "receipts/hsop-j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483323.json", "receipt_sha256": "ceaea61c5081b4f5b81cc845a156cb11fa99cbb91e644c60a8edca94c19a890d"},
+    {"characteristic": 2147483269, "artifact": "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483269.json", "artifact_sha256": "d80fa2fa091e69028a23fbce7af8a34a515229cd0458ac601cf0d579770cf20a", "receipt": "receipts/hsop-j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483269.json", "receipt_sha256": "aa37c19bdb464533a2efc4107cdc0a2359cdb29ff8ad05dcf595e253fdb4560b"}
+  ],
+  "selection_modulus": 6782119,
+  "selection_heldouts": [
+    {"characteristic": 173, "artifact": "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p173.json", "artifact_sha256": "0d4109f26779893324b7da6e2e7be619eb0bc2fc4093a8d06ecd106d26353ec8", "receipt": "receipts/hsop-j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p173.json", "receipt_sha256": "4c9bd45d5790aeb29872c8a0a5f272d1fcb3c80d1fdee5e55962d6ced64fc03b"},
+    {"characteristic": 197, "artifact": "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p197.json", "artifact_sha256": "76d6915815ffb45295a2d4128a90dc024930b41bc7c3d6980ac4c9d6c2d4dd02", "receipt": "receipts/hsop-j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p197.json", "receipt_sha256": "d95e47e9f8d6181e23fc2a71935dfb70ebee4db88fcf554acef462aaa1a60d89"},
+    {"characteristic": 199, "artifact": "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p199.json", "artifact_sha256": "4d51904a1c10af535c7fd5f4a4bc922d50f49ede46408cd6641967df146e5391", "receipt": "receipts/hsop-j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p199.json", "receipt_sha256": "557bb9c93cd266281793f300e9a08e2318b81bf770a698c58cc8013909fd5cdc"}
+  ],
+  "independent_heldouts": [
+    {"characteristic": 2147483549, "artifact": "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483549.json", "artifact_sha256": "e9ac4eaed8d442d55378c2e6f0604c7c6ac83bd162aac7f403482d0464b61655", "receipt": "receipts/hsop-j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483549.json", "receipt_sha256": "fe402b381b06943780b87ddaa2125f14b534b917a3bb046de95ea58c8413c1db"}
+  ],
+  "coordinate13_checkpoint": {
+    "path": "receipts/hsop-j2-secant-r10-third-colon-coordinate13-adaptive-crt-alt-p181-gauge-m442-predeclared-checkpoint.json",
+    "byte_count": 229417,
+    "sha256": "b7a2d6960bbb10b282078d722ee67b8e32d5eedc3cd2d85ea9da5547f9ab6395",
+    "strict_product_candidate_count_before_selectors": 181,
+    "survivor_count_after_all_selectors": 0
+  },
+  "conditional_command_argv": [
+    "sage", "-python", "scripts/reconstruct_j2_secant_r10_third_colon_identity.py", "--asymmetric-eea",
+    "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181.json",
+    "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483647.json",
+    "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483629.json",
+    "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483587.json",
+    "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483579.json",
+    "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483563.json",
+    "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483543.json",
+    "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483497.json",
+    "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483489.json",
+    "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483477.json",
+    "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483423.json",
+    "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483399.json",
+    "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483353.json",
+    "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483323.json",
+    "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483269.json",
+    "--selection-heldout", "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p173.json",
+    "--selection-heldout", "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p197.json",
+    "--selection-heldout", "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p199.json",
+    "--heldout", "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-transfer-p2147483549.json",
+    "--artifact-output", "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181-qq.json",
+    "--output", "receipts/hsop-j2-secant-r10-third-colon-identity-alt-gauge-p181-qq-reconstruction-m442.json"
+  ],
+  "claim_boundary": "This manifest proves no QQ identity. It freezes a compatible modular source/selector/validator partition and a conditional command. A PASS would still require singleton recovery for every coordinate, exact QQ convolution, and every modular heldout replay."
+}

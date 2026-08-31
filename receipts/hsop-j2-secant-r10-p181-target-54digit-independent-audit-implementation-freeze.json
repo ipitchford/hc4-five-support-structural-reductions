@@ -1,0 +1,27 @@
+{
+  "schema": "hc4.third-colon-p181-target-54digit-independent-audit-freeze.v1",
+  "status": "PASS_P181_TARGET_54DIGIT_INDEPENDENT_AUDIT_FREEZE",
+  "frozen_at_utc": "2026-08-31T16:55:11Z",
+  "bound_files": {
+    "research/THIRD_COLON_P181_TARGET_54DIGIT_INDEPENDENT_AUDIT_PREREGISTRATION.md": "d91702457ba66df97e4970e658ee235a749debd7f86fa206eb9c37a05eda3fa4",
+    "scripts/audit_p181_target_54digit_extension_independent.py": "36e3dcce5c6d577c4dc9c391a370a18484f49436959077bc9f2b3cc575ac6d26",
+    "scripts/audit_p181_target_36digit_extension_independent.py": "ca319e3455a70982a9b8c35fe22de3b4a5a5bbcc938cd3737b8e80967dc1d180",
+    "artifacts/third-colon-p181-target-48digit-extension-v1/X_mod_181_power_48.json": "cb3c64bbea95816fede94e8216d854188b6879f964e1681ec73f025d90895187",
+    "artifacts/third-colon-p181-target-48digit-extension-v1/terminal_q48.i64le": "0da7e0273512f06edf59aca0fe1a99200d28836b72f5e11b719b8be711f2a672",
+    "receipts/hsop-j2-secant-r10-p181-target-48digit-extension-independent-audit.json": "71f0d618596fb7ed95112d9ba4ac86708d4343338e289181d85d2df11e673bba",
+    "artifacts/third-colon-p181-target-54digit-extension-v1/extension.json": "e11b984243231b001f92ecc97a5f2081ede86bd0aecbf3c50e362287cdfc245c",
+    "receipts/hsop-j2-secant-r10-p181-target-54digit-extension-terminal.json": "7f0a02f525c0e8677ccc0cc44c0b55890698cffdb7e7a57760896dae474572eb",
+    "artifacts/third-colon-p181-target-54digit-extension-v1/X_mod_181_power_54.json": "5e8663474d2f9a7d9ce2c797c1cfa345bc761faa1fa77b5767b4c1da0a96df7e",
+    "artifacts/third-colon-p181-target-54digit-extension-v1/terminal_q54.i64le": "93e6ab5361e91703d36a920c1592434d5dbd4e23a3fa342b1ab70f3fa787d345"
+  },
+  "policy": {
+    "wall_seconds_maximum": 120,
+    "rss_bytes_maximum": 1500000000,
+    "process_swaps_required": 0,
+    "producer_import_forbidden": true,
+    "driver_call_forbidden": true,
+    "new_digit_forbidden": true
+  },
+  "canonical_output": "receipts/hsop-j2-secant-r10-p181-target-54digit-extension-independent-audit.json",
+  "claim_boundary": "A PASS independently certifies only the finite fixed-main p54 lift, height census, and p48-to-p54 stability table. Exact rational target membership remains a separate gate."
+}

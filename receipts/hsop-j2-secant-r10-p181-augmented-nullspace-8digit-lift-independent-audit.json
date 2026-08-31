@@ -1,0 +1,117 @@
+{
+  "bound_hashes": {
+    "digit_zero": "5c37ce8fda3829baeef36f58002589e289bdd552939f61216b3ce257af456e58",
+    "integral_system": "5064cfea27bc16ad9977d651f6215b407e2e3865df3dfc65ad15213b27d5ab8d",
+    "producer": "4651f222dfd4c07856af1ac243eadfa3357010c4b49f8d13f1aab80e2624416a",
+    "terminal": "75056305e0fc2a6def1c99f3a6f5312f06fbb44757969086856b7c8cfc9395f9",
+    "terminal_X": "18c32d72b31fa62dc7c1d347e6a6686bab11bc273077c60bdde329037559b842"
+  },
+  "checks": {
+    "correction_count": 7,
+    "digit_zero_divisibility_mismatches": 0,
+    "terminal_integer_invariant_mismatches": 0,
+    "terminal_modulus": "1151936657823500641"
+  },
+  "claim_boundary": "This PASS independently certifies the exact finite p181 lift through eight total digits and the registered reconstruction labels. It is not a QQ identity, colon, saturation, secant closure, nullcone containment, or HC4 theorem.",
+  "declarations": {
+    "all_digits_recomputed_from_exact_integer_recurrence": true,
+    "linbox_not_called": true,
+    "no_ninth_digit": true,
+    "no_rational_identity_claim": true,
+    "producer_not_imported_or_executed": true
+  },
+  "digit_audits": [
+    {
+      "correction_rhs_sha256": "4ef02fc7aa5d04cc530a078cb90cd7e6d67fd621e491e23e94bd1cc7f2f4a496",
+      "digit_index": 1,
+      "digit_sha256": "7a1156eb392067a22397e2722119a912002d83ed659dcd8748937c7cd0a9ea7d",
+      "divisibility_mismatches": 0,
+      "maximum_q_bit_length": 26
+    },
+    {
+      "correction_rhs_sha256": "bf5fbe1f6cf743758f47b9dca7316cbb6def1a14ad67c7fb5a19619e73e78a48",
+      "digit_index": 2,
+      "digit_sha256": "58426314a259bae0eef79da264a1fbe0a3da9c3ddf59e8f583b03e89697841f3",
+      "divisibility_mismatches": 0,
+      "maximum_q_bit_length": 26
+    },
+    {
+      "correction_rhs_sha256": "55399f84eaa67560ff63ad50226ec95618ccb79ba282d29ffcf7c85afe6a806a",
+      "digit_index": 3,
+      "digit_sha256": "83c93160ac7c44994e94092cce540393ab820439a9b88c2c5a0553340e588ea8",
+      "divisibility_mismatches": 0,
+      "maximum_q_bit_length": 26
+    },
+    {
+      "correction_rhs_sha256": "34f81def64634e1f149c31b46bcd4d6b71d12b6580a3b6f326df73940137a850",
+      "digit_index": 4,
+      "digit_sha256": "d648aa0136778c554268bb474736e3a46a48f1cde8b73446c287b7da3206045f",
+      "divisibility_mismatches": 0,
+      "maximum_q_bit_length": 27
+    },
+    {
+      "correction_rhs_sha256": "eb0e5186f1f0dee47481a635d7a711349a6bf7aabdadada5bab12842573a20b7",
+      "digit_index": 5,
+      "digit_sha256": "d79e32575a41b8409a2af983b981510ecb91406e0f0c796e7480f72aaf68da99",
+      "divisibility_mismatches": 0,
+      "maximum_q_bit_length": 26
+    },
+    {
+      "correction_rhs_sha256": "11a90f028b8cfaffe4e3e46093c64d7660e757377f5931d2492a4b5ca3f9035d",
+      "digit_index": 6,
+      "digit_sha256": "a15a3792aba43a93f35bc138a131951e0ad60be1832ab4f3a69cbe13a9c06f2e",
+      "divisibility_mismatches": 0,
+      "maximum_q_bit_length": 26
+    },
+    {
+      "correction_rhs_sha256": "8b9a84a86760dc571a4ba6ea65a4181c066b7a21165bc7deac490e3038767bb8",
+      "digit_index": 7,
+      "digit_sha256": "20f56df9f9241e13270bbc9c30bde3ef8cdebcf71af430a6eba3e2e263b05d39",
+      "divisibility_mismatches": 0,
+      "maximum_q_bit_length": 26
+    }
+  ],
+  "resources": {
+    "maximum_rss_native": 174669824,
+    "producer_external": {
+      "maximum_rss_bytes": 160808960,
+      "process_swaps": 0,
+      "raw_sha256": "481b801ac6841ec053369730e5f4f642127097b0c50ac215cf76fc33d3d44054",
+      "real_seconds": 572.64,
+      "system_seconds": 5.68,
+      "user_seconds": 526.98
+    },
+    "wall_seconds": 2.250674707989674
+  },
+  "rr_audits": {
+    "4": {
+      "aggregate_labels": {
+        "AMBIGUOUS": 19050,
+        "NO_CANDIDATE": 0,
+        "UNIQUE_NONZERO": 0,
+        "UNIQUE_ZERO": 16831
+      },
+      "label_stream_sha256": "c5d294497cd0e20d0b12180473c177638ee323aed467ccc7be3fc3784485cbd1"
+    },
+    "6": {
+      "aggregate_labels": {
+        "AMBIGUOUS": 19050,
+        "NO_CANDIDATE": 0,
+        "UNIQUE_NONZERO": 0,
+        "UNIQUE_ZERO": 16831
+      },
+      "label_stream_sha256": "c5d294497cd0e20d0b12180473c177638ee323aed467ccc7be3fc3784485cbd1"
+    },
+    "8": {
+      "aggregate_labels": {
+        "AMBIGUOUS": 19050,
+        "NO_CANDIDATE": 0,
+        "UNIQUE_NONZERO": 0,
+        "UNIQUE_ZERO": 16831
+      },
+      "label_stream_sha256": "c5d294497cd0e20d0b12180473c177638ee323aed467ccc7be3fc3784485cbd1"
+    }
+  },
+  "schema": "hc4.decimic-j2-secant-r10-p181-augmented-nullspace-8digit-lift-independent-audit.v1",
+  "status": "PASS_INDEPENDENT_P181_AUGMENTED_NULLSPACE_8DIGIT_LIFT_REPLAY"
+}

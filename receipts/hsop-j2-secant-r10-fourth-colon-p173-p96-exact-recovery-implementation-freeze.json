@@ -1,0 +1,14 @@
+{
+  "schema": "hc4.fourth-colon-p173-p96-exact-recovery-freeze.v1",
+  "status": "FROZEN_BEFORE_P173_FOURTH_COLON_72DIGIT_CHECKPOINT",
+  "frozen_utc": "2026-08-31T19:53:17Z",
+  "files": {
+    "preregistration": {"path": "research/FOURTH_COLON_P173_P96_EXACT_RECOVERY_PREREGISTRATION.md", "sha256": "f376525ba663bd7a4c621315e2c6aec4d9ab719885199262e1e26d7b2aa041eb"},
+    "recovery_script": {"path": "scripts/recover_p173_fourth_colon_p96_exact_rational.py", "sha256": "5ca8b4036ac534bd66eff4628482c63b876deadea92ee977d8db406655e19905"},
+    "semantic_wrapper": {"path": "scripts/audit_p173_fourth_colon_p96_exact_polynomial_identity.py", "sha256": "080dceacd117c9a84a3a1b059400adbc70d022bf8f06030312b926e29b7f6796"},
+    "frozen_semantic_base": {"path": "scripts/audit_p173_fourth_colon_target_exact_polynomial_identity.py", "sha256": "e309f69f81dc9b3f60f8013c29c95de7036809d5f884c27e49de6bcd13d81a1a"}
+  },
+  "recovery_hierarchy": ["complete_equal_height", "p84_to_p96_stable_denominator", "unscaled_simultaneous_lll_dimensions_8_16_24_32"],
+  "policy": {"sample_rows": 512, "alternate_subset_or_scaling_forbidden": true, "candidate_factor_or_multiple_search_forbidden": true, "new_digit_forbidden": true},
+  "claim_boundary": "This conditional freeze proves no p96 recovery, rational membership, polynomial identity, colon equality, saturation, nullcone containment, or HC4 result."
+}

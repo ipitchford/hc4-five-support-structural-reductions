@@ -1,0 +1,25 @@
+{
+  "schema": "hc4.third-colon-p181-canonical-residual-114-section-independent-audit-implementation-freeze.v1",
+  "status": "PASS_P181_CANONICAL_RESIDUAL_114_SECTION_INDEPENDENT_AUDIT_IMPLEMENTATION_FREEZE",
+  "bound_files": {
+    "research/THIRD_COLON_P181_CANONICAL_RESIDUAL_114_SECTION_INDEPENDENT_AUDIT_PREREGISTRATION.md": "b154cc54704f24e4c408f5932e1bbab3bc0180f868bb85d0de2957e75d3cd57e",
+    "scripts/audit_p181_canonical_residual_114_section_independent.py": "55ef0495aa86872e500b3c7cc1c0d0573ba5a4c7db34ce71b2cfd4e3ced1ce17",
+    "artifacts/third-colon-p181-canonical-residual-114-section-v1/section.json": "b14d3efe3bf398c1bce3cd7df4d74bb23d0aaf465973eef986c21f355fee90b6",
+    "artifacts/third-colon-p181-canonical-residual-114-section-v1/full_residual_section_row_major.u8": "ae141f98bdacc4733273f51fbdfa1c544f4a2cc156aa05e210e993f8aa567a83",
+    "artifacts/third-colon-p181-canonical-residual-114-section-v1/pivot_section_row_major.u8": "82db902a065b721deb146ed12655be2c00c7f1523be58218a7278e30cb3be997",
+    "artifacts/third-colon-p181-canonical-residual-114-section-v1/rhs/minus_A_S_row_major.u8": "c443f3da8435c81778e3ec3832dacec7977dede6986dea8ab328309f48edf2c5",
+    "receipts/hsop-j2-secant-r10-p181-canonical-residual-114-section-terminal.json": "6830efb1836cdddbf1c920d1d9e80893e570248206b3f72c00adf699fc904dc1",
+    "artifacts/third-colon-p181-source-clean-integral-lift-system-v1/A_Z_mod181_fixed_gauge.csr": "eb419a8348852cb784f308ebd32eef682c731bafe77533e3b37ff5241b2228cc",
+    "artifacts/third-colon-p181-target-blind-linbox-gauge-v2/C_piv.u32le": "3a4087b184540be80852650b26aecaddd561a2a866599e660d9359b3415dfed2",
+    "artifacts/j2-secant-r10-third-colon-residual-114-quotient-chart.json": "7ad12483dd5c8429defc3e0c5c8138ded3d344969075ae4afdb15d39d2fb9a74",
+    "artifacts/third-colon-residual-114-p181-72digit-chart-v1/rational_chart.json": "914a21ab8c8556dec7b75737d076472a997a3ccd9d187279e046921ceac813fe",
+    "receipts/hsop-j2-secant-r10-p181-target-blind-linbox-v2-independent-audit.json": "c6bec6f72d7ba5c0792cfe439383d1795ae82160c570148e1b7899807bd81c37",
+    "receipts/hsop-j2-secant-r10-residual-114-p181-72digit-independent-audit.json": "5b70ce49520102483370ba57fde5c97e8c2632267a748cc4611ae69a8429e762"
+  },
+  "canonical_output": "receipts/hsop-j2-secant-r10-p181-canonical-residual-114-section-independent-audit.json",
+  "policy": {
+    "wall_seconds_maximum": 300,
+    "rss_bytes_maximum": 1500000000,
+    "process_swaps_maximum": 0
+  }
+}

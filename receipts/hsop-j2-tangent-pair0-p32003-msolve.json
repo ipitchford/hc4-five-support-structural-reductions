@@ -1,0 +1,54 @@
+{
+  "algorithm": "msolve",
+  "calculation": {
+    "basis_size": null,
+    "child_system_seconds_immediate_scope": 7.283632,
+    "child_user_seconds_immediate_scope": 242.761861,
+    "diagnostic_error": false,
+    "forced_group_kill": false,
+    "is_unit": false,
+    "maximum_rss_native_immediate_scope": 2876260352,
+    "process_group_terminated": true,
+    "resource_accounting": "wall time authoritative; CPU/RSS counters may omit delegated worker descendants",
+    "return_code": null,
+    "solver_output_tail": "",
+    "stderr_tail": "Initial seed for pseudo-random number generator is 1788074339\n\n--------------- INPUT DATA ---------------\n#variables                      22\n#equations                      57\n#invalid equations               0\nfield characteristic         32003\nhomogeneous input?               0\nsignature-based computation      0\nmonomial order                 DRL\nbasis hash table resetting     OFF\nlinear algebra option            2\ninitial hash table size     131072 (2^17)\nmax pair selection             ALL\nreduce gb                        1\n#threads                         4\ninfo level                       1\ngenerate pbm files               0\n------------------------------------------\n",
+    "stdout_tail": "",
+    "timed_out": true,
+    "unit_remainder": null,
+    "wall_seconds": 180.122128832998
+  },
+  "characteristic": 32003,
+  "claim_boundary": "a finite-characteristic unit is route evidence only; a timeout or nonunit is not a mathematical survivor; characteristic-zero certificates are required on every cover case",
+  "disposition": "TIMEOUT_RETAINED",
+  "equation_build_seconds": 3.518403791997116,
+  "generator_count": 57,
+  "j2_after_normalization": "-252*f1*f9 + 2520*f10 + 56*f2*f8 - 21*f3*f7 + 12*f4*f6 - 5*f5^2",
+  "localizer_count": 2,
+  "localizer_stream_sha256": "5f579ae05e9ef77629232a45a76275a0e74cfc7ff8163f166712d2735639da2a",
+  "maximum_total_degree": 3,
+  "normal_equation_count": 55,
+  "normal_equation_stream_sha256": "1653cdda8486515f391ad48c62d4773211fd23ef04acfa565200b564770e52f6",
+  "orbit": "tangent",
+  "pair": [
+    0,
+    10
+  ],
+  "pair_index": 0,
+  "pair_monomial": "f0*f10",
+  "pair_open_after_normalization": "f10",
+  "schema": "hc4-decimic-j2-normalized-chart-scout-v1",
+  "solver_source_sha256": "ea1fd114cf434460e65075a3d74dd66d488be85ca3005b1e7f2cd0f604963136",
+  "source_sha256": {
+    "scripts/certify_residual_orbit_torus.py": "7ee25cb3dfd6f958638d0fbacc664c7abd9c3dfb82c2d17e31d9a0b7b56d2024",
+    "scripts/msolve_process.py": "eab4248976c6ff0463efa5468458ca549d1291c76200349a966e9883a741baef",
+    "scripts/scout_decimic_nullcone_hsop.py": "b07062cc86c2f5adf40a0d236648871b54c6ace1403886b51670ed539c425061",
+    "scripts/scout_j2_normalized_chart.py": "b668451a394b4f671630ff045eb8f6fa44b9869517242db8eedd8f0dc9bd5cab"
+  },
+  "substitutions": {
+    "f0": "1"
+  },
+  "threads": 4,
+  "variable_count": 22,
+  "wall_seconds": 184.40188937500352
+}

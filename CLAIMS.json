@@ -1,0 +1,41 @@
+{
+  "schema": "evidence-press/claims/v1",
+  "release_id": "hc4-five-support-structural-reductions/0.1.0-candidate",
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "A nonzero binary-decimic restriction with exactly five distinct projective roots cannot satisfy the frozen clean double-conic normal-layer equation det Hess(h5)=q^4 ell with ell nonzero in characteristic zero.",
+      "status": "computer_assisted_exact_characteristic_zero_certificate",
+      "evidence": ["FIVE_SUPPORT_THEOREM.md", "receipts/five-support-theorem-audit.json", "paper.pdf"],
+      "scope_limit": "Exactly five distinct support points only; no claim for six or more support points."
+    },
+    {
+      "id": "C2",
+      "claim": "All 31 generators of the binary-decimic multiplicity-six locus lie in the radical of the frozen tangent normal-layer ideal.",
+      "status": "computer_assisted_exact_characteristic_zero_certificate",
+      "evidence": ["TANGENT_NULLCONE_ALL_GENERATORS_CERTIFICATE.md", "receipts/decimic-nullcone-crl-61111-macaulay2-exact.json", "paper.pdf"],
+      "scope_limit": "Tangent residual-quadratic orbit only; no transfer to the secant orbit is claimed."
+    },
+    {
+      "id": "C3",
+      "claim": "The three displayed rational quartics h, h2 and h3 are successive localized-colon elements for the frozen secant chart.",
+      "status": "exact_rational_coefficientwise_identities",
+      "evidence": ["SECOND_COLON_IDENTITY_REPORT.md", "artifacts/j2-secant-r10-second-colon-kernel-qq-candidate.json", "artifacts/j2-secant-r10-third-colon-kernel-qq-candidate.json", "paper.pdf"],
+      "scope_limit": "No full colon equality, saturation, or fourth-target membership is claimed."
+    },
+    {
+      "id": "C4",
+      "claim": "Each of the sixteen prospectively selected free source columns extends to an exact rational source-module syzygy in the frozen fourth character-two Macaulay block.",
+      "status": "exact_rational_reconstruction_and_direct_polynomial_replay",
+      "evidence": ["artifacts/fourth-colon-p173-c16-interface-v1/rational-candidates.json", "artifacts/fourth-colon-p173-c16-interface-v1/p4-reconstruction.json", "receipts/hsop-j2-secant-r10-fourth-colon-c16-rational-syzygies-independent-audit.json", "receipts/hsop-j2-secant-r10-fourth-colon-c16-kernel-batch-terminal.json", "paper.pdf"],
+      "scope_limit": "Source-kernel theorem only; it does not establish rational membership of M*h4 or any closure theorem."
+    },
+    {
+      "id": "C5",
+      "claim": "The bundled release does not solve HC4 or JC2 and leaves the secant-orbit closure and fourth-target gates open.",
+      "status": "explicit_claim_boundary",
+      "evidence": ["paper.pdf", "ASSURANCE.md", "CLAIM_LEDGER.json"]
+    }
+  ]
+}
+

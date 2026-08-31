@@ -1,0 +1,387 @@
+{
+  "boundary": "W=0 and R=0 are proved cells of the nested cover; the only unproved divisor is Delta=0, exactly the normalized support-collision divisor",
+  "build_seconds": 21.11704370798543,
+  "cells": {
+    "H0T0": {
+      "line_relations": [
+        "line_x=-E33",
+        "line_y=-E42",
+        "line_z=-E43"
+      ],
+      "steps": [
+        "E3 solves g6; E49 solves g2; E6 solves g3",
+        "E2, E4, E5 solve g7, g5, g4 with constant leading coefficients"
+      ],
+      "substitution_sha256": {
+        "g0": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+        "g1": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+        "g2": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+        "g3": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+        "g4": "b9d6405772edde05cd9f46c39e352f5bd11d19b6f9f39b7174fe3b579f1c10d8",
+        "g5": "076e5d11259f783ac4347f7e170115b8e48e274a140a67e2ff7cd289614da378",
+        "g6": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+        "g7": "22054ec116663f4fde8d643a7bc24f10b226e88f0d5ee78aa88343ec754df344",
+        "g8": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+        "g9": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+      }
+    },
+    "H0T1_W0": {
+      "equation": "E7=72*P",
+      "factor": "la**2*mu**2 - 2*la**2*mu + la**2 - 2*la*mu**2 - 2*la*mu + mu**2",
+      "line_quotient_sha256": {
+        "line_x": "e720e9b6abc76fc4b21cf10b6c093b5b25a03f724c25d0af76bce33b16afa3c4",
+        "line_y": "aad778da5201c45d528a3b37f8b80d6810df247997b5d2e6cbceaea6c2f4280a",
+        "line_z": "3f8c623ba202c590b35958da303997945a62c1858d78003ccd8e67dca75f0df4"
+      }
+    },
+    "H0T1_W1": {
+      "equation_stream_sha256": "d98b7d0144aedcaec1d1187d65ab682ccb554feffc1a1365de086f86aff7b219",
+      "label": "H0T1 W!=0",
+      "line_numerator_sha256": {
+        "line_x": "b7ca63107fd3717a0c25861c19ee937814d8a2c5f5b6be69f26f9aea8ece2a00",
+        "line_y": "c1327c80c6cd803817f3f78b73bbe394eeeeffea63486e99d689331188d1c422",
+        "line_z": "23784840d40596dfa7c155bea988c8690ed36e6fa4f6e595265525143eadf6c2"
+      },
+      "open_factor": "la*mu*w*(la - 1)*(la - mu)*(mu - 1)",
+      "reduced_equation_count": 33,
+      "runs": [
+        {
+          "algorithm": "std",
+          "basis_size": "1",
+          "child_system_seconds_immediate_scope": 0.0041259999999999995,
+          "child_user_seconds_immediate_scope": 0.478925,
+          "forced_group_kill": false,
+          "line": "line_x",
+          "maximum_rss_native_immediate_scope": 10256384,
+          "process_group_terminated": false,
+          "resource_accounting": "wall time authoritative; CPU/RSS counters may omit delegated worker descendants",
+          "return_code": 0,
+          "singular_source_sha256": "7c350f945051d112ee617cd6951024e9665d1493a8d44f0357f3504b4f978bb5",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.4883435409865342
+        },
+        {
+          "algorithm": "std",
+          "basis_size": "1",
+          "child_system_seconds_immediate_scope": 0.0039050000000000005,
+          "child_user_seconds_immediate_scope": 0.35997699999999994,
+          "forced_group_kill": false,
+          "line": "line_y",
+          "maximum_rss_native_immediate_scope": 15499264,
+          "process_group_terminated": false,
+          "resource_accounting": "wall time authoritative; CPU/RSS counters may omit delegated worker descendants",
+          "return_code": 0,
+          "singular_source_sha256": "fe81e6c8d6a07a29f5ece2bdf77dc6e9e95ebd06913adbbd10ce42cfe22e4aeb",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.36733191699022427
+        },
+        {
+          "algorithm": "std",
+          "basis_size": "1",
+          "child_system_seconds_immediate_scope": 0.004199999999999999,
+          "child_user_seconds_immediate_scope": 0.35513400000000017,
+          "forced_group_kill": false,
+          "line": "line_z",
+          "maximum_rss_native_immediate_scope": 15499264,
+          "process_group_terminated": false,
+          "resource_accounting": "wall time authoritative; CPU/RSS counters may omit delegated worker descendants",
+          "return_code": 0,
+          "singular_source_sha256": "211945e7293852569f7494fa0a0c6dc964cf1d391352eba6034f104b7a4acd82",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.3627177909947932
+        }
+      ],
+      "variables": [
+        "w",
+        "la",
+        "mu"
+      ]
+    },
+    "H1T0": {
+      "line_relations": [
+        "line_x=-E33",
+        "line_y=-E42",
+        "line_z=-E43"
+      ],
+      "steps": [
+        "E3, E6, E2, E4 solve g6, g3, g7, g5",
+        "E49 and E5 solve g4 and g2 over Delta",
+        "E8 solves g1 with constant leading coefficient"
+      ],
+      "substitution_sha256": {
+        "g0": "419a382208c9ae0ff56845b41cbf65b6b7b6819ded747143a23cc02be379a00a",
+        "g1": "3b1562cf37dc08fc18c4774646692de9e0228ef789b68dc3cd1d5eedfe0f9ec4",
+        "g2": "bf178154a2a122056af0fc89176cf8da4c011b866418b6017ca950b3b8e18f97",
+        "g3": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+        "g4": "e7da0f0ffa91a4c687d39452de7461201d16cedb3907da195d0da24c5c6bc39f",
+        "g5": "076e5d11259f783ac4347f7e170115b8e48e274a140a67e2ff7cd289614da378",
+        "g6": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+        "g7": "22054ec116663f4fde8d643a7bc24f10b226e88f0d5ee78aa88343ec754df344",
+        "g8": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+        "g9": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+      }
+    },
+    "H1T1_W0": {
+      "equation_stream_sha256": "04cfc992ed97cd342c15151ff2704bf1dc053310d8cf1450a4c067db5f55b292",
+      "label": "H1T1 W=0",
+      "line_numerator_sha256": {
+        "line_x": "b6572c12d8e465987109f7f9704a128c489cbada46892024d649e35abfb8f9b4",
+        "line_y": "2ffc5fed693a904fa6c6dc8064786969cc09976701473b4af12850abfc9df98c",
+        "line_z": "d5056429ddfefdc1b40c8d53eebf4a07349f86ea3dadd271f5e29f077184de13"
+      },
+      "open_factor": "la*mu*(la - 1)*(la - mu)*(mu - 1)",
+      "reduced_equation_count": 36,
+      "runs": [
+        {
+          "algorithm": "std",
+          "basis_size": "1",
+          "child_system_seconds_immediate_scope": 0.005551,
+          "child_user_seconds_immediate_scope": 0.7323869999999999,
+          "forced_group_kill": false,
+          "line": "line_x",
+          "maximum_rss_native_immediate_scope": 15499264,
+          "process_group_terminated": false,
+          "resource_accounting": "wall time authoritative; CPU/RSS counters may omit delegated worker descendants",
+          "return_code": 0,
+          "singular_source_sha256": "5aa105aeb152e96e9fc799855d8697ec65db4eec32c0c236d8101d80f1f2abc2",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.7440703329921234
+        },
+        {
+          "algorithm": "std",
+          "basis_size": "1",
+          "child_system_seconds_immediate_scope": 0.006586999999999999,
+          "child_user_seconds_immediate_scope": 0.9697880000000001,
+          "forced_group_kill": false,
+          "line": "line_y",
+          "maximum_rss_native_immediate_scope": 15499264,
+          "process_group_terminated": false,
+          "resource_accounting": "wall time authoritative; CPU/RSS counters may omit delegated worker descendants",
+          "return_code": 0,
+          "singular_source_sha256": "a42e2e5438e6946a03b0b028809bc7e96ad566f8de9918317945d5400a6f689d",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.9851305419870187
+        },
+        {
+          "algorithm": "std",
+          "basis_size": "1",
+          "child_system_seconds_immediate_scope": 0.009994,
+          "child_user_seconds_immediate_scope": 1.0373809999999999,
+          "forced_group_kill": false,
+          "line": "line_z",
+          "maximum_rss_native_immediate_scope": 15499264,
+          "process_group_terminated": false,
+          "resource_accounting": "wall time authoritative; CPU/RSS counters may omit delegated worker descendants",
+          "return_code": 0,
+          "singular_source_sha256": "d7a30740d6095b5b3044484b5fffb39b146328e29860adb8d7760129a6a63796",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 1.0807557499792892
+        }
+      ],
+      "variables": [
+        "g2",
+        "g3",
+        "g6",
+        "u",
+        "la",
+        "mu"
+      ]
+    },
+    "H1T1_W1_R0": {
+      "equation_stream_sha256": "0da34bb399ec3e05e23f885d1a8ea75915460b93fe7b746f95153995b5745fab",
+      "label": "H1T1 W!=0 R=0",
+      "line_numerator_sha256": {
+        "line_x": "047d8b71ccc00b2b61a3535fd8b3358e24455f0d56caaa553a918ba77be8f1ca",
+        "line_y": "7f2a51c47e26d4d35edeed4766f78613dc33bd795c8d962c2f16b32f3bf19447",
+        "line_z": "0d362344d727f4c2575690636c542acbbf8b480fd7a01d47c6440fc3c77c13c7"
+      },
+      "open_factor": "la*mu*w*(la - 1)*(la - mu)*(mu - 1)",
+      "reduced_equation_count": 33,
+      "runs": [
+        {
+          "algorithm": "std",
+          "basis_size": "1",
+          "child_system_seconds_immediate_scope": 0.056132999999999995,
+          "child_user_seconds_immediate_scope": 13.83851,
+          "forced_group_kill": false,
+          "line": "line_x",
+          "maximum_rss_native_immediate_scope": 95354880,
+          "process_group_terminated": false,
+          "resource_accounting": "wall time authoritative; CPU/RSS counters may omit delegated worker descendants",
+          "return_code": 0,
+          "singular_source_sha256": "6d9b39189d3a1741aec6ac6013c00f4fb1fd4f755b703f53a33eb28a49fd9a0d",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 13.945862082997337
+        },
+        {
+          "algorithm": "std",
+          "basis_size": "1",
+          "child_system_seconds_immediate_scope": 0.06770899999999999,
+          "child_user_seconds_immediate_scope": 15.577955999999997,
+          "forced_group_kill": false,
+          "line": "line_y",
+          "maximum_rss_native_immediate_scope": 149766144,
+          "process_group_terminated": false,
+          "resource_accounting": "wall time authoritative; CPU/RSS counters may omit delegated worker descendants",
+          "return_code": 0,
+          "singular_source_sha256": "6c77b26f22b9910eeae57caabdbc6d3afbf30d465b30078245ed322eb2a089d6",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 15.724241957999766
+        },
+        {
+          "algorithm": "std",
+          "basis_size": "1",
+          "child_system_seconds_immediate_scope": 0.07854,
+          "child_user_seconds_immediate_scope": 13.957622,
+          "forced_group_kill": false,
+          "line": "line_z",
+          "maximum_rss_native_immediate_scope": 149766144,
+          "process_group_terminated": false,
+          "resource_accounting": "wall time authoritative; CPU/RSS counters may omit delegated worker descendants",
+          "return_code": 0,
+          "singular_source_sha256": "b12da2c900dbe4e0b3aac061f392e129b9870a51606739e6bae900241ed34c9a",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 14.156644167000195
+        }
+      ],
+      "variables": [
+        "g2",
+        "w",
+        "la",
+        "mu"
+      ]
+    },
+    "H1T1_W1_R1": {
+      "equation_stream_sha256": "da028a9436dcca1ca337f342d71ca2896d215d6d69c416fbeb34e8dd91d0b0d5",
+      "label": "H1T1 W!=0 R!=0",
+      "line_numerator_sha256": {
+        "line_x": "2383c64c648f049a3cf13242bf2831e9182cbeaa342b90c31a9a1fc9bcb499d8",
+        "line_y": "0709b77255b4a2635ec93eaa8ee0754f10a06dc8f60949231624098a96edc005",
+        "line_z": "6b086b2effe1d0d29b0dfc5be216c47cc376ea1b07b85302c9f39bfe7fae544a"
+      },
+      "open_factor": "la*mu*w*(la - 1)*(la - mu)*(mu - 1)*(la**2 - 2*la*mu - 2*la + mu**2 - 2*mu + u + 1)",
+      "pivots": [
+        "E3",
+        "E49",
+        "E6",
+        "E7",
+        "E48",
+        "E10"
+      ],
+      "reduced_equation_count": 4,
+      "runs": [
+        {
+          "algorithm": "modStd",
+          "basis_size": "1",
+          "child_system_seconds_immediate_scope": 0.06465300000000002,
+          "child_user_seconds_immediate_scope": 0.9566970000000055,
+          "forced_group_kill": false,
+          "line": "line_x",
+          "maximum_rss_native_immediate_scope": 149766144,
+          "process_group_terminated": false,
+          "resource_accounting": "wall time authoritative; CPU/RSS counters may omit delegated worker descendants",
+          "return_code": 0,
+          "singular_source_sha256": "6c10d9191cb46c5638b25f210d4627c5d19f32abf20d2da0193b4032fff1d344",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.2901003749866504
+        },
+        {
+          "algorithm": "modStd",
+          "basis_size": "1",
+          "child_system_seconds_immediate_scope": 0.437652,
+          "child_user_seconds_immediate_scope": 64.59232599999999,
+          "forced_group_kill": false,
+          "line": "line_y",
+          "maximum_rss_native_immediate_scope": 149766144,
+          "process_group_terminated": false,
+          "resource_accounting": "wall time authoritative; CPU/RSS counters may omit delegated worker descendants",
+          "return_code": 0,
+          "singular_source_sha256": "c441d1df96426a7f26c87128ef231118c33c6fdacc0776f5d20b85e32a2baadb",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 15.470342374988832
+        },
+        {
+          "algorithm": "modStd",
+          "basis_size": "1",
+          "child_system_seconds_immediate_scope": 0.343229,
+          "child_user_seconds_immediate_scope": 30.189892,
+          "forced_group_kill": false,
+          "line": "line_z",
+          "maximum_rss_native_immediate_scope": 149766144,
+          "process_group_terminated": false,
+          "resource_accounting": "wall time authoritative; CPU/RSS counters may omit delegated worker descendants",
+          "return_code": 0,
+          "singular_source_sha256": "c959bb75a5578226759dca1c9ac964055a327a951095fccdc637c15104eb4ed0",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 7.195683166006347
+        }
+      ],
+      "selected_original_equation_indices": [
+        31,
+        39,
+        11,
+        12
+      ],
+      "variables": [
+        "u",
+        "w",
+        "la",
+        "mu"
+      ]
+    }
+  },
+  "certificate_seconds": 191.6997519590368,
+  "claim_boundary": "exact open-locus closure for this partition; Delta=0 invokes the separately pinned support-at-most-four theorem",
+  "coefficient_ring": "Q[lambda,mu,g0,...,g9,1/Delta]",
+  "conclusion": "the residual-line ideal is radical-zero on the normalized distinct-five-root locus for partition (2,2,2,2,2)",
+  "discarded_route_observation": {
+    "observed_child_user_seconds": 591.159777,
+    "observed_maximum_rss_native_bytes": 2018557952,
+    "observed_wall_seconds": 600.0553434169851,
+    "replacement": "split R=0/R!=0 and use the four-equation compact R!=0 certificate",
+    "scope": "central H1T1 W!=0 unsplit line_x",
+    "status": "TIMEOUT_ROUTE_EVIDENCE_ONLY",
+    "timeout_seconds": 600
+  },
+  "equation_count": 52,
+  "equation_stream_sha256": "eaae02a9d4cbfa3e7cf10b1c81e99cf65d321a5a933f233bdb702aa9469e62c0",
+  "line_coordinate_sha256": {
+    "line_x": "7470cc95d600257e524d73f5654387ed96eb32faf9a538d94b003a240c31f4f5",
+    "line_y": "b6f1e39f95ff7fc599148c7487bba70aa380a9c40628dbc22ba9226830639079",
+    "line_z": "238c931aaed4f1e18726aaf1bd7d8f810a29e958bbfd7c087f38f54a87dc20fb"
+  },
+  "partition": [
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "radical_cover": {
+    "head": [
+      "E51=32*g0*(g0+lambda^2*mu^2)^2",
+      "on g0=0, E50=96*g1*lambda^4*mu^4",
+      "branches H0: g0=g1=0 and H1: g0=-lambda^2*mu^2"
+    ],
+    "tail": [
+      "E0=32*g9*(g9+1)^2",
+      "on g9=0, E1=96*g8",
+      "branches T0: g9=g8=0 and T1: g9=-1"
+    ]
+  },
+  "schema": "hc4-five-support-nested-endpoint-cover-22222-v1",
+  "status": "PASS",
+  "wall_seconds": 212.81679650000297
+}

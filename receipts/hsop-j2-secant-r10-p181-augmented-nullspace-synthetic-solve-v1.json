@@ -1,0 +1,285 @@
+{
+  "claim_boundary": "A full PASS certifies only reusable exact explicit-solve capability for synthetic known-vector right-hand sides on the actual coefficient map. It proves no target membership, QQ identity, p-adic digit, colon, saturation, secant closure, nullcone containment, or HC4.",
+  "declarations": {
+    "existing_multiplier_vectors_not_read": true,
+    "no_mod181_squared": true,
+    "no_p_adic_digit": true,
+    "no_target_membership_test": true,
+    "synthetic_rhs_only": true,
+    "target_rhs_not_read": true,
+    "third_candidate_not_read": true
+  },
+  "implementation_freeze": {
+    "path": "receipts/hsop-j2-secant-r10-p181-augmented-nullspace-synthetic-solve-implementation-freeze.json",
+    "sha256": "592da663afddfe825da03d4982ba8b358ce03f24ab6a5dca409267c4fbea9502"
+  },
+  "promoted": {
+    "artifact": {
+      "scout.json": "05765d8c72da2eaa0f79f28013a3b003331983ff651f006d8db3ef714bb8272d",
+      "solution-16384.u8": "d5bfcb5934119b4f29e7254d8cd620b21bc51bda0d17281bd348be2b3a3a609a",
+      "solution-35881.u8": "ebcf2e6338e5eb81ba7b9fd58f8c9366a8b5ddb48c27cef7fcd34e9c27663d28",
+      "solution-4096.u8": "b96a4e6c7023bcf352f716803c627f5381b59acd57672b31e5e0aba219b99bcb",
+      "solution-8192.u8": "a7ca07d2c1c68216056e685b057e94f54fe9da5714b3473622a649ad449f831c"
+    },
+    "telemetry": {
+      "columns-16384/benchmark.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "columns-16384/benchmark.stdout.txt": "071de7119dac708fa8ce84f71b41d51b31d9f2cec166b4ac9fb3d4986b9e8f01",
+      "columns-16384/benchmark.time.txt": "426af3d7be6edb0fe096c2a28e73c80b0d07f47a7c3cee40383782360d91772f",
+      "columns-35881/benchmark.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "columns-35881/benchmark.stdout.txt": "ddb231463b7d00f208bbb2732513b469a86b24813705ed7c16bc173634c3ae0e",
+      "columns-35881/benchmark.time.txt": "bc3aba55a8419260ac14776a97e4ccb272bf8fa7d5bdf8e66e4cad4a132ae2ff",
+      "columns-4096/benchmark.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "columns-4096/benchmark.stdout.txt": "abe0b64c5c49b942337819c098fd20ae9a6db896f8e00ed3e804991665dc7f23",
+      "columns-4096/benchmark.time.txt": "72d9b4ba5d59eb68b700be98426d70f37d922c785721517ba108acb35010f225",
+      "columns-8192/benchmark.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "columns-8192/benchmark.stdout.txt": "83ea4723c2c8928b09f02f02f8273ab3dbba021b35450d6d1a0088abd2c33cdf",
+      "columns-8192/benchmark.time.txt": "8d29baff2a139e8bb3882377b811813e23bf5d9c31b004b44f545de5e3616877"
+    }
+  },
+  "schema": "hc4.decimic-j2-secant-r10-p181-augmented-nullspace-synthetic-solve.v1",
+  "stage_order": [
+    4096,
+    8192,
+    16384,
+    35881
+  ],
+  "stages": [
+    {
+      "columns": 4096,
+      "driver": {
+        "augmentation_seconds": 0.00300863,
+        "coefficient_nonzeros": 146642,
+        "columns": 4096,
+        "known_solution_mismatches": 0,
+        "last_null_coordinate": 1,
+        "load_seconds": 0.0306377,
+        "mode": "synthetic_known_solution",
+        "nullspace_seconds": 1.4894,
+        "replay_mismatches": 0,
+        "replay_seconds": 0.000706333,
+        "rows": 85651,
+        "status": "PASS_LINBOX_AUGMENTED_NULLSPACE_MOD181_SYNTHETIC_SOLVE",
+        "wall_seconds": 1.52456
+      },
+      "solution": {
+        "bytes": 4096,
+        "path": "artifacts/staging/p181-augmented-nullspace-synthetic-solve-20260831T001/solution-4096.u8",
+        "sha256": "b96a4e6c7023bcf352f716803c627f5381b59acd57672b31e5e0aba219b99bcb"
+      },
+      "status": "PASS",
+      "telemetry": {
+        "ancestry_samples": 6,
+        "command": [
+          "/usr/bin/time",
+          "-l",
+          "-o",
+          "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-augmented-nullspace-synthetic-solve-telemetry-20260831T001/columns-4096/benchmark.time.txt",
+          "/opt/homebrew/bin/gtimeout",
+          "-s",
+          "TERM",
+          "-k",
+          "10s",
+          "90s",
+          "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/bin/linbox_augmented_nullspace_mod181_solve_driver",
+          "--csr",
+          "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/third-colon-p181-target-blind-linbox-benchmark-v2/A_C_mod181_target_free.csr",
+          "--columns",
+          "4096",
+          "--solution-output",
+          "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-augmented-nullspace-synthetic-solve-20260831T001/solution-4096.u8"
+        ],
+        "external_time": {
+          "maximum_rss_bytes": 27279360,
+          "process_swaps": 0,
+          "raw_sha256": "72d9b4ba5d59eb68b700be98426d70f37d922c785721517ba108acb35010f225",
+          "real_seconds": 1.54,
+          "system_seconds": 0.02,
+          "user_seconds": 1.41
+        },
+        "return_code": 0,
+        "rss_breach_killed": false,
+        "sampled_descendant_rss_peak_bytes": 29507584,
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stdout_sha256": "abe0b64c5c49b942337819c098fd20ae9a6db896f8e00ed3e804991665dc7f23"
+      }
+    },
+    {
+      "columns": 8192,
+      "driver": {
+        "augmentation_seconds": 0.00545392,
+        "coefficient_nonzeros": 301450,
+        "columns": 8192,
+        "known_solution_mismatches": 0,
+        "last_null_coordinate": 1,
+        "load_seconds": 0.0276372,
+        "mode": "synthetic_known_solution",
+        "nullspace_seconds": 5.4409,
+        "replay_mismatches": 0,
+        "replay_seconds": 0.0129851,
+        "rows": 85651,
+        "status": "PASS_LINBOX_AUGMENTED_NULLSPACE_MOD181_SYNTHETIC_SOLVE",
+        "wall_seconds": 5.4886
+      },
+      "solution": {
+        "bytes": 8192,
+        "path": "artifacts/staging/p181-augmented-nullspace-synthetic-solve-20260831T001/solution-8192.u8",
+        "sha256": "a7ca07d2c1c68216056e685b057e94f54fe9da5714b3473622a649ad449f831c"
+      },
+      "status": "PASS",
+      "telemetry": {
+        "ancestry_samples": 20,
+        "command": [
+          "/usr/bin/time",
+          "-l",
+          "-o",
+          "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-augmented-nullspace-synthetic-solve-telemetry-20260831T001/columns-8192/benchmark.time.txt",
+          "/opt/homebrew/bin/gtimeout",
+          "-s",
+          "TERM",
+          "-k",
+          "10s",
+          "150s",
+          "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/bin/linbox_augmented_nullspace_mod181_solve_driver",
+          "--csr",
+          "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/third-colon-p181-target-blind-linbox-benchmark-v2/A_C_mod181_target_free.csr",
+          "--columns",
+          "8192",
+          "--solution-output",
+          "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-augmented-nullspace-synthetic-solve-20260831T001/solution-8192.u8"
+        ],
+        "external_time": {
+          "maximum_rss_bytes": 35078144,
+          "process_swaps": 0,
+          "raw_sha256": "8d29baff2a139e8bb3882377b811813e23bf5d9c31b004b44f545de5e3616877",
+          "real_seconds": 5.5,
+          "system_seconds": 0.06,
+          "user_seconds": 5.09
+        },
+        "return_code": 0,
+        "rss_breach_killed": false,
+        "sampled_descendant_rss_peak_bytes": 37748736,
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stdout_sha256": "83ea4723c2c8928b09f02f02f8273ab3dbba021b35450d6d1a0088abd2c33cdf"
+      }
+    },
+    {
+      "columns": 16384,
+      "driver": {
+        "augmentation_seconds": 0.0377547,
+        "coefficient_nonzeros": 546088,
+        "columns": 16384,
+        "known_solution_mismatches": 0,
+        "last_null_coordinate": 1,
+        "load_seconds": 0.0431552,
+        "mode": "synthetic_known_solution",
+        "nullspace_seconds": 17.6502,
+        "replay_mismatches": 0,
+        "replay_seconds": 0.00281462,
+        "rows": 85651,
+        "status": "PASS_LINBOX_AUGMENTED_NULLSPACE_MOD181_SYNTHETIC_SOLVE",
+        "wall_seconds": 17.7373
+      },
+      "solution": {
+        "bytes": 16384,
+        "path": "artifacts/staging/p181-augmented-nullspace-synthetic-solve-20260831T001/solution-16384.u8",
+        "sha256": "d5bfcb5934119b4f29e7254d8cd620b21bc51bda0d17281bd348be2b3a3a609a"
+      },
+      "status": "PASS",
+      "telemetry": {
+        "ancestry_samples": 60,
+        "command": [
+          "/usr/bin/time",
+          "-l",
+          "-o",
+          "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-augmented-nullspace-synthetic-solve-telemetry-20260831T001/columns-16384/benchmark.time.txt",
+          "/opt/homebrew/bin/gtimeout",
+          "-s",
+          "TERM",
+          "-k",
+          "10s",
+          "300s",
+          "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/bin/linbox_augmented_nullspace_mod181_solve_driver",
+          "--csr",
+          "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/third-colon-p181-target-blind-linbox-benchmark-v2/A_C_mod181_target_free.csr",
+          "--columns",
+          "16384",
+          "--solution-output",
+          "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-augmented-nullspace-synthetic-solve-20260831T001/solution-16384.u8"
+        ],
+        "external_time": {
+          "maximum_rss_bytes": 50085888,
+          "process_swaps": 0,
+          "raw_sha256": "426af3d7be6edb0fe096c2a28e73c80b0d07f47a7c3cee40383782360d91772f",
+          "real_seconds": 17.76,
+          "system_seconds": 0.16,
+          "user_seconds": 15.95
+        },
+        "return_code": 0,
+        "rss_breach_killed": false,
+        "sampled_descendant_rss_peak_bytes": 52707328,
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stdout_sha256": "071de7119dac708fa8ce84f71b41d51b31d9f2cec166b4ac9fb3d4986b9e8f01"
+      }
+    },
+    {
+      "columns": 35881,
+      "driver": {
+        "augmentation_seconds": 0.0166747,
+        "coefficient_nonzeros": 1354540,
+        "columns": 35881,
+        "known_solution_mismatches": 0,
+        "last_null_coordinate": 43,
+        "load_seconds": 0.0537965,
+        "mode": "synthetic_known_solution",
+        "nullspace_seconds": 102.557,
+        "replay_mismatches": 0,
+        "replay_seconds": 0.0112327,
+        "rows": 85651,
+        "status": "PASS_LINBOX_AUGMENTED_NULLSPACE_MOD181_SYNTHETIC_SOLVE",
+        "wall_seconds": 102.644
+      },
+      "solution": {
+        "bytes": 35881,
+        "path": "artifacts/staging/p181-augmented-nullspace-synthetic-solve-20260831T001/solution-35881.u8",
+        "sha256": "ebcf2e6338e5eb81ba7b9fd58f8c9366a8b5ddb48c27cef7fcd34e9c27663d28"
+      },
+      "status": "PASS",
+      "telemetry": {
+        "ancestry_samples": 330,
+        "command": [
+          "/usr/bin/time",
+          "-l",
+          "-o",
+          "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-augmented-nullspace-synthetic-solve-telemetry-20260831T001/columns-35881/benchmark.time.txt",
+          "/opt/homebrew/bin/gtimeout",
+          "-s",
+          "TERM",
+          "-k",
+          "10s",
+          "600s",
+          "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/bin/linbox_augmented_nullspace_mod181_solve_driver",
+          "--csr",
+          "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/third-colon-p181-target-blind-linbox-benchmark-v2/A_C_mod181_target_free.csr",
+          "--columns",
+          "35881",
+          "--solution-output",
+          "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-augmented-nullspace-synthetic-solve-20260831T001/solution-35881.u8"
+        ],
+        "external_time": {
+          "maximum_rss_bytes": 151683072,
+          "process_swaps": 0,
+          "raw_sha256": "bc3aba55a8419260ac14776a97e4ccb272bf8fa7d5bdf8e66e4cad4a132ae2ff",
+          "real_seconds": 102.74,
+          "system_seconds": 1.38,
+          "user_seconds": 89.01
+        },
+        "return_code": 0,
+        "rss_breach_killed": false,
+        "sampled_descendant_rss_peak_bytes": 103710720,
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stdout_sha256": "ddb231463b7d00f208bbb2732513b469a86b24813705ed7c16bc173634c3ae0e"
+      }
+    }
+  ],
+  "status": "PASS_ACTUAL_COEFFICIENT_AUGMENTED_NULLSPACE_SYNTHETIC_SOLVE_SCALING"
+}

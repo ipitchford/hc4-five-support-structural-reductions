@@ -1,0 +1,86 @@
+{
+  "claim_boundary": "A PASS proves only the explicit M*h3 identity over GF(181) in the fixed zero-free gauge. It is not a QQ identity, p-adic lift, colon or saturation equality, secant closure, nullcone containment, or HC4 theorem.",
+  "declarations": {
+    "existing_multiplier_or_solution_not_read": true,
+    "explicit_Mh3_target_used": true,
+    "no_mod181_squared": true,
+    "no_rational_reconstruction": true,
+    "quarantined_dixon_data_not_read": true
+  },
+  "driver": {
+    "augmentation_seconds": 0.00924075,
+    "augmented_nullity": 1,
+    "coefficient_nonzeros": 1354540,
+    "columns": 35881,
+    "last_null_coordinate": 1,
+    "load_seconds": 0.0412905,
+    "mode": "explicit_target",
+    "nullspace_seconds": 58.4589,
+    "replay_mismatches": 0,
+    "replay_seconds": 0.0100599,
+    "rows": 85651,
+    "status": "PASS_LINBOX_AUGMENTED_NULLSPACE_MOD181_EXPLICIT_TARGET_SOLVE",
+    "wall_seconds": 58.5204
+  },
+  "implementation_freeze": {
+    "path": "receipts/hsop-j2-secant-r10-p181-explicit-target-solve-implementation-freeze.json",
+    "sha256": "518ac582268f2bed9ef1a06dea9ccfcac319c2b98fd2fbe0bc9a668f1f911245"
+  },
+  "inputs": {
+    "csr_sha256": "2207744adde8f96a7d835fc078ffd188ce33814f2db880e1aef9b8a47b09a6ef",
+    "rhs_sha256": "72d15610c6630a4d1929029476cb9b01d8494bc502b9b68457674795dcd1c76f"
+  },
+  "promoted": {
+    "artifact": {
+      "scout.json": "fb7c20d8b7a1b66ed135e3992696ff523ad162ab0fc9e0783bd95613571896ea",
+      "solution_mod181.u8": "5c37ce8fda3829baeef36f58002589e289bdd552939f61216b3ce257af456e58"
+    },
+    "telemetry": {
+      "benchmark.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "benchmark.stdout.txt": "3d6de5e206927675ea6963e0b33fd99794e34e24e8f3acd400d81471bdcd33dd",
+      "benchmark.time.txt": "630523ea53482452d3e76c14978602f6166d516ed3f1e1e46f489729e0d7587c"
+    }
+  },
+  "schema": "hc4.decimic-j2-secant-r10-p181-explicit-target-augmented-nullspace-solve.v1",
+  "solution": {
+    "bytes": 35881,
+    "path": "artifacts/staging/p181-explicit-target-solve-20260831T001/solution_mod181.u8",
+    "sha256": "5c37ce8fda3829baeef36f58002589e289bdd552939f61216b3ce257af456e58"
+  },
+  "status": "PASS_P181_EXPLICIT_TARGET_AUGMENTED_NULLSPACE_SOLVE",
+  "telemetry": {
+    "ancestry_samples": 210,
+    "command": [
+      "/usr/bin/time",
+      "-l",
+      "-o",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-explicit-target-solve-telemetry-20260831T001/benchmark.time.txt",
+      "/opt/homebrew/bin/gtimeout",
+      "-s",
+      "TERM",
+      "-k",
+      "10s",
+      "600s",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/bin/linbox_augmented_nullspace_mod181_target_driver",
+      "--csr",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/third-colon-p181-target-blind-linbox-benchmark-v2/A_C_mod181_target_free.csr",
+      "--rhs",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/third-colon-p181-explicit-target-rhs-v1/target_rhs_mod181.u8",
+      "--solution-output",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-explicit-target-solve-20260831T001/solution_mod181.u8"
+    ],
+    "external_time": {
+      "maximum_rss_bytes": 132988928,
+      "process_swaps": 0,
+      "raw_sha256": "630523ea53482452d3e76c14978602f6166d516ed3f1e1e46f489729e0d7587c",
+      "real_seconds": 58.89,
+      "system_seconds": 0.4,
+      "user_seconds": 56.46
+    },
+    "return_code": 0,
+    "rss_breach_killed": false,
+    "sampled_descendant_rss_peak_bytes": 96829440,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "3d6de5e206927675ea6963e0b33fd99794e34e24e8f3acd400d81471bdcd33dd"
+  }
+}

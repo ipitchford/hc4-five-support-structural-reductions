@@ -1,0 +1,27 @@
+{
+  "schema": "hc4.third-colon-p181-support18-two-digit-lift-independent-audit-implementation-freeze.v1",
+  "status": "PASS_P181_SUPPORT18_TWO_DIGIT_INDEPENDENT_AUDIT_IMPLEMENTATION_FREEZE",
+  "bound_files": {
+    "research/THIRD_COLON_P181_SUPPORT18_TWO_DIGIT_INDEPENDENT_AUDIT_PREREGISTRATION.md": "753a1143253efbe2540e54f8f46ea5ab0808536fbbf02cdd5f1db8c0c9451d68",
+    "scripts/audit_p181_support18_two_digit_lift_independent.py": "43a315e8d57e9cfc35b8988b8ea055dc2874e1f49954a9aa7d0b6d40188a0676",
+    "scripts/audit_p181_sparse4_two_digit_lift_independent.py": "aa148541ed66fde232fce7d423775c573246d9b3e00bdfe65479a833dd1bab85",
+    "scripts/audit_j2_secant_r10_third_colon_residual_114_quotient_independent.py": "81ad24d01ae70a0ca2731259753d99a429bd48ae288e77105120dd800009396d",
+    "receipts/hsop-j2-secant-r10-p181-support18-two-digit-lift-terminal.json": "892d4d8978dd68f414fcfa27a6ecb06f0d984d0be9c5c40d8941ef9fe14bc6b9",
+    "artifacts/third-colon-p181-support18-two-digit-lift-v1/integral/A_Z_b4_Z_coefficient_primitive.i64csr": "2524b706b88278187924f103245ddfd999ce2f21e2c848058fc723498c4682e1",
+    "artifacts/third-colon-p181-support18-two-digit-lift-v1/integral/integral-system.json": "98f976749821c40a84ea469da493ad2a78a5a23db9b2cb0b05fd519f294860ca",
+    "artifacts/third-colon-p181-support18-two-digit-lift-v1/lift/lift.json": "5703800aad2c392880178e426938f6b84ad700c4adc32701c20036039ec6e2d0",
+    "artifacts/third-colon-p181-support18-two-digit-lift-v1/integral/digit_00_sparse4_row_major.u8": "1d74cecd05f4091c86c95f079e69c96d8f2687a9ce924a8a5303df76d427c06d",
+    "artifacts/third-colon-p181-support18-two-digit-lift-v1/lift/digit_01_sparse4_row_major.u8": "937c953db108b54b0834aebc75f8330346f94c61d889554d17c03a2a2c5a3def",
+    "artifacts/third-colon-p181-support18-two-digit-lift-v1/lift/X_mod_181_power_2_sparse4_row_major.u16le": "b189f494af08ec3375efea4cab8d60b7eccbf3e9212c8d87ecb6e2ad1c58c32f",
+    "artifacts/third-colon-p181-support18-two-digit-lift-v1/lift/correction_rhs_digit_01_padded114.u8": "db46ad496f533f0d8a277de4dd74fbd378156d0b699328d3d9f40e2e1791653d"
+  },
+  "policy": {
+    "wall_seconds_maximum": 300,
+    "rss_bytes_maximum": 1500000000,
+    "process_swaps_maximum": 0,
+    "solver_execution_forbidden": true,
+    "producer_import_forbidden": true
+  },
+  "canonical_output": "receipts/hsop-j2-secant-r10-p181-support18-two-digit-lift-independent-audit.json",
+  "claim_boundary": "A PASS certifies only an independent exact-source and p2 replay for 18 fixed residual columns. It proves no QQ target identity, colon, saturation, secant closure, nullcone containment, or HC4."
+}

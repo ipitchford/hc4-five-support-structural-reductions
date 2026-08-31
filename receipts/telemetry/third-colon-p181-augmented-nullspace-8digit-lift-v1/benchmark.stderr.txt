@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/scripts/lift_p181_third_colon_augmented_nullspace_8digits.py", line 334, in <module>
+    raise SystemExit(main())
+  File "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/scripts/lift_p181_third_colon_augmented_nullspace_8digits.py", line 226, in main
+    x = [value + p_power * digit_value for value, digit_value in zip(x, digit, strict=True)]
+TypeError: zip() takes no keyword arguments

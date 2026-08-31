@@ -1,0 +1,440 @@
+{
+  "assurance": "exact graded support and dimension audit; no linear solve",
+  "bounded_launch_plan": {
+    "calibrated_central_estimate": {
+      "matrix_nonzero_ratio": 1.1015280322537067,
+      "maximum_rss_native": 2628013383,
+      "method": "multiply the measured third-identity p173 resource by the raw matrix-nonzero ratio; descriptive extrapolation only",
+      "not_a_bound_because": "sparse fill, pivot profile, and dense residual dimensions are unknown",
+      "solve_seconds": 327.68079603923684,
+      "wall_seconds": 343.2290579919594
+    },
+    "implementation": "specialize the third-identity producer to load h4, adjoin h3, select target character two, and assert this receipt's frozen dimensions and stream hashes before elimination",
+    "operational_ceiling": {
+      "maximum_additional_swap_bytes": 1000000000,
+      "maximum_process_rss_native": 4500000000,
+      "response_at_ceiling": "stop or allow the hard timeout to emit a fail-closed telemetry receipt; do not infer nonmembership",
+      "wall_seconds": 600
+    },
+    "precondition": "the h3 QQ reconstruction/replay has finished and no other multi-gigabyte algebra job is running",
+    "source_prime": 173,
+    "source_prime_has_full_rational_support": true,
+    "successor_steps_only_after_source_pass": [
+      "independent modular replay at the source prime",
+      "one fixed-free transfer prime using the new h4 gauge",
+      "then decide whether QQ reconstruction is tractable"
+    ]
+  },
+  "characteristic": 173,
+  "claim_boundary": "This receipt counts and hashes the candidate fourth-identity Macaulay block.  It proves no modular or rational polynomial identity, colon equality, saturation statement, secant closure, or HC4 case.",
+  "comparison_to_third_identity_source_run": {
+    "calibration_warning": "Raw block ratios do not determine elimination fill, pivot order, dense handoff size, runtime, or peak RSS.  They support a bounded launch plan, not a resource guarantee.",
+    "dimension_ratios_fourth_over_third": {
+      "matrix_nonzeros": 1.1015280322537067,
+      "monomial_equations": 1.0004319856160464,
+      "target_terms": 1.0185185185185186,
+      "unknown_multiplier_coordinates": 1.0204478553406224
+    },
+    "third_identity_receipt": {
+      "characteristic": 173,
+      "dimensions": {
+        "matrix_nonzeros": 1473071,
+        "monomial_equations": 85651,
+        "normal_cubic_generators": 17,
+        "target_terms": 486,
+        "total_generators": 19,
+        "unknown_multiplier_coordinates": 38048
+      },
+      "maximum_rss_native": 2385788928,
+      "path": "receipts/hsop-j2-secant-r10-third-colon-identity-sparse-macaulay-hybrid-p173.json",
+      "sha256": "4a5a3adb555db8732e92856c1ed64ceac2ff3b9f93730e9b2be7bcd61786952e",
+      "solve_seconds": 297.478399500018,
+      "wall_seconds": 311.5935754169768
+    }
+  },
+  "conditional_on": "the frozen h4 candidate and predecessor h3 data; this audit neither proves nor assumes the QQ identity M*h3 in (F_1,...,F_17,h,h2)",
+  "dimensions": {
+    "matrix_nonzeros_mod_p": 1622629,
+    "monomial_equations": 85688,
+    "normal_cubic_generators": 17,
+    "rational_matrix_nonzeros": 1622629,
+    "target_live_terms_mod_p": 495,
+    "target_rational_terms": 495,
+    "total_generators": 20,
+    "unknown_multiplier_coordinates": 38826
+  },
+  "generator_blocks": [
+    {
+      "character_weight": 5,
+      "degree": 3,
+      "generator_position": 0,
+      "live_term_count_mod_p": 13,
+      "lost_term_count_mod_p": 0,
+      "matrix_nonzeros_mod_p": 28613,
+      "multiplier_character_weight": 9,
+      "multiplier_coordinate_count": 2201,
+      "multiplier_degree": 5,
+      "rational_matrix_nonzeros": 28613,
+      "rational_term_count": 13
+    },
+    {
+      "character_weight": 6,
+      "degree": 3,
+      "generator_position": 1,
+      "live_term_count_mod_p": 9,
+      "lost_term_count_mod_p": 0,
+      "matrix_nonzeros_mod_p": 19242,
+      "multiplier_character_weight": 8,
+      "multiplier_coordinate_count": 2138,
+      "multiplier_degree": 5,
+      "rational_matrix_nonzeros": 19242,
+      "rational_term_count": 9
+    },
+    {
+      "character_weight": 7,
+      "degree": 3,
+      "generator_position": 2,
+      "live_term_count_mod_p": 13,
+      "lost_term_count_mod_p": 0,
+      "matrix_nonzeros_mod_p": 27612,
+      "multiplier_character_weight": 7,
+      "multiplier_coordinate_count": 2124,
+      "multiplier_degree": 5,
+      "rational_matrix_nonzeros": 27612,
+      "rational_term_count": 13
+    },
+    {
+      "character_weight": 8,
+      "degree": 3,
+      "generator_position": 3,
+      "live_term_count_mod_p": 23,
+      "lost_term_count_mod_p": 0,
+      "matrix_nonzeros_mod_p": 48185,
+      "multiplier_character_weight": 6,
+      "multiplier_coordinate_count": 2095,
+      "multiplier_degree": 5,
+      "rational_matrix_nonzeros": 48185,
+      "rational_term_count": 23
+    },
+    {
+      "character_weight": 9,
+      "degree": 3,
+      "generator_position": 4,
+      "live_term_count_mod_p": 32,
+      "lost_term_count_mod_p": 0,
+      "matrix_nonzeros_mod_p": 68064,
+      "multiplier_character_weight": 5,
+      "multiplier_coordinate_count": 2127,
+      "multiplier_degree": 5,
+      "rational_matrix_nonzeros": 68064,
+      "rational_term_count": 32
+    },
+    {
+      "character_weight": 10,
+      "degree": 3,
+      "generator_position": 5,
+      "live_term_count_mod_p": 37,
+      "lost_term_count_mod_p": 0,
+      "matrix_nonzeros_mod_p": 79254,
+      "multiplier_character_weight": 4,
+      "multiplier_coordinate_count": 2142,
+      "multiplier_degree": 5,
+      "rational_matrix_nonzeros": 79254,
+      "rational_term_count": 37
+    },
+    {
+      "character_weight": 11,
+      "degree": 3,
+      "generator_position": 6,
+      "live_term_count_mod_p": 40,
+      "lost_term_count_mod_p": 0,
+      "matrix_nonzeros_mod_p": 88240,
+      "multiplier_character_weight": 3,
+      "multiplier_coordinate_count": 2206,
+      "multiplier_degree": 5,
+      "rational_matrix_nonzeros": 88240,
+      "rational_term_count": 40
+    },
+    {
+      "character_weight": 0,
+      "degree": 3,
+      "generator_position": 7,
+      "live_term_count_mod_p": 39,
+      "lost_term_count_mod_p": 0,
+      "matrix_nonzeros_mod_p": 87048,
+      "multiplier_character_weight": 2,
+      "multiplier_coordinate_count": 2232,
+      "multiplier_degree": 5,
+      "rational_matrix_nonzeros": 87048,
+      "rational_term_count": 39
+    },
+    {
+      "character_weight": 1,
+      "degree": 3,
+      "generator_position": 8,
+      "live_term_count_mod_p": 34,
+      "lost_term_count_mod_p": 0,
+      "matrix_nonzeros_mod_p": 77622,
+      "multiplier_character_weight": 1,
+      "multiplier_coordinate_count": 2283,
+      "multiplier_degree": 5,
+      "rational_matrix_nonzeros": 77622,
+      "rational_term_count": 34
+    },
+    {
+      "character_weight": 2,
+      "degree": 3,
+      "generator_position": 9,
+      "live_term_count_mod_p": 20,
+      "lost_term_count_mod_p": 0,
+      "matrix_nonzeros_mod_p": 45520,
+      "multiplier_character_weight": 0,
+      "multiplier_coordinate_count": 2276,
+      "multiplier_degree": 5,
+      "rational_matrix_nonzeros": 45520,
+      "rational_term_count": 20
+    },
+    {
+      "character_weight": 3,
+      "degree": 3,
+      "generator_position": 10,
+      "live_term_count_mod_p": 14,
+      "lost_term_count_mod_p": 0,
+      "matrix_nonzeros_mod_p": 31934,
+      "multiplier_character_weight": 11,
+      "multiplier_coordinate_count": 2281,
+      "multiplier_degree": 5,
+      "rational_matrix_nonzeros": 31934,
+      "rational_term_count": 14
+    },
+    {
+      "character_weight": 7,
+      "degree": 3,
+      "generator_position": 11,
+      "live_term_count_mod_p": 40,
+      "lost_term_count_mod_p": 0,
+      "matrix_nonzeros_mod_p": 84960,
+      "multiplier_character_weight": 7,
+      "multiplier_coordinate_count": 2124,
+      "multiplier_degree": 5,
+      "rational_matrix_nonzeros": 84960,
+      "rational_term_count": 40
+    },
+    {
+      "character_weight": 9,
+      "degree": 3,
+      "generator_position": 12,
+      "live_term_count_mod_p": 65,
+      "lost_term_count_mod_p": 0,
+      "matrix_nonzeros_mod_p": 138255,
+      "multiplier_character_weight": 5,
+      "multiplier_coordinate_count": 2127,
+      "multiplier_degree": 5,
+      "rational_matrix_nonzeros": 138255,
+      "rational_term_count": 65
+    },
+    {
+      "character_weight": 10,
+      "degree": 3,
+      "generator_position": 13,
+      "live_term_count_mod_p": 64,
+      "lost_term_count_mod_p": 0,
+      "matrix_nonzeros_mod_p": 137088,
+      "multiplier_character_weight": 4,
+      "multiplier_coordinate_count": 2142,
+      "multiplier_degree": 5,
+      "rational_matrix_nonzeros": 137088,
+      "rational_term_count": 64
+    },
+    {
+      "character_weight": 11,
+      "degree": 3,
+      "generator_position": 14,
+      "live_term_count_mod_p": 59,
+      "lost_term_count_mod_p": 0,
+      "matrix_nonzeros_mod_p": 130154,
+      "multiplier_character_weight": 3,
+      "multiplier_coordinate_count": 2206,
+      "multiplier_degree": 5,
+      "rational_matrix_nonzeros": 130154,
+      "rational_term_count": 59
+    },
+    {
+      "character_weight": 0,
+      "degree": 3,
+      "generator_position": 15,
+      "live_term_count_mod_p": 52,
+      "lost_term_count_mod_p": 0,
+      "matrix_nonzeros_mod_p": 116064,
+      "multiplier_character_weight": 2,
+      "multiplier_coordinate_count": 2232,
+      "multiplier_degree": 5,
+      "rational_matrix_nonzeros": 116064,
+      "rational_term_count": 52
+    },
+    {
+      "character_weight": 1,
+      "degree": 3,
+      "generator_position": 16,
+      "live_term_count_mod_p": 30,
+      "lost_term_count_mod_p": 0,
+      "matrix_nonzeros_mod_p": 68490,
+      "multiplier_character_weight": 1,
+      "multiplier_coordinate_count": 2283,
+      "multiplier_degree": 5,
+      "rational_matrix_nonzeros": 68490,
+      "rational_term_count": 30
+    },
+    {
+      "character_weight": 4,
+      "degree": 4,
+      "generator_position": 17,
+      "live_term_count_mod_p": 189,
+      "lost_term_count_mod_p": 0,
+      "matrix_nonzeros_mod_p": 104328,
+      "multiplier_character_weight": 10,
+      "multiplier_coordinate_count": 552,
+      "multiplier_degree": 4,
+      "rational_matrix_nonzeros": 104328,
+      "rational_term_count": 189
+    },
+    {
+      "character_weight": 3,
+      "degree": 4,
+      "generator_position": 18,
+      "live_term_count_mod_p": 211,
+      "lost_term_count_mod_p": 0,
+      "matrix_nonzeros_mod_p": 112252,
+      "multiplier_character_weight": 11,
+      "multiplier_coordinate_count": 532,
+      "multiplier_degree": 4,
+      "rational_matrix_nonzeros": 112252,
+      "rational_term_count": 211
+    },
+    {
+      "character_weight": 2,
+      "degree": 4,
+      "generator_position": 19,
+      "live_term_count_mod_p": 248,
+      "lost_term_count_mod_p": 0,
+      "matrix_nonzeros_mod_p": 129704,
+      "multiplier_character_weight": 0,
+      "multiplier_coordinate_count": 523,
+      "multiplier_degree": 4,
+      "rational_matrix_nonzeros": 129704,
+      "rational_term_count": 248
+    }
+  ],
+  "grading": {
+    "character_modulus": 12,
+    "character_weights": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      5,
+      4,
+      3,
+      2,
+      3,
+      2,
+      1,
+      1,
+      0,
+      11,
+      6
+    ],
+    "fourth_quartic_character_weight": 1,
+    "open_factor_character_weight": 1,
+    "open_factor_degree": 4,
+    "target_character_weight": 2,
+    "target_total_degree": 8,
+    "variable_count": 18
+  },
+  "hashes": {
+    "equation_support_sha256": "ae88030860e7dc4de0ddf446c2b66a97285c4d98d42c6388c783c1c029b66446",
+    "generator_stream_sha256": "688352a1e62824bdc4300d58e37bc681414d2755cee9da021cd47257d0832378",
+    "normal_equation_stream_sha256": "ecc10203dd30d6e2bc606d96ac129984c5039dcd5627d767d3ef1a799fccce35",
+    "target_sha256": "1d38a51f026483c3dc28ee80652bfc1c9d66f856903374c8a2e6c7392a6f262d"
+  },
+  "quartics": {
+    "first": {
+      "candidate_receipt_sha256": {
+        "research/j2_secant_r10_colon_kernel_candidate_p1073741827.json": "1787ac75c59d553bfe64f767f739a1a0f6a4cb0f19dc18228f748476ea4292a3",
+        "research/j2_secant_r10_colon_kernel_candidate_p1073742851.json": "d57655a3efe5c949488f916a641cb98c133b88181e2a4028946bda610c1ced04"
+      },
+      "common_denominator_lcm": 3024,
+      "crt_modulus": 1152922610560928777,
+      "expression_sha256": "596e667ed1540ce18f9950134851e84049c2d7aeae10130e4741e567eb6ef5c3",
+      "maximum_absolute_numerator": 264290,
+      "maximum_denominator": 756,
+      "reconstruction_primes": [
+        1073741827,
+        1073742851
+      ],
+      "term_count": 189,
+      "total_degree": 4
+    },
+    "fourth": {
+      "character_weight": 1,
+      "conditional_predecessor_statement": "M*h3 belongs to I2 over QQ",
+      "crt_modulus": "1152922610560928777",
+      "discovery_primes": [
+        1073741827,
+        1073742851
+      ],
+      "expression_sha256": "d3f62fcc9f4a319ac3430d22c0c8d08ef5f4531722f1aa0a2e194e60cb465d05",
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-fourth-colon-kernel-qq-candidate.json",
+      "sha256": "7939f8e57878be21f189ffbf4ac620707924b02f2dbb76f50348b5423a4b9bf2",
+      "term_count": 250,
+      "total_degree": 4
+    },
+    "second": {
+      "character_weight": 3,
+      "crt_modulus": "1152922610560928777",
+      "discovery_primes": [
+        1073741827,
+        1073742851
+      ],
+      "expression_sha256": "689ec900d68fbd469b9a6aad21d5d6876ed3fdde370243446ab449c9926ad79a",
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-second-colon-kernel-qq-candidate.json",
+      "sha256": "c41e7c02e7163a0f1a2e71cd7fd5f0d38167b37f3f832019fa069c0ffd2bf37e",
+      "term_count": 211,
+      "total_degree": 4
+    },
+    "third": {
+      "character_weight": 2,
+      "crt_modulus": "1152922610560928777",
+      "discovery_primes": [
+        1073741827,
+        1073742851
+      ],
+      "expression_sha256": "28842250da1e0055614dcdf6cfca6ee9a1351ca0ebc29fb94f1111e70b5d0f02",
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-kernel-qq-candidate.json",
+      "sha256": "b7f37502a3b4a11739fe4e1e47746af68b2a8cc66cb18302bfe729927ed65b97",
+      "term_count": 248,
+      "total_degree": 4
+    }
+  },
+  "resources": {
+    "maximum_rss_native": 329924608,
+    "wall_seconds": 11.76883891702164
+  },
+  "reuse_assessment": {
+    "reason_gauge_is_not_reusable": "the target character, multiplier descriptor stream, generator stream, and monomial stream all change",
+    "required_first_step": "one fresh source-prime solve in this fourth-identity block; only a passing fourth-identity certificate may seed fixed-free transfers",
+    "safe_launch_policy": "do not overlap the fresh solve with rational reconstruction or any other multi-gigabyte algebra process; monitor RSS/swap and retain a hard timeout plus fail-closed receipt",
+    "sparse_hybrid_algorithm_reusable": true,
+    "third_identity_gauge_reusable": false
+  },
+  "schema": "hc4.decimic-j2-secant-r10-fourth-colon-identity-preflight.v1",
+  "script": {
+    "path": "scripts/audit_j2_secant_r10_fourth_colon_identity_preflight.py",
+    "sha256": "06f67396141856fc66aa2d6884efa0ee7d284f223c6fcaca389ac9ced2230d61"
+  },
+  "statement_preflighted": "M*h4 in (F_1,...,F_17,h,h2,h3)",
+  "status": "PASS_LIGHTWEIGHT_FOURTH_COLON_IDENTITY_PREFLIGHT_FULL_SUPPORT"
+}

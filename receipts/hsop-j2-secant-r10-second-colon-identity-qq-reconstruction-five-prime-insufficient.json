@@ -1,0 +1,41 @@
+{
+  "schema": "hc4.decimic-j2-secant-r10-second-colon-identity-qq-reconstruction-attempt.v1",
+  "status": "INCOMPLETE_RATIONAL_RECONSTRUCTION_MODULUS_INSUFFICIENT",
+  "assurance": "fail-closed CRT reconstruction telemetry only",
+  "characteristics": [
+    103,
+    2147483647,
+    2147483629,
+    2147483587,
+    2147483579
+  ],
+  "crt_modulus": "2190567584044155746197442675313152470997",
+  "first_failed_coordinate": 16,
+  "first_failed_combined_residue": "960233854962547390161302101846314139125",
+  "failure": "Sage rational_reconstruction reported that no rational reconstruction exists inside its standard symmetric bound at coordinate 16",
+  "input_artifact_sha256": {
+    "artifacts/j2-secant-r10-second-colon-identity-sparse-macaulay-retry-v3-p103.json": "3adf88c17f6308d0ae5f1bc96e20cd9332146c7259404b1e0d1bfc1da1e41cb2",
+    "artifacts/j2-secant-r10-second-colon-identity-sparse-macaulay-p2147483647-fixed-free-p103-gauge-v1.json": "9a5333ccad16af0cbb9fb84c4dc35747621ae7a339b1e4d39cda7f6a5e8a30be",
+    "artifacts/j2-secant-r10-second-colon-identity-sparse-macaulay-p2147483629-fixed-free-p103-gauge-v1.json": "d5846e0a231fbf0ce487a1475a40c26d5adb3b96ac89020c356b841c0b491cef",
+    "artifacts/j2-secant-r10-second-colon-identity-sparse-macaulay-p2147483587-fixed-free-p103-gauge-v1.json": "31e16e0452d7b95a77b68519494a88ad48fb75f8255347cd070ec28c82e73267",
+    "artifacts/j2-secant-r10-second-colon-identity-sparse-macaulay-p2147483579-fixed-free-p103-gauge-v1.json": "e39b6e73d05e38ac8914e6aa07c34454128b964e5c72c0f0dfe676229cd0b350"
+  },
+  "heldout": {
+    "characteristic": 107,
+    "artifact": "artifacts/j2-secant-r10-second-colon-identity-sparse-macaulay-p107-fixed-free-p103-gauge-v1.json",
+    "sha256": "90d40655d57d564cd7dac6209516bf772fc0800fd809ed98ff81987cec3d2ad7",
+    "used_in_reconstruction": false
+  },
+  "runtime": {
+    "external_real_seconds": 57.13,
+    "external_user_seconds": 55.07,
+    "external_system_seconds": 0.63,
+    "maximum_resident_set_size_bytes": 344932352,
+    "swaps": 0
+  },
+  "source": {
+    "path": "scripts/reconstruct_j2_secant_r10_second_colon_identity.py",
+    "sha256": "4b32912907777cad90f4c97f7b770351dafd9aa704bdbe5faa288261842c780e"
+  },
+  "claim_boundary": "This attempt makes no characteristic-zero membership decision. It records only that the five-prime modulus was insufficient for standard rational reconstruction; it is not evidence against the identity, a colon or saturation certificate, a secant-chart closure, or HC4."
+}

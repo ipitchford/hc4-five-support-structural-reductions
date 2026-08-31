@@ -1,0 +1,35 @@
+{
+  "characteristic": 0,
+  "claim": "all 5 coordinates of the quartic V4_1 family lie in the radical of the tangent residual-orbit normal-layer ideal",
+  "claim_boundary": "this is an exact computer-assisted characteristic-zero theorem candidate for one full quartic family on the tangent normal layer; other quartic families, secant, polynomial-level lifting, and HC4 remain open",
+  "family": "V4_1",
+  "family_order": 4,
+  "inputs": {
+    "highest_coordinate_audit": "receipts/nullcone-v4-1-tangent-highest-all-strata.json",
+    "highest_coordinate_audit_sha256": "59f7f3200df1ad57054a3815fba4b62fda430c6e54a234b97081f68e1ca3cc99",
+    "quartic_dictionary": "receipts/decimic-nullcone-quartic-covariants-exact.json",
+    "quartic_dictionary_sha256": "b2d3698d0e3b8bfabe105ed12b23650510159c960a358f1f75cab9f5152d77d8"
+  },
+  "orbit": {
+    "coefficient_count": 5,
+    "coefficient_sha256": [
+      "d9f2bca6d3a61bee0534aa2e4d49165bcef5d0c9a1ea8274ddec7bf0fc679b35",
+      "d2f2d819d032391a835a8c1243190539e28dbcaf374e8861663345df7ec99275",
+      "ae8f49729cda674c3f6910697b15353cfbccca8b16a0b6b640e49cf71b00b8ce",
+      "ed44d7a58cf9ba7348d873b04c6a74fbadbe8abafcbc227d4de38b8f83a3fef9",
+      "0c57f82ca15554df9528f139e0eba2ced5247ae100fda1df031cc995d4a07974"
+    ],
+    "exact_rank": 5,
+    "parameter_degree": 4
+  },
+  "schema": "hc4.decimic-nullcone-quartic-tangent-stabilizer-span.v1",
+  "source_sha256": {
+    "scripts/certify_nullcone_quartic_tangent_stabilizer_span.py": "932af8d1a4e3152ae3d39c16b4ceac136e9bac1f543af7f36e4b1d5780d9af32"
+  },
+  "stabilizer_geometry_reused": {
+    "all_required_checks_pass": true,
+    "receipt": "receipts/nullcone-v6-tangent-stabilizer-span.json",
+    "sha256": "dd723519b45fe50f7d23e9d5b663caaf392e8ab5518046f660b5ef16e10cdd2e"
+  },
+  "status": "PASS_EXACT_TANGENT_QUARTIC_FAMILY_RADICAL_CONTAINMENT"
+}

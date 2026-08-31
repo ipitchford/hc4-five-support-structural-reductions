@@ -1,0 +1,45 @@
+{
+  "bound_hashes": {
+    "csr": "2207744adde8f96a7d835fc078ffd188ce33814f2db880e1aef9b8a47b09a6ef",
+    "freeze": "518ac582268f2bed9ef1a06dea9ccfcac319c2b98fd2fbe0bc9a668f1f911245",
+    "rank_audit": "c6bec6f72d7ba5c0792cfe439383d1795ae82160c570148e1b7899807bd81c37",
+    "rhs": "72d15610c6630a4d1929029476cb9b01d8494bc502b9b68457674795dcd1c76f",
+    "rhs_audit": "7793a25d1e14393be25fd26414be7541ab2e009e8dc4bbc39ebc6586d3e83c07",
+    "solution": "5c37ce8fda3829baeef36f58002589e289bdd552939f61216b3ce257af456e58",
+    "terminal": "2c37acb21f6568fa2cd85d6f713cf31798e1966368e530907e331ba047905109"
+  },
+  "claim_boundary": "This PASS independently certifies the explicit fixed-gauge multiplier identity for M*h3 over GF(181). It does not establish the identity over QQ, a p-adic lift, a colon or saturation equality, secant closure, nullcone containment, or HC4.",
+  "declarations": {
+    "existing_prior_multiplier_not_read": true,
+    "linbox_not_called": true,
+    "no_mod181_squared": true,
+    "no_rational_reconstruction": true,
+    "producer_not_imported_or_executed": true,
+    "standard_library_replay": true
+  },
+  "replay": {
+    "coefficient_nonzeros": 1354540,
+    "columns": 35881,
+    "expected_rhs_sha256": "72d15610c6630a4d1929029476cb9b01d8494bc502b9b68457674795dcd1c76f",
+    "mismatches": 0,
+    "replayed_rhs_sha256": "72d15610c6630a4d1929029476cb9b01d8494bc502b9b68457674795dcd1c76f",
+    "rows": 85651,
+    "solution_nonzero_coordinates": 18951,
+    "solution_sha256": "5c37ce8fda3829baeef36f58002589e289bdd552939f61216b3ce257af456e58"
+  },
+  "resources": {
+    "maximum_rss_bytes": 97386496,
+    "process_swap_delta": 0,
+    "producer_external": {
+      "maximum_rss_bytes": 132988928,
+      "process_swaps": 0,
+      "raw_sha256": "630523ea53482452d3e76c14978602f6166d516ed3f1e1e46f489729e0d7587c",
+      "real_seconds": 58.89,
+      "system_seconds": 0.4,
+      "user_seconds": 56.46
+    },
+    "wall_seconds": 0.18444599997019395
+  },
+  "schema": "hc4.decimic-j2-secant-r10-p181-explicit-target-solve-independent-audit.v1",
+  "status": "PASS_INDEPENDENT_P181_EXPLICIT_TARGET_IDENTITY_REPLAY"
+}

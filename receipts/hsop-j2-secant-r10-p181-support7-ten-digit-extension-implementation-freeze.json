@@ -1,0 +1,37 @@
+{
+  "schema": "hc4.third-colon-p181-support7-ten-digit-extension-freeze.v1",
+  "status": "PASS_P181_SUPPORT7_TEN_DIGIT_EXTENSION_FREEZE",
+  "frozen_at_utc": "2026-08-31T15:23:00Z",
+  "bound_files": {
+    "research/THIRD_COLON_P181_SUPPORT7_TEN_DIGIT_EXTENSION_PREREGISTRATION.md": "8ea2dc7b3ab33036e8f2676a3faa3cd03562af524f8a6c5ab858d3ae72ebbbeb",
+    "scripts/extend_p181_support7_to_ten_digits.py": "7624ebe19ba36c2b4530e2b8cd8e8e8f9dfb0974aee00c5c6f6caa506e073578",
+    "scripts/run_p181_support7_ten_digit_extension_gated.py": "b3303e804faa6fa3fef0dad1d007d758cdc8ce998efd87e105293e38186870c1",
+    "scripts/lift_p181_sparse4_to_two_digits.py": "c4c0fa3442bbd94181f60311820eef3ac14ae285f28ea7d730d1cf8e87acda65",
+    "scripts/reconstruct_p181_sparse4_exact_rational.py": "49072e53d2ee41073df666e5720e0d25515456fcf7d1fc42559d22fff031e9ff",
+    "scripts/run_p181_target_blind_linbox_rank_gated.py": "a282b31bca01c972ff5d294b64ddca103d2ea6c1c6bab8f6f12ddc7b800b83de",
+    "artifacts/third-colon-p181-support18-two-digit-lift-v1/integral/A_Z_b4_Z_coefficient_primitive.i64csr": "2524b706b88278187924f103245ddfd999ce2f21e2c848058fc723498c4682e1",
+    "artifacts/third-colon-p181-support18-two-digit-lift-v1/integral/A_mod181_coefficient_primitive.csr": "2207744adde8f96a7d835fc078ffd188ce33814f2db880e1aef9b8a47b09a6ef",
+    "artifacts/third-colon-p181-support18-eight-digit-extension-v1/X_mod_181_power_8_support18_row_major.u64le": "a9392dc0287aa1c1af62230062f25f8c60684b49bfcf4d1e94c59de6d98afb71",
+    "artifacts/third-colon-p181-support18-eight-digit-extension-v1/terminal_q8_support18_row_major.i64le": "ac3d4df82e1d5f7cbbd0e79b0a72f630bb40254f46eab1f8b058ff9c1944c690",
+    "artifacts/bin/linbox_p181_canonical_residual_114_section_driver": "dd8ae1bb0a7a659f38cbcd1ee1e220dd5a43a6e9454a4531d06649159d41c0c6",
+    "receipts/hsop-j2-secant-r10-p181-support18-eight-digit-extension-terminal.json": "32bf12d3aecc588d2c7ff9448dcaa31dc10dad07ba9767ad13c89ee43aa21ff1"
+  },
+  "canonical_outputs": {
+    "artifact": "artifacts/third-colon-p181-support7-ten-digit-extension-v1",
+    "telemetry": "receipts/telemetry/third-colon-p181-support7-ten-digit-extension-v1",
+    "terminal": "receipts/hsop-j2-secant-r10-p181-support7-ten-digit-extension-terminal.json"
+  },
+  "policy": {
+    "wall_seconds_maximum": 600,
+    "rss_bytes_maximum": 3000000000,
+    "process_swaps_required": 0,
+    "canonical_outputs_must_be_absent_before_run": true
+  },
+  "selection": {
+    "support18_batch_local_columns": [6, 11, 13, 14, 15, 16, 17],
+    "residual_local_indices": [15, 78, 91, 104, 81, 10, 13],
+    "digit_indices": [8, 9],
+    "padded_zero_rhs_columns": 107
+  },
+  "claim_boundary": "This freeze authorizes exactly two correction digits and one equal-height census for seven fixed residual directions. It does not authorize an exact rational lift or any target, colon, saturation, secant, nullcone, or HC4 conclusion."
+}

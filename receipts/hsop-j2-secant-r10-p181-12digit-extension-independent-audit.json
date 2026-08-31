@@ -1,0 +1,66 @@
+{
+  "bound_hashes": {
+    "X12": "efe00ea4c6c6cbdbbb82fa57fe053beb514fe171d1c83519becdf03b5f2e6f38",
+    "X8": "18c32d72b31fa62dc7c1d347e6a6686bab11bc273077c60bdde329037559b842",
+    "integral": "5064cfea27bc16ad9977d651f6215b407e2e3865df3dfc65ad15213b27d5ab8d",
+    "producer": "8a533c6493d265805f4796305a7440985854e3936532235a683b281098630732",
+    "terminal": "aa23f614e87e188bcace43ab9b52a5011d7eace19a67504dc912779b6b342906"
+  },
+  "checks": {
+    "correction_count": 4,
+    "starting_divisibility_mismatches": 0,
+    "terminal_integer_invariant_mismatches": 0,
+    "terminal_modulus": "1236354171303115835117980561"
+  },
+  "claim_boundary": "This PASS independently certifies the finite extension through 181^12 and its reconstruction labels. It is not a QQ identity or any colon, saturation, secant, nullcone, or HC4 theorem.",
+  "declarations": {
+    "cached_q8_not_read": true,
+    "linbox_not_called": true,
+    "no_thirteenth_digit": true,
+    "producer_not_imported_or_executed": true
+  },
+  "digit_audits": [
+    {
+      "digit_index": 8,
+      "digit_sha256": "5c076ffef22076a0a9b9f0378db3c2bf3b004e36fa52552a154f38d81b44e624",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "c651698c952f637f530c8a8f6442b4ddd84701ffb715c19503689e31ffb32a6a"
+    },
+    {
+      "digit_index": 9,
+      "digit_sha256": "0d9d722eb40137cfac1ab09703c733b43ebee4eb2c8e8b8b36ced922fa497e0a",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "1126abbb3bc0aeaff485a7520ef5d53b84325191e53f6f12a7dfcde48ede9963"
+    },
+    {
+      "digit_index": 10,
+      "digit_sha256": "389c563bac08fcf45ddb10ae91ebd77584943956332935165381298018726a5e",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "e61f9d281e1b82cb8c8a30720d1aaeaf7f777b9d8928c1eb79ac64c62ee98154"
+    },
+    {
+      "digit_index": 11,
+      "digit_sha256": "3062e8b21a01bf02dcb7a31ad0b0e21d82fc9d6906e1f87a907dd0db2745261a",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "ed8add6e941b20d180bb1f4563fc026038b0a3c85cddd27af6562231a020ffa3"
+    }
+  ],
+  "resources": {
+    "maximum_rss_native": 176750592,
+    "wall_seconds": 1.0259305840008892
+  },
+  "rr_audits": {
+    "10": {
+      "accepted": 28842,
+      "label_stream_sha256": "e2cff79f5aa5aa148733cd9f7090054f802ef593385d46cb9be37b1d89b90452",
+      "rejected": 7039
+    },
+    "12": {
+      "accepted": 28888,
+      "label_stream_sha256": "9e6984e695ba8aa00740418d07b8095ed9fe6aa248c58f2ad4658e0c22a748ec",
+      "rejected": 6993
+    }
+  },
+  "schema": "hc4.decimic-j2-secant-r10-p181-12digit-extension-independent-audit.v1",
+  "status": "PASS_INDEPENDENT_P181_AUGMENTED_NULLSPACE_12DIGIT_EXTENSION_REPLAY"
+}

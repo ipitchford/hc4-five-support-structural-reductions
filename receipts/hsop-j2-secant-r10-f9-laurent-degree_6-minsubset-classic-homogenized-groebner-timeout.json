@@ -1,0 +1,33 @@
+{
+  "schema": "exact-homogenized-groebner-timeout-v1",
+  "status": "TIMEOUT_NO_CERTIFICATE",
+  "date": "2026-08-30",
+  "branch": "degree_6",
+  "chart": "f9_laurent",
+  "modular_strategy": "classic_modular",
+  "characteristic": 0,
+  "certify_requested": true,
+  "homogenize": "yes",
+  "linear_algebra": "deterministic",
+  "threads": 1,
+  "input": "receipts/hsop-j2-secant-r10-f9-laurent-degree_6-minsubset-groebner-input.json",
+  "input_sha256": "69d755bd0c4846b15a49915e8e68dacf911b58ede4683a12e714ee46a7183079",
+  "input_variable_count": 19,
+  "input_equation_count": 19,
+  "input_maximum_total_degree": 3,
+  "command": "/usr/bin/time -l julia --project=tools/groebner-jl scripts/certify_groebner_homogenized_unit_basis.jl --modular classic_modular --input receipts/hsop-j2-secant-r10-f9-laurent-degree_6-minsubset-groebner-input.json --output receipts/hsop-j2-secant-r10-f9-laurent-degree_6-minsubset-classic-homogenized-groebner-exact.json",
+  "precommitted_wall_bound_seconds": 3600,
+  "observed_elapsed_at_termination_decision_seconds": 3609,
+  "maximum_observed_poll_rss_kib_lower_bound": 2072368,
+  "peak_rss_caveat": "The original PTY handle was unavailable after context refresh, so /usr/bin/time peak output was not recoverable. This is the largest RSS seen in retained authoritative polls and is only a lower bound on the true peak.",
+  "child_pid": 79560,
+  "termination_signal": "TERM",
+  "process_exited_after_term": true,
+  "output_receipt_emitted": false,
+  "source_sha256": {
+    "scripts/certify_groebner_homogenized_unit_basis.jl": "df6593decfcdd23e8056ed9dccccb3b528597e561a04b12786fff17ee85bb24f",
+    "tools/groebner-jl/Project.toml": "a26a42dd92c670185c7bb9de8dae9d9e244d29114e2f350d7632e5d145093350",
+    "tools/groebner-jl/Manifest.toml": "3288902620b9849d0c4ca2f1f390aa635c3595c5e1d013dd35bc0bb4f937b9c6"
+  },
+  "claim_boundary": "This receipt proves only that this exact certified backend did not finish within the frozen bound. It is not evidence that the ideal is nonunit and it does not alter the finite-field unit signal."
+}

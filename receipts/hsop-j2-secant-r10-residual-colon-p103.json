@@ -1,0 +1,152 @@
+{
+  "artifacts": {
+    "research/j2-secant-r10-residual-colon-p103-solver.out": {
+      "byte_count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "research/j2-secant-r10-residual-colon-p103-stderr.txt": {
+      "byte_count": 1136,
+      "sha256": "a53a34c3d4eb3a608534d88b7b0d0173a04add0d5013e86795001b98bf948587"
+    },
+    "research/j2-secant-r10-residual-colon-p103-stdout.txt": {
+      "byte_count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "research/j2-secant-r10-residual-colon-p103.ms": {
+      "byte_count": 11213,
+      "sha256": "9c1d1d1c1bf9c5f2427cac96ce77eabb5eba36db7a481a593fce67b3f619455a"
+    }
+  },
+  "assurance": "bounded exact finite-field discovery only",
+  "calculation": {
+    "command": [
+      "/usr/bin/time",
+      "-l",
+      "/private/tmp/msolve-src.vqw7TC/msolve",
+      "-f",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/research/j2-secant-r10-residual-colon-p103.ms",
+      "-o",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/research/j2-secant-r10-residual-colon-p103-solver.out",
+      "-S",
+      "-g",
+      "2",
+      "-v",
+      "2",
+      "-t",
+      "4",
+      "--random-seed",
+      "0"
+    ],
+    "environment": {
+      "MSOLVE_DUMP_FIRST_KERNEL": "1",
+      "MSOLVE_KERNEL_DUMP_PATH": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/research/j2-secant-r10-residual-colon-p103-first-kernel.txt",
+      "MSOLVE_STOP_AFTER_FIRST_KERNEL": "1"
+    },
+    "kernel_polynomial_count": 0,
+    "kernel_polynomials": [],
+    "random_seed": 0,
+    "resource_metrics": {
+      "maximum_resident_set_size_bytes": 2310144,
+      "page_faults": 47,
+      "page_reclaims": 936,
+      "peak_memory_footprint_bytes": 1343824,
+      "swaps": 0,
+      "time_l_real_seconds": 0.04,
+      "time_l_sys_seconds": 0.0,
+      "time_l_user_seconds": 0.0
+    },
+    "return_code": 1,
+    "solver_wall_seconds": 0.050033583014737815,
+    "stderr_tail": "Initial seed for pseudo-random number generator is 0\nError: not implemented yet (prime field of too low characteristic)\n\n\n------------------------------------------------------------------------------------\nmsolve overall time           0.00 sec (elapsed) /  0.00 sec (cpu)\n------------------------------------------------------------------------------------\n        0.04 real         0.00 user         0.00 sys\n             2310144  maximum resident set size\n                   0  average shared memory size\n                   0  average unshared data size\n                   0  average unshared stack size\n                 936  page reclaims\n                  47  page faults\n                   0  swaps\n                   0  block input operations\n                   0  block output operations\n                   0  messages sent\n                   0  messages received\n                   0  signals received\n                  60  voluntary context switches\n                  68  involuntary context switches\n           103261762  instructions retired\n            45556551  cycles elapsed\n             1343824  peak memory footprint\n",
+    "stdout_tail": "",
+    "tap_parse_error": null,
+    "tap_present": false,
+    "tap_valid": false,
+    "threads": 4,
+    "timed_out": false,
+    "timeout_seconds": 180
+  },
+  "characteristic": 103,
+  "claim_boundary": "A kernel-emitted status identifies only a finite-field residual-colon candidate produced by the instrumented saturation algorithm. It does not independently prove membership, lift the candidate to QQ, compute the full colon or saturation, establish a unit, or close the secant chart. A timeout or solver error makes no mathematical decision.",
+  "colon_question": "first new class in (I1:M)/I1",
+  "generator_order": [
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "F5",
+    "F6",
+    "F7",
+    "F8",
+    "F9",
+    "F10",
+    "F11",
+    "F12",
+    "F13",
+    "F14",
+    "F15",
+    "F16",
+    "F17",
+    "h",
+    "M"
+  ],
+  "h": {
+    "character_weight_mod_12": 4,
+    "primitive_term_count": 189,
+    "source_artifact": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-first-colon-kernel-qq.json",
+    "source_artifact_sha256": "2c6b84ad400634a0f54aa54c3ebfb49b6ae3453240335713f07681fa5773d130",
+    "source_expression_sha256": "f9c575500b0ff7770048b56a9dec990741748d2eb66c6b3af952fe8e7b2f8d01",
+    "total_degree": 4
+  },
+  "ideal": "I1=(17 retained homogeneous normal cubics, h)",
+  "input": {
+    "byte_count": 11213,
+    "last_polynomial_is_saturating_element": true,
+    "normal_equation_stream_sha256": "ecc10203dd30d6e2bc606d96ac129984c5039dcd5627d767d3ef1a799fccce35",
+    "open_factor_sha256": "1e04fada0675e1638fcdf8801bc5e3177b8016e4c10052fd88adf85d6101a884",
+    "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/research/j2-secant-r10-residual-colon-p103.ms",
+    "polynomial_count": 19,
+    "sha256": "9c1d1d1c1bf9c5f2427cac96ce77eabb5eba36db7a481a593fce67b3f619455a"
+  },
+  "normal_generator_count": 17,
+  "saturating_element": "M=f9*f10*(2*f9^2+5*f10*g0)",
+  "schema": "hc4.decimic-j2-secant-r10-residual-colon-scout.v1",
+  "script": {
+    "path": "scripts/scout_j2_secant_r10_residual_colon.py",
+    "sha256": "4a0e38acdea542bea5dfe017cb12e86a53ef3026245bf1e5163c363758bd82a2"
+  },
+  "status": "INCOMPLETE_SOLVER_ERROR_NO_DECISION",
+  "tool": {
+    "binary_path": "/private/tmp/msolve-src.vqw7TC/.libs/msolve",
+    "binary_sha256": "60ad444942f9d2667fc7890d5b4c5b6b368c230543cbf39f883e0ff4eac30b43",
+    "commit": "185e7b92fa0687f4db68b0f2f453a835668ac132",
+    "commit_pinned": true,
+    "name": "msolve",
+    "source_diff": "diff --git a/src/msolve/msolve.c b/src/msolve/msolve.c\nindex 5e7d829..d86f58d 100644\n--- a/src/msolve/msolve.c\n+++ b/src/msolve/msolve.c\n@@ -4160,7 +4160,7 @@ restart:\n                     fprintf(ERRSTREAM, \"Something went wrong during the computation\\n\");\n                     return -1;\n                 }\n-                if (print_gb) {\n+                if (print_gb && getenv(\"MSOLVE_STOP_AFTER_FIRST_KERNEL\") == NULL) {\n \t\t  print_ff_basis_data(files->out_file, \"ab\", bs, bht,\n                     st, gens, print_gb);\n \t\t}\ndiff --git a/src/neogb/f4sat.c b/src/neogb/f4sat.c\nindex 42e4c10..07a9455 100644\n--- a/src/neogb/f4sat.c\n+++ b/src/neogb/f4sat.c\n@@ -675,6 +675,41 @@ end_sat_step:\n                             convert_sparse_matrix_rows_to_basis_elements_use_sht(\n                                     -1, mat, bs, bs->ht, st);\n                             st->hcm = tmp;\n+                            if (getenv(\"MSOLVE_DUMP_FIRST_KERNEL\") != NULL) {\n+                                FILE *dumpstream = VERBSTREAM;\n+                                const char *dumppath = getenv(\"MSOLVE_KERNEL_DUMP_PATH\");\n+                                if (dumppath != NULL) {\n+                                    FILE *candidate = fopen(dumppath, \"w\");\n+                                    if (candidate != NULL) {\n+                                        dumpstream = candidate;\n+                                    }\n+                                }\n+                                fprintf(dumpstream, \"COLON_KERNEL_DUMP_BEGIN\\n\");\n+                                for (len_t dk = 0; dk < mat->np; ++dk) {\n+                                    const len_t bi = bs->ld + dk;\n+                                    const hm_t *poly = bs->hm[bi];\n+                                    const cf32_t *cfs = bs->cf_32[poly[COEFFS]];\n+                                    fprintf(dumpstream,\n+                                            \"POLY %u DEG %u TERMS %u\\n\",\n+                                            bi, poly[DEG], poly[LENGTH]);\n+                                    for (len_t dt = 0; dt < poly[LENGTH]; ++dt) {\n+                                        fprintf(dumpstream, \"%u:\", cfs[dt]);\n+                                        const exp_t *ev = bht->ev[poly[OFFSET+dt]];\n+                                        for (len_t dv = 0; dv < bht->nv; ++dv) {\n+                                            const len_t ei = bht->ebl == 0\n+                                                ? dv + 1\n+                                                : (dv < bht->ebl - 1 ? dv + 1 : dv + 2);\n+                                            fprintf(dumpstream, \"%u%s\", ev[ei],\n+                                                    dv + 1 == bht->nv ? \"\\n\" : \",\");\n+                                        }\n+                                    }\n+                                }\n+                                fprintf(dumpstream, \"COLON_KERNEL_DUMP_END\\n\");\n+                                fflush(dumpstream);\n+                                if (dumpstream != VERBSTREAM) {\n+                                    fclose(dumpstream);\n+                                }\n+                            }\n                         }\n \n                         st->nr_kernel_elts  +=  kernel->ld;\n@@ -682,6 +717,13 @@ end_sat_step:\n                         free_kernel_coefficients(kernel);\n                         update_basis_f4(ps, bs, bht, st, mat->np);\n                         kernel->ld  = 0;\n+                        if (getenv(\"MSOLVE_STOP_AFTER_FIRST_KERNEL\") != NULL) {\n+                            fprintf(VERBSTREAM,\n+                                    \"\\nSTOP_AFTER_FIRST_KERNEL requested; \"\n+                                    \"exporting the intermediate basis\\n\");\n+                            ps->ld = 0;\n+                            goto stop_after_first_kernel;\n+                        }\n                         if (st->info_level > 1) {\n                             fprintf(VERBSTREAM, \"   \");\n                         }\n@@ -728,12 +770,13 @@ end_sat_step:\n             next_deg  = sat_deg;\n         }\n     }\n+stop_after_first_kernel:\n     print_round_information_footer(VERBSTREAM, st);\n     /* remove possible redudant elements */\n     final_remove_redundant_elements(bs, st, bht);\n \n     /* reduce final basis? */\n-    if (st->reduce_gb == 1) {\n+    if (st->reduce_gb == 1 && getenv(\"MSOLVE_STOP_AFTER_FIRST_KERNEL\") == NULL) {\n         /* note: bht will become sht, and sht will become NULL,\n          * thus we need pointers */\n         reduce_basis(bs, mat, st);\n",
+    "source_diff_sha256": "8936c296a84cdb0ad80249c9d9670760e536d550ffb90ba3f9734512c2cc2618",
+    "version": "0.10.1",
+    "wrapper_path": "/private/tmp/msolve-src.vqw7TC/msolve",
+    "wrapper_sha256": "2443d49e9693d0a98c039880ace0d9351dbd456d48a2d75405348127add25536"
+  },
+  "variable_names": [
+    "f3",
+    "f4",
+    "f5",
+    "f6",
+    "f7",
+    "f8",
+    "f10",
+    "g0",
+    "g1",
+    "g2",
+    "g3",
+    "g4",
+    "g5",
+    "g6",
+    "g7",
+    "g8",
+    "g9",
+    "f9"
+  ],
+  "wall_seconds": 6.540122915990651
+}

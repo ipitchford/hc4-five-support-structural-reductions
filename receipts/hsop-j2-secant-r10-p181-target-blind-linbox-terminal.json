@@ -1,0 +1,68 @@
+{
+  "benchmark_status": null,
+  "claim_boundary": "A PASS is exact rank/scaling evidence for the actual coefficient map only; no target-membership or HC4 conclusion follows.",
+  "completed_cases": [],
+  "declarations": {
+    "no_augmented_rank": true,
+    "no_digit": true,
+    "no_rhs": true,
+    "no_solve": true,
+    "target_blind": true
+  },
+  "error": "RuntimeError: registered rank/resource gate did not pass",
+  "implementation_freeze": {
+    "path": "receipts/hsop-j2-secant-r10-p181-target-blind-linbox-implementation-freeze.json",
+    "sha256": "a87bb8f98c3c6b89ab01df2cc1f5757ddc04fa363dfee5482932f817fc1f195b"
+  },
+  "retained_staging": {
+    "artifacts/staging/p181-target-blind-linbox-benchmark-20260831T001": {},
+    "artifacts/staging/p181-target-blind-linbox-gauge-20260831T001": {
+      "C_piv.u32le": "3a4087b184540be80852650b26aecaddd561a2a866599e660d9359b3415dfed2",
+      "gauge.json": "4fcef64d3456ae77ffba9eed397047b591fbd4ab672057a42fc40808128b9e01"
+    },
+    "artifacts/staging/p181-target-blind-linbox-telemetry-20260831T001": {
+      "benchmark.stderr.txt": "d410cdec2f430065f6e1fbd21f54aac1244c0687b52a183bb160ce809a91a830",
+      "benchmark.stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "benchmark.time.txt": "2eb0db570f307db5fb7890df559af4f07e68c10b18f35ab45315c28b1c59edb9"
+    }
+  },
+  "schema": "hc4.decimic-j2-secant-r10-p181-target-blind-linbox-terminal.v1",
+  "status": "STOP_ACTUAL_COEFFICIENT_LINBOX_RESOURCE_OR_RANK_GATE",
+  "telemetry": {
+    "ancestry_samples": 74,
+    "command": [
+      "/usr/bin/time",
+      "-l",
+      "-o",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-target-blind-linbox-telemetry-20260831T001/benchmark.time.txt",
+      "/opt/homebrew/bin/gtimeout",
+      "-s",
+      "TERM",
+      "-k",
+      "10s",
+      "600s",
+      "/Users/admin/.local/bin/sage",
+      "-python",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/scripts/benchmark_p181_target_blind_linbox_rank.py",
+      "--gauge-dir",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-target-blind-linbox-gauge-20260831T001",
+      "--output-dir",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-target-blind-linbox-benchmark-20260831T001",
+      "--freeze",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/receipts/hsop-j2-secant-r10-p181-target-blind-linbox-implementation-freeze.json"
+    ],
+    "external_time": {
+      "maximum_rss_bytes": 381665280,
+      "process_swaps": 0,
+      "raw_sha256": "2eb0db570f307db5fb7890df559af4f07e68c10b18f35ab45315c28b1c59edb9",
+      "real_seconds": 19.71,
+      "system_seconds": 0.73,
+      "user_seconds": 13.53
+    },
+    "return_code": 1,
+    "rss_breach_killed": false,
+    "sampled_descendant_rss_peak_bytes": 376979456,
+    "stderr_sha256": "d410cdec2f430065f6e1fbd21f54aac1244c0687b52a183bb160ce809a91a830",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

@@ -1,0 +1,1 @@
+{"status": "PASS_P181_SUPPORT18_SIX_DIGIT_LIFT_RECOVERED_V2", "receipt": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-support18-six-digit-recovery-20260831T005/recovery.json", "sha256": "2759d15b7538fd5646ede61d47f64179a0cb4ab5fa10fd627b110a58404a49f8"}

@@ -1,0 +1,11 @@
+{
+  "claim_boundary": "No positive mathematical conclusion is licensed by this incomplete or failed audit.",
+  "error": "final census producer receipt failed schema/resource gates",
+  "error_type": "ValueError",
+  "maximum_rss_native": 271679488,
+  "process_swaps": 0,
+  "schema": "hc4.third-colon-koszul-p197-common-minor-independent-audit.v1",
+  "source_sha256": "585455c16208bbdd2ac11c9ca4a832d0b60fa655eb27d676dc859814c35e45b3",
+  "status": "FAIL_CLOSED_INDEPENDENT_COMMON_MINOR_AUDIT",
+  "wall_seconds": 50.212865874986164
+}

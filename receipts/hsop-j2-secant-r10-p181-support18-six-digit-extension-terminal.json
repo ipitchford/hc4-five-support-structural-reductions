@@ -1,0 +1,62 @@
+{
+  "claim_boundary": "A finite p6 PASS concerns 18 fixed source-kernel directions only; no rational, target, colon, saturation, secant, nullcone, or HC4 conclusion follows.",
+  "extension_status": null,
+  "implementation_freeze": {
+    "path": "receipts/hsop-j2-secant-r10-p181-support18-six-digit-extension-implementation-freeze.json",
+    "sha256": "27f6f47db255719fd7f919aa91377eb405c0e9d6fbb2ce35a6eee2a331a50e36"
+  },
+  "promoted": {
+    "artifact": {
+      "correction_rhs_digit_04_padded114.u8": "baca5a8bb31514989af9008b3f89aaaee079265d2eed978075e9d3273fac253d",
+      "correction_rhs_digit_05_padded114.u8": "f6fd4cf456538c62e7b65d58762036ae02a45a091327b46b971deafe141a1e06",
+      "digit_04.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "digit_04.stdout.txt": "e8bd72795e564f7f897f8e3c4fdbb0d50f9157080917b458b849aa8201c11744",
+      "digit_04_padded114.u8": "542887bdf74616464fcfb5f112096daa75fd57f681edfbb01c1bb2ef7b48226e",
+      "digit_04_support18_row_major.u8": "49e37de6914ce5e767e541316a40ca75093d6d1d9768d1c214903f545aaa0472",
+      "digit_05.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "digit_05.stdout.txt": "62e251d238b4efbc22b572f6d281e22afea4ed6a5554dec9276ce2aeaaaa06f4",
+      "digit_05_padded114.u8": "55d90a5b9ed470aee9a0ef0240a9ed3150b2dde50203ebe83ab2508883399d9f",
+      "digit_05_support18_row_major.u8": "7ac87d6ef4adf15ee816c9f276f9d340bcb34cee3e70d55343eab29e7f3b78db"
+    },
+    "telemetry": {
+      "benchmark.stderr.txt": "9838c3e3c917b7b8047fb29e2a9695db4812830b412c881f91faad7dad793605",
+      "benchmark.stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "benchmark.time.txt": "bb783c0e5353b3f276135fd7d4ba995ed6951a1885ec0ef5596b67bc18265cbd"
+    }
+  },
+  "schema": "hc4.third-colon-p181-support18-six-digit-extension-terminal.v1",
+  "status": "FAIL_P181_SUPPORT18_SIX_DIGIT_INTEGRITY",
+  "telemetry": {
+    "ancestry_samples": 417,
+    "command": [
+      "/usr/bin/time",
+      "-l",
+      "-o",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-support18-six-digit-telemetry-20260831T004/benchmark.time.txt",
+      "/opt/homebrew/bin/gtimeout",
+      "-s",
+      "TERM",
+      "-k",
+      "10s",
+      "600s",
+      "/Users/admin/.local/bin/sage",
+      "-python",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/scripts/extend_p181_support18_to_six_digits.py",
+      "--output-dir",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-support18-six-digit-20260831T004"
+    ],
+    "external_time": {
+      "maximum_rss_bytes": 176029696,
+      "process_swaps": 0,
+      "raw_sha256": "bb783c0e5353b3f276135fd7d4ba995ed6951a1885ec0ef5596b67bc18265cbd",
+      "real_seconds": 115.67,
+      "system_seconds": 0.88,
+      "user_seconds": 109.94
+    },
+    "return_code": 1,
+    "rss_breach_killed": false,
+    "sampled_descendant_rss_peak_bytes": 292339712,
+    "stderr_sha256": "9838c3e3c917b7b8047fb29e2a9695db4812830b412c881f91faad7dad793605",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

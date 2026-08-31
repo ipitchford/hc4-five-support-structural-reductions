@@ -1,0 +1,10 @@
+{
+  "bound_files": {
+    "artifacts/third-colon-p181-block-denominator-reconstruction-v1/block-denominator.json": "97d37ec9d056790dade9ac0620bf09718e6eaebde20c17beaf9afd01c67f1e71",
+    "research/THIRD_COLON_P181_BLOCK_NUMERATOR_STABILITY_PREREGISTRATION.md": "8dfafc0ace065d04180e4f98972af04e086c77446a21b98cffbd95422cd1c0ba",
+    "scripts/scout_p181_third_colon_block_numerator_stability.py": "41ef7e524688087b31a07f4998b5345fae81599313d445cfd56da2f88d47f0c0"
+  },
+  "canonical_output": "artifacts/third-colon-p181-block-numerator-stability-v1",
+  "schema": "hc4.decimic-j2-secant-r10-p181-block-numerator-stability-implementation-freeze.v1",
+  "status": "PASS_BLOCK_NUMERATOR_STABILITY_IMPLEMENTATION_FREEZE"
+}

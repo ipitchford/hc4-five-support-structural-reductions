@@ -1,0 +1,96 @@
+{
+  "algebra_and_historical_sources": {
+    "artifacts/j2-secant-r10-third-colon-identity-extended-sparse-p181.json": "e9841fee4f75e60adef26a8b10878b35f6db48e6d0a21876b197d7cbdef2064b",
+    "artifacts/j2-secant-r10-third-colon-residual-114-quotient-chart.json": "7ad12483dd5c8429defc3e0c5c8138ded3d344969075ae4afdb15d39d2fb9a74",
+    "receipts/hsop-j2-secant-r10-third-colon-dixon-p181-implementation-freeze-v1-failed-audit.json": "913c3ee41dd83084e7da570b468789dca351eb46fe259ff898f7c3152a078163",
+    "receipts/hsop-j2-secant-r10-third-colon-dixon-p181-implementation-freeze-v1.json": "8b313ec2354c7afe21a041260a2dbc6bc6b167855a94b14fa21031c9538d1568",
+    "receipts/hsop-j2-secant-r10-third-colon-identity-extended-sparse-p181.json": "f04bc461e8b15c012c229d1de13eb940316bad35914f12a34ab3fc112b29f14c",
+    "receipts/hsop-j2-secant-r10-third-colon-identity-extended-sparse-p181.time.txt": "67e37fb4b7a8cf22a8f9a37c2757341e9324e9277783728739178ce7babab92d",
+    "receipts/hsop-j2-secant-r10-third-colon-koszul-p197-common-minor-m70-census.json": "7bb84b8e56df2e68fc4989cf22fc538d8660a5888d7ed0a6eac692512e69367c",
+    "receipts/hsop-j2-secant-r10-third-colon-koszul-p197-common-minor-normalization-independent-audit.json": "674c2757e3dc0f4fdc51e3d4c889a742cac192e74322cc1b5ece70d72ec55ad4",
+    "receipts/hsop-j2-secant-r10-third-colon-koszul-p197-common-minor-normalization.json": "3c2f2ac3b2a0c98bb279e90a1fffe8aea68f8c8c4db85e15ced673d50648946e",
+    "receipts/hsop-j2-secant-r10-third-colon-residual-114-quotient-independent-audit-external-telemetry.json": "831c4ce5bcd6fdb0451209db1a8b0cbafabeec3e605c3235836c09cd42dac91e",
+    "receipts/hsop-j2-secant-r10-third-colon-residual-114-quotient-independent-audit.json": "7eba0e65e40abd7eea0065ecd84c3803237fa9cc5c51391f3202b4d300b7185a",
+    "receipts/hsop-j2-secant-r10-third-colon-residual-114-quotient-scout.json": "652af633649c32af3322b9405eac8d6e60fdaba5668817de6a11330782bc752a",
+    "receipts/hsop-j2-secant-r10-third-colon-residual-114-two-prime-exact-chart-external-telemetry.json": "5770d7cc1cd71559bd754951937ff89a664950c25029a2088329cbef3f286d0b",
+    "receipts/hsop-j2-secant-r10-third-colon-residual-114-two-prime-exact-chart-failed.json": "1d7f334e55c1229280e2b49e17a22ec74f578dde3ef6144745a81c6884ae9a37",
+    "research/THIRD_COLON_KOSZUL_P197_COMMON_MINOR_NORMALIZATION_PREREGISTRATION.md": "b203a118b302c50394a0188501e32d12cc077c85fca2b1513bed770f59a112f8",
+    "research/THIRD_COLON_RESIDUAL_114_QUOTIENT_SCOUT_PREREGISTRATION.md": "112fb4ea3de68c84459422903e0c6f3c4c2902d364b13639f130c2a7f6cebf22",
+    "research/THIRD_COLON_RESIDUAL_114_TWO_PRIME_EXACT_CHART_EXTENSION_PREREGISTRATION.md": "cc01cb96c1738316100bc46eab2c5ce5c8e23402da7b95d2483f0fab80f0ac10",
+    "scripts/audit_j2_secant_r10_third_colon_residual_114_quotient_independent.py": "81ad24d01ae70a0ca2731259753d99a429bd48ae288e77105120dd800009396d",
+    "scripts/census_j2_secant_r10_third_colon_koszul_p197_common_minor_m70.py": "6c09d24f9ef3962b1d677c38b34521be20fb4fb3f13dd34c12f270920beccb44",
+    "scripts/certify_j2_secant_r10_third_colon_identity_sparse_macaulay.py": "c0e1557c1a18d85af997e24c739d799d58c7d0b655d0662a0215f30e9b42ae74",
+    "scripts/normalize_j2_secant_r10_third_colon_koszul_p197_common_minor.py": "fdbed62134385b5412474cd40e70e25a69eea9c5284a6a06dc99ecc121c4d57e",
+    "scripts/produce_j2_secant_r10_third_colon_residual_114_two_prime_exact_chart.py": "7f469224f15b09419c7d092f4a84600ec1532f9e27711454a72e774f118c2f5d",
+    "scripts/run_j2_secant_r10_third_colon_residual_114_two_prime_exact_chart_gated.py": "7fd2f5f21045e8eb7434074057707d489085612b8941b977b1c31581148b3229",
+    "scripts/scout_j2_secant_r10_third_colon_residual_114_quotient.py": "607706e89e25990ed3ed1bdd5f7d9a972c824b0bff62a33035789860f75f3b81"
+  },
+  "canonical_paths": {
+    "factorization_freeze_index": "receipts/hsop-j2-secant-r10-third-colon-dixon-p181-factorization-freeze-v2.json",
+    "independent_bundle": "artifacts/j2-secant-r10-third-colon-dixon-p181-independent-8digit-bundle-v2",
+    "phase1_bundle": "artifacts/j2-secant-r10-third-colon-dixon-p181-phase1-bundle-v2",
+    "phase1_telemetry": "artifacts/j2-secant-r10-third-colon-dixon-p181-phase1-telemetry-v2",
+    "phase2_telemetry": "artifacts/j2-secant-r10-third-colon-dixon-p181-phase2-telemetry-v2",
+    "producer_bundle": "artifacts/j2-secant-r10-third-colon-dixon-p181-producer-8digit-bundle-v2",
+    "quarantine_root": "artifacts/quarantine",
+    "staging_root": "artifacts/staging",
+    "terminal_receipt": "receipts/hsop-j2-secant-r10-third-colon-dixon-p181-8digit-terminal-v2.json"
+  },
+  "claim_boundary": "This receipt freezes source, algebra, toolchain, paths, and gates before Phase I. It computes no coefficient factorization, Dixon digit, p-adic or QQ identity, ideal membership, colon, saturation, secant closure, nullcone containment, or HC4 result.",
+  "declarations": {
+    "all_implementation_sources_complete_before_freeze": true,
+    "created_before_preprocessing": true,
+    "no_arithmetic_modulo_181_squared": true,
+    "no_p2_artifact_observed": true
+  },
+  "documents": {
+    "research/THIRD_COLON_FIXED_P181_ZERO_FREE_DIXON_8DIGIT_PREREGISTRATION.md": "dcba29bf2b3396fcbfd2999aad09a363c2fc852e4fb04c142cb1e1636c5ad6cc",
+    "research/THIRD_COLON_FIXED_P181_ZERO_FREE_DIXON_8DIGIT_PREREGISTRATION_AMENDMENT_01.md": "5bff2bd3844744f854c2757aee4b8bf09d227ae487ba1b43f55682a009f5d08c",
+    "research/THIRD_COLON_FIXED_P181_ZERO_FREE_DIXON_8DIGIT_PREREGISTRATION_AMENDMENT_02.md": "dd07f5e0e6ca139383905bedae9b382304bcf2cf52ce74d0c496e30e32dc5def",
+    "research/THIRD_COLON_FIXED_P181_ZERO_FREE_DIXON_8DIGIT_PREREGISTRATION_AMENDMENT_03.md": "2595d68aed6ed3e968f516386effdb09ede8c1f851bda717dc93f76cd8946b82"
+  },
+  "implementation_sources": {
+    "scripts/factor_fixed_p181_dixon_coefficients.py": "c964784f707f98a8b35b730f4289ad6cee99658be0e5c74f655259e4a969ca90",
+    "scripts/fixed_p181_dixon_codec.py": "9cdd107f88cb731e951d2568a0789b12af38fe24fd39156f1d42583610b38288",
+    "scripts/fixed_p181_dixon_rr.py": "df4af8404cbc151d73fe82aeeb588541e412063d2fcdb2969933e40e21c5329c",
+    "scripts/freeze_fixed_p181_dixon_implementation.py": "045913985b1afc2c178dc1a2835013d55d15c5445433635997609625c0ce07ac",
+    "scripts/preprocess_fixed_p181_dixon_integer_system.py": "c21462f5e179c6f3f9e63145e455c466a0f604a3f42168ca35f18caeb1ebe594",
+    "scripts/produce_fixed_p181_dixon_8digit_pilot.py": "c97424697969c91705083bcdda1d85f37d8f44a9e4c9ed3654f1b7d045a11477",
+    "scripts/replay_fixed_p181_dixon_8digit_independent.py": "c7698d58d7857a4d0533b2a0571d00fbaa01c791947bbed946b5f44f9d6157ae",
+    "scripts/run_fixed_p181_dixon_8digit_gated.py": "36712767ea1246bc992aa32ba27526c85666e079a447bc7c6084ae66a80abd01"
+  },
+  "policy": {
+    "characteristic": 181,
+    "digits": 8,
+    "literal_process_swaps_required": 0,
+    "maximum_concurrent_algebra_children": 1,
+    "phase1_child_rss_bytes_maximum": 3500000000,
+    "phase1_total_wall_seconds_maximum": 600,
+    "phase2_process_rss_bytes_maximum": 1500000000,
+    "phase2_process_wall_seconds_maximum": 180,
+    "rr_checkpoints": [
+      4,
+      6,
+      8
+    ],
+    "rr_regression_maximum_modulus": 512,
+    "tail_digit_indices_zero_based": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "terminal_modulus_decimal": "1151936657823500641"
+  },
+  "schema": "hc4.decimic-j2-secant-r10-third-colon-dixon-p181-implementation-freeze.v2",
+  "status": "PASS_IMPLEMENTATION_FREEZE",
+  "toolchain": {
+    "external_time_executable": "/usr/bin/time",
+    "gtimeout_executable": "/opt/homebrew/Cellar/coreutils/9.10/bin/gtimeout",
+    "gtimeout_version": "timeout (GNU coreutils) 9.10",
+    "python_executable": "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+    "python_version": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "sage_executable": "/Users/admin/.local/bin/sage",
+    "sage_version": "SageMath version 10.9, Release Date: 2026-05-04"
+  }
+}

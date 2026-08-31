@@ -1,0 +1,70 @@
+{
+  "assurance": "modular exact linear algebra only",
+  "branch": "degree_4",
+  "characteristic": 101,
+  "chart": "f9=1 with f10!=0 and j2!=0",
+  "claim_boundary": "this receipt proves a degree-bounded identity only in the displayed finite characteristic; rational reconstruction and exact verification are required for a characteristic-zero certificate",
+  "degree_bound": 7,
+  "equation_stream_sha256": "38aea8f29608d9dde7568cb193aeb142eea0d3c01ad82c9d4801edd000e4db31",
+  "generator_count": 11,
+  "generator_degree_distribution": {
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 6,
+    "6": 1
+  },
+  "macaulay_column_count": 38194,
+  "macaulay_nonzero_count": 72601,
+  "macaulay_row_count": 16783,
+  "modular_identity_verified": false,
+  "monomial_stream_sha256": "996a6d480b11599cb22b1de5d50deab235d7a3fb8c83bc0bec9594dfc541c2bb",
+  "orbit": "secant",
+  "original_generator_count": 22,
+  "retained_generator_indices": [
+    1,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    18,
+    20,
+    21
+  ],
+  "row_descriptor_sha256": "e3ffb665eecd7757a2d3edc488d627acab1a31c2b64dedee4530540fda2a4346",
+  "schema": "hc4-decimic-j2-secant-r10-f9-modular-macaulay-identity-v2",
+  "solution_support": [],
+  "solution_support_count": 0,
+  "source_sha256": {
+    "scripts/certify_j2_secant_r10_f9_laurent_branch.py": "0b1015b23d726c25965f010d4c04e55d95d2ef35e5bc1f913167dc9bcbc84620",
+    "scripts/extract_j2_secant_r10_f9_degree6_modular_identity.py": "9176bc274fe8204b1649d4aff1ac4d61bc7849b9cd7dbfc20bb455c22b8fd58c"
+  },
+  "status": "NO_MODULAR_IDENTITY_AT_BOUND",
+  "timings": {
+    "matrix_build_seconds": 0.21053750001010485,
+    "polynomial_build_seconds": 6.157715208973968,
+    "row_enumeration_seconds": 0.16404037500615232,
+    "solve_seconds": 6.981946957996115,
+    "wall_seconds": 13.61142974998802
+  },
+  "variable_count": 14,
+  "variable_names": [
+    "f5",
+    "f6",
+    "f7",
+    "f8",
+    "f10",
+    "g2",
+    "g3",
+    "g4",
+    "g5",
+    "g6",
+    "g7",
+    "g8",
+    "f10inv",
+    "leadinv"
+  ]
+}

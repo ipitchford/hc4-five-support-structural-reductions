@@ -1,0 +1,28 @@
+{
+  "bound_files": {
+    "artifacts/bin/linbox_augmented_nullspace_mod181_target_driver": "9723f17186d89229a8ea3d24181cdc1a4bba5e2be9537bb0ed8d170d3872fa31",
+    "artifacts/third-colon-p181-augmented-nullspace-8digit-lift-v2/X_mod_181_power_8.u64le": "18c32d72b31fa62dc7c1d347e6a6686bab11bc273077c60bdde329037559b842",
+    "artifacts/third-colon-p181-equal-height-reconstruction-v1/equal-height.json": "e299b884392305a02e5eb0df078e0f030aaa324c2256b8a7e2d5b82f017db631",
+    "artifacts/third-colon-p181-source-clean-integral-lift-system-v1/A_Z_b_Z_fixed_gauge.i64csr": "5064cfea27bc16ad9977d651f6215b407e2e3865df3dfc65ad15213b27d5ab8d",
+    "artifacts/third-colon-p181-source-clean-integral-lift-system-v1/A_Z_mod181_fixed_gauge.csr": "eb419a8348852cb784f308ebd32eef682c731bafe77533e3b37ff5241b2228cc",
+    "receipts/hsop-j2-secant-r10-p181-augmented-nullspace-8digit-lift-independent-audit.json": "7c2d7cec9720556858f712211cbeff4fefd5d8a12b697ecf5e7b74a1f57a40d7",
+    "research/THIRD_COLON_P181_AUGMENTED_NULLSPACE_12DIGIT_EXTENSION_PREREGISTRATION.md": "bc49866bf1e5b4fb1a7e9ff37fc0e2b2d43dd31712d24f37142ae7882895670e",
+    "scripts/extend_p181_third_colon_augmented_nullspace_to_12digits.py": "c73ea5767d193e665d15da37c5db506932f9975019f45bdc72ea2353e0358c18",
+    "scripts/run_p181_target_blind_linbox_rank_gated.py": "a282b31bca01c972ff5d294b64ddca103d2ea6c1c6bab8f6f12ddc7b800b83de",
+    "scripts/run_p181_third_colon_augmented_nullspace_12digit_extension_gated.py": "e9fb1d4630883db14da624b2a16aefe686f1928a8c86f36eba83c771d407c752"
+  },
+  "canonical_outputs": {
+    "artifact": "artifacts/third-colon-p181-augmented-nullspace-12digit-extension-v1",
+    "telemetry": "receipts/telemetry/third-colon-p181-augmented-nullspace-12digit-extension-v1",
+    "terminal": "receipts/hsop-j2-secant-r10-p181-augmented-nullspace-12digit-extension.json"
+  },
+  "policy": {
+    "additional_digits": 4,
+    "maximum_total_digits": 12,
+    "process_swaps_maximum": 0,
+    "rss_bytes_maximum": 4294967296,
+    "wall_seconds_maximum": 900
+  },
+  "schema": "hc4.decimic-j2-secant-r10-p181-12digit-extension-implementation-freeze.v1",
+  "status": "PASS_P181_12DIGIT_EXTENSION_IMPLEMENTATION_FREEZE"
+}

@@ -1,0 +1,438 @@
+{
+  "aggregate_telemetry": {
+    "maximum_rss_native": 1673527296,
+    "maximum_wall_seconds": 225.26439999998547,
+    "median_wall_seconds": 203.04872752049414,
+    "minimum_rss_native": 1333395456,
+    "minimum_wall_seconds": 193.0683523750049,
+    "sum_solve_seconds": 1553.093161666009,
+    "sum_wall_seconds": 1665.6979157499445
+  },
+  "assurance": "exact receipt and certificate integrity audit; no QQ reconstruction",
+  "characteristics": [
+    2147483647,
+    2147483629,
+    2147483587,
+    2147483579,
+    2147483563,
+    2147483549,
+    2147483353,
+    2147483269
+  ],
+  "claim_boundary": "These are eight aligned exact finite-field identities. This audit does not perform rational reconstruction, prove a QQ identity, compute a colon or saturation, close the secant chart, or establish HC4.",
+  "schema": "hc4.decimic-j2-secant-r10-third-colon-fixed-free-source-batch.v1",
+  "script": {
+    "path": "scripts/audit_j2_secant_r10_third_colon_fixed_free_source_batch.py",
+    "sha256": "5b6b6355dd8bb34a4e7a3f492412a95669ebe858a62991941de80a8c063a2519"
+  },
+  "shared_invariants": {
+    "all_gauge_coverage_verified": true,
+    "all_same_process_remainders_zero": true,
+    "free_unknown_count": 2167,
+    "free_unknown_indices_sha256": "ddcaae88f432744341df10a77d66a5d791d1b7c46e3285020f08a1795815b8b1",
+    "gauge_source_sha256": "e55af2dc2d7f390227bda852f5366d68f078500e00794e3a60d7cc4452797ec1",
+    "generator_stream_sha256": "4e5ca7f6ed60548f84d6a84a4fa272c044b76be4ab3788b091376bf54f9ada4b",
+    "monomial_stream_sha256": "153dd5ae53908e06fa5b4722c88cdffd823d5705a9a6ab1e8ca6f5f070665614",
+    "pivot_count": 35881,
+    "row_descriptor_sha256": "0f0e46bb94241fa478c6cbdcf33c4472128ad4ed48a8fdaebd88e19028948639",
+    "target_sha256": "32e84450b525fce0c9fca7d263e6d73a2b9508811fa4bd7e473002a08ab2c84e",
+    "unknown_multiplier_coordinates": 38048
+  },
+  "source_count": 8,
+  "sources": [
+    {
+      "certificate": {
+        "byte_count": 7847346,
+        "coordinate_vector_sha256": "8ca47149de4ca94b24a1d712da6227960a8b17f8a177a74c3b73d70cb8d30f12",
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-fixed-free-p2147483647.json",
+        "sha256": "6d100a6bed6c257f524cb920e861de8282dcc7a301a13574fcdd449144a363b8",
+        "solution_support_count": 20355
+      },
+      "characteristic": 2147483647,
+      "receipt": {
+        "byte_count": 9585,
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/receipts/hsop-j2-secant-r10-third-colon-identity-fixed-free-p2147483647.json",
+        "sha256": "80f0f3ae0af2a9d810c2290baa89715517b1a61fd15b6d958a1b1608af64d5e5"
+      },
+      "replay": {
+        "completed": true,
+        "first_mismatch": null,
+        "identity_zero": true,
+        "mismatch_count": 0,
+        "replay_seconds": 0.20948866597609594
+      },
+      "resources": {
+        "maximum_rss_native": 1543979008,
+        "system_cpu_seconds": 2.019717,
+        "user_cpu_seconds": 198.855465
+      },
+      "solver": {
+        "free_unknown_count": 2167,
+        "maximum_active_equation_length": 801,
+        "peak_total_nonzeros": 4531796,
+        "pivot_count": 35881,
+        "solve_seconds": 188.59157404198777,
+        "update_count": 8887307
+      },
+      "source_hashes": {
+        "generator_stream_sha256": "4e5ca7f6ed60548f84d6a84a4fa272c044b76be4ab3788b091376bf54f9ada4b",
+        "monomial_stream_sha256": "153dd5ae53908e06fa5b4722c88cdffd823d5705a9a6ab1e8ca6f5f070665614",
+        "row_descriptor_sha256": "0f0e46bb94241fa478c6cbdcf33c4472128ad4ed48a8fdaebd88e19028948639",
+        "second_quartic_loader_source_sha256": "ea20fb8719bb583c424f0cc4e2730b46c7f38e130558fa7e6d2422865fb1af6b",
+        "shared_solver_source_sha256": "76ba50cd9cf226ffd07169b4aac619974c35027fa20153136e354263f005c27b",
+        "source_sha256": "c0e1557c1a18d85af997e24c739d799d58c7d0b655d0662a0215f30e9b42ae74",
+        "target_sha256": "32e84450b525fce0c9fca7d263e6d73a2b9508811fa4bd7e473002a08ab2c84e"
+      },
+      "timings": {
+        "block_build_seconds": 12.633717709017219,
+        "solve_seconds": 188.59157404198777,
+        "wall_seconds": 202.3838652500126
+      }
+    },
+    {
+      "certificate": {
+        "byte_count": 7847332,
+        "coordinate_vector_sha256": "fbe62dbe95169c9347876050a3e890da58caea726002d6a6cba0a2fc32234713",
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-fixed-free-p2147483629.json",
+        "sha256": "e8da8d26fe2d9b426620dc2a8163222bac1fabed2b5da8d383e98a7052b5752a",
+        "solution_support_count": 20355
+      },
+      "characteristic": 2147483629,
+      "receipt": {
+        "byte_count": 9584,
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/receipts/hsop-j2-secant-r10-third-colon-identity-fixed-free-p2147483629.json",
+        "sha256": "75bafb276c4f2608a7a869ec5ee2297df28f3cabd50ef386cfb0dd7426c00f95"
+      },
+      "replay": {
+        "completed": true,
+        "first_mismatch": null,
+        "identity_zero": true,
+        "mismatch_count": 0,
+        "replay_seconds": 0.2674389999883715
+      },
+      "resources": {
+        "maximum_rss_native": 1333395456,
+        "system_cpu_seconds": 4.334323,
+        "user_cpu_seconds": 213.784936
+      },
+      "solver": {
+        "free_unknown_count": 2167,
+        "maximum_active_equation_length": 801,
+        "peak_total_nonzeros": 4531796,
+        "pivot_count": 35881,
+        "solve_seconds": 210.69384274998447,
+        "update_count": 8887307
+      },
+      "source_hashes": {
+        "generator_stream_sha256": "4e5ca7f6ed60548f84d6a84a4fa272c044b76be4ab3788b091376bf54f9ada4b",
+        "monomial_stream_sha256": "153dd5ae53908e06fa5b4722c88cdffd823d5705a9a6ab1e8ca6f5f070665614",
+        "row_descriptor_sha256": "0f0e46bb94241fa478c6cbdcf33c4472128ad4ed48a8fdaebd88e19028948639",
+        "second_quartic_loader_source_sha256": "ea20fb8719bb583c424f0cc4e2730b46c7f38e130558fa7e6d2422865fb1af6b",
+        "shared_solver_source_sha256": "76ba50cd9cf226ffd07169b4aac619974c35027fa20153136e354263f005c27b",
+        "source_sha256": "c0e1557c1a18d85af997e24c739d799d58c7d0b655d0662a0215f30e9b42ae74",
+        "target_sha256": "32e84450b525fce0c9fca7d263e6d73a2b9508811fa4bd7e473002a08ab2c84e"
+      },
+      "timings": {
+        "block_build_seconds": 13.26320424998994,
+        "solve_seconds": 210.69384274998447,
+        "wall_seconds": 225.26439999998547
+      }
+    },
+    {
+      "certificate": {
+        "byte_count": 7847292,
+        "coordinate_vector_sha256": "2f1b316f05d32201817ad5271b71ac47df7ef6b0032ea010a80ad7d9fd4ee61d",
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-fixed-free-p2147483587.json",
+        "sha256": "456776f404da2edd2d10c556c06f1f59df68b1abd71ffb97b5f3b25993b01416",
+        "solution_support_count": 20355
+      },
+      "characteristic": 2147483587,
+      "receipt": {
+        "byte_count": 9582,
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/receipts/hsop-j2-secant-r10-third-colon-identity-fixed-free-p2147483587.json",
+        "sha256": "18897890049a9cfcd84870ca474201449081dd14226faa37735457df4b03c150"
+      },
+      "replay": {
+        "completed": true,
+        "first_mismatch": null,
+        "identity_zero": true,
+        "mismatch_count": 0,
+        "replay_seconds": 0.20175287500023842
+      },
+      "resources": {
+        "maximum_rss_native": 1507475456,
+        "system_cpu_seconds": 2.52862,
+        "user_cpu_seconds": 209.18675
+      },
+      "solver": {
+        "free_unknown_count": 2167,
+        "maximum_active_equation_length": 801,
+        "peak_total_nonzeros": 4531796,
+        "pivot_count": 35881,
+        "solve_seconds": 202.1815310420061,
+        "update_count": 8887307
+      },
+      "source_hashes": {
+        "generator_stream_sha256": "4e5ca7f6ed60548f84d6a84a4fa272c044b76be4ab3788b091376bf54f9ada4b",
+        "monomial_stream_sha256": "153dd5ae53908e06fa5b4722c88cdffd823d5705a9a6ab1e8ca6f5f070665614",
+        "row_descriptor_sha256": "0f0e46bb94241fa478c6cbdcf33c4472128ad4ed48a8fdaebd88e19028948639",
+        "second_quartic_loader_source_sha256": "ea20fb8719bb583c424f0cc4e2730b46c7f38e130558fa7e6d2422865fb1af6b",
+        "shared_solver_source_sha256": "76ba50cd9cf226ffd07169b4aac619974c35027fa20153136e354263f005c27b",
+        "source_sha256": "c0e1557c1a18d85af997e24c739d799d58c7d0b655d0662a0215f30e9b42ae74",
+        "target_sha256": "32e84450b525fce0c9fca7d263e6d73a2b9508811fa4bd7e473002a08ab2c84e"
+      },
+      "timings": {
+        "block_build_seconds": 13.348635166010354,
+        "solve_seconds": 202.1815310420061,
+        "wall_seconds": 216.82034962499165
+      }
+    },
+    {
+      "certificate": {
+        "byte_count": 7847404,
+        "coordinate_vector_sha256": "cb323535c04427d1f07c6554d2f970576c9654f689aa54f790a577262770f7f5",
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-fixed-free-p2147483579.json",
+        "sha256": "ac36b7c359e97c9ff14445c90eaf74bb1adcd8d5525196a32cf41e5a4ac30d13",
+        "solution_support_count": 20355
+      },
+      "characteristic": 2147483579,
+      "receipt": {
+        "byte_count": 9582,
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/receipts/hsop-j2-secant-r10-third-colon-identity-fixed-free-p2147483579.json",
+        "sha256": "fb13ceaa1b11f68375593e82e23152695b5b76205000297e299d4afd8e96984b"
+      },
+      "replay": {
+        "completed": true,
+        "first_mismatch": null,
+        "identity_zero": true,
+        "mismatch_count": 0,
+        "replay_seconds": 0.1917443750135135
+      },
+      "resources": {
+        "maximum_rss_native": 1494351872,
+        "system_cpu_seconds": 1.88883,
+        "user_cpu_seconds": 200.933637
+      },
+      "solver": {
+        "free_unknown_count": 2167,
+        "maximum_active_equation_length": 801,
+        "peak_total_nonzeros": 4531796,
+        "pivot_count": 35881,
+        "solve_seconds": 189.8231873330078,
+        "update_count": 8887307
+      },
+      "source_hashes": {
+        "generator_stream_sha256": "4e5ca7f6ed60548f84d6a84a4fa272c044b76be4ab3788b091376bf54f9ada4b",
+        "monomial_stream_sha256": "153dd5ae53908e06fa5b4722c88cdffd823d5705a9a6ab1e8ca6f5f070665614",
+        "row_descriptor_sha256": "0f0e46bb94241fa478c6cbdcf33c4472128ad4ed48a8fdaebd88e19028948639",
+        "second_quartic_loader_source_sha256": "ea20fb8719bb583c424f0cc4e2730b46c7f38e130558fa7e6d2422865fb1af6b",
+        "shared_solver_source_sha256": "76ba50cd9cf226ffd07169b4aac619974c35027fa20153136e354263f005c27b",
+        "source_sha256": "c0e1557c1a18d85af997e24c739d799d58c7d0b655d0662a0215f30e9b42ae74",
+        "target_sha256": "32e84450b525fce0c9fca7d263e6d73a2b9508811fa4bd7e473002a08ab2c84e"
+      },
+      "timings": {
+        "block_build_seconds": 12.731828749994747,
+        "solve_seconds": 189.8231873330078,
+        "wall_seconds": 203.71358979097567
+      }
+    },
+    {
+      "certificate": {
+        "byte_count": 7847114,
+        "coordinate_vector_sha256": "a548206ce5081296dfcb245bd4fa477b9483f13120624d723199772404ef3d27",
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-fixed-free-p2147483563.json",
+        "sha256": "533eb8aba87313835136878b485e3e969aad933a422568fde18404cc2ac78d65",
+        "solution_support_count": 20355
+      },
+      "characteristic": 2147483563,
+      "receipt": {
+        "byte_count": 9585,
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/receipts/hsop-j2-secant-r10-third-colon-identity-fixed-free-p2147483563.json",
+        "sha256": "a889779229e3dcf49ecf0f3aaa80f15fab93ceafea8b78a34a17fdb7030a86f0"
+      },
+      "replay": {
+        "completed": true,
+        "first_mismatch": null,
+        "identity_zero": true,
+        "mismatch_count": 0,
+        "replay_seconds": 0.24216387499473058
+      },
+      "resources": {
+        "maximum_rss_native": 1470824448,
+        "system_cpu_seconds": 1.740731,
+        "user_cpu_seconds": 195.200006
+      },
+      "solver": {
+        "free_unknown_count": 2167,
+        "maximum_active_equation_length": 801,
+        "peak_total_nonzeros": 4531796,
+        "pivot_count": 35881,
+        "solve_seconds": 187.75685075001093,
+        "update_count": 8887307
+      },
+      "source_hashes": {
+        "generator_stream_sha256": "4e5ca7f6ed60548f84d6a84a4fa272c044b76be4ab3788b091376bf54f9ada4b",
+        "monomial_stream_sha256": "153dd5ae53908e06fa5b4722c88cdffd823d5705a9a6ab1e8ca6f5f070665614",
+        "row_descriptor_sha256": "0f0e46bb94241fa478c6cbdcf33c4472128ad4ed48a8fdaebd88e19028948639",
+        "second_quartic_loader_source_sha256": "ea20fb8719bb583c424f0cc4e2730b46c7f38e130558fa7e6d2422865fb1af6b",
+        "shared_solver_source_sha256": "76ba50cd9cf226ffd07169b4aac619974c35027fa20153136e354263f005c27b",
+        "source_sha256": "c0e1557c1a18d85af997e24c739d799d58c7d0b655d0662a0215f30e9b42ae74",
+        "target_sha256": "32e84450b525fce0c9fca7d263e6d73a2b9508811fa4bd7e473002a08ab2c84e"
+      },
+      "timings": {
+        "block_build_seconds": 12.831848959001945,
+        "solve_seconds": 187.75685075001093,
+        "wall_seconds": 201.7674895839882
+      }
+    },
+    {
+      "certificate": {
+        "byte_count": 7847100,
+        "coordinate_vector_sha256": "f75076e58769e9e5823b508358c50a2c70fb02e025d150104e32da26d39b7586",
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-fixed-free-p2147483549.json",
+        "sha256": "6856ac5846e5402f95c62d6e2b491f5676938efc336f96d9b8fd4527fff5d597",
+        "solution_support_count": 20355
+      },
+      "characteristic": 2147483549,
+      "receipt": {
+        "byte_count": 9593,
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/receipts/hsop-j2-secant-r10-third-colon-identity-fixed-free-p2147483549.json",
+        "sha256": "3a7d388b67353b2bed0db60af1d9ebb3bf00f4249b87354987443d574d5f6e82"
+      },
+      "replay": {
+        "completed": true,
+        "first_mismatch": null,
+        "identity_zero": true,
+        "mismatch_count": 0,
+        "replay_seconds": 0.1859626660007052
+      },
+      "resources": {
+        "maximum_rss_native": 1575387136,
+        "system_cpu_seconds": 1.5994249999999999,
+        "user_cpu_seconds": 197.206406
+      },
+      "solver": {
+        "free_unknown_count": 2167,
+        "maximum_active_equation_length": 801,
+        "peak_total_nonzeros": 4531796,
+        "pivot_count": 35881,
+        "solve_seconds": 185.7900679160084,
+        "update_count": 8887307
+      },
+      "source_hashes": {
+        "generator_stream_sha256": "4e5ca7f6ed60548f84d6a84a4fa272c044b76be4ab3788b091376bf54f9ada4b",
+        "monomial_stream_sha256": "153dd5ae53908e06fa5b4722c88cdffd823d5705a9a6ab1e8ca6f5f070665614",
+        "row_descriptor_sha256": "0f0e46bb94241fa478c6cbdcf33c4472128ad4ed48a8fdaebd88e19028948639",
+        "second_quartic_loader_source_sha256": "ea20fb8719bb583c424f0cc4e2730b46c7f38e130558fa7e6d2422865fb1af6b",
+        "shared_solver_source_sha256": "76ba50cd9cf226ffd07169b4aac619974c35027fa20153136e354263f005c27b",
+        "source_sha256": "c0e1557c1a18d85af997e24c739d799d58c7d0b655d0662a0215f30e9b42ae74",
+        "target_sha256": "32e84450b525fce0c9fca7d263e6d73a2b9508811fa4bd7e473002a08ab2c84e"
+      },
+      "timings": {
+        "block_build_seconds": 12.792616833001375,
+        "solve_seconds": 185.7900679160084,
+        "wall_seconds": 199.69270499999402
+      }
+    },
+    {
+      "certificate": {
+        "byte_count": 7847228,
+        "coordinate_vector_sha256": "abcf998d5add0dd4af46b0cdb9dafd6b82b44874bb2886e200c0981d1d46c5a2",
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-fixed-free-p2147483353.json",
+        "sha256": "99ed1cd04821a780e1bbdb34a6405c4624b18ec11f9ff04bd0e5e061111e9afe",
+        "solution_support_count": 20355
+      },
+      "characteristic": 2147483353,
+      "receipt": {
+        "byte_count": 9583,
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/receipts/hsop-j2-secant-r10-third-colon-identity-fixed-free-p2147483353.json",
+        "sha256": "9433580a300114b5e474e7f0a035e2a219b7010b27e30a6557a3cc8e416af461"
+      },
+      "replay": {
+        "completed": true,
+        "first_mismatch": null,
+        "identity_zero": true,
+        "mismatch_count": 0,
+        "replay_seconds": 0.19277154200244695
+      },
+      "resources": {
+        "maximum_rss_native": 1514864640,
+        "system_cpu_seconds": 3.603665,
+        "user_cpu_seconds": 212.496154
+      },
+      "solver": {
+        "free_unknown_count": 2167,
+        "maximum_active_equation_length": 801,
+        "peak_total_nonzeros": 4531796,
+        "pivot_count": 35881,
+        "solve_seconds": 208.8834447080153,
+        "update_count": 8887307
+      },
+      "source_hashes": {
+        "generator_stream_sha256": "4e5ca7f6ed60548f84d6a84a4fa272c044b76be4ab3788b091376bf54f9ada4b",
+        "monomial_stream_sha256": "153dd5ae53908e06fa5b4722c88cdffd823d5705a9a6ab1e8ca6f5f070665614",
+        "row_descriptor_sha256": "0f0e46bb94241fa478c6cbdcf33c4472128ad4ed48a8fdaebd88e19028948639",
+        "second_quartic_loader_source_sha256": "ea20fb8719bb583c424f0cc4e2730b46c7f38e130558fa7e6d2422865fb1af6b",
+        "shared_solver_source_sha256": "76ba50cd9cf226ffd07169b4aac619974c35027fa20153136e354263f005c27b",
+        "source_sha256": "c0e1557c1a18d85af997e24c739d799d58c7d0b655d0662a0215f30e9b42ae74",
+        "target_sha256": "32e84450b525fce0c9fca7d263e6d73a2b9508811fa4bd7e473002a08ab2c84e"
+      },
+      "timings": {
+        "block_build_seconds": 12.93840558300144,
+        "solve_seconds": 208.8834447080153,
+        "wall_seconds": 222.98716412499198
+      }
+    },
+    {
+      "certificate": {
+        "byte_count": 7847230,
+        "coordinate_vector_sha256": "6e725d628e93c5d8fcf6458dadc12b12653d5b66fcdce465e2052694ee3d065c",
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-third-colon-identity-fixed-free-p2147483269.json",
+        "sha256": "b4df340382ac9f8ba1f29b7f40ff1db3b1c3f8d574ab4253799249c80b6755ab",
+        "solution_support_count": 20355
+      },
+      "characteristic": 2147483269,
+      "receipt": {
+        "byte_count": 9584,
+        "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/receipts/hsop-j2-secant-r10-third-colon-identity-fixed-free-p2147483269.json",
+        "sha256": "11882fb9f2e51767cf89c82912895b416ce48a423292941b909d3feff8e55de8"
+      },
+      "replay": {
+        "completed": true,
+        "first_mismatch": null,
+        "identity_zero": true,
+        "mismatch_count": 0,
+        "replay_seconds": 0.1873902080114931
+      },
+      "resources": {
+        "maximum_rss_native": 1673527296,
+        "system_cpu_seconds": 1.433738,
+        "user_cpu_seconds": 192.376212
+      },
+      "solver": {
+        "free_unknown_count": 2167,
+        "maximum_active_equation_length": 801,
+        "peak_total_nonzeros": 4531796,
+        "pivot_count": 35881,
+        "solve_seconds": 179.37266312498832,
+        "update_count": 8887307
+      },
+      "source_hashes": {
+        "generator_stream_sha256": "4e5ca7f6ed60548f84d6a84a4fa272c044b76be4ab3788b091376bf54f9ada4b",
+        "monomial_stream_sha256": "153dd5ae53908e06fa5b4722c88cdffd823d5705a9a6ab1e8ca6f5f070665614",
+        "row_descriptor_sha256": "0f0e46bb94241fa478c6cbdcf33c4472128ad4ed48a8fdaebd88e19028948639",
+        "second_quartic_loader_source_sha256": "ea20fb8719bb583c424f0cc4e2730b46c7f38e130558fa7e6d2422865fb1af6b",
+        "shared_solver_source_sha256": "76ba50cd9cf226ffd07169b4aac619974c35027fa20153136e354263f005c27b",
+        "source_sha256": "c0e1557c1a18d85af997e24c739d799d58c7d0b655d0662a0215f30e9b42ae74",
+        "target_sha256": "32e84450b525fce0c9fca7d263e6d73a2b9508811fa4bd7e473002a08ab2c84e"
+      },
+      "timings": {
+        "block_build_seconds": 12.576761208998505,
+        "solve_seconds": 179.37266312498832,
+        "wall_seconds": 193.0683523750049
+      }
+    }
+  ],
+  "status": "PASS_EIGHT_ALIGNED_FIXED_FREE_MODULAR_SOURCES",
+  "wall_seconds": 0.3629856669867877
+}

@@ -1,0 +1,66 @@
+{
+  "claim_boundary": "A finite p4 PASS concerns 18 fixed source-kernel directions only; no QQ target, colon, saturation, secant, nullcone, or HC4 conclusion follows.",
+  "extension_status": "PASS_P181_SUPPORT18_FOUR_DIGIT_LIFT",
+  "implementation_freeze": {
+    "path": "receipts/hsop-j2-secant-r10-p181-support18-four-digit-extension-implementation-freeze.json",
+    "sha256": "298c7285aaf3712250e27c5d6f31d4310b89ec279c5cf7fd651031fcea89b365"
+  },
+  "promoted": {
+    "artifact": {
+      "X_mod_181_power_4_sparse4_row_major.u32le": "f60e1a8365b53840fafdb910a746ab4e749b3f2a0d402c6bcdb99cbc8ebd6b71",
+      "correction_rhs_digit_02_padded114.u8": "c98b47f97af8d82f2f88deae5c228a707f6935534c68d643850b0362cb49e950",
+      "correction_rhs_digit_03_padded114.u8": "25a8589ce352a69f40188d516f2118e67f36227fde4cc6c3f313e2cf6865a784",
+      "digit_02.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "digit_02.stdout.txt": "62e016ce5607656deacb05f03d23b4244bbca78c79f13a7052c58b109ac1de80",
+      "digit_02_padded114.u8": "5d03d633c797618dd8cfbdc3268c7a93187ef62d4546dec8ae8db9476799691a",
+      "digit_02_sparse4_row_major.u8": "5951cf65eb6d10ce70a6c0375c6d4840e48956514f82cac1fb312b97d17e4906",
+      "digit_03.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "digit_03.stdout.txt": "4d346c6a1bb72059a28ed03bcfada422530d15af522ec2fdc702cbac8b7cfcbc",
+      "digit_03_padded114.u8": "a4a80494be4fba47b1240df66d1f8371da5d017aeddc5e30100a55d1fa4beea0",
+      "digit_03_sparse4_row_major.u8": "9556efbe4b299485dcca7478bf5900683c39fbf8ba143e0af52d79719fe460cc",
+      "extension.json": "aadf3e9d2a11d224969f02d694f446fd565cf5f12ecb65264fdd8e26fb0e2136",
+      "rr_labels_total_digits_03.u8": "fde9fdd6f9b37f1a3cc5e1b0585f132b3e800fef4bed5eb5b269cc7bd455a5a2",
+      "rr_labels_total_digits_04.u8": "fde9fdd6f9b37f1a3cc5e1b0585f132b3e800fef4bed5eb5b269cc7bd455a5a2"
+    },
+    "telemetry": {
+      "benchmark.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "benchmark.stdout.txt": "fdae26c07922114712e6425253207ecd2e386f4439a1d9afc86d9d6a4d9bdec7",
+      "benchmark.time.txt": "6db4f737294ea7dcbbcbb1f3beb7b1208fe1050a0e5c241851163ec11291663c"
+    }
+  },
+  "schema": "hc4.third-colon-p181-support18-four-digit-extension-terminal.v1",
+  "status": "PASS_P181_SUPPORT18_FOUR_DIGIT_LIFT",
+  "telemetry": {
+    "ancestry_samples": 510,
+    "command": [
+      "/usr/bin/time",
+      "-l",
+      "-o",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-support18-four-digit-telemetry-20260831T002/benchmark.time.txt",
+      "/opt/homebrew/bin/gtimeout",
+      "-s",
+      "TERM",
+      "-k",
+      "10s",
+      "600s",
+      "/Users/admin/.local/bin/sage",
+      "-python",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/scripts/extend_p181_support18_to_four_digits.py",
+      "--output-dir",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-support18-four-digit-20260831T002"
+    ],
+    "external_time": {
+      "maximum_rss_bytes": 191283200,
+      "process_swaps": 0,
+      "raw_sha256": "6db4f737294ea7dcbbcbb1f3beb7b1208fe1050a0e5c241851163ec11291663c",
+      "real_seconds": 144.85,
+      "system_seconds": 1.56,
+      "user_seconds": 136.41
+    },
+    "return_code": 0,
+    "rss_breach_killed": false,
+    "sampled_descendant_rss_peak_bytes": 302645248,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "fdae26c07922114712e6425253207ecd2e386f4439a1d9afc86d9d6a4d9bdec7"
+  }
+}

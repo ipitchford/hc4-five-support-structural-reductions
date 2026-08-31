@@ -1,0 +1,39 @@
+{
+  "calculation": {
+    "basis_size": null,
+    "child_system_seconds": 0.040556999999999996,
+    "child_user_seconds": 0.06734799999999999,
+    "diagnostic_error": false,
+    "is_unit": false,
+    "maximum_rss_native": 5685248,
+    "resource_metrics_scope": "single_singular_child",
+    "return_code": null,
+    "stderr_tail": "",
+    "stdout_tail": "",
+    "timed_out": true,
+    "unit_remainder": null,
+    "wall_seconds": 1800.0473983340198
+  },
+  "chart": "line_x",
+  "claim_boundary": "a unit proves the complete normalized distinct-five-root chart; the complement is the support-collision divisor Delta=0",
+  "disposition": "TIMEOUT_RETAINED",
+  "equation_build_seconds": 9.914202500018291,
+  "equation_count": 52,
+  "equation_stream_sha256": "da9f87bddcdb2c5b0ea6de62c62498a7a51a1af2df8af61331930d86761d78aa",
+  "line_coordinate_sha256": {
+    "line_x": "07c19a9367ce0b2b98ea2197e57bba805b0a49e4b29a967b77c8ccfa9b3ecefd",
+    "line_y": "78d6b04e75ec6c877fcc81a2ae3522e288eed6abd4ff9f9d10aaf87b8f450715",
+    "line_z": "e7e673618d56557a9bd792f4004556a25ee93f2af16a4bbe29efe1e648a87fa6"
+  },
+  "mode": "polynomial-open-eliminated-line",
+  "partition": [
+    6,
+    1,
+    1,
+    1,
+    1
+  ],
+  "schema": "hc4-five-support-polynomial-open-eliminated-v1",
+  "singular_source_sha256": "a498a35dc2eeb3d0a5ec21118015ef8f31e51419a2e6f6ca80d2f2fc5099b572",
+  "wall_seconds": 1810.8380352499953
+}

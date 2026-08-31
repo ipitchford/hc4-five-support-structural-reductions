@@ -1,0 +1,26 @@
+{
+  "schema": "hc4.third-colon-p181-target-exact-rational-independent-audit-freeze.v1",
+  "status": "PASS_P181_TARGET_EXACT_RATIONAL_INDEPENDENT_AUDIT_FREEZE",
+  "frozen_at_utc": "2026-08-31T17:04:44Z",
+  "bound_files": {
+    "research/THIRD_COLON_P181_TARGET_EXACT_RATIONAL_INDEPENDENT_AUDIT_PREREGISTRATION.md": "df6e6ee76d28971c3d84b6fe7161b159df46f1e8a73d781dde120be11b85cd83",
+    "scripts/audit_p181_target_exact_rational_independent.py": "63785e99fbc1c7b7cbbeb9c9f4c891c824fc48e609c80171b1360e6cba448225",
+    "artifacts/third-colon-p181-source-clean-integral-lift-system-v1/A_Z_b_Z_fixed_gauge.i64csr": "5064cfea27bc16ad9977d651f6215b407e2e3865df3dfc65ad15213b27d5ab8d",
+    "artifacts/third-colon-p181-target-exact-rational-replay-v1/rational_target_pairs_local.json": "9164b59d49a247f2e2710094d4474255195f5912a890e43b9915ef28c7a5eb42",
+    "artifacts/third-colon-p181-target-exact-rational-replay-v1/primitive_common_denominator_vector.json": "a83e144d7b383ee9202bd34ac991d1d4d2fe1f70482927b997ebf23c6c5d878d",
+    "artifacts/third-colon-p181-target-exact-rational-replay-v1/replay.json": "b919cf40318d60f7048342aa698e1ab86c9a2c7faaab5d7f68daa7d09bd4015e",
+    "artifacts/third-colon-p181-target-54digit-extension-v1/X_mod_181_power_54.json": "5e8663474d2f9a7d9ce2c797c1cfa345bc761faa1fa77b5767b4c1da0a96df7e",
+    "receipts/hsop-j2-secant-r10-p181-target-54digit-extension-independent-audit.json": "587806d14b8963091729272afbb732f655b94d4a50fa0b363784b4bf6afd7190",
+    "receipts/hsop-j2-secant-r10-p181-integral-lift-system-independent-audit.json": "5704d3aa864dce04f3f121779634d93eaff5f5ed528b66149249f95ab51fa044"
+  },
+  "policy": {
+    "wall_seconds_maximum": 120,
+    "rss_bytes_maximum": 1500000000,
+    "process_swaps_required": 0,
+    "solver_forbidden": true,
+    "p_adic_lifter_forbidden": true,
+    "producer_import_forbidden": true
+  },
+  "canonical_output": "receipts/hsop-j2-secant-r10-p181-target-exact-rational-independent-audit.json",
+  "claim_boundary": "A PASS independently certifies the exact rational target-system solution. Independent source-to-polynomial reconstruction remains separate; no saturation, secant, nullcone, or HC4 theorem follows."
+}

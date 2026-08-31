@@ -1,0 +1,79 @@
+{
+  "claim_boundary": "A finite p24 PASS is a fixed-main target lift and height census only; no rational target, colon, saturation, secant, nullcone, or HC4 conclusion follows.",
+  "extension_status": "PASS_P181_TARGET_24DIGIT_LIFT",
+  "implementation_freeze": {
+    "path": "receipts/hsop-j2-secant-r10-p181-target-24digit-extension-implementation-freeze.json",
+    "sha256": "38836122ef07f995d5b7a8a16e90959b7bb60c7e6df96ed6a6a369c3fd6962de"
+  },
+  "promoted": {
+    "artifact": {
+      "X_mod_181_power_24.json": "8ae529279ccdc3fef924199ea78e2a070571254753e1a318beb6852aa61c9d9e",
+      "correction_rhs_digit_18.u8": "d087699422b998ccfc0d4434df830fb54fb8a4c1c1fa4745dec2f051399bfd4f",
+      "correction_rhs_digit_19.u8": "1d22275e1d014aaba8b5153eb77d7b6364874d286987a5618b4b501c41528029",
+      "correction_rhs_digit_20.u8": "e69758a6ae8e309df879dc041a8a42dfa8c6e5a7b987f67b78536cada53ad6ce",
+      "correction_rhs_digit_21.u8": "adfc6bff06eafeae13a160b331e0d5e5c4edc588586f42e7c598de03b654ec96",
+      "correction_rhs_digit_22.u8": "5d3a5cd7e00fca7cacdd5c069cb8100ca23c94f29ba794ca9cb76180d84a6480",
+      "correction_rhs_digit_23.u8": "dbe3030e39fd1572f5fc16dcc8dca4752a4533456a05520d369e41ecd753c30d",
+      "digit_18.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "digit_18.stdout.txt": "a7871f7a022baf60169cc936b584bbb630aa9b13c52e1488bd63a97af62e732d",
+      "digit_18.u8": "bdcde98392e7955a10f23e37ad7ef99e2522c253f3be5f58d4e50fa2dda49892",
+      "digit_19.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "digit_19.stdout.txt": "0ad4c275baa8247eef95e9fba5ed1afab5de743762fbc8beba1f739a0055b291",
+      "digit_19.u8": "1cfdba97b7568a02b6fa8374c2f32d45f927b452fc9c209960a2e4299a7053f5",
+      "digit_20.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "digit_20.stdout.txt": "43d3fe69b83d34f116801a690be91896fd2355f8afd52763bc7a89eff22fd03c",
+      "digit_20.u8": "4c3646a7a9592ebedd5b87155b9b3629f6174eac7601d81cd588838e10e0d217",
+      "digit_21.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "digit_21.stdout.txt": "bbbfc9923d8af9449178ac7b10d90daefda223be616e2246ddc5110a640436d0",
+      "digit_21.u8": "8a68853d6b9b712b96cef633f9927a1798449a348815a35aa90a4eb7dee0985a",
+      "digit_22.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "digit_22.stdout.txt": "76e81acdd09b99b8d9a19e4c13bfd9dccef88888c57b30b56b6e972f126c27fd",
+      "digit_22.u8": "0a208a046b974ce909be2ce0e09318a820426e35bde4f149da361204adbbfeb9",
+      "digit_23.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "digit_23.stdout.txt": "51f6f6326e32591a60a1fba48f79ac56a39c455ced6d82705620f9931be62b31",
+      "digit_23.u8": "dc9937dfff32002f52eeb0a2aed1c04da7c2972186daf7b53ae078fd435be42f",
+      "extension.json": "757d3afc66b44a95b8e22fe965806b194eb4a5797f34883302e37ae5325aa8ef",
+      "terminal_q24.i64le": "9eb6a7295d0b027d8be189b986712870ffb2e24d034d01c3a4d4e112f1421642"
+    },
+    "telemetry": {
+      "benchmark.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "benchmark.stdout.txt": "14171995d6c9c2d8aee48eb19d6ac9bd23ed30ef54b21f95aecea1e1d6e91d1f",
+      "benchmark.time.txt": "5d0b31e5dcc0cd87dcf4a052c7ffd0e2918c91d2c4fc90f738309b50fb6f3be7"
+    }
+  },
+  "schema": "hc4.third-colon-p181-target-24digit-extension-terminal.v1",
+  "status": "PASS_P181_TARGET_24DIGIT_LIFT",
+  "telemetry": {
+    "ancestry_samples": 1078,
+    "command": [
+      "/usr/bin/time",
+      "-l",
+      "-o",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-target-24digit-telemetry-20260831T012/benchmark.time.txt",
+      "/opt/homebrew/bin/gtimeout",
+      "-s",
+      "TERM",
+      "-k",
+      "10s",
+      "1800s",
+      "/Users/admin/.local/bin/sage",
+      "-python",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/scripts/extend_p181_target_to_24digits.py",
+      "--output-dir",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-target-24digit-20260831T012"
+    ],
+    "external_time": {
+      "maximum_rss_bytes": 150470656,
+      "process_swaps": 0,
+      "raw_sha256": "5d0b31e5dcc0cd87dcf4a052c7ffd0e2918c91d2c4fc90f738309b50fb6f3be7",
+      "real_seconds": 299.39,
+      "system_seconds": 1.35,
+      "user_seconds": 294.14
+    },
+    "return_code": 0,
+    "rss_breach_killed": false,
+    "sampled_descendant_rss_peak_bytes": 194854912,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "14171995d6c9c2d8aee48eb19d6ac9bd23ed30ef54b21f95aecea1e1d6e91d1f"
+  }
+}

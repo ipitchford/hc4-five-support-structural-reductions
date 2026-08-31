@@ -1,0 +1,54 @@
+{
+  "claim_boundary": "A PASS proves eleven rational source syzygies and rational quotient lower bound 15 with the earlier four; it is not target membership or HC4.",
+  "implementation_freeze": {
+    "path": "receipts/hsop-j2-secant-r10-p181-support18-exact11-rational-replay-implementation-freeze.json",
+    "sha256": "2c207f32af3c63395bc87d448f21c32a7b25d157a36f11e36db0d61f4479f842"
+  },
+  "promoted": {
+    "artifact": {
+      "primitive_exact11_common_denominator_vectors.json": "738131c01f766e96765610f9891ff7961f067459fa7fab38ae43bffa9ee09f75",
+      "rational_exact11_pairs_row_major.json": "7b3173c8a57f64fc6f975c9ffe38608eee66f374017ee8fd6c2c21e37454bc3b",
+      "replay.json": "16ee24fbb4ec71691485773b5137e1d7e8cc209c31dd5db8975a849c7869ce3c"
+    },
+    "telemetry": {
+      "benchmark.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "benchmark.stdout.txt": "fe48a34847500d33ef8b1591a81799c1b9a60d63962134fcdb1d454ab484ddef",
+      "benchmark.time.txt": "1d6dc7c01674794fe72fd71309c4fb25710864f0907c74e7470d831e3ab4e01b"
+    }
+  },
+  "schema": "hc4.third-colon-p181-support18-exact11-rational-terminal.v1",
+  "status": "PASS_P181_SUPPORT18_EXACT11_RATIONAL_SYSTEM_REPLAY",
+  "telemetry": {
+    "ancestry_samples": 12,
+    "command": [
+      "/usr/bin/time",
+      "-l",
+      "-o",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/support18-exact11-telemetry-20260831T007/benchmark.time.txt",
+      "/opt/homebrew/bin/gtimeout",
+      "-s",
+      "TERM",
+      "-k",
+      "10s",
+      "300s",
+      "/Users/admin/.local/bin/sage",
+      "-python",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/scripts/reconstruct_p181_support18_exact11_rational.py",
+      "--output-dir",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/support18-exact11-20260831T007"
+    ],
+    "external_time": {
+      "maximum_rss_bytes": 125878272,
+      "process_swaps": 0,
+      "raw_sha256": "1d6dc7c01674794fe72fd71309c4fb25710864f0907c74e7470d831e3ab4e01b",
+      "real_seconds": 3.35,
+      "system_seconds": 0.09,
+      "user_seconds": 2.73
+    },
+    "return_code": 0,
+    "rss_breach_killed": false,
+    "sampled_descendant_rss_peak_bytes": 124403712,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "fe48a34847500d33ef8b1591a81799c1b9a60d63962134fcdb1d454ab484ddef"
+  }
+}

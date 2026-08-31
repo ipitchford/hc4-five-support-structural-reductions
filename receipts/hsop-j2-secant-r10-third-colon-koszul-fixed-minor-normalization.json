@@ -1,0 +1,98 @@
+{
+  "additional_primes_used": [],
+  "claim_boundary": "This fail-closed receipt licenses no normalized vector, rational reconstruction, QQ membership, colon, saturation, secant, nullcone, or HC4 conclusion. A singular fixed minor stops only this preregistered normalization route; it does not show that the source modular identity or rational target membership is false.",
+  "completed_prime_telemetry_before_stop": {
+    "173": {
+      "coefficient_vector_sha256": "e031fda8b3326ee3c41c90d51a773747038a2cfe4298b110fe5839756b41fa40",
+      "determinant_mod_p": 155,
+      "difference_vector_sha256": "0d178515ee4ed357bf83db896f28200b70eec07da67b6fd377466a0fc556df0b",
+      "koszul_coefficient_support_count": 1812,
+      "normalized_support_count": 20421,
+      "normalized_vector_sha256": "2b9c5de93331559cea6130cca1d06f4a33b16f50f622931dbb53140ad07c07b5",
+      "rank": 2053,
+      "row_swap_count": 1354,
+      "source_vector_sha256": "6dad865e50a7aadb72b600d17a5de00bef947e8f80a7e671c33b65b89060cd28",
+      "wall_seconds": 0.8264322920003906
+    },
+    "181": {
+      "coefficient_vector_sha256": "e10ac319b1e84b786d9be2b8557090582574e36fe9d72d86e84b1bac461eaf04",
+      "determinant_mod_p": 137,
+      "difference_vector_sha256": "c60e99cc816ab234d800bfa560211fe1bc36c460cd140435d005a8ba22a0dd4a",
+      "koszul_coefficient_support_count": 1813,
+      "normalized_support_count": 20444,
+      "normalized_vector_sha256": "0597a246ea1df704c61bf468e156caad7f9e415ab7d2cfe2c7b111aaa23ac4d4",
+      "rank": 2053,
+      "row_swap_count": 1357,
+      "source_vector_sha256": "9932deed637ea317b4483cad9366e1fd1455be7453bc74a64ce78f04c4f57919",
+      "wall_seconds": 0.7991027079988271
+    }
+  },
+  "error": "fixed 2053x2053 minor has rank 2052 at p197",
+  "error_type": "SingularMinorError",
+  "frozen_input_hashes": {
+    "artifacts/j2-secant-r10-first-colon-kernel-qq.json": "2c6b84ad400634a0f54aa54c3ebfb49b6ae3453240335713f07681fa5773d130",
+    "artifacts/j2-secant-r10-second-colon-kernel-qq-candidate.json": "c41e7c02e7163a0f1a2e71cd7fd5f0d38167b37f3f832019fa069c0ffd2bf37e",
+    "artifacts/j2-secant-r10-third-colon-identity-extended-sparse-p181-transfer-p173.json": "b434b3103e253d22e3f751196ec32b91fa6fc73a6f6d72414222453e4971043c",
+    "artifacts/j2-secant-r10-third-colon-identity-extended-sparse-p181-transfer-p197.json": "f199970f9ca6860b57a8dd89f5d23da084a5fe85a146ca353259d958e1b38272",
+    "artifacts/j2-secant-r10-third-colon-identity-extended-sparse-p181-transfer-p2147483629.json": "2b9ed0814159eb6ce3d96e45904e991d3e281f2c0cadd1df008180d35eac6a90",
+    "artifacts/j2-secant-r10-third-colon-identity-extended-sparse-p181-transfer-p2147483647.json": "a5a6027afc33afd5374f77b7e72dc945bf1c055e0ce79941d077b04445ca21ad",
+    "artifacts/j2-secant-r10-third-colon-identity-extended-sparse-p181.json": "e9841fee4f75e60adef26a8b10878b35f6db48e6d0a21876b197d7cbdef2064b",
+    "receipts/hsop-j2-secant-r10-third-colon-extended-sparse-full-vector-m70-census.json": "78d0bd0200299c1dc8fb7df7880f479613e93cf0ccca99c4741a97883c501ad7",
+    "receipts/hsop-j2-secant-r10-third-colon-extended-sparse-full-vector-m70-independent-audit.json": "9c0f4d0dd1f5d603e66c7e5f6f933a98300e1c25805276a090c3aa6babb38964",
+    "receipts/hsop-j2-secant-r10-third-colon-koszul-syzygy-scout-independent-audit.json": "15e60fa02b0d5b62f330fe5b64c052a82101a1e2a77f83bf85389253132e5102",
+    "receipts/hsop-j2-secant-r10-third-colon-koszul-syzygy-scout.json": "6b7451265043da89ee359b756ae5d8e25dd08e26ed09146d8b6e65603e0f6875",
+    "research/THIRD_COLON_KOSZUL_FIXED_MINOR_NORMALIZATION_PREREGISTRATION.md": "927b640211638c5610b05ab34e663f77ead79565d86ad7d28784c0f1e94f1819",
+    "scripts/audit_j2_secant_r10_third_colon_koszul_syzygy_scout.py": "39a73daab21470954300b9053c716c9dc300a491a9c81648b89539369eeb9988",
+    "scripts/audit_j2_secant_r10_third_colon_koszul_syzygy_scout_independent_audit.py": "eb265d352165c222e051baccd8f63406c5716bdf2fb4cbd6b7165413058e37ea",
+    "scripts/scout_j2_secant_r10_homogeneous_saturation.py": "8ba0c949784491272323cf2b411b0055c7d81d810513faa5428ed90fe1293a14"
+  },
+  "m70_census_performed": false,
+  "maximum_rss_native": 282640384,
+  "normalized_artifacts_written": false,
+  "preregistration": {
+    "path": "research/THIRD_COLON_KOSZUL_FIXED_MINOR_NORMALIZATION_PREREGISTRATION.md",
+    "sha256": "927b640211638c5610b05ab34e663f77ead79565d86ad7d28784c0f1e94f1819"
+  },
+  "process_swap_delta": 0,
+  "schema": "hc4.third-colon-koszul-fixed-minor-normalization.v1",
+  "singular_minor_witness": {
+    "algorithm": "independent sparse Gaussian elimination of K[:,R]^T with row swaps; exact rank completed with column skipping",
+    "characteristic": 197,
+    "coefficient_update_count": 4573743,
+    "current_nonzero_count": 59481,
+    "first_missing_pivot_column": 1983,
+    "initial_nonzero_count": 13915,
+    "maximum_sampled_nonzero_count": 90601,
+    "maximum_sampled_row_length": 333,
+    "pivot_coordinates_sha256": "c7b305a434025cf4b9eea5aa720f38f419fbed7da121f5b2bba2e9a60c7676dd",
+    "rank": 2052,
+    "rank_algorithm": "independent sparse Gaussian elimination with skipped pivot columns",
+    "rank_coefficient_update_count": 4629363,
+    "rank_maximum_sampled_nonzero_count": 90601,
+    "rank_maximum_sampled_row_length": 333,
+    "rank_row_swap_count": 1357,
+    "row_swap_count": 1304,
+    "shape": [
+      2053,
+      2053
+    ],
+    "singular": true,
+    "skipped_pivot_columns": [
+      1983
+    ]
+  },
+  "source_sha256": "fceb3a0a12ae5473bf48f72d2c37e864c6569897052c6d0f60235b0a4fe6a08f",
+  "status": "FAIL_CLOSED_FIXED_MINOR_SINGULAR",
+  "structural_hashes": {
+    "component_profiles_sha256": "328c4d98a339d5fb11fbfa70a9e5207779166cd416bbf29392d685d165e5bcd2",
+    "descriptor_stream_sha256": "0f0e46bb94241fa478c6cbdcf33c4472128ad4ed48a8fdaebd88e19028948639",
+    "independent_koszul_stream_sha256": "bf22711579d285ebcafd81b95f20b9b7193c360c360452feb6de67e74e30d856",
+    "matching_vector_sha256": "c0d2d067a4a79feeff85816301757f1264641fe14be60b974bcee1291524281a",
+    "pivot_coordinates_sha256": "c7b305a434025cf4b9eea5aa720f38f419fbed7da121f5b2bba2e9a60c7676dd"
+  },
+  "untested_primes_due_to_fail_closed_stop": [
+    2147483647,
+    2147483629
+  ],
+  "wall_seconds": 13.041715166997164
+}

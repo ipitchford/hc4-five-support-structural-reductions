@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you reuse this candidate, cite the exact version and archive hash."
+title: "Structural reductions toward the quartic Hessian conjecture in dimension four"
+version: "0.1.0-candidate"
+date-released: 2026-08-31
+type: article
+repository-code: "https://github.com/ipitchford/hc4-five-support-structural-reductions"
+authors:
+  - family-names: "release contributors"
+    given-names: "Anonymous"
+abstract: "Anonymous unrefereed computer-assisted candidate: five-support exclusion, tangent nullcone containment, three secant colon elements, and sixteen exact rational fourth-block source syzygies; no HC4 or JC2 claim."
+keywords:
+  - Hessian nilpotent polynomial
+  - Jacobian conjecture
+  - binary decimic
+  - coincident-root locus
+  - computer-assisted proof
+license: CC0-1.0
+

@@ -1,0 +1,14 @@
+{
+  "schema": "hc4.fourth-colon-p173-integral-system-independent-audit-freeze.v1",
+  "status": "FROZEN_BEFORE_FIRST_COMPLETED_INDEPENDENT_AUDIT",
+  "frozen_utc": "2026-08-31T18:24:49Z",
+  "script": {
+    "path": "scripts/audit_p173_fourth_colon_integral_lift_system_independent.py",
+    "sha256": "7e4a3b48ef6d002faa437fa2da4f1d3f46c2609996f4b311d6656e397a1a4887"
+  },
+  "pre_freeze_test_history": {
+    "completed_receipt_count": 0,
+    "note": "A mistaken --help invocation stopped at an adjacent-pair zip validation bug before producing any output; the bug was corrected before this freeze."
+  },
+  "claim_boundary": "This source freeze proves no audit result, lift, rational membership, polynomial identity, colon equality, saturation, nullcone containment, or HC4 theorem."
+}

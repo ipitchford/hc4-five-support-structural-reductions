@@ -1,0 +1,253 @@
+{
+  "controls": {
+    "empty_system": {
+      "basis_size": "1",
+      "chart": "line_x",
+      "child_system_seconds": 0.0056619999999999995,
+      "child_user_seconds": 0.006776,
+      "equation_stream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "is_unit": false,
+      "maximum_rss_native": 4915200,
+      "prime": 32003,
+      "return_code": 0,
+      "stderr_tail": "",
+      "stdout_tail": "UNIT_REMAINDER\n1\nBASIS_SIZE\n1\n",
+      "timed_out": false,
+      "unit_remainder": "1",
+      "wall_seconds": 0.030743207986233756
+    }
+  },
+  "partition_dispositions": [
+    {
+      "disposition": "INCOMPLETE_OR_SURVIVOR_SIGNAL",
+      "partition": [
+        6,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "disposition": "NOT_RUN",
+      "partition": [
+        5,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "disposition": "NOT_RUN",
+      "partition": [
+        4,
+        3,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "disposition": "NOT_RUN",
+      "partition": [
+        4,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "disposition": "NOT_RUN",
+      "partition": [
+        3,
+        3,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "disposition": "NOT_RUN",
+      "partition": [
+        3,
+        2,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "disposition": "NOT_RUN",
+      "partition": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "profile": "pilot",
+  "protocol": {
+    "charts": [
+      "line_x",
+      "line_y",
+      "line_z"
+    ],
+    "claim_boundary": "finite-field unit signals are bounded falsification evidence, not characteristic-zero function-field proofs",
+    "holdout": [
+      {
+        "lambda": 3,
+        "mu": 7,
+        "prime": 65521,
+        "role": "holdout"
+      },
+      {
+        "lambda": 5,
+        "mu": 11,
+        "prime": 65537,
+        "role": "holdout"
+      }
+    ],
+    "jobs": 3,
+    "partitions": [
+      [
+        6,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        5,
+        2,
+        1,
+        1,
+        1
+      ],
+      [
+        4,
+        3,
+        1,
+        1,
+        1
+      ],
+      [
+        4,
+        2,
+        2,
+        1,
+        1
+      ],
+      [
+        3,
+        3,
+        2,
+        1,
+        1
+      ],
+      [
+        3,
+        2,
+        2,
+        2,
+        1
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "timeout_seconds": 300,
+    "training": [
+      {
+        "lambda": 2,
+        "mu": 3,
+        "prime": 32003,
+        "role": "training"
+      },
+      {
+        "lambda": 2,
+        "mu": 5,
+        "prime": 32009,
+        "role": "training"
+      }
+    ]
+  },
+  "records": [
+    {
+      "all_charts_unit": true,
+      "charts": [
+        {
+          "basis_size": "1",
+          "chart": "line_x",
+          "child_system_seconds": 0.0041389999999999995,
+          "child_user_seconds": 0.152999,
+          "equation_stream_sha256": "1b306b013e25f68f0aa52c8fe09ec3c6978435ab1e6d4e8c32b2007992e7dbef",
+          "is_unit": true,
+          "maximum_rss_native": 7782400,
+          "prime": 32003,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.16416041701450013
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_y",
+          "child_system_seconds": 0.009219999999999999,
+          "child_user_seconds": 0.31457999999999997,
+          "equation_stream_sha256": "1b306b013e25f68f0aa52c8fe09ec3c6978435ab1e6d4e8c32b2007992e7dbef",
+          "is_unit": true,
+          "maximum_rss_native": 7782400,
+          "prime": 32003,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.1711544169811532
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_z",
+          "child_system_seconds": 0.014311999999999998,
+          "child_user_seconds": 0.487401,
+          "equation_stream_sha256": "1b306b013e25f68f0aa52c8fe09ec3c6978435ab1e6d4e8c32b2007992e7dbef",
+          "is_unit": true,
+          "maximum_rss_native": 7815168,
+          "prime": 32003,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.18795312498696148
+        }
+      ],
+      "equation_build_seconds": 1.5177430420008022,
+      "equation_count": 55,
+      "lambda": 2,
+      "mu": 3,
+      "partition": [
+        6,
+        1,
+        1,
+        1,
+        1
+      ],
+      "prime": 32003,
+      "role": "training"
+    }
+  ],
+  "schema": "hc4-double-conic-five-support-scout-v1",
+  "status": "PASS",
+  "wall_seconds": 2.0855584170203656
+}

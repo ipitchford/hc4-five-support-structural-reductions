@@ -1,0 +1,63 @@
+{
+  "claim_boundary": "A PASS proves only the canonical residual-114 section and full encoded kernel decomposition over GF(181). It does not lift residual syzygies to QQ, prove QQ target membership, a colon, saturation, secant closure, nullcone containment, or HC4.",
+  "implementation_freeze": {
+    "path": "receipts/hsop-j2-secant-r10-p181-canonical-residual-114-section-implementation-freeze.json",
+    "sha256": "91302e64b2e58c4e1ba3eda2377cf0adcff41b2d39f2327e599a4e1bcaf2e218"
+  },
+  "producer_status": "PASS_P181_CANONICAL_RESIDUAL_114_MODULAR_KERNEL_SECTION",
+  "promoted": {
+    "artifact": {
+      "builder.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "builder.stdout.txt": "4f43f88f42cd3e4bc8979c036a97688dabb31a8f3e394cd1e1f076ef06309061",
+      "driver.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "driver.stdout.txt": "889b956d255e80f23f1f6b224a2f7338d8898eb3322857e06dca27ee71c16afc",
+      "full_residual_section_row_major.u8": "ae141f98bdacc4733273f51fbdfa1c544f4a2cc156aa05e210e993f8aa567a83",
+      "pivot_section_row_major.u8": "82db902a065b721deb146ed12655be2c00c7f1523be58218a7278e30cb3be997",
+      "producer.json": "f4ac97c24298ebfcfef8134fed42af2b2916d6eb6712718b1358f6234336a6df",
+      "rhs/minus_A_S_row_major.u8": "c443f3da8435c81778e3ec3832dacec7977dede6986dea8ab328309f48edf2c5",
+      "rhs/rhs.json": "7bbfe48c19135d59fb71367f8459ff0b24e09322ce1424d0c89d0ef1c724a306",
+      "section.json": "b14d3efe3bf398c1bce3cd7df4d74bb23d0aaf465973eef986c21f355fee90b6",
+      "verifier.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verifier.stdout.txt": "dd7a015a874f088398dd25aa6af1cde9c0ee8df76102ff907cd431bc331eb172"
+    },
+    "telemetry": {
+      "benchmark.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "benchmark.stdout.txt": "6a0e62dea8f8b3280c99d7c355c71eb9c57ee34497b0f4d68d9a8779cb529cc3",
+      "benchmark.time.txt": "0946c0f482645f7fd8531e8af7ca667979b0a50903b2a180622e60202667eb27"
+    }
+  },
+  "schema": "hc4.third-colon-p181-canonical-residual-114-section-terminal.v1",
+  "status": "PASS_P181_CANONICAL_RESIDUAL_114_MODULAR_KERNEL_SECTION",
+  "telemetry": {
+    "ancestry_samples": 774,
+    "command": [
+      "/usr/bin/time",
+      "-l",
+      "-o",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-canonical-residual-114-section-telemetry-20260831T001/benchmark.time.txt",
+      "/opt/homebrew/bin/gtimeout",
+      "-s",
+      "TERM",
+      "-k",
+      "10s",
+      "600s",
+      "/usr/bin/python3",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/scripts/produce_p181_canonical_residual_114_section.py",
+      "--output-dir",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-canonical-residual-114-section-20260831T001"
+    ],
+    "external_time": {
+      "maximum_rss_bytes": 751173632,
+      "process_swaps": 0,
+      "raw_sha256": "0946c0f482645f7fd8531e8af7ca667979b0a50903b2a180622e60202667eb27",
+      "real_seconds": 218.78,
+      "system_seconds": 3.42,
+      "user_seconds": 198.26
+    },
+    "return_code": 0,
+    "rss_breach_killed": false,
+    "sampled_descendant_rss_peak_bytes": 746487808,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "6a0e62dea8f8b3280c99d7c355c71eb9c57ee34497b0f4d68d9a8779cb529cc3"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "hc4.decimic-j2-secant-r10-z12-sage-timeout.v1",
+  "status": "INTERRUPTED_NO_MEMBERSHIP_DECISION",
+  "date": "2026-08-30",
+  "question": "Whether M^2 lies in the 17-cubic homogeneous ideal I over GF(101), restricted to the target Z/12 character block.",
+  "chart": "r=10 and M=f9*f10*(2*f9^2+5*f10*g0) nonzero",
+  "characteristic": 101,
+  "character_modulus": 12,
+  "target_character_weight": 2,
+  "saturation_power": 2,
+  "target_degree": 8,
+  "macaulay_row_count": 37219,
+  "macaulay_column_count": 85689,
+  "macaulay_nonzero_count": 1276345,
+  "command": "/usr/bin/time -l sage -python scripts/certify_j2_secant_r10_z12_macaulay.py --characteristic 101 --saturation-power 2 --output receipts/hsop-j2-secant-r10-degree6-z12-saturation-N2-p101.json",
+  "termination": {
+    "decision": "manual interrupt at the user-extended 17-minute cap",
+    "signal": "INT",
+    "exit_code": 130,
+    "stack_location": "Sage sparse modular echelonization (Matrix_modn_sparse._echelon_in_place)",
+    "output_membership_receipt_emitted": false
+  },
+  "resources": {
+    "real_seconds": 1046.8,
+    "user_seconds": 697.01,
+    "system_seconds": 223.17,
+    "maximum_resident_set_size_bytes": 3752902656,
+    "peak_memory_footprint_bytes": 6151722480,
+    "page_reclaims": 50703949,
+    "page_faults": 5349,
+    "swaps": 0,
+    "instructions_retired": 7461796478740,
+    "cycles_elapsed": 2872140259630
+  },
+  "source_sha256": {
+    "scripts/certify_j2_secant_r10_z12_macaulay.py": "fd49512f605cb257d62aea850fe795d61db04ca23df9504910f157cfe1436d26",
+    "receipts/hsop-j2-secant-r10-degree6-z12-saturation-N2-linbox-export-p101.json": "da1c9546600d3c1fa7ab74e1138e890f2b7707685b13f323335440a2defd99d7",
+    "artifacts/z12-N2-p101.sms": "f965afff5c0729548b908037a1c0ca014572110720280fd4e958d1a9aa08ccde",
+    "artifacts/z12-N2-p101.rhs": "d16892151c374911770c0c58bb51597cd3ae3d1d4c45d60c62649b15a4456325",
+    "artifacts/z12-N2-p101.rows.json": "40863a3b0e703e279999741b400e0f4b42fc50c80baba0889bfa158b28bcbb61"
+  },
+  "next_implementation_boundary": "Do not rerun the same generic sparse echelonization with a longer blind cap. Prefer a proof-producing colon-kernel extraction in character blocks, a rank-revealing black-box method that supports rectangular singular systems, or an independently justified smaller subsystem.",
+  "claim_boundary": "This receipt is solver telemetry only. It does not prove M^2 in I, M^2 not in I, M in radical(I), secant containment, or HC4."
+}

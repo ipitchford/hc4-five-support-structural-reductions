@@ -1,0 +1,126 @@
+{
+  "bound_hashes": {
+    "integral": "5064cfea27bc16ad9977d651f6215b407e2e3865df3dfc65ad15213b27d5ab8d",
+    "p24_audit": "27d9f2cbb04b5561496461908b8ff4842a4baff1bb393d228ce191da34de2e04",
+    "producer": "a6be3af91ad4e2e05ce7af3e44e735303124a9928100fc23f21f89076df32424",
+    "q24": "9eb6a7295d0b027d8be189b986712870ffb2e24d034d01c3a4d4e112f1421642",
+    "q36": "8c9eec7ec5422a3862b002327533db68476e23679a912cc3d7348d7f356ce610",
+    "terminal": "2840d4987a707b2c4dd8be908ac42089da96f4b5871fe6b8f570703de42af3c7",
+    "x24": "8ae529279ccdc3fef924199ea78e2a070571254753e1a318beb6852aa61c9d9e",
+    "x36": "7c03c9b905bfbcd7393de827696a6434e0ca02ed4bd8fb4bb8f59f44d86d005c"
+  },
+  "claim_boundary": "This PASS independently certifies the finite fixed-main p36 lift, height census, and p24-to-p36 stability table only. It is not rational target membership or any colon, saturation, secant, nullcone, or HC4 theorem.",
+  "declarations": {
+    "driver_not_called": true,
+    "no_new_digit": true,
+    "producer_not_imported_or_executed": true,
+    "rational_reconstruction_reimplemented": true,
+    "target_membership_not_claimed": true,
+    "x36_reconstructed_from_x24_and_raw_digits": true
+  },
+  "digit_audits": [
+    {
+      "digit_index": 24,
+      "digit_sha256": "0f556110d953f94fa1afbe97d81a41e2707ced32826217409d392247f5750e5c",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "2978f508d8957a31610627a65f26d4f8160fa1e8c192f1cdb49f5a9880b1fcdb"
+    },
+    {
+      "digit_index": 25,
+      "digit_sha256": "e8e66302d261a89e88927bef455c2e34f08f28b2aada35c2074af5e346ee8278",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "f3dc21d96e5efd52f5b2aa0df3eba59a189bb595b7fceed60fd00d9046d688e9"
+    },
+    {
+      "digit_index": 26,
+      "digit_sha256": "6162bc78fdde484362f0a35aeefd3abdb3fc1b45c482a3e6d6aac567a4a12fce",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "ae86bc232beb04ca4afc0ae240e0f6c83d7488bfdb58e4072be63945af1d2474"
+    },
+    {
+      "digit_index": 27,
+      "digit_sha256": "eb195fef3b516bef247515286c34a25ffdae2603c7beb5a8b748e1ec381e383d",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "d0c5a66773b6a212f318cda2a0c5d817f1308470aa09804ef629c1aad2b1b4c1"
+    },
+    {
+      "digit_index": 28,
+      "digit_sha256": "a7ed18f730c0940e4277093d869e37cb0feda885d8e0b5391470730f6e26c4ea",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "bad5f6819388c246b40a92c378fac554cdb1864512c7cb93a94a148f76bd3442"
+    },
+    {
+      "digit_index": 29,
+      "digit_sha256": "009f7cce5f009665728881a71b8d1fd4d509fcb7fddcc0b85c660cde421fea9b",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "3c85517a5c824749c40b7e022d3c6d09cd3611bfd634fb97f78d16445946ef0d"
+    },
+    {
+      "digit_index": 30,
+      "digit_sha256": "d01f017f5e676c2341d0ce39313e371be89c10c2fc078552de3118dcf01508a1",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "ec051ed196de847463c544faba520a27bdff0ad42430ff5817f13ebbd890aeb1"
+    },
+    {
+      "digit_index": 31,
+      "digit_sha256": "1f25253466ee09b3c2094ec1088017babfdb4002de75c7e84be80e1013a16f6b",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "01121841060513cb50df7c9158f3429f7a9c9c63323cc4504b53ebde3d757b36"
+    },
+    {
+      "digit_index": 32,
+      "digit_sha256": "248044968a8979c38e1825626dd000ccf6e378107e6700d1edb6cbe1ef01d541",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "013abab7c7b4485ecbe8428423d02d090e59d502b2dbed10ff73d87342f5f49e"
+    },
+    {
+      "digit_index": 33,
+      "digit_sha256": "79f25c5690bb7e96a2c954b7c8fdab52a8e0d7289fea60a0d2fad9c121530980",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "b0a57cf96b6cd3273e7c81b71ee978c13125dbadbce6be130dfa86a1638e1b76"
+    },
+    {
+      "digit_index": 34,
+      "digit_sha256": "e8408cc1bbe636ada5048415f791559023d918742bb9fbddb12dee4b91401fab",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "ca3cafb070de14231561c7514a85685ba49756888a34baebd818f38eb5386ab4"
+    },
+    {
+      "digit_index": 35,
+      "digit_sha256": "fad52027b0520ce4becc95ae61719bf0500aebc9360fad6c33655a6201761f23",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "6b11e07056d876da2e803f135985eb0a4324c187ad19623193ae949f68b89af4"
+    }
+  ],
+  "lift_checks": {
+    "digit_count": 12,
+    "terminal_integer_invariant_mismatches": 0,
+    "terminal_modulus": "1889855919415233556222702544296077606524491718480328161413143874851773410727298481"
+  },
+  "p24_to_p36_stability": {
+    "p24_nonzero_changed_at_p36": 8032,
+    "p24_nonzero_count": 12642,
+    "p24_nonzero_stable_at_p36": 2726,
+    "p24_nonzero_unresolved_at_p36": 1884,
+    "p24_zero_changed_at_p36": 0,
+    "p24_zero_count": 16831,
+    "p24_zero_stable_at_p36": 16831,
+    "p24_zero_unresolved_at_p36": 0
+  },
+  "reconstruction_census": {
+    "coordinate_count": 35881,
+    "equal_height_bound": 30739680540103483289344238633341133932440,
+    "maximum_absolute_numerator": 30734036958473867345270060365721235276081,
+    "maximum_denominator": 30710637382857961647736019450218859161458,
+    "resolved_nonzero_count": 15959,
+    "resolved_zero_count": 16831,
+    "unresolved_count": 3091
+  },
+  "resources": {
+    "maximum_rss_native": 179077120,
+    "process_swaps": 0,
+    "wall_seconds": 1.8726807500352152
+  },
+  "schema": "hc4.third-colon-p181-target-36digit-extension-independent-audit.v1",
+  "status": "PASS_INDEPENDENT_P181_TARGET_36DIGIT_LIFT_REPLAY"
+}

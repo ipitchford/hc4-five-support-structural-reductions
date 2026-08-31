@@ -1,0 +1,91 @@
+{
+  "bound_hashes": {
+    "frozen_helper": "ca319e3455a70982a9b8c35fe22de3b4a5a5bbcc938cd3737b8e80967dc1d180",
+    "integral": "5064cfea27bc16ad9977d651f6215b407e2e3865df3dfc65ad15213b27d5ab8d",
+    "p48_audit": "71f0d618596fb7ed95112d9ba4ac86708d4343338e289181d85d2df11e673bba",
+    "producer": "e11b984243231b001f92ecc97a5f2081ede86bd0aecbf3c50e362287cdfc245c",
+    "q48": "0da7e0273512f06edf59aca0fe1a99200d28836b72f5e11b719b8be711f2a672",
+    "q54": "93e6ab5361e91703d36a920c1592434d5dbd4e23a3fa342b1ab70f3fa787d345",
+    "terminal": "7f0a02f525c0e8677ccc0cc44c0b55890698cffdb7e7a57760896dae474572eb",
+    "x48": "cb3c64bbea95816fede94e8216d854188b6879f964e1681ec73f025d90895187",
+    "x54": "5e8663474d2f9a7d9ce2c797c1cfa345bc761faa1fa77b5767b4c1da0a96df7e"
+  },
+  "claim_boundary": "This PASS independently certifies the finite fixed-main p54 lift, height census, and p48-to-p54 stability table only. It is not rational target membership or any colon, saturation, secant, nullcone, or HC4 theorem.",
+  "declarations": {
+    "driver_not_called": true,
+    "no_new_digit": true,
+    "producer_not_imported_or_executed": true,
+    "rational_reconstruction_reimplemented": true,
+    "target_membership_not_claimed": true,
+    "x54_reconstructed_from_x48_and_raw_digits": true
+  },
+  "digit_audits": [
+    {
+      "digit_index": 48,
+      "digit_sha256": "a1a5727bd44894b8ecfb2c63ae72307f2a8a0d7f73926cccbfe684a94ee797a1",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "0dbe2299895812e91e73c56361591960101efb6e0194b3401694c51ca61346e5"
+    },
+    {
+      "digit_index": 49,
+      "digit_sha256": "7aad3ebf0f97c730b7fda3908fcc6ad505234e470ec7f735222a3de9ecabd731",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "9e2c4e799c981e9eb0921c3989bdcd561e272b8081e0f4a8ef5926ec7d6c17bb"
+    },
+    {
+      "digit_index": 50,
+      "digit_sha256": "f76a25e43b5b792346549e6860482a33fc1dc275a0cf4b742106dda8cd19de05",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "28baf4a77e9f85a23bd6338fc102d855aaac6068a541346d99a410cba5e32519"
+    },
+    {
+      "digit_index": 51,
+      "digit_sha256": "9a3285583a7ccb35640217d04ac0e8be8553f0d2ee2f421c801663398edad30b",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "9ac0a812a4bafde8cf0e85eed57f63a7041cc84443617c04921f7cac0e8c8eeb"
+    },
+    {
+      "digit_index": 52,
+      "digit_sha256": "2d7b913bab9dfcda73da0dbe584381a8a75d36c3d698af308f0c60fd29cc988b",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "bd0327267a7fe7ec37af7d42db67805e0e6d88469ebc35eda2c8a13ef010b310"
+    },
+    {
+      "digit_index": 53,
+      "digit_sha256": "6d82177776f34600784ae9fe3c59dbf527afb52e6fcaa7705c699e74d9ee8e0c",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "36e8d5834a8e1b8c27a1c1bb0629979b0de3afb519e1f9b9887e0928f2d1c614"
+    }
+  ],
+  "lift_checks": {
+    "digit_count": 6,
+    "terminal_integer_invariant_mismatches": 0,
+    "terminal_modulus": "82156710662801154282297521252523656663569608875136274456480614658769368538536689235766597158713969193535468425330081062121"
+  },
+  "p48_to_p54_stability": {
+    "p48_nonzero_changed_at_p54": 45,
+    "p48_nonzero_count": 18987,
+    "p48_nonzero_stable_at_p54": 18942,
+    "p48_nonzero_unresolved_at_p54": 0,
+    "p48_zero_changed_at_p54": 0,
+    "p48_zero_count": 16831,
+    "p48_zero_stable_at_p54": 16831,
+    "p48_zero_unresolved_at_p54": 0
+  },
+  "reconstruction_census": {
+    "coordinate_count": 35881,
+    "equal_height_bound": 6409239840371132276196034931018229641995873383819229007891912,
+    "maximum_absolute_numerator": 981999500698929285491841021414524088210238664433753507721,
+    "maximum_denominator": 317682618125658972024024232366797141308227584000000,
+    "resolved_nonzero_count": 19050,
+    "resolved_zero_count": 16831,
+    "unresolved_count": 0
+  },
+  "resources": {
+    "maximum_rss_native": 187990016,
+    "process_swaps": 0,
+    "wall_seconds": 1.7371149170212448
+  },
+  "schema": "hc4.third-colon-p181-target-54digit-extension-independent-audit.v1",
+  "status": "PASS_INDEPENDENT_P181_TARGET_54DIGIT_LIFT_REPLAY"
+}

@@ -1,0 +1,11 @@
+{
+  "claim_boundary": "No positive mathematical conclusion is licensed by this incomplete or failed audit.",
+  "error": "RSS cap reached during rank determinant and solve modulo 2147483647: 1908326400",
+  "error_type": "MemoryError",
+  "maximum_rss_native": 1908326400,
+  "process_swaps": 0,
+  "schema": "hc4.third-colon-koszul-p197-common-minor-independent-audit.v1",
+  "source_sha256": "bf448101173edfd4af10786b1115ba22b608a80c05bd4553012f4add10c05769",
+  "status": "FAIL_CLOSED_INDEPENDENT_COMMON_MINOR_AUDIT",
+  "wall_seconds": 139.49979575001635
+}

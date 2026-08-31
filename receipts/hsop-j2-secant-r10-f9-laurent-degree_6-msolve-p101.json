@@ -1,0 +1,40 @@
+{
+  "assurance": "modular route signal",
+  "branch": "degree_6",
+  "calculation": {
+    "basis_size": null,
+    "child_system_seconds_immediate_scope": 0.41620399999999996,
+    "child_user_seconds_immediate_scope": 17.593823,
+    "diagnostic_error": false,
+    "forced_group_kill": false,
+    "is_unit": true,
+    "maximum_rss_native_immediate_scope": 825163776,
+    "process_group_terminated": false,
+    "resource_accounting": "wall time authoritative; CPU/RSS counters may omit delegated worker descendants",
+    "return_code": 0,
+    "solver_output_tail": "[-1]:\n",
+    "stderr_tail": "Initial seed for pseudo-random number generator is 0\n\n--------------- INPUT DATA ---------------\n#variables                      23\n#equations                      22\n#invalid equations               0\nfield characteristic           101\nhomogeneous input?               0\nsignature-based computation      0\nmonomial order                 DRL\nbasis hash table resetting     OFF\nlinear algebra option            2\ninitial hash table size     131072 (2^17)\nmax pair selection             ALL\nreduce gb                        1\n#threads                         4\ninfo level                       1\ngenerate pbm files               0\n------------------------------------------\n\n---------------- TIMINGS ----------------\noverall(elapsed)       12.55 sec\noverall(cpu)           17.99 sec\nselect                  0.68 sec   5.4%\nsymbolic prep.          1.78 sec  14.2%\nupdate                  7.15 sec  57.0%\nconvert                 0.21 sec   1.7%\nlinear algebra          2.71 sec  21.6%\nreduce gb               0.00 sec   0.0%\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\nsize of basis                     1\n#terms in basis                   1\n#pairs reduced                10281\n#GM criterion              15966992\n#redundant elements            5653\n#rows reduced                 20663\n#zero reductions               4699\nmax. matrix data              57589 x 133616 (0.190%)\nmax. symbolic hash table size  2^18\nmax. basis hash table size     2^22\n-----------------------------------------\n\nGrobner basis has a single element\nNo solution\n\n---------------- TIMINGS ----------------\nrational param(elapsed)        12.55 sec\nrational param(cpu)            17.99 sec\n-----------------------------------------\n\n\n------------------------------------------------------------------------------------\nmsolve overall time          12.55 sec (elapsed) / 18.00 sec (cpu)\n------------------------------------------------------------------------------------\n",
+    "stdout_tail": "",
+    "timed_out": false,
+    "unit_remainder": "0",
+    "wall_seconds": 12.580588291020831
+  },
+  "characteristic": 101,
+  "chart": "f9=1 with f10!=0 and j2!=0",
+  "claim_boundary": "this scout selects or falsifies a route only; it is not an exact characteristic-zero certificate and cannot close the branch",
+  "equation_count": 22,
+  "equation_stream_sha256": "d7c1b4f956c7e6b4caf344c7498869a711d46b4b4f7e9e0d772de4bb76912a8d",
+  "maximum_total_degree": 3,
+  "msolve_source_sha256": "6b896989f7ed2e5df317d8b02d8dd3a6f02e9b6516022d2927bbbe884c54dd2f",
+  "orbit": "secant",
+  "schema": "hc4-decimic-j2-secant-r10-f9-laurent-msolve-scout-v1",
+  "source_sha256": {
+    "scripts/certify_j2_secant_r10_f9_laurent_branch.py": "0b1015b23d726c25965f010d4c04e55d95d2ef35e5bc1f913167dc9bcbc84620",
+    "scripts/scout_j2_secant_r10_f9_laurent_msolve.py": "cba4d0e4816bcd2f45f1bd6596e8a10e13eb9ea9442409967e44e5b73fd4042e"
+  },
+  "status": "PASS_MODULAR_NO_SOLUTION_SIGNAL",
+  "threads": 4,
+  "variable_count": 23,
+  "verbose": 1,
+  "wall_seconds": 18.355972250021296
+}

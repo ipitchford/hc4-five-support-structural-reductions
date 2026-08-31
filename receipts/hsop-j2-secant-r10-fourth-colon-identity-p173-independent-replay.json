@@ -1,0 +1,140 @@
+{
+  "assurance": "independent termwise exact finite-field replay; h4 producer and eliminators not imported",
+  "characteristic": 173,
+  "claim": "M*h4 = sum_i q_i*G_i over GF(173)",
+  "claim_boundary": "A PASS proves only the displayed explicit multiplier identity over GF(173). It does not prove the identity over QQ, compute a colon or saturation, close the secant chart, or establish HC4.",
+  "coordinate_checks": {
+    "coordinate_count": true,
+    "coordinate_hash": true,
+    "coordinate_range": true,
+    "free_coordinates_zero": true,
+    "free_hash": true,
+    "free_sorted_unique": true,
+    "pivot_free_partition": true,
+    "pivot_hash": true,
+    "pivot_uniqueness": true,
+    "support_matches_all_nonzero_coordinates": true,
+    "support_well_formed": true
+  },
+  "hashes": {
+    "descriptor_stream_sha256": "478302e341969ae2d8edec433bfd7fc12374598502b7f4e661884b31c4bd5f67",
+    "generator_stream_sha256": "688352a1e62824bdc4300d58e37bc681414d2755cee9da021cd47257d0832378",
+    "monomial_stream_sha256": "ae88030860e7dc4de0ddf446c2b66a97285c4d98d42c6388c783c1c029b66446",
+    "target_sha256": "1d38a51f026483c3dc28ee80652bfc1c9d66f856903374c8a2e6c7392a6f262d"
+  },
+  "inputs": {
+    "certificate": {
+      "byte_count": 8315449,
+      "path": "artifacts/j2-secant-r10-fourth-colon-identity-sparse-macaulay-hybrid-p173.json",
+      "sha256": "45654ac41bfe50a76e9a396407734a7f94d3026ba68c9843e93ce432a656ebbe"
+    },
+    "fourth_kernel": {
+      "byte_count": 142195,
+      "path": "artifacts/j2-secant-r10-fourth-colon-kernel-qq-candidate.json",
+      "sha256": "7939f8e57878be21f189ffbf4ac620707924b02f2dbb76f50348b5423a4b9bf2"
+    },
+    "producer_receipt": {
+      "byte_count": 21502,
+      "path": "receipts/hsop-j2-secant-r10-fourth-colon-identity-sparse-macaulay-hybrid-p173.json",
+      "sha256": "885fa837a2902718f8e76b228e5658b913dd6d77615ff3e52388cf3986ecbb71"
+    },
+    "second_identity_qq": {
+      "byte_count": 6885192,
+      "path": "artifacts/j2-secant-r10-second-colon-identity-qq.json",
+      "sha256": "32ffb748a88f59c6c7a1ad98d95beb84d5e3c1cdb1422a724677fca1a4ff5d61"
+    },
+    "second_kernel": {
+      "byte_count": 119487,
+      "path": "artifacts/j2-secant-r10-second-colon-kernel-qq-candidate.json",
+      "sha256": "c41e7c02e7163a0f1a2e71cd7fd5f0d38167b37f3f832019fa069c0ffd2bf37e"
+    },
+    "third_kernel": {
+      "byte_count": 141257,
+      "path": "artifacts/j2-secant-r10-third-colon-kernel-qq-candidate.json",
+      "sha256": "b7f37502a3b4a11739fe4e1e47746af68b2a8cc66cb18302bfe729927ed65b97"
+    },
+    "utility_source": {
+      "byte_count": 20783,
+      "path": "scripts/verify_j2_secant_r10_third_colon_identity_p173.py",
+      "sha256": "593b68b95d55de1d91129caaf47ba84d4cc4f8bc481f9f9e77b5e100dd39adbb"
+    }
+  },
+  "internal_hash_checks": {
+    "second_certificate_hash": true,
+    "second_problem_hash": true
+  },
+  "metadata_checks": {
+    "certificate_schema": true,
+    "character_metadata": true,
+    "character_stream_metadata": true,
+    "characteristic": true,
+    "degree_metadata": true,
+    "generator_count": true,
+    "producer_receipt_certificate_hash": true,
+    "producer_receipt_status": true,
+    "variable_names": true
+  },
+  "replay": {
+    "identity_zero": true,
+    "maximum_remainder_coefficient": 0,
+    "multiplier_coordinate_count": 38826,
+    "multiplier_term_counts": [
+      633,
+      808,
+      1029,
+      1209,
+      1409,
+      1497,
+      1612,
+      1630,
+      1715,
+      1656,
+      1522,
+      878,
+      1250,
+      1292,
+      1364,
+      1382,
+      1462,
+      110,
+      67,
+      32
+    ],
+    "nonzero_generator_multiplier_count": 20,
+    "nonzero_multiplier_coordinate_count": 22557,
+    "observed_term_count": 495,
+    "remainder_term_count": 0,
+    "target_term_count_mod_173": 495
+  },
+  "resources": {
+    "maximum_rss_native": 179044352,
+    "system_cpu_seconds": 0.078947,
+    "user_cpu_seconds": 5.011219
+  },
+  "schema": "hc4.decimic-j2-secant-r10-fourth-colon-identity-p173-independent-replay.v1",
+  "script": {
+    "imports_h4_certificate_producer": false,
+    "imports_sparse_eliminator": false,
+    "path": "scripts/verify_j2_secant_r10_fourth_colon_identity_p173.py",
+    "sha256": "832eaf9547857cb803ece499f6f1a9b2aee5aeacfecc4678966b9aaca6f9b177"
+  },
+  "source_hash_checks": {
+    "certificate": true,
+    "fourth_kernel": true,
+    "producer_receipt": true,
+    "second_identity_qq": true,
+    "second_kernel": true,
+    "third_kernel": true,
+    "utility_source": true
+  },
+  "status": "PASS_INDEPENDENT_EXACT_MODULAR_FOURTH_COLON_IDENTITY_REPLAY",
+  "stream_checks": {
+    "descriptor_stream": true,
+    "generator_stream": true,
+    "monomial_stream": true,
+    "target_stream": true
+  },
+  "timings": {
+    "wall_seconds": 4.927301625022665
+  }
+}

@@ -1,0 +1,377 @@
+{
+  "appended_prime_order": [
+    197,
+    2147483237,
+    2147483179,
+    2147483171,
+    2147483137
+  ],
+  "claim_boundary": "This audits only coordinate 13 and the completeness of the strict-product continued-fraction search. It does not reconstruct the full multiplier vector or prove the rational polynomial identity.",
+  "common_candidate_across_all_three_small_prime_leave_one_out_runs": [
+    {
+      "denominator": "84852601",
+      "numerator": "-303117853966975809344472432454527326602304150142809814264909409693684376567348940486580259893160254806967553359938433903087461094978379292473369929355112954577338675354410092218484096"
+    }
+  ],
+  "coordinate": 13,
+  "input_diagnostic": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/receipts/hsop-j2-secant-r10-third-colon-identity-qq-reconstruction-asymmetric-m512-diagnostic.json",
+  "input_diagnostic_sha256": "465915e6a534ebd76440fb03616c5ff34857799d7bcbb3663982d29524abd16e",
+  "profiles": [
+    {
+      "absorbed_characteristics": [
+        173,
+        199,
+        2147483647,
+        2147483629,
+        2147483587,
+        2147483579,
+        2147483563,
+        2147483549,
+        2147483543,
+        2147483497,
+        2147483489,
+        2147483477,
+        2147483423,
+        2147483399,
+        2147483353,
+        2147483323,
+        2147483269,
+        2147483249
+      ],
+      "modulus_bit_length": 512,
+      "remaining_prime_filter_profile": [
+        {
+          "characteristic": 197,
+          "survivor_count": 2
+        },
+        {
+          "characteristic": 2147483237,
+          "survivor_count": 0
+        },
+        {
+          "characteristic": 2147483179,
+          "survivor_count": 0
+        },
+        {
+          "characteristic": 2147483171,
+          "survivor_count": 0
+        },
+        {
+          "characteristic": 2147483137,
+          "survivor_count": 0
+        }
+      ],
+      "strict_product_candidate_count": 215,
+      "survivor_count_after_all_remaining_primes": 0,
+      "survivor_height_profiles_first_eight": []
+    },
+    {
+      "absorbed_characteristics": [
+        173,
+        199,
+        2147483647,
+        2147483629,
+        2147483587,
+        2147483579,
+        2147483563,
+        2147483549,
+        2147483543,
+        2147483497,
+        2147483489,
+        2147483477,
+        2147483423,
+        2147483399,
+        2147483353,
+        2147483323,
+        2147483269,
+        2147483249,
+        197
+      ],
+      "modulus_bit_length": 519,
+      "remaining_prime_filter_profile": [
+        {
+          "characteristic": 2147483237,
+          "survivor_count": 0
+        },
+        {
+          "characteristic": 2147483179,
+          "survivor_count": 0
+        },
+        {
+          "characteristic": 2147483171,
+          "survivor_count": 0
+        },
+        {
+          "characteristic": 2147483137,
+          "survivor_count": 0
+        }
+      ],
+      "strict_product_candidate_count": 194,
+      "survivor_count_after_all_remaining_primes": 0,
+      "survivor_height_profiles_first_eight": []
+    },
+    {
+      "absorbed_characteristics": [
+        173,
+        199,
+        2147483647,
+        2147483629,
+        2147483587,
+        2147483579,
+        2147483563,
+        2147483549,
+        2147483543,
+        2147483497,
+        2147483489,
+        2147483477,
+        2147483423,
+        2147483399,
+        2147483353,
+        2147483323,
+        2147483269,
+        2147483249,
+        197,
+        2147483237
+      ],
+      "modulus_bit_length": 550,
+      "remaining_prime_filter_profile": [
+        {
+          "characteristic": 2147483179,
+          "survivor_count": 0
+        },
+        {
+          "characteristic": 2147483171,
+          "survivor_count": 0
+        },
+        {
+          "characteristic": 2147483137,
+          "survivor_count": 0
+        }
+      ],
+      "strict_product_candidate_count": 234,
+      "survivor_count_after_all_remaining_primes": 0,
+      "survivor_height_profiles_first_eight": []
+    },
+    {
+      "absorbed_characteristics": [
+        173,
+        199,
+        2147483647,
+        2147483629,
+        2147483587,
+        2147483579,
+        2147483563,
+        2147483549,
+        2147483543,
+        2147483497,
+        2147483489,
+        2147483477,
+        2147483423,
+        2147483399,
+        2147483353,
+        2147483323,
+        2147483269,
+        2147483249,
+        197,
+        2147483237,
+        2147483179
+      ],
+      "modulus_bit_length": 581,
+      "remaining_prime_filter_profile": [
+        {
+          "characteristic": 2147483171,
+          "survivor_count": 0
+        },
+        {
+          "characteristic": 2147483137,
+          "survivor_count": 0
+        }
+      ],
+      "strict_product_candidate_count": 246,
+      "survivor_count_after_all_remaining_primes": 0,
+      "survivor_height_profiles_first_eight": []
+    },
+    {
+      "absorbed_characteristics": [
+        173,
+        199,
+        2147483647,
+        2147483629,
+        2147483587,
+        2147483579,
+        2147483563,
+        2147483549,
+        2147483543,
+        2147483497,
+        2147483489,
+        2147483477,
+        2147483423,
+        2147483399,
+        2147483353,
+        2147483323,
+        2147483269,
+        2147483249,
+        197,
+        2147483237,
+        2147483179,
+        2147483171
+      ],
+      "modulus_bit_length": 612,
+      "remaining_prime_filter_profile": [
+        {
+          "characteristic": 2147483137,
+          "survivor_count": 0
+        }
+      ],
+      "strict_product_candidate_count": 249,
+      "survivor_count_after_all_remaining_primes": 0,
+      "survivor_height_profiles_first_eight": []
+    },
+    {
+      "absorbed_characteristics": [
+        173,
+        199,
+        2147483647,
+        2147483629,
+        2147483587,
+        2147483579,
+        2147483563,
+        2147483549,
+        2147483543,
+        2147483497,
+        2147483489,
+        2147483477,
+        2147483423,
+        2147483399,
+        2147483353,
+        2147483323,
+        2147483269,
+        2147483249,
+        197,
+        2147483237,
+        2147483179,
+        2147483171,
+        2147483137
+      ],
+      "modulus_bit_length": 643,
+      "remaining_prime_filter_profile": [],
+      "strict_product_candidate_count": 259,
+      "survivor_count_after_all_remaining_primes": 259,
+      "survivor_height_profiles_first_eight": [
+        {
+          "denominator": "1",
+          "denominator_bit_length": 1,
+          "numerator": "-12971076593837116930419678906310741044351356111733672373269765581793076452341846360719923393239306762576678355498420513034606177312190008014325295452613411960145599000806779165562136802883823635",
+          "numerator_bit_length": 642,
+          "twice_product_bit_length": 643
+        },
+        {
+          "denominator": "7478",
+          "denominator_bit_length": 13,
+          "numerator": "-1254419388545889668021563586905153703910540341903729777937059175912973621383415985551987386566204332579928312725993665533585669833570704469090044610580897636095491828028289334134582614246389",
+          "numerator_bit_length": 629,
+          "twice_product_bit_length": 643
+        },
+        {
+          "denominator": "24957",
+          "denominator_bit_length": 15,
+          "numerator": "-240311560240734021228133143303557982216997699711056674992325396401656274485618193119981210037102149627360886859059932421304721862513118348522206852892922150234848297129161797959913135198985",
+          "numerator_bit_length": 626,
+          "twice_product_bit_length": 642
+        },
+        {
+          "denominator": "494185",
+          "denominator_bit_length": 19,
+          "numerator": "-28865210871855773704541661754102810914790326317271063090596620782887278664318113311655864514327811854865373136283918713056479778492667442606165468427774610549846927599240420619845382193129",
+          "numerator_bit_length": 623,
+          "twice_product_bit_length": 643
+        },
+        {
+          "denominator": "1105677",
+          "denominator_bit_length": 21,
+          "numerator": "-4868834401491985528185453120841829004028809286095723205761047661082308373311206671230392647962039266606867841873833999050899035980222158733320590739262336178443512816000496904673826134794",
+          "numerator_bit_length": 621,
+          "twice_product_bit_length": 642
+        },
+        {
+          "denominator": "6139877",
+          "denominator_bit_length": 23,
+          "numerator": "-347795537096139464571056970948163109382529399303276143969665183606571575549126715726491373444423744775833914959085281248914437388665509793758076007799406520814149296762560808197574615635",
+          "numerator_bit_length": 617,
+          "twice_product_bit_length": 640
+        },
+        {
+          "denominator": "84852601",
+          "denominator_bit_length": 27,
+          "numerator": "-303117853966975809344472432454527326602304150142809814264909409693684376567348940486580259893160254806967553359938433903087461094978379292473369929355112954577338675354410092218484096",
+          "numerator_bit_length": 607,
+          "twice_product_bit_length": 634
+        },
+        {
+          "denominator": "194724439541",
+          "denominator_bit_length": 38,
+          "numerator": "-64400661930553303450290586813995787229225971196235798636728033862493123812386963718949565955295230322705042888143309756848435644360888710231972271171189126693666413249545246271769050",
+          "numerator_bit_length": 604,
+          "twice_product_bit_length": 643
+        }
+      ]
+    }
+  ],
+  "schema": "hc4.third-colon-coordinate13-independent-rr-audit.v1",
+  "small_prime_leave_one_out_profiles": [
+    {
+      "candidate_count_after_heldout": 2,
+      "candidate_count_before_heldout": 266,
+      "heldout_characteristic": 173,
+      "source_modulus_bit_length": 636,
+      "survivors": [
+        {
+          "denominator": "84852601",
+          "denominator_bit_length": 27,
+          "numerator": "-303117853966975809344472432454527326602304150142809814264909409693684376567348940486580259893160254806967553359938433903087461094978379292473369929355112954577338675354410092218484096",
+          "numerator_bit_length": 607,
+          "twice_product_bit_length": 634
+        },
+        {
+          "denominator": "185380269217494484597379226397073329847138491595564158931742446640485187977149950775774326402406486159009488208",
+          "denominator_bit_length": 367,
+          "numerator": "422130650045181971581956441758439943479571604286821378841583246898116147766752041",
+          "numerator_bit_length": 268,
+          "twice_product_bit_length": 636
+        }
+      ]
+    },
+    {
+      "candidate_count_after_heldout": 1,
+      "candidate_count_before_heldout": 263,
+      "heldout_characteristic": 197,
+      "source_modulus_bit_length": 636,
+      "survivors": [
+        {
+          "denominator": "84852601",
+          "denominator_bit_length": 27,
+          "numerator": "-303117853966975809344472432454527326602304150142809814264909409693684376567348940486580259893160254806967553359938433903087461094978379292473369929355112954577338675354410092218484096",
+          "numerator_bit_length": 607,
+          "twice_product_bit_length": 634
+        }
+      ]
+    },
+    {
+      "candidate_count_after_heldout": 1,
+      "candidate_count_before_heldout": 253,
+      "heldout_characteristic": 199,
+      "source_modulus_bit_length": 636,
+      "survivors": [
+        {
+          "denominator": "84852601",
+          "denominator_bit_length": 27,
+          "numerator": "-303117853966975809344472432454527326602304150142809814264909409693684376567348940486580259893160254806967553359938433903087461094978379292473369929355112954577338675354410092218484096",
+          "numerator_bit_length": 607,
+          "twice_product_bit_length": 634
+        }
+      ]
+    }
+  ],
+  "source_count": 18,
+  "status": "PASS_INDEPENDENT_COORDINATE13_CRT_PROFILE"
+}

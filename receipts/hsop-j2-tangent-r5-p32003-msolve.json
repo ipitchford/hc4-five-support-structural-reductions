@@ -1,0 +1,53 @@
+{
+  "algorithm": "msolve",
+  "auxiliary_equation_count": 2,
+  "auxiliary_stream_sha256": "037f3a286fbdfd9a71644a5961f09e184ba4b5c360c01ddbf580d5d2ff9e7438",
+  "calculation": {
+    "basis_size": null,
+    "child_system_seconds_immediate_scope": 0.057031,
+    "child_user_seconds_immediate_scope": 0.475126,
+    "diagnostic_error": false,
+    "forced_group_kill": false,
+    "is_unit": true,
+    "maximum_rss_native_immediate_scope": 72794112,
+    "process_group_terminated": false,
+    "resource_accounting": "wall time authoritative; CPU/RSS counters may omit delegated worker descendants",
+    "return_code": 0,
+    "solver_output_tail": "[-1]:\n",
+    "stderr_tail": "Initial seed for pseudo-random number generator is 0\n\n--------------- INPUT DATA ---------------\n#variables                      16\n#equations                      57\n#invalid equations               0\nfield characteristic         32003\nhomogeneous input?               0\nsignature-based computation      0\nmonomial order                 DRL\nbasis hash table resetting     OFF\nlinear algebra option            2\ninitial hash table size     131072 (2^17)\nmax pair selection             ALL\nreduce gb                        1\n#threads                         4\ninfo level                       1\ngenerate pbm files               0\n------------------------------------------\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.46 sec\noverall(cpu)            0.53 sec\nselect                  0.01 sec   3.0%\nsymbolic prep.          0.01 sec   2.2%\nupdate                  0.40 sec  86.1%\nconvert                 0.01 sec   1.5%\nlinear algebra          0.03 sec   6.9%\nreduce gb               0.00 sec   0.0%\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\nsize of basis                     1\n#terms in basis                   1\n#pairs reduced                 2742\n#GM criterion               1389696\n#redundant elements            1669\n#rows reduced                  5485\n#zero reductions               1129\nmax. matrix data               9480 x 14144 (0.324%)\nmax. symbolic hash table size  2^14\nmax. basis hash table size     2^19\n-----------------------------------------\n\nGrobner basis has a single element\nNo solution\n\n---------------- TIMINGS ----------------\nrational param(elapsed)         0.46 sec\nrational param(cpu)             0.53 sec\n-----------------------------------------\n\n\n------------------------------------------------------------------------------------\nmsolve overall time           0.46 sec (elapsed) /  0.53 sec (cpu)\n------------------------------------------------------------------------------------\n",
+    "stdout_tail": "",
+    "timed_out": false,
+    "unit_remainder": "0",
+    "wall_seconds": 0.4715934589912649
+  },
+  "characteristic": 32003,
+  "claim_boundary": "all six top-index strata are needed for the tangent orbit; modular units are route evidence, while a characteristic-zero modStd unit is exact for this normalized stratum",
+  "disposition": "BOUNDED_MODULAR_UNIT_SIGNAL",
+  "equation_build_seconds": 4.161702958983369,
+  "gauge": "primitive_j2=1",
+  "generator_count": 57,
+  "maximum_total_degree": 3,
+  "normal_equation_count": 55,
+  "normal_equation_stream_sha256": "3e0637a97f02d8c8b4e1fddfaefdf8b7744b8f8775204cf2213b3e4e38693327",
+  "orbit": "tangent",
+  "root_multiplicity_at_tangent_point": 5,
+  "schema": "hc4-decimic-j2-tangent-root-stratum-scout-v1",
+  "solver_source_sha256": "2accff75eceb324ea348b098a30b617da6c8d67c612c5a56b2f14c61012b02c3",
+  "source_sha256": {
+    "scripts/certify_residual_orbit_torus.py": "db6186a56314279d5ecf028bd6e7b43a11dda06ea45b9ea72abc63cc6dc562d4",
+    "scripts/scout_j2_tangent_root_stratum.py": "491ed3aa5199ed56030c4dc6c2a71464935f47a0ef54a48b01ad2c8c171b2b51"
+  },
+  "substitutions": {
+    "f10": "0",
+    "f4": "0",
+    "f6": "0",
+    "f7": "0",
+    "f8": "0",
+    "f9": "0"
+  },
+  "threads": 4,
+  "top_index": 5,
+  "unipotent_normalization": "f4=0",
+  "variable_count": 16,
+  "wall_seconds": 4.854071333014872
+}

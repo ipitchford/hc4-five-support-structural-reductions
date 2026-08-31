@@ -1,0 +1,44 @@
+{
+  "assurance": "independent exact finite-field polynomial replay",
+  "certificate": {
+    "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-second-colon-identity-sparse-macaulay-retry-v3-p103.json",
+    "sha256": "3adf88c17f6308d0ae5f1bc96e20cd9332146c7259404b1e0d1bfc1da1e41cb2"
+  },
+  "characteristic": 103,
+  "checks": {
+    "coordinate_vector_length_match": true,
+    "coordinate_vector_sha256_match": true,
+    "descriptor_sha256_match": true,
+    "free_profile_sha256_match": true,
+    "gauge_partition_valid": true,
+    "gauge_source_match": true,
+    "generator_stream_sha256_match": true,
+    "identity_zero": true,
+    "maximum_multiplier_degree": 5,
+    "metadata_match": true,
+    "monomial_equation_count": 85921,
+    "monomial_stream_sha256_match": true,
+    "nonzero_multiplier_count": 18,
+    "pivot_profile_sha256_match": true,
+    "remainder_term_count": 0,
+    "solution_support_count": 15043,
+    "solution_support_descriptors_match": true,
+    "solution_support_matches_coordinate_vector": true,
+    "target_sha256_match": true,
+    "unknown_multiplier_coordinate_count": 37476
+  },
+  "claim_boundary": "This independently replays M*h2 in (F_1,...,F_17,h) only over the displayed finite field. It does not prove the QQ identity, compute a colon or saturation, close the secant chart, or establish HC4.",
+  "resources": {
+    "maximum_rss_native": 431980544,
+    "system_cpu_seconds": 0.395823,
+    "user_cpu_seconds": 32.851721
+  },
+  "schema": "hc4.decimic-j2-secant-r10-second-colon-identity-independent-replay.v1",
+  "source_artifacts": {
+    "artifacts/j2-secant-r10-first-colon-kernel-qq.json": "2c6b84ad400634a0f54aa54c3ebfb49b6ae3453240335713f07681fa5773d130",
+    "artifacts/j2-secant-r10-second-colon-kernel-qq-candidate.json": "c41e7c02e7163a0f1a2e71cd7fd5f0d38167b37f3f832019fa069c0ffd2bf37e"
+  },
+  "source_sha256": "b6b2f4925055e2d66e6172eb603cdcf391ff266ab7dfab9b99a0d9766633a6c4",
+  "status": "PASS_INDEPENDENT_SECOND_COLON_MODULAR_IDENTITY_REPLAY",
+  "wall_seconds": 31.20194899998023
+}

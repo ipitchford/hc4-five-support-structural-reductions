@@ -1,0 +1,176 @@
+{
+  "assurance": "independent exact algebra reconstruction and bounded six-prime replay",
+  "claim_boundary": "A PASS independently proves only that the frozen target-blind R197 minor is invertible at the five primary finite fields and one fresh audit field, and that it gives the displayed six exact modular Koszul normalizations and direct Macaulay identity replays. It does not run the M70 census, assemble QQ multipliers, prove QQ membership, compute a colon or saturation, close the secant chart, establish nullcone containment, or prove HC4.",
+  "dimensions": {
+    "common_minor_nonzero_count": 13892,
+    "common_minor_shape": [
+      2053,
+      2053
+    ],
+    "integer_koszul_matrix_shape": [
+      2053,
+      38048
+    ],
+    "integer_koszul_nonzero_count": 154939
+  },
+  "hashes": {
+    "fixed_integer_B_sha256": "6a714331ff3baeecae05174084ed404cb0687005ab9539971818a38489b9046b",
+    "fixed_sparse_decimal_B_sha256": "e6aa785a1218c4bad9461222274859c22579174aa028ad076f53b0df50e2cbe9",
+    "fresh_audit_identity_telemetry_sha256": "c0034711d93855a51abef069b31751a545bac2c8e8adec2b5c60137fdf37be1a",
+    "integer_koszul_stream_sha256": "bf22711579d285ebcafd81b95f20b9b7193c360c360452feb6de67e74e30d856",
+    "normalization_producer_sha256": "fdbed62134385b5412474cd40e70e25a69eea9c5284a6a06dc99ecc121c4d57e",
+    "normalization_receipt_sha256": "3c2f2ac3b2a0c98bb279e90a1fffe8aea68f8c8c4db85e15ced673d50648946e",
+    "ordered_R197_sha256": "dfb318fa370a3bc01bf4013d760c8ffdfff61c695caeee2ec7151f91dd212164",
+    "preregistration_sha256": "b203a118b302c50394a0188501e32d12cc077c85fca2b1513bed770f59a112f8",
+    "source_sha256": "44c2e50c3b4ff9dccd3f0aab21b00247eb540ab1ae946a3b76fce3568fd17ae7"
+  },
+  "independence_boundary": {
+    "all_exact_koszul_images_zero": true,
+    "integer_koszul_rows_reconstructed": true,
+    "normalization_producer_imported_or_executed": false,
+    "producer_helpers_imported": false,
+    "rank_determinant_and_solve_implementation": "local sparse Gaussian elimination with shortest-row pivoting and back substitution",
+    "source_and_normalized_identities_directly_replayed": true,
+    "stopped_normalizer_imported_or_executed": false
+  },
+  "prime_records": [
+    {
+      "alpha_sha256": "9316f7bcf69d1d59505965d9b4433b7ea2b27bb799aff2db9e8a02e947fb3b1d",
+      "determinant_residue": 36,
+      "difference_vector_sha256": "9acb8a4af0e2fc1e8cca46c7fdca6a11a982f64ca4d80dc4fe41ef50509a4d92",
+      "direct_normalized_identity_replay": true,
+      "direct_source_identity_replay": true,
+      "minor_nonzero_count": 13892,
+      "normalized_support_count": 20413,
+      "normalized_vector_sha256": "6d408a5e22fb0af18b948c81c35baedd5e3daa0663036e089a68eb465edce187",
+      "prime": 181,
+      "rank": 2053,
+      "solve_telemetry": {
+        "algorithm": "local sparse Gaussian elimination with shortest-row pivoting and back substitution",
+        "coefficient_update_count": 4277038,
+        "initial_nonzero_count": 13892,
+        "maximum_sampled_nonzero_count": 87148,
+        "maximum_sampled_row_length": 331,
+        "row_swap_count": 1364
+      },
+      "source_artifact_sha256": "e9841fee4f75e60adef26a8b10878b35f6db48e6d0a21876b197d7cbdef2064b"
+    },
+    {
+      "alpha_sha256": "acdd8c8456d0d2a17f726f200aa673fefde4f86025ee20b394b73e87cf06a16e",
+      "determinant_residue": 29,
+      "difference_vector_sha256": "6ec2874aacf181884041217ec0907a27df415f6d7e72dace3e023eb0babfaac4",
+      "direct_normalized_identity_replay": true,
+      "direct_source_identity_replay": true,
+      "minor_nonzero_count": 13892,
+      "normalized_support_count": 20415,
+      "normalized_vector_sha256": "f92d96bd078b2b98d1cf461b99f5f984b347a796652f9747bb1cfde024d04b16",
+      "prime": 173,
+      "rank": 2053,
+      "solve_telemetry": {
+        "algorithm": "local sparse Gaussian elimination with shortest-row pivoting and back substitution",
+        "coefficient_update_count": 4517086,
+        "initial_nonzero_count": 13892,
+        "maximum_sampled_nonzero_count": 88693,
+        "maximum_sampled_row_length": 324,
+        "row_swap_count": 1355
+      },
+      "source_artifact_sha256": "b434b3103e253d22e3f751196ec32b91fa6fc73a6f6d72414222453e4971043c"
+    },
+    {
+      "alpha_sha256": "15d3d41d810349f65bb038edc21f40c2d10921f29dcedf74884fb2c01caa9d5b",
+      "determinant_residue": 189,
+      "difference_vector_sha256": "27811dfddff977d2d072cc1cd0e660372fee8fe49b6730e5c1676ed52bb68c91",
+      "direct_normalized_identity_replay": true,
+      "direct_source_identity_replay": true,
+      "minor_nonzero_count": 13892,
+      "normalized_support_count": 20429,
+      "normalized_vector_sha256": "b3e39b3ace5980d7d3d5ebc9572b51b52a0f037d3d82e78ae475afeea6e61912",
+      "prime": 197,
+      "rank": 2053,
+      "solve_telemetry": {
+        "algorithm": "local sparse Gaussian elimination with shortest-row pivoting and back substitution",
+        "coefficient_update_count": 4431976,
+        "initial_nonzero_count": 13892,
+        "maximum_sampled_nonzero_count": 90179,
+        "maximum_sampled_row_length": 332,
+        "row_swap_count": 1348
+      },
+      "source_artifact_sha256": "f199970f9ca6860b57a8dd89f5d23da084a5fe85a146ca353259d958e1b38272"
+    },
+    {
+      "alpha_sha256": "ef605112faab37292126a84bd69632db82a87e57608f0ba8d4550821852dd48f",
+      "determinant_residue": 871649855,
+      "difference_vector_sha256": "a68983e1bd854d52611cf12fd4b5d625a79d1b5da822771036f237695bb07c94",
+      "direct_normalized_identity_replay": true,
+      "direct_source_identity_replay": true,
+      "minor_nonzero_count": 13892,
+      "normalized_support_count": 20531,
+      "normalized_vector_sha256": "b38ad4e85ba1c1f47876bc3418b55940684be76eda68dd68121515a207bc9d7f",
+      "prime": 2147483647,
+      "rank": 2053,
+      "solve_telemetry": {
+        "algorithm": "local sparse Gaussian elimination with shortest-row pivoting and back substitution",
+        "coefficient_update_count": 4307190,
+        "initial_nonzero_count": 13892,
+        "maximum_sampled_nonzero_count": 86999,
+        "maximum_sampled_row_length": 330,
+        "row_swap_count": 1333
+      },
+      "source_artifact_sha256": "a5a6027afc33afd5374f77b7e72dc945bf1c055e0ce79941d077b04445ca21ad"
+    },
+    {
+      "alpha_sha256": "74434c9432e2fee6be9c5af5cf7a183974a94ff57ffd0290e74c45efc90a0f75",
+      "determinant_residue": 948952615,
+      "difference_vector_sha256": "51ef62ceb14b7c50e87bd2e04255d87150950c43a07082ef6cb6f9b885e941bf",
+      "direct_normalized_identity_replay": true,
+      "direct_source_identity_replay": true,
+      "minor_nonzero_count": 13892,
+      "normalized_support_count": 20531,
+      "normalized_vector_sha256": "4df734fc0d15279570eeddd985af0f098b1b73799dbf25c4950534da647effe9",
+      "prime": 2147483629,
+      "rank": 2053,
+      "solve_telemetry": {
+        "algorithm": "local sparse Gaussian elimination with shortest-row pivoting and back substitution",
+        "coefficient_update_count": 4307190,
+        "initial_nonzero_count": 13892,
+        "maximum_sampled_nonzero_count": 86999,
+        "maximum_sampled_row_length": 330,
+        "row_swap_count": 1333
+      },
+      "source_artifact_sha256": "2b9ed0814159eb6ce3d96e45904e991d3e281f2c0cadd1df008180d35eac6a90"
+    },
+    {
+      "alpha_sha256": "901cd0ca42ee08dceef5eec1afa50a02a04f446a218f66bd6eccd85c35b659c7",
+      "determinant_residue": 1119675462,
+      "difference_vector_sha256": "e2d1cf0a06cd2562d2d887dd8108faae05c0fe9d2bcd7de2235baca3e6f7851f",
+      "direct_normalized_identity_replay": true,
+      "direct_source_identity_replay": true,
+      "minor_nonzero_count": 13892,
+      "normalized_support_count": 20531,
+      "normalized_vector_sha256": "a0605a4cd0628d615bcb60d4b29317cdae536191180416ab210b5ffab8991815",
+      "prime": 2147482867,
+      "rank": 2053,
+      "solve_telemetry": {
+        "algorithm": "local sparse Gaussian elimination with shortest-row pivoting and back substitution",
+        "coefficient_update_count": 4307190,
+        "initial_nonzero_count": 13892,
+        "maximum_sampled_nonzero_count": 86999,
+        "maximum_sampled_row_length": 330,
+        "row_swap_count": 1333
+      },
+      "source_artifact_sha256": "101c4679e8c0512ccc00682107283c9add82a019476ab5a7bf9e586b41c9512f"
+    }
+  ],
+  "resources": {
+    "maximum_rss_native": 192102400,
+    "process_swap_cap": 0,
+    "process_swaps": 0,
+    "rss_cap_bytes": 1500000000,
+    "system_cpu_seconds": 0.154645,
+    "total_wall_seconds": 47.906062957976246,
+    "user_cpu_seconds": 47.925137,
+    "wall_cap_seconds": 240.0
+  },
+  "schema": "hc4.third-colon-koszul-p197-common-minor-normalization-independent-audit.v1",
+  "status": "PASS_INDEPENDENT_SIX_PRIME_P197_COMMON_MINOR_NORMALIZATION"
+}

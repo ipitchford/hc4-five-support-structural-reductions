@@ -1,0 +1,79 @@
+{
+  "checks": {
+    "algebra_hashes": {
+      "descriptor": "478302e341969ae2d8edec433bfd7fc12374598502b7f4e661884b31c4bd5f67",
+      "generator": "688352a1e62824bdc4300d58e37bc681414d2755cee9da021cd47257d0832378",
+      "monomial": "ae88030860e7dc4de0ddf446c2b66a97285c4d98d42c6388c783c1c029b66446",
+      "target": "1d38a51f026483c3dc28ee80652bfc1c9d66f856903374c8a2e6c7392a6f262d"
+    },
+    "frozen_B_row_mismatches": 0,
+    "nonintegral_scaled_source_entries": 2,
+    "support_by_column_mod173": [
+      13,
+      13,
+      13,
+      13,
+      13,
+      13,
+      13,
+      13,
+      13,
+      13,
+      13,
+      13,
+      13,
+      13,
+      13,
+      13
+    ]
+  },
+  "claim_boundary": "Exact C16 export under the frozen B-row scaling only; no kernel transfer, p-adic lift, rational syzygy, target identity, secant closure, nullcone closure, or HC4 theorem.",
+  "dimensions": {
+    "pivot_columns": 36587,
+    "rhs_columns": 16,
+    "rows": 85688,
+    "source_nonzeros": 208
+  },
+  "inputs": {
+    "artifacts/fourth-colon-p173-fixed-gauge-integral-lift-system-v1/A_Z_b_Z_fixed_gauge_p173.i64csr": "a03e09a159af1658ef188ac3182667c87e2c6bfc3e3c24676ced67d5ec71d1d6"
+  },
+  "outputs": {
+    "c16_scaled_mod29929.rowmajor.u16le": {
+      "bytes": 2742016,
+      "sha256": "df112fbc555f66c31c645e05ba0bec18552308cf65254797dad0411dfa60ff4c"
+    },
+    "c16_scaled_sparse.json": {
+      "bytes": 27256,
+      "sha256": "c2f82bbe680d51748f048700fe594fce8aafbc635a8e00da0495b94fff4218e0"
+    },
+    "rhs_minus_c16_mod173.rowmajor.u8": {
+      "bytes": 1371008,
+      "sha256": "7db3e2af5afa957b053fac6a223812224e632109c336c4023b64b422ad3028b9"
+    }
+  },
+  "resources": {
+    "maximum_rss_native": 592838656,
+    "process_swaps": 0,
+    "wall_seconds": 11.598960749979597
+  },
+  "schema": "hc4.fourth-colon-p173-c16-interface.v1",
+  "selected_global_coordinates": [
+    46,
+    47,
+    57,
+    66,
+    68,
+    102,
+    155,
+    547,
+    763,
+    965,
+    966,
+    1261,
+    1269,
+    1499,
+    1699,
+    1711
+  ],
+  "status": "PASS_FOURTH_COLON_P173_C16_FROZEN_ROW_INTERFACE"
+}

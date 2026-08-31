@@ -1,0 +1,53 @@
+{
+  "boundary": "the only inverted factor is lambda*mu; its zero locus is a collision with the normalized root 0",
+  "build_seconds": 7.715307208010927,
+  "certificate_seconds": 0.8452578340074979,
+  "claim_boundary": "exact open-locus closure for this partition; the lambda*mu=0 boundary invokes the separately pinned support-at-most-four theorem",
+  "coefficient_ring": "Q[lambda,mu,g0,...,g9,1/(lambda*mu)]",
+  "conclusion": "the residual-line ideal is contained in the radical of the normal ideal on the lambda*mu-nonzero locus",
+  "endpoint_steps": [
+    "E51=32*g0^3",
+    "E40 mod (g0)=12*(g1+lambda*mu)^3",
+    "E47 mod preceding=-48*(lambda*mu)^2*(g4-2*lambda*mu-lambda-mu)",
+    "E0 mod preceding=32*g9^3",
+    "E4 mod preceding=12*(g8+1)^3",
+    "E10 mod preceding=-48*(g7-lambda-mu-2)"
+  ],
+  "equation_count": 52,
+  "equation_stream_sha256": "3277dc601b457fd14fd6c64972edec2aac2be9dde615054fdd5d1e5a282a74f5",
+  "line_coordinate_sha256": {
+    "line_x": "f0af4650e0ce11883d667f0d339dfc163f9243b78fd5d8f91e8dafca9e3b2159",
+    "line_y": "bb186807e514d55ed67576cd0607c310070aca08892867900f69adcc146ccfbd",
+    "line_z": "5156ba7cca4f41d55af30e8dad776600a37882d65d06ba13fda6b9510e1c7cdf"
+  },
+  "line_reductions": {
+    "line_x": "0",
+    "line_y": "16*(g5 + la*mu + 2*la + 2*mu + 1)**3",
+    "line_z": "0"
+  },
+  "partition": [
+    3,
+    3,
+    2,
+    1,
+    1
+  ],
+  "radical_step": {
+    "D": "g6 - la - mu - 2",
+    "H": "g5 + la*mu + 2*la + 2*mu + 1",
+    "conclusion": "H belongs to the radical of the endpoint normal ideal",
+    "equations": [
+      "E14=16*(D^2-3*H)",
+      "E17=32*D*H^2"
+    ],
+    "identity": "3*H^5=-H^4*E14/16+E17^2/1024"
+  },
+  "schema": "hc4-five-support-endpoint-radical-certificate-v1",
+  "selected_identity_sha256": {
+    "endpoint_E14": "137a412a55bea936999eafba3066fd8ab7d64125a54f191445b81d1ca94de462",
+    "endpoint_E17": "488df090e886206c77be6537414689fa9a62a631466ae0bd6eb42156134911f8",
+    "radical_identity": "c50a78161bb23eef9230e62f030ea5ff2582761baedd62aa71b03954b6ea3ff8"
+  },
+  "status": "PASS",
+  "wall_seconds": 8.560566041996935
+}

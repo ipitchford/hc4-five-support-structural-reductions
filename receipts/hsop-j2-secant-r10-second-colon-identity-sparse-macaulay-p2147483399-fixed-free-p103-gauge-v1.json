@@ -1,0 +1,201 @@
+{
+  "algorithm": "degree-eight character-four sparse Macaulay block; degree-five multipliers for 17 cubics and degree-four multiplier for h; deterministic sparse Gaussian elimination",
+  "assurance": "exact finite-field polynomial identity only",
+  "certificate": {
+    "byte_count": 6023514,
+    "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-second-colon-identity-sparse-macaulay-p2147483399-fixed-free-p103-gauge-v1.json",
+    "sha256": "78cb8ca88024291d7c785553daae410423eacf910e6dd84cf638dbd86b41f26d"
+  },
+  "characteristic": 2147483399,
+  "claim_boundary": "A PASS proves only M*h2 in (F_1,...,F_17,h) over the displayed finite field. It does not prove the QQ identity, determine a colon or saturated ideal, close the secant chart, or establish HC4.",
+  "dimensions": {
+    "matrix_nonzeros": 1355292,
+    "monomial_equations": 85921,
+    "normal_cubic_generators": 17,
+    "target_terms": 412,
+    "total_generators": 18,
+    "unknown_multiplier_coordinates": 37476
+  },
+  "first_quartic": {
+    "candidate_receipt_sha256": {
+      "research/j2_secant_r10_colon_kernel_candidate_p1073741827.json": "1787ac75c59d553bfe64f767f739a1a0f6a4cb0f19dc18228f748476ea4292a3",
+      "research/j2_secant_r10_colon_kernel_candidate_p1073742851.json": "d57655a3efe5c949488f916a641cb98c133b88181e2a4028946bda610c1ced04"
+    },
+    "common_denominator_lcm": 3024,
+    "crt_modulus": 1152922610560928777,
+    "expression_sha256": "596e667ed1540ce18f9950134851e84049c2d7aeae10130e4741e567eb6ef5c3",
+    "maximum_absolute_numerator": 264290,
+    "maximum_denominator": 756,
+    "reconstruction_primes": [
+      1073741827,
+      1073742851
+    ],
+    "term_count": 189,
+    "total_degree": 4
+  },
+  "gauge": {
+    "coordinate_vector_sha256": "c68cb2d3202f51f453ae41aca65715133c32442f5dadc5817653ad059fb30545",
+    "coverage_verified": true,
+    "free_unknown_indices_sha256": "3176d86715aa99f7f5c4ca0a42776e581306b2685f560a620806f863c8dd97c4",
+    "pivot_unknown_indices_sha256": "f0142cf65e99730fa9f92b7a6363c3cb808b241dcf33a4123ead1a4f28e298fd",
+    "source": {
+      "characteristic": 103,
+      "free_unknown_count": 2053,
+      "free_unknown_indices_sha256": "3176d86715aa99f7f5c4ca0a42776e581306b2685f560a620806f863c8dd97c4",
+      "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-second-colon-identity-sparse-macaulay-retry-v3-p103.json",
+      "pivot_count": 35423,
+      "pivot_unknown_set_sha256": "eea6a69a2b5f06b07be8d8bb6a0ca4cafba9d08fae6b85a1aa60b19093b91c0b",
+      "policy": "freeze source free-coordinate set; adapt pivot order",
+      "removed_free_column_nonzeros": 101292,
+      "sha256": "3adf88c17f6308d0ae5f1bc96e20cd9332146c7259404b1e0d1bfc1da1e41cb2"
+    }
+  },
+  "generator_character_weights": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    0,
+    1,
+    2,
+    3,
+    7,
+    9,
+    10,
+    11,
+    0,
+    1,
+    4
+  ],
+  "generator_degrees": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    4
+  ],
+  "hashes": {
+    "generator_stream_sha256": "641cc949bf5246d85f5c33ee0e75502f87a97bee520a9661a97f6fdfdadf09c0",
+    "monomial_stream_sha256": "ec6222f8568f6b0e85f2ab22b325e9e4a4319cd42cb5ccb961bb833b87dc13e0",
+    "row_descriptor_sha256": "aca63d40dd14c02c698bc9996cd72693ebae9adfd88b3bb36515ac8e809d8d56",
+    "shared_solver_source_sha256": "76ba50cd9cf226ffd07169b4aac619974c35027fa20153136e354263f005c27b",
+    "source_sha256": "ea20fb8719bb583c424f0cc4e2730b46c7f38e130558fa7e6d2422865fb1af6b",
+    "target_sha256": "01eeb66ed57d8033bab2334a8689299a3a9c0115d226b949a8fe9887662245be"
+  },
+  "multiplier_degrees": [
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    4
+  ],
+  "resources": {
+    "maximum_rss_native": 756482048,
+    "system_cpu_seconds": 0.6297349999999999,
+    "user_cpu_seconds": 24.861505
+  },
+  "same_process_sparse_replay": {
+    "completed": true,
+    "first_mismatch": null,
+    "identity_zero": true,
+    "mismatch_count": 0,
+    "replay_seconds": 0.1687120419810526
+  },
+  "schema": "hc4.decimic-j2-secant-r10-second-colon-identity-sparse-macaulay.v1",
+  "second_quartic": {
+    "character_weight": 3,
+    "crt_modulus": "1152922610560928777",
+    "discovery_primes": [
+      1073741827,
+      1073742851
+    ],
+    "expression_sha256": "689ec900d68fbd469b9a6aad21d5d6876ed3fdde370243446ab449c9926ad79a",
+    "path": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/j2-secant-r10-second-colon-kernel-qq-candidate.json",
+    "sha256": "c41e7c02e7163a0f1a2e71cd7fd5f0d38167b37f3f832019fa069c0ffd2bf37e",
+    "term_count": 211,
+    "total_degree": 4
+  },
+  "solution_support_count": 15211,
+  "solver": {
+    "active_equation_count": 0,
+    "completed": true,
+    "completed_prescribed_pivots": 0,
+    "consistent": true,
+    "current_total_nonzeros": 0,
+    "fill_added": 2594045,
+    "fill_deleted": 819194,
+    "fixed_gauge_failure": null,
+    "free_unknown_count": 2053,
+    "inconsistent_equation": null,
+    "maximum_active_equation_length": 168,
+    "peak_total_nonzeros": 1254000,
+    "pivot_count": 35423,
+    "pivot_length_distribution": {
+      "1": 17162,
+      "2": 3528,
+      "3": 2170,
+      "4": 1270,
+      "5": 1023,
+      "6": 993,
+      "7": 1040,
+      "8": 799,
+      "9": 761,
+      "10": 662,
+      "11": 703,
+      "12": 701,
+      "13": 592,
+      "14": 510,
+      "15": 535,
+      "16": 553,
+      "17": 455,
+      "18": 365,
+      "19": 347,
+      "20": 381,
+      "21": 329,
+      "22": 178,
+      "23": 137,
+      "24": 176,
+      "25": 53
+    },
+    "prescribed_pivot_count": null,
+    "solve_seconds": 10.236154583020834,
+    "timed_out": false,
+    "update_count": 2858932
+  },
+  "status": "PASS_EXACT_MODULAR_SECOND_COLON_IDENTITY",
+  "target_character_weight": 4,
+  "timings": {
+    "block_build_seconds": 11.980237665993627,
+    "solve_seconds": 10.236154583020834,
+    "wall_seconds": 23.081802625005366
+  }
+}

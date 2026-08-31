@@ -1,0 +1,252 @@
+{
+  "controls": {
+    "collapsed_four_support_6211": {
+      "all_charts_unit": true,
+      "charts": [
+        {
+          "basis_size": "1",
+          "chart": "line_x",
+          "child_system_seconds": 0.003757999999999999,
+          "child_user_seconds": 0.150963,
+          "equation_stream_sha256": "217e39b8cf0124d715d05b3cb57622f10ec4a3b53bf35655f729e108f2f318b9",
+          "is_unit": true,
+          "maximum_rss_native": 7798784,
+          "prime": 32003,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.15810175001388416
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_y",
+          "child_system_seconds": 0.009153,
+          "child_user_seconds": 0.310123,
+          "equation_stream_sha256": "217e39b8cf0124d715d05b3cb57622f10ec4a3b53bf35655f729e108f2f318b9",
+          "is_unit": true,
+          "maximum_rss_native": 7798784,
+          "prime": 32003,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.1705553749925457
+        },
+        {
+          "basis_size": "1",
+          "chart": "line_z",
+          "child_system_seconds": 0.012869,
+          "child_user_seconds": 0.479195,
+          "equation_stream_sha256": "217e39b8cf0124d715d05b3cb57622f10ec4a3b53bf35655f729e108f2f318b9",
+          "is_unit": true,
+          "maximum_rss_native": 7798784,
+          "prime": 32003,
+          "return_code": 0,
+          "stderr_tail": "",
+          "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\n",
+          "timed_out": false,
+          "unit_remainder": "0",
+          "wall_seconds": 0.1770471659838222
+        }
+      ],
+      "equation_build_seconds": 1.519584958004998,
+      "equation_count": 55,
+      "lambda": 2,
+      "mu": 2,
+      "partition": [
+        6,
+        1,
+        1,
+        1,
+        1
+      ],
+      "prime": 32003,
+      "role": "control"
+    },
+    "empty_system": {
+      "basis_size": "1",
+      "chart": "line_x",
+      "child_system_seconds": 0.006735,
+      "child_user_seconds": 0.006953,
+      "equation_stream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "is_unit": false,
+      "maximum_rss_native": 4915200,
+      "prime": 32003,
+      "return_code": 0,
+      "stderr_tail": "",
+      "stdout_tail": "UNIT_REMAINDER\n1\nBASIS_SIZE\n1\n",
+      "timed_out": false,
+      "unit_remainder": "1",
+      "wall_seconds": 0.0606961669982411
+    }
+  },
+  "partition_dispositions": [
+    {
+      "disposition": "NOT_RUN",
+      "partition": [
+        6,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "disposition": "NOT_RUN",
+      "partition": [
+        5,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "disposition": "NOT_RUN",
+      "partition": [
+        4,
+        3,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "disposition": "NOT_RUN",
+      "partition": [
+        4,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "disposition": "NOT_RUN",
+      "partition": [
+        3,
+        3,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "disposition": "NOT_RUN",
+      "partition": [
+        3,
+        2,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "disposition": "NOT_RUN",
+      "partition": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "profile": "control",
+  "protocol": {
+    "charts": [
+      "line_x",
+      "line_y",
+      "line_z"
+    ],
+    "claim_boundary": "finite-field unit signals are bounded falsification evidence, not characteristic-zero function-field proofs",
+    "holdout": [
+      {
+        "lambda": 3,
+        "mu": 7,
+        "prime": 65521,
+        "role": "holdout"
+      },
+      {
+        "lambda": 5,
+        "mu": 11,
+        "prime": 65537,
+        "role": "holdout"
+      }
+    ],
+    "jobs": 3,
+    "partitions": [
+      [
+        6,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        5,
+        2,
+        1,
+        1,
+        1
+      ],
+      [
+        4,
+        3,
+        1,
+        1,
+        1
+      ],
+      [
+        4,
+        2,
+        2,
+        1,
+        1
+      ],
+      [
+        3,
+        3,
+        2,
+        1,
+        1
+      ],
+      [
+        3,
+        2,
+        2,
+        2,
+        1
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "timeout_seconds": 300,
+    "training": [
+      {
+        "lambda": 2,
+        "mu": 3,
+        "prime": 32003,
+        "role": "training"
+      },
+      {
+        "lambda": 2,
+        "mu": 5,
+        "prime": 32009,
+        "role": "training"
+      }
+    ]
+  },
+  "records": [],
+  "schema": "hc4-double-conic-five-support-scout-v1",
+  "status": "PASS",
+  "wall_seconds": 2.114157667005202
+}

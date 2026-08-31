@@ -1,0 +1,52 @@
+{
+  "algorithm": "std",
+  "auxiliary_equation_count": 2,
+  "auxiliary_stream_sha256": "037f3a286fbdfd9a71644a5961f09e184ba4b5c360c01ddbf580d5d2ff9e7438",
+  "calculation": {
+    "basis_size": null,
+    "child_system_seconds_immediate_scope": 4.248333,
+    "child_user_seconds_immediate_scope": 761.745011,
+    "diagnostic_error": false,
+    "forced_group_kill": false,
+    "is_unit": false,
+    "maximum_rss_native_immediate_scope": 201048064,
+    "process_group_terminated": true,
+    "resource_accounting": "wall time authoritative; CPU/RSS counters may omit delegated worker descendants",
+    "return_code": null,
+    "stderr_tail": "",
+    "stdout_tail": "",
+    "timed_out": true,
+    "unit_remainder": null,
+    "wall_seconds": 180.0310265830194
+  },
+  "characteristic": 0,
+  "claim_boundary": "all six top-index strata are needed for the tangent orbit; modular units are route evidence, while a characteristic-zero modStd unit is exact for this normalized stratum",
+  "disposition": "TIMEOUT_RETAINED",
+  "equation_build_seconds": 4.159761792019708,
+  "gauge": "primitive_j2=1",
+  "generator_count": 57,
+  "maximum_total_degree": 3,
+  "normal_equation_count": 55,
+  "normal_equation_stream_sha256": "3e0637a97f02d8c8b4e1fddfaefdf8b7744b8f8775204cf2213b3e4e38693327",
+  "orbit": "tangent",
+  "root_multiplicity_at_tangent_point": 5,
+  "schema": "hc4-decimic-j2-tangent-root-stratum-scout-v1",
+  "solver_source_sha256": "0c525f8b023ef0126e1cfd89729f01f9cf7b6c1e31afbfac420dbcbc76709ba4",
+  "source_sha256": {
+    "scripts/certify_residual_orbit_torus.py": "db6186a56314279d5ecf028bd6e7b43a11dda06ea45b9ea72abc63cc6dc562d4",
+    "scripts/scout_j2_tangent_root_stratum.py": "491ed3aa5199ed56030c4dc6c2a71464935f47a0ef54a48b01ad2c8c171b2b51"
+  },
+  "substitutions": {
+    "f10": "0",
+    "f4": "0",
+    "f6": "0",
+    "f7": "0",
+    "f8": "0",
+    "f9": "0"
+  },
+  "threads": 1,
+  "top_index": 5,
+  "unipotent_normalization": "f4=0",
+  "variable_count": 16,
+  "wall_seconds": 184.41740024997853
+}

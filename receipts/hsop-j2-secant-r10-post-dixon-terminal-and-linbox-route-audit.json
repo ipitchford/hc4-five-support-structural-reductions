@@ -1,0 +1,40 @@
+{
+  "bindings": {
+    "linbox_scout": {
+      "path": "receipts/hsop-j2-secant-r10-third-colon-linbox-synthetic-capability-scout.json",
+      "sha256": "7efab56e0eeb5f2dcfea8a86873ea1bb8ad51f6578842b44865002bc2e5d1763"
+    },
+    "v3_freeze": {
+      "path": "receipts/hsop-j2-secant-r10-third-colon-dixon-p181-implementation-freeze-v3.json",
+      "sha256": "728854a2bb435667ed993af8e3d8afc82c592d89c25db87cc49c0d4fc0c3983b"
+    },
+    "v3_terminal": {
+      "path": "receipts/hsop-j2-secant-r10-third-colon-dixon-p181-phase1-v3-terminal.json",
+      "sha256": "8fc302fece32a36ad22d2fc282280debeb52b987364f4fda551532108fe47541"
+    }
+  },
+  "claim_boundary": "This readback certifies only documentation, immutable-source, evidence-path, and terminal-state consistency. It supplies no new rank, solve, p-adic digit, Q identity, colon, saturation, secant closure, nullcone containment, or HC4 result.",
+  "declarations": {
+    "Dixon_implementation_family_terminal_preserved": true,
+    "HC4_still_open": true,
+    "LinBox_signal_synthetic_only": true,
+    "no_Dixon_digit": true,
+    "no_factorization_index": true
+  },
+  "forbidden_canonical_v3_outputs_existing": [],
+  "frozen_v3_implementation_source_count": 8,
+  "frozen_v3_sources_still_match": true,
+  "new_claim_evidence_missing": [],
+  "new_claim_ids": [
+    "FS-HSOP-SECANT-J2-LINBOX-SYNTHETIC-CAPABILITY",
+    "FS-HSOP-SECANT-J2-THIRD-COLON-DIXON-P181-PHASE1-TERMINAL"
+  ],
+  "schema": "hc4.decimic-j2-secant-r10-post-dixon-terminal-and-linbox-route-audit.v1",
+  "status": "PASS_POST_DIXON_TERMINAL_AND_SUCCESSOR_ROUTE_READBACK",
+  "updated_document_sha256": {
+    "CLAIM_LEDGER.json": "704b4ceccc911df987ee482b78465f4f668b9e54a4b3632b3845ae3b8fb709fd",
+    "NEXT_GOAL_HSOP_NULLCONE.md": "4d5b33553bbf0a89cfe1e57a7b8f64bfcb0a8d41ded62d5b6f96698067e8a75b",
+    "README.md": "5d1f1dd6033081ba6ae39da81a93025b325d5a3599667431f15c5b9fe644949f",
+    "RESEARCH_METRICS.md": "03713e10f534790b2c39864c24135cf18e09463dea08047a155eb6723356d8b7"
+  }
+}

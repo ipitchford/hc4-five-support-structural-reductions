@@ -1,0 +1,58 @@
+{
+  "bindings": {
+    "implementation_freeze_sha256": "728854a2bb435667ed993af8e3d8afc82c592d89c25db87cc49c0d4fc0c3983b",
+    "preimplementation_audit_sha256": "39c7673064e6c3e1f2998b427e12d5b249dfa006b2affd14b5b71f8a096e8582",
+    "quarantine_not_evidence_sha256": "05cab42e7bf5381c8461a0692647eb447ccd98462bb23d88cd5e9a80545fff43"
+  },
+  "canonical_v3_paths_existing": [],
+  "claim_boundary": "This terminal ends only the registered Python sparse-factorization implementation family. It does not falsify rank, the p181 lift, a QQ identity, ideal membership, colon, saturation, secant closure, nullcone containment, or HC4.",
+  "declarations": {
+    "no_Dixon_digit_computed": true,
+    "no_arithmetic_modulo_181_squared": true,
+    "no_factorization_freeze_index": true,
+    "no_v4_retry_licensed": true,
+    "quarantined_integer_system_cannot_feed_later_run": true
+  },
+  "external_telemetry": {
+    "factorizer": {
+      "maximum_rss_bytes": 3962667008,
+      "process_swaps": 0,
+      "real_seconds": 571.33,
+      "sha256": "c854975c1b830f552aa9ca9b3413a5dfab06de2e3f18cab9091f7158ad182e49",
+      "system_seconds": 81.21,
+      "user_seconds": 454.96
+    },
+    "preprocessor": {
+      "maximum_rss_bytes": 435109888,
+      "process_swaps": 0,
+      "real_seconds": 27.86,
+      "sha256": "ce48417c4f38ac5d0156a838d7cecd64563135418f1b91e6009b264d15e6ca09",
+      "system_seconds": 1.21,
+      "user_seconds": 23.75
+    }
+  },
+  "factorizer_milestones": [
+    {
+      "A_C_nonzeros": 1354540,
+      "elapsed_seconds": 1.7522581669618376,
+      "maximum_rss_native": 212156416,
+      "milestone": "INPUT_LOADED"
+    }
+  ],
+  "observations": {
+    "algebra_failure_observed": false,
+    "elimination_complete_milestone_observed": false,
+    "factorization_artifact_emitted": false,
+    "factorizer_exit_code": 124,
+    "input_loaded_milestone_observed": true,
+    "literal_zero_swap_gate_passed": true,
+    "memory_gate_passed": false,
+    "preprocessor_completed": true,
+    "python_sparse_factorizer_family_terminated_by_amendment_04": true,
+    "rank_conclusion_available": false,
+    "serialization_bottleneck_hypothesis_supported": false,
+    "wall_gate_passed": false
+  },
+  "schema": "hc4.decimic-j2-secant-r10-third-colon-dixon-p181-phase1-v3-terminal.v1",
+  "status": "STOP_PHASE1_WALL_AND_RSS_V3_IMPLEMENTATION_FAMILY_TERMINAL"
+}

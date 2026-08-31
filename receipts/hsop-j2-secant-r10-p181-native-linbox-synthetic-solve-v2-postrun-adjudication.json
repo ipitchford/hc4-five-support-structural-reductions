@@ -1,0 +1,44 @@
+{
+  "adjudication": {
+    "registered_experiment_outcome": "STOP_ACTUAL_COEFFICIENT_NATIVE_LINBOX_SYNTHETIC_SOLVE_RESOURCE",
+    "reason": "The frozen 600-second timeout guardian terminated the native SparseElimination route before the driver emitted its terminal JSON or solution. The wrapper attempted stdout parsing before resource classification and therefore wrote an integrity-failure label that does not describe the process-level outcome.",
+    "rerun_authorized": false,
+    "resource_gate_relaxation_authorized": false,
+    "route_instruction": "Move to the preregistered 114-dimensional Koszul quotient or a materially different black-box solver. Do not license the explicit target solve from this experiment."
+  },
+  "claim_boundary": "This receipt adjudicates only the resource outcome of the synthetic-known-vector solver-capability experiment. It proves no target membership or nonmembership, no rational identity, no colon or saturation equality, no secant closure, no nullcone containment, and no HC4 statement.",
+  "frozen_policy": {
+    "process_swaps_maximum": 0,
+    "rss_bytes_maximum": 3758096384,
+    "wall_seconds_maximum": 600
+  },
+  "implementation_freeze": {
+    "path": "receipts/hsop-j2-secant-r10-p181-native-linbox-synthetic-solve-implementation-freeze-v2.json",
+    "sha256": "41b0504ebf77bf9bf7d0c39e8cd61c7312d48c9d2d60dfbfd72ce70240bf4742"
+  },
+  "native_output": {
+    "solution_exists": false,
+    "stderr_bytes": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_bytes": 0,
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "raw_telemetry": {
+    "maximum_resident_set_size_bytes": 252051456,
+    "path": "artifacts/staging/p181-native-linbox-synthetic-solve-v2-telemetry-20260831T002/benchmark.time.txt",
+    "process_swaps": 0,
+    "real_seconds": 600.02,
+    "sha256": "84f0951d9d0f65bc5c16a0011d9ca317bb6cdb6cf12754906ae811a1d63ccf46",
+    "sys_seconds": 6.11,
+    "user_seconds": 539.60
+  },
+  "schema": "hc4.decimic-j2-secant-r10-p181-native-linbox-synthetic-solve-postrun-adjudication.v1",
+  "status": "PASS_POSTRUN_RESOURCE_STOP_ADJUDICATION",
+  "wrapper_defect": {
+    "description": "The v2 wrapper required exactly one stdout line before checking the resource outcome returned by the supervisor. A timeout necessarily leaves stdout empty and was caught by the generic integrity exception.",
+    "future_fix": "Classify return code, wall, RSS, and swaps before parsing stdout; parse driver JSON only for process-level success.",
+    "terminal_path": "receipts/hsop-j2-secant-r10-p181-native-linbox-synthetic-solve-v2.json",
+    "terminal_sha256": "653a51899e1927bba0d857da133199cffd849d3bf2e233169dfc098dea886eb0",
+    "terminal_status_preserved": "FAIL_ACTUAL_COEFFICIENT_NATIVE_LINBOX_SYNTHETIC_SOLVE_INTEGRITY"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "claim_boundary": "A finite p8 PASS concerns 18 fixed source-kernel directions only; no rational, target, colon, saturation, secant, nullcone, or HC4 conclusion follows.",
+  "extension_status": "PASS_P181_SUPPORT18_EIGHT_DIGIT_LIFT",
+  "implementation_freeze": {
+    "path": "receipts/hsop-j2-secant-r10-p181-support18-eight-digit-extension-implementation-freeze.json",
+    "sha256": "eed5b66a4bb70c34a8155d8b8b1b25700e999f310ef482e8715fae515eef62fc"
+  },
+  "promoted": {
+    "artifact": {
+      "X_mod_181_power_8_support18_row_major.u64le": "a9392dc0287aa1c1af62230062f25f8c60684b49bfcf4d1e94c59de6d98afb71",
+      "correction_rhs_digit_06_padded114.u8": "19254e7ff130826727b593ee8d8fff133242c9c58439eb8cdc5debf513a93818",
+      "correction_rhs_digit_07_padded114.u8": "5121a67e587ef2d74d19389d957120882d9574218911afbf3673fbc12da12a63",
+      "digit_06.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "digit_06.stdout.txt": "973a3d81db27ca5fd6a17aa96ba1433641782f5c30c92daeb07444c49faab3d0",
+      "digit_06_padded114.u8": "5f0eff2be8e1a50f0fe04b0eca6e3a3285098655536022e58ecfe85b3e3af5b1",
+      "digit_06_support18_row_major.u8": "fdfce42c7ac6fc60126042a53dbd271f3c0ad508341ec1e8e5077f945cf89910",
+      "digit_07.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "digit_07.stdout.txt": "894c3a188ccef1a2814915453032865a8df50d1bd89c0c1488f05024a081f736",
+      "digit_07_padded114.u8": "5564ed1586c1675595adfc0126bf1c25d2480b24ae3d557c0e7a68f6c1d0ec4a",
+      "digit_07_support18_row_major.u8": "0f1d9fc1c40189f4d786b58ebb434e09fb01c604172654dabb9e6e231af5027e",
+      "extension.json": "5a9040ec169138f60bb3de5072aa2ff113ee23e195e3fd27d90d344dcad6b638",
+      "terminal_q8_support18_row_major.i64le": "ac3d4df82e1d5f7cbbd0e79b0a72f630bb40254f46eab1f8b058ff9c1944c690"
+    },
+    "telemetry": {
+      "benchmark.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "benchmark.stdout.txt": "bc01dd1fd6001837ce46aa86acc80c9f757b125470dd8ff805bc498c7a4948ea",
+      "benchmark.time.txt": "f7cc9ac8029937cc1232188b125af93ac139cf18ce91d3460a6e73a7ec37b8a7"
+    }
+  },
+  "schema": "hc4.third-colon-p181-support18-eight-digit-extension-terminal.v1",
+  "status": "PASS_P181_SUPPORT18_EIGHT_DIGIT_LIFT",
+  "telemetry": {
+    "ancestry_samples": 446,
+    "command": [
+      "/usr/bin/time",
+      "-l",
+      "-o",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-support18-eight-digit-telemetry-20260831T006/benchmark.time.txt",
+      "/opt/homebrew/bin/gtimeout",
+      "-s",
+      "TERM",
+      "-k",
+      "10s",
+      "600s",
+      "/Users/admin/.local/bin/sage",
+      "-python",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/scripts/extend_p181_support18_to_eight_digits.py",
+      "--output-dir",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-support18-eight-digit-20260831T006"
+    ],
+    "external_time": {
+      "maximum_rss_bytes": 174604288,
+      "process_swaps": 0,
+      "raw_sha256": "f7cc9ac8029937cc1232188b125af93ac139cf18ce91d3460a6e73a7ec37b8a7",
+      "real_seconds": 125.97,
+      "system_seconds": 1.37,
+      "user_seconds": 118.79
+    },
+    "return_code": 0,
+    "rss_breach_killed": false,
+    "sampled_descendant_rss_peak_bytes": 278511616,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "bc01dd1fd6001837ce46aa86acc80c9f757b125470dd8ff805bc498c7a4948ea"
+  }
+}

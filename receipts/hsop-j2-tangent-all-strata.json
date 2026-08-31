@@ -1,0 +1,88 @@
+{
+  "characteristic": 0,
+  "claim": "j2 lies in the radical of the tangent residual-orbit normal-layer ideal",
+  "claim_boundary": "this is an exact computer-assisted tangent-orbit j2 certificate; the secant j2 containment, the other seven HSOP invariants, the full nullcone containment, and HC4 remain open",
+  "evidence_sha256": {
+    "receipts/hsop-j2-tangent-r10-A_zero-slimgb-exact.json": "0c34a4afbebccf5ce0b1dcc2834c0e4a19dbafa4f879103db5e1bfc116687ae5",
+    "receipts/hsop-j2-tangent-r10-degree_3-slimgb-exact.json": "39c5af4d938bce89cd735e494171242375f8309b52bdcf6b425ab777b843dd9c",
+    "receipts/hsop-j2-tangent-r10-degree_4-slimgb-exact.json": "af3b92ad89e51022dc155676dadb9e4004ff51d8fd3f6620164929a1df7916c7",
+    "receipts/hsop-j2-tangent-r10-degree_5-modstd-exact.json": "e70cd2f99273f287aa606d82a3834b1eefdee197c2f6a127bf2100b9a7c947ac",
+    "receipts/hsop-j2-tangent-r10-degree_6-slimgb-exact.json": "cc446389deece28678d2803ac5e3ee0a7f8d9d5457b9e6f0f9dc1ad03bb5509e",
+    "receipts/hsop-j2-tangent-r5-compatibility-exact.json": "1e271a221275d07b1c27441c674d5096b3957d92baa946dc08bb08f8447fbea2",
+    "receipts/hsop-j2-tangent-r6-coefficient-slice-exact.json": "7a388046890688a74aaec7650b807ea18c5aeb0f1b6ec30faa6e7ff6a7065745",
+    "receipts/hsop-j2-tangent-r7-coefficient-slice-exact.json": "36fa5e2359f1b3e76f7ae6ecfd0198a47e9bebf44f53c6b34cea63c80cc58369",
+    "receipts/hsop-j2-tangent-r8-coefficient-slice-exact.json": "fb2563bcc8808c606e76e1d59edd3fb5f38d6833b1afb425fd6abecf26b14d43",
+    "receipts/hsop-j2-tangent-r9-coefficient-slice-exact.json": "e793b2053fc6948059f6b4d3ea69a6408fc126040259afea8fe68a35dceb39c4"
+  },
+  "first_nonzero_jet_indices": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "r10_common_A_sha256": "32af32c30fdc465e75d740a539f8eafa76777117d3f2f67f6f1cc53d90fec8fd",
+  "r10_common_C_sha256": "c05e73dd2437365d2d3f6eb8183a7a971b5fc6d9898e43fcf8e40483e7d2c113",
+  "schema": "hc4-decimic-j2-tangent-all-strata-audit-v1",
+  "source_sha256": {
+    "receipts/residual-orbit-torus.json": "26e5b041383e0689248dc67f93a2831529bd287c74a18c0cc3d3e5a6df81c16e",
+    "scripts/audit_j2_tangent_all_strata.py": "4e04a95f67103a878b552662a957485b7ac1d42bcc89d76ec58051b634867209"
+  },
+  "status": "PASS_EXACT_TANGENT_J2_RADICAL_CONTAINMENT",
+  "strata_5_through_9": {
+    "5": {
+      "algorithm": "rank-stratified Singular qstd",
+      "receipt": "receipts/hsop-j2-tangent-r5-compatibility-exact.json",
+      "status": "PASS_EXACT_TANGENT_R5_EMPTY"
+    },
+    "6": {
+      "algorithm": "Singular slimgb",
+      "receipt": "receipts/hsop-j2-tangent-r6-coefficient-slice-exact.json",
+      "status": "PASS_EXACT_TANGENT_STRATUM_EMPTY"
+    },
+    "7": {
+      "algorithm": "Singular slimgb",
+      "receipt": "receipts/hsop-j2-tangent-r7-coefficient-slice-exact.json",
+      "status": "PASS_EXACT_TANGENT_STRATUM_EMPTY"
+    },
+    "8": {
+      "algorithm": "Singular slimgb",
+      "receipt": "receipts/hsop-j2-tangent-r8-coefficient-slice-exact.json",
+      "status": "PASS_EXACT_TANGENT_STRATUM_EMPTY"
+    },
+    "9": {
+      "algorithm": "Singular slimgb",
+      "receipt": "receipts/hsop-j2-tangent-r9-coefficient-slice-exact.json",
+      "status": "PASS_EXACT_TANGENT_STRATUM_EMPTY"
+    }
+  },
+  "stratum_10_degree_branches": {
+    "A_zero": {
+      "A_degree": null,
+      "algorithm": "Singular slimgb",
+      "receipt": "receipts/hsop-j2-tangent-r10-A_zero-slimgb-exact.json"
+    },
+    "degree_3": {
+      "A_degree": 3,
+      "algorithm": "Singular slimgb",
+      "receipt": "receipts/hsop-j2-tangent-r10-degree_3-slimgb-exact.json"
+    },
+    "degree_4": {
+      "A_degree": 4,
+      "algorithm": "Singular slimgb",
+      "receipt": "receipts/hsop-j2-tangent-r10-degree_4-slimgb-exact.json"
+    },
+    "degree_5": {
+      "A_degree": 5,
+      "algorithm": "Singular modstd",
+      "receipt": "receipts/hsop-j2-tangent-r10-degree_5-modstd-exact.json"
+    },
+    "degree_6": {
+      "A_degree": 6,
+      "algorithm": "Singular slimgb",
+      "receipt": "receipts/hsop-j2-tangent-r10-degree_6-slimgb-exact.json"
+    }
+  },
+  "torus_and_unipotent_cover_verified": true
+}

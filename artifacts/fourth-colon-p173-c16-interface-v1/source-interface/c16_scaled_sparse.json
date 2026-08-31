@@ -1,0 +1,1479 @@
+{
+  "entries": [
+    {
+      "column": 0,
+      "denominator": 1,
+      "global_coordinate": 46,
+      "numerator": 3,
+      "row": 249
+    },
+    {
+      "column": 1,
+      "denominator": 1,
+      "global_coordinate": 47,
+      "numerator": 3,
+      "row": 250
+    },
+    {
+      "column": 0,
+      "denominator": 1,
+      "global_coordinate": 46,
+      "numerator": -8,
+      "row": 283
+    },
+    {
+      "column": 1,
+      "denominator": 1,
+      "global_coordinate": 47,
+      "numerator": -8,
+      "row": 284
+    },
+    {
+      "column": 0,
+      "denominator": 1,
+      "global_coordinate": 46,
+      "numerator": -4,
+      "row": 360
+    },
+    {
+      "column": 0,
+      "denominator": 1,
+      "global_coordinate": 46,
+      "numerator": -14,
+      "row": 361
+    },
+    {
+      "column": 1,
+      "denominator": 1,
+      "global_coordinate": 47,
+      "numerator": 20,
+      "row": 361
+    },
+    {
+      "column": 2,
+      "denominator": 1,
+      "global_coordinate": 57,
+      "numerator": -3,
+      "row": 361
+    },
+    {
+      "column": 1,
+      "denominator": 1,
+      "global_coordinate": 47,
+      "numerator": -14,
+      "row": 362
+    },
+    {
+      "column": 2,
+      "denominator": 1,
+      "global_coordinate": 57,
+      "numerator": 8,
+      "row": 378
+    },
+    {
+      "column": 0,
+      "denominator": 1,
+      "global_coordinate": 46,
+      "numerator": -20,
+      "row": 380
+    },
+    {
+      "column": 1,
+      "denominator": 1,
+      "global_coordinate": 47,
+      "numerator": -20,
+      "row": 381
+    },
+    {
+      "column": 0,
+      "denominator": 1,
+      "global_coordinate": 46,
+      "numerator": -4,
+      "row": 421
+    },
+    {
+      "column": 2,
+      "denominator": 1,
+      "global_coordinate": 57,
+      "numerator": 4,
+      "row": 421
+    },
+    {
+      "column": 0,
+      "denominator": 1,
+      "global_coordinate": 46,
+      "numerator": 17,
+      "row": 422
+    },
+    {
+      "column": 1,
+      "denominator": 1,
+      "global_coordinate": 47,
+      "numerator": -20,
+      "row": 422
+    },
+    {
+      "column": 2,
+      "denominator": 1,
+      "global_coordinate": 57,
+      "numerator": -14,
+      "row": 422
+    },
+    {
+      "column": 1,
+      "denominator": 1,
+      "global_coordinate": 47,
+      "numerator": 17,
+      "row": 423
+    },
+    {
+      "column": 2,
+      "denominator": 1,
+      "global_coordinate": 57,
+      "numerator": -20,
+      "row": 433
+    },
+    {
+      "column": 3,
+      "denominator": 1,
+      "global_coordinate": 66,
+      "numerator": 3,
+      "row": 434
+    },
+    {
+      "column": 3,
+      "denominator": 1,
+      "global_coordinate": 66,
+      "numerator": 8,
+      "row": 438
+    },
+    {
+      "column": 2,
+      "denominator": 1,
+      "global_coordinate": 57,
+      "numerator": -4,
+      "row": 449
+    },
+    {
+      "column": 2,
+      "denominator": 1,
+      "global_coordinate": 57,
+      "numerator": 17,
+      "row": 450
+    },
+    {
+      "column": 4,
+      "denominator": 1,
+      "global_coordinate": 68,
+      "numerator": -3,
+      "row": 451
+    },
+    {
+      "column": 4,
+      "denominator": 1,
+      "global_coordinate": 68,
+      "numerator": 8,
+      "row": 456
+    },
+    {
+      "column": 3,
+      "denominator": 1,
+      "global_coordinate": 66,
+      "numerator": -20,
+      "row": 457
+    },
+    {
+      "column": 3,
+      "denominator": 1,
+      "global_coordinate": 66,
+      "numerator": 14,
+      "row": 458
+    },
+    {
+      "column": 3,
+      "denominator": 1,
+      "global_coordinate": 66,
+      "numerator": -4,
+      "row": 461
+    },
+    {
+      "column": 4,
+      "denominator": 1,
+      "global_coordinate": 68,
+      "numerator": -20,
+      "row": 466
+    },
+    {
+      "column": 4,
+      "denominator": 1,
+      "global_coordinate": 68,
+      "numerator": 14,
+      "row": 467
+    },
+    {
+      "column": 3,
+      "denominator": 1,
+      "global_coordinate": 66,
+      "numerator": -20,
+      "row": 469
+    },
+    {
+      "column": 3,
+      "denominator": 1,
+      "global_coordinate": 66,
+      "numerator": 17,
+      "row": 470
+    },
+    {
+      "column": 4,
+      "denominator": 1,
+      "global_coordinate": 68,
+      "numerator": -20,
+      "row": 470
+    },
+    {
+      "column": 4,
+      "denominator": 1,
+      "global_coordinate": 68,
+      "numerator": -20,
+      "row": 473
+    },
+    {
+      "column": 4,
+      "denominator": 5,
+      "global_coordinate": 68,
+      "numerator": 17,
+      "row": 474
+    },
+    {
+      "column": 0,
+      "denominator": 1,
+      "global_coordinate": 46,
+      "numerator": -16,
+      "row": 642
+    },
+    {
+      "column": 0,
+      "denominator": 1,
+      "global_coordinate": 46,
+      "numerator": 8,
+      "row": 643
+    },
+    {
+      "column": 1,
+      "denominator": 1,
+      "global_coordinate": 47,
+      "numerator": -16,
+      "row": 643
+    },
+    {
+      "column": 1,
+      "denominator": 1,
+      "global_coordinate": 47,
+      "numerator": 8,
+      "row": 644
+    },
+    {
+      "column": 2,
+      "denominator": 1,
+      "global_coordinate": 57,
+      "numerator": -16,
+      "row": 703
+    },
+    {
+      "column": 2,
+      "denominator": 1,
+      "global_coordinate": 57,
+      "numerator": 8,
+      "row": 704
+    },
+    {
+      "column": 0,
+      "denominator": 1,
+      "global_coordinate": 46,
+      "numerator": 20,
+      "row": 706
+    },
+    {
+      "column": 1,
+      "denominator": 1,
+      "global_coordinate": 47,
+      "numerator": 20,
+      "row": 707
+    },
+    {
+      "column": 2,
+      "denominator": 1,
+      "global_coordinate": 57,
+      "numerator": 20,
+      "row": 739
+    },
+    {
+      "column": 5,
+      "denominator": 1,
+      "global_coordinate": 102,
+      "numerator": -3,
+      "row": 740
+    },
+    {
+      "column": 3,
+      "denominator": 1,
+      "global_coordinate": 66,
+      "numerator": -16,
+      "row": 743
+    },
+    {
+      "column": 3,
+      "denominator": 1,
+      "global_coordinate": 66,
+      "numerator": -8,
+      "row": 744
+    },
+    {
+      "column": 5,
+      "denominator": 1,
+      "global_coordinate": 102,
+      "numerator": -8,
+      "row": 744
+    },
+    {
+      "column": 4,
+      "denominator": 1,
+      "global_coordinate": 68,
+      "numerator": -16,
+      "row": 752
+    },
+    {
+      "column": 4,
+      "denominator": 1,
+      "global_coordinate": 68,
+      "numerator": 8,
+      "row": 753
+    },
+    {
+      "column": 5,
+      "denominator": 1,
+      "global_coordinate": 102,
+      "numerator": 20,
+      "row": 754
+    },
+    {
+      "column": 5,
+      "denominator": 1,
+      "global_coordinate": 102,
+      "numerator": -14,
+      "row": 755
+    },
+    {
+      "column": 3,
+      "denominator": 1,
+      "global_coordinate": 66,
+      "numerator": -20,
+      "row": 758
+    },
+    {
+      "column": 5,
+      "denominator": 1,
+      "global_coordinate": 102,
+      "numerator": 20,
+      "row": 758
+    },
+    {
+      "column": 5,
+      "denominator": 1,
+      "global_coordinate": 102,
+      "numerator": -20,
+      "row": 761
+    },
+    {
+      "column": 4,
+      "denominator": 1,
+      "global_coordinate": 68,
+      "numerator": 20,
+      "row": 762
+    },
+    {
+      "column": 5,
+      "denominator": 1,
+      "global_coordinate": 102,
+      "numerator": 17,
+      "row": 762
+    },
+    {
+      "column": 0,
+      "denominator": 1,
+      "global_coordinate": 46,
+      "numerator": 24,
+      "row": 866
+    },
+    {
+      "column": 1,
+      "denominator": 1,
+      "global_coordinate": 47,
+      "numerator": 24,
+      "row": 867
+    },
+    {
+      "column": 2,
+      "denominator": 1,
+      "global_coordinate": 57,
+      "numerator": 24,
+      "row": 898
+    },
+    {
+      "column": 5,
+      "denominator": 1,
+      "global_coordinate": 102,
+      "numerator": -16,
+      "row": 910
+    },
+    {
+      "column": 5,
+      "denominator": 1,
+      "global_coordinate": 102,
+      "numerator": 8,
+      "row": 911
+    },
+    {
+      "column": 3,
+      "denominator": 1,
+      "global_coordinate": 66,
+      "numerator": 24,
+      "row": 916
+    },
+    {
+      "column": 5,
+      "denominator": 1,
+      "global_coordinate": 102,
+      "numerator": 20,
+      "row": 918
+    },
+    {
+      "column": 4,
+      "denominator": 1,
+      "global_coordinate": 68,
+      "numerator": 24,
+      "row": 920
+    },
+    {
+      "column": 5,
+      "denominator": 1,
+      "global_coordinate": 102,
+      "numerator": 24,
+      "row": 992
+    },
+    {
+      "column": 0,
+      "denominator": 1,
+      "global_coordinate": 46,
+      "numerator": 12,
+      "row": 1196
+    },
+    {
+      "column": 1,
+      "denominator": 1,
+      "global_coordinate": 47,
+      "numerator": 12,
+      "row": 1197
+    },
+    {
+      "column": 2,
+      "denominator": 1,
+      "global_coordinate": 57,
+      "numerator": 12,
+      "row": 1262
+    },
+    {
+      "column": 0,
+      "denominator": 1,
+      "global_coordinate": 46,
+      "numerator": -60,
+      "row": 1266
+    },
+    {
+      "column": 1,
+      "denominator": 1,
+      "global_coordinate": 47,
+      "numerator": -60,
+      "row": 1267
+    },
+    {
+      "column": 2,
+      "denominator": 1,
+      "global_coordinate": 57,
+      "numerator": -60,
+      "row": 1298
+    },
+    {
+      "column": 6,
+      "denominator": 1,
+      "global_coordinate": 155,
+      "numerator": 3,
+      "row": 1299
+    },
+    {
+      "column": 3,
+      "denominator": 1,
+      "global_coordinate": 66,
+      "numerator": -12,
+      "row": 1304
+    },
+    {
+      "column": 6,
+      "denominator": 1,
+      "global_coordinate": 155,
+      "numerator": 8,
+      "row": 1306
+    },
+    {
+      "column": 4,
+      "denominator": 1,
+      "global_coordinate": 68,
+      "numerator": 12,
+      "row": 1311
+    },
+    {
+      "column": 6,
+      "denominator": 1,
+      "global_coordinate": 155,
+      "numerator": 20,
+      "row": 1314
+    },
+    {
+      "column": 6,
+      "denominator": 1,
+      "global_coordinate": 155,
+      "numerator": 14,
+      "row": 1315
+    },
+    {
+      "column": 3,
+      "denominator": 1,
+      "global_coordinate": 66,
+      "numerator": -60,
+      "row": 1316
+    },
+    {
+      "column": 6,
+      "denominator": 1,
+      "global_coordinate": 155,
+      "numerator": -20,
+      "row": 1316
+    },
+    {
+      "column": 6,
+      "denominator": 1,
+      "global_coordinate": 155,
+      "numerator": 20,
+      "row": 1319
+    },
+    {
+      "column": 4,
+      "denominator": 1,
+      "global_coordinate": 68,
+      "numerator": -60,
+      "row": 1320
+    },
+    {
+      "column": 6,
+      "denominator": 1,
+      "global_coordinate": 155,
+      "numerator": 17,
+      "row": 1320
+    },
+    {
+      "column": 5,
+      "denominator": 1,
+      "global_coordinate": 102,
+      "numerator": 12,
+      "row": 1466
+    },
+    {
+      "column": 6,
+      "denominator": 1,
+      "global_coordinate": 155,
+      "numerator": -16,
+      "row": 1467
+    },
+    {
+      "column": 6,
+      "denominator": 1,
+      "global_coordinate": 155,
+      "numerator": 8,
+      "row": 1468
+    },
+    {
+      "column": 5,
+      "denominator": 1,
+      "global_coordinate": 102,
+      "numerator": -60,
+      "row": 1471
+    },
+    {
+      "column": 6,
+      "denominator": 1,
+      "global_coordinate": 155,
+      "numerator": 20,
+      "row": 1471
+    },
+    {
+      "column": 6,
+      "denominator": 1,
+      "global_coordinate": 155,
+      "numerator": 24,
+      "row": 1537
+    },
+    {
+      "column": 6,
+      "denominator": 1,
+      "global_coordinate": 155,
+      "numerator": -12,
+      "row": 1713
+    },
+    {
+      "column": 6,
+      "denominator": 1,
+      "global_coordinate": 155,
+      "numerator": 60,
+      "row": 1716
+    },
+    {
+      "column": 7,
+      "denominator": 1,
+      "global_coordinate": 547,
+      "numerator": -3,
+      "row": 10561
+    },
+    {
+      "column": 7,
+      "denominator": 1,
+      "global_coordinate": 547,
+      "numerator": -8,
+      "row": 10583
+    },
+    {
+      "column": 7,
+      "denominator": 1,
+      "global_coordinate": 547,
+      "numerator": 4,
+      "row": 10626
+    },
+    {
+      "column": 7,
+      "denominator": 1,
+      "global_coordinate": 547,
+      "numerator": -14,
+      "row": 10627
+    },
+    {
+      "column": 7,
+      "denominator": 1,
+      "global_coordinate": 547,
+      "numerator": -20,
+      "row": 10640
+    },
+    {
+      "column": 7,
+      "denominator": 1,
+      "global_coordinate": 547,
+      "numerator": -4,
+      "row": 10658
+    },
+    {
+      "column": 7,
+      "denominator": 1,
+      "global_coordinate": 547,
+      "numerator": 17,
+      "row": 10659
+    },
+    {
+      "column": 7,
+      "denominator": 1,
+      "global_coordinate": 547,
+      "numerator": -16,
+      "row": 10780
+    },
+    {
+      "column": 7,
+      "denominator": 1,
+      "global_coordinate": 547,
+      "numerator": 8,
+      "row": 10781
+    },
+    {
+      "column": 7,
+      "denominator": 1,
+      "global_coordinate": 547,
+      "numerator": 20,
+      "row": 10815
+    },
+    {
+      "column": 7,
+      "denominator": 1,
+      "global_coordinate": 547,
+      "numerator": 24,
+      "row": 10885
+    },
+    {
+      "column": 7,
+      "denominator": 1,
+      "global_coordinate": 547,
+      "numerator": 12,
+      "row": 11032
+    },
+    {
+      "column": 7,
+      "denominator": 1,
+      "global_coordinate": 547,
+      "numerator": -60,
+      "row": 11063
+    },
+    {
+      "column": 8,
+      "denominator": 1,
+      "global_coordinate": 763,
+      "numerator": -3,
+      "row": 17382
+    },
+    {
+      "column": 8,
+      "denominator": 1,
+      "global_coordinate": 763,
+      "numerator": -2,
+      "row": 17399
+    },
+    {
+      "column": 8,
+      "denominator": 1,
+      "global_coordinate": 763,
+      "numerator": 10,
+      "row": 17443
+    },
+    {
+      "column": 8,
+      "denominator": 1,
+      "global_coordinate": 763,
+      "numerator": 7,
+      "row": 17444
+    },
+    {
+      "column": 8,
+      "denominator": 1,
+      "global_coordinate": 763,
+      "numerator": -10,
+      "row": 17460
+    },
+    {
+      "column": 8,
+      "denominator": 1,
+      "global_coordinate": 763,
+      "numerator": 20,
+      "row": 17476
+    },
+    {
+      "column": 8,
+      "denominator": 1,
+      "global_coordinate": 763,
+      "numerator": -17,
+      "row": 17477
+    },
+    {
+      "column": 8,
+      "denominator": 1,
+      "global_coordinate": 763,
+      "numerator": -4,
+      "row": 17509
+    },
+    {
+      "column": 8,
+      "denominator": 1,
+      "global_coordinate": 763,
+      "numerator": 2,
+      "row": 17510
+    },
+    {
+      "column": 8,
+      "denominator": 1,
+      "global_coordinate": 763,
+      "numerator": 10,
+      "row": 17548
+    },
+    {
+      "column": 8,
+      "denominator": 1,
+      "global_coordinate": 763,
+      "numerator": 6,
+      "row": 17574
+    },
+    {
+      "column": 8,
+      "denominator": 1,
+      "global_coordinate": 763,
+      "numerator": 12,
+      "row": 17608
+    },
+    {
+      "column": 8,
+      "denominator": 1,
+      "global_coordinate": 763,
+      "numerator": 60,
+      "row": 17645
+    },
+    {
+      "column": 9,
+      "denominator": 1,
+      "global_coordinate": 965,
+      "numerator": 3,
+      "row": 26463
+    },
+    {
+      "column": 10,
+      "denominator": 1,
+      "global_coordinate": 966,
+      "numerator": 3,
+      "row": 26464
+    },
+    {
+      "column": 9,
+      "denominator": 1,
+      "global_coordinate": 965,
+      "numerator": -8,
+      "row": 26480
+    },
+    {
+      "column": 10,
+      "denominator": 1,
+      "global_coordinate": 966,
+      "numerator": -8,
+      "row": 26481
+    },
+    {
+      "column": 9,
+      "denominator": 1,
+      "global_coordinate": 965,
+      "numerator": -4,
+      "row": 26522
+    },
+    {
+      "column": 9,
+      "denominator": 1,
+      "global_coordinate": 965,
+      "numerator": -14,
+      "row": 26523
+    },
+    {
+      "column": 10,
+      "denominator": 1,
+      "global_coordinate": 966,
+      "numerator": 20,
+      "row": 26523
+    },
+    {
+      "column": 10,
+      "denominator": 1,
+      "global_coordinate": 966,
+      "numerator": -14,
+      "row": 26524
+    },
+    {
+      "column": 9,
+      "denominator": 1,
+      "global_coordinate": 965,
+      "numerator": -20,
+      "row": 26534
+    },
+    {
+      "column": 10,
+      "denominator": 1,
+      "global_coordinate": 966,
+      "numerator": -20,
+      "row": 26535
+    },
+    {
+      "column": 9,
+      "denominator": 1,
+      "global_coordinate": 965,
+      "numerator": -4,
+      "row": 26550
+    },
+    {
+      "column": 9,
+      "denominator": 1,
+      "global_coordinate": 965,
+      "numerator": 17,
+      "row": 26551
+    },
+    {
+      "column": 10,
+      "denominator": 1,
+      "global_coordinate": 966,
+      "numerator": -20,
+      "row": 26551
+    },
+    {
+      "column": 10,
+      "denominator": 1,
+      "global_coordinate": 966,
+      "numerator": 17,
+      "row": 26552
+    },
+    {
+      "column": 9,
+      "denominator": 1,
+      "global_coordinate": 965,
+      "numerator": -16,
+      "row": 26667
+    },
+    {
+      "column": 9,
+      "denominator": 1,
+      "global_coordinate": 965,
+      "numerator": 8,
+      "row": 26668
+    },
+    {
+      "column": 10,
+      "denominator": 1,
+      "global_coordinate": 966,
+      "numerator": -16,
+      "row": 26668
+    },
+    {
+      "column": 10,
+      "denominator": 1,
+      "global_coordinate": 966,
+      "numerator": 8,
+      "row": 26669
+    },
+    {
+      "column": 9,
+      "denominator": 1,
+      "global_coordinate": 965,
+      "numerator": 20,
+      "row": 26703
+    },
+    {
+      "column": 10,
+      "denominator": 1,
+      "global_coordinate": 966,
+      "numerator": 20,
+      "row": 26704
+    },
+    {
+      "column": 9,
+      "denominator": 1,
+      "global_coordinate": 965,
+      "numerator": 24,
+      "row": 26782
+    },
+    {
+      "column": 10,
+      "denominator": 1,
+      "global_coordinate": 966,
+      "numerator": 24,
+      "row": 26783
+    },
+    {
+      "column": 9,
+      "denominator": 1,
+      "global_coordinate": 965,
+      "numerator": 12,
+      "row": 26938
+    },
+    {
+      "column": 10,
+      "denominator": 1,
+      "global_coordinate": 966,
+      "numerator": 12,
+      "row": 26939
+    },
+    {
+      "column": 9,
+      "denominator": 1,
+      "global_coordinate": 965,
+      "numerator": -60,
+      "row": 26974
+    },
+    {
+      "column": 10,
+      "denominator": 1,
+      "global_coordinate": 966,
+      "numerator": -60,
+      "row": 26975
+    },
+    {
+      "column": 11,
+      "denominator": 1,
+      "global_coordinate": 1261,
+      "numerator": 3,
+      "row": 39948
+    },
+    {
+      "column": 11,
+      "denominator": 1,
+      "global_coordinate": 1261,
+      "numerator": -8,
+      "row": 39967
+    },
+    {
+      "column": 11,
+      "denominator": 1,
+      "global_coordinate": 1261,
+      "numerator": -4,
+      "row": 40003
+    },
+    {
+      "column": 11,
+      "denominator": 1,
+      "global_coordinate": 1261,
+      "numerator": -14,
+      "row": 40004
+    },
+    {
+      "column": 11,
+      "denominator": 1,
+      "global_coordinate": 1261,
+      "numerator": -20,
+      "row": 40013
+    },
+    {
+      "column": 11,
+      "denominator": 1,
+      "global_coordinate": 1261,
+      "numerator": -4,
+      "row": 40033
+    },
+    {
+      "column": 11,
+      "denominator": 1,
+      "global_coordinate": 1261,
+      "numerator": 17,
+      "row": 40034
+    },
+    {
+      "column": 12,
+      "denominator": 1,
+      "global_coordinate": 1269,
+      "numerator": -3,
+      "row": 40045
+    },
+    {
+      "column": 12,
+      "denominator": 1,
+      "global_coordinate": 1269,
+      "numerator": 8,
+      "row": 40048
+    },
+    {
+      "column": 12,
+      "denominator": 1,
+      "global_coordinate": 1269,
+      "numerator": -4,
+      "row": 40051
+    },
+    {
+      "column": 12,
+      "denominator": 1,
+      "global_coordinate": 1269,
+      "numerator": 14,
+      "row": 40052
+    },
+    {
+      "column": 12,
+      "denominator": 1,
+      "global_coordinate": 1269,
+      "numerator": -20,
+      "row": 40053
+    },
+    {
+      "column": 12,
+      "denominator": 1,
+      "global_coordinate": 1269,
+      "numerator": -4,
+      "row": 40054
+    },
+    {
+      "column": 12,
+      "denominator": 5,
+      "global_coordinate": 1269,
+      "numerator": 17,
+      "row": 40055
+    },
+    {
+      "column": 11,
+      "denominator": 1,
+      "global_coordinate": 1261,
+      "numerator": -16,
+      "row": 40143
+    },
+    {
+      "column": 11,
+      "denominator": 1,
+      "global_coordinate": 1261,
+      "numerator": 8,
+      "row": 40144
+    },
+    {
+      "column": 11,
+      "denominator": 1,
+      "global_coordinate": 1261,
+      "numerator": 20,
+      "row": 40173
+    },
+    {
+      "column": 12,
+      "denominator": 1,
+      "global_coordinate": 1269,
+      "numerator": -16,
+      "row": 40194
+    },
+    {
+      "column": 12,
+      "denominator": 1,
+      "global_coordinate": 1269,
+      "numerator": 8,
+      "row": 40195
+    },
+    {
+      "column": 12,
+      "denominator": 1,
+      "global_coordinate": 1269,
+      "numerator": 20,
+      "row": 40198
+    },
+    {
+      "column": 11,
+      "denominator": 1,
+      "global_coordinate": 1261,
+      "numerator": 24,
+      "row": 40250
+    },
+    {
+      "column": 12,
+      "denominator": 1,
+      "global_coordinate": 1269,
+      "numerator": 24,
+      "row": 40273
+    },
+    {
+      "column": 11,
+      "denominator": 1,
+      "global_coordinate": 1261,
+      "numerator": 12,
+      "row": 40411
+    },
+    {
+      "column": 11,
+      "denominator": 1,
+      "global_coordinate": 1261,
+      "numerator": -60,
+      "row": 40445
+    },
+    {
+      "column": 12,
+      "denominator": 1,
+      "global_coordinate": 1269,
+      "numerator": -12,
+      "row": 40466
+    },
+    {
+      "column": 12,
+      "denominator": 1,
+      "global_coordinate": 1269,
+      "numerator": -60,
+      "row": 40468
+    },
+    {
+      "column": 13,
+      "denominator": 1,
+      "global_coordinate": 1499,
+      "numerator": 3,
+      "row": 49326
+    },
+    {
+      "column": 13,
+      "denominator": 1,
+      "global_coordinate": 1499,
+      "numerator": -8,
+      "row": 49334
+    },
+    {
+      "column": 13,
+      "denominator": 1,
+      "global_coordinate": 1499,
+      "numerator": -4,
+      "row": 49355
+    },
+    {
+      "column": 13,
+      "denominator": 1,
+      "global_coordinate": 1499,
+      "numerator": -14,
+      "row": 49356
+    },
+    {
+      "column": 13,
+      "denominator": 1,
+      "global_coordinate": 1499,
+      "numerator": -20,
+      "row": 49361
+    },
+    {
+      "column": 13,
+      "denominator": 1,
+      "global_coordinate": 1499,
+      "numerator": -4,
+      "row": 49366
+    },
+    {
+      "column": 13,
+      "denominator": 1,
+      "global_coordinate": 1499,
+      "numerator": 17,
+      "row": 49367
+    },
+    {
+      "column": 13,
+      "denominator": 1,
+      "global_coordinate": 1499,
+      "numerator": -16,
+      "row": 49422
+    },
+    {
+      "column": 13,
+      "denominator": 1,
+      "global_coordinate": 1499,
+      "numerator": 8,
+      "row": 49423
+    },
+    {
+      "column": 13,
+      "denominator": 1,
+      "global_coordinate": 1499,
+      "numerator": 20,
+      "row": 49440
+    },
+    {
+      "column": 13,
+      "denominator": 1,
+      "global_coordinate": 1499,
+      "numerator": 24,
+      "row": 49475
+    },
+    {
+      "column": 13,
+      "denominator": 1,
+      "global_coordinate": 1499,
+      "numerator": 12,
+      "row": 49546
+    },
+    {
+      "column": 13,
+      "denominator": 1,
+      "global_coordinate": 1499,
+      "numerator": -60,
+      "row": 49562
+    },
+    {
+      "column": 14,
+      "denominator": 1,
+      "global_coordinate": 1699,
+      "numerator": -3,
+      "row": 59256
+    },
+    {
+      "column": 14,
+      "denominator": 1,
+      "global_coordinate": 1699,
+      "numerator": -8,
+      "row": 59259
+    },
+    {
+      "column": 14,
+      "denominator": 1,
+      "global_coordinate": 1699,
+      "numerator": 20,
+      "row": 59262
+    },
+    {
+      "column": 14,
+      "denominator": 1,
+      "global_coordinate": 1699,
+      "numerator": -14,
+      "row": 59263
+    },
+    {
+      "column": 14,
+      "denominator": 1,
+      "global_coordinate": 1699,
+      "numerator": 20,
+      "row": 59264
+    },
+    {
+      "column": 14,
+      "denominator": 1,
+      "global_coordinate": 1699,
+      "numerator": -20,
+      "row": 59265
+    },
+    {
+      "column": 14,
+      "denominator": 1,
+      "global_coordinate": 1699,
+      "numerator": 17,
+      "row": 59266
+    },
+    {
+      "column": 14,
+      "denominator": 1,
+      "global_coordinate": 1699,
+      "numerator": -16,
+      "row": 59335
+    },
+    {
+      "column": 14,
+      "denominator": 1,
+      "global_coordinate": 1699,
+      "numerator": 8,
+      "row": 59336
+    },
+    {
+      "column": 14,
+      "denominator": 1,
+      "global_coordinate": 1699,
+      "numerator": 20,
+      "row": 59339
+    },
+    {
+      "column": 14,
+      "denominator": 1,
+      "global_coordinate": 1699,
+      "numerator": 24,
+      "row": 59373
+    },
+    {
+      "column": 15,
+      "denominator": 1,
+      "global_coordinate": 1711,
+      "numerator": -3,
+      "row": 59431
+    },
+    {
+      "column": 15,
+      "denominator": 1,
+      "global_coordinate": 1711,
+      "numerator": -2,
+      "row": 59440
+    },
+    {
+      "column": 15,
+      "denominator": 1,
+      "global_coordinate": 1711,
+      "numerator": 10,
+      "row": 59483
+    },
+    {
+      "column": 15,
+      "denominator": 1,
+      "global_coordinate": 1711,
+      "numerator": -7,
+      "row": 59484
+    },
+    {
+      "column": 15,
+      "denominator": 1,
+      "global_coordinate": 1711,
+      "numerator": -10,
+      "row": 59490
+    },
+    {
+      "column": 15,
+      "denominator": 1,
+      "global_coordinate": 1711,
+      "numerator": -20,
+      "row": 59507
+    },
+    {
+      "column": 15,
+      "denominator": 1,
+      "global_coordinate": 1711,
+      "numerator": 17,
+      "row": 59508
+    },
+    {
+      "column": 15,
+      "denominator": 1,
+      "global_coordinate": 1711,
+      "numerator": -4,
+      "row": 59553
+    },
+    {
+      "column": 15,
+      "denominator": 1,
+      "global_coordinate": 1711,
+      "numerator": 2,
+      "row": 59554
+    },
+    {
+      "column": 15,
+      "denominator": 1,
+      "global_coordinate": 1711,
+      "numerator": 10,
+      "row": 59584
+    },
+    {
+      "column": 14,
+      "denominator": 1,
+      "global_coordinate": 1699,
+      "numerator": 12,
+      "row": 59602
+    },
+    {
+      "column": 14,
+      "denominator": 1,
+      "global_coordinate": 1699,
+      "numerator": -60,
+      "row": 59604
+    },
+    {
+      "column": 15,
+      "denominator": 1,
+      "global_coordinate": 1711,
+      "numerator": 6,
+      "row": 59624
+    },
+    {
+      "column": 15,
+      "denominator": 1,
+      "global_coordinate": 1711,
+      "numerator": 12,
+      "row": 59677
+    },
+    {
+      "column": 15,
+      "denominator": 1,
+      "global_coordinate": 1711,
+      "numerator": -60,
+      "row": 59711
+    }
+  ],
+  "schema": "hc4.fourth-colon-p173-c16-scaled-sparse.v1",
+  "selected_global_coordinates": [
+    46,
+    47,
+    57,
+    66,
+    68,
+    102,
+    155,
+    547,
+    763,
+    965,
+    966,
+    1261,
+    1269,
+    1499,
+    1699,
+    1711
+  ]
+}

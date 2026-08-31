@@ -1,0 +1,23 @@
+{
+  "schema": "hc4.third-colon-p181-sparse4-four-digit-extension-freeze.v1",
+  "status": "PASS_P181_SPARSE4_FOUR_DIGIT_EXTENSION_FREEZE",
+  "bound_files": {
+    "research/THIRD_COLON_P181_SPARSE4_FOUR_DIGIT_EXTENSION_PREREGISTRATION.md": "2064473c51f4c044e11bcc26a72932cf65a03e80552851617070e0ff03cadb15",
+    "scripts/extend_p181_sparse4_to_four_digits.py": "3e007f22d27a59dc87c6c350a95c4a87a153af905a70ebcb4118ba40f3fd04e3",
+    "scripts/run_p181_sparse4_four_digit_extension_gated.py": "61ea4f7d39328fba35ced87b1399514ded0e5fd56f5dc2b90f6252a3c27bb066",
+    "scripts/run_p181_target_blind_linbox_rank_gated.py": "a282b31bca01c972ff5d294b64ddca103d2ea6c1c6bab8f6f12ddc7b800b83de",
+    "scripts/lift_p181_sparse4_to_two_digits.py": "c4c0fa3442bbd94181f60311820eef3ac14ae285f28ea7d730d1cf8e87acda65",
+    "scripts/fixed_p181_dixon_rr.py": "df4af8404cbc151d73fe82aeeb588541e412063d2fcdb2969933e40e21c5329c",
+    "receipts/hsop-j2-secant-r10-p181-sparse4-two-digit-lift-independent-audit.json": "bd8354e31bbdbf2e1b5995871f5fbbcae1dcba34e686ac7ae9002fe1d91d16ab",
+    "artifacts/third-colon-p181-sparse4-two-digit-lift-v2/integral/A_Z_b4_Z_coefficient_primitive.i64csr": "94dc88f592c4a41630ae51f04fffe8f6b64d696dace5a14e49e46392d159be3e",
+    "artifacts/third-colon-p181-sparse4-two-digit-lift-v2/integral/A_mod181_coefficient_primitive.csr": "2207744adde8f96a7d835fc078ffd188ce33814f2db880e1aef9b8a47b09a6ef",
+    "artifacts/third-colon-p181-sparse4-two-digit-lift-v2/lift/X_mod_181_power_2_sparse4_row_major.u16le": "afa8fe484bc8a5bbb6c97b506b5678dc7e3179e5aeb8fb105a89d37efd81711c",
+    "artifacts/bin/linbox_p181_canonical_residual_114_section_driver": "dd8ae1bb0a7a659f38cbcd1ee1e220dd5a43a6e9454a4531d06649159d41c0c6"
+  },
+  "canonical_outputs": {
+    "artifact": "artifacts/third-colon-p181-sparse4-four-digit-extension-v1",
+    "telemetry": "receipts/telemetry/third-colon-p181-sparse4-four-digit-extension-v1",
+    "terminal": "receipts/hsop-j2-secant-r10-p181-sparse4-four-digit-extension-terminal.json"
+  },
+  "policy": {"wall_seconds_maximum": 600, "rss_bytes_maximum": 3221225472, "process_swaps_maximum": 0, "starting_total_digits": 2, "terminal_total_digits": 4, "no_fifth_digit": true}
+}

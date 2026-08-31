@@ -1,0 +1,37 @@
+{
+  "bound_inputs": {
+    "artifacts/third-colon-p181-target-blind-linbox-benchmark-v2/A_C_mod181_target_free.csr": "2207744adde8f96a7d835fc078ffd188ce33814f2db880e1aef9b8a47b09a6ef",
+    "artifacts/third-colon-p181-target-blind-linbox-gauge-v2/C_piv.u32le": "3a4087b184540be80852650b26aecaddd561a2a866599e660d9359b3415dfed2"
+  },
+  "checks": {
+    "independently_derived_rhs_sha256": "72d15610c6630a4d1929029476cb9b01d8494bc502b9b68457674795dcd1c76f",
+    "producer_rhs_sha256": "72d15610c6630a4d1929029476cb9b01d8494bc502b9b68457674795dcd1c76f",
+    "raw_target_nonzero_rows": 486,
+    "rhs_mismatches": 0,
+    "row_scale_mismatches": 0,
+    "rows": 85651,
+    "selected_columns": 35881,
+    "selected_nonzeros": 1354540,
+    "support_mismatches": 0,
+    "target_sha256": "32e84450b525fce0c9fca7d263e6d73a2b9508811fa4bd7e473002a08ab2c84e"
+  },
+  "claim_boundary": "This independent PASS certifies only row alignment, scaling, and coefficients of the explicit M*h3 right-hand side over GF(181). It does not prove membership or any characteristic-zero, colon, saturation, secant, nullcone, or HC4 statement.",
+  "declarations": {
+    "existing_multiplier_or_solution_not_read": true,
+    "linbox_not_called": true,
+    "no_elimination_or_solve": true,
+    "no_mod181_squared": true,
+    "producer_module_not_imported": true
+  },
+  "method": "Rebuild the unscaled modular Macaulay block; derive each row scalar from the first selected coefficient shared with the promoted CSR; verify that scalar on every selected coefficient; then apply it to the independently rebuilt raw target coefficient.",
+  "producer": {
+    "path": "artifacts/staging/p181-explicit-target-rhs-20260831T001/target-rhs.json",
+    "sha256": "8e3b9ec130e86c173d0c16fa56d0203a16fa95d9580b2d693e687224d85b5169"
+  },
+  "resources": {
+    "maximum_rss_native": 433274880,
+    "wall_seconds": 13.652797291986644
+  },
+  "schema": "hc4.decimic-j2-secant-r10-p181-explicit-target-rhs-independent-audit.v1",
+  "status": "PASS_INDEPENDENT_P181_EXPLICIT_TARGET_RHS_REPLAY"
+}

@@ -1,0 +1,80 @@
+{
+  "bound_hashes": {
+    "integral": "5064cfea27bc16ad9977d651f6215b407e2e3865df3dfc65ad15213b27d5ab8d",
+    "p18_audit": "dec31246f46fa46f2a72b6278c2a3fc6f504b02553815e821e913018cd2fa6f8",
+    "producer": "757d3afc66b44a95b8e22fe965806b194eb4a5797f34883302e37ae5325aa8ef",
+    "q24": "9eb6a7295d0b027d8be189b986712870ffb2e24d034d01c3a4d4e112f1421642",
+    "terminal": "34419a15dce0cd7556e33992334e72772c56578936f57b26fb97139d6861256c",
+    "x18": "a8cfad820b9721e0337c736385262360236c6101ffa86f65dfef160231439b13",
+    "x24": "8ae529279ccdc3fef924199ea78e2a070571254753e1a318beb6852aa61c9d9e"
+  },
+  "claim_boundary": "This PASS independently certifies the finite fixed-main p24 lift and height census only. It is not rational target membership or any colon, saturation, secant, nullcone, or HC4 theorem.",
+  "declarations": {
+    "driver_not_called": true,
+    "no_new_digit": true,
+    "producer_not_imported_or_executed": true,
+    "rational_reconstruction_reimplemented": true,
+    "target_membership_not_claimed": true,
+    "x24_reconstructed_from_x18_and_raw_digits": true
+  },
+  "digit_audits": [
+    {
+      "digit_index": 18,
+      "digit_sha256": "bdcde98392e7955a10f23e37ad7ef99e2522c253f3be5f58d4e50fa2dda49892",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "d087699422b998ccfc0d4434df830fb54fb8a4c1c1fa4745dec2f051399bfd4f"
+    },
+    {
+      "digit_index": 19,
+      "digit_sha256": "1cfdba97b7568a02b6fa8374c2f32d45f927b452fc9c209960a2e4299a7053f5",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "1d22275e1d014aaba8b5153eb77d7b6364874d286987a5618b4b501c41528029"
+    },
+    {
+      "digit_index": 20,
+      "digit_sha256": "4c3646a7a9592ebedd5b87155b9b3629f6174eac7601d81cd588838e10e0d217",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "e69758a6ae8e309df879dc041a8a42dfa8c6e5a7b987f67b78536cada53ad6ce"
+    },
+    {
+      "digit_index": 21,
+      "digit_sha256": "8a68853d6b9b712b96cef633f9927a1798449a348815a35aa90a4eb7dee0985a",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "adfc6bff06eafeae13a160b331e0d5e5c4edc588586f42e7c598de03b654ec96"
+    },
+    {
+      "digit_index": 22,
+      "digit_sha256": "0a208a046b974ce909be2ce0e09318a820426e35bde4f149da361204adbbfeb9",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "5d3a5cd7e00fca7cacdd5c069cb8100ca23c94f29ba794ca9cb76180d84a6480"
+    },
+    {
+      "digit_index": 23,
+      "digit_sha256": "dc9937dfff32002f52eeb0a2aed1c04da7c2972186daf7b53ae078fd435be42f",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "dbe3030e39fd1572f5fc16dcc8dca4752a4533456a05520d369e41ecd753c30d"
+    }
+  ],
+  "lift_checks": {
+    "digit_count": 6,
+    "starting_divisibility_mismatches": 0,
+    "terminal_integer_invariant_mismatches": 0,
+    "terminal_modulus": "1528571636898614295180406296877810639536486282773874721"
+  },
+  "reconstruction_census": {
+    "coordinate_count": 35881,
+    "equal_height_bound": 874234418476707623379655701,
+    "maximum_absolute_numerator": 874175235928936077877235239,
+    "maximum_denominator": 874220376146039017484615023,
+    "resolved_nonzero_count": 12642,
+    "resolved_zero_count": 16831,
+    "unresolved_count": 6408
+  },
+  "resources": {
+    "maximum_rss_native": 175341568,
+    "process_swaps": 0,
+    "wall_seconds": 1.1784726249752566
+  },
+  "schema": "hc4.third-colon-p181-target-24digit-extension-independent-audit.v1",
+  "status": "PASS_INDEPENDENT_P181_TARGET_24DIGIT_LIFT_REPLAY"
+}

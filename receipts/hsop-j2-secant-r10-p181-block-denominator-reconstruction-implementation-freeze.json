@@ -1,0 +1,21 @@
+{
+  "bound_files": {
+    "artifacts/third-colon-p181-augmented-nullspace-16digit-extension-v1/X_mod_181_power_16.json": "2129918fcfc882065e756d7ce6241c29a7b104eaf249f66226f75620bed78c78",
+    "artifacts/third-colon-p181-source-clean-integral-lift-system-v1/A_Z_b_Z_fixed_gauge.i64csr": "5064cfea27bc16ad9977d651f6215b407e2e3865df3dfc65ad15213b27d5ab8d",
+    "artifacts/third-colon-p181-target-blind-linbox-gauge-v2/C_piv.u32le": "3a4087b184540be80852650b26aecaddd561a2a866599e660d9359b3415dfed2",
+    "receipts/hsop-j2-secant-r10-p181-16digit-extension-independent-audit.json": "084db36337af9dc2d83157d7fea1cc03c22a7bb12c6f036ee3328d5ee669d5a1",
+    "research/THIRD_COLON_P181_BLOCK_DENOMINATOR_RECONSTRUCTION_PREREGISTRATION.md": "16c2b5c0073d7379110626f0db2d60b04d8bb2d84d68d9112b4f17f89d8b3a4b",
+    "scripts/preprocess_fixed_p181_dixon_integer_system.py": "092ccd88a1ea5a1843d2ea0c81f6bc122eb38abf689db60bf137f2e56688147b",
+    "scripts/scout_p181_third_colon_block_denominator_reconstruction.py": "1fc46886ae89fec95d1c08ff50dcde7abfa78b6213ee63c9b40d11a09631e2c5",
+    "scripts/scout_p181_third_colon_equal_height_reconstruction.py": "b64deb496cd18cc224107b5ea8a3e023a1961c80399e227be5c8375cc0b57cb1"
+  },
+  "canonical_output": "artifacts/third-colon-p181-block-denominator-reconstruction-v1",
+  "policy": {
+    "models": ["19_multiplier_blocks", "single_global_lcm"],
+    "no_adaptive_factor_insertion": true,
+    "stable_candidate_source_digits": 14,
+    "validation_digits": 16
+  },
+  "schema": "hc4.decimic-j2-secant-r10-p181-block-denominator-reconstruction-implementation-freeze.v1",
+  "status": "PASS_P181_BLOCK_DENOMINATOR_RECONSTRUCTION_IMPLEMENTATION_FREEZE"
+}

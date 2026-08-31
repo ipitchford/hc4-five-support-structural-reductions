@@ -1,0 +1,40 @@
+{
+  "assurance": "modular route signal",
+  "branch": "degree_4",
+  "calculation": {
+    "basis_size": null,
+    "child_system_seconds_immediate_scope": 0.07295399999999999,
+    "child_user_seconds_immediate_scope": 1.038101,
+    "diagnostic_error": false,
+    "forced_group_kill": false,
+    "is_unit": true,
+    "maximum_rss_native_immediate_scope": 152387584,
+    "process_group_terminated": false,
+    "resource_accounting": "wall time authoritative; CPU/RSS counters may omit delegated worker descendants",
+    "return_code": 0,
+    "solver_output_tail": "[-1]:\n",
+    "stderr_tail": "Initial seed for pseudo-random number generator is 0\n\n--------------- INPUT DATA ---------------\n#variables                      21\n#equations                      22\n#invalid equations               0\nfield characteristic           101\nhomogeneous input?               0\nsignature-based computation      0\nmonomial order                 DRL\nbasis hash table resetting     OFF\nlinear algebra option            2\ninitial hash table size     131072 (2^17)\nmax pair selection             ALL\nreduce gb                        1\n#threads                         4\ninfo level                       2\ngenerate pbm files               0\n------------------------------------------\n\nLegend for f4 information\n--------------------------------------------------------\ndeg       current degree of pairs selected in this round\nsel       number of pairs selected in this round\npairs     total number of pairs in pair list\nmat       matrix dimensions (# rows x # columns)\ndensity   density of the matrix\nnew data  # new elements for basis in this round\n          # zero reductions during linear algebra\ntime(rd)  time of the current f4 round in seconds given\n          for real and cpu time\n--------------------------------------------------------\n\ndeg     sel   pairs        mat          density            new data         time(rd) in sec (real|cpu)\n------------------------------------------------------------------------------------------------------\n  4       1      71       3 x 13         48.72%        1 new       0 zero         0.00 | 0.00         \n  5      15      75      55 x 378         2.93%       14 new       1 zero         0.00 | 0.00         \n  5      15     143     123 x 427         1.69%        7 new       8 zero         0.00 | 0.00         \n  5       5     173      89 x 271         3.86%        3 new       2 zero         0.00 | 0.00         \n  6     141     186    1040 x 5764        0.30%      123 new      18 zero         0.01 | 0.01         \n  5      73    1047     628 x 3575        0.72%       58 new      15 zero         0.01 | 0.01         \n  4       2    1497       6 x 9          27.78%        1 new       1 zero         0.00 | 0.00         \n  5      58    1540     629 x 2401        1.49%       47 new      11 zero         0.01 | 0.01         \n  5      26    1815     419 x 3250        1.88%       23 new       3 zero         0.01 | 0.01         \n  5      10    1990     146 x 654         3.70%        7 new       3 zero         0.00 | 0.00         \n  6    1308    2062    9861 x 34063       0.22%      695 new     613 zero         0.26 | 0.32         \n  5      97    5897    1061 x 5403        1.89%       64 new      33 zero         0.04 | 0.05         \n  5     103    5886    1218 x 5564        1.82%       77 new      26 zero         0.05 | 0.05         \n  5     136    5706    1490 x 6295        1.63%       97 new      39 zero         0.06 | 0.07         \n  5     145    5852    1720 x 6929        1.55%       95 new      50 zero         0.07 | 0.07         \n  4       4    5910      18 x 57         11.11%        4 new       0 zero         0.00 | 0.00         \n  3       4    5470      10 x 16         21.88%        2 new       2 zero         0.00 | 0.00         \n  3       3    4951       8 x 10         30.00%        0 new       3 zero         0.00 | 0.00         \n  4      33    4948     203 x 721         2.85%       17 new      16 zero         0.01 | 0.01         \n  5     447    4418    3063 x 7322        0.91%      207 new     243 zero         0.12 | 0.13         \n  5     652    4446    4199 x 10801       0.70%      323 new     335 zero         0.24 | 0.26         \n  3       6    5382      18 x 31         10.22%        5 new       1 zero         0.00 | 0.00         \n  3       8    4281      33 x 46          7.84%        1 new       7 zero         0.00 | 0.00         \n  3       4    4066      21 x 34         10.50%        1 new       3 zero         0.00 | 0.00         \n  4     142    3917     848 x 1603        1.41%      120 new      22 zero         0.08 | 0.09         \n  2       3    2008       7 x 8          21.43%        3 new       0 zero         0.00 | 0.00         \n------------------------------------------------------------------------------------------------------\nreduce final basis        1 x 1         100.00%        1 new       0 zero         0.00 | 0.00         \n------------------------------------------------------------------------------------------------------\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.97 sec\noverall(cpu)            1.10 sec\nselect                  0.04 sec   4.2%\nsymbolic prep.          0.12 sec  12.0%\nupdate                  0.71 sec  73.5%\nconvert                 0.03 sec   2.8%\nlinear algebra          0.07 sec   7.3%\nreduce gb               0.00 sec   0.0%\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\nsize of basis                     1\n#terms in basis                   1\n#pairs reduced                 3441\n#GM criterion               2028234\n#redundant elements            2016\n#rows reduced                  6901\n#zero reductions               1455\nmax. matrix data               9861 x 34063 (0.220%)\nmax. symbolic hash table size  2^16\nmax. basis hash table size     2^20\n-----------------------------------------\n\nGrobner basis has a single element\nNo solution\n\n---------------- TIMINGS ----------------\nrational param(elapsed)         0.97 sec\nrational param(cpu)             1.10 sec\n-----------------------------------------\n\n\n------------------------------------------------------------------------------------\nmsolve overall time           0.97 sec (elapsed) /  1.10 sec (cpu)\n------------------------------------------------------------------------------------\n",
+    "stdout_tail": "",
+    "timed_out": false,
+    "unit_remainder": "0",
+    "wall_seconds": 0.9910904999997001
+  },
+  "characteristic": 101,
+  "chart": "f9=1 with f10!=0 and j2!=0",
+  "claim_boundary": "this scout selects or falsifies a route only; it is not an exact characteristic-zero certificate and cannot close the branch",
+  "equation_count": 22,
+  "equation_stream_sha256": "3c873d3b7c1dea78d60b00cdfefe22dc5a8323e923b20e090551be91aca478e2",
+  "maximum_total_degree": 6,
+  "msolve_source_sha256": "01442618d81b3e74ec6bd46c03fb63a26b418e4644d86b29ec64890df379f16d",
+  "orbit": "secant",
+  "schema": "hc4-decimic-j2-secant-r10-f9-laurent-msolve-scout-v1",
+  "source_sha256": {
+    "scripts/certify_j2_secant_r10_f9_laurent_branch.py": "0b1015b23d726c25965f010d4c04e55d95d2ef35e5bc1f913167dc9bcbc84620",
+    "scripts/scout_j2_secant_r10_f9_laurent_msolve.py": "cba4d0e4816bcd2f45f1bd6596e8a10e13eb9ea9442409967e44e5b73fd4042e"
+  },
+  "status": "PASS_MODULAR_NO_SOLUTION_SIGNAL",
+  "threads": 4,
+  "variable_count": 21,
+  "verbose": 2,
+  "wall_seconds": 6.505897959024878
+}

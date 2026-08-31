@@ -1,0 +1,35 @@
+{
+  "schema": "hc4.third-colon-p181-target-exact15-gauge-scout-freeze.v1",
+  "status": "PASS_P181_TARGET_EXACT15_GAUGE_SCOUT_FREEZE",
+  "frozen_at_utc": "2026-08-31T00:00:00Z",
+  "bound_files": {
+    "research/THIRD_COLON_P181_TARGET_EXACT15_GAUGE_SCOUT_PREREGISTRATION.md": "092873bb0fb33ac9d37f732e252437c41737ae01318ba8b3f010d5fae5e8bdd1",
+    "scripts/scout_p181_target_exact15_gauge.py": "040deb6d14e77c6a0dddfe5e31226ef440a656dc7660fd7a55ea52c383fd95cc",
+    "scripts/run_p181_target_exact15_gauge_scout_gated.py": "ce2b35ad17020a2897342fc7d97668d8fd16dcf5c13e5ea2716cf9a51441ab13",
+    "scripts/reconstruct_p181_sparse4_exact_rational.py": "49072e53d2ee41073df666e5720e0d25515456fcf7d1fc42559d22fff031e9ff",
+    "scripts/run_p181_target_blind_linbox_rank_gated.py": "a282b31bca01c972ff5d294b64ddca103d2ea6c1c6bab8f6f12ddc7b800b83de",
+    "artifacts/third-colon-p181-sparse4-exact-rational-replay-v1/rational_sparse4_pairs_row_major.json": "242f1d3e14e707a683bcdaad9349dcd0f5412546c63f943127b0f6058fb87720",
+    "artifacts/third-colon-p181-support18-exact11-rational-replay-v1/rational_exact11_pairs_row_major.json": "7b3173c8a57f64fc6f975c9ffe38608eee66f374017ee8fd6c2c21e37454bc3b",
+    "artifacts/third-colon-p181-fixed-block-denominator-18digit-test-v1/X_mod_181_power_18.json": "a8cfad820b9721e0337c736385262360236c6101ffa86f65dfef160231439b13",
+    "receipts/hsop-j2-secant-r10-p181-sparse4-exact-rational-independent-audit.json": "18b1835d19024d01a52da2b5fd01bdcbc9b4e90e8f4a9e8ffd4b6783bb87e9bd",
+    "receipts/hsop-j2-secant-r10-p181-support18-exact11-rational-independent-audit.json": "d0ae711392737f0ebb89de809de99bbe5ca3b56713200c1f7ed72261fc042018",
+    "receipts/hsop-j2-secant-r10-p181-fixed-block-denominator-18digit-test-independent-audit.json": "dec31246f46fa46f2a72b6278c2a3fc6f504b02553815e821e913018cd2fa6f8"
+  },
+  "canonical_outputs": {
+    "artifact": "artifacts/third-colon-p181-target-exact15-gauge-scout-v1",
+    "telemetry": "receipts/telemetry/third-colon-p181-target-exact15-gauge-scout-v1",
+    "terminal": "receipts/hsop-j2-secant-r10-p181-target-exact15-gauge-scout-terminal.json"
+  },
+  "policy": {
+    "wall_seconds_maximum": 120,
+    "rss_bytes_maximum": 1500000000,
+    "process_swaps_required": 0,
+    "canonical_outputs_must_be_absent_before_run": true
+  },
+  "selection": {
+    "residual_local_indices": [43, 35, 46, 48, 95, 59, 56, 1, 58, 30, 74, 112, 57, 109, 47],
+    "pivot_rule": "first rank-increasing rows over GF(181), ordered baseline-unresolved then reconstructed-nonzero then reconstructed-zero, each coordinate class increasing",
+    "alternative_minor_search_permitted": false
+  },
+  "claim_boundary": "This freeze authorizes one deterministic p^18 target-height comparison under fifteen independently audited exact rational source-syzygy directions. It does not authorize a rational target-membership claim or any colon, saturation, secant, nullcone, or HC4 conclusion."
+}

@@ -1,0 +1,16 @@
+{
+  "schema": "hc4.third-colon-p181-sparse4-exact-rational-independent-audit-freeze.v1",
+  "status": "PASS_P181_SPARSE4_EXACT_RATIONAL_INDEPENDENT_AUDIT_FREEZE",
+  "bound_files": {
+    "research/THIRD_COLON_P181_SPARSE4_EXACT_RATIONAL_INDEPENDENT_AUDIT_PREREGISTRATION.md": "9e52473facdbe48b6a085dd7042d2662f9246ea686e258ae02fabe0c741ecf16",
+    "scripts/audit_p181_sparse4_exact_rational_independent.py": "909a4582b774ff925bb2e0581b275f4c20c233b0be033ca04c091b602c0f6a76",
+    "artifacts/third-colon-p181-sparse4-exact-rational-replay-v1/rational_sparse4_pairs_row_major.json": "242f1d3e14e707a683bcdaad9349dcd0f5412546c63f943127b0f6058fb87720",
+    "artifacts/third-colon-p181-sparse4-exact-rational-replay-v1/primitive_common_denominator_vectors.json": "bb9a675e5dec56d6e480edc4b5e0aa31d054c003c9aa099460cd673a71bef9f8",
+    "artifacts/third-colon-p181-sparse4-two-digit-lift-v2/integral/A_Z_b4_Z_coefficient_primitive.i64csr": "94dc88f592c4a41630ae51f04fffe8f6b64d696dace5a14e49e46392d159be3e",
+    "artifacts/third-colon-p181-sparse4-four-digit-extension-v1/X_mod_181_power_4_sparse4_row_major.u32le": "623c565eec43c55e44b2fd13cafd4dd13f8be832ba99159d6921bf2ec99744fd",
+    "receipts/hsop-j2-secant-r10-p181-sparse4-two-digit-lift-independent-audit.json": "bd8354e31bbdbf2e1b5995871f5fbbcae1dcba34e686ac7ae9002fe1d91d16ab",
+    "receipts/hsop-j2-secant-r10-p181-sparse4-exact-rational-replay-terminal.json": "ce8eba8301b7fd168f0e2e6c223e3509ab37e4ee798bf754979133683f7ade06"
+  },
+  "canonical_output": "receipts/hsop-j2-secant-r10-p181-sparse4-exact-rational-independent-audit.json",
+  "policy": {"wall_seconds_maximum": 120, "process_swaps_maximum": 0}
+}

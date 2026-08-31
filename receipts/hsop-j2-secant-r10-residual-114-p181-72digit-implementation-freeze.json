@@ -1,0 +1,27 @@
+{
+  "bound_files": {
+    "artifacts/j2-secant-r10-third-colon-residual-114-quotient-chart.json": "7ad12483dd5c8429defc3e0c5c8138ded3d344969075ae4afdb15d39d2fb9a74",
+    "receipts/hsop-j2-secant-r10-third-colon-residual-114-quotient-independent-audit.json": "7eba0e65e40abd7eea0065ecd84c3803237fa9cc5c51391f3202b4d300b7185a",
+    "receipts/hsop-j2-secant-r10-third-colon-residual-114-quotient-scout.json": "652af633649c32af3322b9405eac8d6e60fdaba5668817de6a11330782bc752a",
+    "receipts/hsop-j2-secant-r10-third-colon-residual-114-two-prime-exact-chart-failed.json": "1d7f334e55c1229280e2b49e17a22ec74f578dde3ef6144745a81c6884ae9a37",
+    "research/THIRD_COLON_RESIDUAL_114_P181_72DIGIT_EXACT_CHART_PREREGISTRATION.md": "450d6f88c5fb6198c14212e2d71a6f67784cddba711b421be8de676b70e7945e",
+    "research/THIRD_COLON_RESIDUAL_114_P181_72DIGIT_EXACT_CHART_PREREGISTRATION_AMENDMENT_01.md": "b1b7dbd30a45b20a8c7c595615b00fcc72b7b1831c35c4540f3ecb3ff6ae0525",
+    "scripts/lift_p181_residual_114_quotient_chart_to_72digits.py": "5bb99d899073945911313d9b64e01057d90d05bb3e4dc96341d9fd989e40445b",
+    "scripts/run_p181_residual_114_quotient_chart_72digit_lift_gated.py": "52ab3ca7a8eddcd9f7470c779db232e51bd395871ae59d1ffdbe81de6a03f44c",
+    "scripts/run_p181_target_blind_linbox_rank_gated.py": "a282b31bca01c972ff5d294b64ddca103d2ea6c1c6bab8f6f12ddc7b800b83de"
+  },
+  "canonical_outputs": {
+    "artifact": "artifacts/third-colon-residual-114-p181-72digit-chart-v1",
+    "telemetry": "receipts/telemetry/third-colon-residual-114-p181-72digit-chart-v1",
+    "terminal": "receipts/hsop-j2-secant-r10-residual-114-p181-72digit-terminal.json"
+  },
+  "policy": {
+    "additional_digits": 71,
+    "maximum_total_digits": 72,
+    "process_swaps_maximum": 0,
+    "rss_bytes_maximum": 1500000000,
+    "wall_seconds_maximum": 600
+  },
+  "schema": "hc4.third-colon-residual-114-p181-72digit-implementation-freeze.v1",
+  "status": "PASS_RESIDUAL_114_P181_72DIGIT_IMPLEMENTATION_FREEZE"
+}

@@ -1,0 +1,33 @@
+{
+  "caps": {
+    "maximum_rss_bytes": 1500000000,
+    "process_swaps": 0,
+    "wall_seconds": 300
+  },
+  "command": "/opt/homebrew/bin/timeout --signal=TERM --kill-after=5s 300s /usr/bin/time -l /Users/admin/.local/bin/sage -python scripts/audit_j2_secant_r10_third_colon_residual_114_quotient_independent.py",
+  "external_telemetry": {
+    "exit_status": 0,
+    "maximum_rss_native_bytes": 184827904,
+    "peak_memory_footprint_bytes": 177603136,
+    "process_swaps": 0,
+    "real_seconds": 33.20,
+    "system_cpu_seconds": 0.17,
+    "user_cpu_seconds": 32.56
+  },
+  "gates": {
+    "exit_status_zero": true,
+    "maximum_rss_within_cap": true,
+    "process_swaps_zero": true,
+    "wall_within_cap": true
+  },
+  "independent_receipt": {
+    "path": "receipts/hsop-j2-secant-r10-third-colon-residual-114-quotient-independent-audit.json",
+    "sha256": "7eba0e65e40abd7eea0065ecd84c3803237fa9cc5c51391f3202b4d300b7185a"
+  },
+  "independent_source": {
+    "path": "scripts/audit_j2_secant_r10_third_colon_residual_114_quotient_independent.py",
+    "sha256": "81ad24d01ae70a0ca2731259753d99a429bd48ae288e77105120dd800009396d"
+  },
+  "schema": "hc4.third-colon-residual-114-quotient-independent-audit-external-telemetry.v1",
+  "status": "PASS_EXTERNAL_RESOURCE_GATED_INDEPENDENT_REPLAY"
+}

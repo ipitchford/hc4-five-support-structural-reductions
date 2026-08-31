@@ -1,0 +1,1455 @@
+{
+  "checks": {
+    "all_reduced_equations_exact_over_Q": true,
+    "no_localization_assumption_added": true,
+    "only_nonzero_rational_linear_coefficients_eliminated": true
+  },
+  "claim_boundary": "this is an exact presentation reduction and chart-scouting receipt; it is not a unit-ideal certificate and does not prove emptiness",
+  "input": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/receipts/hsop-j2-secant-r10-f9-laurent-degree_6-minsubset-groebner-input.json",
+  "input_sha256": "69d755bd0c4846b15a49915e8e68dacf911b58ede4683a12e714ee46a7183079",
+  "nonconstant_linear_chart_candidates": [
+    {
+      "coefficient": "f10inv",
+      "coefficient_term_count": 1,
+      "coefficient_total_degree": 1,
+      "equation_index": 17,
+      "remainder_total_degree": 0,
+      "variable": "f10"
+    },
+    {
+      "coefficient": "f10",
+      "coefficient_term_count": 1,
+      "coefficient_total_degree": 1,
+      "equation_index": 17,
+      "remainder_total_degree": 0,
+      "variable": "f10inv"
+    },
+    {
+      "coefficient": "5*g0*leadinv",
+      "coefficient_term_count": 1,
+      "coefficient_total_degree": 2,
+      "equation_index": 18,
+      "remainder_total_degree": 1,
+      "variable": "f10"
+    },
+    {
+      "coefficient": "5*f10*leadinv",
+      "coefficient_term_count": 1,
+      "coefficient_total_degree": 2,
+      "equation_index": 18,
+      "remainder_total_degree": 1,
+      "variable": "g0"
+    },
+    {
+      "coefficient": "5*f10*g0 + 2",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 18,
+      "remainder_total_degree": 0,
+      "variable": "leadinv"
+    },
+    {
+      "coefficient": "-48*(5*g3*g9 - g6*g8)",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 0,
+      "remainder_total_degree": 3,
+      "variable": "g1"
+    },
+    {
+      "coefficient": "-16*(5*g3*g8 - 2*g6^2)",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 0,
+      "remainder_total_degree": 3,
+      "variable": "g4"
+    },
+    {
+      "coefficient": "-48*(5*g1*g3 - 2*g2^2)",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 0,
+      "remainder_total_degree": 3,
+      "variable": "g9"
+    },
+    {
+      "coefficient": "-16*(5*g3*g8 - 2*g6^2)",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 1,
+      "remainder_total_degree": 3,
+      "variable": "g1"
+    },
+    {
+      "coefficient": "-16*(5*g1*g3 - 2*g2^2)",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 1,
+      "remainder_total_degree": 3,
+      "variable": "g8"
+    },
+    {
+      "coefficient": "-48*(5*g3*g8 - 2*g6^2)",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 2,
+      "remainder_total_degree": 3,
+      "variable": "g0"
+    },
+    {
+      "coefficient": "-16*(5*g1*g3 - 2*g2^2)",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 2,
+      "remainder_total_degree": 3,
+      "variable": "g7"
+    },
+    {
+      "coefficient": "-48*(5*g0*g3 - g1*g2)",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 2,
+      "remainder_total_degree": 3,
+      "variable": "g8"
+    },
+    {
+      "coefficient": "16*(5*g1*g3 - 2*g2^2)",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 3,
+      "remainder_total_degree": 3,
+      "variable": "f5"
+    },
+    {
+      "coefficient": "-48*(5*g0*g3 - g1*g2)",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 3,
+      "remainder_total_degree": 3,
+      "variable": "g7"
+    },
+    {
+      "coefficient": "160*(5*g3*g8 - 2*g6^2)",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 4,
+      "remainder_total_degree": 3,
+      "variable": "f10"
+    },
+    {
+      "coefficient": "48*(5*g0*g3 - g1*g2)",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 4,
+      "remainder_total_degree": 3,
+      "variable": "f5"
+    },
+    {
+      "coefficient": "16*(5*g1*g3 - 2*g2^2)",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 4,
+      "remainder_total_degree": 3,
+      "variable": "f6"
+    },
+    {
+      "coefficient": "48*(5*g0*g3 - g1*g2)",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 5,
+      "remainder_total_degree": 3,
+      "variable": "f6"
+    },
+    {
+      "coefficient": "48*(5*f10*g1 - g0)",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 6,
+      "remainder_total_degree": 3,
+      "variable": "g8"
+    },
+    {
+      "coefficient": "48*(5*f10*g1 - g0)",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 7,
+      "remainder_total_degree": 3,
+      "variable": "g7"
+    },
+    {
+      "coefficient": "16*(5*f10*g0 + 2)",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 7,
+      "remainder_total_degree": 3,
+      "variable": "g8"
+    },
+    {
+      "coefficient": "-48*(5*f10*g1 - g0)",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 8,
+      "remainder_total_degree": 3,
+      "variable": "f5"
+    },
+    {
+      "coefficient": "-16*(5*f10*g0 + 2)",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 8,
+      "remainder_total_degree": 3,
+      "variable": "g6"
+    },
+    {
+      "coefficient": "16*(5*f10*g0 + 2)",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 8,
+      "remainder_total_degree": 3,
+      "variable": "g7"
+    },
+    {
+      "coefficient": "-16*(5*f10*g0 + 2)",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 9,
+      "remainder_total_degree": 3,
+      "variable": "f5"
+    },
+    {
+      "coefficient": "-48*(5*f10*g1 - g0)",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 9,
+      "remainder_total_degree": 3,
+      "variable": "f6"
+    },
+    {
+      "coefficient": "-16*(5*f10*g0 + 2)",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 9,
+      "remainder_total_degree": 3,
+      "variable": "g5"
+    },
+    {
+      "coefficient": "-16*(5*f10*g0 + 2)",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 10,
+      "remainder_total_degree": 3,
+      "variable": "f6"
+    },
+    {
+      "coefficient": "-16*(5*f10*g0 + 2)",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 10,
+      "remainder_total_degree": 3,
+      "variable": "g4"
+    },
+    {
+      "coefficient": "144*(5*g0*g3 - g1*g2)",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 11,
+      "remainder_total_degree": 3,
+      "variable": "f3"
+    },
+    {
+      "coefficient": "48*(5*g1*g3 - 2*g2^2)",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 11,
+      "remainder_total_degree": 3,
+      "variable": "f4"
+    },
+    {
+      "coefficient": "96*(5*g3*g8 - 2*g6^2)",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 11,
+      "remainder_total_degree": 3,
+      "variable": "f8"
+    },
+    {
+      "coefficient": "144*(5*f10*g1 - g0)",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 13,
+      "remainder_total_degree": 3,
+      "variable": "g9"
+    },
+    {
+      "coefficient": "-144*(5*f10*g1 - g0)",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 14,
+      "remainder_total_degree": 3,
+      "variable": "f3"
+    },
+    {
+      "coefficient": "48*(5*f10*g0 + 2)",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 14,
+      "remainder_total_degree": 3,
+      "variable": "g9"
+    },
+    {
+      "coefficient": "-48*(5*f10*g0 + 2)",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 15,
+      "remainder_total_degree": 3,
+      "variable": "f3"
+    },
+    {
+      "coefficient": "-144*(5*f10*g1 - g0)",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 15,
+      "remainder_total_degree": 3,
+      "variable": "f4"
+    },
+    {
+      "coefficient": "-48*(5*f10*g0 + 2)",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 15,
+      "remainder_total_degree": 3,
+      "variable": "g8"
+    },
+    {
+      "coefficient": "-48*(5*f10*g0 + 2)",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 16,
+      "remainder_total_degree": 3,
+      "variable": "f4"
+    },
+    {
+      "coefficient": "-48*(5*f10*g0 + 2)",
+      "coefficient_term_count": 2,
+      "coefficient_total_degree": 2,
+      "equation_index": 16,
+      "remainder_total_degree": 3,
+      "variable": "g7"
+    },
+    {
+      "coefficient": "-16*(4*g2*g6 + 5*g3^2 - 5*g3*g5)",
+      "coefficient_term_count": 3,
+      "coefficient_total_degree": 2,
+      "equation_index": 0,
+      "remainder_total_degree": 3,
+      "variable": "g7"
+    },
+    {
+      "coefficient": "16*(3*g1*g6 + 5*g2*g3 - 5*g3*g4)",
+      "coefficient_term_count": 3,
+      "coefficient_total_degree": 2,
+      "equation_index": 0,
+      "remainder_total_degree": 3,
+      "variable": "g8"
+    },
+    {
+      "coefficient": "16*(3*g2*g8 + 5*g3*g6 - 5*g3*g7)",
+      "coefficient_term_count": 3,
+      "coefficient_total_degree": 2,
+      "equation_index": 2,
+      "remainder_total_degree": 3,
+      "variable": "g1"
+    },
+    {
+      "coefficient": "-16*(4*g2*g6 + 5*g3^2 - 5*g3*g5)",
+      "coefficient_term_count": 3,
+      "coefficient_total_degree": 2,
+      "equation_index": 2,
+      "remainder_total_degree": 3,
+      "variable": "g4"
+    },
+    {
+      "coefficient": "24*(4*g2*g6 + 5*g3^2 - 5*g3*g5)",
+      "coefficient_term_count": 3,
+      "coefficient_total_degree": 2,
+      "equation_index": 3,
+      "remainder_total_degree": 3,
+      "variable": "f7"
+    },
+    {
+      "coefficient": "-48*(g0*g2 - g1^2 - 10*g3)",
+      "coefficient_term_count": 3,
+      "coefficient_total_degree": 2,
+      "equation_index": 3,
+      "remainder_total_degree": 3,
+      "variable": "g8"
+    },
+    {
+      "coefficient": "32*(4*g2*g6 + 5*g3^2 - 5*g3*g5)",
+      "coefficient_term_count": 3,
+      "coefficient_total_degree": 2,
+      "equation_index": 4,
+      "remainder_total_degree": 3,
+      "variable": "f8"
+    },
+    {
+      "coefficient": "-48*(g0*g2 - g1^2 - 10*g3)",
+      "coefficient_term_count": 3,
+      "coefficient_total_degree": 2,
+      "equation_index": 4,
+      "remainder_total_degree": 3,
+      "variable": "g7"
+    },
+    {
+      "coefficient": "32*(25*f10*g3 + 2*g0*g1 + 7*g2)",
+      "coefficient_term_count": 3,
+      "coefficient_total_degree": 2,
+      "equation_index": 4,
+      "remainder_total_degree": 3,
+      "variable": "g8"
+    },
+    {
+      "coefficient": "48*(g0*g2 - g1^2 - 10*g3)",
+      "coefficient_term_count": 3,
+      "coefficient_total_degree": 2,
+      "equation_index": 5,
+      "remainder_total_degree": 3,
+      "variable": "f5"
+    },
+    {
+      "coefficient": "64*(3*g1*g6 + 5*g2*g3 - 5*g3*g4)",
+      "coefficient_term_count": 3,
+      "coefficient_total_degree": 2,
+      "equation_index": 5,
+      "remainder_total_degree": 3,
+      "variable": "f8"
+    },
+    {
+      "coefficient": "32*(25*f10*g3 + 2*g0*g1 + 7*g2)",
+      "coefficient_term_count": 3,
+      "coefficient_total_degree": 2,
+      "equation_index": 5,
+      "remainder_total_degree": 3,
+      "variable": "g7"
+    },
+    {
+      "coefficient": "48*(10*f10*g2 + g0^2 + g1)",
+      "coefficient_term_count": 3,
+      "coefficient_total_degree": 2,
+      "equation_index": 5,
+      "remainder_total_degree": 3,
+      "variable": "g8"
+    },
+    {
+      "coefficient": "-32*(25*f10*g3 + 2*g0*g1 + 7*g2)",
+      "coefficient_term_count": 3,
+      "coefficient_total_degree": 2,
+      "equation_index": 6,
+      "remainder_total_degree": 3,
+      "variable": "f5"
+    },
+    {
+      "coefficient": "48*(g0*g2 - g1^2 - 10*g3)",
+      "coefficient_term_count": 3,
+      "coefficient_total_degree": 2,
+      "equation_index": 6,
+      "remainder_total_degree": 3,
+      "variable": "f6"
+    },
+    {
+      "coefficient": "48*(10*f10*g2 + g0^2 + g1)",
+      "coefficient_term_count": 3,
+      "coefficient_total_degree": 2,
+      "equation_index": 6,
+      "remainder_total_degree": 3,
+      "variable": "g7"
+    },
+    {
+      "coefficient": "-48*(10*f10*g2 + g0^2 + g1)",
+      "coefficient_term_count": 3,
+      "coefficient_total_degree": 2,
+      "equation_index": 7,
+      "remainder_total_degree": 3,
+      "variable": "f5"
+    },
+    {
+      "coefficient": "-32*(25*f10*g3 + 2*g0*g1 + 7*g2)",
+      "coefficient_term_count": 3,
+      "coefficient_total_degree": 2,
+      "equation_index": 7,
+      "remainder_total_degree": 3,
+      "variable": "f6"
+    },
+    {
+      "coefficient": "-48*(10*f10*g2 + g0^2 + g1)",
+      "coefficient_term_count": 3,
+      "coefficient_total_degree": 2,
+      "equation_index": 8,
+      "remainder_total_degree": 3,
+      "variable": "f6"
+    },
+    {
+      "coefficient": "48*(4*g2*g6 + 5*g3^2 - 5*g3*g5)",
+      "coefficient_term_count": 3,
+      "coefficient_total_degree": 2,
+      "equation_index": 11,
+      "remainder_total_degree": 3,
+      "variable": "f6"
+    },
+    {
+      "coefficient": "120*(2*g2*g8 + g3*g6 - g5*g6)",
+      "coefficient_term_count": 3,
+      "coefficient_total_degree": 2,
+      "equation_index": 11,
+      "remainder_total_degree": 3,
+      "variable": "f7"
+    },
+    {
+      "coefficient": "-144*(g0*g2 - g1^2 - 10*g3)",
+      "coefficient_term_count": 3,
+      "coefficient_total_degree": 2,
+      "equation_index": 11,
+      "remainder_total_degree": 3,
+      "variable": "g9"
+    },
+    {
+      "coefficient": "-96*(25*f10*g3 + 2*g0*g1 + 7*g2)",
+      "coefficient_term_count": 3,
+      "coefficient_total_degree": 2,
+      "equation_index": 12,
+      "remainder_total_degree": 3,
+      "variable": "f3"
+    },
+    {
+      "coefficient": "144*(g0*g2 - g1^2 - 10*g3)",
+      "coefficient_term_count": 3,
+      "coefficient_total_degree": 2,
+      "equation_index": 12,
+      "remainder_total_degree": 3,
+      "variable": "f4"
+    },
+    {
+      "coefficient": "144*(10*f10*g2 + g0^2 + g1)",
+      "coefficient_term_count": 3,
+      "coefficient_total_degree": 2,
+      "equation_index": 12,
+      "remainder_total_degree": 3,
+      "variable": "g9"
+    },
+    {
+      "coefficient": "-144*(10*f10*g2 + g0^2 + g1)",
+      "coefficient_term_count": 3,
+      "coefficient_total_degree": 2,
+      "equation_index": 13,
+      "remainder_total_degree": 3,
+      "variable": "f3"
+    },
+    {
+      "coefficient": "-96*(25*f10*g3 + 2*g0*g1 + 7*g2)",
+      "coefficient_term_count": 3,
+      "coefficient_total_degree": 2,
+      "equation_index": 13,
+      "remainder_total_degree": 3,
+      "variable": "f4"
+    },
+    {
+      "coefficient": "-144*(10*f10*g2 + g0^2 + g1)",
+      "coefficient_term_count": 3,
+      "coefficient_total_degree": 2,
+      "equation_index": 14,
+      "remainder_total_degree": 3,
+      "variable": "f4"
+    },
+    {
+      "coefficient": "-48*(g2*g8 - 3*g3*g6 + 5*g3*g7 - 2*g5*g6)",
+      "coefficient_term_count": 4,
+      "coefficient_total_degree": 2,
+      "equation_index": 3,
+      "remainder_total_degree": 3,
+      "variable": "g0"
+    },
+    {
+      "coefficient": "8*(16*g1*g6 + 29*g2*g3 + g2*g5 - 30*g3*g4)",
+      "coefficient_term_count": 4,
+      "coefficient_total_degree": 2,
+      "equation_index": 4,
+      "remainder_total_degree": 3,
+      "variable": "f7"
+    },
+    {
+      "coefficient": "160*(3*g2*g8 - 2*g3*g6 + 5*g3*g7 - 3*g5*g6)",
+      "coefficient_term_count": 4,
+      "coefficient_total_degree": 2,
+      "equation_index": 5,
+      "remainder_total_degree": 3,
+      "variable": "f10"
+    },
+    {
+      "coefficient": "16*(10*f10*f7 - 5*f10*g1 - 8*f8 - 5*g0)",
+      "coefficient_term_count": 4,
+      "coefficient_total_degree": 2,
+      "equation_index": 7,
+      "remainder_total_degree": 3,
+      "variable": "g6"
+    },
+    {
+      "coefficient": "-24*(5*f10*f7 + 5*f10*g1 - 4*f8 - 4*g0)",
+      "coefficient_term_count": 4,
+      "coefficient_total_degree": 2,
+      "equation_index": 8,
+      "remainder_total_degree": 3,
+      "variable": "g3"
+    },
+    {
+      "coefficient": "24*(5*f10*f7 - 5*f10*g1 - 4*f8 - 2*g0)",
+      "coefficient_term_count": 4,
+      "coefficient_total_degree": 2,
+      "equation_index": 8,
+      "remainder_total_degree": 3,
+      "variable": "g5"
+    },
+    {
+      "coefficient": "-16*(5*f10*f7 + 5*f10*g1 - 4*f8 - 4*g0)",
+      "coefficient_term_count": 4,
+      "coefficient_total_degree": 2,
+      "equation_index": 9,
+      "remainder_total_degree": 3,
+      "variable": "g2"
+    },
+    {
+      "coefficient": "16*(5*f10*f7 - 10*f10*g1 - 4*f8 - g0)",
+      "coefficient_term_count": 4,
+      "coefficient_total_degree": 2,
+      "equation_index": 9,
+      "remainder_total_degree": 3,
+      "variable": "g4"
+    },
+    {
+      "coefficient": "16*(13*g1*g6 + 17*g2*g3 - 2*g2*g5 - 15*g3*g4)",
+      "coefficient_term_count": 4,
+      "coefficient_total_degree": 2,
+      "equation_index": 11,
+      "remainder_total_degree": 3,
+      "variable": "f5"
+    },
+    {
+      "coefficient": "-16*(3*g0*g6 - 15*g1*g3 + 7*g2^2 - g2*g4)",
+      "coefficient_term_count": 4,
+      "coefficient_total_degree": 2,
+      "equation_index": 11,
+      "remainder_total_degree": 3,
+      "variable": "g7"
+    },
+    {
+      "coefficient": "-16*(3*f8*g1 + 3*g0*g1 + g2 - g4)",
+      "coefficient_term_count": 4,
+      "coefficient_total_degree": 2,
+      "equation_index": 14,
+      "remainder_total_degree": 3,
+      "variable": "f5"
+    },
+    {
+      "coefficient": "48*(5*f10*f7 - 10*f10*g1 - 4*f8 - g0)",
+      "coefficient_term_count": 4,
+      "coefficient_total_degree": 2,
+      "equation_index": 14,
+      "remainder_total_degree": 3,
+      "variable": "g8"
+    },
+    {
+      "coefficient": "-32*(5*f10*f7 + 5*f10*g1 - 4*f8 - 4*g0)",
+      "coefficient_term_count": 4,
+      "coefficient_total_degree": 2,
+      "equation_index": 15,
+      "remainder_total_degree": 3,
+      "variable": "g6"
+    },
+    {
+      "coefficient": "16*(10*f10*f7 - 35*f10*g1 - 8*f8 + g0)",
+      "coefficient_term_count": 4,
+      "coefficient_total_degree": 2,
+      "equation_index": 15,
+      "remainder_total_degree": 3,
+      "variable": "g7"
+    },
+    {
+      "coefficient": "-16*(5*f10*f7 + 5*f10*g1 - 4*f8 - 4*g0)",
+      "coefficient_term_count": 4,
+      "coefficient_total_degree": 2,
+      "equation_index": 16,
+      "remainder_total_degree": 3,
+      "variable": "f5"
+    },
+    {
+      "coefficient": "16*(5*f10*g2 - 5*f10*g4 + 3*f8*g0 + 3*g0^2)",
+      "coefficient_term_count": 4,
+      "coefficient_total_degree": 2,
+      "equation_index": 16,
+      "remainder_total_degree": 3,
+      "variable": "f6"
+    },
+    {
+      "coefficient": "-16*(5*f10*f7 + 5*f10*g1 - 4*f8 - 4*g0)",
+      "coefficient_term_count": 4,
+      "coefficient_total_degree": 2,
+      "equation_index": 16,
+      "remainder_total_degree": 3,
+      "variable": "g5"
+    },
+    {
+      "coefficient": "16*(-10*f10*g2 - 20*f10*g4 + 12*f8*g0 + 9*g0^2 - 3*g1)",
+      "coefficient_term_count": 5,
+      "coefficient_total_degree": 2,
+      "equation_index": 6,
+      "remainder_total_degree": 3,
+      "variable": "g6"
+    },
+    {
+      "coefficient": "-20*(4*f6*g0 + f7^2 + 2*f7*g1 + 4*g0*g4 + g1^2)",
+      "coefficient_term_count": 5,
+      "coefficient_total_degree": 2,
+      "equation_index": 10,
+      "remainder_total_degree": 3,
+      "variable": "f10"
+    },
+    {
+      "coefficient": "48*(5*f10*f6 + 5*f10*g4 - 2*f8^2 - 4*f8*g0 - 2*g0^2)",
+      "coefficient_term_count": 5,
+      "coefficient_total_degree": 2,
+      "equation_index": 15,
+      "remainder_total_degree": 3,
+      "variable": "g3"
+    },
+    {
+      "coefficient": "16*(5*f10*f6 + 5*f10*g4 - 2*f8^2 - 4*f8*g0 - 2*g0^2)",
+      "coefficient_term_count": 5,
+      "coefficient_total_degree": 2,
+      "equation_index": 16,
+      "remainder_total_degree": 3,
+      "variable": "g2"
+    },
+    {
+      "coefficient": "32*(15*f7*g3 + 6*g0*g6 + 12*g1*g3 + 3*g1*g5 + 4*g2^2 - 4*g2*g4)",
+      "coefficient_term_count": 6,
+      "coefficient_total_degree": 2,
+      "equation_index": 6,
+      "remainder_total_degree": 3,
+      "variable": "f8"
+    },
+    {
+      "coefficient": "-8*(30*f10*g2 + 30*f10*g4 + f7 - 16*f8*g0 - 10*g0^2 + 7*g1)",
+      "coefficient_term_count": 6,
+      "coefficient_total_degree": 2,
+      "equation_index": 7,
+      "remainder_total_degree": 3,
+      "variable": "g5"
+    },
+    {
+      "coefficient": "48*(15*f3*g3 - 3*g2*g9 + 22*g3*g8 + 3*g5*g8 - 3*g6^2 - g6*g7)",
+      "coefficient_term_count": 6,
+      "coefficient_total_degree": 2,
+      "equation_index": 11,
+      "remainder_total_degree": 3,
+      "variable": "g0"
+    },
+    {
+      "coefficient": "-160*(15*f3*g3 - 9*g2*g9 + 12*g3*g8 + 3*g5*g8 - g6^2 + g6*g7)",
+      "coefficient_term_count": 6,
+      "coefficient_total_degree": 2,
+      "equation_index": 12,
+      "remainder_total_degree": 3,
+      "variable": "f10"
+    },
+    {
+      "coefficient": "16*(30*f7*g3 + 27*g0*g6 + 24*g1*g3 + 6*g1*g5 + 13*g2^2 - 13*g2*g4)",
+      "coefficient_term_count": 6,
+      "coefficient_total_degree": 2,
+      "equation_index": 12,
+      "remainder_total_degree": 3,
+      "variable": "f6"
+    },
+    {
+      "coefficient": "16*(-65*f10*g2 - 25*f10*g4 + 3*f7 + 21*f8*g0 + 12*g0^2 - 6*g1)",
+      "coefficient_term_count": 6,
+      "coefficient_total_degree": 2,
+      "equation_index": 13,
+      "remainder_total_degree": 3,
+      "variable": "g8"
+    },
+    {
+      "coefficient": "120*(2*f6 - f7*f8 - f7*g0 - f8*g1 - g0*g1 + 2*g4)",
+      "coefficient_term_count": 6,
+      "coefficient_total_degree": 2,
+      "equation_index": 14,
+      "remainder_total_degree": 3,
+      "variable": "g3"
+    },
+    {
+      "coefficient": "16*(-75*f10*g2 - 15*f10*g4 + 2*f7 + 13*f8*g0 + 4*g0^2 - 7*g1)",
+      "coefficient_term_count": 6,
+      "coefficient_total_degree": 2,
+      "equation_index": 14,
+      "remainder_total_degree": 3,
+      "variable": "g7"
+    },
+    {
+      "coefficient": "-16*(5*f10*g2 - 5*f10*g4 + f7 + 5*f8*g0 + 5*g0^2 + g1)",
+      "coefficient_term_count": 6,
+      "coefficient_total_degree": 2,
+      "equation_index": 15,
+      "remainder_total_degree": 3,
+      "variable": "f5"
+    },
+    {
+      "coefficient": "4*(60*f5*g3 + 16*g1*g8 + 44*g2*g6 - 12*g2*g7 + 45*g3^2 + 10*g3*g5 + 5*g5^2)",
+      "coefficient_term_count": 7,
+      "coefficient_total_degree": 2,
+      "equation_index": 4,
+      "remainder_total_degree": 3,
+      "variable": "g0"
+    },
+    {
+      "coefficient": "32*(-10*f10*g3 - 15*f10*g5 + 3*f7*g0 + 6*f8*g1 + 7*g0*g1 - 3*g2 - 4*g4)",
+      "coefficient_term_count": 7,
+      "coefficient_total_degree": 2,
+      "equation_index": 5,
+      "remainder_total_degree": 3,
+      "variable": "g6"
+    },
+    {
+      "coefficient": "-80*(f5*g0 + 3*f6*g1 + f7*g2 - f7*g4 + g0*g5 + g1*g2 + 2*g1*g4)",
+      "coefficient_term_count": 7,
+      "coefficient_total_degree": 2,
+      "equation_index": 9,
+      "remainder_total_degree": 3,
+      "variable": "f10"
+    },
+    {
+      "coefficient": "16*(15*f7*g2 + 30*f8*g3 + 66*g0*g3 + 9*g0*g5 + 8*g1*g2 - 2*g1*g4 - 18*g6)",
+      "coefficient_term_count": 7,
+      "coefficient_total_degree": 2,
+      "equation_index": 11,
+      "remainder_total_degree": 3,
+      "variable": "g8"
+    },
+    {
+      "coefficient": "16*(7*f7*g2 + 10*f8*g3 + 5*g0*g3 + 5*g0*g5 + 9*g1*g2 - 2*g1*g4 - 14*g6)",
+      "coefficient_term_count": 7,
+      "coefficient_total_degree": 2,
+      "equation_index": 12,
+      "remainder_total_degree": 3,
+      "variable": "f5"
+    },
+    {
+      "coefficient": "16*(-120*f10*g3 - 30*f10*g5 + 6*f7*g0 + 27*f8*g1 + 21*g0*g1 - 29*g2 - 13*g4)",
+      "coefficient_term_count": 7,
+      "coefficient_total_degree": 2,
+      "equation_index": 12,
+      "remainder_total_degree": 3,
+      "variable": "g8"
+    },
+    {
+      "coefficient": "32*(-5*f10*g6 + f7*g1 + f8*g2 + g0*g2 + g1^2 + 2*g3 - 2*g5)",
+      "coefficient_term_count": 7,
+      "coefficient_total_degree": 2,
+      "equation_index": 13,
+      "remainder_total_degree": 3,
+      "variable": "f5"
+    },
+    {
+      "coefficient": "32*(9*f7*g2 + 15*f8*g3 + 9*g0*g3 + 6*g0*g5 + 11*g1*g2 - 2*g1*g4 - 15*g6)",
+      "coefficient_term_count": 7,
+      "coefficient_total_degree": 2,
+      "equation_index": 13,
+      "remainder_total_degree": 3,
+      "variable": "f6"
+    },
+    {
+      "coefficient": "16*(-135*f10*g3 - 15*f10*g5 + 3*f7*g0 + 15*f8*g1 + 6*g0*g1 - 35*g2 - 7*g4)",
+      "coefficient_term_count": 7,
+      "coefficient_total_degree": 2,
+      "equation_index": 13,
+      "remainder_total_degree": 3,
+      "variable": "g7"
+    },
+    {
+      "coefficient": "-8*(30*f6 - 15*f7*f8 - 15*f7*g0 - 9*f8*g1 - 9*g0*g1 + 2*g2 + 28*g4)",
+      "coefficient_term_count": 7,
+      "coefficient_total_degree": 2,
+      "equation_index": 14,
+      "remainder_total_degree": 3,
+      "variable": "g5"
+    },
+    {
+      "coefficient": "16*(15*f10*g3 - 15*f10*g5 + 3*f7*g0 + 9*f8*g1 + 12*g0*g1 + 5*g2 - 5*g4)",
+      "coefficient_term_count": 7,
+      "coefficient_total_degree": 2,
+      "equation_index": 15,
+      "remainder_total_degree": 3,
+      "variable": "f6"
+    },
+    {
+      "coefficient": "-20*(40*f5*g3 - 12*g1*g8 + 8*g2*g6 - 24*g2*g7 + 9*g3^2 + 22*g3*g5 + 16*g4*g6 + 9*g5^2)",
+      "coefficient_term_count": 8,
+      "coefficient_total_degree": 2,
+      "equation_index": 6,
+      "remainder_total_degree": 3,
+      "variable": "f10"
+    },
+    {
+      "coefficient": "-8*(100*f10*f6 + 30*f10*g2 + 70*f10*g4 - f7 - 40*f8^2 - 64*f8*g0 - 24*g0^2 - g1)",
+      "coefficient_term_count": 8,
+      "coefficient_total_degree": 2,
+      "equation_index": 7,
+      "remainder_total_degree": 3,
+      "variable": "g3"
+    },
+    {
+      "coefficient": "4*(40*f5*g3 + 108*g1*g8 + 8*g2*g6 + 56*g2*g7 - 21*g3^2 + 82*g3*g5 - 64*g4*g6 - 21*g5^2)",
+      "coefficient_term_count": 8,
+      "coefficient_total_degree": 2,
+      "equation_index": 12,
+      "remainder_total_degree": 3,
+      "variable": "f8"
+    },
+    {
+      "coefficient": "16*(-10*f10*g6 + 5*f7*g1 + 14*f8*g2 + 21*g0*g2 + 2*g0*g4 - 4*g1^2 - 83*g3 - 7*g5)",
+      "coefficient_term_count": 8,
+      "coefficient_total_degree": 2,
+      "equation_index": 12,
+      "remainder_total_degree": 3,
+      "variable": "g7"
+    },
+    {
+      "coefficient": "16*(-30*f10*g6 + 9*f7*g1 + 18*f8*g2 + 16*g0*g2 + 2*g0*g4 + 9*g1^2 + 15*g3 - 15*g5)",
+      "coefficient_term_count": 8,
+      "coefficient_total_degree": 2,
+      "equation_index": 14,
+      "remainder_total_degree": 3,
+      "variable": "f6"
+    },
+    {
+      "coefficient": "-16*(30*f10*f6 + 15*f10*g2 + 15*f10*g4 + 2*f7 - 12*f8^2 - 11*f8*g0 + g0^2 + 2*g1)",
+      "coefficient_term_count": 8,
+      "coefficient_total_degree": 2,
+      "equation_index": 14,
+      "remainder_total_degree": 3,
+      "variable": "g6"
+    },
+    {
+      "coefficient": "-16*(5*f10*f5 + 5*f10*g5 - 5*f6 + f7*f8 + f7*g0 + f8*g1 + g0*g1 - 5*g4)",
+      "coefficient_term_count": 8,
+      "coefficient_total_degree": 2,
+      "equation_index": 15,
+      "remainder_total_degree": 3,
+      "variable": "g2"
+    },
+    {
+      "coefficient": "-16*(15*f10*f6 + 5*f10*g2 + 10*f10*g4 + f7 - 6*f8^2 - 7*f8*g0 - g0^2 + g1)",
+      "coefficient_term_count": 8,
+      "coefficient_total_degree": 2,
+      "equation_index": 15,
+      "remainder_total_degree": 3,
+      "variable": "g5"
+    },
+    {
+      "coefficient": "-16*(10*f10*f5 + 15*f10*g3 - 5*f10*g5 + 30*f6 - 18*f7*f8 - 15*f7*g0 - 3*f8*g1 + 7*g2 + 23*g4)",
+      "coefficient_term_count": 9,
+      "coefficient_total_degree": 2,
+      "equation_index": 13,
+      "remainder_total_degree": 3,
+      "variable": "g6"
+    },
+    {
+      "coefficient": "-80*(6*f5*g2 + 10*f6*g3 - 2*f7*g6 - g0*g8 + g1*g6 - 3*g1*g7 + 3*g2*g3 + 3*g2*g5 + 7*g3*g4 + 3*g4*g5)",
+      "coefficient_term_count": 10,
+      "coefficient_total_degree": 2,
+      "equation_index": 7,
+      "remainder_total_degree": 3,
+      "variable": "f10"
+    },
+    {
+      "coefficient": "-80*(18*f3*g2 + 30*f4*g3 + 2*f5*g6 - 9*g1*g9 + 13*g2*g8 + 3*g3*g6 + 27*g3*g7 + 5*g4*g8 - g5*g6 + 3*g5*g7)",
+      "coefficient_term_count": 10,
+      "coefficient_total_degree": 2,
+      "equation_index": 13,
+      "remainder_total_degree": 3,
+      "variable": "f10"
+    },
+    {
+      "coefficient": "16*(2*f5*g2 + 30*f6*g3 + 18*f7*g6 + 21*g0*g8 + 3*g1*g6 + 15*g1*g7 - 7*g2*g3 + 9*g2*g5 + 37*g3*g4 - 7*g4*g5)",
+      "coefficient_term_count": 10,
+      "coefficient_total_degree": 2,
+      "equation_index": 13,
+      "remainder_total_degree": 3,
+      "variable": "f8"
+    },
+    {
+      "coefficient": "-240*(3*f3*g1 + 6*f4*g2 + 2*f6*g6 - f7*g8 - g0*g9 + 2*g1*g8 + g2*g6 + 5*g2*g7 + g4*g6 + g4*g7)",
+      "coefficient_term_count": 10,
+      "coefficient_total_degree": 2,
+      "equation_index": 14,
+      "remainder_total_degree": 3,
+      "variable": "f10"
+    },
+    {
+      "coefficient": "-80*(3*f4*g0 + f5*f7 + f5*g1 - f6*g2 + f6*g4 + f7*g5 + 3*g0*g7 + g1*g5 - g2*g4 + g4^2)",
+      "coefficient_term_count": 10,
+      "coefficient_total_degree": 2,
+      "equation_index": 16,
+      "remainder_total_degree": 3,
+      "variable": "f10"
+    },
+    {
+      "coefficient": "-40*(6*f5*g1 + 12*f6*g2 + 3*f7*g3 - 3*f7*g5 + 2*g0*g6 - 2*g0*g7 + 3*g1*g3 + 3*g1*g5 + 2*g2^2 + 8*g2*g4 + 2*g4^2)",
+      "coefficient_term_count": 11,
+      "coefficient_total_degree": 2,
+      "equation_index": 8,
+      "remainder_total_degree": 3,
+      "variable": "f10"
+    },
+    {
+      "coefficient": "-4*(600*f10*f4 + 60*f10*g6 + 540*f10*g7 - 16*f5 - 120*f6*f8 - 72*f6*g0 + 3*f7^2 + 6*f7*g1 + 28*f8*g2 - 148*f8*g4 + 28*g0*g2 - 100*g0*g4 + 3*g1^2 - 16*g5)",
+      "coefficient_term_count": 14,
+      "coefficient_total_degree": 2,
+      "equation_index": 13,
+      "remainder_total_degree": 3,
+      "variable": "g3"
+    },
+    {
+      "coefficient": "-80*(3*f3*g0 + 9*f4*g1 + f5*g2 - f5*g4 - 3*f6*g3 + 3*f6*g5 + 2*f7*g6 - 2*f7*g7 + 3*g0*g8 + 2*g1*g6 + 7*g1*g7 + g2*g5 - 3*g3*g4 + 2*g4*g5)",
+      "coefficient_term_count": 14,
+      "coefficient_total_degree": 2,
+      "equation_index": 15,
+      "remainder_total_degree": 3,
+      "variable": "f10"
+    }
+  ],
+  "original_equation_count": 19,
+  "original_maximum_total_degree": 3,
+  "original_variable_count": 19,
+  "remaining_equation_count": 19,
+  "remaining_equation_profile": [
+    {
+      "equation_index": 0,
+      "factorization": "-4*(60*g1*g3*g9 - 12*g1*g6*g8 - 24*g2^2*g9 - 20*g2*g3*g8 - 8*g2*g6^2 + 16*g2*g6*g7 - 17*g3^2*g6 + 20*g3^2*g7 + 20*g3*g4*g8 + 14*g3*g5*g6 - 20*g3*g5*g7 - 8*g4*g6^2 + 3*g5^2*g6)",
+      "support": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9"
+      ],
+      "term_count": 13,
+      "total_degree": 3
+    },
+    {
+      "equation_index": 1,
+      "factorization": "-80*g1*g3*g8 + 32*g1*g6^2 + 32*g2^2*g8 + 32*g2*g3*g6 - 32*g2*g5*g6 + 20*g3^3 - 40*g3^2*g5 + 20*g3*g5^2 - 1",
+      "support": [
+        "g1",
+        "g2",
+        "g3",
+        "g5",
+        "g6",
+        "g8"
+      ],
+      "term_count": 9,
+      "total_degree": 3
+    },
+    {
+      "equation_index": 2,
+      "factorization": "-4*(60*g0*g3*g8 - 24*g0*g6^2 - 12*g1*g2*g8 - 20*g1*g3*g6 + 20*g1*g3*g7 - 8*g2^2*g6 - 8*g2^2*g7 - 17*g2*g3^2 + 14*g2*g3*g5 + 16*g2*g4*g6 + 3*g2*g5^2 + 20*g3^2*g4 - 20*g3*g4*g5)",
+      "support": [
+        "g0",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8"
+      ],
+      "term_count": 13,
+      "total_degree": 3
+    },
+    {
+      "equation_index": 3,
+      "factorization": "4*(20*f5*g1*g3 - 8*f5*g2^2 + 24*f7*g2*g6 + 30*f7*g3^2 - 30*f7*g3*g5 - 12*g0*g2*g8 + 36*g0*g3*g6 - 60*g0*g3*g7 + 24*g0*g5*g6 + 12*g1^2*g8 + 28*g1*g2*g6 + 12*g1*g2*g7 + 27*g1*g3^2 - 4*g1*g3*g5 - 16*g1*g4*g6 - 3*g1*g5^2 + 16*g2^2*g3 - 4*g2^2*g5 - 36*g2*g3*g4 - 4*g2*g4*g5 + 20*g3*g4^2 + 120*g3*g8 - 48*g6^2)",
+      "support": [
+        "f5",
+        "f7",
+        "g0",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8"
+      ],
+      "term_count": 23,
+      "total_degree": 3
+    },
+    {
+      "equation_index": 4,
+      "factorization": "4*(200*f10*g3*g8 - 80*f10*g6^2 + 60*f5*g0*g3 - 12*f5*g1*g2 + 20*f6*g1*g3 - 8*f6*g2^2 + 32*f7*g1*g6 + 58*f7*g2*g3 + 2*f7*g2*g5 - 60*f7*g3*g4 + 32*f8*g2*g6 + 40*f8*g3^2 - 40*f8*g3*g5 + 16*g0*g1*g8 + 44*g0*g2*g6 - 12*g0*g2*g7 + 45*g0*g3^2 + 10*g0*g3*g5 + 5*g0*g5^2 + 20*g1^2*g6 + 12*g1^2*g7 + 46*g1*g2*g3 + 2*g1*g2*g5 - 28*g1*g3*g4 - 12*g1*g4*g5 + 4*g2^3 - 16*g2^2*g4 + 4*g2*g4^2 + 56*g2*g8 - 56*g3*g6 + 120*g3*g7 - 64*g5*g6)",
+      "support": [
+        "f10",
+        "f5",
+        "f6",
+        "f7",
+        "f8",
+        "g0",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8"
+      ],
+      "term_count": 32,
+      "total_degree": 3
+    },
+    {
+      "equation_index": 5,
+      "factorization": "4*(120*f10*g2*g8 - 80*f10*g3*g6 + 200*f10*g3*g7 - 120*f10*g5*g6 + 12*f5*g0*g2 - 12*f5*g1^2 - 120*f5*g3 + 60*f6*g0*g3 - 12*f6*g1*g2 + 45*f7^2*g3 + 24*f7*g0*g6 + 72*f7*g1*g3 + 18*f7*g1*g5 + 20*f7*g2^2 - 20*f7*g2*g4 + 48*f8*g1*g6 + 80*f8*g2*g3 - 80*f8*g3*g4 + 12*g0^2*g8 + 56*g0*g1*g6 + 16*g0*g1*g7 + 76*g0*g2*g3 + 16*g0*g2*g5 - 16*g0*g3*g4 - 4*g0*g4*g5 + 27*g1^2*g3 + 6*g1^2*g5 + 16*g1*g2^2 - 24*g1*g2*g4 - 4*g1*g4^2 + 12*g1*g8 - 24*g2*g6 + 56*g2*g7 - 21*g3^2 - 78*g3*g5 - 32*g4*g6 - 21*g5^2)",
+      "support": [
+        "f10",
+        "f5",
+        "f6",
+        "f7",
+        "f8",
+        "g0",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8"
+      ],
+      "term_count": 37,
+      "total_degree": 3
+    },
+    {
+      "equation_index": 6,
+      "factorization": "-4*(200*f10*f5*g3 - 60*f10*g1*g8 + 40*f10*g2*g6 - 120*f10*g2*g7 + 45*f10*g3^2 + 110*f10*g3*g5 + 80*f10*g4*g6 + 45*f10*g5^2 + 16*f5*g0*g1 + 56*f5*g2 - 12*f6*g0*g2 + 12*f6*g1^2 + 120*f6*g3 - 21*f7^2*g2 - 120*f7*f8*g3 - 102*f7*g0*g3 - 18*f7*g0*g5 - 38*f7*g1*g2 - 4*f7*g1*g4 - 48*f8*g0*g6 - 96*f8*g1*g3 - 24*f8*g1*g5 - 32*f8*g2^2 + 32*f8*g2*g4 - 36*g0^2*g6 - 12*g0^2*g7 - 78*g0*g1*g3 - 26*g0*g1*g5 - 28*g0*g2^2 + 12*g0*g2*g4 + 4*g0*g4^2 + 12*g0*g8 - 17*g1^2*g2 + 8*g1^2*g4 + 12*g1*g6 - 12*g1*g7 + 20*g2*g3 + 36*g2*g5 + 100*g3*g4 + 20*g4*g5)",
+      "support": [
+        "f10",
+        "f5",
+        "f6",
+        "f7",
+        "f8",
+        "g0",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8"
+      ],
+      "term_count": 40,
+      "total_degree": 3
+    },
+    {
+      "equation_index": 7,
+      "factorization": "-4*(120*f10*f5*g2 + 200*f10*f6*g3 - 40*f10*f7*g6 - 20*f10*g0*g8 + 20*f10*g1*g6 - 60*f10*g1*g7 + 60*f10*g2*g3 + 60*f10*g2*g5 + 140*f10*g3*g4 + 60*f10*g4*g5 + 12*f5*g0^2 + 12*f5*g1 + 16*f6*g0*g1 + 56*f6*g2 - 5*f7^2*g1 - 64*f7*f8*g2 - 52*f7*g0*g2 - 12*f7*g0*g4 - 10*f7*g1^2 - 2*f7*g3 + 2*f7*g5 - 80*f8^2*g3 - 128*f8*g0*g3 - 32*f8*g0*g5 - 64*f8*g1*g2 + 32*f8*g6 - 48*g0^2*g3 - 20*g0^2*g5 - 52*g0*g1*g2 + 4*g0*g1*g4 + 20*g0*g6 + 12*g0*g7 - 5*g1^3 - 2*g1*g3 + 14*g1*g5 + 4*g2^2 + 48*g2*g4 + 4*g4^2 - 8*g8)",
+      "support": [
+        "f10",
+        "f5",
+        "f6",
+        "f7",
+        "f8",
+        "g0",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8"
+      ],
+      "term_count": 39,
+      "total_degree": 3
+    },
+    {
+      "equation_index": 8,
+      "factorization": "-4*(60*f10*f5*g1 + 120*f10*f6*g2 + 30*f10*f7*g3 - 30*f10*f7*g5 + 20*f10*g0*g6 - 20*f10*g0*g7 + 30*f10*g1*g3 + 30*f10*g1*g5 + 20*f10*g2^2 + 80*f10*g2*g4 + 20*f10*g4^2 - 12*f5*g0 + 12*f6*g0^2 + 12*f6*g1 + 3*f7^2*g0 - 24*f7*f8*g1 - 18*f7*g0*g1 - 4*f7*g2 + 4*f7*g4 - 48*f8^2*g2 - 80*f8*g0*g2 - 16*f8*g0*g4 - 24*f8*g1^2 - 24*f8*g3 + 24*f8*g5 - 32*g0^2*g2 - 4*g0^2*g4 - 21*g0*g1^2 - 24*g0*g3 + 12*g0*g5 - 4*g1*g2 + 16*g1*g4 + 8*g6 - 8*g7)",
+      "support": [
+        "f10",
+        "f5",
+        "f6",
+        "f7",
+        "f8",
+        "g0",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7"
+      ],
+      "term_count": 34,
+      "total_degree": 3
+    },
+    {
+      "equation_index": 9,
+      "factorization": "-4*(20*f10*f5*g0 + 60*f10*f6*g1 + 20*f10*f7*g2 - 20*f10*f7*g4 + 20*f10*g0*g5 + 20*f10*g1*g2 + 40*f10*g1*g4 + 8*f5 - 12*f6*g0 - 3*f7^2 - 6*f7*g1 - 24*f8^2*g1 - 48*f8*g0*g1 - 16*f8*g2 + 16*f8*g4 - 24*g0^2*g1 - 16*g0*g2 + 4*g0*g4 - 3*g1^2 + 8*g5)",
+      "support": [
+        "f10",
+        "f5",
+        "f6",
+        "f7",
+        "f8",
+        "g0",
+        "g1",
+        "g2",
+        "g4",
+        "g5"
+      ],
+      "term_count": 20,
+      "total_degree": 3
+    },
+    {
+      "equation_index": 10,
+      "factorization": "-4*(20*f10*f6*g0 + 5*f10*f7^2 + 10*f10*f7*g1 + 20*f10*g0*g4 + 5*f10*g1^2 + 8*f6 - 8*f7*f8 - 8*f7*g0 - 8*f8^2*g0 - 16*f8*g0^2 - 8*f8*g1 - 8*g0^3 - 8*g0*g1 + 8*g4)",
+      "support": [
+        "f10",
+        "f6",
+        "f7",
+        "f8",
+        "g0",
+        "g1",
+        "g4"
+      ],
+      "term_count": 14,
+      "total_degree": 3
+    },
+    {
+      "equation_index": 11,
+      "factorization": "4*(180*f3*g0*g3 - 36*f3*g1*g2 + 60*f4*g1*g3 - 24*f4*g2^2 + 52*f5*g1*g6 + 68*f5*g2*g3 - 8*f5*g2*g5 - 60*f5*g3*g4 + 48*f6*g2*g6 + 60*f6*g3^2 - 60*f6*g3*g5 + 60*f7*g2*g8 + 30*f7*g3*g6 - 30*f7*g5*g6 + 120*f8*g3*g8 - 48*f8*g6^2 - 36*g0*g2*g9 + 264*g0*g3*g8 + 36*g0*g5*g8 - 36*g0*g6^2 - 12*g0*g6*g7 + 36*g1^2*g9 + 32*g1*g2*g8 + 30*g1*g3*g6 + 60*g1*g3*g7 - 8*g1*g4*g8 + 22*g1*g5*g6 + 8*g2^2*g6 - 28*g2^2*g7 + 7*g2*g3^2 + 54*g2*g3*g5 + 36*g2*g4*g6 + 4*g2*g4*g7 - g2*g5^2 + 53*g3^2*g4 - 106*g3*g4*g5 + 360*g3*g9 + 4*g4^2*g6 - 7*g4*g5^2 - 72*g6*g8)",
+      "support": [
+        "f3",
+        "f4",
+        "f5",
+        "f6",
+        "f7",
+        "f8",
+        "g0",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9"
+      ],
+      "term_count": 40,
+      "total_degree": 3
+    },
+    {
+      "equation_index": 12,
+      "factorization": "-4*(600*f10*f3*g3 - 360*f10*g2*g9 + 480*f10*g3*g8 + 120*f10*g5*g8 - 40*f10*g6^2 + 40*f10*g6*g7 + 48*f3*g0*g1 + 168*f3*g2 - 36*f4*g0*g2 + 36*f4*g1^2 + 360*f4*g3 - 28*f5*f7*g2 - 40*f5*f8*g3 - 20*f5*g0*g3 - 20*f5*g0*g5 - 36*f5*g1*g2 + 8*f5*g1*g4 + 56*f5*g6 - 120*f6*f7*g3 - 108*f6*g0*g6 - 96*f6*g1*g3 - 24*f6*g1*g5 - 52*f6*g2^2 + 52*f6*g2*g4 - 21*f7^2*g6 - 24*f7*g0*g8 - 22*f7*g1*g6 - 20*f7*g1*g7 - 2*f7*g2*g3 - 26*f7*g2*g5 - 118*f7*g3*g4 - 2*f7*g4*g5 - 108*f8*g1*g8 - 8*f8*g2*g6 - 56*f8*g2*g7 + 21*f8*g3^2 - 82*f8*g3*g5 + 64*f8*g4*g6 + 21*f8*g5^2 - 36*g0^2*g9 - 84*g0*g1*g8 - 16*g0*g2*g6 - 84*g0*g2*g7 + 21*g0*g3^2 - 62*g0*g3*g5 - 36*g0*g4*g6 - 8*g0*g4*g7 + g0*g5^2 - g1^2*g6 + 16*g1^2*g7 - 2*g1*g2*g3 - 34*g1*g2*g5 - 94*g1*g3*g4 - 18*g1*g4*g5 - 36*g1*g9 - 4*g2^3 - 40*g2^2*g4 + 40*g2*g4^2 + 116*g2*g8 + 28*g3*g6 + 332*g3*g7 + 4*g4^3 + 52*g4*g8 + 28*g5*g6 + 28*g5*g7)",
+      "support": [
+        "f10",
+        "f3",
+        "f4",
+        "f5",
+        "f6",
+        "f7",
+        "f8",
+        "g0",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9"
+      ],
+      "term_count": 65,
+      "total_degree": 3
+    },
+    {
+      "equation_index": 13,
+      "factorization": "-4*(360*f10*f3*g2 + 600*f10*f4*g3 + 40*f10*f5*g6 - 180*f10*g1*g9 + 260*f10*g2*g8 + 60*f10*g3*g6 + 540*f10*g3*g7 + 100*f10*g4*g8 - 20*f10*g5*g6 + 60*f10*g5*g7 + 36*f3*g0^2 + 36*f3*g1 + 48*f4*g0*g1 + 168*f4*g2 - 8*f5*f7*g1 - 8*f5*f8*g2 - 8*f5*g0*g2 - 8*f5*g1^2 - 16*f5*g3 + 16*f5*g5 - 72*f6*f7*g2 - 120*f6*f8*g3 - 72*f6*g0*g3 - 48*f6*g0*g5 - 88*f6*g1*g2 + 16*f6*g1*g4 + 120*f6*g6 + 3*f7^2*g3 - 3*f7^2*g5 - 72*f7*f8*g6 - 60*f7*g0*g6 - 12*f7*g0*g7 + 6*f7*g1*g3 - 14*f7*g1*g5 - 8*f7*g2^2 - 56*f7*g2*g4 - 8*f7*g4^2 - 12*f7*g8 - 84*f8*g0*g8 - 12*f8*g1*g6 - 60*f8*g1*g7 + 28*f8*g2*g3 - 36*f8*g2*g5 - 148*f8*g3*g4 + 28*f8*g4*g5 - 48*g0^2*g8 - 24*g0*g1*g7 + 28*g0*g2*g3 - 36*g0*g2*g5 - 100*g0*g3*g4 - 20*g0*g4*g5 + 36*g0*g9 + 3*g1^2*g3 - 11*g1^2*g5 - 8*g1*g2^2 - 72*g1*g2*g4 + 8*g1*g4^2 + 24*g1*g8 + 28*g2*g6 + 140*g2*g7 - 16*g3*g5 + 92*g4*g6 + 28*g4*g7 + 16*g5^2)",
+      "support": [
+        "f10",
+        "f3",
+        "f4",
+        "f5",
+        "f6",
+        "f7",
+        "f8",
+        "g0",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9"
+      ],
+      "term_count": 64,
+      "total_degree": 3
+    },
+    {
+      "equation_index": 14,
+      "factorization": "-4*(180*f10*f3*g1 + 360*f10*f4*g2 + 120*f10*f6*g6 - 60*f10*f7*g8 - 60*f10*g0*g9 + 120*f10*g1*g8 + 60*f10*g2*g6 + 300*f10*g2*g7 + 60*f10*g4*g6 + 60*f10*g4*g7 - 36*f3*g0 + 36*f4*g0^2 + 36*f4*g1 + 12*f5*f8*g1 + 12*f5*g0*g1 + 4*f5*g2 - 4*f5*g4 - 36*f6*f7*g1 - 72*f6*f8*g2 - 64*f6*g0*g2 - 8*f6*g0*g4 - 36*f6*g1^2 - 60*f6*g3 + 60*f6*g5 - 7*f7^2*g2 + 7*f7^2*g4 + 30*f7*f8*g3 - 30*f7*f8*g5 + 30*f7*g0*g3 - 30*f7*g0*g5 - 14*f7*g1*g2 - 22*f7*g1*g4 + 8*f7*g6 - 8*f7*g7 - 48*f8^2*g6 - 44*f8*g0*g6 - 52*f8*g0*g7 + 30*f8*g1*g3 - 18*f8*g1*g5 + 4*f8*g2^2 - 80*f8*g2*g4 + 4*f8*g4^2 + 48*f8*g8 + 4*g0^2*g6 - 16*g0^2*g7 + 30*g0*g1*g3 - 18*g0*g1*g5 + 4*g0*g2^2 - 72*g0*g2*g4 - 4*g0*g4^2 + 12*g0*g8 - 7*g1^2*g2 - 29*g1^2*g4 + 8*g1*g6 + 28*g1*g7 + 4*g2*g5 - 60*g3*g4 + 56*g4*g5 - 24*g9)",
+      "support": [
+        "f10",
+        "f3",
+        "f4",
+        "f5",
+        "f6",
+        "f7",
+        "f8",
+        "g0",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9"
+      ],
+      "term_count": 59,
+      "total_degree": 3
+    },
+    {
+      "equation_index": 15,
+      "factorization": "-4*(60*f10*f3*g0 + 180*f10*f4*g1 + 20*f10*f5*g2 - 20*f10*f5*g4 - 60*f10*f6*g3 + 60*f10*f6*g5 + 40*f10*f7*g6 - 40*f10*f7*g7 + 60*f10*g0*g8 + 40*f10*g1*g6 + 140*f10*g1*g7 + 20*f10*g2*g5 - 60*f10*g3*g4 + 40*f10*g4*g5 + 24*f3 - 36*f4*g0 + 4*f5*f7 + 20*f5*f8*g0 + 20*f5*g0^2 + 4*f5*g1 - 12*f6*f7*g0 - 36*f6*f8*g1 - 48*f6*g0*g1 - 20*f6*g2 + 20*f6*g4 - 3*f7^3 - 9*f7^2*g1 + 4*f7*f8*g2 - 4*f7*f8*g4 + 4*f7*g0*g2 - 16*f7*g0*g4 - 9*f7*g1^2 + 4*f7*g5 + 24*f8^2*g3 - 24*f8^2*g5 + 48*f8*g0*g3 - 28*f8*g0*g5 + 4*f8*g1*g2 - 40*f8*g1*g4 - 32*f8*g6 + 32*f8*g7 + 24*g0^2*g3 - 4*g0^2*g5 + 4*g0*g1*g2 - 52*g0*g1*g4 - 32*g0*g6 - 4*g0*g7 - 3*g1^3 + 4*g1*g5 - 20*g2*g4 + 20*g4^2 + 24*g8)",
+      "support": [
+        "f10",
+        "f3",
+        "f4",
+        "f5",
+        "f6",
+        "f7",
+        "f8",
+        "g0",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8"
+      ],
+      "term_count": 52,
+      "total_degree": 3
+    },
+    {
+      "equation_index": 16,
+      "factorization": "-4*(60*f10*f4*g0 + 20*f10*f5*f7 + 20*f10*f5*g1 - 20*f10*f6*g2 + 20*f10*f6*g4 + 20*f10*f7*g5 + 60*f10*g0*g7 + 20*f10*g1*g5 - 20*f10*g2*g4 + 20*f10*g4^2 + 24*f4 - 16*f5*f8 - 16*f5*g0 - 12*f6*f8*g0 - 12*f6*g0^2 - 3*f7^2*f8 - 3*f7^2*g0 - 6*f7*f8*g1 - 6*f7*g0*g1 + 8*f8^2*g2 - 8*f8^2*g4 + 16*f8*g0*g2 - 28*f8*g0*g4 - 3*f8*g1^2 - 16*f8*g5 + 8*g0^2*g2 - 20*g0^2*g4 - 3*g0*g1^2 - 16*g0*g5 + 24*g7)",
+      "support": [
+        "f10",
+        "f4",
+        "f5",
+        "f6",
+        "f7",
+        "f8",
+        "g0",
+        "g1",
+        "g2",
+        "g4",
+        "g5",
+        "g7"
+      ],
+      "term_count": 30,
+      "total_degree": 3
+    },
+    {
+      "equation_index": 17,
+      "factorization": "f10*f10inv - 1",
+      "support": [
+        "f10",
+        "f10inv"
+      ],
+      "term_count": 2,
+      "total_degree": 2
+    },
+    {
+      "equation_index": 18,
+      "factorization": "5*f10*g0*leadinv + 2*leadinv - 1",
+      "support": [
+        "f10",
+        "g0",
+        "leadinv"
+      ],
+      "term_count": 3,
+      "total_degree": 3
+    }
+  ],
+  "remaining_maximum_total_degree": 3,
+  "remaining_occurrence_counts": {
+    "f10": 14,
+    "f10inv": 1,
+    "f3": 5,
+    "f4": 6,
+    "f5": 13,
+    "f6": 13,
+    "f7": 14,
+    "f8": 13,
+    "g0": 16,
+    "g1": 17,
+    "g2": 16,
+    "g3": 14,
+    "g4": 16,
+    "g5": 16,
+    "g6": 14,
+    "g7": 14,
+    "g8": 13,
+    "g9": 5,
+    "leadinv": 1
+  },
+  "remaining_variable_count": 19,
+  "remaining_variables": [
+    "f3",
+    "f4",
+    "f5",
+    "f6",
+    "f7",
+    "f8",
+    "f10",
+    "g0",
+    "g1",
+    "g2",
+    "g3",
+    "g4",
+    "g5",
+    "g6",
+    "g7",
+    "g8",
+    "g9",
+    "f10inv",
+    "leadinv"
+  ],
+  "safe_constant_linear_eliminations": [],
+  "safe_elimination_count": 0,
+  "schema": "sparse-groebner-structural-profile-v1",
+  "status": "PASS_EXACT_STRUCTURAL_PROFILE"
+}

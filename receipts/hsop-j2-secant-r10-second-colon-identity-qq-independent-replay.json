@@ -1,0 +1,15 @@
+{
+  "artifact": "artifacts/j2-secant-r10-second-colon-identity-qq.json",
+  "artifact_sha256": "32ffb748a88f59c6c7a1ad98d95beb84d5e3c1cdb1422a724677fca1a4ff5d61",
+  "certificate_sha256": "bfe41ce0155434f76d8ed683cc44d901a11150e5bdc158366e5aa3621d986d48",
+  "claim_boundary": "This independently proves only M*h2 in (F_1,...,F_17,h) over QQ. It does not determine a colon or saturated ideal, close the secant chart, or establish HC4.",
+  "generator_count": 18,
+  "maximum_rss_native": 65077248,
+  "mismatch_count": 0,
+  "multiplier_term_count": 15211,
+  "problem_sha256": "2a23b5db35b3ed12e72c6925467f15659c62e80d5644b586d18ab18766f364c7",
+  "status": "PASS_STANDARD_LIBRARY_EXACT_QQ_SECOND_COLON_IDENTITY_REPLAY",
+  "strict_crt_uniqueness_verified": true,
+  "target_term_count": 412,
+  "wall_seconds": 1.9823137079947628
+}

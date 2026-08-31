@@ -1,0 +1,801 @@
+{
+  "holdout_samples": 2,
+  "layers": {
+    "10": [
+      {
+        "basis": [],
+        "candidate_count": 0,
+        "holdout_pass": true,
+        "multidegree": [
+          0,
+          0,
+          3
+        ],
+        "rank": 0
+      },
+      {
+        "basis": [
+          {
+            "coefficient": "144",
+            "term": "[[g,k]_0,k]_0"
+          }
+        ],
+        "candidate_count": 3,
+        "holdout_pass": true,
+        "multidegree": [
+          0,
+          1,
+          2
+        ],
+        "nonzero_candidate_count": 3,
+        "rank": 1
+      },
+      {
+        "basis": [
+          {
+            "coefficient": "4/143",
+            "term": "[[g,g]_0,k]_2"
+          },
+          {
+            "coefficient": "-18/275",
+            "term": "[[g,g]_2,k]_0"
+          }
+        ],
+        "candidate_count": 9,
+        "holdout_pass": true,
+        "multidegree": [
+          0,
+          2,
+          1
+        ],
+        "nonzero_candidate_count": 8,
+        "rank": 2
+      },
+      {
+        "basis": [
+          {
+            "coefficient": "-31/409500",
+            "term": "[[g,g]_0,g]_4"
+          }
+        ],
+        "candidate_count": 5,
+        "holdout_pass": true,
+        "multidegree": [
+          0,
+          3,
+          0
+        ],
+        "nonzero_candidate_count": 3,
+        "rank": 1
+      },
+      {
+        "basis": [
+          {
+            "coefficient": "-290/117",
+            "term": "[[f,k]_0,k]_2"
+          },
+          {
+            "coefficient": "-11/9",
+            "term": "[[f,k]_1,k]_1"
+          }
+        ],
+        "candidate_count": 9,
+        "holdout_pass": true,
+        "multidegree": [
+          1,
+          0,
+          2
+        ],
+        "nonzero_candidate_count": 8,
+        "rank": 2
+      },
+      {
+        "basis": [
+          {
+            "coefficient": "62/19305",
+            "term": "[[f,g]_2,k]_2"
+          },
+          {
+            "coefficient": "-1/975",
+            "term": "[[f,g]_3,k]_1"
+          },
+          {
+            "coefficient": "-263/300300",
+            "term": "[[f,g]_4,k]_0"
+          }
+        ],
+        "candidate_count": 18,
+        "holdout_pass": true,
+        "multidegree": [
+          1,
+          1,
+          1
+        ],
+        "nonzero_candidate_count": 18,
+        "rank": 3
+      },
+      {
+        "basis": [
+          {
+            "coefficient": "-179/1541030400",
+            "term": "[[f,g]_0,g]_6"
+          },
+          {
+            "coefficient": "-8611/40066790400",
+            "term": "[[f,g]_1,g]_5"
+          },
+          {
+            "coefficient": "31/144471600",
+            "term": "[[f,g]_2,g]_4"
+          },
+          {
+            "coefficient": "-5777/7512523200",
+            "term": "[[f,g]_3,g]_3"
+          }
+        ],
+        "candidate_count": 21,
+        "holdout_pass": true,
+        "multidegree": [
+          1,
+          2,
+          0
+        ],
+        "nonzero_candidate_count": 18,
+        "rank": 4
+      },
+      {
+        "basis": [
+          {
+            "coefficient": "109/136216080",
+            "term": "[[f,f]_4,k]_2"
+          },
+          {
+            "coefficient": "-17/227026800",
+            "term": "[[f,f]_6,k]_0"
+          }
+        ],
+        "candidate_count": 9,
+        "holdout_pass": true,
+        "multidegree": [
+          2,
+          0,
+          1
+        ],
+        "nonzero_candidate_count": 8,
+        "rank": 2
+      },
+      {
+        "basis": [
+          {
+            "coefficient": "29/113837724000",
+            "term": "[[f,f]_2,g]_6"
+          },
+          {
+            "coefficient": "53/367783416000",
+            "term": "[[f,f]_4,g]_4"
+          },
+          {
+            "coefficient": "-31/619783164000",
+            "term": "[[f,f]_6,g]_2"
+          },
+          {
+            "coefficient": "-1/3960744480",
+            "term": "[[f,f]_8,g]_0"
+          }
+        ],
+        "candidate_count": 21,
+        "holdout_pass": true,
+        "multidegree": [
+          2,
+          1,
+          0
+        ],
+        "nonzero_candidate_count": 18,
+        "rank": 4
+      },
+      {
+        "basis": [
+          {
+            "coefficient": "-1/608083813148797440",
+            "term": "[[f,f]_0,f]_10"
+          },
+          {
+            "coefficient": "4399/1303036742461708800",
+            "term": "[[f,f]_2,f]_8"
+          }
+        ],
+        "candidate_count": 11,
+        "holdout_pass": true,
+        "multidegree": [
+          3,
+          0,
+          0
+        ],
+        "nonzero_candidate_count": 6,
+        "rank": 2
+      }
+    ],
+    "14": [
+      {
+        "basis": [],
+        "candidate_count": 0,
+        "holdout_pass": true,
+        "multidegree": [
+          0,
+          0,
+          3
+        ],
+        "rank": 0
+      },
+      {
+        "basis": [],
+        "candidate_count": 0,
+        "holdout_pass": true,
+        "multidegree": [
+          0,
+          1,
+          2
+        ],
+        "rank": 0
+      },
+      {
+        "basis": [
+          {
+            "coefficient": "112",
+            "term": "[[g,g]_0,k]_0"
+          }
+        ],
+        "candidate_count": 3,
+        "holdout_pass": true,
+        "multidegree": [
+          0,
+          2,
+          1
+        ],
+        "nonzero_candidate_count": 3,
+        "rank": 1
+      },
+      {
+        "basis": [
+          {
+            "coefficient": "-27/680",
+            "term": "[[g,g]_0,g]_2"
+          }
+        ],
+        "candidate_count": 3,
+        "holdout_pass": true,
+        "multidegree": [
+          0,
+          3,
+          0
+        ],
+        "nonzero_candidate_count": 2,
+        "rank": 1
+      },
+      {
+        "basis": [
+          {
+            "coefficient": "-160",
+            "term": "[[f,k]_0,k]_0"
+          }
+        ],
+        "candidate_count": 3,
+        "holdout_pass": true,
+        "multidegree": [
+          1,
+          0,
+          2
+        ],
+        "nonzero_candidate_count": 3,
+        "rank": 1
+      },
+      {
+        "basis": [
+          {
+            "coefficient": "-25/51",
+            "term": "[[f,g]_0,k]_2"
+          },
+          {
+            "coefficient": "-9/14",
+            "term": "[[f,g]_1,k]_1"
+          },
+          {
+            "coefficient": "-16/945",
+            "term": "[[f,g]_2,k]_0"
+          }
+        ],
+        "candidate_count": 18,
+        "holdout_pass": true,
+        "multidegree": [
+          1,
+          1,
+          1
+        ],
+        "nonzero_candidate_count": 18,
+        "rank": 3
+      },
+      {
+        "basis": [
+          {
+            "coefficient": "-1/24480",
+            "term": "[[f,g]_0,g]_4"
+          },
+          {
+            "coefficient": "-107/342720",
+            "term": "[[f,g]_1,g]_3"
+          },
+          {
+            "coefficient": "-3/23800",
+            "term": "[[f,g]_2,g]_2"
+          }
+        ],
+        "candidate_count": 15,
+        "holdout_pass": true,
+        "multidegree": [
+          1,
+          2,
+          0
+        ],
+        "nonzero_candidate_count": 13,
+        "rank": 3
+      },
+      {
+        "basis": [
+          {
+            "coefficient": "5/4131",
+            "term": "[[f,f]_2,k]_2"
+          },
+          {
+            "coefficient": "1/95256",
+            "term": "[[f,f]_4,k]_0"
+          }
+        ],
+        "candidate_count": 9,
+        "holdout_pass": true,
+        "multidegree": [
+          2,
+          0,
+          1
+        ],
+        "nonzero_candidate_count": 8,
+        "rank": 2
+      },
+      {
+        "basis": [
+          {
+            "coefficient": "1/10024560",
+            "term": "[[f,f]_2,g]_4"
+          },
+          {
+            "coefficient": "1/39584160",
+            "term": "[[f,f]_4,g]_2"
+          },
+          {
+            "coefficient": "-19/227026800",
+            "term": "[[f,f]_6,g]_0"
+          }
+        ],
+        "candidate_count": 21,
+        "holdout_pass": true,
+        "multidegree": [
+          2,
+          1,
+          0
+        ],
+        "nonzero_candidate_count": 18,
+        "rank": 4
+      },
+      {
+        "basis": [
+          {
+            "coefficient": "-1/64818903663360",
+            "term": "[[f,f]_0,f]_8"
+          },
+          {
+            "coefficient": "191/66292060564800",
+            "term": "[[f,f]_2,f]_6"
+          }
+        ],
+        "candidate_count": 9,
+        "holdout_pass": true,
+        "multidegree": [
+          3,
+          0,
+          0
+        ],
+        "nonzero_candidate_count": 5,
+        "rank": 2
+      }
+    ],
+    "18": [
+      {
+        "basis": [],
+        "candidate_count": 0,
+        "holdout_pass": true,
+        "multidegree": [
+          0,
+          0,
+          3
+        ],
+        "rank": 0
+      },
+      {
+        "basis": [],
+        "candidate_count": 0,
+        "holdout_pass": true,
+        "multidegree": [
+          0,
+          1,
+          2
+        ],
+        "rank": 0
+      },
+      {
+        "basis": [],
+        "candidate_count": 0,
+        "holdout_pass": true,
+        "multidegree": [
+          0,
+          2,
+          1
+        ],
+        "rank": 0
+      },
+      {
+        "basis": [
+          {
+            "coefficient": "32",
+            "term": "[[g,g]_0,g]_0"
+          }
+        ],
+        "candidate_count": 1,
+        "holdout_pass": true,
+        "multidegree": [
+          0,
+          3,
+          0
+        ],
+        "nonzero_candidate_count": 1,
+        "rank": 1
+      },
+      {
+        "basis": [],
+        "candidate_count": 0,
+        "holdout_pass": true,
+        "multidegree": [
+          1,
+          0,
+          2
+        ],
+        "rank": 0
+      },
+      {
+        "basis": [
+          {
+            "coefficient": "-80",
+            "term": "[[f,g]_0,k]_0"
+          }
+        ],
+        "candidate_count": 6,
+        "holdout_pass": true,
+        "multidegree": [
+          1,
+          1,
+          1
+        ],
+        "nonzero_candidate_count": 6,
+        "rank": 1
+      },
+      {
+        "basis": [
+          {
+            "coefficient": "-29/360",
+            "term": "[[f,g]_0,g]_2"
+          },
+          {
+            "coefficient": "-11/48",
+            "term": "[[f,g]_1,g]_1"
+          }
+        ],
+        "candidate_count": 9,
+        "holdout_pass": true,
+        "multidegree": [
+          1,
+          2,
+          0
+        ],
+        "nonzero_candidate_count": 8,
+        "rank": 2
+      },
+      {
+        "basis": [
+          {
+            "coefficient": "16/81",
+            "term": "[[f,f]_2,k]_0"
+          }
+        ],
+        "candidate_count": 9,
+        "holdout_pass": true,
+        "multidegree": [
+          2,
+          0,
+          1
+        ],
+        "nonzero_candidate_count": 8,
+        "rank": 2
+      },
+      {
+        "basis": [
+          {
+            "coefficient": "1/12150",
+            "term": "[[f,f]_2,g]_2"
+          },
+          {
+            "coefficient": "-19/317520",
+            "term": "[[f,f]_4,g]_0"
+          }
+        ],
+        "candidate_count": 15,
+        "holdout_pass": true,
+        "multidegree": [
+          2,
+          1,
+          0
+        ],
+        "nonzero_candidate_count": 13,
+        "rank": 3
+      },
+      {
+        "basis": [
+          {
+            "coefficient": "-1/7064674848",
+            "term": "[[f,f]_0,f]_6"
+          },
+          {
+            "coefficient": "653/148358171808",
+            "term": "[[f,f]_2,f]_4"
+          }
+        ],
+        "candidate_count": 7,
+        "holdout_pass": true,
+        "multidegree": [
+          3,
+          0,
+          0
+        ],
+        "nonzero_candidate_count": 4,
+        "rank": 2
+      }
+    ],
+    "6": [
+      {
+        "basis": [
+          {
+            "coefficient": "96",
+            "term": "[[k,k]_0,k]_0"
+          }
+        ],
+        "candidate_count": 1,
+        "holdout_pass": true,
+        "multidegree": [
+          0,
+          0,
+          3
+        ],
+        "nonzero_candidate_count": 1,
+        "rank": 1
+      },
+      {
+        "basis": [
+          {
+            "coefficient": "1/10",
+            "term": "[[g,k]_0,k]_2"
+          },
+          {
+            "coefficient": "-17/20",
+            "term": "[[g,k]_1,k]_1"
+          }
+        ],
+        "candidate_count": 9,
+        "holdout_pass": true,
+        "multidegree": [
+          0,
+          1,
+          2
+        ],
+        "nonzero_candidate_count": 8,
+        "rank": 2
+      },
+      {
+        "basis": [
+          {
+            "coefficient": "8/1925",
+            "term": "[[g,g]_2,k]_2"
+          },
+          {
+            "coefficient": "-307/113400",
+            "term": "[[g,g]_4,k]_0"
+          }
+        ],
+        "candidate_count": 9,
+        "holdout_pass": true,
+        "multidegree": [
+          0,
+          2,
+          1
+        ],
+        "nonzero_candidate_count": 8,
+        "rank": 2
+      },
+      {
+        "basis": [
+          {
+            "coefficient": "-1747/5096520000",
+            "term": "[[g,g]_0,g]_6"
+          },
+          {
+            "coefficient": "211/217800000",
+            "term": "[[g,g]_2,g]_4"
+          }
+        ],
+        "candidate_count": 7,
+        "holdout_pass": true,
+        "multidegree": [
+          0,
+          3,
+          0
+        ],
+        "nonzero_candidate_count": 4,
+        "rank": 2
+      },
+      {
+        "basis": [
+          {
+            "coefficient": "-13/693",
+            "term": "[[f,k]_2,k]_2"
+          }
+        ],
+        "candidate_count": 3,
+        "holdout_pass": true,
+        "multidegree": [
+          1,
+          0,
+          2
+        ],
+        "nonzero_candidate_count": 3,
+        "rank": 1
+      },
+      {
+        "basis": [
+          {
+            "coefficient": "23/7567560",
+            "term": "[[f,g]_4,k]_2"
+          },
+          {
+            "coefficient": "-1/249480",
+            "term": "[[f,g]_5,k]_1"
+          },
+          {
+            "coefficient": "-829/78586200",
+            "term": "[[f,g]_6,k]_0"
+          }
+        ],
+        "candidate_count": 18,
+        "holdout_pass": true,
+        "multidegree": [
+          1,
+          1,
+          1
+        ],
+        "nonzero_candidate_count": 18,
+        "rank": 3
+      },
+      {
+        "basis": [
+          {
+            "coefficient": "479/112378266000",
+            "term": "[[f,g]_2,g]_6"
+          },
+          {
+            "coefficient": "-47/24518894400",
+            "term": "[[f,g]_3,g]_5"
+          },
+          {
+            "coefficient": "-41/16054038000",
+            "term": "[[f,g]_4,g]_4"
+          }
+        ],
+        "candidate_count": 15,
+        "holdout_pass": true,
+        "multidegree": [
+          1,
+          2,
+          0
+        ],
+        "nonzero_candidate_count": 13,
+        "rank": 3
+      },
+      {
+        "basis": [
+          {
+            "coefficient": "19/28605376800",
+            "term": "[[f,f]_6,k]_2"
+          },
+          {
+            "coefficient": "-53/118822334400",
+            "term": "[[f,f]_8,k]_0"
+          }
+        ],
+        "candidate_count": 9,
+        "holdout_pass": true,
+        "multidegree": [
+          2,
+          0,
+          1
+        ],
+        "nonzero_candidate_count": 8,
+        "rank": 2
+      },
+      {
+        "basis": [
+          {
+            "coefficient": "101/101949562915200",
+            "term": "[[f,f]_4,g]_6"
+          },
+          {
+            "coefficient": "19/35399153790000",
+            "term": "[[f,f]_6,g]_4"
+          },
+          {
+            "coefficient": "-1/668375631000",
+            "term": "[[f,f]_8,g]_2"
+          },
+          {
+            "coefficient": "-1/108020304000",
+            "term": "[[f,f]_10,g]_0"
+          }
+        ],
+        "candidate_count": 21,
+        "holdout_pass": true,
+        "multidegree": [
+          2,
+          1,
+          0
+        ],
+        "nonzero_candidate_count": 18,
+        "rank": 4
+      },
+      {
+        "basis": [
+          {
+            "coefficient": "1/77203623553056000",
+            "term": "[[f,f]_2,f]_10"
+          },
+          {
+            "coefficient": "277/19455313135370112000",
+            "term": "[[f,f]_4,f]_8"
+          }
+        ],
+        "candidate_count": 7,
+        "holdout_pass": true,
+        "multidegree": [
+          3,
+          0,
+          0
+        ],
+        "nonzero_candidate_count": 4,
+        "rank": 2
+      }
+    ]
+  },
+  "method": {
+    "covariant_basis": "all admissible ordered iterated transvectants; exact pivot basis selected from training samples",
+    "harmonic_projection": "closed Box(q^j F) recurrence; no matrix-inverse lift",
+    "reference_coefficient_table_imported": false
+  },
+  "schema": "hc4-double-conic-independent-normal-layers-v1",
+  "seed": 20260829,
+  "status": "PASS",
+  "training_samples": 3,
+  "wall_seconds": 84.02570220798953
+}

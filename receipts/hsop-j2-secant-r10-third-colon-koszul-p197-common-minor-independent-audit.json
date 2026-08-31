@@ -1,0 +1,372 @@
+{
+  "assurance": "independent bounded six-prime Koszul normalization, complete M70 census, and one-way fresh-audit replay of the producer's negative outcome",
+  "candidate_enumerator_brute_force_check": {
+    "all_sets_equal": true,
+    "modulus_range_inclusive": [
+      2,
+      99
+    ],
+    "residue_modulus_pairs_tested": 4949,
+    "transcript_sha256": "3e328f1f5cc655a0a14566a19ab61d80b4c69c68d50fcddd20e7afdd66496727"
+  },
+  "claim_boundary": "This PASS certifies independent reproducibility of the displayed finite-field normalizations and bounded M70/fresh-audit computation. The computation stops the present rational-reconstruction route: it does not assemble QQ multipliers, prove QQ membership, compute a colon or saturation, establish residual dimension 114, close the secant chart, prove nullcone containment, or prove HC4.",
+  "dimensions": {
+    "common_minor_nonzero_count": 13892,
+    "common_minor_shape": [
+      2053,
+      2053
+    ],
+    "coordinates_classified": 38048,
+    "integer_koszul_matrix_shape": [
+      2053,
+      38048
+    ],
+    "integer_koszul_nonzero_count": 154939
+  },
+  "fresh_audit_replay": {
+    "ambiguous_sets_reduced_to_one": 0,
+    "ambiguous_sets_reduced_to_zero": 0,
+    "ambiguous_sets_remaining_multiple": 0,
+    "audit_decision_text_stream_sha256": "00f55ee05a0a89efbdbbfa797c19642fd51696592d544e228aa3c5a6a76dc388",
+    "audit_denominator_failures": 0,
+    "audit_survivor_record_count": 18290,
+    "audit_survivor_records_sha256": "12f11a2dd5dc08e3dd117597302d769e0a110a94bb5a33b0ef3a8dc1332d6695",
+    "audit_survivor_text_stream_sha256": "e6a9f6fec1468e9092f68f93940d58d61c0abe38fba092d0be197e8fb1649b16",
+    "candidates_rejected": 8,
+    "candidates_surviving": 18290,
+    "candidates_tested": 18298,
+    "characteristic": 2147482867,
+    "coordinates_with_primary_survivors": 18298,
+    "full_fresh_audit_payload_exactly_matches_producer": true,
+    "primary_commitment_after_audit_sha256": "251d387e4d641ae995fd9b95758e78b0fa28db4e3792685ef0be65c25d3d8a85",
+    "primary_commitment_before_audit_sha256": "251d387e4d641ae995fd9b95758e78b0fa28db4e3792685ef0be65c25d3d8a85",
+    "primary_counts_or_U_changed": false,
+    "primary_no_candidate_rescued": false,
+    "primary_unique_candidate_rejected_coordinates": [
+      7651,
+      9478,
+      11678,
+      15642,
+      27227,
+      27928,
+      29343,
+      30173
+    ],
+    "primary_unique_candidates_rejected": 8
+  },
+  "hashes": {
+    "census_producer_sha256": "6c09d24f9ef3962b1d677c38b34521be20fb4fb3f13dd34c12f270920beccb44",
+    "census_receipt_sha256": "7bb84b8e56df2e68fc4989cf22fc538d8660a5888d7ed0a6eac692512e69367c",
+    "fixed_integer_B_sha256": "6a714331ff3baeecae05174084ed404cb0687005ab9539971818a38489b9046b",
+    "fixed_sparse_decimal_B_sha256": "e6aa785a1218c4bad9461222274859c22579174aa028ad076f53b0df50e2cbe9",
+    "fresh_audit_identity_telemetry_sha256": "c0034711d93855a51abef069b31751a545bac2c8e8adec2b5c60137fdf37be1a",
+    "independent_fresh_audit_payload_sha256": "4a21ba76ce5426d37e406a53824f7bba3a6ba0130e6ee3607ee2d6f1c9d96e95",
+    "independent_primary_payload_sha256": "d1ecd6baade5fd25e2e5e620cb75403de265163dcd63ef031c15e6afab4c8e98",
+    "independent_source_sha256": "720235889f7c1cf1305c4d9f00881ed24ba980f83a330cdcaa3b1e0e9d0267ec",
+    "integer_koszul_stream_sha256": "bf22711579d285ebcafd81b95f20b9b7193c360c360452feb6de67e74e30d856",
+    "normalization_producer_sha256": "fdbed62134385b5412474cd40e70e25a69eea9c5284a6a06dc99ecc121c4d57e",
+    "normalization_receipt_sha256": "3c2f2ac3b2a0c98bb279e90a1fffe8aea68f8c8c4db85e15ced673d50648946e",
+    "ordered_R197_sha256": "dfb318fa370a3bc01bf4013d760c8ffdfff61c695caeee2ec7151f91dd212164",
+    "preregistration_sha256": "b203a118b302c50394a0188501e32d12cc077c85fca2b1513bed770f59a112f8",
+    "primary_commitment_sha256": "251d387e4d641ae995fd9b95758e78b0fa28db4e3792685ef0be65c25d3d8a85"
+  },
+  "independence_boundary": {
+    "CRT_implementation": "local direct CRT basis and reduction",
+    "all_six_source_and_normalized_identities_directly_replayed": true,
+    "candidate_implementation": "local ordinary Euclidean continued-fraction enumeration",
+    "fresh_audit_allowed_to_modify_primary_stream": false,
+    "integer_koszul_rows_reconstructed_from_frozen_algebra": true,
+    "normalization_or_census_producer_imported_or_executed": false,
+    "producer_helpers_imported": false,
+    "producer_schema_and_text_stream_wire_format_adapted": true,
+    "rank_determinant_and_solve_implementation": "local sparse Gaussian elimination with shortest-row pivoting and back substitution",
+    "small_modulus_brute_force_implementation": "literal denominator and residue enumeration",
+    "stopped_normalizer_imported_or_executed": false
+  },
+  "interpretation": {
+    "U": 19750,
+    "band": "route_stop",
+    "next_route": "forbid QQ assembly; audit falsified at least one primary unique candidate"
+  },
+  "mathematical_route_outcome": "FRESH_AUDIT_FALSIFIED_PRIMARY_CANDIDATE",
+  "normalization_prime_records": [
+    {
+      "alpha_sha256": "9316f7bcf69d1d59505965d9b4433b7ea2b27bb799aff2db9e8a02e947fb3b1d",
+      "determinant_residue": 36,
+      "difference_vector_sha256": "9acb8a4af0e2fc1e8cca46c7fdca6a11a982f64ca4d80dc4fe41ef50509a4d92",
+      "direct_normalized_identity_replay": true,
+      "direct_source_identity_replay": true,
+      "minor_nonzero_count": 13892,
+      "normalized_support_count": 20413,
+      "normalized_vector_sha256": "6d408a5e22fb0af18b948c81c35baedd5e3daa0663036e089a68eb465edce187",
+      "prime": 181,
+      "rank": 2053,
+      "solve_telemetry": {
+        "algorithm": "local sparse Gaussian elimination with shortest-row pivoting and back substitution",
+        "coefficient_update_count": 4277038,
+        "initial_nonzero_count": 13892,
+        "maximum_sampled_nonzero_count": 87148,
+        "maximum_sampled_row_length": 331,
+        "row_swap_count": 1364
+      },
+      "source_artifact_sha256": "e9841fee4f75e60adef26a8b10878b35f6db48e6d0a21876b197d7cbdef2064b"
+    },
+    {
+      "alpha_sha256": "acdd8c8456d0d2a17f726f200aa673fefde4f86025ee20b394b73e87cf06a16e",
+      "determinant_residue": 29,
+      "difference_vector_sha256": "6ec2874aacf181884041217ec0907a27df415f6d7e72dace3e023eb0babfaac4",
+      "direct_normalized_identity_replay": true,
+      "direct_source_identity_replay": true,
+      "minor_nonzero_count": 13892,
+      "normalized_support_count": 20415,
+      "normalized_vector_sha256": "f92d96bd078b2b98d1cf461b99f5f984b347a796652f9747bb1cfde024d04b16",
+      "prime": 173,
+      "rank": 2053,
+      "solve_telemetry": {
+        "algorithm": "local sparse Gaussian elimination with shortest-row pivoting and back substitution",
+        "coefficient_update_count": 4517086,
+        "initial_nonzero_count": 13892,
+        "maximum_sampled_nonzero_count": 88693,
+        "maximum_sampled_row_length": 324,
+        "row_swap_count": 1355
+      },
+      "source_artifact_sha256": "b434b3103e253d22e3f751196ec32b91fa6fc73a6f6d72414222453e4971043c"
+    },
+    {
+      "alpha_sha256": "15d3d41d810349f65bb038edc21f40c2d10921f29dcedf74884fb2c01caa9d5b",
+      "determinant_residue": 189,
+      "difference_vector_sha256": "27811dfddff977d2d072cc1cd0e660372fee8fe49b6730e5c1676ed52bb68c91",
+      "direct_normalized_identity_replay": true,
+      "direct_source_identity_replay": true,
+      "minor_nonzero_count": 13892,
+      "normalized_support_count": 20429,
+      "normalized_vector_sha256": "b3e39b3ace5980d7d3d5ebc9572b51b52a0f037d3d82e78ae475afeea6e61912",
+      "prime": 197,
+      "rank": 2053,
+      "solve_telemetry": {
+        "algorithm": "local sparse Gaussian elimination with shortest-row pivoting and back substitution",
+        "coefficient_update_count": 4431976,
+        "initial_nonzero_count": 13892,
+        "maximum_sampled_nonzero_count": 90179,
+        "maximum_sampled_row_length": 332,
+        "row_swap_count": 1348
+      },
+      "source_artifact_sha256": "f199970f9ca6860b57a8dd89f5d23da084a5fe85a146ca353259d958e1b38272"
+    },
+    {
+      "alpha_sha256": "ef605112faab37292126a84bd69632db82a87e57608f0ba8d4550821852dd48f",
+      "determinant_residue": 871649855,
+      "difference_vector_sha256": "a68983e1bd854d52611cf12fd4b5d625a79d1b5da822771036f237695bb07c94",
+      "direct_normalized_identity_replay": true,
+      "direct_source_identity_replay": true,
+      "minor_nonzero_count": 13892,
+      "normalized_support_count": 20531,
+      "normalized_vector_sha256": "b38ad4e85ba1c1f47876bc3418b55940684be76eda68dd68121515a207bc9d7f",
+      "prime": 2147483647,
+      "rank": 2053,
+      "solve_telemetry": {
+        "algorithm": "local sparse Gaussian elimination with shortest-row pivoting and back substitution",
+        "coefficient_update_count": 4307190,
+        "initial_nonzero_count": 13892,
+        "maximum_sampled_nonzero_count": 86999,
+        "maximum_sampled_row_length": 330,
+        "row_swap_count": 1333
+      },
+      "source_artifact_sha256": "a5a6027afc33afd5374f77b7e72dc945bf1c055e0ce79941d077b04445ca21ad"
+    },
+    {
+      "alpha_sha256": "74434c9432e2fee6be9c5af5cf7a183974a94ff57ffd0290e74c45efc90a0f75",
+      "determinant_residue": 948952615,
+      "difference_vector_sha256": "51ef62ceb14b7c50e87bd2e04255d87150950c43a07082ef6cb6f9b885e941bf",
+      "direct_normalized_identity_replay": true,
+      "direct_source_identity_replay": true,
+      "minor_nonzero_count": 13892,
+      "normalized_support_count": 20531,
+      "normalized_vector_sha256": "4df734fc0d15279570eeddd985af0f098b1b73799dbf25c4950534da647effe9",
+      "prime": 2147483629,
+      "rank": 2053,
+      "solve_telemetry": {
+        "algorithm": "local sparse Gaussian elimination with shortest-row pivoting and back substitution",
+        "coefficient_update_count": 4307190,
+        "initial_nonzero_count": 13892,
+        "maximum_sampled_nonzero_count": 86999,
+        "maximum_sampled_row_length": 330,
+        "row_swap_count": 1333
+      },
+      "source_artifact_sha256": "2b9ed0814159eb6ce3d96e45904e991d3e281f2c0cadd1df008180d35eac6a90"
+    },
+    {
+      "alpha_sha256": "901cd0ca42ee08dceef5eec1afa50a02a04f446a218f66bd6eccd85c35b659c7",
+      "determinant_residue": 1119675462,
+      "difference_vector_sha256": "e2d1cf0a06cd2562d2d887dd8108faae05c0fe9d2bcd7de2235baca3e6f7851f",
+      "direct_normalized_identity_replay": true,
+      "direct_source_identity_replay": true,
+      "minor_nonzero_count": 13892,
+      "normalized_support_count": 20531,
+      "normalized_vector_sha256": "a0605a4cd0628d615bcb60d4b29317cdae536191180416ab210b5ffab8991815",
+      "prime": 2147482867,
+      "rank": 2053,
+      "solve_telemetry": {
+        "algorithm": "local sparse Gaussian elimination with shortest-row pivoting and back substitution",
+        "coefficient_update_count": 4307190,
+        "initial_nonzero_count": 13892,
+        "maximum_sampled_nonzero_count": 86999,
+        "maximum_sampled_row_length": 330,
+        "row_swap_count": 1333
+      },
+      "source_artifact_sha256": "101c4679e8c0512ccc00682107283c9add82a019476ab5a7bf9e586b41c9512f"
+    }
+  ],
+  "primary_replay": {
+    "U_no_candidate_plus_ambiguous": 19750,
+    "candidate_count_histogram": {
+      "1": 17518,
+      "10": 59,
+      "11": 65,
+      "12": 55,
+      "13": 49,
+      "14": 59,
+      "15": 52,
+      "16": 31,
+      "17": 21,
+      "18": 30,
+      "19": 25,
+      "2": 5,
+      "20": 65,
+      "21": 126,
+      "22": 248,
+      "23": 432,
+      "24": 699,
+      "25": 1081,
+      "26": 1371,
+      "27": 1771,
+      "28": 2113,
+      "29": 2221,
+      "3": 29,
+      "30": 2101,
+      "31": 1950,
+      "32": 1625,
+      "33": 1318,
+      "34": 890,
+      "35": 635,
+      "36": 453,
+      "37": 265,
+      "38": 169,
+      "39": 102,
+      "4": 20,
+      "40": 56,
+      "41": 35,
+      "42": 14,
+      "43": 6,
+      "44": 3,
+      "46": 2,
+      "48": 1,
+      "5": 28,
+      "6": 43,
+      "7": 81,
+      "8": 66,
+      "9": 60
+    },
+    "final_survivor_count_histogram": {
+      "0": 19750,
+      "1": 18298
+    },
+    "full_primary_payload_exactly_matches_producer": true,
+    "hashes": {
+      "candidate_count_vector_sha256": "0044de2d9981a44f6adbfeda15d1f39603e0d927b35d38d01face616e85625e6",
+      "combined_crt_residue_vector_sha256": "11067269646fe853cab5bc218ddd2a0fc2a2d975c2fb94b1fc00dd6a53070206",
+      "complete_candidate_text_stream_sha256": "257b8c59dbbee1fad3a403fbe90a7a6e2a1227d45297028346550648f7335e45",
+      "coordinates_by_outcome_sha256": {
+        "ambiguous": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "no_candidate": "092ef138ad05daa6223377912cb02f4c1c48928a1fd0fc9a205fa9d128186b36",
+        "unique_nonzero": "67c6b5b620e981d8aae7b6b68c63c843b1625e352685a84a293a6aeabc6697ae",
+        "unique_zero": "672c31bdd2cd5edfe7b27e8353bb7ecdf48a0ebbb46a13a76ac6a876c2ea9440"
+      },
+      "extended_euclid_step_count_vector_sha256": "9677df089039710c452ae8e5b74cd22682d89effe87d142db0430bf4bdf0eda1",
+      "final_survivor_text_stream_sha256": "38021bb78d281288e45b481b6d08f908f1e7be0ad34ceaa29eef836701d42b28",
+      "nonempty_survivor_records_sha256": "9f8f4b776c3902c48d5b9986e23f18b762dfdc4b8ffa48009c6f0d0c3622a898",
+      "outcome_label_vector_sha256": "ea3eb714fa893f3c1c8833a4e25233d1701428f63fb24bd857fd24db87f19d54",
+      "outcome_text_stream_sha256": "75ce95167b508311c8edadad6994d8006763a1b5c9f1e9fa9eaae37deadcf6da",
+      "selector_survivor_count_vector_sha256": {
+        "173": "3e439791bdb842b9f08807ccda1521a97e194b26318191a6b5a9836d3b61e0b8",
+        "197": "889dfbc1839dab74332f5c2bcc1e77713a64b73806edb797e513a28ee7d2af4c"
+      },
+      "selector_survivor_text_stream_sha256": {
+        "173": "719b956c2371e02661c0977bfd6dd92308b8661dc1f98d8ef789f990cb1c30ef",
+        "197": "38021bb78d281288e45b481b6d08f908f1e7be0ad34ceaa29eef836701d42b28"
+      },
+      "unique_candidate_height_records_sha256": "972521ad6669ccc17eff53ca7e423d7a85734877f0476b06789125f9c566a5b7"
+    },
+    "maximum_unique_candidate_height_profile": {
+      "absolute_numerator_bit_length": 51,
+      "coordinate": 27928,
+      "denominator_bit_length": 19,
+      "numerator": "-1202831093002909",
+      "positive_denominator": "319256",
+      "twice_absolute_product": "768022086855473431408",
+      "twice_product_bit_length": 70
+    },
+    "outcome": {
+      "ambiguous": 0,
+      "no_candidate": 19750,
+      "unique_nonzero": 781,
+      "unique_zero": 17517
+    },
+    "selector_characteristics": [
+      173,
+      197
+    ],
+    "source_characteristics": [
+      181,
+      2147483647,
+      2147483629
+    ],
+    "source_modulus": "834715161561466408303",
+    "source_modulus_bit_length": 70,
+    "total_candidates_before_selectors": 608744,
+    "total_extended_euclid_steps": 822060
+  },
+  "reproduction_checks": {
+    "all_primary_candidate_and_height_records_exactly_equal": true,
+    "all_primary_classifications_and_large_vectors_exactly_equal": true,
+    "all_primary_output_stream_hashes_reproduced": true,
+    "all_six_direct_macaulay_replays_pass": true,
+    "all_six_koszul_differences_reproduced": true,
+    "all_six_minor_ranks_determinants_and_solves_reproduced": true,
+    "fresh_audit_decision_and_survivor_hashes_reproduced": true,
+    "fresh_audit_survivor_records_exactly_equal": true,
+    "no_QQ_multiplier_assembled": true,
+    "primary_commitment_unchanged_by_one_way_audit": true,
+    "resource_and_zero_swap_gates_pass": true,
+    "route_stop_interpretation_reproduced": true
+  },
+  "resources": {
+    "maximum_rss_native": 246464512,
+    "process_swap_cap": 0,
+    "process_swaps": 0,
+    "rss_cap_bytes": 1500000000,
+    "system_cpu_seconds": 0.8952129999999999,
+    "total_wall_seconds": 58.25973099999828,
+    "user_cpu_seconds": 53.76909,
+    "wall_cap_seconds": 240.0
+  },
+  "retained_operational_failures": [
+    {
+      "path": "receipts/hsop-j2-secant-r10-third-colon-koszul-p197-common-minor-normalization-independent-audit-failed-telemetry-gate.json",
+      "role": "retained fail-closed operational evidence; not part of the PASS route",
+      "sha256": "ae5ad167e9fef4734fbd99067098b477f2a12946366b70f621bcd5522dc54f7c"
+    },
+    {
+      "path": "receipts/hsop-j2-secant-r10-third-colon-koszul-p197-common-minor-normalization-independent-audit-failed-sage-rss.json",
+      "role": "retained fail-closed operational evidence; not part of the PASS route",
+      "sha256": "771c36669f43fea9807501685a69c7e9293bbef3601b7f6aabc70982b1874d8e"
+    },
+    {
+      "path": "receipts/hsop-j2-secant-r10-third-colon-koszul-p197-common-minor-independent-audit-failed-census-resource-adapter.json",
+      "role": "retained fail-closed operational evidence; not part of the PASS route",
+      "sha256": "3f5a1fba63ab2e428dd5cb15802cecbb37dccc46b371fc3d3e41603b7fb698b4"
+    }
+  ],
+  "schema": "hc4.third-colon-koszul-p197-common-minor-independent-audit.v1",
+  "status": "PASS_INDEPENDENT_REPLAY_OF_NEGATIVE_COMMON_MINOR_CENSUS"
+}

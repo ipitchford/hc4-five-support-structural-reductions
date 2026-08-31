@@ -1,0 +1,60 @@
+{
+  "claim_boundary": "A two-digit PASS is finite p-adic evidence for four fixed canonical residual sections. It is not a general QQ identity, colon, saturation, secant, nullcone, or HC4 theorem.",
+  "implementation_freeze": {
+    "path": "receipts/hsop-j2-secant-r10-p181-sparse4-two-digit-lift-implementation-freeze.json",
+    "sha256": "ae7bdf6558c2b08dc98a1a5ba75f0c6df81b4dfd238a18249721353821834774"
+  },
+  "producer_status": "FAIL_P181_SPARSE4_TWO_DIGIT_LIFT",
+  "promoted": {
+    "artifact": {
+      "builder.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "builder.stdout.txt": "b9ce7009dd7882f12dbc6c6c8396fa77947d24a0555d0ba1cc9f1b08ff5d22fa",
+      "integral/A_Z_b4_Z_coefficient_primitive.i64csr": "94dc88f592c4a41630ae51f04fffe8f6b64d696dace5a14e49e46392d159be3e",
+      "integral/A_mod181_coefficient_primitive.csr": "2207744adde8f96a7d835fc078ffd188ce33814f2db880e1aef9b8a47b09a6ef",
+      "integral/digit_00_sparse4_row_major.u8": "51c818f61ab52abacb62deedd1abe336d99646d9b52f28384491af5694aa5e38",
+      "integral/integral-system.json": "3bb3b9d5e8c2a58c255f660c0fd9de2a765188f4930450181a6a95c6a0e8905b",
+      "lift.stderr.txt": "7885fc5bd62287635e0e87d9a5011056b7cfec088687c1bdfe0a5dddfdabb792",
+      "lift.stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer.json": "cb39de761e6f4bc2f94dbd413cf002a387ced824b0f0d4385e4892b7576bfaa7"
+    },
+    "telemetry": {
+      "benchmark.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "benchmark.stdout.txt": "3252dabf3410b67ddfd06e5a1c8dadb7fee9ee6f72e7e77f4af940ec5ca806cc",
+      "benchmark.time.txt": "9e7a3e0c0084d8cc8181c98bb58e9c91d467a08feb03bc25aa23e670799eea16"
+    }
+  },
+  "schema": "hc4.third-colon-p181-sparse4-two-digit-lift-terminal.v1",
+  "status": "FAIL_P181_SPARSE4_TWO_DIGIT_INTEGRITY",
+  "telemetry": {
+    "ancestry_samples": 58,
+    "command": [
+      "/usr/bin/time",
+      "-l",
+      "-o",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-sparse4-two-digit-telemetry-20260831T001/benchmark.time.txt",
+      "/opt/homebrew/bin/gtimeout",
+      "-s",
+      "TERM",
+      "-k",
+      "10s",
+      "600s",
+      "/usr/bin/python3",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/scripts/produce_p181_sparse4_two_digit_lift.py",
+      "--output-dir",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-sparse4-two-digit-20260831T001"
+    ],
+    "external_time": {
+      "maximum_rss_bytes": 323600384,
+      "process_swaps": 0,
+      "raw_sha256": "9e7a3e0c0084d8cc8181c98bb58e9c91d467a08feb03bc25aa23e670799eea16",
+      "real_seconds": 15.91,
+      "system_seconds": 0.41,
+      "user_seconds": 14.17
+    },
+    "return_code": 2,
+    "rss_breach_killed": false,
+    "sampled_descendant_rss_peak_bytes": 329515008,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "3252dabf3410b67ddfd06e5a1c8dadb7fee9ee6f72e7e77f4af940ec5ca806cc"
+  }
+}

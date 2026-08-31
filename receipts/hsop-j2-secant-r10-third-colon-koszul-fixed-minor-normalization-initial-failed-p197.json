@@ -1,0 +1,11 @@
+{
+  "claim_boundary": "No positive normalization or mathematical conclusion is licensed by this failed or incomplete run.",
+  "error": "fixed minor singular at p197",
+  "error_type": "ValueError",
+  "maximum_rss_native": 280592384,
+  "process_swap_delta": 0,
+  "schema": "hc4.third-colon-koszul-fixed-minor-normalization.v1",
+  "source_sha256": "eb672574efc7ec732ebf99e57c90287235017f7399986c813c878ebe8db82e80",
+  "status": "FAIL_CLOSED_FIXED_MINOR_NORMALIZATION",
+  "wall_seconds": 12.109240666992264
+}

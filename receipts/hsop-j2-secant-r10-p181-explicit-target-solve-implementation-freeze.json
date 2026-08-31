@@ -1,0 +1,32 @@
+{
+  "bound_files": {
+    "artifacts/bin/linbox_augmented_nullspace_mod181_target_driver": "9723f17186d89229a8ea3d24181cdc1a4bba5e2be9537bb0ed8d170d3872fa31",
+    "artifacts/third-colon-p181-explicit-target-rhs-v1/target-rhs.json": "8e3b9ec130e86c173d0c16fa56d0203a16fa95d9580b2d693e687224d85b5169",
+    "artifacts/third-colon-p181-explicit-target-rhs-v1/target_rhs_mod181.u8": "72d15610c6630a4d1929029476cb9b01d8494bc502b9b68457674795dcd1c76f",
+    "artifacts/third-colon-p181-target-blind-linbox-benchmark-v2/A_C_mod181_target_free.csr": "2207744adde8f96a7d835fc078ffd188ce33814f2db880e1aef9b8a47b09a6ef",
+    "receipts/hsop-j2-secant-r10-p181-augmented-nullspace-synthetic-solve-independent-audit.json": "67bfc5e6bfddb7d444aec9295b72c0014f48edba4ac7e112401d86d6396fe5cc",
+    "receipts/hsop-j2-secant-r10-p181-augmented-nullspace-synthetic-solve-v1.json": "2e1ba4096dcba2e6ffe985ed37c5010b9e459df585758f1d5e2ec9cdd31370d5",
+    "receipts/hsop-j2-secant-r10-p181-explicit-target-rhs-independent-audit.json": "7793a25d1e14393be25fd26414be7541ab2e009e8dc4bbc39ebc6586d3e83c07",
+    "receipts/hsop-j2-secant-r10-p181-target-blind-linbox-v2-independent-audit.json": "c6bec6f72d7ba5c0792cfe439383d1795ae82160c570148e1b7899807bd81c37",
+    "research/THIRD_COLON_P181_EXPLICIT_TARGET_AUGMENTED_NULLSPACE_SOLVE_PREREGISTRATION.md": "a76c8ad382f81f18e0801ff98c524b0149486f1bb6a63be9c833105b73f0bdd9",
+    "scripts/audit_p181_explicit_target_augmented_nullspace_solve_independent.py": "02e5b3a277a1e0212167f3dc87738e94f7b9c4a42acd4caa3d594e3427c01969",
+    "scripts/linbox_augmented_nullspace_mod181_target_driver.cpp": "65eab558cc34dceba8877f32ea1ecf61baba5e8eefe5d04850d45f51b1383a5c",
+    "scripts/run_p181_explicit_target_augmented_nullspace_solve_gated.py": "09be4af3240a7f6032880d2431c58507ffb40181c3edc60b34af311d3cb1d22b",
+    "scripts/run_p181_target_blind_linbox_rank_gated.py": "a282b31bca01c972ff5d294b64ddca103d2ea6c1c6bab8f6f12ddc7b800b83de"
+  },
+  "canonical_outputs": {
+    "artifact": "artifacts/third-colon-p181-explicit-target-solve-v1",
+    "telemetry": "receipts/telemetry/third-colon-p181-explicit-target-solve-v1",
+    "terminal": "receipts/hsop-j2-secant-r10-p181-explicit-target-solve.json"
+  },
+  "policy": {
+    "coefficient_nonzeros": 1354540,
+    "columns": 35881,
+    "process_swaps_maximum": 0,
+    "rows": 85651,
+    "rss_bytes_maximum": 3758096384,
+    "wall_seconds_maximum": 600
+  },
+  "schema": "hc4.decimic-j2-secant-r10-p181-explicit-target-solve-implementation-freeze.v1",
+  "status": "PASS_P181_EXPLICIT_TARGET_SOLVE_IMPLEMENTATION_FREEZE"
+}

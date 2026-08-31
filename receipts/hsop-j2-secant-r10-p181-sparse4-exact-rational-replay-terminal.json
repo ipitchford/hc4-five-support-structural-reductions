@@ -1,0 +1,54 @@
+{
+  "claim_boundary": "A PASS proves four rational residual syzygies in the fixed chart only; not all 114, the target identity, colon, saturation, secant, nullcone, or HC4.",
+  "implementation_freeze": {
+    "path": "receipts/hsop-j2-secant-r10-p181-sparse4-exact-rational-replay-implementation-freeze.json",
+    "sha256": "b59b3eb7f164fef4851031e62b9cc942cdcca3702ba5a5a5da8cf79d2a0a70cc"
+  },
+  "promoted": {
+    "artifact": {
+      "primitive_common_denominator_vectors.json": "bb9a675e5dec56d6e480edc4b5e0aa31d054c003c9aa099460cd673a71bef9f8",
+      "rational_sparse4_pairs_row_major.json": "242f1d3e14e707a683bcdaad9349dcd0f5412546c63f943127b0f6058fb87720",
+      "replay.json": "329152d5776a4dabec8a74593e488d9c3dc84785897bfe3d9edae5e1a94e57f3"
+    },
+    "telemetry": {
+      "benchmark.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "benchmark.stdout.txt": "394eaddf4a6db423e13ad2b3e9e72566db9ee7ba9b39b55786297196f07ec29e",
+      "benchmark.time.txt": "dad68c2667b125f441ed3d793b18cb620a183da47657def8a131b2a80f7ad58c"
+    }
+  },
+  "schema": "hc4.third-colon-p181-sparse4-exact-rational-terminal.v1",
+  "status": "PASS_P181_SPARSE4_EXACT_RATIONAL_SYSTEM_REPLAY",
+  "telemetry": {
+    "ancestry_samples": 6,
+    "command": [
+      "/usr/bin/time",
+      "-l",
+      "-o",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/sparse4-exact-telemetry-20260831T004/benchmark.time.txt",
+      "/opt/homebrew/bin/gtimeout",
+      "-s",
+      "TERM",
+      "-k",
+      "10s",
+      "300s",
+      "/Users/admin/.local/bin/sage",
+      "-python",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/scripts/reconstruct_p181_sparse4_exact_rational.py",
+      "--output-dir",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/sparse4-exact-20260831T004"
+    ],
+    "external_time": {
+      "maximum_rss_bytes": 85819392,
+      "process_swaps": 0,
+      "raw_sha256": "dad68c2667b125f441ed3d793b18cb620a183da47657def8a131b2a80f7ad58c",
+      "real_seconds": 1.64,
+      "system_seconds": 0.07,
+      "user_seconds": 1.16
+    },
+    "return_code": 0,
+    "rss_breach_killed": false,
+    "sampled_descendant_rss_peak_bytes": 88408064,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "394eaddf4a6db423e13ad2b3e9e72566db9ee7ba9b39b55786297196f07ec29e"
+  }
+}

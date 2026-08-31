@@ -1,0 +1,152 @@
+{
+  "checks": {
+    "all_primitive_coefficients_nonzero": true,
+    "displayed_sum_equals_primitive_j2": true,
+    "primitive_integer_content_one": true,
+    "reciprocal_pair_supports": true,
+    "six_terms": true
+  },
+  "claim_boundary": "this certifies only the open cover used to test j2 radical containment; it proves neither a chart unit nor nullcone containment",
+  "cover_statement_characteristic_zero": "D(j2) is contained in the union of the six D(m_i), because j2=sum_i c_i*m_i and all c_i are nonzero",
+  "finite_characteristic_exceptional_primes": [
+    2,
+    3,
+    5,
+    7
+  ],
+  "finite_characteristic_scope": "the identical six-open argument is valid away from primes annihilating a primitive coefficient",
+  "primitive_coefficients": [
+    2520,
+    -252,
+    56,
+    -21,
+    12,
+    -5
+  ],
+  "primitive_j2": "2520*f0*f10 - 252*f1*f9 + 56*f2*f8 - 21*f3*f7 + 12*f4*f6 - 5*f5^2",
+  "raw_transvectant_content": 10450944000,
+  "schema": "hc4-decimic-j2-open-cover-v1",
+  "source_sha256": {
+    "scripts/certify_j2_open_cover.py": "3fe0adf57325673c0ee29b1d6a64be7c2d60ff6a60e4f1f21c926ae6064b8124",
+    "scripts/reconstruct_decimic_hsop.py": "9b38636937a4e282ae52d50873ccb021baf73a3385ce839a8890b593d9993043",
+    "scripts/scout_decimic_nullcone_hsop.py": "b07062cc86c2f5adf40a0d236648871b54c6ace1403886b51670ed539c425061"
+  },
+  "status": "PASS",
+  "term_count": 6,
+  "terms": [
+    {
+      "chart": "pair_0_10",
+      "coefficient": 2520,
+      "exponent_vector": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "monomial": "f0*f10",
+      "term": "2520*f0*f10"
+    },
+    {
+      "chart": "pair_1_9",
+      "coefficient": -252,
+      "exponent_vector": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "monomial": "f1*f9",
+      "term": "-252*f1*f9"
+    },
+    {
+      "chart": "pair_2_8",
+      "coefficient": 56,
+      "exponent_vector": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "monomial": "f2*f8",
+      "term": "56*f2*f8"
+    },
+    {
+      "chart": "pair_3_7",
+      "coefficient": -21,
+      "exponent_vector": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "monomial": "f3*f7",
+      "term": "-21*f3*f7"
+    },
+    {
+      "chart": "pair_4_6",
+      "coefficient": 12,
+      "exponent_vector": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "monomial": "f4*f6",
+      "term": "12*f4*f6"
+    },
+    {
+      "chart": "pair_5_5",
+      "coefficient": -5,
+      "exponent_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "monomial": "f5^2",
+      "term": "-5*f5^2"
+    }
+  ]
+}

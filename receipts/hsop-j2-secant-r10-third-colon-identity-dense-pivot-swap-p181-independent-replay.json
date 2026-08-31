@@ -1,0 +1,235 @@
+{
+  "assurance": "independent termwise GF(181) replay and gauge-lineage audit; constructor, producer, and eliminators not imported or executed",
+  "characteristic": 181,
+  "claim": "M*h3 = sum_i q_i*G_i over GF(181) in the dense-pivot-swap gauge",
+  "claim_boundary": "A PASS proves only the displayed explicit multiplier identity and the stated gauge exchange over GF(181). It does not prove a QQ identity, validate any transfer-prime artifact, reconstruct rational multipliers, compute a colon or saturation, close the secant chart, or establish HC4.",
+  "construction_lineage": {
+    "scripts/certify_j2_secant_r10_colon_identity_sparse_macaulay.py": {
+      "byte_count": 33913,
+      "sha256": "76ba50cd9cf226ffd07169b4aac619974c35027fa20153136e354263f005c27b"
+    },
+    "scripts/certify_j2_secant_r10_second_colon_identity_sparse_macaulay.py": {
+      "byte_count": 24556,
+      "sha256": "ea20fb8719bb583c424f0cc4e2730b46c7f38e130558fa7e6d2422865fb1af6b"
+    },
+    "scripts/certify_j2_secant_r10_third_colon_identity_sparse_macaulay.py": {
+      "byte_count": 28487,
+      "sha256": "c0e1557c1a18d85af997e24c739d799d58c7d0b655d0662a0215f30e9b42ae74"
+    },
+    "scripts/construct_j2_secant_r10_third_colon_dense_pivot_swap.py": {
+      "byte_count": 24097,
+      "sha256": "b47b42cf599306f4ab426299dfdd3dfe5a516d0249f34446f4858851fa82beff"
+    }
+  },
+  "coordinate_checks": {
+    "coordinate_count": true,
+    "coordinate_hash": true,
+    "coordinate_range": true,
+    "free_coordinates_zero": true,
+    "free_count_sorted_unique": true,
+    "free_hash": true,
+    "pivot_count_unique": true,
+    "pivot_free_partition": true,
+    "pivot_hash": true
+  },
+  "hashes": {
+    "coordinate_vector_sha256": "551d75e2d571ff28b209f40513fcf65031995d6639a94dbb311c39bcdd083c98",
+    "descriptor_stream_sha256": "0f0e46bb94241fa478c6cbdcf33c4472128ad4ed48a8fdaebd88e19028948639",
+    "free_unknown_indices_sha256": "3386466c85b77ce0ecffa5833142475c2906da9d5c8c00c87fc5132b097a163e",
+    "generator_stream_sha256": "4e5ca7f6ed60548f84d6a84a4fa272c044b76be4ab3788b091376bf54f9ada4b",
+    "monomial_stream_sha256": "153dd5ae53908e06fa5b4722c88cdffd823d5705a9a6ab1e8ca6f5f070665614",
+    "old_dense_pivot_indices_sha256": "d87f9ff9ddb60dcc484243294483ff2db0e853de03bdef2e0315a5707c5f76e0",
+    "pivot_unknown_indices_sha256": "e8278d7bb388d7b44066fa3ee363ab9800efe5713de363759e7a3388e33fcbbb",
+    "selected_old_free_indices_sha256": "c4954da2bfe11858af5548be09c4ddeb12744b8f763addabb431d5e355def5e6",
+    "target_sha256": "32e84450b525fce0c9fca7d263e6d73a2b9508811fa4bd7e473002a08ab2c84e"
+  },
+  "input_hash_checks": {
+    "certificate": true,
+    "producer_receipt": true,
+    "second_identity_qq": true,
+    "second_kernel": true,
+    "source_certificate": true,
+    "source_receipt": true,
+    "third_kernel": true
+  },
+  "inputs": {
+    "certificate": {
+      "byte_count": 7536174,
+      "path": "artifacts/j2-secant-r10-third-colon-identity-dense-pivot-swap-p181.json",
+      "sha256": "c3e8c2e8f5bb514a3c53944c93a1051c1264323b11624c237217fde091672c3a"
+    },
+    "producer_receipt": {
+      "byte_count": 18709,
+      "path": "receipts/hsop-j2-secant-r10-third-colon-identity-dense-pivot-swap-p181.json",
+      "sha256": "7765fbec47517b5f90c580b008aa6f3c0352324e23e11dec479d626d781e1798"
+    },
+    "second_identity_qq": {
+      "byte_count": 6885192,
+      "path": "artifacts/j2-secant-r10-second-colon-identity-qq.json",
+      "sha256": "32ffb748a88f59c6c7a1ad98d95beb84d5e3c1cdb1422a724677fca1a4ff5d61"
+    },
+    "second_kernel": {
+      "byte_count": 119487,
+      "path": "artifacts/j2-secant-r10-second-colon-kernel-qq-candidate.json",
+      "sha256": "c41e7c02e7163a0f1a2e71cd7fd5f0d38167b37f3f832019fa069c0ffd2bf37e"
+    },
+    "source_certificate": {
+      "byte_count": 7505861,
+      "path": "artifacts/j2-secant-r10-third-colon-identity-alt-gauge-p181.json",
+      "sha256": "26be0a64574c3cdbe6f7d0c323f9a5e4beb9b8df8e568f9daa054744160bc0a1"
+    },
+    "source_receipt": {
+      "byte_count": 18886,
+      "path": "receipts/hsop-j2-secant-r10-third-colon-identity-alt-gauge-p181.json",
+      "sha256": "fe32cc53e81cf50e6c34881c5c61605938178a366986fae6ce872670aa9ddc6a"
+    },
+    "third_kernel": {
+      "byte_count": 141257,
+      "path": "artifacts/j2-secant-r10-third-colon-kernel-qq-candidate.json",
+      "sha256": "b7f37502a3b4a11739fe4e1e47746af68b2a8cc66cb18302bfe729927ed65b97"
+    }
+  },
+  "internal_hash_checks": {
+    "second_certificate_hash": true,
+    "second_problem_hash": true
+  },
+  "lineage_checks": {
+    "artifact_dependencies_match_current_files": true,
+    "artifact_receipt_dependencies_agree": true,
+    "quartic_metadata_preserved": true,
+    "receipt_dependencies_match_current_files": true
+  },
+  "lineage_file_checks": {
+    "scripts/certify_j2_secant_r10_colon_identity_sparse_macaulay.py": true,
+    "scripts/certify_j2_secant_r10_second_colon_identity_sparse_macaulay.py": true,
+    "scripts/certify_j2_secant_r10_third_colon_identity_sparse_macaulay.py": true,
+    "scripts/construct_j2_secant_r10_third_colon_dense_pivot_swap.py": true
+  },
+  "metadata_checks": {
+    "certificate_schema": true,
+    "character_metadata": true,
+    "character_stream_metadata": true,
+    "characteristic": true,
+    "degree_metadata": true,
+    "gauge_source_null": true,
+    "generator_count": true,
+    "variable_names": true
+  },
+  "producer_binding_checks": {
+    "receipt_certificate_bytes": true,
+    "receipt_certificate_hash": true,
+    "receipt_certificate_path": true,
+    "receipt_characteristic": true,
+    "receipt_dimensions": true,
+    "receipt_replay": true,
+    "receipt_status": true
+  },
+  "replay": {
+    "checked_equation_count": 85651,
+    "first_mismatch": null,
+    "identity_zero": true,
+    "method": "fresh direct sparse convolution and coefficientwise comparison",
+    "mismatch_count": 0,
+    "multiplier_coordinate_count": 38048,
+    "multiplier_term_counts": [
+      479,
+      759,
+      724,
+      904,
+      1089,
+      1243,
+      1384,
+      1547,
+      1667,
+      1631,
+      1632,
+      703,
+      995,
+      1121,
+      1161,
+      1324,
+      1360,
+      286,
+      274
+    ],
+    "nonzero_generator_multiplier_count": 19,
+    "nonzero_multiplier_coordinate_count": 20283,
+    "observed_term_count": 486,
+    "outside_frozen_monomial_count": 0,
+    "target_term_count_mod_181": 486
+  },
+  "resources": {
+    "maximum_rss_native": 182812672,
+    "system_cpu_seconds": 0.082426,
+    "user_cpu_seconds": 4.43806
+  },
+  "schema": "hc4.decimic-j2-secant-r10-third-colon-dense-pivot-swap-p181-independent-replay.v1",
+  "script": {
+    "imports_dense_pivot_constructor": false,
+    "imports_macaulay_producer": false,
+    "imports_sparse_eliminator": false,
+    "path": "scripts/verify_j2_secant_r10_third_colon_dense_pivot_swap_p181.py",
+    "sha256": "f5db566dfd351f3eab68764e0943fade269d35a9dc70429eefc10ff84e92e94c"
+  },
+  "source_binding_checks": {
+    "artifact_source_characteristic": true,
+    "artifact_source_hash": true,
+    "artifact_source_partition_counts": true,
+    "artifact_source_partition_hashes": true,
+    "artifact_source_path": true,
+    "artifact_source_receipt_hash": true,
+    "artifact_source_receipt_path": true,
+    "receipt_source_hashes": true,
+    "receipt_source_paths": true,
+    "source_receipt_artifact_binding": true,
+    "source_receipt_replay": true,
+    "source_receipt_statuses": true
+  },
+  "source_coordinate_checks": {
+    "coordinate_count": true,
+    "coordinate_hash": true,
+    "free_coordinates_zero": true,
+    "free_count_sorted_unique": true,
+    "free_hash": true,
+    "partition": true,
+    "pivot_count_unique": true,
+    "pivot_hash": true
+  },
+  "status": "PASS_INDEPENDENT_EXACT_MODULAR_DENSE_PIVOT_SWAP_REPLAY",
+  "stream_checks": {
+    "descriptor_stream": true,
+    "generator_stream": true,
+    "monomial_stream": true,
+    "target": true
+  },
+  "support_checks": {
+    "support_count": true,
+    "support_matches_every_nonzero_coordinate": true,
+    "support_well_formed": true
+  },
+  "swap_checks": {
+    "all_old_dense_pivots_zero": true,
+    "new_free_set_exact": true,
+    "old_dense_pivots_are_new_free": true,
+    "old_dense_suffix_count": true,
+    "old_dense_suffix_hash": true,
+    "selected_are_new_dense_suffix": true,
+    "selected_are_old_free": true,
+    "selected_count_unique": true,
+    "selected_indices_hash": true,
+    "selected_value_profile": true,
+    "sparse_prefix_preserved": true,
+    "zeroed_count_metadata": true
+  },
+  "timings": {
+    "wall_seconds": 4.352089666994289
+  },
+  "verified_swap_profile": {
+    "new_free_count": 2167,
+    "new_pivot_count": 35881,
+    "nonzero_coordinates": 20283,
+    "old_dense_pivots_checked_zero": 581,
+    "selected_old_free_coordinates": 581,
+    "total_coordinates": 38048
+  }
+}

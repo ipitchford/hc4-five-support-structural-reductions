@@ -1,0 +1,35 @@
+{
+  "schema": "hc4.third-colon-p181-canonical-residual-114-section-implementation-freeze.v1",
+  "status": "PASS_P181_CANONICAL_RESIDUAL_114_SECTION_IMPLEMENTATION_FREEZE",
+  "pre_run_interface_amendment": {
+    "reason": "The first gated invocation stopped before supervision or algebra because the wrapper requires bound_files as a flat path-to-hash map. No canonical or staging output was created.",
+    "rejected_freeze_sha256": "cbab7838081e7d5c0a5641a6db6025c7c22da1a4149141b5838571ddb7c4c328",
+    "scope": "Serialization only; paths, hashes, mathematical protocol, executable, and resource policy are unchanged."
+  },
+  "bound_files": {
+    "research/THIRD_COLON_P181_CANONICAL_RESIDUAL_114_SECTION_PREREGISTRATION.md": "b7466845d9c441196f32600aff2546f8ee3ba2bca823583b67526adbff9b15b7",
+    "scripts/build_p181_canonical_residual_114_rhs.py": "c5c35cd1fa9bf17f0fba4e4bda5f6e7e55422299ac6e9face9df3158ce62de7c",
+    "scripts/linbox_p181_canonical_residual_114_section_driver.cpp": "d7ac4274031a760f9f6d1283ba301686ba57c0a3267ece7bd5bea620f20a31f7",
+    "artifacts/bin/linbox_p181_canonical_residual_114_section_driver": "dd8ae1bb0a7a659f38cbcd1ee1e220dd5a43a6e9454a4531d06649159d41c0c6",
+    "scripts/verify_p181_canonical_residual_114_section.py": "6b7a0470830d5c9bb9f9db44ba2da7a25c18544612d364d91c11f72a74d831a9",
+    "scripts/produce_p181_canonical_residual_114_section.py": "a60f60d221ca3baf039e3ecbde3d8a2c772189751c5e610895223c52898ad145",
+    "scripts/run_p181_canonical_residual_114_section_gated.py": "b9d975a5419ee495c5287c8647276654867abe53687453e354d078fa304999dd",
+    "scripts/run_p181_target_blind_linbox_rank_gated.py": "a282b31bca01c972ff5d294b64ddca103d2ea6c1c6bab8f6f12ddc7b800b83de",
+    "artifacts/third-colon-p181-source-clean-integral-lift-system-v1/A_Z_mod181_fixed_gauge.csr": "eb419a8348852cb784f308ebd32eef682c731bafe77533e3b37ff5241b2228cc",
+    "artifacts/third-colon-p181-target-blind-linbox-gauge-v2/C_piv.u32le": "3a4087b184540be80852650b26aecaddd561a2a866599e660d9359b3415dfed2",
+    "artifacts/j2-secant-r10-third-colon-residual-114-quotient-chart.json": "7ad12483dd5c8429defc3e0c5c8138ded3d344969075ae4afdb15d39d2fb9a74",
+    "artifacts/third-colon-residual-114-p181-72digit-chart-v1/rational_chart.json": "914a21ab8c8556dec7b75737d076472a997a3ccd9d187279e046921ceac813fe",
+    "receipts/hsop-j2-secant-r10-residual-114-p181-72digit-independent-audit.json": "5b70ce49520102483370ba57fde5c97e8c2632267a748cc4611ae69a8429e762"
+  },
+  "canonical_outputs": {
+    "artifact": "artifacts/third-colon-p181-canonical-residual-114-section-v1",
+    "telemetry": "receipts/telemetry/third-colon-p181-canonical-residual-114-section-v1",
+    "terminal": "receipts/hsop-j2-secant-r10-p181-canonical-residual-114-section-terminal.json"
+  },
+  "policy": {
+    "wall_seconds_maximum": 600,
+    "rss_bytes_maximum": 3221225472,
+    "process_swaps_maximum": 0,
+    "rhs_count": 114
+  }
+}

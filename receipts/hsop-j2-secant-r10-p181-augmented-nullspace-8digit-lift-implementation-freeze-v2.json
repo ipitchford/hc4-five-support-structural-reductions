@@ -1,0 +1,33 @@
+{
+  "bound_files": {
+    "artifacts/bin/linbox_augmented_nullspace_mod181_target_driver": "9723f17186d89229a8ea3d24181cdc1a4bba5e2be9537bb0ed8d170d3872fa31",
+    "artifacts/third-colon-p181-explicit-target-solve-v1/solution_mod181.u8": "5c37ce8fda3829baeef36f58002589e289bdd552939f61216b3ce257af456e58",
+    "artifacts/third-colon-p181-source-clean-integral-lift-system-v1/A_Z_b_Z_fixed_gauge.i64csr": "5064cfea27bc16ad9977d651f6215b407e2e3865df3dfc65ad15213b27d5ab8d",
+    "artifacts/third-colon-p181-source-clean-integral-lift-system-v1/A_Z_mod181_fixed_gauge.csr": "eb419a8348852cb784f308ebd32eef682c731bafe77533e3b37ff5241b2228cc",
+    "artifacts/third-colon-p181-augmented-nullspace-8digit-lift-v1/correction_rhs_digit_1.u8": "4ef02fc7aa5d04cc530a078cb90cd7e6d67fd621e491e23e94bd1cc7f2f4a496",
+    "artifacts/third-colon-p181-augmented-nullspace-8digit-lift-v1/digit_1.stdout.txt": "38d4d7cbddf990a9fedcd9f24e45072ab7effaaa23857cabb2247c2726699481",
+    "artifacts/third-colon-p181-augmented-nullspace-8digit-lift-v1/digit_1.u8": "7a1156eb392067a22397e2722119a912002d83ed659dcd8748937c7cd0a9ea7d",
+    "receipts/hsop-j2-secant-r10-p181-augmented-nullspace-8digit-lift.json": "2b803b9aea60e66842ebf9e9d9beb8b7e4f4c513cacacf8af6a3b27e1e46975d",
+    "receipts/hsop-j2-secant-r10-p181-integral-lift-system-independent-audit.json": "5704d3aa864dce04f3f121779634d93eaff5f5ed528b66149249f95ab51fa044",
+    "research/THIRD_COLON_P181_AUGMENTED_NULLSPACE_8DIGIT_LIFT_AMENDMENT_01.md": "834b18f492c2b42a60fff8604c6327ba47dcd305840637face576367cf7634c6",
+    "research/THIRD_COLON_P181_AUGMENTED_NULLSPACE_8DIGIT_LIFT_PREREGISTRATION.md": "e4f1d31a8a26c44120aed04466a28ac1265a5aed515d9ac2327cae041dfa1e0f",
+    "scripts/fixed_p181_dixon_rr.py": "df4af8404cbc151d73fe82aeeb588541e412063d2fcdb2969933e40e21c5329c",
+    "scripts/lift_p181_third_colon_augmented_nullspace_8digits.py": "fca4fd8dc2c8a52e5dcf9d250e98cd5d0c970e53e6144d6f02773195c5587d42",
+    "scripts/run_p181_target_blind_linbox_rank_gated.py": "a282b31bca01c972ff5d294b64ddca103d2ea6c1c6bab8f6f12ddc7b800b83de",
+    "scripts/run_p181_third_colon_augmented_nullspace_8digit_lift_gated.py": "6bce2fc4b89c459ca7d3803598a6b11d891704a1b3005ffb9113aa1d9d06b0ed"
+  },
+  "canonical_outputs": {
+    "artifact": "artifacts/third-colon-p181-augmented-nullspace-8digit-lift-v2",
+    "telemetry": "receipts/telemetry/third-colon-p181-augmented-nullspace-8digit-lift-v2",
+    "terminal": "receipts/hsop-j2-secant-r10-p181-augmented-nullspace-8digit-lift-v2.json"
+  },
+  "policy": {
+    "maximum_total_digits": 8,
+    "process_swaps_maximum": 0,
+    "rss_bytes_maximum": 4294967296,
+    "starts_from_digit_zero_without_partial_reuse": true,
+    "wall_seconds_maximum": 1200
+  },
+  "schema": "hc4.decimic-j2-secant-r10-p181-augmented-nullspace-8digit-lift-implementation-freeze.v2",
+  "status": "PASS_P181_AUGMENTED_NULLSPACE_8DIGIT_LIFT_IMPLEMENTATION_FREEZE_V2"
+}

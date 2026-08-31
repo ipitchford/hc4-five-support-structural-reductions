@@ -1,0 +1,50 @@
+{
+  "claim_boundary": "A PASS proves 18 rational source syzygies and raises the rational quotient lower bound to 22; it is not target membership, colon, saturation, secant, nullcone, or HC4.",
+  "implementation_freeze": {
+    "path": "receipts/hsop-j2-secant-r10-p181-support18-exact-rational-replay-implementation-freeze.json",
+    "sha256": "c3809eddfcd01339113c5285e13bebb6ca1a980385d62c57e232c2d6efa71283"
+  },
+  "promoted": {
+    "artifact": {},
+    "telemetry": {
+      "benchmark.stderr.txt": "64eca5ee9705239135c5ce6b55628f587ee1e2b895c3c143b5101e67dfdaebd6",
+      "benchmark.stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "benchmark.time.txt": "b86ba3d935de3b338777e65d0ab55209e622605d93598b0c3c6127adc271a326"
+    }
+  },
+  "schema": "hc4.third-colon-p181-support18-exact-rational-terminal.v1",
+  "status": "FAIL_P181_SUPPORT18_EXACT_RATIONAL_REPLAY_INTEGRITY",
+  "telemetry": {
+    "ancestry_samples": 3,
+    "command": [
+      "/usr/bin/time",
+      "-l",
+      "-o",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/support18-exact-telemetry-20260831T003/benchmark.time.txt",
+      "/opt/homebrew/bin/gtimeout",
+      "-s",
+      "TERM",
+      "-k",
+      "10s",
+      "300s",
+      "/Users/admin/.local/bin/sage",
+      "-python",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/scripts/reconstruct_p181_support18_exact_rational.py",
+      "--output-dir",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/support18-exact-20260831T003"
+    ],
+    "external_time": {
+      "maximum_rss_bytes": 41320448,
+      "process_swaps": 0,
+      "raw_sha256": "b86ba3d935de3b338777e65d0ab55209e622605d93598b0c3c6127adc271a326",
+      "real_seconds": 0.62,
+      "system_seconds": 0.05,
+      "user_seconds": 0.14
+    },
+    "return_code": 1,
+    "rss_breach_killed": false,
+    "sampled_descendant_rss_peak_bytes": 43974656,
+    "stderr_sha256": "64eca5ee9705239135c5ce6b55628f587ee1e2b895c3c143b5101e67dfdaebd6",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

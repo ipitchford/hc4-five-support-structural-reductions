@@ -1,0 +1,131 @@
+{
+  "branch_results": {
+    "g0_open": {
+      "algorithm": "Singular qstd",
+      "calculation": {
+        "basis_size": "1",
+        "child_system_seconds_immediate_scope": 0.11599999999999999,
+        "child_user_seconds_immediate_scope": 16.886044,
+        "diagnostic_error": false,
+        "forced_group_kill": false,
+        "is_unit": true,
+        "maximum_rss_native_immediate_scope": 55017472,
+        "process_group_terminated": false,
+        "resource_accounting": "wall time authoritative; CPU/RSS counters may omit delegated worker descendants",
+        "return_code": 0,
+        "stderr_tail": "",
+        "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\nBASIS_FIRST\n1\n",
+        "timed_out": false,
+        "unit_remainder": "0",
+        "wall_seconds": 17.114482584001962
+      },
+      "characteristic": 0,
+      "equation_count": 12,
+      "equation_stream_sha256": "0b51ed0e0eea4dbf13148268d2ffe7fde46b94e3c7f205ddcd89bdf5f4ffa5d5",
+      "exact_unit": true,
+      "maximum_total_degree": 5,
+      "singular_source_sha256": "c0658a75518b77863d48fd6c4d349999a4617cfb9d69b3c27ae0bd47c4b66e75",
+      "variable_count": 11,
+      "variable_names": [
+        "g0",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g0inv"
+      ]
+    },
+    "g0_zero": {
+      "algorithm": "Singular qstd",
+      "calculation": {
+        "basis_size": "1",
+        "child_system_seconds_immediate_scope": 0.026092000000000004,
+        "child_user_seconds_immediate_scope": 5.044340000000002,
+        "diagnostic_error": false,
+        "forced_group_kill": false,
+        "is_unit": true,
+        "maximum_rss_native_immediate_scope": 64143360,
+        "process_group_terminated": false,
+        "resource_accounting": "wall time authoritative; CPU/RSS counters may omit delegated worker descendants",
+        "return_code": 0,
+        "stderr_tail": "",
+        "stdout_tail": "UNIT_REMAINDER\n0\nBASIS_SIZE\n1\nBASIS_FIRST\n1\n",
+        "timed_out": false,
+        "unit_remainder": "0",
+        "wall_seconds": 5.096807666996028
+      },
+      "characteristic": 0,
+      "equation_count": 14,
+      "equation_stream_sha256": "aabb12a034857e5c892cbf736c76a0740991830f692d16a798835942a813612f",
+      "exact_unit": true,
+      "maximum_total_degree": 3,
+      "singular_source_sha256": "59d6dcff3f08336e779350e40fac015ca1bb4e62d3213b32740dd5122cfb3692",
+      "variable_count": 11,
+      "variable_names": [
+        "g0",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "f3"
+      ]
+    }
+  },
+  "claim_boundary": "a passing receipt proves exact characteristic-zero emptiness of the tangent top_index=5 stratum via the previously certified torus/sign normalization; the other tangent strata and the secant orbit remain open",
+  "cofactor_identity_verified": true,
+  "compatibility_determinant_degree": 7,
+  "compatibility_determinant_sha256": "ad7617376bc53e51f760cf35ff5b12f66341772c11ab064d556dbf19d86a0fc1",
+  "compatibility_factorization": "Delta=-55296*g0^2*Q",
+  "compatibility_quotient_degree": 5,
+  "compatibility_quotient_sha256": "e26bb2fd83f909ab956ba61ffcbc9f3289ad0f8b145dfdacd2aebbb80b52b9c0",
+  "gauge": "primitive_j2=-5 and f5=1",
+  "gluing_argument": "the g0-open unit gives g0^N in the slice ideal; the g0-zero unit makes g0 invertible modulo that ideal; hence the slice ideal is the unit ideal",
+  "linear_equation_indices": [
+    33,
+    37,
+    38
+  ],
+  "orbit": "tangent",
+  "primitive_j2_on_slice": "-5",
+  "pure_g_equation_indices": [
+    35,
+    36,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52
+  ],
+  "schema": "hc4-decimic-j2-tangent-r5-compatibility-certificate-v1",
+  "source_sha256": {
+    "receipts/residual-orbit-torus.json": "26e5b041383e0689248dc67f93a2831529bd287c74a18c0cc3d3e5a6df81c16e",
+    "scripts/certify_j2_tangent_r5_compatibility.py": "ac558fe198e32876e331d5c75a1f897a9f7daa147ef1c5c013bf8bb92bc9a4a8",
+    "scripts/certify_j2_tangent_r5_rational_slice.py": "0f0e8e474ba150ecc9dcdb7ee5b900fdcb7978aec7f600d7c353d94ff2fc8c2d"
+  },
+  "status": "PASS_EXACT_TANGENT_R5_EMPTY",
+  "substitutions": {
+    "f10": 0,
+    "f4": 0,
+    "f5": 1,
+    "f6": 0,
+    "f7": 0,
+    "f8": 0,
+    "f9": 0
+  },
+  "top_index": 5,
+  "torus_normalization_preconditions_verified": true,
+  "wall_seconds": 26.1645998749882
+}

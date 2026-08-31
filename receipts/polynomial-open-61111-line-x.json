@@ -1,0 +1,35 @@
+{
+  "calculation": {
+    "basis_size": null,
+    "chart": "line_x",
+    "child_system_seconds": 0.031229,
+    "child_user_seconds": 0.053987999999999994,
+    "diagnostic_error": false,
+    "is_unit": false,
+    "maximum_rss_native": 5570560,
+    "mode": "polynomial-open",
+    "return_code": null,
+    "singular_source_sha256": "30ef2d868ce7b0f664eca82cfd420dd2e1a8fb2f13658117978b81d8f0319573",
+    "stderr_tail": "",
+    "stdout_tail": "",
+    "timed_out": true,
+    "unit_remainder": null,
+    "wall_seconds": 1800.0089280419925
+  },
+  "chart": "line_x",
+  "claim_boundary": "function-field units prove generic emptiness only; polynomial-open units prove the normalized five-support chart and leave only the support-collision divisor",
+  "disposition": "TIMEOUT_RETAINED",
+  "equation_build_seconds": 2.66612912499113,
+  "equation_count": 55,
+  "equation_stream_sha256": "d22b122b4beb13322e141a7518891f7fde0dc9b07fdc69b787ae1721e873e39f",
+  "mode": "polynomial-open",
+  "partition": [
+    6,
+    1,
+    1,
+    1,
+    1
+  ],
+  "schema": "hc4-double-conic-five-support-characteristic-zero-v1",
+  "wall_seconds": 1803.009487208008
+}

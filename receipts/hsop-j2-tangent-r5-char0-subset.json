@@ -1,0 +1,63 @@
+{
+  "algorithm": "Singular modStd",
+  "auxiliary_equation_count": 2,
+  "auxiliary_stream_sha256": "037f3a286fbdfd9a71644a5961f09e184ba4b5c360c01ddbf580d5d2ff9e7438",
+  "calculation": {
+    "basis_size": null,
+    "child_system_seconds_immediate_scope": 8.27556,
+    "child_user_seconds_immediate_scope": 1626.543091,
+    "diagnostic_error": false,
+    "forced_group_kill": false,
+    "is_unit": false,
+    "maximum_rss_native_immediate_scope": 148488192,
+    "process_group_terminated": true,
+    "resource_accounting": "wall time authoritative; CPU/RSS counters may omit delegated worker descendants",
+    "return_code": null,
+    "stderr_tail": "",
+    "stdout_tail": "",
+    "timed_out": true,
+    "unit_remainder": null,
+    "wall_seconds": 300.0210214590188
+  },
+  "characteristic": 0,
+  "claim_boundary": "a passing receipt proves emptiness of the normalized tangent r=5 stratum only; the other five tangent strata and the secant orbit remain",
+  "gauge": "primitive_j2=1",
+  "generator_count": 15,
+  "orbit": "tangent",
+  "schema": "hc4-decimic-j2-tangent-r5-char0-subset-v1",
+  "selected_equation_stream_sha256": "5f31d25e99a67a7cacd8cf26aed25fc17aec24287351c3107020b2c70f3fdaf0",
+  "selected_normal_equation_count": 13,
+  "selected_normal_equation_indices": [
+    33,
+    35,
+    36,
+    37,
+    38,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52
+  ],
+  "selection_receipt_sha256": "a7d383323848a84282a4f3d6606077255da9a0c9efad9399e027a30b07379a59",
+  "singular_source_sha256": "1733ed596bced0c71947bff28ebd3e57ac7794b2c8236002af9d19c870714f62",
+  "source_sha256": {
+    "scripts/certify_j2_tangent_r5_subset.py": "44a39e9d2bc9850eae0e8c2b5bf8b0c0d63c89b7a8a7c036a90cb55a23d80eb6",
+    "scripts/scout_j2_tangent_root_stratum.py": "491ed3aa5199ed56030c4dc6c2a71464935f47a0ef54a48b01ad2c8c171b2b51"
+  },
+  "status": "TIMEOUT_RETAINED",
+  "substitutions": {
+    "f10": "0",
+    "f4": "0",
+    "f6": "0",
+    "f7": "0",
+    "f8": "0",
+    "f9": "0"
+  },
+  "top_index": 5,
+  "variable_count": 16,
+  "wall_seconds": 304.21124354199856
+}

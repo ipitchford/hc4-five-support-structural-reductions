@@ -1,0 +1,39 @@
+{
+  "calculation": {
+    "basis_size": null,
+    "child_system_seconds_immediate_scope": 0.35206899999999997,
+    "child_user_seconds_immediate_scope": 58.635341,
+    "diagnostic_error": false,
+    "forced_group_kill": false,
+    "is_unit": false,
+    "maximum_rss_native_immediate_scope": 744226816,
+    "process_group_terminated": true,
+    "resource_accounting": "wall time authoritative; CPU/RSS counters may omit delegated worker descendants",
+    "return_code": null,
+    "stderr_tail": "",
+    "stdout_tail": "",
+    "timed_out": true,
+    "unit_remainder": null,
+    "wall_seconds": 60.021149707987206
+  },
+  "characteristic": 101,
+  "claim_boundary": "a finite-characteristic unit is a route signal for one highest-weight cubic on one fixed residual orbit; it is not characteristic-zero membership, full-family containment, nullcone containment, or HC4",
+  "coefficient_dictionary": "a_i=f_i/binomial(10,i), then primitive integral content",
+  "disposition": "TIMEOUT_RETAINED",
+  "equation_build_seconds": 4.1698346250050236,
+  "family": "V2",
+  "normal_equation_count": 55,
+  "normal_equation_stream_sha256": "897873f70a88c0b2653527b9e9711051e2db42a79608935a4f76810af1598528",
+  "orbit": "tangent",
+  "schema": "hc4.decimic-nullcone-cubic-family-orbit-scout.v1",
+  "singular_source_sha256": "6f7236113aa0505ef72917a7f53886f34f9b4f7760137baeb85d8e42c21d3b4e",
+  "source_sha256": {
+    "receipts/decimic-nullcone-cubic-covariant-identification-corrected-lifts-exact.json": "c56a47363c2ed595fb812b7ed188d3a868668e748beb05e986f3f20953443e47",
+    "scripts/identify_decimic_nullcone_cubic_covariants.py": "a3d866b4297012aa46765efadcafe3e172b819601241ac25ef8c6f84165769e5",
+    "scripts/scout_nullcone_cubic_families.py": "393913597e946b8188518e9247f7238f9da7e24b72444d0634e14aad5cc03795"
+  },
+  "target": "30240*f0*f10*f4 - 12600*f0*f5*f9 + 7392*f0*f6*f8 - 3087*f0*f7**2 - 21168*f1*f10*f3 + 4536*f1*f4*f9 - 1176*f1*f5*f8 + 252*f1*f6*f7 + 9408*f10*f2**2 - 1176*f2*f3*f9 - 224*f2*f4*f8 + 252*f2*f5*f7 - 112*f2*f6**2 + 245*f3**2*f8 - 105*f3*f4*f7 + 14*f3*f5*f6 + 24*f4**2*f6 - 10*f4*f5**2",
+  "target_sha256": "d4f47f30e5f93842fcbb168a313e8664a37aa8d8638df19f6f228d220edb014a",
+  "target_term_count": 18,
+  "wall_seconds": 64.62891808300628
+}

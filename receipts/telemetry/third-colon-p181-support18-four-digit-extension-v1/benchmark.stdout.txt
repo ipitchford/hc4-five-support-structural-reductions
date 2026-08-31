@@ -1,0 +1,1 @@
+{"status": "PASS_P181_SUPPORT18_FOUR_DIGIT_LIFT", "receipt": "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-support18-four-digit-20260831T002/extension.json", "sha256": "aadf3e9d2a11d224969f02d694f446fd565cf5f12ecb65264fdd8e26fb0e2136"}

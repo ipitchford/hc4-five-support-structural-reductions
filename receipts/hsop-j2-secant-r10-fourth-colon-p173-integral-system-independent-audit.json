@@ -1,0 +1,32 @@
+{
+  "bound_hashes": {
+    "digit_zero": "b3842200b63a047f5cc4edf176eb3a29a431bcd88d535917dd96e2d6bd87f355",
+    "integral_system": "a03e09a159af1658ef188ac3182667c87e2c6bfc3e3c24676ced67d5ec71d1d6",
+    "modular_csr": "b051f191d1b4fed8c06899d920a2f3219815619bf78643ab0b0d0d97be930010",
+    "producer": "35c37392e345d0354e1a00b58f0239b2183879601062b92bd37ee7e378154294"
+  },
+  "checks": {
+    "coefficient_reduction_mismatches": 0,
+    "digit_zero_replay_mismatches": 0,
+    "residual_stream_sha256": "9ae331f023a04a6d289e7dffc771e14199ca2751818fb5cf43ff9fa86bc7782e",
+    "zero_modular_entries": 0
+  },
+  "claim_boundary": "This PASS independently certifies the fixed-gauge integer/modular interface and digit-zero replay. It adds no p-adic digit and proves no rational target membership, polynomial identity, colon equality, saturation, nullcone containment, or HC4 theorem.",
+  "declarations": {
+    "builder_not_imported_or_executed": true,
+    "exact_and_modular_formats_parsed_separately": true,
+    "solver_not_executed": true
+  },
+  "dimensions": {
+    "columns": 36587,
+    "nonzeros": 1487624,
+    "rows": 85688
+  },
+  "resources": {
+    "maximum_rss_native": 242352128,
+    "process_swaps": 0,
+    "wall_seconds": 0.5475268749869429
+  },
+  "schema": "hc4.fourth-colon-p173-integral-system-independent-audit.v1",
+  "status": "PASS_INDEPENDENT_P173_FOURTH_COLON_INTEGRAL_SYSTEM_REPLAY"
+}

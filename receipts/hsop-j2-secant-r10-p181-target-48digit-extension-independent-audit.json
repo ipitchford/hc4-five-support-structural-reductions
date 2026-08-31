@@ -1,0 +1,127 @@
+{
+  "bound_hashes": {
+    "frozen_helper": "ca319e3455a70982a9b8c35fe22de3b4a5a5bbcc938cd3737b8e80967dc1d180",
+    "integral": "5064cfea27bc16ad9977d651f6215b407e2e3865df3dfc65ad15213b27d5ab8d",
+    "p36_audit": "af3ece49c0162a9d265c1e59529026161be3a72d96f6124322aaaaef2b4e8fb9",
+    "producer": "ae327ff3454ed303dd38673e8b773e792c9bc4800950526f975af6d2865b6203",
+    "q36": "8c9eec7ec5422a3862b002327533db68476e23679a912cc3d7348d7f356ce610",
+    "q48": "0da7e0273512f06edf59aca0fe1a99200d28836b72f5e11b719b8be711f2a672",
+    "terminal": "708e069b45fe0f2a52bc2842a70e49f119b9d4ca64df47bc070b431bea45e1f7",
+    "x36": "7c03c9b905bfbcd7393de827696a6434e0ca02ed4bd8fb4bb8f59f44d86d005c",
+    "x48": "cb3c64bbea95816fede94e8216d854188b6879f964e1681ec73f025d90895187"
+  },
+  "claim_boundary": "This PASS independently certifies the finite fixed-main p48 lift, height census, and p36-to-p48 stability table only. It is not rational target membership or any colon, saturation, secant, nullcone, or HC4 theorem.",
+  "declarations": {
+    "driver_not_called": true,
+    "no_new_digit": true,
+    "producer_not_imported_or_executed": true,
+    "rational_reconstruction_reimplemented": true,
+    "target_membership_not_claimed": true,
+    "x48_reconstructed_from_x36_and_raw_digits": true
+  },
+  "digit_audits": [
+    {
+      "digit_index": 36,
+      "digit_sha256": "0ffadd47f977a41538e0478ed4f5217cbca20e2b879899cefe99596f44318ce8",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "da16c32d180c0831b72634cdd42a355a8a03459b5855f59615be5b0251688e9b"
+    },
+    {
+      "digit_index": 37,
+      "digit_sha256": "a0e97509ee8be1f83f3902babc86bcd032deaa475f0eb8d1735b18bd1b37bfd4",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "25ae6c451fc248bb900616953a67bfd003c85108afdcc119e7cc31c674c16ffe"
+    },
+    {
+      "digit_index": 38,
+      "digit_sha256": "27954ca89c18ae17f7c317aa53c01d0741f5627013238f579c1f8bf686ed3795",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "5e46807cb69f009c094a9f13081b0030496ad62e22aeb3ebd566ebbd7321b737"
+    },
+    {
+      "digit_index": 39,
+      "digit_sha256": "343117e0128bf091d1368796d447365b2185098eb0a1e633881958f534adbff7",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "55ea5097ac1f0ffe85656f83a3e0875953406598991d8fa04ce7c2aa175bf5ac"
+    },
+    {
+      "digit_index": 40,
+      "digit_sha256": "58f32551c3c7fd3d0a9c356a1159619db589ebfb1816818ea0dde2d8d91beb1d",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "a82f40d13ebc469cbe56716bf4f9371e8913ec82ba4d23e248eb7fb96b91a2fc"
+    },
+    {
+      "digit_index": 41,
+      "digit_sha256": "36d2242e9c348ad41cdf3fd4d2d679376584ced74bd5ffa6593359a5b789b10e",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "f35178ef3676103d3eba4fabecc35750e6c29d89fac97c56348f1632e5ab7e91"
+    },
+    {
+      "digit_index": 42,
+      "digit_sha256": "31b8176fc9a295e247a6a0d907b05aabe88922913434e7751c47a92e07adbd8b",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "f788f89fb485d022dc2e3adb6b63f5ec67955da2d692ff4b912f2dd060b1a6dd"
+    },
+    {
+      "digit_index": 43,
+      "digit_sha256": "de7a1f5e52fbd32b7694659c47d4e958ee4c3ab1cd7eb29f1d44e59d69cf81d8",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "759a42bff893f2ad7141358579f4ce64069a4482a7fe474dcb6658d1097f7c9e"
+    },
+    {
+      "digit_index": 44,
+      "digit_sha256": "54e9ac6a35f53132cc8b4e78d75bb8779666fd5b5f747ba01d0301e134da3955",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "9aacf5c4e1ce855bd7390b6b6240972164caee24c1bf59af214af359a49c2214"
+    },
+    {
+      "digit_index": 45,
+      "digit_sha256": "0e8b8a3a0f77b672f672a9a578358e53ba78d2f07946e7e71f174c6120bd7563",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "3f442ad7a320704f89eb956c693ddf21cca151cb3920b0c3ade6108e29a0588b"
+    },
+    {
+      "digit_index": 46,
+      "digit_sha256": "79ae0d3a4d7ec34189d3a74ab9b127d48a7ff9c1a68d6dbaab95a5dbc6628684",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "181187535099d018bfdee73a40cfef3627b67678671bd0c5ab9db2e428ce6474"
+    },
+    {
+      "digit_index": 47,
+      "digit_sha256": "bb58093778eacc64fca4b317180b8349dbdbec85c7f2c38574408b02c38cc29f",
+      "divisibility_mismatches": 0,
+      "rhs_sha256": "fb37404f81533290f002f029d5b14f074e168895751510e817190c59a13f6189"
+    }
+  ],
+  "lift_checks": {
+    "digit_count": 12,
+    "terminal_integer_invariant_mismatches": 0,
+    "terminal_modulus": "2336531249130909143441308788229011782346361687836762845126948078803015132648043686298443306205036727802827841"
+  },
+  "p36_to_p48_stability": {
+    "p36_nonzero_changed_at_p48": 4465,
+    "p36_nonzero_count": 15959,
+    "p36_nonzero_stable_at_p48": 11460,
+    "p36_nonzero_unresolved_at_p48": 34,
+    "p36_zero_changed_at_p48": 0,
+    "p36_zero_count": 16831,
+    "p36_zero_stable_at_p48": 16831,
+    "p36_zero_unresolved_at_p48": 0
+  },
+  "reconstruction_census": {
+    "coordinate_count": 35881,
+    "equal_height_bound": 1080863369980431232358383769378498933089299074583397320,
+    "maximum_absolute_numerator": 1070452999174713665081558064988014174840405710541182556,
+    "maximum_denominator": 1068503660930163816480071513509037930069322270703790259,
+    "resolved_nonzero_count": 18987,
+    "resolved_zero_count": 16831,
+    "unresolved_count": 63
+  },
+  "resources": {
+    "maximum_rss_native": 183140352,
+    "process_swaps": 0,
+    "wall_seconds": 2.0284246670198627
+  },
+  "schema": "hc4.third-colon-p181-target-48digit-extension-independent-audit.v1",
+  "status": "PASS_INDEPENDENT_P181_TARGET_48DIGIT_LIFT_REPLAY"
+}

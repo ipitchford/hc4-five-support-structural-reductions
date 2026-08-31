@@ -1,0 +1,62 @@
+{
+  "claim_boundary": "A model-falsification PASS preserves only the exact finite p181^18 lift and rejects the frozen denominator models. Any exact rational-system replay still requires independent symbolic replay.",
+  "implementation_freeze": {
+    "path": "receipts/hsop-j2-secant-r10-p181-fixed-block-denominator-18digit-test-implementation-freeze.json",
+    "sha256": "40cfbdaa0943c2dc28f7cd9cce93c173c3c011bc3442db3ed55729be00a9dfc5"
+  },
+  "producer_status": "PASS_P181_18DIGIT_FIXED_DENOMINATOR_MODEL_FALSIFICATION",
+  "promoted": {
+    "artifact": {
+      "X_mod_181_power_18.json": "a8cfad820b9721e0337c736385262360236c6101ffa86f65dfef160231439b13",
+      "correction_rhs_digit_16.u8": "962ddd3a09a8a2b7b0c4c105eb8fa5fa0b0f4ab143dca3248f2d5d187e393729",
+      "correction_rhs_digit_17.u8": "9049b47f02a1c873a419ad2289bd683a5caacb75997a692dae2ec57391dbc78a",
+      "digit_16.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "digit_16.stdout.txt": "ba0a96d3898f7074980ed3a69b93aa0eba15aee7c154a9a073710ca1ad5480ca",
+      "digit_16.u8": "28795f6c6d0eb7c79f05e29c1e9f2903518fad53f703970b6652fd4d5d34def9",
+      "digit_17.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "digit_17.stdout.txt": "ca668f5d1a2fd16160a5d33747964d2622cbae186e9bde716ce7c9104f440510",
+      "digit_17.u8": "4716db4b62b1dee2146d151270ba0bd727ac4a30838bd4be34f3093a5435bea8",
+      "test.json": "13a1eb225dab6c5ecda6c7fc10a5cc4068ad0552765631ee01f66a7d9e3641cf"
+    },
+    "telemetry": {
+      "benchmark.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "benchmark.stdout.txt": "c768e04149917bfb506bcbb1972f4f37d9558e06d445b602f66b4e5c372b2011",
+      "benchmark.time.txt": "a22f6ba74bcc5ae9381b7064da8af70cfeab503fdcf29ed134080562eca63aeb"
+    }
+  },
+  "schema": "hc4.decimic-j2-secant-r10-p181-fixed-block-denominator-18digit-test-terminal.v1",
+  "status": "PASS_P181_18DIGIT_FIXED_DENOMINATOR_MODEL_FALSIFICATION",
+  "telemetry": {
+    "ancestry_samples": 702,
+    "command": [
+      "/usr/bin/time",
+      "-l",
+      "-o",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-fixed-block-denominator-18digit-test-telemetry-20260831T001/benchmark.time.txt",
+      "/opt/homebrew/bin/gtimeout",
+      "-s",
+      "TERM",
+      "-k",
+      "10s",
+      "600s",
+      "/Users/admin/.local/bin/sage",
+      "-python",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/scripts/test_p181_third_colon_fixed_block_denominators_at_18digits.py",
+      "--output-dir",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-fixed-block-denominator-18digit-test-20260831T001"
+    ],
+    "external_time": {
+      "maximum_rss_bytes": 428769280,
+      "process_swaps": 0,
+      "raw_sha256": "a22f6ba74bcc5ae9381b7064da8af70cfeab503fdcf29ed134080562eca63aeb",
+      "real_seconds": 211.91,
+      "system_seconds": 3.43,
+      "user_seconds": 183.77
+    },
+    "return_code": 0,
+    "rss_breach_killed": false,
+    "sampled_descendant_rss_peak_bytes": 499630080,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "c768e04149917bfb506bcbb1972f4f37d9558e06d445b602f66b4e5c372b2011"
+  }
+}

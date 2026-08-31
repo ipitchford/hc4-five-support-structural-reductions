@@ -1,0 +1,309 @@
+{
+  "ambient_ring": "QQ[f3,f4,f5,f6,f7,f8,f10,g0,...,g9,f9]",
+  "assurance": "exact symbolic identity audit over QQ",
+  "branch": "degree_6",
+  "chart": "r=10 and f9*f10*(2*f9^2+5*f10*g0) nonzero",
+  "claim_boundary": "This receipt proves the homogeneous/localized equivalence and four exact unit-linear eliminations. It does not prove I:M^infinity=(1), secant j2 containment, polynomial-open closure, or HC4.",
+  "dehomogenization": "f9=1 recovers the 17 retained affine normal equations",
+  "equation_checks": [
+    {
+      "monomial_total_degrees": [
+        3
+      ],
+      "normal_index": 0,
+      "sha256": "1ca87f2fe984a60991b44929f49631b00757e30f1814d98df037a1affd97eaa7",
+      "term_count": 13
+    },
+    {
+      "monomial_total_degrees": [
+        3
+      ],
+      "normal_index": 1,
+      "sha256": "298ee0ac5e1ef9863134b87d81744f489e7f3290bdfa069e28c148dae05f9357",
+      "term_count": 9
+    },
+    {
+      "monomial_total_degrees": [
+        3
+      ],
+      "normal_index": 2,
+      "sha256": "2fd994cace380184153cac3155ec47fce3675a8e0b9eb30f0fa0fddc6a553071",
+      "term_count": 13
+    },
+    {
+      "monomial_total_degrees": [
+        3
+      ],
+      "normal_index": 3,
+      "sha256": "bcc5c4c218098d77fc1bb40ef063c9f4cd1f2717776856d61785001dee0f8dea",
+      "term_count": 23
+    },
+    {
+      "monomial_total_degrees": [
+        3
+      ],
+      "normal_index": 4,
+      "sha256": "9d5d16c7a8960daeeb55d04ba4a7357d0ac5c6bd48454c0dc55ef1c65aa60c50",
+      "term_count": 32
+    },
+    {
+      "monomial_total_degrees": [
+        3
+      ],
+      "normal_index": 5,
+      "sha256": "fbd9b08148a1828869b1a36e0d354f196589417f4c8dbd0106bd0888897e5554",
+      "term_count": 37
+    },
+    {
+      "monomial_total_degrees": [
+        3
+      ],
+      "normal_index": 6,
+      "sha256": "ccc65bc735bf4f0c355b547a894fa8072af70e2cd0c98bffa4ea644e88b1bd68",
+      "term_count": 40
+    },
+    {
+      "monomial_total_degrees": [
+        3
+      ],
+      "normal_index": 7,
+      "sha256": "dd4a1a3a9bbc902baaa526d34ab553ffdcef7c51cc20330dc2a0c977ec406297",
+      "term_count": 39
+    },
+    {
+      "monomial_total_degrees": [
+        3
+      ],
+      "normal_index": 8,
+      "sha256": "79b3099cc4b6abf19e624afcab857555a6b47ff2a2e29b7d24509d00c5831365",
+      "term_count": 34
+    },
+    {
+      "monomial_total_degrees": [
+        3
+      ],
+      "normal_index": 9,
+      "sha256": "8570e63e9c75b640a14390f40fb5b0f7f186a11fa127102555ab7aeb1066b6c4",
+      "term_count": 20
+    },
+    {
+      "monomial_total_degrees": [
+        3
+      ],
+      "normal_index": 10,
+      "sha256": "ebbe48249b1b087998c840c22130a5f267f0cdbdf015b9833d7e122fe9e67f9e",
+      "term_count": 14
+    },
+    {
+      "monomial_total_degrees": [
+        3
+      ],
+      "normal_index": 12,
+      "sha256": "2d3631f208dae3e832603cff0952e48355b07f866d8afb211cd979610620813c",
+      "term_count": 40
+    },
+    {
+      "monomial_total_degrees": [
+        3
+      ],
+      "normal_index": 14,
+      "sha256": "4b7d95db687616f2b5b86c643fff58d34adca3a42aa5c7fdf11e8e6a70f164b9",
+      "term_count": 65
+    },
+    {
+      "monomial_total_degrees": [
+        3
+      ],
+      "normal_index": 15,
+      "sha256": "f1fceea41bcd02d3c803db2c2207d0c8cfa19d05983784c04c76cb55a886f47a",
+      "term_count": 64
+    },
+    {
+      "monomial_total_degrees": [
+        3
+      ],
+      "normal_index": 16,
+      "sha256": "50725bf69180fb5fe2f0d232dd2fc1ad2a24b4f8eecef0881e462061fc8ac046",
+      "term_count": 59
+    },
+    {
+      "monomial_total_degrees": [
+        3
+      ],
+      "normal_index": 17,
+      "sha256": "34a589a71ed577cdac31f345b86d0150f491c4109b070c0b809e3a9ea739f09f",
+      "term_count": 52
+    },
+    {
+      "monomial_total_degrees": [
+        3
+      ],
+      "normal_index": 18,
+      "sha256": "bb3c5ae4ae1b506be738714b2db4aee4984265c87f92aa291f4f497bb14a44a8",
+      "term_count": 30
+    }
+  ],
+  "equivalent_remaining_test": "I:M^infinity=(1), equivalently M lies in radical(I)",
+  "localized_triangular_reduction": {
+    "eliminated_variable_count": 4,
+    "remaining_generator_count_after_using_pivots": 13,
+    "remaining_normal_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      12,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "remaining_variable_count": 14,
+    "remaining_variables": [
+      "f3",
+      "f4",
+      "f5",
+      "f6",
+      "f7",
+      "f8",
+      "f10",
+      "g0",
+      "g1",
+      "g2",
+      "g3",
+      "g6",
+      "g9",
+      "f9"
+    ],
+    "statement": "Because u is a unit on D(M), the four displayed equations eliminate g4,g5,g7,g8 successively without adding a branch."
+  },
+  "normal_equation_stream_sha256": "ecc10203dd30d6e2bc606d96ac129984c5039dcd5627d767d3ef1a799fccce35",
+  "normal_generator_count": 17,
+  "normal_generator_degree": 3,
+  "open_factor_M": "5*f10**2*f9*g0 + 2*f10*f9**3",
+  "open_factor_factorization": "M=f9*f10*u",
+  "open_factor_sha256": "a07f2e4d8112ddeaeb9d667582c2735600ae0a005e33f29540dd6d20367212e4",
+  "orbit": "secant",
+  "pivot_checks": [
+    {
+      "coefficient": "-16*(5*f10*g0 + 2*f9**2)",
+      "coefficient_scalar_times_u": -16,
+      "depends_on_current_or_later_pivots": [],
+      "depends_on_earlier_pivots": [],
+      "linear_reconstruction_exact": true,
+      "normal_index": 10,
+      "order": 1,
+      "pivot_variable": "g4",
+      "remainder_sha256": "41c86683db8f5a08e452fba1ebe761c8f9e0a174bc05fdcf4430135f80973412",
+      "remainder_term_count": 12,
+      "solution_in_localization": "g4 = -R_10/(-16*u)"
+    },
+    {
+      "coefficient": "-16*(5*f10*g0 + 2*f9**2)",
+      "coefficient_scalar_times_u": -16,
+      "depends_on_current_or_later_pivots": [],
+      "depends_on_earlier_pivots": [
+        "g4"
+      ],
+      "linear_reconstruction_exact": true,
+      "normal_index": 9,
+      "order": 2,
+      "pivot_variable": "g5",
+      "remainder_sha256": "9e339fe715c8a003582cdf24f3679e3348d97d754ab7b30d9f578d2ebcf8f95a",
+      "remainder_term_count": 18,
+      "solution_in_localization": "g5 = -R_9/(-16*u)"
+    },
+    {
+      "coefficient": "16*(5*f10*g0 + 2*f9**2)",
+      "coefficient_scalar_times_u": 16,
+      "depends_on_current_or_later_pivots": [],
+      "depends_on_earlier_pivots": [
+        "g4",
+        "g5"
+      ],
+      "linear_reconstruction_exact": true,
+      "normal_index": 8,
+      "order": 3,
+      "pivot_variable": "g7",
+      "remainder_sha256": "c0461a9969eaeef0a309ba2026920679c68dac36af154076dd5e0642366ee1b3",
+      "remainder_term_count": 32,
+      "solution_in_localization": "g7 = -R_8/(16*u)"
+    },
+    {
+      "coefficient": "16*(5*f10*g0 + 2*f9**2)",
+      "coefficient_scalar_times_u": 16,
+      "depends_on_current_or_later_pivots": [],
+      "depends_on_earlier_pivots": [
+        "g4",
+        "g5",
+        "g7"
+      ],
+      "linear_reconstruction_exact": true,
+      "normal_index": 7,
+      "order": 4,
+      "pivot_variable": "g8",
+      "remainder_sha256": "6e9178d06609c1d169710b37cfc712f2ca9a25603b2ad655c613bf70dbcd55dc",
+      "remainder_term_count": 37,
+      "solution_in_localization": "g8 = -R_7/(16*u)"
+    }
+  ],
+  "pivot_order": [
+    "g4",
+    "g5",
+    "g7",
+    "g8"
+  ],
+  "projective_open_statement": "Proj(V(I)) intersect D(M) is empty",
+  "retained_affine_normal_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "schema": "hc4.decimic-j2-secant-r10-degree6-homogeneous-reduction.v1",
+  "source_sha256": {
+    "scripts/audit_j2_secant_r10_degree6_homogeneous_reduction.py": "efabe1e271d4edbbf52954e00dc8d2779572ce08838f9985cee246faf0ad5a03",
+    "scripts/scout_j2_secant_r10_homogeneous_saturation.py": "8ba0c949784491272323cf2b411b0055c7d81d810513faa5428ed90fe1293a14"
+  },
+  "status": "PASS_EXACT_SECANT_DEGREE6_HOMOGENEOUS_REDUCTION",
+  "u": "5*f10*g0 + 2*f9**2",
+  "variable_count": 18,
+  "variable_names": [
+    "f3",
+    "f4",
+    "f5",
+    "f6",
+    "f7",
+    "f8",
+    "f10",
+    "g0",
+    "g1",
+    "g2",
+    "g3",
+    "g4",
+    "g5",
+    "g6",
+    "g7",
+    "g8",
+    "g9",
+    "f9"
+  ],
+  "wall_seconds": 6.203425915999105
+}

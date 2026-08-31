@@ -1,0 +1,41 @@
+{
+  "checks": {
+    "residual_digit_support_by_column": [
+      126,
+      83,
+      83,
+      83,
+      83,
+      83,
+      83,
+      83,
+      85,
+      83,
+      83,
+      83,
+      83,
+      83,
+      83,
+      85
+    ],
+    "stage_zero_replay_mismatches": 0
+  },
+  "claim_boundary": "A verified first correction RHS only; solvability and lifting through 173^2 remain to be tested.",
+  "inputs": {
+    "c16_mod_p2": "df112fbc555f66c31c645e05ba0bec18552308cf65254797dad0411dfa60ff4c",
+    "integral_matrix": "a03e09a159af1658ef188ac3182667c87e2c6bfc3e3c24676ced67d5ec71d1d6",
+    "stage_zero_solution": "b408ec53bc4a1f348581aca7baeb41167b1d29ddba261959e8647df9f58815c2"
+  },
+  "output": {
+    "bytes": 1371008,
+    "path": "artifacts/fourth-colon-p173-c16-interface-v1/first-lift-rhs.u8",
+    "sha256": "6a5542096293c1c0c91e6785702c7da84c311378cf25f7de31807571e77eff76"
+  },
+  "resources": {
+    "maximum_rss_native": 457785344,
+    "process_swaps": 0,
+    "wall_seconds": 2.6364237500238232
+  },
+  "schema": "hc4.fourth-colon-p173-c16-first-lift-residual.v1",
+  "status": "PASS_FOURTH_COLON_P173_C16_FIRST_LIFT_RESIDUAL"
+}

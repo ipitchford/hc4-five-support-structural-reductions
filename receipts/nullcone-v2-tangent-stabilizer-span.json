@@ -1,0 +1,41 @@
+{
+  "characteristic": 0,
+  "claim": "all three coordinates of the cubic V2 nullcone-generator family lie in the radical of the tangent residual-orbit normal-layer ideal",
+  "claim_boundary": "this is an exact computer-assisted characteristic-zero theorem candidate for the full cubic V2 family on the tangent normal layer; the quartic families, the secant orbit, polynomial-level lifting, and HC4 remain open",
+  "inputs": {
+    "cubic_identification": "receipts/decimic-nullcone-cubic-covariant-identification-corrected-lifts-exact.json",
+    "cubic_identification_sha256": "c56a47363c2ed595fb812b7ed188d3a868668e748beb05e986f3f20953443e47",
+    "highest_coordinate_audit": "receipts/nullcone-v2-tangent-highest-all-strata.json",
+    "highest_coordinate_audit_sha256": "a87eeba469cd3d4fbc34c53ce3a184491112d0152f617c79fcd4be7f9e075e10"
+  },
+  "orbit": {
+    "ambient_irreducible_dimension": 3,
+    "coefficient_count": 3,
+    "coefficient_sha256": [
+      "d4f47f30e5f93842fcbb168a313e8664a37aa8d8638df19f6f228d220edb014a",
+      "12f62121146494d385995e281bb250d29e4c6bcdd8c0f4b70ccaf5649658a983",
+      "5d533671877902e1f6bd9753a4c77f0e9af8a3a95b98c0d73b2ebf5d261330e1"
+    ],
+    "coefficient_term_counts": [
+      18,
+      18,
+      18
+    ],
+    "exact_rank": 3,
+    "orbit_polynomial_sha256": "fe86d46d6dbd6df5bb56dd10167f2f22a1c99d501cc205534abe608880369057",
+    "parameter_degree": 2
+  },
+  "schema": "hc4.decimic-nullcone-v2-tangent-stabilizer-span.v1",
+  "source_sha256": {
+    "scripts/certify_nullcone_v2_tangent_stabilizer_span.py": "de28fbfdc457ca95c79289d7298d59c15be6e533d73870974d0141248f8dde2b",
+    "scripts/scout_nullcone_cubic_families.py": "393913597e946b8188518e9247f7238f9da7e24b72444d0634e14aad5cc03795"
+  },
+  "stabilizer_geometry_reused": {
+    "all_required_checks_pass": true,
+    "binary_action": "(s,t)->(s,t+u*s)",
+    "receipt": "receipts/nullcone-v6-tangent-stabilizer-span.json",
+    "sha256": "dd723519b45fe50f7d23e9d5b663caaf392e8ab5518046f660b5ef16e10cdd2e",
+    "ternary_action": "(x,y,z)->(x,y+u*x,z+2*u*y+u^2*x)"
+  },
+  "status": "PASS_EXACT_TANGENT_V2_FAMILY_RADICAL_CONTAINMENT"
+}

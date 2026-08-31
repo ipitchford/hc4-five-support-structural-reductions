@@ -1,0 +1,38 @@
+{
+  "schema": "hc4.third-colon-p181-target-36digit-extension-freeze.v1",
+  "status": "PASS_P181_TARGET_36DIGIT_EXTENSION_FREEZE",
+  "frozen_at_utc": "2026-08-31T16:06:00Z",
+  "bound_files": {
+    "research/THIRD_COLON_P181_TARGET_36DIGIT_EXTENSION_PREREGISTRATION.md": "3255b13b9fc8bb8a6258c8f0420a2ad157a5da4083f1fef62fe4442ca066d4a0",
+    "scripts/extend_p181_target_to_36digits.py": "19b18432bf9f5414c8d96b825dee42f9231c0148a1610ee72dc90df0f0d004b0",
+    "scripts/run_p181_target_36digit_extension_gated.py": "9b9a506a7b83df3f506a244e02bebe30d3f5e6067f1aa86c7da8bcf9ba0984cc",
+    "scripts/reconstruct_p181_sparse4_exact_rational.py": "49072e53d2ee41073df666e5720e0d25515456fcf7d1fc42559d22fff031e9ff",
+    "scripts/run_p181_target_blind_linbox_rank_gated.py": "a282b31bca01c972ff5d294b64ddca103d2ea6c1c6bab8f6f12ddc7b800b83de",
+    "artifacts/third-colon-p181-source-clean-integral-lift-system-v1/A_Z_b_Z_fixed_gauge.i64csr": "5064cfea27bc16ad9977d651f6215b407e2e3865df3dfc65ad15213b27d5ab8d",
+    "artifacts/third-colon-p181-source-clean-integral-lift-system-v1/A_Z_mod181_fixed_gauge.csr": "eb419a8348852cb784f308ebd32eef682c731bafe77533e3b37ff5241b2228cc",
+    "artifacts/third-colon-p181-target-24digit-extension-v1/X_mod_181_power_24.json": "8ae529279ccdc3fef924199ea78e2a070571254753e1a318beb6852aa61c9d9e",
+    "artifacts/third-colon-p181-target-24digit-extension-v1/terminal_q24.i64le": "9eb6a7295d0b027d8be189b986712870ffb2e24d034d01c3a4d4e112f1421642",
+    "receipts/hsop-j2-secant-r10-p181-target-24digit-extension-independent-audit.json": "27d9f2cbb04b5561496461908b8ff4842a4baff1bb393d228ce191da34de2e04",
+    "artifacts/bin/linbox_augmented_nullspace_mod181_target_driver": "9723f17186d89229a8ea3d24181cdc1a4bba5e2be9537bb0ed8d170d3872fa31"
+  },
+  "selection": {
+    "starting_digits": 24,
+    "new_digit_indices": [24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35],
+    "terminal_digits": 36,
+    "gauge": "fixed_main_35881_coordinates"
+  },
+  "policy": {
+    "wall_seconds_maximum": 2400,
+    "rss_bytes_maximum": 2000000000,
+    "process_swaps_required": 0,
+    "kernel_adjustment_forbidden": true,
+    "denominator_model_forbidden": true,
+    "exact_target_replay_forbidden": true
+  },
+  "canonical_outputs": {
+    "artifact": "artifacts/third-colon-p181-target-36digit-extension-v1",
+    "telemetry": "receipts/telemetry/third-colon-p181-target-36digit-extension-v1",
+    "terminal": "receipts/hsop-j2-secant-r10-p181-target-36digit-extension-terminal.json"
+  },
+  "claim_boundary": "A PASS is a finite fixed-main p36 target lift, height census, and p24-candidate stability diagnostic only. It does not prove rational target membership or any colon, saturation, secant, nullcone, or HC4 conclusion."
+}

@@ -1,0 +1,1976 @@
+{
+  "assurance": "exact rational/integer stream consistency, exact combinatorics, and exact finite-field linear algebra/factorization",
+  "character_modulus": 12,
+  "character_weights": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    5,
+    4,
+    3,
+    2,
+    3,
+    2,
+    1,
+    1,
+    0,
+    11,
+    6
+  ],
+  "characteristic_zero_factor_consequences": {
+    "all_displayed_integer_forms_primitive": true,
+    "all_three_irreducible_over_QQ_by_gauss_lemma": true,
+    "all_three_pairwise_coprime_over_QQ": true,
+    "argument": "A nontrivial factorization of a primitive integer quartic over QQ lifts by Gauss's lemma to primitive positive-degree integer factors. At a prime where total degree is preserved, their nonzero reductions would factor the reduction, contradicting the exact irreducibility audit. Distinct Z/12 characters show the three irreducibles are not scalar associates, hence they are pairwise coprime over QQ.",
+    "degree_four_preserved_at_every_audit_prime": true,
+    "irreducible_reduction_at_every_audit_prime": true,
+    "pairwise_distinct_characters_preclude_associates": true
+  },
+  "claim_boundary": "A PASS proves the displayed exact finite-field rank, orbit, factorization, gcd, and support-incidence statements at the listed primes, plus exact stream/combinatorial identities. It does not prove M*h3 in (I,h,h2), reconstruct identity multipliers over QQ, compute a colon or saturation, close the secant chart, or establish HC4.",
+  "cross_prime_checks": {
+    "all_factor_and_gcd_decisions_pass": true,
+    "degree_four_block_profiles_identical": true,
+    "differential_orbit_decisions_identical": true,
+    "primes": [
+      1073741827,
+      1073742851
+    ]
+  },
+  "degree_four_monomial_counts_by_character": [
+    523,
+    486,
+    473,
+    448,
+    457,
+    455,
+    485,
+    500,
+    535,
+    539,
+    552,
+    532
+  ],
+  "identity_block_combinatorics": {
+    "active_equation_count": 85638,
+    "active_multiplier_coordinate_count": 38047,
+    "active_nonzero_count": 1473058,
+    "components": [
+      {
+        "equation_count": 85638,
+        "nonzero_count": 1473058,
+        "target_bearing": true,
+        "target_term_count": 486,
+        "unknown_count": 38047
+      },
+      {
+        "equation_count": 13,
+        "nonzero_count": 13,
+        "target_bearing": false,
+        "target_term_count": 0,
+        "unknown_count": 1
+      }
+    ],
+    "connected_component_count": 2,
+    "descriptor_stream_sha256": "0f0e46bb94241fa478c6cbdcf33c4472128ad4ed48a8fdaebd88e19028948639",
+    "generator_characters": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      0,
+      1,
+      2,
+      3,
+      7,
+      9,
+      10,
+      11,
+      0,
+      1,
+      4,
+      3
+    ],
+    "generator_count": 19,
+    "generator_degrees": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4
+    ],
+    "inactive_equation_count": 13,
+    "inactive_multiplier_coordinate_count": 1,
+    "matrix_nonzero_count": 1473071,
+    "monomial_stream_sha256": "153dd5ae53908e06fa5b4722c88cdffd823d5705a9a6ab1e8ca6f5f070665614",
+    "multiplier_coordinate_count": 38048,
+    "open_factor_terms": [
+      {
+        "coefficient": 2,
+        "exponents": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      {
+        "coefficient": 5,
+        "exponents": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    ],
+    "per_generator_coordinate_profile": [
+      {
+        "coordinate_start": 0,
+        "coordinate_stop": 2229,
+        "generator_character": 5,
+        "generator_degree": 3,
+        "generator_position": 0,
+        "generator_term_count": 13,
+        "multiplier_character": 10,
+        "multiplier_coordinate_count": 2229,
+        "multiplier_degree": 5
+      },
+      {
+        "coordinate_start": 2229,
+        "coordinate_stop": 4430,
+        "generator_character": 6,
+        "generator_degree": 3,
+        "generator_position": 1,
+        "generator_term_count": 9,
+        "multiplier_character": 9,
+        "multiplier_coordinate_count": 2201,
+        "multiplier_degree": 5
+      },
+      {
+        "coordinate_start": 4430,
+        "coordinate_stop": 6568,
+        "generator_character": 7,
+        "generator_degree": 3,
+        "generator_position": 2,
+        "generator_term_count": 13,
+        "multiplier_character": 8,
+        "multiplier_coordinate_count": 2138,
+        "multiplier_degree": 5
+      },
+      {
+        "coordinate_start": 6568,
+        "coordinate_stop": 8692,
+        "generator_character": 8,
+        "generator_degree": 3,
+        "generator_position": 3,
+        "generator_term_count": 23,
+        "multiplier_character": 7,
+        "multiplier_coordinate_count": 2124,
+        "multiplier_degree": 5
+      },
+      {
+        "coordinate_start": 8692,
+        "coordinate_stop": 10787,
+        "generator_character": 9,
+        "generator_degree": 3,
+        "generator_position": 4,
+        "generator_term_count": 32,
+        "multiplier_character": 6,
+        "multiplier_coordinate_count": 2095,
+        "multiplier_degree": 5
+      },
+      {
+        "coordinate_start": 10787,
+        "coordinate_stop": 12914,
+        "generator_character": 10,
+        "generator_degree": 3,
+        "generator_position": 5,
+        "generator_term_count": 37,
+        "multiplier_character": 5,
+        "multiplier_coordinate_count": 2127,
+        "multiplier_degree": 5
+      },
+      {
+        "coordinate_start": 12914,
+        "coordinate_stop": 15056,
+        "generator_character": 11,
+        "generator_degree": 3,
+        "generator_position": 6,
+        "generator_term_count": 40,
+        "multiplier_character": 4,
+        "multiplier_coordinate_count": 2142,
+        "multiplier_degree": 5
+      },
+      {
+        "coordinate_start": 15056,
+        "coordinate_stop": 17262,
+        "generator_character": 0,
+        "generator_degree": 3,
+        "generator_position": 7,
+        "generator_term_count": 39,
+        "multiplier_character": 3,
+        "multiplier_coordinate_count": 2206,
+        "multiplier_degree": 5
+      },
+      {
+        "coordinate_start": 17262,
+        "coordinate_stop": 19494,
+        "generator_character": 1,
+        "generator_degree": 3,
+        "generator_position": 8,
+        "generator_term_count": 34,
+        "multiplier_character": 2,
+        "multiplier_coordinate_count": 2232,
+        "multiplier_degree": 5
+      },
+      {
+        "coordinate_start": 19494,
+        "coordinate_stop": 21777,
+        "generator_character": 2,
+        "generator_degree": 3,
+        "generator_position": 9,
+        "generator_term_count": 20,
+        "multiplier_character": 1,
+        "multiplier_coordinate_count": 2283,
+        "multiplier_degree": 5
+      },
+      {
+        "coordinate_start": 21777,
+        "coordinate_stop": 24053,
+        "generator_character": 3,
+        "generator_degree": 3,
+        "generator_position": 10,
+        "generator_term_count": 14,
+        "multiplier_character": 0,
+        "multiplier_coordinate_count": 2276,
+        "multiplier_degree": 5
+      },
+      {
+        "coordinate_start": 24053,
+        "coordinate_stop": 26191,
+        "generator_character": 7,
+        "generator_degree": 3,
+        "generator_position": 11,
+        "generator_term_count": 40,
+        "multiplier_character": 8,
+        "multiplier_coordinate_count": 2138,
+        "multiplier_degree": 5
+      },
+      {
+        "coordinate_start": 26191,
+        "coordinate_stop": 28286,
+        "generator_character": 9,
+        "generator_degree": 3,
+        "generator_position": 12,
+        "generator_term_count": 65,
+        "multiplier_character": 6,
+        "multiplier_coordinate_count": 2095,
+        "multiplier_degree": 5
+      },
+      {
+        "coordinate_start": 28286,
+        "coordinate_stop": 30413,
+        "generator_character": 10,
+        "generator_degree": 3,
+        "generator_position": 13,
+        "generator_term_count": 64,
+        "multiplier_character": 5,
+        "multiplier_coordinate_count": 2127,
+        "multiplier_degree": 5
+      },
+      {
+        "coordinate_start": 30413,
+        "coordinate_stop": 32555,
+        "generator_character": 11,
+        "generator_degree": 3,
+        "generator_position": 14,
+        "generator_term_count": 59,
+        "multiplier_character": 4,
+        "multiplier_coordinate_count": 2142,
+        "multiplier_degree": 5
+      },
+      {
+        "coordinate_start": 32555,
+        "coordinate_stop": 34761,
+        "generator_character": 0,
+        "generator_degree": 3,
+        "generator_position": 15,
+        "generator_term_count": 52,
+        "multiplier_character": 3,
+        "multiplier_coordinate_count": 2206,
+        "multiplier_degree": 5
+      },
+      {
+        "coordinate_start": 34761,
+        "coordinate_stop": 36993,
+        "generator_character": 1,
+        "generator_degree": 3,
+        "generator_position": 16,
+        "generator_term_count": 30,
+        "multiplier_character": 2,
+        "multiplier_coordinate_count": 2232,
+        "multiplier_degree": 5
+      },
+      {
+        "coordinate_start": 36993,
+        "coordinate_stop": 37525,
+        "generator_character": 4,
+        "generator_degree": 4,
+        "generator_position": 17,
+        "generator_term_count": 189,
+        "multiplier_character": 11,
+        "multiplier_coordinate_count": 532,
+        "multiplier_degree": 4
+      },
+      {
+        "coordinate_start": 37525,
+        "coordinate_stop": 38048,
+        "generator_character": 3,
+        "generator_degree": 4,
+        "generator_position": 18,
+        "generator_term_count": 211,
+        "multiplier_character": 0,
+        "multiplier_coordinate_count": 523,
+        "multiplier_degree": 4
+      }
+    ],
+    "reduction_conclusion": "discard target-free incidence components before elimination",
+    "small_target_free_components": [
+      {
+        "descriptors": [
+          {
+            "generator_position": 0,
+            "multiplier_exponents": [
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0
+            ],
+            "unknown_index": 2220
+          }
+        ],
+        "equation_count": 13,
+        "equation_monomials": [
+          [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            1,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            2,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            2,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            1,
+            0,
+            2,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            1,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            2,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            2,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            2,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0
+          ]
+        ],
+        "forced_zero_reason": "zero right-hand side on this component and at least one nonzero coefficient in every listed coordinate column",
+        "nonzero_count": 13,
+        "unknown_count": 1
+      }
+    ],
+    "supported_monomial_equation_count": 85651,
+    "target_bearing_component_count": 1,
+    "target_character": 3,
+    "target_degree": 8,
+    "target_primitive_term_count": 486
+  },
+  "interpretation": {
+    "character_sequence": "The characters 4,3,2 are exact, but the two-prime differential-orbit tests reject the simplest interpretation as a first-order linear derivation ladder. The decrement remains a colon-algorithm pattern, not an identified SL2 module structure.",
+    "identity_reduction": "discard target-free incidence components before elimination",
+    "proved_modularly": "At both displayed primes h3 is a new irreducible degree-four character-two class, coprime to h and h2, and it is not generated modulo the cubic degree-four piece by any character-compatible first-order x_a*d/dx_b transforms of h or h2.",
+    "proved_over_QQ": "The three displayed primitive quartics are irreducible and pairwise coprime over QQ by the recorded degree-preserving irreducible reductions and Gauss's lemma."
+  },
+  "modular_audits": [
+    {
+      "characteristic": 1073741827,
+      "degree_four_character_blocks": [
+        {
+          "adjoined_quartics": [],
+          "all_matching_quartics_contribute_new_classes": true,
+          "ambient_monomial_count": 523,
+          "character": 0,
+          "cubic_multiple_rank": 32,
+          "cubic_multiple_row_count": 32,
+          "degree_four_quotient_dimension": 491,
+          "successive_augmented_ranks": [
+            32
+          ]
+        },
+        {
+          "adjoined_quartics": [],
+          "all_matching_quartics_contribute_new_classes": true,
+          "ambient_monomial_count": 486,
+          "character": 1,
+          "cubic_multiple_rank": 32,
+          "cubic_multiple_row_count": 32,
+          "degree_four_quotient_dimension": 454,
+          "successive_augmented_ranks": [
+            32
+          ]
+        },
+        {
+          "adjoined_quartics": [
+            "h3"
+          ],
+          "all_matching_quartics_contribute_new_classes": true,
+          "ambient_monomial_count": 473,
+          "character": 2,
+          "cubic_multiple_rank": 32,
+          "cubic_multiple_row_count": 32,
+          "degree_four_quotient_dimension": 441,
+          "successive_augmented_ranks": [
+            32,
+            33
+          ]
+        },
+        {
+          "adjoined_quartics": [
+            "h2"
+          ],
+          "all_matching_quartics_contribute_new_classes": true,
+          "ambient_monomial_count": 448,
+          "character": 3,
+          "cubic_multiple_rank": 28,
+          "cubic_multiple_row_count": 28,
+          "degree_four_quotient_dimension": 420,
+          "successive_augmented_ranks": [
+            28,
+            29
+          ]
+        },
+        {
+          "adjoined_quartics": [
+            "h"
+          ],
+          "all_matching_quartics_contribute_new_classes": true,
+          "ambient_monomial_count": 457,
+          "character": 4,
+          "cubic_multiple_rank": 25,
+          "cubic_multiple_row_count": 25,
+          "degree_four_quotient_dimension": 432,
+          "successive_augmented_ranks": [
+            25,
+            26
+          ]
+        },
+        {
+          "adjoined_quartics": [],
+          "all_matching_quartics_contribute_new_classes": true,
+          "ambient_monomial_count": 455,
+          "character": 5,
+          "cubic_multiple_rank": 21,
+          "cubic_multiple_row_count": 21,
+          "degree_four_quotient_dimension": 434,
+          "successive_augmented_ranks": [
+            21
+          ]
+        },
+        {
+          "adjoined_quartics": [],
+          "all_matching_quartics_contribute_new_classes": true,
+          "ambient_monomial_count": 485,
+          "character": 6,
+          "cubic_multiple_rank": 20,
+          "cubic_multiple_row_count": 20,
+          "degree_four_quotient_dimension": 465,
+          "successive_augmented_ranks": [
+            20
+          ]
+        },
+        {
+          "adjoined_quartics": [],
+          "all_matching_quartics_contribute_new_classes": true,
+          "ambient_monomial_count": 500,
+          "character": 7,
+          "cubic_multiple_rank": 19,
+          "cubic_multiple_row_count": 19,
+          "degree_four_quotient_dimension": 481,
+          "successive_augmented_ranks": [
+            19
+          ]
+        },
+        {
+          "adjoined_quartics": [],
+          "all_matching_quartics_contribute_new_classes": true,
+          "ambient_monomial_count": 535,
+          "character": 8,
+          "cubic_multiple_rank": 21,
+          "cubic_multiple_row_count": 21,
+          "degree_four_quotient_dimension": 514,
+          "successive_augmented_ranks": [
+            21
+          ]
+        },
+        {
+          "adjoined_quartics": [],
+          "all_matching_quartics_contribute_new_classes": true,
+          "ambient_monomial_count": 539,
+          "character": 9,
+          "cubic_multiple_rank": 22,
+          "cubic_multiple_row_count": 22,
+          "degree_four_quotient_dimension": 517,
+          "successive_augmented_ranks": [
+            22
+          ]
+        },
+        {
+          "adjoined_quartics": [],
+          "all_matching_quartics_contribute_new_classes": true,
+          "ambient_monomial_count": 552,
+          "character": 10,
+          "cubic_multiple_rank": 26,
+          "cubic_multiple_row_count": 26,
+          "degree_four_quotient_dimension": 526,
+          "successive_augmented_ranks": [
+            26
+          ]
+        },
+        {
+          "adjoined_quartics": [],
+          "all_matching_quartics_contribute_new_classes": true,
+          "ambient_monomial_count": 532,
+          "character": 11,
+          "cubic_multiple_rank": 28,
+          "cubic_multiple_row_count": 28,
+          "degree_four_quotient_dimension": 504,
+          "successive_augmented_ranks": [
+            28
+          ]
+        }
+      ],
+      "differential_orbit_tests": {
+        "combined_earlier_orbits_to_h3": {
+          "h3_in_joint_span_mod_cubic_degree_four_piece": false,
+          "quotient_rank_contributed_by_both_families": 73,
+          "rank_with_both_transform_families": 105
+        },
+        "h2_to_h3": {
+          "base_cubic_rank": 32,
+          "character_shift": 11,
+          "descriptor_stream_sha256": "a88508eaed23fab32cb4731720c1bb3012dfde1e4800736ba2982d652d900b3a",
+          "family": "all character-compatible degree-preserving x_a*d/dx_b transforms",
+          "quotient_rank_contributed_by_transform_family": 39,
+          "rank_with_transform_family": 71,
+          "single_transform_hit_count": 0,
+          "single_transform_hits": [],
+          "source": "h2",
+          "source_character": 3,
+          "target": "h3",
+          "target_character": 2,
+          "target_in_joint_span_mod_cubic_degree_four_piece": false,
+          "transform_count": 39
+        },
+        "h_to_h2": {
+          "base_cubic_rank": 28,
+          "character_shift": 11,
+          "descriptor_stream_sha256": "283f7a38e2f16d41a4d3a7c79fbf8bfcaa86457059e4de1c53ab2141331be3e3",
+          "family": "all character-compatible degree-preserving x_a*d/dx_b transforms",
+          "quotient_rank_contributed_by_transform_family": 39,
+          "rank_with_transform_family": 67,
+          "single_transform_hit_count": 0,
+          "single_transform_hits": [],
+          "source": "h",
+          "source_character": 4,
+          "target": "h2",
+          "target_character": 3,
+          "target_in_joint_span_mod_cubic_degree_four_piece": false,
+          "transform_count": 39
+        },
+        "h_to_h3": {
+          "base_cubic_rank": 32,
+          "character_shift": 10,
+          "descriptor_stream_sha256": "1b964b61a84e739d3be5eba393aff8eefcc701740f8d4b7a2520123355449878",
+          "family": "all character-compatible degree-preserving x_a*d/dx_b transforms",
+          "quotient_rank_contributed_by_transform_family": 34,
+          "rank_with_transform_family": 66,
+          "single_transform_hit_count": 0,
+          "single_transform_hits": [],
+          "source": "h",
+          "source_character": 4,
+          "target": "h3",
+          "target_character": 2,
+          "target_in_joint_span_mod_cubic_degree_four_piece": false,
+          "transform_count": 34
+        }
+      },
+      "factorization_and_gcd": {
+        "all_three_irreducible_quartics": true,
+        "all_three_pairs_coprime": true,
+        "factors": {
+          "h": {
+            "factor_count": 1,
+            "factors": [
+              {
+                "multiplicity": 1,
+                "term_count": 189,
+                "total_degree": 4
+              }
+            ],
+            "squarefree_from_factor_multiplicities": true,
+            "unit": 3024,
+            "wall_seconds": 0.0026253749965690076
+          },
+          "h2": {
+            "factor_count": 1,
+            "factors": [
+              {
+                "multiplicity": 1,
+                "term_count": 211,
+                "total_degree": 4
+              }
+            ],
+            "squarefree_from_factor_multiplicities": true,
+            "unit": 648,
+            "wall_seconds": 0.0017516660154797137
+          },
+          "h3": {
+            "factor_count": 1,
+            "factors": [
+              {
+                "multiplicity": 1,
+                "term_count": 248,
+                "total_degree": 4
+              }
+            ],
+            "squarefree_from_factor_multiplicities": true,
+            "unit": 4284,
+            "wall_seconds": 0.0009554169955663383
+          }
+        },
+        "flint_version": "3.6.0",
+        "pairwise_gcds": {
+          "h,h2": {
+            "is_unit": true,
+            "term_count": 1,
+            "total_degree": 0,
+            "wall_seconds": 0.00013025000225752592
+          },
+          "h,h3": {
+            "is_unit": true,
+            "term_count": 1,
+            "total_degree": 0,
+            "wall_seconds": 0.00012570898979902267
+          },
+          "h2,h3": {
+            "is_unit": true,
+            "term_count": 1,
+            "total_degree": 0,
+            "wall_seconds": 0.0001350840029772371
+          }
+        },
+        "python_flint_version": "0.9.0",
+        "requirement": "python-flint==0.9.0",
+        "stderr": "",
+        "subprocess_wall_seconds": 0.2973106670251582
+      },
+      "generator_characters": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        0,
+        1,
+        2,
+        3,
+        7,
+        9,
+        10,
+        11,
+        0,
+        1
+      ],
+      "quartic_profiles": {
+        "h": {
+          "character": 4,
+          "degree": 4,
+          "support": {
+            "depends_on_every_variable": true,
+            "term_count": 189,
+            "variables": [
+              {
+                "maximum_exponent": 1,
+                "name": "f3",
+                "support_term_count": 7
+              },
+              {
+                "maximum_exponent": 1,
+                "name": "f4",
+                "support_term_count": 11
+              },
+              {
+                "maximum_exponent": 1,
+                "name": "f5",
+                "support_term_count": 17
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "f6",
+                "support_term_count": 30
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "f7",
+                "support_term_count": 44
+              },
+              {
+                "maximum_exponent": 3,
+                "name": "f8",
+                "support_term_count": 60
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "f10",
+                "support_term_count": 75
+              },
+              {
+                "maximum_exponent": 3,
+                "name": "g0",
+                "support_term_count": 64
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "g1",
+                "support_term_count": 55
+              },
+              {
+                "maximum_exponent": 3,
+                "name": "g2",
+                "support_term_count": 47
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "g3",
+                "support_term_count": 34
+              },
+              {
+                "maximum_exponent": 3,
+                "name": "g4",
+                "support_term_count": 43
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "g5",
+                "support_term_count": 31
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "g6",
+                "support_term_count": 24
+              },
+              {
+                "maximum_exponent": 1,
+                "name": "g7",
+                "support_term_count": 20
+              },
+              {
+                "maximum_exponent": 1,
+                "name": "g8",
+                "support_term_count": 13
+              },
+              {
+                "maximum_exponent": 1,
+                "name": "g9",
+                "support_term_count": 6
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "f9",
+                "support_term_count": 80
+              }
+            ]
+          }
+        },
+        "h2": {
+          "character": 3,
+          "degree": 4,
+          "support": {
+            "depends_on_every_variable": true,
+            "term_count": 211,
+            "variables": [
+              {
+                "maximum_exponent": 1,
+                "name": "f3",
+                "support_term_count": 8
+              },
+              {
+                "maximum_exponent": 1,
+                "name": "f4",
+                "support_term_count": 14
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "f5",
+                "support_term_count": 22
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "f6",
+                "support_term_count": 32
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "f7",
+                "support_term_count": 50
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "f8",
+                "support_term_count": 63
+              },
+              {
+                "maximum_exponent": 1,
+                "name": "f10",
+                "support_term_count": 65
+              },
+              {
+                "maximum_exponent": 3,
+                "name": "g0",
+                "support_term_count": 69
+              },
+              {
+                "maximum_exponent": 3,
+                "name": "g1",
+                "support_term_count": 72
+              },
+              {
+                "maximum_exponent": 3,
+                "name": "g2",
+                "support_term_count": 61
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "g3",
+                "support_term_count": 47
+              },
+              {
+                "maximum_exponent": 3,
+                "name": "g4",
+                "support_term_count": 50
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "g5",
+                "support_term_count": 44
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "g6",
+                "support_term_count": 30
+              },
+              {
+                "maximum_exponent": 1,
+                "name": "g7",
+                "support_term_count": 24
+              },
+              {
+                "maximum_exponent": 1,
+                "name": "g8",
+                "support_term_count": 17
+              },
+              {
+                "maximum_exponent": 1,
+                "name": "g9",
+                "support_term_count": 6
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "f9",
+                "support_term_count": 82
+              }
+            ]
+          }
+        },
+        "h3": {
+          "character": 2,
+          "degree": 4,
+          "support": {
+            "depends_on_every_variable": true,
+            "term_count": 248,
+            "variables": [
+              {
+                "maximum_exponent": 1,
+                "name": "f3",
+                "support_term_count": 10
+              },
+              {
+                "maximum_exponent": 1,
+                "name": "f4",
+                "support_term_count": 15
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "f5",
+                "support_term_count": 28
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "f6",
+                "support_term_count": 39
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "f7",
+                "support_term_count": 59
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "f8",
+                "support_term_count": 62
+              },
+              {
+                "maximum_exponent": 1,
+                "name": "f10",
+                "support_term_count": 65
+              },
+              {
+                "maximum_exponent": 3,
+                "name": "g0",
+                "support_term_count": 76
+              },
+              {
+                "maximum_exponent": 3,
+                "name": "g1",
+                "support_term_count": 75
+              },
+              {
+                "maximum_exponent": 3,
+                "name": "g2",
+                "support_term_count": 73
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "g3",
+                "support_term_count": 62
+              },
+              {
+                "maximum_exponent": 3,
+                "name": "g4",
+                "support_term_count": 62
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "g5",
+                "support_term_count": 55
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "g6",
+                "support_term_count": 44
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "g7",
+                "support_term_count": 34
+              },
+              {
+                "maximum_exponent": 1,
+                "name": "g8",
+                "support_term_count": 25
+              },
+              {
+                "maximum_exponent": 1,
+                "name": "g9",
+                "support_term_count": 13
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "f9",
+                "support_term_count": 80
+              }
+            ]
+          }
+        }
+      },
+      "simple_character_ladder_rejected": true
+    },
+    {
+      "characteristic": 1073742851,
+      "degree_four_character_blocks": [
+        {
+          "adjoined_quartics": [],
+          "all_matching_quartics_contribute_new_classes": true,
+          "ambient_monomial_count": 523,
+          "character": 0,
+          "cubic_multiple_rank": 32,
+          "cubic_multiple_row_count": 32,
+          "degree_four_quotient_dimension": 491,
+          "successive_augmented_ranks": [
+            32
+          ]
+        },
+        {
+          "adjoined_quartics": [],
+          "all_matching_quartics_contribute_new_classes": true,
+          "ambient_monomial_count": 486,
+          "character": 1,
+          "cubic_multiple_rank": 32,
+          "cubic_multiple_row_count": 32,
+          "degree_four_quotient_dimension": 454,
+          "successive_augmented_ranks": [
+            32
+          ]
+        },
+        {
+          "adjoined_quartics": [
+            "h3"
+          ],
+          "all_matching_quartics_contribute_new_classes": true,
+          "ambient_monomial_count": 473,
+          "character": 2,
+          "cubic_multiple_rank": 32,
+          "cubic_multiple_row_count": 32,
+          "degree_four_quotient_dimension": 441,
+          "successive_augmented_ranks": [
+            32,
+            33
+          ]
+        },
+        {
+          "adjoined_quartics": [
+            "h2"
+          ],
+          "all_matching_quartics_contribute_new_classes": true,
+          "ambient_monomial_count": 448,
+          "character": 3,
+          "cubic_multiple_rank": 28,
+          "cubic_multiple_row_count": 28,
+          "degree_four_quotient_dimension": 420,
+          "successive_augmented_ranks": [
+            28,
+            29
+          ]
+        },
+        {
+          "adjoined_quartics": [
+            "h"
+          ],
+          "all_matching_quartics_contribute_new_classes": true,
+          "ambient_monomial_count": 457,
+          "character": 4,
+          "cubic_multiple_rank": 25,
+          "cubic_multiple_row_count": 25,
+          "degree_four_quotient_dimension": 432,
+          "successive_augmented_ranks": [
+            25,
+            26
+          ]
+        },
+        {
+          "adjoined_quartics": [],
+          "all_matching_quartics_contribute_new_classes": true,
+          "ambient_monomial_count": 455,
+          "character": 5,
+          "cubic_multiple_rank": 21,
+          "cubic_multiple_row_count": 21,
+          "degree_four_quotient_dimension": 434,
+          "successive_augmented_ranks": [
+            21
+          ]
+        },
+        {
+          "adjoined_quartics": [],
+          "all_matching_quartics_contribute_new_classes": true,
+          "ambient_monomial_count": 485,
+          "character": 6,
+          "cubic_multiple_rank": 20,
+          "cubic_multiple_row_count": 20,
+          "degree_four_quotient_dimension": 465,
+          "successive_augmented_ranks": [
+            20
+          ]
+        },
+        {
+          "adjoined_quartics": [],
+          "all_matching_quartics_contribute_new_classes": true,
+          "ambient_monomial_count": 500,
+          "character": 7,
+          "cubic_multiple_rank": 19,
+          "cubic_multiple_row_count": 19,
+          "degree_four_quotient_dimension": 481,
+          "successive_augmented_ranks": [
+            19
+          ]
+        },
+        {
+          "adjoined_quartics": [],
+          "all_matching_quartics_contribute_new_classes": true,
+          "ambient_monomial_count": 535,
+          "character": 8,
+          "cubic_multiple_rank": 21,
+          "cubic_multiple_row_count": 21,
+          "degree_four_quotient_dimension": 514,
+          "successive_augmented_ranks": [
+            21
+          ]
+        },
+        {
+          "adjoined_quartics": [],
+          "all_matching_quartics_contribute_new_classes": true,
+          "ambient_monomial_count": 539,
+          "character": 9,
+          "cubic_multiple_rank": 22,
+          "cubic_multiple_row_count": 22,
+          "degree_four_quotient_dimension": 517,
+          "successive_augmented_ranks": [
+            22
+          ]
+        },
+        {
+          "adjoined_quartics": [],
+          "all_matching_quartics_contribute_new_classes": true,
+          "ambient_monomial_count": 552,
+          "character": 10,
+          "cubic_multiple_rank": 26,
+          "cubic_multiple_row_count": 26,
+          "degree_four_quotient_dimension": 526,
+          "successive_augmented_ranks": [
+            26
+          ]
+        },
+        {
+          "adjoined_quartics": [],
+          "all_matching_quartics_contribute_new_classes": true,
+          "ambient_monomial_count": 532,
+          "character": 11,
+          "cubic_multiple_rank": 28,
+          "cubic_multiple_row_count": 28,
+          "degree_four_quotient_dimension": 504,
+          "successive_augmented_ranks": [
+            28
+          ]
+        }
+      ],
+      "differential_orbit_tests": {
+        "combined_earlier_orbits_to_h3": {
+          "h3_in_joint_span_mod_cubic_degree_four_piece": false,
+          "quotient_rank_contributed_by_both_families": 73,
+          "rank_with_both_transform_families": 105
+        },
+        "h2_to_h3": {
+          "base_cubic_rank": 32,
+          "character_shift": 11,
+          "descriptor_stream_sha256": "a88508eaed23fab32cb4731720c1bb3012dfde1e4800736ba2982d652d900b3a",
+          "family": "all character-compatible degree-preserving x_a*d/dx_b transforms",
+          "quotient_rank_contributed_by_transform_family": 39,
+          "rank_with_transform_family": 71,
+          "single_transform_hit_count": 0,
+          "single_transform_hits": [],
+          "source": "h2",
+          "source_character": 3,
+          "target": "h3",
+          "target_character": 2,
+          "target_in_joint_span_mod_cubic_degree_four_piece": false,
+          "transform_count": 39
+        },
+        "h_to_h2": {
+          "base_cubic_rank": 28,
+          "character_shift": 11,
+          "descriptor_stream_sha256": "283f7a38e2f16d41a4d3a7c79fbf8bfcaa86457059e4de1c53ab2141331be3e3",
+          "family": "all character-compatible degree-preserving x_a*d/dx_b transforms",
+          "quotient_rank_contributed_by_transform_family": 39,
+          "rank_with_transform_family": 67,
+          "single_transform_hit_count": 0,
+          "single_transform_hits": [],
+          "source": "h",
+          "source_character": 4,
+          "target": "h2",
+          "target_character": 3,
+          "target_in_joint_span_mod_cubic_degree_four_piece": false,
+          "transform_count": 39
+        },
+        "h_to_h3": {
+          "base_cubic_rank": 32,
+          "character_shift": 10,
+          "descriptor_stream_sha256": "1b964b61a84e739d3be5eba393aff8eefcc701740f8d4b7a2520123355449878",
+          "family": "all character-compatible degree-preserving x_a*d/dx_b transforms",
+          "quotient_rank_contributed_by_transform_family": 34,
+          "rank_with_transform_family": 66,
+          "single_transform_hit_count": 0,
+          "single_transform_hits": [],
+          "source": "h",
+          "source_character": 4,
+          "target": "h3",
+          "target_character": 2,
+          "target_in_joint_span_mod_cubic_degree_four_piece": false,
+          "transform_count": 34
+        }
+      },
+      "factorization_and_gcd": {
+        "all_three_irreducible_quartics": true,
+        "all_three_pairs_coprime": true,
+        "factors": {
+          "h": {
+            "factor_count": 1,
+            "factors": [
+              {
+                "multiplicity": 1,
+                "term_count": 189,
+                "total_degree": 4
+              }
+            ],
+            "squarefree_from_factor_multiplicities": true,
+            "unit": 3024,
+            "wall_seconds": 0.0009091670217458159
+          },
+          "h2": {
+            "factor_count": 1,
+            "factors": [
+              {
+                "multiplicity": 1,
+                "term_count": 211,
+                "total_degree": 4
+              }
+            ],
+            "squarefree_from_factor_multiplicities": true,
+            "unit": 648,
+            "wall_seconds": 0.0010127919958904386
+          },
+          "h3": {
+            "factor_count": 1,
+            "factors": [
+              {
+                "multiplicity": 1,
+                "term_count": 248,
+                "total_degree": 4
+              }
+            ],
+            "squarefree_from_factor_multiplicities": true,
+            "unit": 4284,
+            "wall_seconds": 0.0008641249733045697
+          }
+        },
+        "flint_version": "3.6.0",
+        "pairwise_gcds": {
+          "h,h2": {
+            "is_unit": true,
+            "term_count": 1,
+            "total_degree": 0,
+            "wall_seconds": 0.00012312500621192157
+          },
+          "h,h3": {
+            "is_unit": true,
+            "term_count": 1,
+            "total_degree": 0,
+            "wall_seconds": 0.00012429201160557568
+          },
+          "h2,h3": {
+            "is_unit": true,
+            "term_count": 1,
+            "total_degree": 0,
+            "wall_seconds": 0.00013241698616184294
+          }
+        },
+        "python_flint_version": "0.9.0",
+        "requirement": "python-flint==0.9.0",
+        "stderr": "",
+        "subprocess_wall_seconds": 0.1509443749964703
+      },
+      "generator_characters": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        0,
+        1,
+        2,
+        3,
+        7,
+        9,
+        10,
+        11,
+        0,
+        1
+      ],
+      "quartic_profiles": {
+        "h": {
+          "character": 4,
+          "degree": 4,
+          "support": {
+            "depends_on_every_variable": true,
+            "term_count": 189,
+            "variables": [
+              {
+                "maximum_exponent": 1,
+                "name": "f3",
+                "support_term_count": 7
+              },
+              {
+                "maximum_exponent": 1,
+                "name": "f4",
+                "support_term_count": 11
+              },
+              {
+                "maximum_exponent": 1,
+                "name": "f5",
+                "support_term_count": 17
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "f6",
+                "support_term_count": 30
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "f7",
+                "support_term_count": 44
+              },
+              {
+                "maximum_exponent": 3,
+                "name": "f8",
+                "support_term_count": 60
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "f10",
+                "support_term_count": 75
+              },
+              {
+                "maximum_exponent": 3,
+                "name": "g0",
+                "support_term_count": 64
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "g1",
+                "support_term_count": 55
+              },
+              {
+                "maximum_exponent": 3,
+                "name": "g2",
+                "support_term_count": 47
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "g3",
+                "support_term_count": 34
+              },
+              {
+                "maximum_exponent": 3,
+                "name": "g4",
+                "support_term_count": 43
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "g5",
+                "support_term_count": 31
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "g6",
+                "support_term_count": 24
+              },
+              {
+                "maximum_exponent": 1,
+                "name": "g7",
+                "support_term_count": 20
+              },
+              {
+                "maximum_exponent": 1,
+                "name": "g8",
+                "support_term_count": 13
+              },
+              {
+                "maximum_exponent": 1,
+                "name": "g9",
+                "support_term_count": 6
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "f9",
+                "support_term_count": 80
+              }
+            ]
+          }
+        },
+        "h2": {
+          "character": 3,
+          "degree": 4,
+          "support": {
+            "depends_on_every_variable": true,
+            "term_count": 211,
+            "variables": [
+              {
+                "maximum_exponent": 1,
+                "name": "f3",
+                "support_term_count": 8
+              },
+              {
+                "maximum_exponent": 1,
+                "name": "f4",
+                "support_term_count": 14
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "f5",
+                "support_term_count": 22
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "f6",
+                "support_term_count": 32
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "f7",
+                "support_term_count": 50
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "f8",
+                "support_term_count": 63
+              },
+              {
+                "maximum_exponent": 1,
+                "name": "f10",
+                "support_term_count": 65
+              },
+              {
+                "maximum_exponent": 3,
+                "name": "g0",
+                "support_term_count": 69
+              },
+              {
+                "maximum_exponent": 3,
+                "name": "g1",
+                "support_term_count": 72
+              },
+              {
+                "maximum_exponent": 3,
+                "name": "g2",
+                "support_term_count": 61
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "g3",
+                "support_term_count": 47
+              },
+              {
+                "maximum_exponent": 3,
+                "name": "g4",
+                "support_term_count": 50
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "g5",
+                "support_term_count": 44
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "g6",
+                "support_term_count": 30
+              },
+              {
+                "maximum_exponent": 1,
+                "name": "g7",
+                "support_term_count": 24
+              },
+              {
+                "maximum_exponent": 1,
+                "name": "g8",
+                "support_term_count": 17
+              },
+              {
+                "maximum_exponent": 1,
+                "name": "g9",
+                "support_term_count": 6
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "f9",
+                "support_term_count": 82
+              }
+            ]
+          }
+        },
+        "h3": {
+          "character": 2,
+          "degree": 4,
+          "support": {
+            "depends_on_every_variable": true,
+            "term_count": 248,
+            "variables": [
+              {
+                "maximum_exponent": 1,
+                "name": "f3",
+                "support_term_count": 10
+              },
+              {
+                "maximum_exponent": 1,
+                "name": "f4",
+                "support_term_count": 15
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "f5",
+                "support_term_count": 28
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "f6",
+                "support_term_count": 39
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "f7",
+                "support_term_count": 59
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "f8",
+                "support_term_count": 62
+              },
+              {
+                "maximum_exponent": 1,
+                "name": "f10",
+                "support_term_count": 65
+              },
+              {
+                "maximum_exponent": 3,
+                "name": "g0",
+                "support_term_count": 76
+              },
+              {
+                "maximum_exponent": 3,
+                "name": "g1",
+                "support_term_count": 75
+              },
+              {
+                "maximum_exponent": 3,
+                "name": "g2",
+                "support_term_count": 73
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "g3",
+                "support_term_count": 62
+              },
+              {
+                "maximum_exponent": 3,
+                "name": "g4",
+                "support_term_count": 62
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "g5",
+                "support_term_count": 55
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "g6",
+                "support_term_count": 44
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "g7",
+                "support_term_count": 34
+              },
+              {
+                "maximum_exponent": 1,
+                "name": "g8",
+                "support_term_count": 25
+              },
+              {
+                "maximum_exponent": 1,
+                "name": "g9",
+                "support_term_count": 13
+              },
+              {
+                "maximum_exponent": 2,
+                "name": "f9",
+                "support_term_count": 80
+              }
+            ]
+          }
+        }
+      },
+      "simple_character_ladder_rejected": true
+    }
+  ],
+  "normal_equation_stream_sha256": "ecc10203dd30d6e2bc606d96ac129984c5039dcd5627d767d3ef1a799fccce35",
+  "open_factor_sha256": "1e04fada0675e1638fcdf8801bc5e3177b8016e4c10052fd88adf85d6101a884",
+  "quartic_artifacts": {
+    "h": {
+      "character": 4,
+      "path": "artifacts/j2-secant-r10-first-colon-kernel-qq.json",
+      "primitive_integer_content": 1,
+      "rational_to_primitive_scale": {
+        "denominator": "1",
+        "numerator": "3024"
+      },
+      "sha256": "2c6b84ad400634a0f54aa54c3ebfb49b6ae3453240335713f07681fa5773d130",
+      "term_count": 189
+    },
+    "h2": {
+      "character": 3,
+      "path": "artifacts/j2-secant-r10-second-colon-kernel-qq-candidate.json",
+      "primitive_integer_content": 1,
+      "rational_to_primitive_scale": {
+        "denominator": "1",
+        "numerator": "648"
+      },
+      "sha256": "c41e7c02e7163a0f1a2e71cd7fd5f0d38167b37f3f832019fa069c0ffd2bf37e",
+      "term_count": 211
+    },
+    "h3": {
+      "character": 2,
+      "path": "artifacts/j2-secant-r10-third-colon-kernel-qq-candidate.json",
+      "primitive_integer_content": 1,
+      "rational_to_primitive_scale": {
+        "denominator": "1",
+        "numerator": "4284"
+      },
+      "sha256": "b7f37502a3b4a11739fe4e1e47746af68b2a8cc66cb18302bfe729927ed65b97",
+      "term_count": 248
+    }
+  },
+  "quartic_character_sequence": [
+    4,
+    3,
+    2
+  ],
+  "schema": "hc4.decimic-j2-secant-r10-third-colon-structure-audit.v1",
+  "script": {
+    "path": "scripts/audit_j2_secant_r10_third_colon_structure.py",
+    "sha256": "76580a095ab2ba3705ec3cdbd0e740fbf1124e368b973aa33abb4745e4413a1c"
+  },
+  "status": "PASS_TWO_PRIME_THIRD_COLON_STRUCTURALLY_NEW",
+  "variable_names": [
+    "f3",
+    "f4",
+    "f5",
+    "f6",
+    "f7",
+    "f8",
+    "f10",
+    "g0",
+    "g1",
+    "g2",
+    "g3",
+    "g4",
+    "g5",
+    "g6",
+    "g7",
+    "g8",
+    "g9",
+    "f9"
+  ],
+  "wall_seconds": 18.89650954102399
+}

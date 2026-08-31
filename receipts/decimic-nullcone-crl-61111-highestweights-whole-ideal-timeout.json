@@ -1,0 +1,20 @@
+{
+  "schema": "decimic-nullcone-highestweights-route-timeout-v1",
+  "status": "TIMEOUT_NO_DECOMPOSITION",
+  "date": "2026-08-30",
+  "target": "whole degree-two through degree-four ideal components and the degree-four lower-generated subideal",
+  "software": {
+    "Macaulay2": "1.26.06",
+    "packages": ["CoincidentRootLoci", "HighestWeights"]
+  },
+  "precommitted_decision_cap_seconds": 300,
+  "observed_wall_at_interrupt_seconds": 348.13,
+  "user_cpu_seconds": 651.50,
+  "system_cpu_seconds": 29.78,
+  "maximum_resident_set_size_bytes": 4733190144,
+  "peak_memory_footprint_bytes": 4817063800,
+  "termination_signal": "INT",
+  "output_decomposition_emitted": false,
+  "replacement_route": "read the torus weight of each of the 31 minimal generators and decompose those finite weight lists",
+  "claim_boundary": "This rejects only whole-component decomposition at the frozen resource cap. It says nothing about the mathematical representation decomposition or nullcone containment."
+}

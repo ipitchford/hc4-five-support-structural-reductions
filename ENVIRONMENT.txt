@@ -1,0 +1,16 @@
+Preparation environment (2026-08-31, Europe/London)
+macOS arm64
+SageMath 10.9
+SymPy 1.14.0
+LinBox 1.7.1
+Macaulay2 1.26.06
+Singular 4.4.1
+Apple clang 21
+Git 2.50.1
+Pandoc with citeproc
+pdfTeX 1.40.29
+
+The fast verifier uses only Python's standard library. The semantic C16 replay
+uses SageMath and SymPy. The full modular section solve uses LinBox and a C++17
+compiler.
+

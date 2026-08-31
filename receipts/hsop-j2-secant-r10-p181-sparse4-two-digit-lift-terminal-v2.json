@@ -1,0 +1,68 @@
+{
+  "claim_boundary": "A two-digit PASS is finite p-adic evidence for four fixed canonical residual sections. It is not a general QQ identity, colon, saturation, secant, nullcone, or HC4 theorem.",
+  "implementation_freeze": {
+    "path": "receipts/hsop-j2-secant-r10-p181-sparse4-two-digit-lift-implementation-freeze-v2.json",
+    "sha256": "a6a160d0515205f1a458acec9ae370fe0ff0501ab40cd9693390a6cf84e8db13"
+  },
+  "producer_status": "PASS_P181_SPARSE4_TWO_DIGIT_LIFT",
+  "promoted": {
+    "artifact": {
+      "builder.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "builder.stdout.txt": "d253615af99906e7581148b8b0e10fe1ee82280df26e985ef11d3d5aaf0430ca",
+      "integral/A_Z_b4_Z_coefficient_primitive.i64csr": "94dc88f592c4a41630ae51f04fffe8f6b64d696dace5a14e49e46392d159be3e",
+      "integral/A_mod181_coefficient_primitive.csr": "2207744adde8f96a7d835fc078ffd188ce33814f2db880e1aef9b8a47b09a6ef",
+      "integral/digit_00_sparse4_row_major.u8": "51c818f61ab52abacb62deedd1abe336d99646d9b52f28384491af5694aa5e38",
+      "integral/integral-system.json": "aad83c9bc76d8bd062c97434ce074bb9205e222d2c5f64409ec412b964a634b9",
+      "lift.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "lift.stdout.txt": "51aed4b96e8f7417f8ec254e4242a26148309a9834a5c23782057f0c84514bb2",
+      "lift/X_mod_181_power_2_sparse4_row_major.u16le": "afa8fe484bc8a5bbb6c97b506b5678dc7e3179e5aeb8fb105a89d37efd81711c",
+      "lift/correction_rhs_digit_01_padded114.u8": "55691aae1e0ad887bde40dc4b26bc455973a87098538c30dc31ce2ef3cb46c8e",
+      "lift/digit_01_padded114.u8": "fa0d94845eb0dc3cfad9c0c9af72c9406f0dcdf48e4eaaff1a6cb2cdf5db946a",
+      "lift/digit_01_sparse4_row_major.u8": "0ab13cd9cd70cd424af089176d86007c224b101db47bd6fac83960e8ce941fb8",
+      "lift/driver.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "lift/driver.stdout.txt": "aa7d86751f0be7119336e748e98cca51c00bbcd3e180e3d6f7c12aa3958d2cff",
+      "lift/lift.json": "e37eb0adcf9516e6e9ffb9bf15d190b95d538237fbd6d5e8e2ca7a77835e7770",
+      "lift/rr_labels_digit_02_column_major.u8": "ddea534f08289d73a84ee2d1b7f505b757d0120b08ef7b7b01225df18072c331",
+      "producer.json": "31572f087434cc0873c2a622d758933b1ec3e4c5ebbd0b7e43eb0a31a6e016e1"
+    },
+    "telemetry": {
+      "benchmark.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "benchmark.stdout.txt": "b72637b3f348d94ca0d9bb3e39dcb81623f2b5552f1a066c304281e585628edb",
+      "benchmark.time.txt": "ffefd5e3ded0ae8eaa059f776d52da2431e14766e08b84a0ab8adaf2fcd2bc5a"
+    }
+  },
+  "schema": "hc4.third-colon-p181-sparse4-two-digit-lift-terminal.v2",
+  "status": "PASS_P181_SPARSE4_TWO_DIGIT_LIFT",
+  "telemetry": {
+    "ancestry_samples": 277,
+    "command": [
+      "/usr/bin/time",
+      "-l",
+      "-o",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-sparse4-two-digit-v2-telemetry-20260831T002/benchmark.time.txt",
+      "/opt/homebrew/bin/gtimeout",
+      "-s",
+      "TERM",
+      "-k",
+      "10s",
+      "600s",
+      "/usr/bin/python3",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/scripts/produce_p181_sparse4_two_digit_lift_v2.py",
+      "--output-dir",
+      "/Users/admin/Documents/Codex/2026-08-24/lo/work/postrelease/hc4-double-conic-five-support-campaign-2026-08-29/artifacts/staging/p181-sparse4-two-digit-v2-20260831T002"
+    ],
+    "external_time": {
+      "maximum_rss_bytes": 319078400,
+      "process_swaps": 0,
+      "raw_sha256": "ffefd5e3ded0ae8eaa059f776d52da2431e14766e08b84a0ab8adaf2fcd2bc5a",
+      "real_seconds": 82.43,
+      "system_seconds": 1.25,
+      "user_seconds": 71.05
+    },
+    "return_code": 0,
+    "rss_breach_killed": false,
+    "sampled_descendant_rss_peak_bytes": 324993024,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "b72637b3f348d94ca0d9bb3e39dcb81623f2b5552f1a066c304281e585628edb"
+  }
+}

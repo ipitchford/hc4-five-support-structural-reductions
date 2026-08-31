@@ -1,0 +1,33 @@
+{
+  "schema": "hc4.third-colon-p181-support18-six-digit-recovery-implementation-freeze.v2",
+  "status": "PASS_P181_SUPPORT18_SIX_DIGIT_RECOVERY_FREEZE_V2",
+  "bound_files": {
+    "research/THIRD_COLON_P181_SUPPORT18_SIX_DIGIT_EXTENSION_AMENDMENT_01.md": "b112969838e24064dd7b760cd04a3b28c3fdd5e15b20db76c141fc20698a87d2",
+    "scripts/recover_p181_support18_six_digit_extension_v2.py": "5069f2dfc230041cb32ee4d3d12eec94fee7e4c75807d34b75957f004c3d50e4",
+    "scripts/run_p181_support18_six_digit_recovery_gated_v2.py": "51393792bb603b7c9d54981c4e010e361bb9e551eb3087b9acb83a59be260441",
+    "scripts/lift_p181_sparse4_to_two_digits.py": "c4c0fa3442bbd94181f60311820eef3ac14ae285f28ea7d730d1cf8e87acda65",
+    "scripts/run_p181_target_blind_linbox_rank_gated.py": "a282b31bca01c972ff5d294b64ddca103d2ea6c1c6bab8f6f12ddc7b800b83de",
+    "receipts/hsop-j2-secant-r10-p181-support18-six-digit-extension-terminal.json": "973691595d673d37494e87775f074ff5c18022c4657201d8ca2c143aa4d6d194",
+    "artifacts/third-colon-p181-support18-two-digit-lift-v1/integral/A_Z_b4_Z_coefficient_primitive.i64csr": "2524b706b88278187924f103245ddfd999ce2f21e2c848058fc723498c4682e1",
+    "artifacts/third-colon-p181-support18-four-digit-extension-v1/X_mod_181_power_4_sparse4_row_major.u32le": "f60e1a8365b53840fafdb910a746ab4e749b3f2a0d402c6bcdb99cbc8ebd6b71",
+    "artifacts/third-colon-p181-support18-six-digit-extension-v1/correction_rhs_digit_04_padded114.u8": "baca5a8bb31514989af9008b3f89aaaee079265d2eed978075e9d3273fac253d",
+    "artifacts/third-colon-p181-support18-six-digit-extension-v1/digit_04_padded114.u8": "542887bdf74616464fcfb5f112096daa75fd57f681edfbb01c1bb2ef7b48226e",
+    "artifacts/third-colon-p181-support18-six-digit-extension-v1/digit_04_support18_row_major.u8": "49e37de6914ce5e767e541316a40ca75093d6d1d9768d1c214903f545aaa0472",
+    "artifacts/third-colon-p181-support18-six-digit-extension-v1/correction_rhs_digit_05_padded114.u8": "f6fd4cf456538c62e7b65d58762036ae02a45a091327b46b971deafe141a1e06",
+    "artifacts/third-colon-p181-support18-six-digit-extension-v1/digit_05_padded114.u8": "55d90a5b9ed470aee9a0ef0240a9ed3150b2dde50203ebe83ab2508883399d9f",
+    "artifacts/third-colon-p181-support18-six-digit-extension-v1/digit_05_support18_row_major.u8": "7ac87d6ef4adf15ee816c9f276f9d340bcb34cee3e70d55343eab29e7f3b78db"
+  },
+  "policy": {
+    "wall_seconds_maximum": 300,
+    "rss_bytes_maximum": 1500000000,
+    "process_swaps_maximum": 0,
+    "solver_execution_forbidden": true,
+    "amendment_scope": "correct terminal modulus literal and replay retained digits"
+  },
+  "canonical_outputs": {
+    "artifact": "artifacts/third-colon-p181-support18-six-digit-extension-v2",
+    "telemetry": "receipts/telemetry/third-colon-p181-support18-six-digit-extension-v2",
+    "terminal": "receipts/hsop-j2-secant-r10-p181-support18-six-digit-extension-terminal-v2.json"
+  },
+  "claim_boundary": "A PASS recovers only the finite p6 lift from retained digits. It does not prove a rational lift, target identity, colon, saturation, secant closure, nullcone containment, or HC4."
+}
