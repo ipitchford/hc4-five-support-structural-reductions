@@ -1,0 +1,9 @@
+{
+  "schema": "evidence-press/upstream-source/v1",
+  "repository": "https://github.com/royvanrijn/jacobian-research.git",
+  "commit": "3ed4544e8bbd9f2345c43612d1f3cf94fe279dc9",
+  "role": "Pinned normal-layer source used by the reconstruction bridge",
+  "endorsement": false,
+  "licensing_note": "The upstream repository retains its existing terms and is not relicensed by this release."
+}
+

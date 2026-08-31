@@ -13,7 +13,7 @@
       "id": "C2",
       "claim": "All 31 generators of the binary-decimic multiplicity-six locus lie in the radical of the frozen tangent normal-layer ideal.",
       "status": "computer_assisted_exact_characteristic_zero_certificate",
-      "evidence": ["TANGENT_NULLCONE_ALL_GENERATORS_CERTIFICATE.md", "receipts/decimic-nullcone-crl-61111-macaulay2-exact.json", "paper.pdf"],
+      "evidence": ["TANGENT_NULLCONE_ALL_GENERATORS_CERTIFICATE.md", "receipts/nullcone-tangent-all-31-generators.json", "paper.pdf"],
       "scope_limit": "Tangent residual-quadratic orbit only; no transfer to the secant orbit is claimed."
     },
     {
@@ -32,10 +32,23 @@
     },
     {
       "id": "C5",
+      "claim": "The frozen third-colon source matrix contains 2,053 exact rational Koszul syzygies that are independent over Q, and the recorded 114-dimensional residual chart reconstructs and replays exactly over Q.",
+      "status": "exact_rational_syzygies_and_reconstruction",
+      "evidence": ["receipts/hsop-j2-secant-r10-third-colon-koszul-syzygy-scout.json", "receipts/hsop-j2-secant-r10-third-colon-koszul-syzygy-scout-independent-audit.json", "receipts/hsop-j2-secant-r10-residual-114-p181-72digit-terminal.json", "receipts/hsop-j2-secant-r10-residual-114-p181-72digit-independent-audit.json", "paper.pdf"],
+      "scope_limit": "A source-kernel decomposition does not imply target membership or secant closure."
+    },
+    {
+      "id": "C6",
+      "claim": "The fixed-gauge fourth target has a congruence lift through 173^96, but the frozen equal-height rational reconstruction leaves 8,579 coordinates unresolved and the preregistered recovery routes do not produce an exact rational target identity.",
+      "status": "certified_modular_lift_with_fail_closed_rational_recovery",
+      "evidence": ["receipts/hsop-j2-secant-r10-fourth-colon-p173-96digit-extension-independent-audit.json", "receipts/hsop-j2-secant-r10-fourth-colon-p173-p96-exact-recovery-implementation-freeze.json", "receipts/hsop-j2-secant-r10-fourth-colon-p173-stable-denominator-recovery-implementation-freeze.json", "receipts/hsop-j2-secant-r10-fourth-colon-p173-simultaneous-denominator-lll-implementation-freeze.json", "RESEARCH_METRICS.md", "paper.pdf"],
+      "scope_limit": "The failed recovery architectures are not evidence of non-membership."
+    },
+    {
+      "id": "C7",
       "claim": "The bundled release does not solve HC4 or JC2 and leaves the secant-orbit closure and fourth-target gates open.",
       "status": "explicit_claim_boundary",
       "evidence": ["paper.pdf", "ASSURANCE.md", "CLAIM_LEDGER.json"]
     }
   ]
 }
-

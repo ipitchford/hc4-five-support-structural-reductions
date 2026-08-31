@@ -58,7 +58,8 @@ interact.
 
 This paper reports a structural-reductions campaign inside one such
 dimension-four programme.  The starting point is a pinned normal-layer
-construction in Roy van Rijn's public repository at commit
+construction in Roy van Rijn's public repository
+(<https://github.com/royvanrijn/jacobian-research>) at commit
 `3ed4544e8bbd9f2345c43612d1f3cf94fe279dc9`.  The present package separately
 reconstructs the relevant covariant normal layers, then subjects the resulting
 systems to exact algebraic tests.  Source reconstruction and new claims are
@@ -312,7 +313,9 @@ $$
 The proofs use branch-complete radical chains, endpoint staircases and
 fixed-content identities.  Whenever a pivot factor is inverted, its zero fibre
 is treated as a separate branch.  No exceptional component is removed without
-a receipt.  Since (3.2) is exhaustive, (3.4) proves Theorem A.
+a receipt.  Since (3.2) is exhaustive, (3.4) proves Theorem A over
+$\mathbb Q$; the displayed rational identities and radical containments then
+persist after base change to any characteristic-zero field.
 
 The divisor $\Delta=0$ merges roots and therefore belongs to support at most
 four.  The package records this geometric boundary separately.  A further

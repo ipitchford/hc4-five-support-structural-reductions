@@ -57,7 +57,24 @@ def verify_manifest() -> None:
 def verify_core() -> None:
     claims = load("CLAIMS.json")
     require(claims.get("schema") == "evidence-press/claims/v1", "claim schema drift")
-    require([claim.get("id") for claim in claims.get("claims", [])] == ["C1", "C2", "C3", "C4", "C5"], "claim IDs drift")
+    require([claim.get("id") for claim in claims.get("claims", [])] == ["C1", "C2", "C3", "C4", "C5", "C6", "C7"], "claim IDs drift")
+
+    required_statuses = {
+        "receipts/five-support-theorem-audit.json": "PASS",
+        "receipts/nullcone-tangent-all-31-generators.json": "PASS_EXACT_TANGENT_ALL_31_GENERATORS_RADICAL_CONTAINMENT",
+        "receipts/hsop-j2-secant-r10-colon-identity-qq-reconstruction.json": "PASS_EXACT_QQ_COLON_IDENTITY",
+        "receipts/hsop-j2-secant-r10-second-colon-identity-qq-reconstruction.json": "PASS_EXACT_QQ_SECOND_COLON_IDENTITY",
+        "receipts/hsop-j2-secant-r10-p181-target-exact-polynomial-identity-audit.json": "PASS_INDEPENDENT_P181_TARGET_EXACT_POLYNOMIAL_IDENTITY",
+        "receipts/hsop-j2-secant-r10-third-colon-koszul-syzygy-scout.json": "PASS_EXACT_2053_KOSZUL_SYZYGIES_INDEPENDENT_OVER_QQ",
+        "receipts/hsop-j2-secant-r10-residual-114-p181-72digit-terminal.json": "PASS_P181_72DIGIT_EXACT_RESIDUAL_114_RATIONAL_CHART",
+        "receipts/hsop-j2-secant-r10-fourth-colon-p173-96digit-extension-independent-audit.json": "PASS_INDEPENDENT_P173_FOURTH_COLON_96DIGIT_LIFT_REPLAY",
+    }
+    for relative, expected in required_statuses.items():
+        require(load(relative).get("status") == expected, f"status drift: {relative}")
+
+    source = load("UPSTREAM_SOURCE.json")
+    require(source.get("repository") == "https://github.com/royvanrijn/jacobian-research.git", "upstream repository drift")
+    require(source.get("commit") == "3ed4544e8bbd9f2345c43612d1f3cf94fe279dc9", "upstream commit drift")
 
     terminal_path = "receipts/hsop-j2-secant-r10-fourth-colon-c16-kernel-batch-terminal.json"
     terminal = load(terminal_path)
